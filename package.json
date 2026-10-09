@@ -1,0 +1,39 @@
+{
+  "name": "ai-edits",
+  "private": true,
+  "type": "module",
+  "description": "Claude Code driven video editing pipeline: raw footage -> clean cut -> motion graphics -> SFX -> captions -> BGM",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "inbox": "node tools/inbox.mjs",
+    "new": "node tools/new-project.mjs",
+    "transcribe": "node tools/transcribe.mjs",
+    "cut": "node tools/cut.mjs",
+    "retime": "node tools/retime.mjs",
+    "visuals": "node tools/render-visuals.mjs",
+    "scaffold": "node tools/scaffold-edit.mjs",
+    "captions": "node tools/captions.mjs",
+    "broll": "node tools/broll.mjs",
+    "news": "node tools/news.mjs",
+    "bgm": "node tools/bgm.mjs",
+    "sfx": "node tools/sfx.mjs",
+    "mix": "node tools/mix.mjs",
+    "finalize": "node tools/finalize.mjs",
+    "verify": "node tools/verify.mjs",
+    "thumbnail": "node tools/thumbnail.mjs",
+    "status": "node tools/status.mjs",
+    "join": "node tools/join.mjs",
+    "gallery": "cd remotion && node scripts/gallery.mjs",
+    "shorts:transcribe": "cd AI-clipper && python pipeline/transcribe.py",
+    "shorts:prepare": "cd AI-clipper && python pipeline/prepare.py",
+    "shorts:render": "cd AI-clipper && node scripts/render.mjs"
+  },
+  "devDependencies": {
+    "@fontsource/noto-sans-devanagari": "^5.2.0",
+    "@fontsource/noto-sans-telugu": "^5.2.0",
+    "@fontsource/poppins": "^5.2.0",
+    "puppeteer-core": "^25.12.0"
+  }
+}

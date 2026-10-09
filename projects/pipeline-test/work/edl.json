@@ -1,0 +1,21 @@
+﻿{
+    "remove":  [
+                   {
+                       "words":  "w6-w12",
+                       "reason":  "false start; full retake at L003"
+                   },
+                   {
+                       "words":  "w23",
+                       "reason":  "filler (um)"
+                   },
+                   {
+                       "words":  "w24-w25",
+                       "reason":  "stutter repeat of \u0027this is\u0027"
+                   }
+               ],
+    "keepPauseMax":  0.35,
+    "edgePad":  0.08,
+    "textFixes":  {
+                      "w26":  "This"
+                  }
+}

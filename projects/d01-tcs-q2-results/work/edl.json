@@ -1,0 +1,18 @@
+{
+  "remove": [],
+  "keepPauseMax": 0.4,
+  "edgePad": 0.08,
+  "textFixes": { "w340": "twelve", "w382": "higher", "w644": "fifteenth" },
+  "holds": [
+    { "after": "w41", "max": 0.5, "reason": "beat after '…matter much more to you than profit.'" },
+    { "after": "w184", "max": 0.45, "reason": "beat after 'It was a steady quarter,'" }
+  ],
+  "gaps": [
+    { "after": "w87", "seconds": 0.5, "reason": "intro splice after the hook ('…joining letters this month.')" },
+    { "after": "w221", "seconds": 0.7, "reason": "beat before chapter: number one, headcount" },
+    { "after": "w324", "seconds": 0.7, "reason": "beat before chapter: number two, attrition" },
+    { "after": "w418", "seconds": 0.7, "reason": "beat before chapter: number three, hiring" },
+    { "after": "w598", "seconds": 0.7, "reason": "beat before chapter: joining letters" },
+    { "after": "w744", "seconds": 0.6, "reason": "beat before the wrap-up" }
+  ]
+}

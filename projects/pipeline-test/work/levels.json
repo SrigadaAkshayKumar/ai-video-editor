@@ -1,0 +1,35 @@
+{
+  "narration": {
+    "mean": -24.3,
+    "peak": -3.6
+  },
+  "music": {
+    "assets/music/upbeat-bed.mp3": {
+      "gain": 0.15135612484362082,
+      "conditionedMean": -16.9
+    }
+  },
+  "sfx": {
+    "sub_drop": {
+      "gain": 0.023757421557159188,
+      "limitedBy": "transient-floor",
+      "trimDb": -5.2,
+      "band": "sub",
+      "seconds": 0.4
+    },
+    "impact": {
+      "gain": 0.024894655345649577,
+      "limitedBy": "transient-floor",
+      "trimDb": -4.7,
+      "band": "sub",
+      "seconds": 0.37
+    },
+    "pop": {
+      "gain": 0.8317637711026709,
+      "limitedBy": "transient-floor",
+      "trimDb": 0,
+      "band": "vocal",
+      "seconds": 0.14
+    }
+  }
+}

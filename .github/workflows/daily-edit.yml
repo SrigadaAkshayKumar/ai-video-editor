@@ -1,0 +1,186 @@
+# Unattended daily edit: Google Drive inbox → Claude Code edits the next episode (daily-run skill) → verify →
+# Shorts (AI-clipper) → Google Drive output. Media never touches git; only the edit's decision files are committed.
+# One-time setup (secrets, Drive layout, schedule): docs/cloud-setup.md
+name: Daily edit
+
+on:
+  schedule:
+    - cron: "30 0 * * *" # 00:30 UTC = 06:00 IST, every day
+  workflow_dispatch:
+    inputs:
+      episode:
+        description: "Episode folder to edit, e.g. d03 (empty = the next one with a voiceover)"
+        required: false
+      brief:
+        description: "Style words for this run (empty = brief.txt in the episode folder, else config/daily.json)"
+        required: false
+
+concurrency:
+  group: daily-edit
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  edit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      DRIVE: gdrive:${{ vars.DRIVE_ROOT || 'AI-edits' }}
+      # 2 vCPU / 7 GB runner: fewer Chrome tabs, lower RAM wait threshold than the laptop defaults
+      REMOTION_CONCURRENCY: "2"
+      RENDER_MIN_FREE_GB: "1.5"
+      HYPERFRAMES_WORKERS: "1"
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: System packages + rclone
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y -q ffmpeg fonts-noto-core fonts-noto-color-emoji cmake
+          curl -fsSL https://rclone.org/install.sh | sudo bash
+
+      - name: Google Drive login
+        env:
+          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
+        run: |
+          test -n "$RCLONE_CONF" || { echo "::error::secret RCLONE_CONF is missing (docs/cloud-setup.md)"; exit 1; }
+          mkdir -p ~/.config/rclone
+          printf '%s\n' "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
+
+      - name: Pull the inbox from Drive
+        run: rclone copy "$DRIVE/inbox" inbox --exclude "README.md" -v
+
+      - name: Pick the episode
+        id: pick
+        env:
+          EPISODE: ${{ inputs.episode }}
+          BRIEF_IN: ${{ inputs.brief }}
+        run: |
+          node tools/daily.mjs next $EPISODE
+          if [ -n "$BRIEF_IN" ]; then echo "brief=$(echo "$BRIEF_IN" | tr '\n' ' ')" >> "$GITHUB_OUTPUT"; fi
+
+      - name: Nothing to do
+        if: steps.pick.outputs.episode == 'none'
+        run: echo "No episode with a voiceover is waiting. Drop dNN-voice.wav into its Drive folder."
+
+      - uses: actions/setup-node@v4
+        if: steps.pick.outputs.episode != 'none'
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            remotion/package-lock.json
+            hyperframes/package-lock.json
+            AI-clipper/package-lock.json
+
+      - uses: actions/setup-python@v5
+        if: steps.pick.outputs.episode != 'none'
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        if: steps.pick.outputs.episode != 'none'
+        run: |
+          npm ci
+          (cd remotion && npm ci)
+          (cd hyperframes && npm ci)
+          (cd AI-clipper && npm ci)
+          pip install -q opencv-python-headless numpy
+          npm install -g @anthropic-ai/claude-code
+
+      - name: Cache whisper.cpp
+        if: steps.pick.outputs.episode != 'none'
+        uses: actions/cache@v4
+        with:
+          path: ~/.whisper.cpp
+          key: whisper-cpp-v1.9.2-${{ runner.os }}
+
+      - name: Build whisper.cpp (first run only)
+        if: steps.pick.outputs.episode != 'none'
+        run: |
+          if [ ! -x ~/.whisper.cpp/bin/whisper-cli ]; then
+            git clone -q --depth 1 --branch v1.9.2 https://github.com/ggml-org/whisper.cpp /tmp/whisper.cpp
+            cmake -S /tmp/whisper.cpp -B /tmp/whisper.cpp/build -DCMAKE_BUILD_TYPE=Release -DBUILD_SHARED_LIBS=OFF -DWHISPER_BUILD_TESTS=OFF
+            cmake --build /tmp/whisper.cpp/build -j --target whisper-cli
+            mkdir -p ~/.whisper.cpp/bin && cp /tmp/whisper.cpp/build/bin/whisper-cli ~/.whisper.cpp/bin/
+          fi
+          echo "WHISPER_CLI_PATH=$HOME/.whisper.cpp/bin/whisper-cli" >> "$GITHUB_ENV"
+
+      - name: Write .env
+        if: steps.pick.outputs.episode != 'none'
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          OPENVERSE_TOKEN: ${{ secrets.OPENVERSE_TOKEN }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: |
+          for k in ELEVENLABS_API_KEY PEXELS_API_KEY PIXABAY_API_KEY OPENVERSE_TOKEN YOUTUBE_API_KEY; do
+            echo "$k=${!k}" >> .env
+          done
+
+      - name: Edit with Claude Code
+        if: steps.pick.outputs.episode != 'none'
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          EPISODE: ${{ steps.pick.outputs.episode }}
+          AUDIO: ${{ steps.pick.outputs.audio }}
+          BRIEF: ${{ steps.pick.outputs.brief }}
+        run: |
+          claude -p "This is the unattended daily run: use the daily-run skill.
+          Episode: $EPISODE
+          Voiceover: $AUDIO
+          Brief override: ${BRIEF:-none, use config/daily.json}" \
+            --dangerously-skip-permissions --output-format stream-json --verbose > claude-log.jsonl
+
+      - name: Check the result
+        id: check
+        if: steps.pick.outputs.episode != 'none'
+        run: node tools/daily.mjs check
+
+      - name: Upload to Drive
+        if: steps.check.outcome == 'success'
+        env:
+          P: ${{ steps.check.outputs.project }}
+          SHORTS: ${{ steps.check.outputs.shorts_dir }}
+        run: |
+          rclone copy "projects/$P/output" "$DRIVE/output/$P" -v
+          rclone copy "$SHORTS" "$DRIVE/output/$P/shorts" -v
+          rclone copy "AI-clipper/jobs/$P/clips.json" "$DRIVE/output/$P/shorts" -v
+
+      - name: Record + commit the edit decisions
+        if: steps.check.outcome == 'success'
+        env:
+          P: ${{ steps.check.outputs.project }}
+        run: |
+          node tools/daily.mjs done
+          git config user.name "daily-edit bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add "projects/$P" config/daily-state.json
+          git commit -m "daily: $P"
+          git pull --rebase -q && git push
+
+      - name: Failure report to Drive
+        if: failure() && steps.pick.outputs.episode != 'none'
+        env:
+          EPISODE: ${{ steps.pick.outputs.episode }}
+        run: |
+          dir="$DRIVE/output/_failed/$EPISODE-$(date -u +%Y%m%d-%H%M)"
+          for f in daily-report.md daily-run.json; do [ -f "$f" ] && rclone copy "$f" "$dir"; done
+          echo "Run failed; report (if any) in $dir and the workflow log." >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Keep the Claude log
+        if: always() && steps.pick.outputs.episode != 'none'
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-${{ steps.pick.outputs.episode }}-log
+          path: |
+            claude-log.jsonl
+            daily-report.md
+            daily-run.json
+          if-no-files-found: ignore
+          retention-days: 14

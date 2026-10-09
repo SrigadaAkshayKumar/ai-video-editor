@@ -1,0 +1,112 @@
+{
+  "name": "pipeline-test",
+  "createdAt": "2026-10-04T10:24:06.094Z",
+  "source": {
+    "file": "C:\\AI-edits\\projects\\pipeline-test\\source\\raw.mp4",
+    "original": "C:\\Users\\sriga\\AppData\\Local\\Temp\\claude\\C--AI-edits\\f7aceff8-15fd-46e6-831e-c2a4e6448c19\\scratchpad\\synth\\raw-test-16x9.mp4",
+    "duration": 20.785261,
+    "width": 1920,
+    "height": 1080,
+    "fps": 29.97,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "rotation": 0
+  },
+  "language": "en",
+  "keyterms": [],
+  "mode": "talking",
+  "style": "glass",
+  "sourceAspect": "16:9",
+  "formats": [
+    "16:9",
+    "9:16"
+  ],
+  "fps": 30,
+  "brief": "",
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-10-04T10:24:06.502Z",
+      "words": 33,
+      "engine": "elevenlabs scribe"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-10-04T10:24:10.937Z",
+      "segments": 4,
+      "kept": 9.833
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-10-04T10:26:55.361Z",
+      "file": "C:\\AI-edits\\projects\\pipeline-test\\work\\visuals-16x9.mp4"
+    },
+    "visuals@9x16": {
+      "done": true,
+      "at": "2026-10-04T10:28:16.194Z",
+      "file": "C:\\AI-edits\\projects\\pipeline-test\\work\\visuals-9x16.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-10-04T10:28:16.408Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-10-04T10:28:16.499Z",
+      "groups": 6
+    },
+    "scaffold@9x16": {
+      "done": true,
+      "at": "2026-10-04T10:28:16.537Z"
+    },
+    "captions@9x16": {
+      "done": true,
+      "at": "2026-10-04T10:28:16.615Z",
+      "groups": 10
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-10-04T10:28:19.290Z",
+      "music": 1,
+      "sfx": 3
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-10-04T10:29:26.660Z",
+      "file": "C:\\AI-edits\\projects\\pipeline-test\\output\\final-16x9.mp4",
+      "duration": 9.833333
+    },
+    "finalize@9x16": {
+      "done": true,
+      "at": "2026-10-04T10:30:00.546Z",
+      "file": "C:\\AI-edits\\projects\\pipeline-test\\output\\final-9x16.mp4",
+      "duration": 9.833333
+    }
+  },
+  "detectedLanguage": {
+    "code": "eng",
+    "probability": 0.99
+  },
+  "cleancut": {
+    "file": "C:\\AI-edits\\projects\\pipeline-test\\work\\cleancut.mp4",
+    "duration": 9.833333,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    },
+    "9x16": {
+      "maxWords": 3,
+      "position": "bottom"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+
+> transcribe
+> node tools/transcribe.mjs d01-tcs-q2-results
+
+extracting audio…
+transcribing locally with whisper.cpp small.en (free)…
+script alignment → work/script-diff.md (3 suggested caption fixes)
+whisper.cpp small.en: language eng, 850 tokens
+wrote C:\AI-edits\projects\d01-tcs-q2-results\work\transcript.md
+next: read transcript.md, write work/edl.json, then npm run cut -- d01-tcs-q2-results --dry-run

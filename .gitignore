@@ -1,0 +1,41 @@
+node_modules/
+out/
+dist/
+.env
+.DS_Store
+.thumbnails/
+.media/
+assets/sfx/.analysis.json
+
+# Per-video folders hold large media; keep only the decisions (work/*.json, *.md, edit-*/ html).
+projects/*/source/
+projects/*/output/
+projects/*/assets/
+projects/*/render/
+projects/*/work/*.m4a
+projects/*/work/*.wav
+projects/*/work/*.mp4
+projects/*/work/**/*.wav
+projects/*/work/**/*.mp4
+projects/*/work/**/*.m4a
+projects/*/work/broll-thumbs/
+projects/*/work/stills-*/
+projects/*/work/verify-*/
+projects/*/work/thumb/
+projects/*/work/snaps*/
+projects/*/work/*.jpg
+projects/*/work/props-*.json
+projects/*/edit-*/assets/
+projects/*/edit-*/.media/
+projects/*/edit-*/snapshots/
+
+# inbox: user drop-offs (keep only the READMEs)
+inbox/**
+!inbox/**/
+!inbox/**/README.md
+projects/*/work/*.png
+
+# daily cloud run (tools/daily.mjs): per-run results go to Drive, not git
+daily-run.json
+daily-report.md
+claude-log.jsonl

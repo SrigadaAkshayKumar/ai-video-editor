@@ -1,0 +1,54 @@
+{
+  "name": "d01-tcs-q2-results",
+  "createdAt": "2026-10-08T16:51:48.927Z",
+  "source": {
+    "file": "C:\\AI-edits\\projects\\d01-tcs-q2-results\\source\\raw.wav",
+    "original": "C:\\AI-edits\\inbox\\faceless\\Crack_IT_Daily_Videos\\d01\\01-voice.wav",
+    "duration": 267.68,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "C:\\AI-edits\\projects\\d01-tcs-q2-results\\source\\script.txt",
+    "original": "C:\\AI-edits\\inbox\\faceless\\Crack_IT_Daily_Videos\\d01\\d01_tcs_q2_results_voiceover.txt",
+    "words": 887,
+    "directions": "C:\\AI-edits\\projects\\d01-tcs-q2-results\\source\\screen-script.md"
+  },
+  "language": "en",
+  "keyterms": [
+    "Number",
+    "NextStep",
+    "Headcount"
+  ],
+  "mode": "faceless",
+  "style": "blueprint",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "same edit format as prior Crack IT edits (walkin): blueprint style, 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM (not asked); English, whisper",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "C:\\AI-edits\\projects\\d01-tcs-q2-results\\source\\intro.mp4",
+  "introAt": null,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-10-08T16:54:50.030Z",
+      "words": 850,
+      "engine": "whisper.cpp small.en"
+    }
+  },
+  "detectedLanguage": {
+    "code": "eng",
+    "probability": null
+  }
+}

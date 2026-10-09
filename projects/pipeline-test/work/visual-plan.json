@@ -1,0 +1,15 @@
+﻿{
+  "framing": { "9:16": "50% 45%" },
+  "overlays": [
+    { "start": 0.1, "duration": 2.8, "type": "title_slide", "text": "Edit Videos With AI", "eyebrow": "Pipeline test" },
+    { "start": 3.2, "duration": 2.6, "type": "keyword_chip", "text": "AI EDITING", "side": "left" },
+    { "start": 6.05, "duration": 2.0, "type": "big_statement", "text": "This is really simple", "eyebrow": "simple" },
+    { "start": 8.25, "duration": 1.55, "type": "lower_third", "text": "Pipeline Test", "eyebrow": "AI-edits", "side": "left" }
+  ],
+  "brolls": [
+    { "start": 3.6, "duration": 2.3, "src": "assets/broll/video-desk.mp4", "media_start": 2, "motion": "ken_in", "grade": "cool", "transition": "fade" }
+  ],
+  "camera_moves": [
+    { "start": 8.2, "duration": 1.5, "kind": "punch_in", "scale": 1.1 }
+  ]
+}

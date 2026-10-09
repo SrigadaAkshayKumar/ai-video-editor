@@ -1,0 +1,8 @@
+﻿{
+  "music_cues": [ { "start": 0, "end": 9.83, "file": "assets/music/upbeat-bed.mp3", "gain_rel": 1.0, "fade_in": 0.8, "fade_out": 1.5 } ],
+  "sfx_events": [
+    { "time": 3.1, "sfx": "sub_drop", "reason": "cutaway lands" },
+    { "time": 6.05, "sfx": "impact", "reason": "punchline" },
+    { "time": 8.3, "sfx": "pop", "reason": "lower third" }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "ai-clipper",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "transcribe": "python pipeline/transcribe.py",
+    "prepare-clips": "python pipeline/prepare.py",
+    "render": "node scripts/render.mjs",
+    "studio": "remotion studio src/index.ts",
+    "typecheck": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@remotion/bundler": "4.0.532",
+    "@remotion/captions": "4.0.532",
+    "@remotion/cli": "^4.0.532",
+    "@remotion/google-fonts": "4.0.532",
+    "@remotion/media": "4.0.532",
+    "@remotion/media-utils": "^4.0.532",
+    "@remotion/renderer": "4.0.532",
+    "hyperframes": "^0.8.124",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "remotion": "^4.0.532"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true,
+    "esbuild@0.25.12": true
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "@types/react": "^19.3.0",
+    "typescript": "^7.0.2"
+  }
+}
