@@ -1,13 +1,20 @@
 #!/usr/bin/env node
-// Bookkeeping for the unattended daily run (.github/workflows/daily-edit.yml + the daily-run skill).
-// Claude does the editing; this file only answers the questions a workflow can't leave to judgment.
+// Bookkeeping for the unattended daily run (.github/workflows/daily-edit.yml + the daily-script / daily-run skills).
+// Claude writes and edits; this file only answers the questions a workflow can't leave to judgment.
 // Usage:
-//   node tools/daily.mjs next [dNN]   which episode to edit: the first folder in config/daily.json's series with a
-//                                     voiceover and no finished edit (or the one named). Prints JSON; "none" = idle.
+//   node tools/daily.mjs next [dNN]   which episode today and what it still needs. Picks the first folder in
+//                                     config/daily.json's series without a finished edit (or the one named); with
+//                                     none left, the next number (a fresh-news episode). Prints JSON with
+//                                     needs = script | voice | edit:
+//                                       script  the voiceover is missing or still has {FILL…}/{OPTIONAL…} (daily-script skill)
+//                                       voice   the voiceover is ready but there is no audio (tools/voice/tts.py)
+//                                       edit    the audio is there (daily-run skill)
+//   node tools/daily.mjs script-check reads daily-script.json (written by the daily-script skill), confirms the
+//                                     episode's script + voiceover are complete. Exit 1 = stop the run.
 //   node tools/daily.mjs check        reads daily-run.json (written by Claude at the end of the run), confirms the
 //                                     final video passes verify and the Shorts exist. Exit 1 = do not upload.
 //   node tools/daily.mjs done         records the episode in config/daily-state.json (committed by the workflow).
-// In GitHub Actions every answer is also written to $GITHUB_OUTPUT (episode, project, shorts_dir, …).
+// In GitHub Actions every answer is also written to $GITHUB_OUTPUT (episode, needs, project, shorts_dir, …).
 import { appendFileSync, existsSync, readFileSync, readdirSync } from "node:fs";
 import { basename, extname, join } from "node:path";
 import { PROJECTS, ROOT, die, parseCli, readJson, run, writeJson } from "./lib/common.mjs";
@@ -16,6 +23,8 @@ import { MEDIA_EXT } from "./lib/inbox.mjs";
 const CONFIG = join(ROOT, "config", "daily.json");
 const STATE = join(ROOT, "config", "daily-state.json");
 const RESULT = join(ROOT, "daily-run.json");
+const SCRIPT_RESULT = join(ROOT, "daily-script.json");
+const PLACEHOLDER = /\{(FILL|OPTIONAL)/i;
 
 const { positional } = parseCli();
 const [cmd, arg] = positional;
@@ -40,25 +49,62 @@ function finished(episode) {
   });
 }
 
+const series = join(ROOT, config.series);
+const episodeNumber = (name) => Number(name.slice(1));
+const listEpisodes = () => readdirSync(series).filter((n) => /^d\d+$/i.test(n)).sort((a, b) => episodeNumber(a) - episodeNumber(b));
+const filesOf = (ep) => readdirSync(join(series, ep));
+const audioOf = (ep) => filesOf(ep).find((n) => MEDIA_EXT.includes(extname(n).toLowerCase()));
+const voiceoverOf = (ep) => filesOf(ep).find((n) => /_voiceover\.txt$/i.test(n));
+const scriptOf = (ep) => filesOf(ep).find((n) => /_script\.md$/i.test(n));
+const rel = (...parts) => join(...parts).replace(/\\/g, "/");
+
+/** What an existing episode folder still needs before it can be edited. */
+function needsOf(ep) {
+  if (audioOf(ep)) return "edit";
+  const vo = voiceoverOf(ep);
+  if (!vo || PLACEHOLDER.test(readFileSync(join(series, ep, vo), "utf8"))) return "script";
+  return "voice";
+}
+
 if (cmd === "next") {
-  const series = join(ROOT, config.series);
   if (!existsSync(series)) die(`${config.series} not found — is the Drive inbox synced?`);
-  const episodes = readdirSync(series).filter((n) => /^d\d+$/i.test(n)).sort();
-  const audioOf = (ep) => readdirSync(join(series, ep)).find((n) => MEDIA_EXT.includes(extname(n).toLowerCase()));
-  const pick = arg ? episodes.find((e) => e.toLowerCase() === arg.toLowerCase()) : episodes.find((e) => audioOf(e) && !finished(e));
+  const episodes = listEpisodes();
+  const pick = arg ? episodes.find((e) => e.toLowerCase() === arg.toLowerCase()) : episodes.find((e) => !finished(e));
   if (arg && !pick) die(`no episode folder ${arg} in ${config.series}`);
   if (!pick) {
-    output({ episode: "none" });
+    if (config.freshNews === false) {
+      output({ episode: "none" });
+      process.exit(0);
+    }
+    const last = episodes.length ? episodeNumber(episodes.at(-1)) : 0;
+    const episode = `d${String(last + 1).padStart(2, "0")}`;
+    output({ episode, needs: "script", dir: rel(config.series, episode), audio: "", voiceover: "", brief: "" });
     process.exit(0);
   }
   const audio = audioOf(pick);
-  if (!audio) die(`${pick} has no voiceover yet (drop dNN-voice.wav into its Drive folder)`);
+  const vo = voiceoverOf(pick);
   const briefFile = join(series, pick, "brief.txt");
   output({
     episode: pick,
-    audio: join(config.series, pick, audio).replace(/\\/g, "/"),
+    needs: needsOf(pick),
+    dir: rel(config.series, pick),
+    audio: audio ? rel(config.series, pick, audio) : "",
+    voiceover: vo ? rel(config.series, pick, vo) : "",
     brief: existsSync(briefFile) ? readFileSync(briefFile, "utf8").trim().replace(/\s+/g, " ") : "",
   });
+} else if (cmd === "script-check") {
+  if (!existsSync(SCRIPT_RESULT)) die("daily-script.json missing — the script step did not finish");
+  const r = readJson(SCRIPT_RESULT);
+  if (r.status !== "ok") die(`the script step reported status "${r.status}": ${r.notes || "see daily-script-report.md"}`);
+  if (!/^d\d+$/i.test(r.episode || "") || !existsSync(join(series, r.episode))) die(`daily-script.json names no episode folder: ${r.episode}`);
+  const vo = voiceoverOf(r.episode);
+  if (!vo) die(`${r.episode} has no *_voiceover.txt`);
+  if (!scriptOf(r.episode)) die(`${r.episode} has no *_script.md`);
+  const text = readFileSync(join(series, r.episode, vo), "utf8");
+  if (PLACEHOLDER.test(text) || /[{}]/.test(text)) die(`${vo} still has a placeholder or brace — the voice would read it out`);
+  const words = text.split(/\s+/).filter(Boolean).length;
+  if (words < 150) die(`${vo} has only ${words} words`);
+  output({ episode: r.episode, needs: needsOf(r.episode), dir: rel(config.series, r.episode), voiceover: rel(config.series, r.episode, vo), words });
 } else if (cmd === "check") {
   if (!existsSync(RESULT)) die("daily-run.json missing — the edit did not finish");
   const r = readJson(RESULT);
@@ -79,4 +125,4 @@ if (cmd === "next") {
   state.done.push({ episode: r.episode, project: r.project, at: new Date().toISOString() });
   writeJson(STATE, state);
   console.log(`${r.episode} → done (${basename(STATE)})`);
-} else die("usage: node tools/daily.mjs next [dNN] | check | done");
+} else die("usage: node tools/daily.mjs next [dNN] | script-check | check | done");
