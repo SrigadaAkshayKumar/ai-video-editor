@@ -1,0 +1,13 @@
+{
+  "model": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+  "language": "English",
+  "refAudio": "inbox/brand/my-final-voice",
+  "refText": "Hello, my name is Akshay. This is a sample of my voice for testing voice.",
+  "seed": 1234,
+  "chunkMinWords": 45,
+  "chunkMaxWords": 160,
+  "pauseSeconds": 0.5,
+  "wordsPerSecond": 3.2,
+  "durationTolerance": [0.6, 1.6],
+  "retries": 2
+}
