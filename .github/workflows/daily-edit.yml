@@ -219,7 +219,8 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add "projects/$P" config/daily-state.json
           git commit -m "daily: $P"
-          git pull --rebase -q && git push
+          # the edit leaves other tracked files modified (not committed); keep them out of the rebase
+          git pull --rebase --autostash -q && git push
 
       - name: Failure report to Drive
         if: failure() && steps.plan.outputs.episode != 'none'
