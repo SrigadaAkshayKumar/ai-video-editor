@@ -8,7 +8,7 @@ takes the next unfinished episode of the series, in order:
    episode is done, Claude researches the day's news for the channel and writes a new episode in the d01 format
    (`docs/examples/crack-it-d01/`).
 2. **Voice** (`tools/voice/tts.py`), only when there is no audio yet: your cloned voice from the voiceover text,
-   with the same Qwen3-TTS model and settings as the Colab notebook (`config/voice.json`). About 20 minutes for a
+   with the same Qwen3-TTS model and settings as the Colab notebook (`config/voice.json`). About 30 minutes for a
    4–5 minute voiceover. Script and voice are saved back to the episode's Drive folder.
 3. **Edit** (`daily-run` skill): edit, `verify`, Shorts, metadata, and everything goes to Drive.
 
