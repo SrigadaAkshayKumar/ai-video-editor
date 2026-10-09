@@ -1,0 +1,35 @@
+# Temporary: measures Qwen3-TTS voice-clone speed on the free CPU runner. Delete once the voice step is built.
+name: TTS bench
+on:
+  push:
+    branches: [claude/confident-heisenberg-2zdiza]
+    paths: [tools/voice/bench.py, .github/workflows/tts-bench.yml]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  bench:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      matrix:
+        model: [Qwen/Qwen3-TTS-12Hz-0.6B-Base, Qwen/Qwen3-TTS-12Hz-1.7B-Base]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: sudo apt-get install -y -q sox
+      - run: |
+          pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+          pip install -q qwen-tts==0.1.1
+      - run: |
+          echo "| model | cpus | audio | generate | time per audio second |" >> "$GITHUB_STEP_SUMMARY"
+          echo "|---|---|---|---|---|" >> "$GITHUB_STEP_SUMMARY"
+          python tools/voice/bench.py ${{ matrix.model }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bench-${{ strategy.job-index }}
+          path: bench-*.wav
+          retention-days: 3
