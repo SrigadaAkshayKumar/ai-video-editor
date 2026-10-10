@@ -1,0 +1,102 @@
+{
+  "name": "d04-pre-joining-tests",
+  "createdAt": "2026-10-10T15:57:22.828Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d04-pre-joining-tests/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d04/d04-voice.wav",
+    "duration": 234.020083,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d04-pre-joining-tests/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d04/d04_pre_joining_tests_voiceover.txt",
+    "words": 707,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d04-pre-joining-tests/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Mindtree",
+    "IGNITE"
+  ],
+  "mode": "faceless",
+  "style": "glass",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; documentary storytelling look: full-frame b-roll leads, graphics docked to one side, quote pulls on the key lines, timelines for the backstory; slower, a beat every 6-10 s; low sub-band SFX on structure only",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d04-pre-joining-tests/source/intro.mp4",
+  "introAt": 23.9,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-10-10T15:59:01.623Z",
+      "words": 680,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-10-10T15:59:09.630Z",
+      "segments": 14,
+      "kept": 230.867
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-10-10T16:29:00.459Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d04-pre-joining-tests/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-10-10T16:29:08.692Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-10-10T16:29:08.722Z",
+      "groups": 182
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-10-10T16:29:37.847Z",
+      "music": 0,
+      "sfx": 22
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-10-10T16:33:37.425Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d04-pre-joining-tests/output/final-16x9.mp4",
+      "duration": 240.874
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.979871,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d04-pre-joining-tests/work/cleancut.wav",
+    "duration": 230.853125,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

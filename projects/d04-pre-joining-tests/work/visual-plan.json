@@ -1,0 +1,824 @@
+{
+ "style": "glass",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.1,
+   "duration": 3.1,
+   "type": "title_slide",
+   "text": "Another Test Before Joining?",
+   "eyebrow": "Crack IT · Day 04",
+   "style_hint": "The LTIMindtree case, 2023",
+   "value": "2023"
+  },
+  {
+   "start": 3.6,
+   "duration": 7.1,
+   "type": "checklist",
+   "text": "You did everything right",
+   "items": [
+    {
+     "label": "Cleared the test",
+     "state": "yes"
+    },
+    {
+     "label": "Cleared the interview",
+     "state": "yes"
+    },
+    {
+     "label": "Offer letter in hand",
+     "state": "yes"
+    },
+    {
+     "label": "One more test?",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 11.2,
+   "duration": 4.1,
+   "type": "keyword_chip",
+   "text": "2023 CASE",
+   "side": "right"
+  },
+  {
+   "start": 15.8,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "2026 · PRE-JOINING TRAINING",
+   "side": "left"
+  },
+  {
+   "start": 20.2,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "KNOWLEDGE-TEST CALLS (REPORTED)",
+   "side": "right"
+  },
+  {
+   "start": 24.5,
+   "duration": 3.8,
+   "type": "bullet_list",
+   "side": "right",
+   "text": "In this video",
+   "items": [
+    {
+     "label": "What happened"
+    },
+    {
+     "label": "Why companies do it"
+    },
+    {
+     "label": "How to clear it"
+    }
+   ]
+  },
+  {
+   "start": 28.55,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "What happened",
+   "eyebrow": "Section 01 · 2023",
+   "numeral": "01",
+   "section": 1
+  },
+  {
+   "start": 32,
+   "duration": 3.2,
+   "type": "side_note",
+   "text": "The News Minute · 10 Apr 2023",
+   "side": "right"
+  },
+  {
+   "start": 35.6,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "OFFERS ~JAN 2022",
+   "side": "right"
+  },
+  {
+   "start": 39.5,
+   "duration": 4.7,
+   "type": "timeline",
+   "side": "right",
+   "text": "The wait · 2023 case",
+   "current": 1,
+   "items": [
+    {
+     "label": "~Jan 2022",
+     "sublabel": "offer letters"
+    },
+    {
+     "label": "Over a year on",
+     "sublabel": "still waiting"
+    },
+    {
+     "label": "Apr 2023",
+     "sublabel": "IGNITE announced"
+    }
+   ]
+  },
+  {
+   "start": 44.9,
+   "duration": 4.5,
+   "type": "bullet_list",
+   "side": "left",
+   "text": "IGNITE · 2023",
+   "items": [
+    {
+     "label": "6–7 weeks of training"
+    },
+    {
+     "label": "3 assessment tests"
+    }
+   ]
+  },
+  {
+   "start": 49.9,
+   "duration": 4.9,
+   "type": "keyword_chip",
+   "text": "BATCHES · BUSINESS DEMAND",
+   "side": "right"
+  },
+  {
+   "start": 55.2,
+   "duration": 4.4,
+   "type": "side_note",
+   "text": "Pass, then onboarded in batches",
+   "side": "left"
+  },
+  {
+   "start": 60.3,
+   "duration": 4.1,
+   "type": "big_statement",
+   "text": "600–700 freshers (reported)",
+   "eyebrow": "600–700"
+  },
+  {
+   "start": 64.8,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "2023 · OFFERS COULD BE CANCELLED",
+   "side": "left"
+  },
+  {
+   "start": 69.5,
+   "duration": 8.1,
+   "type": "quote_pull",
+   "text": "Not only unfair, but also a breach of trust",
+   "eyebrow": "NITES · via The News Minute, Apr 2023"
+  },
+  {
+   "start": 78.1,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Why companies do it",
+   "eyebrow": "Section 02",
+   "numeral": "02",
+   "section": 2
+  },
+  {
+   "start": 83.6,
+   "duration": 7.6,
+   "type": "term_card",
+   "side": "left",
+   "text": "Time",
+   "eyebrow": "Reason 1",
+   "items": [
+    {
+     "label": "Skills may be stale after a long wait, before a client project"
+    }
+   ]
+  },
+  {
+   "start": 92,
+   "duration": 7.6,
+   "type": "flow_diagram",
+   "text": "Filtering",
+   "items": [
+    {
+     "label": "Selected pool",
+     "sublabel": "more candidates"
+    },
+    {
+     "label": "Open projects",
+     "sublabel": "fewer seats"
+    },
+    {
+     "label": "A test decides",
+     "sublabel": "who goes first"
+    }
+   ]
+  },
+  {
+   "start": 100.3,
+   "duration": 7.3,
+   "type": "term_card",
+   "side": "right",
+   "text": "Readiness",
+   "eyebrow": "Reason 3",
+   "items": [
+    {
+     "label": "Trained on what projects need, so they become billable faster"
+    }
+   ]
+  },
+  {
+   "start": 108.4,
+   "duration": 5.4,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Company view",
+    "text": "Check skills, pick who starts"
+   },
+   "right": {
+    "label": "Candidate view",
+    "text": "Already selected, why test?"
+   }
+  },
+  {
+   "start": 114.4,
+   "duration": 2.3,
+   "type": "keyword_chip",
+   "text": "UNDERSTAND IT, THEN PREPARE",
+   "side": "left"
+  },
+  {
+   "start": 117.4,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "The 2026 link",
+   "eyebrow": "Section 03",
+   "numeral": "03",
+   "section": 3
+  },
+  {
+   "start": 120.8,
+   "duration": 7.4,
+   "type": "bullet_list",
+   "side": "right",
+   "text": "2026 · pre-joining",
+   "items": [
+    {
+     "label": "Training programmes"
+    },
+    {
+     "label": "Online modules"
+    },
+    {
+     "label": "For selected candidates"
+    }
+   ]
+  },
+  {
+   "start": 128.8,
+   "duration": 8.8,
+   "type": "term_card",
+   "side": "left",
+   "text": "Cognizant",
+   "eyebrow": "Candidate reports, 2026",
+   "items": [
+    {
+     "label": "HR calls with technical questions, like a short knowledge test, before offer or joining dates"
+    }
+   ]
+  },
+  {
+   "start": 138,
+   "duration": 4.4,
+   "type": "keyword_chip",
+   "text": "CANDIDATE REPORT, NOT OFFICIAL",
+   "side": "right"
+  },
+  {
+   "start": 143.95,
+   "duration": 2.25,
+   "type": "big_statement",
+   "text": "Selection is not the finish line",
+   "eyebrow": "finish"
+  },
+  {
+   "start": 146.6,
+   "duration": 3.4,
+   "type": "side_note",
+   "text": "Slow market: prove your skills again",
+   "side": "left"
+  },
+  {
+   "start": 150.4,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "How to clear it",
+   "eyebrow": "Section 04",
+   "numeral": "04",
+   "section": 4
+  },
+  {
+   "start": 154.2,
+   "duration": 10.2,
+   "type": "bullet_list",
+   "side": "right",
+   "text": "1 · Revise the basics",
+   "items": [
+    {
+     "label": "Your programming language"
+    },
+    {
+     "label": "Arrays and strings"
+    },
+    {
+     "label": "SQL"
+    },
+    {
+     "label": "OOP and DBMS"
+    }
+   ]
+  },
+  {
+   "start": 165.4,
+   "duration": 5.8,
+   "type": "bullet_list",
+   "side": "left",
+   "text": "2 · Take modules seriously",
+   "items": [
+    {
+     "label": "Finish them early"
+    },
+    {
+     "label": "Take notes"
+    },
+    {
+     "label": "Practise the quizzes"
+    }
+   ]
+  },
+  {
+   "start": 171.6,
+   "duration": 2.7,
+   "type": "flow_diagram",
+   "text": "Same source",
+   "items": [
+    {
+     "label": "Modules"
+    },
+    {
+     "label": "The test"
+    }
+   ]
+  },
+  {
+   "start": 174.7,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "3 · TIMED PRACTICE",
+   "side": "left"
+  },
+  {
+   "start": 177.8,
+   "duration": 3.4,
+   "type": "side_note",
+   "text": "Speed matters as much as knowledge",
+   "side": "right"
+  },
+  {
+   "start": 181.9,
+   "duration": 2.3,
+   "type": "keyword_chip",
+   "text": "4 · PROJECT READY",
+   "side": "right"
+  },
+  {
+   "start": 184.8,
+   "duration": 4.6,
+   "type": "side_note",
+   "text": "A clear explanation makes an impression",
+   "side": "left"
+  },
+  {
+   "start": 190.3,
+   "duration": 4.7,
+   "type": "keyword_chip",
+   "text": "RESPOND ON TIME, IN WRITING",
+   "side": "left"
+  },
+  {
+   "start": 195.4,
+   "duration": 3.2,
+   "type": "big_statement",
+   "text": "A missed deadline can cost the offer",
+   "eyebrow": "deadline"
+  },
+  {
+   "start": 199.2,
+   "duration": 8.2,
+   "type": "bullet_list",
+   "side": "left",
+   "text": "To sum up",
+   "items": [
+    {
+     "label": "2023 · IGNITE before joining"
+    },
+    {
+     "label": "2026 · pre-joining checks again"
+    },
+    {
+     "label": "Selection = halfway"
+    }
+   ]
+  },
+  {
+   "start": 207.9,
+   "duration": 2.3,
+   "type": "keyword_chip",
+   "text": "2026 · CHECKS ARE BACK",
+   "side": "right"
+  },
+  {
+   "start": 210.5,
+   "duration": 4.7,
+   "type": "big_statement",
+   "text": "Treat selection as halfway",
+   "eyebrow": "halfway"
+  },
+  {
+   "start": 216,
+   "duration": 7.8,
+   "type": "quote_pull",
+   "text": "Which company? What did they ask?",
+   "eyebrow": "Comment below"
+  },
+  {
+   "start": 224.2,
+   "duration": 4.8,
+   "type": "big_statement",
+   "text": "Tomorrow: HCLTech results",
+   "eyebrow": "Tomorrow"
+  },
+  {
+   "start": 229.3,
+   "duration": 1.5,
+   "type": "keyword_chip",
+   "text": "SUBSCRIBE",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "index": 0,
+   "start": 0,
+   "end": 6,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "noir",
+   "transition": "fade"
+  },
+  {
+   "index": 1,
+   "start": 6,
+   "end": 10.92,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "Offer in hand",
+    "label": "test · interview · offer letter"
+   }
+  },
+  {
+   "index": 2,
+   "start": 10.92,
+   "end": 15.5,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "2023",
+    "label": "the LTIMindtree case"
+   }
+  },
+  {
+   "index": 3,
+   "start": 15.5,
+   "end": 20,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "2026",
+    "label": "reported again"
+   }
+  },
+  {
+   "index": 4,
+   "start": 20,
+   "end": 24.5,
+   "kind": "broll",
+   "src": "assets/broll/phone.mp4",
+   "media_start": 1,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 5,
+   "start": 24.5,
+   "end": 31.7,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3 questions",
+    "label": "what · why · how"
+   }
+  },
+  {
+   "index": 6,
+   "start": 31.7,
+   "end": 39.23,
+   "kind": "news",
+   "url": "https://www.thenewsminute.com/article/ltimindtree-revokes-offer-letters-freshers-mandates-new-training-programme-175698",
+   "source": "The News Minute",
+   "headline": "LTIMindtree revokes offer letters to freshers, mandates new training programme",
+   "date": "10 Apr 2023",
+   "highlight": {
+    "x": 0.1,
+    "y": 0.222,
+    "w": 0.54,
+    "h": 0.075
+   },
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "index": 7,
+   "start": 39.23,
+   "end": 44.46,
+   "kind": "broll",
+   "src": "assets/broll/waiting.mp4",
+   "media_start": 0,
+   "motion": "pan_right",
+   "grade": "noir",
+   "transition": "fade"
+  },
+  {
+   "index": 8,
+   "start": 44.46,
+   "end": 49.56,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "IGNITE",
+    "label": "2023 training programme"
+   }
+  },
+  {
+   "index": 9,
+   "start": 49.56,
+   "end": 55,
+   "kind": "news",
+   "url": "https://www.hrkatha.com/news/unions-speak-out-against-ltimindtrees-eligibility-test/",
+   "source": "HRKatha",
+   "headline": "Unions speak out against LTIMindtree's eligibility test",
+   "date": "10 Apr 2023",
+   "highlight": {
+    "x": 0.08,
+    "y": 0.148,
+    "w": 0.54,
+    "h": 0.04
+   },
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "index": 10,
+   "start": 55,
+   "end": 59.78,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "60%",
+    "label": "in all three tests"
+   }
+  },
+  {
+   "index": 11,
+   "start": 59.78,
+   "end": 64.5,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 12,
+   "start": 64.5,
+   "end": 69.02,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "Offers at risk",
+    "label": "reported by one outlet"
+   }
+  },
+  {
+   "index": 13,
+   "start": 69.02,
+   "end": 77.85,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "NITES",
+    "label": "IT employees' union · 2023"
+   }
+  },
+  {
+   "index": 14,
+   "start": 77.85,
+   "end": 83.3,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 15,
+   "start": 83.3,
+   "end": 91.37,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 3,
+   "motion": "pan_left",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 16,
+   "start": 91.37,
+   "end": 99.98,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "2",
+    "label": "Filtering"
+   }
+  },
+  {
+   "index": 17,
+   "start": 99.98,
+   "end": 107.85,
+   "kind": "broll",
+   "src": "assets/broll/modules.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 18,
+   "start": 107.85,
+   "end": 116.88,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 19,
+   "start": 116.88,
+   "end": 120.23,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 20,
+   "start": 120.23,
+   "end": 128.41,
+   "kind": "broll",
+   "src": "assets/broll/study.mp4",
+   "media_start": 12,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 21,
+   "start": 128.41,
+   "end": 137.95,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "Cognizant",
+    "label": "candidate reports · 2026"
+   }
+  },
+  {
+   "index": 22,
+   "start": 137.95,
+   "end": 142.72,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "Not official",
+    "label": "a candidate report"
+   }
+  },
+  {
+   "index": 23,
+   "start": 142.72,
+   "end": 150,
+   "kind": "broll",
+   "src": "assets/broll/city.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "noir",
+   "transition": "fade"
+  },
+  {
+   "index": 24,
+   "start": 150,
+   "end": 153.67,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 25,
+   "start": 153.67,
+   "end": 164.6,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 26,
+   "start": 164.6,
+   "end": 174.42,
+   "kind": "broll",
+   "src": "assets/broll/study.mp4",
+   "media_start": 30,
+   "motion": "pan_right",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 27,
+   "start": 174.42,
+   "end": 181.62,
+   "kind": "broll",
+   "src": "assets/broll/notes.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 28,
+   "start": 181.62,
+   "end": 189.8,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "2 min",
+    "label": "explain your project"
+   }
+  },
+  {
+   "index": 29,
+   "start": 189.8,
+   "end": 198.8,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "On time",
+    "label": "in writing"
+   }
+  },
+  {
+   "index": 30,
+   "start": 198.8,
+   "end": 207.65,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 31,
+   "start": 207.65,
+   "end": 215.5,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 32,
+   "start": 215.5,
+   "end": 223.98,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 33,
+   "start": 223.98,
+   "end": 230.867,
+   "kind": "graphic",
+   "grade": "neutral"
+  }
+ ],
+ "camera_moves": []
+}

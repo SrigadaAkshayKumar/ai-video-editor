@@ -1,0 +1,10 @@
+{
+  "name": "d04-pre-joining-tests-16x9",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx --yes hyperframes@0.8.120 preview",
+    "check": "npx --yes hyperframes@0.8.120 check",
+    "render": "npx --yes hyperframes@0.8.120 render"
+  }
+}

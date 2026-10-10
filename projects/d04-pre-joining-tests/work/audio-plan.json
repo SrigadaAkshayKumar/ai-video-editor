@@ -1,0 +1,115 @@
+{
+ "music_cues": [],
+ "sfx_events": [
+  {
+   "time": 0.1,
+   "sfx": "impact",
+   "reason": "title lands on the first line"
+  },
+  {
+   "time": 10.92,
+   "sfx": "sub_drop",
+   "reason": "2023 stamp"
+  },
+  {
+   "time": 21.6,
+   "sfx": "riser",
+   "reason": "builds into the agenda"
+  },
+  {
+   "time": 24.5,
+   "sfx": "sub_drop",
+   "reason": "agenda dock-in"
+  },
+  {
+   "time": 28.55,
+   "sfx": "impact",
+   "reason": "chapter 01"
+  },
+  {
+   "time": 39.5,
+   "sfx": "sub_drop",
+   "reason": "timeline dock"
+  },
+  {
+   "time": 43,
+   "sfx": "riser",
+   "reason": "builds into IGNITE"
+  },
+  {
+   "time": 60.3,
+   "sfx": "impact",
+   "reason": "600-700 statement"
+  },
+  {
+   "time": 69.5,
+   "sfx": "sub_drop",
+   "reason": "NITES quote"
+  },
+  {
+   "time": 76.3,
+   "sfx": "riser",
+   "reason": "builds into chapter 02"
+  },
+  {
+   "time": 78.1,
+   "sfx": "impact",
+   "reason": "chapter 02"
+  },
+  {
+   "time": 90.3,
+   "sfx": "riser",
+   "reason": "into filtering"
+  },
+  {
+   "time": 108.4,
+   "sfx": "sub_drop",
+   "reason": "company vs candidate"
+  },
+  {
+   "time": 115.6,
+   "sfx": "riser",
+   "reason": "builds into chapter 03"
+  },
+  {
+   "time": 117.4,
+   "sfx": "impact",
+   "reason": "chapter 03"
+  },
+  {
+   "time": 120.8,
+   "sfx": "sub_drop",
+   "reason": "2026 dock"
+  },
+  {
+   "time": 150.4,
+   "sfx": "impact",
+   "reason": "chapter 04"
+  },
+  {
+   "time": 154.2,
+   "sfx": "sub_drop",
+   "reason": "basics dock"
+  },
+  {
+   "time": 164,
+   "sfx": "riser",
+   "reason": "into modules"
+  },
+  {
+   "time": 195.4,
+   "sfx": "impact",
+   "reason": "deadline statement"
+  },
+  {
+   "time": 199.2,
+   "sfx": "sub_drop",
+   "reason": "summary dock"
+  },
+  {
+   "time": 222.4,
+   "sfx": "riser",
+   "reason": "into tomorrow card"
+  }
+ ]
+}
