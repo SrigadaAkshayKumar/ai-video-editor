@@ -1,0 +1,727 @@
+{
+ "style": "blueprint",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.1,
+   "duration": 3.1,
+   "type": "title_slide",
+   "text": "Wipro Freshers vs the Labour Ministry",
+   "eyebrow": "Crack IT · Day 03",
+   "style_hint": "Onboarding delay, explained",
+   "value": ""
+  },
+  {
+   "start": 3.3,
+   "duration": 2.65,
+   "type": "number_roll",
+   "value": 250,
+   "prefix": "",
+   "suffix": "+",
+   "text": "freshers with Wipro LOIs (reported)"
+  },
+  {
+   "start": 7.2,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "LABOUR MINISTRY",
+   "side": "right"
+  },
+  {
+   "start": 10.5,
+   "duration": 3.1,
+   "type": "side_note",
+   "text": "Outlook Business · 19 Jan 2026",
+   "side": "right"
+  },
+  {
+   "start": 14.5,
+   "duration": 8.9,
+   "type": "bullet_list",
+   "side": "right",
+   "text": "In this video",
+   "items": [
+    {
+     "label": "What happened"
+    },
+    {
+     "label": "Why the delay"
+    },
+    {
+     "label": "What the complaint can do"
+    },
+    {
+     "label": "What you should do"
+    }
+   ]
+  },
+  {
+   "start": 24.5,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "What happened",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 1
+  },
+  {
+   "start": 27.9,
+   "duration": 5.5,
+   "type": "term_card",
+   "side": "left",
+   "text": "NITES",
+   "eyebrow": "IT employees' union",
+   "items": [
+    {
+     "label": "Nascent Information Technology Employees Senate — raises issues for IT employees"
+    }
+   ]
+  },
+  {
+   "start": 33.9,
+   "duration": 8.5,
+   "type": "flow_diagram",
+   "text": "The complaint",
+   "items": [
+    {
+     "label": "NITES",
+     "sublabel": "IT employees' union"
+    },
+    {
+     "label": "Complaint",
+     "sublabel": "250+ freshers"
+    },
+    {
+     "label": "Ministry of Labour",
+     "sublabel": "& Employment"
+    }
+   ]
+  },
+  {
+   "start": 44,
+   "duration": 4.6,
+   "type": "keyword_chip",
+   "text": "LOIs ~MAY 2025",
+   "side": "right"
+  },
+  {
+   "start": 49.3,
+   "duration": 6.7,
+   "type": "timeline",
+   "side": "right",
+   "text": "The wait (reported)",
+   "current": 1,
+   "items": [
+    {
+     "label": "~May 2025",
+     "sublabel": "LOIs issued"
+    },
+    {
+     "label": "Months on",
+     "sublabel": "not yet onboarded"
+    },
+    {
+     "label": "Jan 2026",
+     "sublabel": "NITES complains"
+    }
+   ]
+  },
+  {
+   "start": 57,
+   "duration": 3.6,
+   "type": "side_note",
+   "text": "Other offers turned down",
+   "side": "left"
+  },
+  {
+   "start": 61.55,
+   "duration": 2.45,
+   "type": "big_statement",
+   "text": "A gap on the resume",
+   "eyebrow": "gap"
+  },
+  {
+   "start": 64.3,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Why the delay",
+   "eyebrow": "Section 02",
+   "numeral": "02",
+   "section": 2
+  },
+  {
+   "start": 67.7,
+   "duration": 6.5,
+   "type": "fact_band",
+   "items": [
+    {
+     "label": "Cognizant",
+     "sublabel": "reported delay"
+    },
+    {
+     "label": "Wipro",
+     "sublabel": "reported delay"
+    },
+    {
+     "label": "LTM",
+     "sublabel": "reported delay"
+    }
+   ]
+  },
+  {
+   "start": 74.6,
+   "duration": 5.3,
+   "type": "step_progress",
+   "side": "right",
+   "text": "3 reasons (reported)",
+   "current_step": 0,
+   "items": [
+    {
+     "label": "Client caution"
+    },
+    {
+     "label": "A.I. on routine work"
+    },
+    {
+     "label": "Demand-based onboarding"
+    }
+   ]
+  },
+  {
+   "start": 80.6,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "WEST ASIA TENSIONS",
+   "side": "right"
+  },
+  {
+   "start": 85.7,
+   "duration": 2.5,
+   "type": "side_note",
+   "text": "Fewer projects = fewer seats",
+   "side": "left"
+  },
+  {
+   "start": 88.9,
+   "duration": 7.3,
+   "type": "term_card",
+   "side": "left",
+   "text": "Routine work",
+   "eyebrow": "Reason 2",
+   "items": [
+    {
+     "label": "A.I. now handles basic testing, support and simple coding — work that used to go to new joiners"
+    }
+   ]
+  },
+  {
+   "start": 96.6,
+   "duration": 3.1,
+   "type": "word_swap",
+   "from": "Bulk hiring",
+   "to": "Demand-based",
+   "text": "how onboarding works now"
+  },
+  {
+   "start": 100.2,
+   "duration": 5.4,
+   "type": "flow_diagram",
+   "text": "Demand-based",
+   "items": [
+    {
+     "label": "Campus pool",
+     "sublabel": "big batch hired"
+    },
+    {
+     "label": "Project needs",
+     "sublabel": "a seat opens"
+    },
+    {
+     "label": "Onboarded",
+     "sublabel": "only then"
+    }
+   ]
+  },
+  {
+   "start": 105.95,
+   "duration": 3.05,
+   "type": "chapter_open",
+   "text": "What it can do",
+   "eyebrow": "Section 03",
+   "numeral": "03",
+   "section": 3
+  },
+  {
+   "start": 110.3,
+   "duration": 11.3,
+   "type": "checklist",
+   "text": "What a complaint can do",
+   "items": [
+    {
+     "label": "Official attention",
+     "state": "yes"
+    },
+    {
+     "label": "Clearer communication",
+     "state": "yes"
+    },
+    {
+     "label": "Firmer timelines",
+     "state": "yes"
+    },
+    {
+     "label": "A public record",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 122.3,
+   "duration": 1.8,
+   "type": "keyword_chip",
+   "text": "USUALLY CAN'T, QUICKLY",
+   "side": "left"
+  },
+  {
+   "start": 124.5,
+   "duration": 3.9,
+   "type": "big_statement",
+   "text": "An LOI is not a contract",
+   "eyebrow": "LOI"
+  },
+  {
+   "start": 129,
+   "duration": 3.3,
+   "type": "side_note",
+   "text": "Any outcome will take time",
+   "side": "left"
+  },
+  {
+   "start": 133,
+   "duration": 2.4,
+   "type": "annotation",
+   "text": "Not a quick fix",
+   "shape": "underline",
+   "side": "right"
+  },
+  {
+   "start": 138.1,
+   "duration": 3.4,
+   "type": "chapter_open",
+   "text": "What you should do",
+   "eyebrow": "Section 04",
+   "numeral": "04",
+   "section": 4
+  },
+  {
+   "start": 142.6,
+   "duration": 7.3,
+   "type": "bullet_list",
+   "side": "left",
+   "text": "1 · Keep a clean record",
+   "items": [
+    {
+     "label": "Letter of intent"
+    },
+    {
+     "label": "Every email"
+    },
+    {
+     "label": "Portal screenshots, with dates"
+    }
+   ]
+  },
+  {
+   "start": 152.9,
+   "duration": 5.5,
+   "type": "sample_answer",
+   "side": "right",
+   "text": "Subject: Onboarding timeline request\nCandidate ID: [your ID]\nRole: [your role]\nLOI date: [month, year]\nRequest: expected joining timeline"
+  },
+  {
+   "start": 159.3,
+   "duration": 1.8,
+   "type": "keyword_chip",
+   "text": "KEEP APPLYING",
+   "side": "left"
+  },
+  {
+   "start": 161.3,
+   "duration": 2.4,
+   "type": "side_note",
+   "text": "Protecting your career isn't disloyal",
+   "side": "right"
+  },
+  {
+   "start": 164,
+   "duration": 2.9,
+   "type": "big_statement",
+   "text": "Make an informed choice",
+   "eyebrow": "informed"
+  },
+  {
+   "start": 168.6,
+   "duration": 7,
+   "type": "flow_diagram",
+   "text": "4 · Use the wait",
+   "items": [
+    {
+     "label": "One strong skill"
+    },
+    {
+     "label": "One real project"
+    },
+    {
+     "label": "Ready either way"
+    }
+   ]
+  },
+  {
+   "start": 176.6,
+   "duration": 5.8,
+   "type": "bullet_list",
+   "side": "left",
+   "text": "To sum up",
+   "items": [
+    {
+     "label": "Union → Labour Ministry"
+    },
+    {
+     "label": "Same delays at other companies"
+    },
+    {
+     "label": "Attention, not a quick fix"
+    }
+   ]
+  },
+  {
+   "start": 185.2,
+   "duration": 3.4,
+   "type": "big_statement",
+   "text": "Your best protection is your own plan",
+   "eyebrow": "plan"
+  },
+  {
+   "start": 189,
+   "duration": 5.3,
+   "type": "quote_pull",
+   "text": "Which company? Which LOI month?",
+   "eyebrow": "Comment below"
+  },
+  {
+   "start": 194.8,
+   "duration": 2.4,
+   "type": "marquee_strip",
+   "text": "COMMENT · COMPANY · LOI MONTH",
+   "side": "left"
+  },
+  {
+   "start": 198,
+   "duration": 5.3,
+   "type": "big_statement",
+   "text": "Tomorrow: LTIMindtree eligibility test",
+   "eyebrow": "Tomorrow"
+  },
+  {
+   "start": 203.6,
+   "duration": 1.8,
+   "type": "keyword_chip",
+   "text": "SUBSCRIBE",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "index": 0,
+   "start": 0,
+   "end": 6.07,
+   "kind": "broll",
+   "src": "assets/broll/delhi-govt.mp4",
+   "media_start": 3,
+   "motion": "ken_in",
+   "grade": "noir",
+   "transition": "fade"
+  },
+  {
+   "index": 1,
+   "start": 6.07,
+   "end": 13.92,
+   "kind": "news",
+   "url": "https://www.outlookbusiness.com/corporate/wipro-delayed-onboarding-of-over-250-freshers-nites-complains-to-labour-ministry",
+   "source": "Outlook Business",
+   "headline": "Wipro Delayed Onboarding of Over 250 Freshers, NITES Complains to Labour Ministry",
+   "date": "19 Jan 2026",
+   "highlight": {
+    "x": 0.07,
+    "y": 0.262,
+    "w": 0.63,
+    "h": 0.062
+   },
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "index": 2,
+   "start": 13.92,
+   "end": 23.67,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "4",
+    "label": "things to know"
+   }
+  },
+  {
+   "index": 3,
+   "start": 23.67,
+   "end": 27.7,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 4,
+   "start": 27.7,
+   "end": 33.54,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "NITES",
+    "label": "IT employees' union"
+   }
+  },
+  {
+   "index": 5,
+   "start": 33.54,
+   "end": 42.99,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 6,
+   "start": 42.99,
+   "end": 48.89,
+   "kind": "news",
+   "url": "https://analyticsindiamag.com/ai-news-updates/employee-union-flags-fresher-onboarding-delays-at-wipro-seeks-labour-ministry-intervention",
+   "source": "Analytics India Magazine",
+   "headline": "Employee Union Flags Fresher Onboarding Delays at Wipro, Seeks Labour Ministry Intervention",
+   "date": "24 Jan 2026",
+   "highlight": {
+    "x": 0.04,
+    "y": 0.765,
+    "w": 0.5,
+    "h": 0.1
+   },
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "index": 7,
+   "start": 48.89,
+   "end": 56.22,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "May 2025",
+    "label": "letters of intent issued (reported)"
+   }
+  },
+  {
+   "index": 8,
+   "start": 56.22,
+   "end": 61.45,
+   "kind": "broll",
+   "src": "assets/broll/phone-wait.mp4",
+   "media_start": 1,
+   "motion": "ken_out",
+   "grade": "noir",
+   "transition": "fade"
+  },
+  {
+   "index": 9,
+   "start": 61.45,
+   "end": 64.23,
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "index": 10,
+   "start": 64.23,
+   "end": 74.41,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "Mint",
+    "label": "reported delays"
+   }
+  },
+  {
+   "index": 11,
+   "start": 74.41,
+   "end": 81.6,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "1",
+    "label": "Client caution"
+   }
+  },
+  {
+   "index": 12,
+   "start": 81.6,
+   "end": 88.4,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "1",
+    "label": "Client caution"
+   }
+  },
+  {
+   "index": 13,
+   "start": 88.4,
+   "end": 96.35,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "2",
+    "label": "A.I. + routine work"
+   }
+  },
+  {
+   "index": 14,
+   "start": 96.35,
+   "end": 105.89,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "3",
+    "label": "Demand-based onboarding"
+   }
+  },
+  {
+   "index": 15,
+   "start": 105.89,
+   "end": 109,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 16,
+   "start": 109,
+   "end": 115.8,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 17,
+   "start": 115.8,
+   "end": 122,
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "index": 18,
+   "start": 122,
+   "end": 128.5,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 19,
+   "start": 128.5,
+   "end": 137.78,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "No quick fix",
+    "label": ""
+   }
+  },
+  {
+   "index": 20,
+   "start": 137.78,
+   "end": 141.66,
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "index": 21,
+   "start": 141.66,
+   "end": 150.09,
+   "kind": "broll",
+   "src": "assets/broll/writing-notes.mp4",
+   "media_start": 1,
+   "motion": "pan_right",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 22,
+   "start": 150.09,
+   "end": 158.62,
+   "kind": "broll",
+   "src": "assets/broll/typing-email.mp4",
+   "media_start": 1,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 23,
+   "start": 158.62,
+   "end": 167.16,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "Keep applying",
+    "label": ""
+   }
+  },
+  {
+   "index": 24,
+   "start": 167.16,
+   "end": 175.86,
+   "kind": "broll",
+   "src": "assets/broll/laptop-home.mp4",
+   "media_start": 2,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 25,
+   "start": 175.86,
+   "end": 183.5,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Recap",
+    "label": ""
+   }
+  },
+  {
+   "index": 26,
+   "start": 183.5,
+   "end": 188.77,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 27,
+   "start": 188.77,
+   "end": 197.58,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 28,
+   "start": 197.58,
+   "end": 205.567,
+   "kind": "graphic",
+   "grade": "neutral"
+  }
+ ],
+ "camera_moves": []
+}

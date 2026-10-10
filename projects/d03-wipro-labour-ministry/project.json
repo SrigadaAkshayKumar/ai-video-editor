@@ -1,0 +1,106 @@
+{
+  "name": "d03-wipro-labour-ministry",
+  "createdAt": "2026-10-10T06:31:48.572Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d03-wipro-labour-ministry/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d03/d03-voice.wav",
+    "duration": 207.56,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d03-wipro-labour-ministry/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d03/d03_wipro_labour_ministry_voiceover.txt",
+    "words": 646,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d03-wipro-labour-ministry/source/screen-script.md"
+  },
+  "language": "en",
+  "keyterms": [
+    "Wipro",
+    "Ministry",
+    "Labour",
+    "The Nascent Information Technology Employees Senate",
+    "Cognizant",
+    "West Asia",
+    "Labour Ministry"
+  ],
+  "mode": "faceless",
+  "style": "blueprint",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "same edit format as prior Crack IT edits: blueprint style, 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d03-wipro-labour-ministry/source/intro.mp4",
+  "introAt": 24.05,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-10-10T06:33:30.414Z",
+      "words": 639,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-10-10T06:33:42.434Z",
+      "segments": 11,
+      "kept": 205.567
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-10-10T07:02:56.400Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d03-wipro-labour-ministry/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-10-10T07:03:01.650Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-10-10T07:03:01.684Z",
+      "groups": 168
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-10-10T07:03:17.978Z",
+      "music": 0,
+      "sfx": 26
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-10-10T07:12:43.091Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d03-wipro-labour-ministry/output/final-16x9.mp4",
+      "duration": 215.59
+    }
+  },
+  "detectedLanguage": {
+    "code": "eng",
+    "probability": null
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d03-wipro-labour-ministry/work/cleancut.wav",
+    "duration": 205.559875,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}
