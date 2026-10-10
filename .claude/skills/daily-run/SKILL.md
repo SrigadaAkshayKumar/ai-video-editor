@@ -28,7 +28,12 @@ voiceover and the brief. After you stop, the workflow runs `node tools/daily.mjs
 - **Crack IT series** (`inbox/faceless/Crack_IT_Daily_Videos/dNN/`): `dNN_<topic>_voiceover.txt` = spoken words
   (TTS spelling), `dNN_<topic>_script.md` = scenes + **Screen** directions (follow them; they ARE the direction pass),
   audio = the media file in the folder. Create with
-  `npm run new -- <audio-path> --mode faceless --brand crack-it --formats 16:9 --style <style> --no-captions --brief "<brief>"`.
+  `npm run new -- <audio-path> --mode faceless --brand crack-it --formats 16:9 --style <look's style> --no-captions --brief "<brief>; <look's brief>"`.
+- **Edit look:** the prompt names this episode's look (picked at random from `config/daily.json` → `looks`, never one
+  of the last two used, so consecutive episodes don't look alike). Its `--style` and its words (pacing, what leads
+  the picture: graphics, news screenshots or b-roll; SFX character) are part of the brief — follow them through
+  the visual plan and the SFX design, not just the theme. A brief override in the prompt wins where they clash.
+  Name the look in `daily-report.md`.
 - Results templates (d01, d05, d15, d16, d17) may still contain `{FILL…}`/`{OPTIONAL…}`: the spoken audio is the
   truth. Take numbers from the transcript and confirm them against the company's official press release (web
   search) before they go on screen; if they disagree or cannot be confirmed, fail the run rather than publish

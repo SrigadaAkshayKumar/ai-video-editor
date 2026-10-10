@@ -9,11 +9,14 @@
 //                                       script  the voiceover is missing or still has {FILL…}/{OPTIONAL…} (daily-script skill)
 //                                       voice   the voiceover is ready but there is no audio (tools/voice/tts.py)
 //                                       edit    the audio is there (daily-run skill)
+//                                     plus the edit look for the episode (config/daily.json → looks): a random pick,
+//                                     never one of the last `avoidRecent` looks used, so episodes don't all look alike.
 //   node tools/daily.mjs script-check reads daily-script.json (written by the daily-script skill), confirms the
 //                                     episode's script + voiceover are complete. Exit 1 = stop the run.
 //   node tools/daily.mjs check        reads daily-run.json (written by Claude at the end of the run), confirms the
 //                                     final video passes verify and the Shorts exist. Exit 1 = do not upload.
-//   node tools/daily.mjs done         records the episode in config/daily-state.json (committed by the workflow).
+//   node tools/daily.mjs done [--look name]  records the episode (and its look) in config/daily-state.json
+//                                     (committed by the workflow).
 // In GitHub Actions every answer is also written to $GITHUB_OUTPUT (episode, needs, project, shorts_dir, …).
 import { appendFileSync, existsSync, readFileSync, readdirSync } from "node:fs";
 import { basename, extname, join } from "node:path";
@@ -26,7 +29,7 @@ const RESULT = join(ROOT, "daily-run.json");
 const SCRIPT_RESULT = join(ROOT, "daily-script.json");
 const PLACEHOLDER = /\{(FILL|OPTIONAL)/i;
 
-const { positional } = parseCli();
+const { positional, flags } = parseCli();
 const [cmd, arg] = positional;
 const config = readJson(CONFIG);
 const state = existsSync(STATE) ? readJson(STATE) : { done: [] };
@@ -66,6 +69,29 @@ function needsOf(ep) {
   return "voice";
 }
 
+/**
+ * The edit look for an episode: random among the looks not used in the last `avoidRecent` finished episodes.
+ * Seeded by the episode name, so the plan and pick steps of one run (and a re-run) agree on the same look.
+ */
+function lookOf(episode) {
+  const list = config.looks?.list || [];
+  if (!list.length) return null;
+  // episodes finished before looks existed count as config.looks.untagged (they were all blueprint edits)
+  const recent = state.done
+    .filter((d) => d.episode !== episode && !d.note?.startsWith("skipped"))
+    .slice(-(config.looks.avoidRecent ?? 2))
+    .map((d) => d.look || config.looks.untagged);
+  const pool = list.filter((l) => !recent.includes(l.name));
+  const choices = pool.length ? pool : list;
+  let h = 2166136261;
+  for (const ch of episode.toLowerCase()) h = Math.imul(h ^ ch.charCodeAt(0), 16777619);
+  return choices[(h >>> 0) % choices.length];
+}
+const lookFields = (episode) => {
+  const look = lookOf(episode);
+  return look ? { look: look.name, look_style: look.style, look_brief: look.brief } : {};
+};
+
 if (cmd === "next") {
   if (!existsSync(series)) die(`${config.series} not found — is the Drive inbox synced?`);
   const episodes = listEpisodes();
@@ -78,7 +104,7 @@ if (cmd === "next") {
     }
     const last = episodes.length ? episodeNumber(episodes.at(-1)) : 0;
     const episode = `d${String(last + 1).padStart(2, "0")}`;
-    output({ episode, needs: "script", dir: rel(config.series, episode), audio: "", voiceover: "", brief: "" });
+    output({ episode, needs: "script", dir: rel(config.series, episode), audio: "", voiceover: "", brief: "", ...lookFields(episode) });
     process.exit(0);
   }
   const audio = audioOf(pick);
@@ -91,6 +117,7 @@ if (cmd === "next") {
     audio: audio ? rel(config.series, pick, audio) : "",
     voiceover: vo ? rel(config.series, pick, vo) : "",
     brief: existsSync(briefFile) ? readFileSync(briefFile, "utf8").trim().replace(/\s+/g, " ") : "",
+    ...lookFields(pick),
   });
 } else if (cmd === "script-check") {
   if (!existsSync(SCRIPT_RESULT)) die("daily-script.json missing — the script step did not finish");
@@ -122,7 +149,8 @@ if (cmd === "next") {
 } else if (cmd === "done") {
   const r = readJson(RESULT);
   state.done = state.done.filter((d) => d.episode !== r.episode);
-  state.done.push({ episode: r.episode, project: r.project, at: new Date().toISOString() });
+  const look = typeof flags.look === "string" && flags.look ? { look: flags.look } : {};
+  state.done.push({ episode: r.episode, project: r.project, ...look, at: new Date().toISOString() });
   writeJson(STATE, state);
   console.log(`${r.episode} → done (${basename(STATE)})`);
-} else die("usage: node tools/daily.mjs next [dNN] | script-check | check | done");
+} else die("usage: node tools/daily.mjs next [dNN] | script-check | check | done [--look name]");
