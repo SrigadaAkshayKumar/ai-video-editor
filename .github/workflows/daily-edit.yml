@@ -186,10 +186,15 @@ jobs:
           EPISODE: ${{ steps.pick.outputs.episode }}
           AUDIO: ${{ steps.pick.outputs.audio }}
           BRIEF: ${{ steps.pick.outputs.brief }}
+          LOOK: ${{ steps.pick.outputs.look }}
+          LOOK_STYLE: ${{ steps.pick.outputs.look_style }}
+          LOOK_BRIEF: ${{ steps.pick.outputs.look_brief }}
         run: |
+          echo "Edit look: **$LOOK** ($LOOK_STYLE)" >> "$GITHUB_STEP_SUMMARY"
           claude -p "This is the unattended daily run: use the daily-run skill.
           Episode: $EPISODE
           Voiceover: $AUDIO
+          Look for this episode: $LOOK (--style $LOOK_STYLE): $LOOK_BRIEF
           Brief override: ${BRIEF:-none, use config/daily.json}" \
             --dangerously-skip-permissions --output-format stream-json --verbose > claude-log.jsonl
 
@@ -213,8 +218,9 @@ jobs:
         if: steps.check.outcome == 'success'
         env:
           P: ${{ steps.check.outputs.project }}
+          LOOK: ${{ steps.pick.outputs.look }}
         run: |
-          node tools/daily.mjs done
+          node tools/daily.mjs done --look "$LOOK"
           git config user.name "daily-edit bot"
           git config user.email "actions@users.noreply.github.com"
           git add "projects/$P" config/daily-state.json

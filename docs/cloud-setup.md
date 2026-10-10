@@ -38,6 +38,9 @@ AI-edits/
   makes `d<next>/` itself from fresh news (turn that off with `"freshNews": false` in `config/daily.json`).
 - **Voice reference:** `inbox/brand/my-final-voice.*` plus its exact words in `config/voice.json` → `refText`.
   Recording a new reference? Upload it with the same name and update `refText` (a 10–20 s clip clones better).
+- **Edit looks:** each episode gets a look picked at random from `config/daily.json` → `looks.list` (a visual
+  style plus pacing, what leads the picture and the SFX character), never one of the last `avoidRecent` (2) used.
+  Add, remove or reword looks there; the run summary on GitHub and `daily-report.md` name the look used.
 - `brief.txt` (optional, one line) overrides the standing style in `config/daily.json` for that episode only.
 - A different Drive folder name: set the repository **variable** `DRIVE_ROOT`.
 

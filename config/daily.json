@@ -4,11 +4,41 @@
   "freshNews": true,
   "mode": "faceless",
   "formats": "16:9",
-  "style": "blueprint",
   "noCaptions": true,
   "bgm": false,
-  "brief": "same edit format as prior Crack IT edits: blueprint style, 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English",
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English",
   "shorts": {
     "framing": "black"
+  },
+  "looks": {
+    "avoidRecent": 2,
+    "untagged": "terminal",
+    "list": [
+      {
+        "name": "terminal",
+        "style": "blueprint",
+        "brief": "terminal / data-desk look: monospace, stepped plotter arrivals; graphic-led (flow diagrams, checklists, number rolls), b-roll sparse and docked; a beat every 5-7 s; crisp digital ticks and soft clicks for SFX"
+      },
+      {
+        "name": "newsroom",
+        "style": "broadcast",
+        "brief": "bold newsroom look: news screenshots and NewsCards lead, split-screen framing, oversized section numerals, high-contrast accents; punchy pace, a beat every 3-5 s; wipe whooshes and hits on section changes"
+      },
+      {
+        "name": "explainer",
+        "style": "cleantech",
+        "brief": "light product-explainer look: calm and clean, charts and comparison tables carry the numbers, generous white space, office/campus b-roll full frame between graphics; a beat every 6-8 s; soft, sparse SFX"
+      },
+      {
+        "name": "liquid",
+        "style": "liquid",
+        "brief": "modern liquid-glass look for a young audience: glossy capsules, jelly-spring arrivals, slow push-ins on b-roll, keyword chips and stat trios; energetic, a beat every 3-5 s; airy swooshes and pops"
+      },
+      {
+        "name": "story",
+        "style": "glass",
+        "brief": "documentary storytelling look: full-frame b-roll leads, graphics docked to one side, quote pulls on the key lines, timelines for the backstory; slower, a beat every 6-10 s; low sub-band SFX on structure only"
+      }
+    ]
   }
 }
