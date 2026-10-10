@@ -23,7 +23,7 @@ Built for **Crack IT**, a channel for engineering students and freshers moving f
 
 ```mermaid
 flowchart LR
-    A[06:00 IST cron<br/>GitHub Actions] --> B[Pull inbox<br/>from Google Drive]
+    A[15:03 IST cron<br/>GitHub Actions] --> B[Pull inbox<br/>from Google Drive]
     B --> C{Next episode<br/>needs?}
     C -- script --> D[Claude Code<br/>daily-script skill<br/>research + write]
     C -- voice --> E
@@ -111,7 +111,7 @@ npm run new -- inbox/faceless/my-voiceover.wav --mode faceless --brief "calm doc
 ```
 
 **Daily and unattended:** follow [docs/cloud-setup.md](docs/cloud-setup.md). It covers the Drive folder, the rclone
-login, GitHub secrets and the voice reference. After that it runs every day at 06:00 IST, or on demand from
+login, GitHub secrets and the voice reference. After that it runs every day at 15:03 IST, or on demand from
 **Actions → Daily edit → Run workflow**.
 
 ---

@@ -1,6 +1,6 @@
 # Daily cloud edits: one-time setup
 
-Every day at 06:00 IST, `.github/workflows/daily-edit.yml` runs on GitHub. It pulls the inbox from Google Drive and
+Every day at 15:03 IST, `.github/workflows/daily-edit.yml` runs on GitHub. It pulls the inbox from Google Drive and
 takes the next unfinished episode of the series, in order:
 
 1. **Script** (`daily-script` skill), only when the episode needs one: a planned episode whose voiceover still has
@@ -68,7 +68,7 @@ revoke it at the provider and replace the secret.
 
 ## 4. Schedule, cost, limits
 
-- Time: the `cron` line in the workflow is UTC (`30 0 * * *` = 06:00 IST). GitHub may start scheduled runs a few
+- Time: the `cron` line in the workflow is UTC (`33 9 * * *` = 15:03 IST; minutes :00 and :30 are GitHub's busiest and scheduled runs there get dropped). GitHub may start scheduled runs a few
   minutes late. To run one now, go to **Actions → Daily edit → Run workflow**, optionally naming an episode (`d03`)
   and style words.
 - Runner: `ubuntu-latest`, 4 CPUs / 16 GB RAM (public repo), max ~6 h per run. Renders are slower than on the laptop.
