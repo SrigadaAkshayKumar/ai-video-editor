@@ -1,0 +1,106 @@
+{
+  "name": "d06-why-fewer-freshers",
+  "createdAt": "2026-10-11T16:25:11.695Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d06-why-fewer-freshers/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d06/d06-voice.wav",
+    "duration": 261.34,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d06-why-fewer-freshers/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d06/d06_why_fewer_freshers_voiceover.txt",
+    "words": 817,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d06-why-fewer-freshers/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Cognizant",
+    "Companies",
+    "Reason",
+    "West Asia",
+    "Infosys",
+    "Git Hub"
+  ],
+  "mode": "faceless",
+  "style": "broadcast",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; bold newsroom look: news screenshots and NewsCards lead, split-screen framing, oversized section numerals, high-contrast accents; punchy pace, a beat every 3-5 s; wipe whooshes and hits on section changes",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d06-why-fewer-freshers/source/intro.mp4",
+  "introAt": 27.8,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-10-11T16:27:20.459Z",
+      "words": 805,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-10-11T16:27:32.782Z",
+      "segments": 16,
+      "kept": 257.067
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-10-11T17:07:28.387Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d06-why-fewer-freshers/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-10-11T17:12:20.553Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-10-11T17:12:20.590Z",
+      "groups": 215
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-10-11T17:12:59.384Z",
+      "music": 0,
+      "sfx": 29
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-10-11T17:17:08.137Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d06-why-fewer-freshers/output/final-16x9.mp4",
+      "duration": 267.093
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.938583,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d06-why-fewer-freshers/work/cleancut.wav",
+    "duration": 257.066708,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

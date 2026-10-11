@@ -1,0 +1,1151 @@
+{
+ "style": "broadcast",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.1,
+   "duration": 3.5,
+   "type": "title_slide",
+   "text": "Why Fewer Freshers?",
+   "eyebrow": "Crack IT · Day 06",
+   "style_hint": "Cognizant plans 24,000–25,000 hires in 2026",
+   "value": "25,000"
+  },
+  {
+   "start": 4.35,
+   "duration": 1.85,
+   "type": "keyword_chip",
+   "text": "CFO · FEB 2026",
+   "side": "right"
+  },
+  {
+   "start": 6.5,
+   "duration": 1.9,
+   "type": "keyword_chip",
+   "text": "LOI",
+   "side": "left"
+  },
+  {
+   "start": 8.5,
+   "duration": 1.8,
+   "type": "keyword_chip",
+   "text": "TIMELINE MAIL",
+   "side": "right"
+  },
+  {
+   "start": 10.4,
+   "duration": 1.3,
+   "type": "keyword_chip",
+   "text": "NO DOJ",
+   "side": "left"
+  },
+  {
+   "start": 11.9,
+   "duration": 3.2,
+   "type": "comparison",
+   "side": "left",
+   "left": {
+    "label": "We're hiring",
+    "text": "Drives · selections"
+   },
+   "right": {
+    "label": "Still waiting",
+    "text": "No joining date"
+   }
+  },
+  {
+   "start": 15.4,
+   "duration": 3.6,
+   "type": "big_statement",
+   "text": "Hiring ≠ onboarding",
+   "eyebrow": "≠"
+  },
+  {
+   "start": 19.3,
+   "duration": 5.7,
+   "type": "bullet_list",
+   "side": "right",
+   "text": "4 real reasons",
+   "items": [
+    {
+     "label": "AI does routine work"
+    },
+    {
+     "label": "Clients are cautious"
+    },
+    {
+     "label": "The bench"
+    },
+    {
+     "label": "Generalists → specialists"
+    }
+   ]
+  },
+  {
+   "start": 25.4,
+   "duration": 2.2,
+   "type": "big_statement",
+   "text": "The 4th decides your move",
+   "eyebrow": "4th"
+  },
+  {
+   "start": 28.2,
+   "duration": 2.1,
+   "type": "big_statement",
+   "text": "The contradiction, explained",
+   "eyebrow": "contradiction"
+  },
+  {
+   "start": 31.6,
+   "duration": 11,
+   "type": "flow_diagram",
+   "text": "Hiring vs onboarding",
+   "items": [
+    {
+     "label": "Hiring",
+     "sublabel": "campus drives"
+    },
+    {
+     "label": "The gate",
+     "sublabel": "slowdown here"
+    },
+    {
+     "label": "Onboarding",
+     "sublabel": "joining date · desk"
+    }
+   ]
+  },
+  {
+   "start": 43,
+   "duration": 3.4,
+   "type": "big_statement",
+   "text": "Onboarding is the slowdown",
+   "eyebrow": "slowdown"
+  },
+  {
+   "start": 47.2,
+   "duration": 8.6,
+   "type": "stat_trio",
+   "items": [
+    {
+     "label": "Hired in 2025",
+     "sublabel": "~",
+     "value": 20000
+    },
+    {
+     "label": "On client projects",
+     "sublabel": "~",
+     "value": 16000
+    }
+   ]
+  },
+  {
+   "start": 58,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "HEADCOUNT 356,700 · JUN 30",
+   "side": "right"
+  },
+  {
+   "start": 62.5,
+   "duration": 2.4,
+   "type": "number_roll",
+   "value": 900,
+   "prefix": "−",
+   "text": "Cognizant headcount, Mar → Jun 2026"
+  },
+  {
+   "start": 65.5,
+   "duration": 3.8,
+   "type": "big_statement",
+   "text": "Careful about WHEN",
+   "eyebrow": "WHEN"
+  },
+  {
+   "start": 70.6,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "AI does routine work",
+   "eyebrow": "Reason 01",
+   "numeral": "01",
+   "section": 1
+  },
+  {
+   "start": 77.4,
+   "duration": 5.7,
+   "type": "bullet_list",
+   "side": "right",
+   "text": "Fresher tasks · year 1",
+   "items": [
+    {
+     "label": "Basic testing"
+    },
+    {
+     "label": "Simple code"
+    },
+    {
+     "label": "Small bug fixes"
+    },
+    {
+     "label": "Documentation"
+    },
+    {
+     "label": "Support tickets"
+    }
+   ]
+  },
+  {
+   "start": 83.4,
+   "duration": 4.4,
+   "type": "keyword_chip",
+   "text": "AI CODING ASSISTANTS",
+   "side": "left"
+  },
+  {
+   "start": 88.9,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "NOT EVERY FRESHER",
+   "side": "right"
+  },
+  {
+   "start": 91.9,
+   "duration": 5.9,
+   "type": "flow_diagram",
+   "text": "With AI tools",
+   "items": [
+    {
+     "label": "1 experienced engineer",
+     "sublabel": "+ AI tools"
+    },
+    {
+     "label": "= a small team's work",
+     "sublabel": "same project"
+    }
+   ]
+  },
+  {
+   "start": 98,
+   "duration": 3.2,
+   "type": "big_statement",
+   "text": "Fewer new joiners needed",
+   "eyebrow": "Fewer"
+  },
+  {
+   "start": 101.4,
+   "duration": 3.05,
+   "type": "chapter_open",
+   "text": "Clients are cautious",
+   "eyebrow": "Reason 02",
+   "numeral": "02",
+   "section": 2
+  },
+  {
+   "start": 104.7,
+   "duration": 2.5,
+   "type": "keyword_chip",
+   "text": "US + EUROPE CLIENTS",
+   "side": "right"
+  },
+  {
+   "start": 107.6,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "ECONOMY · WEST ASIA TENSIONS",
+   "side": "left"
+  },
+  {
+   "start": 111.8,
+   "duration": 5.2,
+   "type": "side_note",
+   "text": "Delay projects, cut spending",
+   "side": "right"
+  },
+  {
+   "start": 117.4,
+   "duration": 5,
+   "type": "flow_diagram",
+   "text": "The chain",
+   "items": [
+    {
+     "label": "No new project"
+    },
+    {
+     "label": "No new team"
+    },
+    {
+     "label": "No new seats"
+    }
+   ]
+  },
+  {
+   "start": 122.8,
+   "duration": 6.5,
+   "type": "quote_pull",
+   "text": "Onboarding based on business requirements",
+   "eyebrow": "= when a client project needs you"
+  },
+  {
+   "start": 129.7,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "The bench",
+   "eyebrow": "Reason 03",
+   "numeral": "03",
+   "section": 3
+  },
+  {
+   "start": 132.9,
+   "duration": 5.9,
+   "type": "term_card",
+   "side": "right",
+   "text": "The bench",
+   "eyebrow": "Definition",
+   "items": [
+    {
+     "label": "On payroll, no client project. Slow projects grow it."
+    }
+   ]
+  },
+  {
+   "start": 139.5,
+   "duration": 1.9,
+   "type": "keyword_chip",
+   "text": "YOU'RE THE COMPANY",
+   "side": "left"
+  },
+  {
+   "start": 141.6,
+   "duration": 6.3,
+   "type": "flow_diagram",
+   "text": "Who moves first?",
+   "items": [
+    {
+     "label": "Bench staff",
+     "sublabel": "trained · first"
+    },
+    {
+     "label": "New project",
+     "sublabel": "staffed"
+    },
+    {
+     "label": "New fresher",
+     "sublabel": "waits"
+    }
+   ]
+  },
+  {
+   "start": 148.2,
+   "duration": 2.6,
+   "type": "big_statement",
+   "text": "Bench pushes joining dates out",
+   "eyebrow": "out"
+  },
+  {
+   "start": 151,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Generalists → Specialists",
+   "eyebrow": "Reason 04",
+   "numeral": "04",
+   "section": 4
+  },
+  {
+   "start": 154.3,
+   "duration": 2.7,
+   "type": "word_swap",
+   "from": "Generalist",
+   "to": "Specialist",
+   "text": "The shift"
+  },
+  {
+   "start": 157.4,
+   "duration": 3,
+   "type": "big_statement",
+   "text": "Different people, not just fewer",
+   "eyebrow": "Different"
+  },
+  {
+   "start": 160.6,
+   "duration": 6.1,
+   "type": "matrix_grid",
+   "text": "Still hiring for",
+   "items": [
+    {
+     "label": "AI"
+    },
+    {
+     "label": "Data engineering"
+    },
+    {
+     "label": "Cloud"
+    },
+    {
+     "label": "Cybersecurity"
+    },
+    {
+     "label": "DevOps"
+    }
+   ]
+  },
+  {
+   "start": 167.2,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "TCS · AI ENGINEERS (REPORTED)",
+   "side": "right"
+  },
+  {
+   "start": 171.6,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "A QUARTER TO A THIRD (REPORTED)",
+   "side": "right"
+  },
+  {
+   "start": 175.9,
+   "duration": 4.3,
+   "type": "keyword_chip",
+   "text": "FRONTIER CERTIFIED ENGINEERS",
+   "side": "right"
+  },
+  {
+   "start": 180.6,
+   "duration": 2.3,
+   "type": "big_statement",
+   "text": "Demand didn't vanish. It moved.",
+   "eyebrow": "moved"
+  },
+  {
+   "start": 183.3,
+   "duration": 7.2,
+   "type": "comparison",
+   "side": "left",
+   "left": {
+    "label": "Generalist",
+    "text": "Knows a little of everything. Waits longer."
+   },
+   "right": {
+    "label": "Specialist",
+    "text": "One in-demand skill + a project. Gets picked."
+   }
+  },
+  {
+   "start": 190.9,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "What to do",
+   "eyebrow": "Action plan",
+   "numeral": "05",
+   "section": 1
+  },
+  {
+   "start": 194.1,
+   "duration": 4.2,
+   "type": "matrix_grid",
+   "text": "Pick ONE",
+   "items": [
+    {
+     "label": "Data"
+    },
+    {
+     "label": "Cloud"
+    },
+    {
+     "label": "AI"
+    },
+    {
+     "label": "Cybersecurity"
+    }
+   ]
+  },
+  {
+   "start": 198.6,
+   "duration": 1.8,
+   "type": "keyword_chip",
+   "text": "GO DEEP",
+   "side": "right"
+  },
+  {
+   "start": 200.7,
+   "duration": 4.3,
+   "type": "keyword_chip",
+   "text": "1 REAL PROJECT · GITHUB",
+   "side": "left"
+  },
+  {
+   "start": 205.3,
+   "duration": 3.3,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Project",
+    "text": "Proof"
+   },
+   "right": {
+    "label": "Certificate alone",
+    "text": "Not enough"
+   }
+  },
+  {
+   "start": 209,
+   "duration": 3.9,
+   "type": "keyword_chip",
+   "text": "KEEP OPTIONS OPEN",
+   "side": "left"
+  },
+  {
+   "start": 213.1,
+   "duration": 2.5,
+   "type": "side_note",
+   "text": "Mid-size + product firms hire too",
+   "side": "right"
+  },
+  {
+   "start": 216.3,
+   "duration": 3.7,
+   "type": "keyword_chip",
+   "text": "MOVE TOWARD YOUR SPECIALTY",
+   "side": "right"
+  },
+  {
+   "start": 220.3,
+   "duration": 6,
+   "type": "flow_diagram",
+   "text": "Internal move",
+   "items": [
+    {
+     "label": "Training"
+    },
+    {
+     "label": "First project"
+    },
+    {
+     "label": "Specialist skill"
+    }
+   ]
+  },
+  {
+   "start": 226.7,
+   "duration": 6.1,
+   "type": "matrix_grid",
+   "text": "4 reasons",
+   "items": [
+    {
+     "label": "AI does routine work"
+    },
+    {
+     "label": "Clients are cautious"
+    },
+    {
+     "label": "A big bench"
+    },
+    {
+     "label": "Shift to specialists"
+    }
+   ]
+  },
+  {
+   "start": 235.4,
+   "duration": 2.4,
+   "type": "big_statement",
+   "text": "Adapt to the shift, get in first",
+   "eyebrow": "first"
+  },
+  {
+   "start": 238.5,
+   "duration": 5.6,
+   "type": "poll_prompt",
+   "text": "Which specialist direction?",
+   "eyebrow": "Comment below",
+   "items": [
+    {
+     "label": "AI",
+     "value": 40
+    },
+    {
+     "label": "Data",
+     "value": 30
+    },
+    {
+     "label": "Cloud",
+     "value": 20
+    },
+    {
+     "label": "Cybersecurity",
+     "value": 25
+    }
+   ]
+  },
+  {
+   "start": 244.4,
+   "duration": 2.5,
+   "type": "keyword_chip",
+   "text": "ROADMAP FOR THE WINNER",
+   "side": "left"
+  },
+  {
+   "start": 247.1,
+   "duration": 4.8,
+   "type": "big_statement",
+   "text": "Tomorrow: fresher salary reality",
+   "eyebrow": "Tomorrow"
+  },
+  {
+   "start": 252.1,
+   "duration": 3.2,
+   "type": "word_swap",
+   "from": "Package",
+   "to": "In-hand",
+   "text": "The real salary"
+  },
+  {
+   "start": 255.5,
+   "duration": 1.5,
+   "type": "keyword_chip",
+   "text": "SUBSCRIBE",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "index": 0,
+   "start": 0,
+   "end": 4,
+   "kind": "graphic",
+   "grade": "hot",
+   "card": {
+    "value": "25,000",
+    "label": "Cognizant fresher plan, 2026"
+   }
+  },
+  {
+   "index": 1,
+   "start": 4,
+   "end": 6.31,
+   "kind": "news",
+   "url": "https://www.freepressjournal.in/amp/tech/cognizant-plans-to-hire-25000-freshers-in-2026-cfo-jatin-dalal-confirms",
+   "source": "Free Press Journal",
+   "headline": "Cognizant Plans To Hire 25,000 Freshers In 2026: CFO Jatin Dalal Confirms",
+   "date": "6 Feb 2026",
+   "highlight": {
+    "x": 0.01,
+    "y": 0.04,
+    "w": 0.64,
+    "h": 0.03
+   },
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "index": 2,
+   "start": 6.31,
+   "end": 11.74,
+   "kind": "broll",
+   "src": "assets/broll/home.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "noir",
+   "transition": "fade"
+  },
+  {
+   "index": 3,
+   "start": 11.74,
+   "end": 15.19,
+   "kind": "graphic",
+   "grade": "hot",
+   "card": {
+    "value": "Hiring",
+    "label": "vs still waiting"
+   }
+  },
+  {
+   "index": 4,
+   "start": 15.19,
+   "end": 19.13,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "=",
+    "label": "both are true"
+   }
+  },
+  {
+   "index": 5,
+   "start": 19.13,
+   "end": 25.2,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "4",
+    "label": "real reasons"
+   }
+  },
+  {
+   "index": 6,
+   "start": 25.2,
+   "end": 28.05,
+   "kind": "graphic",
+   "grade": "hot",
+   "card": {
+    "value": "#4",
+    "label": "decides your next move"
+   }
+  },
+  {
+   "index": 7,
+   "start": 28.05,
+   "end": 31.5,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 8,
+   "start": 31.5,
+   "end": 38.84,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "Hiring",
+    "label": "campus drives · selection"
+   }
+  },
+  {
+   "index": 9,
+   "start": 38.84,
+   "end": 46.53,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "Onboarding",
+    "label": "joining date · desk"
+   }
+  },
+  {
+   "index": 10,
+   "start": 46.53,
+   "end": 55.94,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "2025",
+    "label": "Cognizant fresher intake"
+   }
+  },
+  {
+   "index": 11,
+   "start": 55.94,
+   "end": 57.55,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 12,
+   "start": 57.55,
+   "end": 62.4,
+   "kind": "news",
+   "url": "https://investors.cognizant.com/news-and-events/news/news-details/2026/Cognizant-Reports-Second-Quarter-2026-Results/default.aspx",
+   "source": "Cognizant Investor Relations",
+   "headline": "Cognizant Reports Second Quarter 2026 Results",
+   "date": "29 Jul 2026",
+   "highlight": {
+    "x": 0.09,
+    "y": 0.248,
+    "w": 0.5,
+    "h": 0.026
+   },
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "index": 13,
+   "start": 62.4,
+   "end": 65,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "−900",
+    "label": "Mar → Jun 2026"
+   }
+  },
+  {
+   "index": 14,
+   "start": 65,
+   "end": 70.53,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "WHEN",
+    "label": "not whether"
+   }
+  },
+  {
+   "index": 15,
+   "start": 70.53,
+   "end": 77.27,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "01",
+    "label": "AI does routine work"
+   }
+  },
+  {
+   "index": 16,
+   "start": 77.27,
+   "end": 83.16,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "5",
+    "label": "fresher year-1 tasks"
+   }
+  },
+  {
+   "index": 17,
+   "start": 83.16,
+   "end": 88.5,
+   "kind": "broll",
+   "src": "assets/broll/code.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 18,
+   "start": 88.5,
+   "end": 97.94,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "1 + AI",
+    "label": "one engineer"
+   }
+  },
+  {
+   "index": 19,
+   "start": 97.94,
+   "end": 101.38,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "Fewer",
+    "label": "new joiners needed"
+   }
+  },
+  {
+   "index": 20,
+   "start": 101.38,
+   "end": 104.4,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 21,
+   "start": 104.4,
+   "end": 111.5,
+   "kind": "broll",
+   "src": "assets/broll/city.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 22,
+   "start": 111.5,
+   "end": 117.16,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "Delay",
+    "label": "new projects · spend cut"
+   }
+  },
+  {
+   "index": 23,
+   "start": 117.16,
+   "end": 122.5,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "0",
+    "label": "new seats"
+   }
+  },
+  {
+   "index": 24,
+   "start": 122.5,
+   "end": 129.63,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "Business",
+    "label": "requirements"
+   }
+  },
+  {
+   "index": 25,
+   "start": 129.63,
+   "end": 132.7,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 26,
+   "start": 132.7,
+   "end": 138.9,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 0,
+   "motion": "pan_right",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 27,
+   "start": 138.9,
+   "end": 141.5,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "Bench",
+    "label": "on payroll · no project"
+   }
+  },
+  {
+   "index": 28,
+   "start": 141.5,
+   "end": 148.03,
+   "kind": "broll",
+   "src": "assets/broll/waiting.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "noir",
+   "transition": "fade"
+  },
+  {
+   "index": 29,
+   "start": 148.03,
+   "end": 150.91,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 30,
+   "start": 150.91,
+   "end": 154,
+   "kind": "graphic",
+   "grade": "hot"
+  },
+  {
+   "index": 31,
+   "start": 154,
+   "end": 160.51,
+   "kind": "graphic",
+   "grade": "hot",
+   "card": {
+    "value": "4",
+    "label": "generalist → specialist"
+   }
+  },
+  {
+   "index": 32,
+   "start": 160.51,
+   "end": 166.76,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "AI · Data",
+    "label": "cloud · cyber · DevOps"
+   }
+  },
+  {
+   "index": 33,
+   "start": 166.76,
+   "end": 171.3,
+   "kind": "news",
+   "url": "https://www.freepressjournal.in/tech/tcs-to-build-team-of-up-to-8900-ai-deployment-engineers-eyes-acquisitions-in-ai-and-cybersecurity",
+   "source": "Free Press Journal (Reuters)",
+   "headline": "TCS To Build Team Of Up To 8,900 AI Deployment Engineers; Eyes Acquisitions In AI And Cybersecurity",
+   "date": "13 Jul 2026",
+   "highlight": {
+    "x": 0.11,
+    "y": 0.113,
+    "w": 0.78,
+    "h": 0.037
+   },
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "index": 34,
+   "start": 171.3,
+   "end": 175.57,
+   "kind": "news",
+   "url": "https://www.peoplematters.in/news/ai-and-emerging-tech/infosys-may-move-up-to-33percent-employees-into-specialist-ai-roles-52388",
+   "source": "People Matters",
+   "headline": "Infosys may move up to 33% employees into specialist AI roles",
+   "date": "29 Sep 2026",
+   "highlight": {
+    "x": 0.055,
+    "y": 0.122,
+    "w": 0.57,
+    "h": 0.037
+   },
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "index": 35,
+   "start": 175.57,
+   "end": 180.4,
+   "kind": "news",
+   "url": "https://aimagazine.com/news/cognizant-adds-roles-for-ai-era-workforce-strategy",
+   "source": "AI Magazine",
+   "headline": "Cognizant Adds Roles for AI Era Workforce Strategy",
+   "date": "4 Jun 2026",
+   "highlight": {
+    "x": 0.13,
+    "y": 0.127,
+    "w": 0.68,
+    "h": 0.045
+   },
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "index": 36,
+   "start": 180.4,
+   "end": 183,
+   "kind": "graphic",
+   "grade": "hot",
+   "card": {
+    "value": "Moved",
+    "label": "demand has shifted"
+   }
+  },
+  {
+   "index": 37,
+   "start": 183,
+   "end": 190.79,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 38,
+   "start": 190.79,
+   "end": 194,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 39,
+   "start": 194,
+   "end": 198.4,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "1",
+    "label": "one direction"
+   }
+  },
+  {
+   "index": 40,
+   "start": 198.4,
+   "end": 205.1,
+   "kind": "broll",
+   "src": "assets/broll/code.mp4",
+   "media_start": 8,
+   "motion": "pan_left",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 41,
+   "start": 205.1,
+   "end": 208.69,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 42,
+   "start": 208.69,
+   "end": 216.17,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "3",
+    "label": "keep options open"
+   }
+  },
+  {
+   "index": 43,
+   "start": 216.17,
+   "end": 220.2,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "4",
+    "label": "move toward your specialty"
+   }
+  },
+  {
+   "index": 44,
+   "start": 220.2,
+   "end": 226.51,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 45,
+   "start": 226.51,
+   "end": 235.27,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "4",
+    "label": "reasons · one shift"
+   }
+  },
+  {
+   "index": 46,
+   "start": 235.27,
+   "end": 238.37,
+   "kind": "graphic",
+   "grade": "hot"
+  },
+  {
+   "index": 47,
+   "start": 238.37,
+   "end": 244.21,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 48,
+   "start": 244.21,
+   "end": 252,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "Tomorrow",
+    "label": "fresher salary reality"
+   }
+  },
+  {
+   "index": 49,
+   "start": 252,
+   "end": 257.07,
+   "kind": "graphic",
+   "grade": "noir"
+  }
+ ],
+ "camera_moves": []
+}
