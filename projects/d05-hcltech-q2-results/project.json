@@ -1,0 +1,105 @@
+{
+  "name": "d05-hcltech-q2-results",
+  "createdAt": "2026-10-12T19:48:49.349Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d05-hcltech-q2-results/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d05/d05-voice.wav",
+    "duration": 265.600083,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d05-hcltech-q2-results/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d05/d05_hcltech_q2_results_voiceover.txt",
+    "words": 812,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d05-hcltech-q2-results/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Tech",
+    "Roshni Nadar Malhotra",
+    "Keep",
+    "Infosys",
+    "Cognizant"
+  ],
+  "mode": "faceless",
+  "style": "blueprint",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; terminal / data-desk look: monospace, stepped plotter arrivals; graphic-led (flow diagrams, checklists, number rolls), b-roll sparse and docked; a beat every 5-7 s; crisp digital ticks and soft clicks for SFX",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d05-hcltech-q2-results/source/intro.mp4",
+  "introAt": 18.9,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-10-12T19:50:53.158Z",
+      "words": 737,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-10-12T19:51:05.820Z",
+      "segments": 14,
+      "kept": 261.5
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-10-12T20:22:53.642Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d05-hcltech-q2-results/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-10-12T20:24:18.093Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-10-12T20:24:18.130Z",
+      "groups": 195
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-10-12T20:24:29.005Z",
+      "music": 0,
+      "sfx": 36
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-10-12T20:29:32.542Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d05-hcltech-q2-results/output/final-16x9.mp4",
+      "duration": 271.509
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.88951,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d05-hcltech-q2-results/work/cleancut.wav",
+    "duration": 261.500125,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

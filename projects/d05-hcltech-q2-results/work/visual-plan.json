@@ -1,0 +1,857 @@
+{
+ "style": "blueprint",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.1,
+   "duration": 3.5,
+   "type": "title_slide",
+   "text": "HCLTech Q2: Hiring Freshers?",
+   "eyebrow": "Crack IT · Day 05",
+   "style_hint": "Headcount + hiring, from the numbers",
+   "value": "Q2"
+  },
+  {
+   "start": 4.2,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "RESULTS · 12 OCT 2026",
+   "side": "right"
+  },
+  {
+   "start": 8,
+   "duration": 2.7,
+   "type": "poll_prompt",
+   "text": "Is HCL hiring freshers?",
+   "eyebrow": "The question",
+   "items": [
+    {
+     "label": "HIRING",
+     "value": 50
+    },
+    {
+     "label": "NOT HIRING",
+     "value": 50
+    }
+   ]
+  },
+  {
+   "start": 10.87,
+   "duration": 3.44,
+   "type": "big_statement",
+   "text": "The answer, from the numbers",
+   "eyebrow": "numbers"
+  },
+  {
+   "start": 14.61,
+   "duration": 3.33,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "HCLTech",
+    "text": "Q2 · 12 Oct"
+   },
+   "right": {
+    "label": "TCS",
+    "text": "Q2 · 8 Oct"
+   }
+  },
+  {
+   "start": 19.15,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "The quick numbers",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 1
+  },
+  {
+   "start": 22.86,
+   "duration": 4.03,
+   "type": "number_roll",
+   "value": 35620,
+   "prefix": "₹",
+   "suffix": " cr",
+   "text": "Revenue, Jul–Sep quarter"
+  },
+  {
+   "start": 27.09,
+   "duration": 1.79,
+   "type": "keyword_chip",
+   "text": "CC GROWTH +2.6% YoY",
+   "side": "right"
+  },
+  {
+   "start": 29.08,
+   "duration": 2.82,
+   "type": "number_roll",
+   "value": 18.2,
+   "decimals": 1,
+   "suffix": "%",
+   "text": "Operating margin"
+  },
+  {
+   "start": 32.1,
+   "duration": 5.02,
+   "type": "number_roll",
+   "value": 5132,
+   "prefix": "₹",
+   "suffix": " cr",
+   "text": "Net profit · up 21% YoY"
+  },
+  {
+   "start": 37.42,
+   "duration": 4.57,
+   "type": "big_statement",
+   "text": "A solid quarter",
+   "eyebrow": "solid"
+  },
+  {
+   "start": 42.29,
+   "duration": 5.19,
+   "type": "number_roll",
+   "value": 3.3,
+   "decimals": 1,
+   "prefix": "$",
+   "suffix": " bn",
+   "text": "New deal wins · up 27% YoY"
+  },
+  {
+   "start": 47.68,
+   "duration": 5.8,
+   "type": "flow_diagram",
+   "text": "Why deals matter",
+   "items": [
+    {
+     "label": "Deal win"
+    },
+    {
+     "label": "New project",
+     "sublabel": "a few months later"
+    },
+    {
+     "label": "New seats",
+     "sublabel": "for freshers"
+    }
+   ]
+  },
+  {
+   "start": 53.68,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Headcount and freshers",
+   "eyebrow": "Section 02",
+   "numeral": "02",
+   "section": 2
+  },
+  {
+   "start": 57.65,
+   "duration": 3.05,
+   "type": "number_roll",
+   "value": 230339,
+   "text": "Employees at quarter end"
+  },
+  {
+   "start": 60.91,
+   "duration": 4.17,
+   "type": "keyword_chip",
+   "text": "NET ADDITION +6,450",
+   "side": "left"
+  },
+  {
+   "start": 65.28,
+   "duration": 8.55,
+   "type": "flow_diagram",
+   "text": "Freshers added per quarter",
+   "items": [
+    {
+     "label": "Jun quarter",
+     "sublabel": "1,056"
+    },
+    {
+     "label": "Sep quarter",
+     "sublabel": "6,136"
+    }
+   ]
+  },
+  {
+   "start": 74.14,
+   "duration": 7.4,
+   "type": "big_statement",
+   "text": "Headcount + freshers both up",
+   "eyebrow": "both"
+  },
+  {
+   "start": 81.73,
+   "duration": 8.67,
+   "type": "comparison",
+   "side": "left",
+   "left": {
+    "label": "Jun quarter",
+    "text": "12.7%"
+   },
+   "right": {
+    "label": "Sep quarter",
+    "text": "12.8%"
+   }
+  },
+  {
+   "start": 90.6,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "What management said",
+   "eyebrow": "Section 03",
+   "numeral": "03",
+   "section": 3
+  },
+  {
+   "start": 98.64,
+   "duration": 5.44,
+   "type": "number_roll",
+   "value": 219,
+   "prefix": "$",
+   "suffix": " m",
+   "text": "Advanced AI revenue · up 78% YoY"
+  },
+  {
+   "start": 104.28,
+   "duration": 5.83,
+   "type": "quote_pull",
+   "text": "This growth supports the company's AI strategy",
+   "eyebrow": "Roshni Nadar Malhotra, chairperson (paraphrased)"
+  },
+  {
+   "start": 110.31,
+   "duration": 5.81,
+   "type": "big_statement",
+   "text": "No hiring target. Tone: positive",
+   "eyebrow": "positive"
+  },
+  {
+   "start": 116.33,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Which candidate are you?",
+   "eyebrow": "Section 04",
+   "numeral": "04",
+   "section": 4
+  },
+  {
+   "start": 121.29,
+   "duration": 10.73,
+   "type": "checklist",
+   "text": "Offer + joining date",
+   "items": [
+    {
+     "label": "Documents ready",
+     "state": "yes"
+    },
+    {
+     "label": "Finish pre-joining tasks",
+     "state": "yes"
+    },
+    {
+     "label": "Watch your email",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 132.52,
+   "duration": 4.77,
+   "type": "bullet_list",
+   "side": "right",
+   "text": "Offer, no joining date",
+   "items": [
+    {
+     "label": "Direction clear"
+    },
+    {
+     "label": "Portal + spam"
+    },
+    {
+     "label": "No pending doc"
+    }
+   ]
+  },
+  {
+   "start": 137.49,
+   "duration": 6.14,
+   "type": "keyword_chip",
+   "text": "HEADCOUNT +6,450 → WAVES CONTINUE",
+   "side": "right"
+  },
+  {
+   "start": 143.83,
+   "duration": 4.7,
+   "type": "keyword_chip",
+   "text": "CHECK PORTAL + SPAM",
+   "side": "left"
+  },
+  {
+   "start": 148.73,
+   "duration": 4.48,
+   "type": "keyword_chip",
+   "text": "PENDING DOC = DELAY",
+   "side": "right"
+  },
+  {
+   "start": 153.51,
+   "duration": 5.42,
+   "type": "keyword_chip",
+   "text": "STILL A STUDENT",
+   "side": "left"
+  },
+  {
+   "start": 159.13,
+   "duration": 6.59,
+   "type": "fact_band",
+   "items": [
+    {
+     "label": "Growing deals need people",
+     "sublabel": "still a student"
+    },
+    {
+     "label": "Skills decide who is picked",
+     "sublabel": "prepare harder"
+    }
+   ]
+  },
+  {
+   "start": 166.02,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "While you wait",
+   "eyebrow": "Section 05",
+   "numeral": "05",
+   "section": 1
+  },
+  {
+   "start": 170.33,
+   "duration": 27.89,
+   "type": "step_progress",
+   "side": "left",
+   "text": "Three things this week",
+   "current_step": 0,
+   "items": [
+    {
+     "label": "Documents show 'received'",
+     "at": 0
+    },
+    {
+     "label": "Log every email + date",
+     "at": 12.234999999999985
+    },
+    {
+     "label": "Revise language + SQL",
+     "at": 19.945999999999998
+    }
+   ]
+  },
+  {
+   "start": 198.31,
+   "duration": 2.87,
+   "type": "side_note",
+   "text": "Assessments shape project 1",
+   "side": "right"
+  },
+  {
+   "start": 201.38,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "HCLTech vs TCS",
+   "eyebrow": "Section 06",
+   "numeral": "06",
+   "section": 2
+  },
+  {
+   "start": 206.12,
+   "duration": 7.88,
+   "type": "bar_chart",
+   "side": "right",
+   "text": "Net headcount added",
+   "items": [
+    {
+     "label": "TCS",
+     "value": 4258
+    },
+    {
+     "label": "HCLTech",
+     "value": 6450
+    }
+   ]
+  },
+  {
+   "start": 214.2,
+   "duration": 5,
+   "type": "comparison",
+   "side": "left",
+   "left": {
+    "label": "TCS",
+    "text": "Cautious, improving"
+   },
+   "right": {
+    "label": "HCLTech",
+    "text": "Positive"
+   }
+  },
+  {
+   "start": 219.41,
+   "duration": 7.38,
+   "type": "big_statement",
+   "text": "HCLTech looks more positive",
+   "eyebrow": "positive"
+  },
+  {
+   "start": 226.98,
+   "duration": 3.77,
+   "type": "timeline",
+   "side": "right",
+   "text": "Results calendar",
+   "current": 1,
+   "items": [
+    {
+     "label": "TCS",
+     "sublabel": "8 Oct ✓"
+    },
+    {
+     "label": "HCLTech",
+     "sublabel": "12 Oct ✓"
+    },
+    {
+     "label": "Infosys",
+     "sublabel": "23 Oct"
+    },
+    {
+     "label": "Cognizant",
+     "sublabel": "28 Oct"
+    }
+   ]
+  },
+  {
+   "start": 230.95,
+   "duration": 4.21,
+   "type": "keyword_chip",
+   "text": "ALL FOUR · 30 OCT",
+   "side": "right"
+  },
+  {
+   "start": 235.36,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "To sum up",
+   "eyebrow": "Section 07",
+   "numeral": "07",
+   "section": 3
+  },
+  {
+   "start": 238.66,
+   "duration": 9.22,
+   "type": "checklist",
+   "text": "HCLTech Q2 verdict",
+   "items": [
+    {
+     "label": "Solid quarter",
+     "state": "yes"
+    },
+    {
+     "label": "Headcount up",
+     "state": "yes"
+    },
+    {
+     "label": "Hiring tone positive",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 248.08,
+   "duration": 7.23,
+   "type": "quote_pull",
+   "text": "HCL offer month · joining date: yes / no?",
+   "eyebrow": "Comment below"
+  },
+  {
+   "start": 255.5,
+   "duration": 5.7,
+   "type": "keyword_chip",
+   "text": "SUBSCRIBE · INFOSYS + COGNIZANT NEXT",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "index": 0,
+   "start": 0,
+   "end": 3.9,
+   "kind": "graphic",
+   "grade": "hot",
+   "card": {
+    "value": "Q2",
+    "label": "HCLTech · Jul–Sep"
+   }
+  },
+  {
+   "index": 1,
+   "start": 3.9,
+   "end": 7.8,
+   "kind": "news",
+   "url": "https://www.business-standard.com/companies/quarterly-results/hcltech-q2-net-profit-rises-21-2-to-5-132-cr-revenue-climbs-11-5-126101200772_1.html",
+   "source": "Business Standard",
+   "headline": "HCLTech Q2 net profit rises 21.2% to ₹5,132 cr, revenue climbs 11.5%",
+   "date": "12 Oct 2026",
+   "highlight": {
+    "x": 0.09,
+    "y": 0.238,
+    "w": 0.54,
+    "h": 0.046
+   },
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "index": 2,
+   "start": 7.8,
+   "end": 14.51,
+   "kind": "graphic",
+   "grade": "hot",
+   "card": {
+    "value": "?",
+    "label": "hiring freshers or not"
+   }
+  },
+  {
+   "index": 3,
+   "start": 14.51,
+   "end": 19.15,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "vs",
+    "label": "TCS · 4 days earlier"
+   }
+  },
+  {
+   "index": 4,
+   "start": 19.15,
+   "end": 22.86,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 5,
+   "start": 22.86,
+   "end": 31.9,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "₹35,620",
+    "label": "crore revenue"
+   }
+  },
+  {
+   "index": 6,
+   "start": 31.9,
+   "end": 37.12,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "+21%",
+    "label": "net profit YoY"
+   }
+  },
+  {
+   "index": 7,
+   "start": 37.12,
+   "end": 41.99,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 8,
+   "start": 41.99,
+   "end": 53.68,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "$3.3bn",
+    "label": "new deal wins"
+   }
+  },
+  {
+   "index": 9,
+   "start": 53.68,
+   "end": 57.65,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 10,
+   "start": 57.65,
+   "end": 65.08,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "2,30,339",
+    "label": "employees"
+   }
+  },
+  {
+   "index": 11,
+   "start": 65.08,
+   "end": 73.84,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "6,136",
+    "label": "freshers added"
+   }
+  },
+  {
+   "index": 12,
+   "start": 73.84,
+   "end": 81.53,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "↑↑",
+    "label": "headcount + freshers"
+   }
+  },
+  {
+   "index": 13,
+   "start": 81.53,
+   "end": 90.6,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "12.8%",
+    "label": "attrition"
+   }
+  },
+  {
+   "index": 14,
+   "start": 90.6,
+   "end": 98.44,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 15,
+   "start": 98.44,
+   "end": 110.11,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "$219m",
+    "label": "Advanced AI revenue"
+   }
+  },
+  {
+   "index": 16,
+   "start": 110.11,
+   "end": 116.33,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "+",
+    "label": "positive tone"
+   }
+  },
+  {
+   "index": 17,
+   "start": 116.33,
+   "end": 121.29,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 18,
+   "start": 121.29,
+   "end": 132.52,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "DOJ ✓",
+    "label": "offer + joining date"
+   }
+  },
+  {
+   "index": 19,
+   "start": 132.52,
+   "end": 143.63,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "No DOJ",
+    "label": "yet"
+   }
+  },
+  {
+   "index": 20,
+   "start": 143.63,
+   "end": 153.21,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "Portal",
+    "label": "+ spam folder"
+   }
+  },
+  {
+   "index": 21,
+   "start": 153.21,
+   "end": 158.93,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "Student",
+    "label": "still preparing"
+   }
+  },
+  {
+   "index": 22,
+   "start": 158.93,
+   "end": 166.02,
+   "kind": "broll",
+   "src": "assets/broll/campus.mp4",
+   "media_start": 2,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 23,
+   "start": 166.02,
+   "end": 170.33,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 24,
+   "start": 170.33,
+   "end": 182.36,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "1",
+    "label": "documents"
+   }
+  },
+  {
+   "index": 25,
+   "start": 182.36,
+   "end": 190.07,
+   "kind": "broll",
+   "src": "assets/broll/notes.mp4",
+   "media_start": 3,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 26,
+   "start": 190.07,
+   "end": 201.38,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 27,
+   "start": 201.38,
+   "end": 205.92,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 28,
+   "start": 205.92,
+   "end": 214,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "+6,450",
+    "label": "HCLTech net adds"
+   }
+  },
+  {
+   "index": 29,
+   "start": 214,
+   "end": 219.21,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "Tone",
+    "label": "cautious vs positive"
+   }
+  },
+  {
+   "index": 30,
+   "start": 219.21,
+   "end": 226.78,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "HCL",
+    "label": "more positive"
+   }
+  },
+  {
+   "index": 31,
+   "start": 226.78,
+   "end": 235.36,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "30 Oct",
+    "label": "all four together"
+   }
+  },
+  {
+   "index": 32,
+   "start": 235.36,
+   "end": 238.46,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 33,
+   "start": 238.46,
+   "end": 247.88,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "Good",
+    "label": "direction for freshers"
+   }
+  },
+  {
+   "index": 34,
+   "start": 247.88,
+   "end": 255.3,
+   "kind": "graphic",
+   "grade": "hot",
+   "card": {
+    "value": "?",
+    "label": "offer month · DOJ"
+   }
+  },
+  {
+   "index": 35,
+   "start": 255.3,
+   "end": 261.5,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "Next",
+    "label": "Infosys · Cognizant"
+   }
+  }
+ ],
+ "camera_moves": []
+}
