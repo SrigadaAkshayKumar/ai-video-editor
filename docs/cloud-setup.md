@@ -69,7 +69,37 @@ never gives them to pull requests from forks. Run logs themselves are public, so
 (`output/_logs/`) instead of run artifacts. Never paste a key into a commit, issue or workflow file; if one leaks,
 revoke it at the provider and replace the secret.
 
-## 4. Schedule, cost, limits
+## 4. YouTube upload (optional)
+
+After the Drive upload, the run uploads the video and up to three Shorts to the channel as **Private with a publish
+time**, so YouTube publishes them by itself (`tools/youtube.mjs`). The default schedule is the main video the next day
+at 18:00 IST and the Shorts the day after at 09:00, 13:00 and 21:00. Change it in `config/daily.json` → `youtube`. The
+upload sets the title, description, tags, the "altered or synthetic content" label (the voice is an AI clone),
+category Education, and the thumbnail when the run made one. Links go to the run page and to
+`youtube-uploaded.json` in the episode's Drive folder. Watch each video in Studio before its time; change or cancel
+anything there.
+
+One-time setup, signed in with the Google account that **owns the channel**:
+
+1. <https://console.cloud.google.com> → create a project (any name).
+2. **APIs & Services → Library** → *YouTube Data API v3* → **Enable**.
+3. **Google Auth Platform** (OAuth consent screen): External, an app name, your email. Under **Data access** add the
+   scope `.../auth/youtube.upload`. Under **Audience** press **Publish app** (In production): in Testing mode the
+   login expires after 7 days.
+4. **Clients → Create client → Desktop app**. Copy the client ID and secret.
+5. On your PC, in this repo: `node tools/youtube-auth.mjs <client_id> <client_secret>`. Open the link, pick the
+   channel's account (and the channel, for a Brand account), then **Advanced → Go to … (unsafe) → Allow** (it is
+   your own app). The terminal prints a refresh token.
+6. GitHub secrets: `YT_CLIENT_ID`, `YT_CLIENT_SECRET`, `YT_REFRESH_TOKEN`. Never paste the token anywhere else.
+7. Verify the channel's phone number at <https://www.youtube.com/verify>: custom thumbnails need it.
+8. **YouTube API audit.** Until the Cloud project passes it, YouTube keeps every API upload **Private** and ignores
+   the publish time, so you set *Scheduled* in Studio yourself (1 minute). Apply with the *YouTube API Services Audit
+   and Quota Extension* form. It is free and usually takes a few weeks. After approval the schedule just works.
+
+Turn the upload off with the repository variable `YOUTUBE_UPLOAD = off`, or `"enabled": false`. The free quota
+allows about 6 uploads a day, so keep to 1 video and 3 Shorts per run.
+
+## 5. Schedule, cost, limits
 
 - Time: the `cron` line in the workflow is UTC (`33 9 * * *` = 15:03 IST; minutes :00 and :30 are GitHub's busiest and scheduled runs there get dropped). GitHub may start scheduled runs a few
   minutes late. To run one now, go to **Actions → Daily edit → Run workflow**, optionally naming an episode (`d03`)
@@ -85,7 +115,7 @@ revoke it at the provider and replace the secret.
 - The run never asks questions. Every judgment call is written into `daily-script-report.md` (topic, sources for
   every figure) and `daily-report.md` next to the video in Drive. Read them, and listen to the video, before posting.
 
-## 5. Failures
+## 6. Failures
 
 When a step fails, nothing is uploaded except the report, which goes to `output/_failed/…`. GitHub emails you about
 the failed run, and the Claude transcripts are in Drive under `output/_logs/`. A script written before the failure

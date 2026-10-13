@@ -9,7 +9,7 @@ and does the following:
 4. Cuts YouTube Shorts from it.
 5. Writes the upload metadata.
 
-Everything lands in Google Drive, ready to post. It runs on free tiers (GitHub Actions and Google Drive); the only paid
+Everything lands in Google Drive and is uploaded to the YouTube channel, scheduled to publish. It runs on free tiers (GitHub Actions and Google Drive); the only paid
 part is a Claude subscription.
 
 Built for **Crack IT**, a channel for engineering students and freshers moving from campus to their first IT job.
@@ -44,6 +44,7 @@ flowchart LR
 | **Shorts** | Reads the whole transcript, picks self-contained moments, adds text hooks, renders 9:16 clips | `AI-clipper/` (Remotion, Python) |
 | **Package** | Title options, description with chapters, tags, pinned comment, thumbnail text | Claude Code skill `youtube-metadata` |
 | **Deliver** | Video, Shorts, metadata and reports go to Drive; the edit's decision files are committed back | rclone, GitHub Actions |
+| **Publish** | Uploads the video and Shorts with title, description, tags and the AI-voice label, scheduled to go public | YouTube Data API, `tools/youtube.mjs` |
 
 ### Design choices
 
