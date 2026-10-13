@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
     inputs:
       episode:
-        description: "Episode folder, e.g. d03 (empty = the next unfinished one; a new fresh-news episode when none is left)"
+        description: "Episode folder, e.g. d03 (empty = the next unfinished one, skipped if one finished in the last 12 h)"
         required: false
       brief:
         description: "Style words for this run (empty = brief.txt in the episode folder, else config/daily.json)"
@@ -58,11 +58,17 @@ jobs:
         id: plan
         env:
           EPISODE: ${{ inputs.episode }}
-        run: node tools/daily.mjs next $EPISODE
+        run: |
+          # a run queued behind another one starts from an older commit: read the newest state
+          git fetch -q --depth 1 origin "$GITHUB_REF_NAME" && git checkout FETCH_HEAD -- config/daily-state.json
+          node tools/daily.mjs next $EPISODE
 
       - name: Nothing to do
         if: steps.plan.outputs.episode == 'none'
-        run: echo "Every planned episode is finished and freshNews is off in config/daily.json."
+        env:
+          REASON: ${{ steps.plan.outputs.reason }}
+        run: |
+          echo "Nothing to do: $REASON" | tee -a "$GITHUB_STEP_SUMMARY"
 
       - uses: actions/setup-node@v4
         if: steps.plan.outputs.episode != 'none'
