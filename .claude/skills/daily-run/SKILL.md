@@ -56,7 +56,11 @@ voiceover and the brief. After you stop, the workflow runs `node tools/daily.mjs
    `npm run verify -- <p>`. Read the verify sheet and the stills yourself; fix anything broken before moving on.
    `verify` must end with `structure ok`.
 2. **Metadata**: `youtube-metadata` skill → `projects/<p>/output/metadata.md` (titles, description with chapters,
-   tags, pinned comment, plus credits from `output/credits.md`).
+   tags, pinned comment, plus credits from `output/credits.md`). Then pick the best title and write the upload file
+   `projects/<p>/output/youtube.json` — the workflow uploads and schedules the video with exactly this, unseen:
+   `{"title": "<best title, ≤ 100 chars>", "description": "<the full description: chapters, credits, hashtags>",
+   "tags": ["…"], "thumbnail": "output/thumbnail.png"}` (`thumbnail` only if you made one). Plain text, no
+   markdown, no `<` or `>`. The Shorts go up from `clips.json` (their `title`, `description`, `hashtags`).
 3. **Shorts**: read `AI-clipper/.claude/skills/clip-shorts/SKILL.md` and follow it with the finished project:
    `npm run shorts:transcribe -- <p>` (clean source, no Whisper), write `AI-clipper/jobs/<p>/clips.json` (framing from
    `config/daily.json` → `shorts.framing`, the video's language), `npm run shorts:prepare -- <p>`,

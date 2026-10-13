@@ -13,7 +13,8 @@ Claude Code is the editor. Two kinds of input, two deliverables each:
 **Unattended daily run** (GitHub Actions, Google Drive in/out): `.github/workflows/daily-edit.yml` → `daily-script`
 skill (planned episode, else fresh news; format `docs/examples/crack-it-d01/`) → `tools/voice/tts.py` (owner's cloned
 voice, Qwen3-TTS on CPU, `config/voice.json`) → `daily-run` skill → `tools/daily.mjs` (next / script-check / check /
-done), standing brief `config/daily.json`; setup in `docs/cloud-setup.md`. The repo is public: no media, voice
+done) → `tools/youtube.mjs` (scheduled upload from `output/youtube.json` + Shorts' `clips.json`), standing brief
+`config/daily.json`; setup in `docs/cloud-setup.md`. The repo is public: no media, voice
 reference or keys in git.
 
 The user drops files in `inbox/` and names them in the prompt with the style they want:

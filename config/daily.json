@@ -41,5 +41,18 @@
         "brief": "documentary storytelling look: full-frame b-roll leads, graphics docked to one side, quote pulls on the key lines, timelines for the backstory; slower, a beat every 6-10 s; low sub-band SFX on structure only"
       }
     ]
+  },
+  "youtube": {
+    "enabled": true,
+    "publishDelayDays": 1,
+    "publishTime": "18:00",
+    "shortsTimes": [
+      "09:00",
+      "13:00",
+      "21:00"
+    ],
+    "categoryId": "27",
+    "language": "en",
+    "syntheticMedia": true
   }
 }
