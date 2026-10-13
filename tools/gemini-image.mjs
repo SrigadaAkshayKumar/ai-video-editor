@@ -7,7 +7,7 @@
 //   → projects/<p>/work/thumb/ai/A-1.png, A-2.png (1280x720) + prompts.json. Read them and pick one; spec "scene".
 // Key: GEMINI_API_KEY (.env / GitHub secret; free key at https://aistudio.google.com/apikey).
 // Models are tried in order until one answers: --model, $GEMINI_IMAGE_MODEL, then the list below.
-import { existsSync, mkdirSync, writeFileSync } from "node:fs";
+import { appendFileSync, existsSync, mkdirSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { die, openProject, parseCli, readJson, requireEnv, run, writeJson } from "./lib/common.mjs";
@@ -58,6 +58,7 @@ async function generate() {
     working = model;
     return { model, data: Buffer.from(part.inlineData.data, "base64"), mime: part.inlineData.mimeType };
   }
+  appendFileSync(join(dir, "errors.log"), `${new Date().toISOString()}\n  ${errors.join("\n  ")}\n`);
   die(`Gemini made no image:\n  ${errors.join("\n  ")}\n(429 / limit 0 = this model has no free quota on your key: enable billing in AI Studio, or pass --model)`);
 }
 
