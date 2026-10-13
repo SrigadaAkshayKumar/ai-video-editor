@@ -62,39 +62,51 @@ duration stamp. Text 3-4 words; one word huge. A native-script line against an E
 the language instantly. Accent = the section accent of the hook's chapter, or the brand's colour if the user named a brand
 (`config/brands/<slug>.json`). No brand → no channel styling assumed.
 
-## 5b. Faceless channels (Crack IT): three designed variants, no photos
+## 5b. Faceless channels (Crack IT): three variants, a Gemini scene + designed type
 
-The owner's call: no stock photos and no AI images. A thumbnail is **type on a colour-graded background**, rendered from
-HTML/CSS by `tools/thumb-design.mjs` (Inter Display, the brand accent, fine grain, vignette; one drawn element at most).
-Make **three variants that test different ideas** (YouTube Studio's *Test & Compare* takes up to 3):
+The owner's call: the PICTURE comes from Gemini (`tools/gemini-image.mjs`, a photo-real scene); the TYPE, numbers,
+logo and badge are always set by `tools/thumb-design.mjs` on top (Inter Display, the brand accent, fine grain,
+vignette). An image model never draws text, numbers or logos. Make **three variants that test different ideas**
+(YouTube Studio's *Test & Compare* takes up to 3):
 
 | | Template | Idea | Example (d06) |
 |---|---|---|---|
-| **A** | `headline` | the tension in 2-4 words, one word highlighted | `"lines": ["Selected.", "*Not* joined."]` |
-| **B** | `stat` | the one number the video explains + 2-4 words, optional `trend` line (`up`/`down`) | `"number": "25,000", "caption": "freshers hired. *Still waiting?*"` |
-| **C** | `versus` | this vs that, the right side is the answer the viewer wants | `left {Selected, YES}`, `right {Joining date, ?}` |
+| **A** | `headline` + `scene` | the tension in 2-4 words, one word highlighted, over the emotional scene | `"lines": ["Selected.", "*Not* joined."]` |
+| **B** | `stat` (+ `scene` optional) | the one number the video explains + 2-4 words, optional `trend` line (`up`/`down`) | `"number": "25,000", "caption": "freshers hired. *Still waiting?*"` |
+| **C** | `versus` | this vs that, the right side is the answer the viewer wants (plain grade, no scene) | `left {Selected, YES}`, `right {Joining date, ?}` |
+
+**Scene (Gemini):** one picture that carries the story's emotion, with ONE subject on the right third and empty dark
+space on the left. Write the prompt as a photographer's brief: who (a young Indian graduate / IT employee, never a
+celebrity or a named real person), the expression (worried, shocked, relieved, staring at a phone), the place
+(hostel room at night, office corridor, campus placement hall), the light (one warm practical light, cool shadows,
+low-key). The tool appends the rules (no text, no logos, subject right, left empty) itself.
+```
+node tools/gemini-image.mjs <p> --name A --n 3 --prompt "young Indian engineering graduate sitting on a hostel bed at night, staring at his phone in disbelief, offer letter beside him, warm desk-lamp light, cool blue shadows"
+```
+Read every `work/thumb/ai/A-*.png` and reject any with text or letters, a logo, extra fingers or a warped face, the
+subject on the left, or a busy left side; regenerate (better prompt) at most twice. Spec `"scene": "work/thumb/ai/A-2.png"`.
+No `GEMINI_API_KEY`, or Gemini fails → no scene: use the plain grade (and the stock-photo `person` below), never stop.
 
 Write `output/thumbnails/spec.json` (format in the tool's header: `accent` = the brand colour, `brand` = the channel
 name, `kicker` = a short context label like "4 reasons · 2026"), then
 `node tools/thumb-design.mjs <p> output/thumbnails/spec.json` → `output/thumbnails/A.png` (+ `A-feed.png`).
 
-**Dramatic extras** (the owner asked for them; each one earns its place, never all on every variant):
+**Dramatic extras** (each one earns its place, never all on every variant):
 - **Company logo** when the video is about named companies: `node tools/logo.mjs search <p> "Cognizant"` → Read
   `work/thumb/logos/sheet.png`, pick the CURRENT official logo (not an old one, not a sub-brand), then
   `node tools/logo.mjs pick <p> <n> --name cognizant` → `assets/logos/cognizant.svg`; spec `"logo"`. It sits on a
   white plate, top right, untouched (never recoloured or cropped). Two companies compared: use `versus` and put the
-  logo of the one the story is about. No logo found → leave it out, never draw one.
+  logo of the one the story is about. No logo found → leave it out, never draw one or ask Gemini for one.
 - **Badge** (`"badge": "Must watch"`, or "Explained", "New rules", "Update"): 1-2 words, on ONE variant at most.
-- **Person** on ONE variant (usually A): a real stock photo whose expression carries the story (worried, shocked,
-  relieved; a young Indian graduate or employee, never a celebrity or a real named person):
+- **Person** (fallback only, when there is no Gemini scene): a real stock photo, cut out, on ONE variant:
   `node tools/broll.mjs search <p> "shocked young indian man office" --photos --orientation portrait --n 8`, Read
   the candidates, `get` the best, then `node tools/thumbnail.mjs cutout <p> assets/stills/<name>.jpg` → Read
-  `work/thumb/cutout.png` (hair and shoulders clean? no leftover background?) → spec `"person": "work/thumb/cutout.png"`.
-  It stands on the right third, the text narrows to fit.
+  `work/thumb/cutout.png` → spec `"person": "work/thumb/cutout.png"`. Never `scene` and `person` on one variant.
 
 Rules:
-- **Not AI slop:** one accent colour plus off-white on the dark grade. No emoji, arrows, icons, stickers, fake UI,
-  AI-made faces or extra effects. Extras only as above. If it needs explaining, it is too busy.
+- **Not AI slop:** one accent colour plus off-white on the dark grade. No emoji, arrows, icons, stickers, fake UI or
+  extra effects; the Gemini scene must look like a real photo (natural skin, real light), not glossy AI art. Extras
+  only as above. If it needs explaining, it is too busy.
 - **Words:** ≤ 4 big words per variant, never the title again; the title + thumbnail make one question the video
   answers, and the thumbnail never gives the answer. Highlight exactly one word (`*word*`) in `headline`.
 - **Facts:** every number and name comes from the video (transcript, `metadata.md`); write it exactly as the video

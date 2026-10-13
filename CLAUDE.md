@@ -52,6 +52,7 @@ source ─ transcribe ─ cut (EDL, boundary audit) ─ work/cleancut.mp4|wav + 
 | SFX | repo `assets/sfx` + HyperFrames set + Openverse CC0 | `tools/sfx.mjs` |
 | Mix + levels | ffmpeg (sidechain duck, measured levels) | `tools/mix.mjs`, `tools/lib/audio.mjs` |
 | Thumbnail / Reels cover | real face frame + cut-out + Remotion `Thumbnail` | `tools/thumbnail.mjs` |
+| Thumbnail, faceless (Crack IT) | Gemini image API scene + HTML/CSS type in headless Chrome | `tools/gemini-image.mjs`, `tools/thumb-design.mjs` |
 
 ## Commands (repo root)
 

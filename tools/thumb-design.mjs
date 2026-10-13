@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-// Designed thumbnails: HTML/CSS templates rendered by headless Chrome. No photos, no AI images: a colour-graded
-// background, set type and at most one drawn element. See the youtube-thumbnail skill, section 5c.
+// Designed thumbnails: HTML/CSS templates rendered by headless Chrome: a colour-graded background (or a Gemini photo
+// scene, graded the same way), set type and the extras below. See the youtube-thumbnail skill, section 5b.
 // Usage:
 //   node tools/thumb-design.mjs <project> <spec.json>      → projects/<p>/output/thumbnails/<name>.png + <name>-feed.png
 //   node tools/thumb-design.mjs --demo <out-dir>           → one of each template with sample text
@@ -14,6 +14,8 @@
 //   "badge": "Must watch"                  a small stamp next to the logo
 //   "person": "work/thumb/cutout.png"      a cut-out person on the right third (headline / stat only); the text
 //                                          narrows to make room (tools/thumbnail.mjs cutout makes the PNG)
+//   "scene": "work/thumb/ai/A-1.png"       a full-bleed photo (tools/gemini-image.mjs) graded dark on the left for
+//                                          the type; the subject stays on the right third (headline / stat)
 import { existsSync, mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
@@ -50,8 +52,8 @@ html,body{width:${W}px;height:${H}px;overflow:hidden;background:var(--bg)}
     radial-gradient(900px 620px at 88% 18%, color-mix(in srgb,var(--a) 34%,transparent), transparent 62%),
     radial-gradient(700px 520px at 6% 105%, color-mix(in srgb,var(--a) 10%,#0f1a2b 90%), transparent 70%),
     linear-gradient(160deg,#121621 0%,#0b0d12 55%,#08090d 100%)}
-.frame::before{content:"";position:absolute;inset:0;background:url("data:image/svg+xml,${grain}");opacity:.07;mix-blend-mode:overlay;pointer-events:none}
-.frame::after{content:"";position:absolute;inset:0;box-shadow:inset 0 0 220px 40px rgba(0,0,0,.65);pointer-events:none}
+.frame::before{content:"";position:absolute;inset:0;z-index:1;background:url("data:image/svg+xml,${grain}");opacity:.07;mix-blend-mode:overlay;pointer-events:none}
+.frame::after{content:"";position:absolute;inset:0;z-index:1;box-shadow:inset 0 0 220px 40px rgba(0,0,0,.65);pointer-events:none}
 .kicker{position:absolute;left:72px;top:64px;display:flex;align-items:center;gap:14px;font-family:UIB;font-size:26px;
   letter-spacing:.16em;text-transform:uppercase;color:var(--ink);opacity:.92}
 .kicker i{width:12px;height:12px;border-radius:50%;background:var(--a);box-shadow:0 0 18px var(--a)}
@@ -91,7 +93,13 @@ html,body{width:${W}px;height:${H}px;overflow:hidden;background:var(--bg)}
 .person{position:absolute;right:10px;bottom:0;height:540px;z-index:1;
   filter:drop-shadow(-14px 0 26px color-mix(in srgb,var(--a) 35%,transparent)) drop-shadow(0 30px 40px rgba(0,0,0,.6))}
 .person-fade{position:absolute;right:0;bottom:0;width:640px;height:200px;z-index:1;background:linear-gradient(0deg,rgba(8,9,13,.85),transparent)}
-.headline,.stat,.kicker,.brand{z-index:2}
+.headline,.stat,.kicker,.brand,.vs{z-index:2}
+.scene{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;filter:saturate(.88) contrast(1.06)}
+.scene-grade{position:absolute;inset:0;z-index:0;background:
+  linear-gradient(90deg,rgba(8,9,13,.94) 0%,rgba(8,9,13,.82) 34%,rgba(8,9,13,.35) 58%,rgba(8,9,13,0) 76%),
+  linear-gradient(0deg,rgba(8,9,13,.7) 0%,transparent 30%),
+  radial-gradient(700px 500px at 85% 20%,color-mix(in srgb,var(--a) 22%,transparent),transparent 70%)}
+.scene-grade.full{background:rgba(8,9,13,.78)}
 </style></head><body><div class="frame">${body}${brand ? `<div class="brand"><b></b>${esc(brand)}</div>` : ""}</div></body></html>`;
 }
 
@@ -104,21 +112,23 @@ function variantHtml(v, accent, brand, base) {
     return existsSync(abs) ? pathToFileURL(abs).href : die(`${v.name}: not found: ${p}`);
   };
   const person = v.person && v.template !== "versus" ? `<img class="person" src="${asset(v.person)}"><div class="person-fade"></div>` : "";
-  const textW = person ? 680 : 1060;
+  const scene = v.scene ? `<img class="scene" src="${asset(v.scene)}"><div class="scene-grade${v.template === "versus" ? " full" : ""}"></div>` : "";
+  const narrow = person || (scene && v.template !== "versus");
+  const textW = narrow ? 680 : 1060;
   const tr = v.logo || v.badge ? `<div class="tr">${v.badge ? `<div class="badge">${esc(v.badge)}</div>` : ""}${v.logo ? `<div class="plate"><img src="${asset(v.logo)}"></div>` : ""}</div>` : "";
-  const kicker = (v.kicker ? `<div class="kicker"><i></i>${esc(v.kicker)}</div>` : "") + tr + person;
+  const kicker = scene + (v.kicker ? `<div class="kicker"><i></i>${esc(v.kicker)}</div>` : "") + tr + person;
   if (v.template === "headline") {
     const lines = v.lines || die(`${v.name}: headline needs "lines"`);
     const fs = Math.min(...lines.map((l) => fit(l, textW, 168)));
     return page(accent, `${kicker}<div class="headline" style="--fs:${fs}px">${lines.map((l) => `<div>${marked(l)}</div>`).join("")}</div>`, brand);
   }
   if (v.template === "stat") {
-    const fs = fit(v.number || die(`${v.name}: stat needs "number"`), person ? 640 : 760, 280, 0.66);
+    const fs = fit(v.number || die(`${v.name}: stat needs "number"`), narrow ? 640 : 760, 280, 0.66);
     const down = v.trend !== "up";
     const pts = down ? "0,60 90,90 170,70 260,150 340,130 430,230 520,250 610,330" : "0,330 90,280 170,300 260,200 340,220 430,120 520,130 610,40";
     const end = down ? [610, 330] : [610, 40];
-    const trend = v.trend && !person ? `<svg class="trend" viewBox="0 0 620 360"><defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="${accent}" stop-opacity="0"/><stop offset="1" stop-color="${accent}" stop-opacity=".9"/></linearGradient></defs><polyline points="${pts}" fill="none" stroke="url(#g)" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/><circle cx="${end[0]}" cy="${end[1]}" r="11" fill="${accent}"/><circle cx="${end[0]}" cy="${end[1]}" r="26" fill="${accent}" opacity=".18"/></svg>` : "";
-    return page(accent, `${trend}${kicker}<div class="stat" style="--fs:${fs}px"><div class="num">${esc(v.number)}</div>${v.caption ? `<div class="cap" style="max-width:${person ? 620 : 760}px">${marked(v.caption)}</div>` : ""}</div>`, brand);
+    const trend = v.trend && !narrow ? `<svg class="trend" viewBox="0 0 620 360"><defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="${accent}" stop-opacity="0"/><stop offset="1" stop-color="${accent}" stop-opacity=".9"/></linearGradient></defs><polyline points="${pts}" fill="none" stroke="url(#g)" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/><circle cx="${end[0]}" cy="${end[1]}" r="11" fill="${accent}"/><circle cx="${end[0]}" cy="${end[1]}" r="26" fill="${accent}" opacity=".18"/></svg>` : "";
+    return page(accent, `${trend}${kicker}<div class="stat" style="--fs:${fs}px"><div class="num">${esc(v.number)}</div>${v.caption ? `<div class="cap" style="max-width:${narrow ? 620 : 760}px">${marked(v.caption)}</div>` : ""}</div>`, brand);
   }
   if (v.template === "versus") {
     const { left, right } = v;

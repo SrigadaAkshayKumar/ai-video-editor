@@ -62,6 +62,7 @@ A Google service account will not work for a personal Gmail Drive: it has no sto
 | `RCLONE_CONF` | step 2 |
 | `CLAUDE_CODE_OAUTH_TOKEN` | run `claude setup-token` on your PC (uses your Claude subscription), **or** set `ANTHROPIC_API_KEY` instead (pay per token). Check Anthropic's current terms for subscription tokens in scheduled CI. |
 | `ELEVENLABS_API_KEY`, `PIXABAY_API_KEY`, `PEXELS_API_KEY`, `OPENVERSE_TOKEN`, `YOUTUBE_API_KEY` | the same values as your local `.env` (leave unused ones out) |
+| `GEMINI_API_KEY` | thumbnail scenes: a key from <https://aistudio.google.com/apikey>. Optional variable `GEMINI_IMAGE_MODEL` picks the model (default `gemini-2.5-flash-image`, then the newer ones). Without it, thumbnails fall back to the plain grade + stock photo |
 
 **This repo is public.** Keys live only in your local `.env` (git-ignored) and in these secrets; the workflow writes
 `.env` on the runner at run time and the runner is thrown away afterwards. GitHub masks secrets in run logs and
