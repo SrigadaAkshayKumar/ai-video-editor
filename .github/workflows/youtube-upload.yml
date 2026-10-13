@@ -1,0 +1,78 @@
+# Upload an episode that is already in Drive to YouTube, scheduled (the same tools/youtube.mjs the daily run uses).
+# For episodes made before the YouTube step existed, or to retry a failed upload.
+# Actions → Upload to YouTube → Run workflow → project (e.g. d06-why-fewer-freshers).
+name: Upload to YouTube
+
+on:
+  workflow_dispatch:
+    inputs:
+      project:
+        description: "Project folder, e.g. d06-why-fewer-freshers"
+        required: true
+      force:
+        description: "Upload again even if youtube-uploaded.json says it is already on YouTube"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: youtube-upload
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      DRIVE: gdrive:${{ vars.DRIVE_ROOT || 'AI-edits' }}
+      P: ${{ inputs.project }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: rclone + Drive login
+        env:
+          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
+        run: |
+          curl -fsSL https://rclone.org/install.sh | sudo bash
+          mkdir -p ~/.config/rclone
+          printf '%s\n' "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
+
+      - name: Pull the episode from Drive
+        run: |
+          test -f "projects/$P/project.json" || { echo "::error::no projects/$P in the repo"; exit 1; }
+          rclone copy "$DRIVE/output/$P" "projects/$P/output" --exclude "shorts/**" -v
+          rclone copy "$DRIVE/output/$P/shorts" "AI-clipper/output/$P" -v
+          mkdir -p "AI-clipper/jobs/$P"
+          [ -f "AI-clipper/output/$P/clips.json" ] && cp "AI-clipper/output/$P/clips.json" "AI-clipper/jobs/$P/clips.json" || true
+          if [ -f "projects/$P/output/youtube-uploaded.json" ] && [ "${{ inputs.force }}" != "true" ]; then
+            echo "::error::$P is already uploaded (youtube-uploaded.json in Drive). Tick 'force' to upload again."; exit 1
+          fi
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Write youtube.json (episodes made before the YouTube step)
+        if: hashFiles(format('projects/{0}/output/youtube.json', inputs.project)) == ''
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          npm install -g @anthropic-ai/claude-code
+          claude -p "Unattended, nobody will answer. Write projects/$P/output/youtube.json from projects/$P/output/metadata.md,
+          exactly as step 2 of .claude/skills/daily-run/SKILL.md describes: the best title, the full description (chapters,
+          credits, hashtags), the tags. If projects/$P/output/thumbnails/ has A.png/B.png/C.png, set \"thumbnail\" to the
+          one thumbnails.md recommends (path relative to the project, e.g. output/thumbnails/A.png). Only write that file." \
+            --dangerously-skip-permissions --output-format stream-json --verbose > claude-youtube-log.jsonl
+          node -e 'const j=require("./projects/"+process.env.P+"/output/youtube.json"); if(!j.title||!j.description) process.exit(1)'
+
+      - name: Upload + schedule
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: |
+          node tools/youtube.mjs "$P" --shorts "AI-clipper/output/$P"
+          rclone copy "projects/$P/output/youtube-uploaded.json" "$DRIVE/output/$P" -v
+          rclone copy "projects/$P/output/youtube.json" "$DRIVE/output/$P" -v
