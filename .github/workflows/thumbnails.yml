@@ -1,0 +1,85 @@
+# Three thumbnail variants (emotion / number / contrast, real stock photos) for an episode that is already edited.
+# Run by hand: Actions → Thumbnails → Run workflow → project (e.g. d06-why-fewer-freshers).
+# Output: Drive AI-edits/output/<project>/thumbnails/ (A.png, B.png, C.png, *-feed.png previews, thumbnails.md).
+name: Thumbnails
+
+on:
+  workflow_dispatch:
+    inputs:
+      project:
+        description: "Project folder in projects/, e.g. d06-why-fewer-freshers"
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  thumbnails:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      DRIVE: gdrive:${{ vars.DRIVE_ROOT || 'AI-edits' }}
+      P: ${{ inputs.project }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: System packages + rclone
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y -q ffmpeg fonts-noto-core fonts-noto-color-emoji
+          curl -fsSL https://rclone.org/install.sh | sudo bash
+
+      - name: Google Drive login
+        env:
+          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
+        run: |
+          mkdir -p ~/.config/rclone
+          printf '%s\n' "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
+
+      - name: Check the project
+        run: |
+          test -f "projects/$P/project.json" || { echo "::error::no projects/$P in the repo"; exit 1; }
+          # the episode's metadata (title options) lives next to the video in Drive
+          rclone copy "$DRIVE/output/$P" "projects/$P/output" --include "metadata.md" --include "credits.md" -v
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            remotion/package-lock.json
+
+      - name: Install dependencies
+        run: |
+          npm ci
+          (cd remotion && npm ci)
+          npm install -g @anthropic-ai/claude-code
+
+      - name: Write .env
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+        run: |
+          for k in PEXELS_API_KEY PIXABAY_API_KEY; do echo "$k=${!k}" >> .env; done
+
+      - name: Make three thumbnails with Claude Code
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          claude -p "Unattended, nobody will answer questions. Use the youtube-thumbnail skill, section 5b (faceless,
+          three variants A/B/C from real stock photos), for project $P. The title options are in
+          projects/$P/output/metadata.md. Render each with --format 16:9 --name A|B|C, Read every PNG and feed preview,
+          fix and re-render anything misspelled or unreadable, then write projects/$P/output/thumbnails/thumbnails.md.
+          Do not commit or push." \
+            --dangerously-skip-permissions --output-format stream-json --verbose > claude-thumbs-log.jsonl
+          ls "projects/$P/output/thumbnails/"*.png
+
+      - name: Upload to Drive
+        run: rclone copy "projects/$P/output/thumbnails" "$DRIVE/output/$P/thumbnails" -v
+
+      - name: Keep the Claude log (Drive)
+        if: always()
+        run: |
+          [ -f claude-thumbs-log.jsonl ] && rclone copy claude-thumbs-log.jsonl "$DRIVE/output/_logs/thumbs-$P-$(date -u +%Y%m%d-%H%M)" || true
