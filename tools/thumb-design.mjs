@@ -9,7 +9,11 @@
 //   {"name": "B", "template": "stat", "kicker": "Cognizant", "number": "25,000", "caption": "hired. Still waiting?", "trend": "down"},
 //   {"name": "C", "template": "versus", "kicker": "Freshers 2026", "left": {"label": "Selected", "value": "YES"},
 //                                                                    "right": {"label": "Joining date", "value": "?"}}]}
-// In `lines`, *word* marks the one highlighted word.
+// In `lines`, *word* marks the one highlighted word. Optional on any variant (paths relative to the project):
+//   "logo": "assets/logos/cognizant.svg"   company logo on a white plate, top right (tools/logo.mjs fetches it)
+//   "badge": "Must watch"                  a small stamp next to the logo
+//   "person": "work/thumb/cutout.png"      a cut-out person on the right third (headline / stat only); the text
+//                                          narrows to make room (tools/thumbnail.mjs cutout makes the PNG)
 import { existsSync, mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
@@ -77,26 +81,44 @@ html,body{width:${W}px;height:${H}px;overflow:hidden;background:var(--bg)}
 .side.l .val{color:rgba(244,241,234,.92)}
 .side.r .val{color:var(--a);text-shadow:0 0 70px color-mix(in srgb,var(--a) 40%,transparent)}
 .side.r .lab{color:var(--ink)}
+/* extras */
+.tr{position:absolute;right:64px;top:52px;display:flex;align-items:center;gap:22px;z-index:3}
+.plate{background:#fff;border-radius:16px;padding:14px 22px;box-shadow:0 14px 40px rgba(0,0,0,.45);display:flex;align-items:center}
+.plate img{height:52px;max-width:240px;object-fit:contain;display:block}
+.badge{font-family:UIB;font-size:24px;letter-spacing:.14em;text-transform:uppercase;color:var(--a);padding:10px 18px;
+  border:3px solid var(--a);border-radius:10px;transform:rotate(-4deg);background:rgba(11,13,18,.55);
+  box-shadow:0 0 30px color-mix(in srgb,var(--a) 30%,transparent),inset 0 0 18px color-mix(in srgb,var(--a) 18%,transparent)}
+.person{position:absolute;right:10px;bottom:0;height:540px;z-index:1;
+  filter:drop-shadow(-14px 0 26px color-mix(in srgb,var(--a) 35%,transparent)) drop-shadow(0 30px 40px rgba(0,0,0,.6))}
+.person-fade{position:absolute;right:0;bottom:0;width:640px;height:200px;z-index:1;background:linear-gradient(0deg,rgba(8,9,13,.85),transparent)}
+.headline,.stat,.kicker,.brand{z-index:2}
 </style></head><body><div class="frame">${body}${brand ? `<div class="brand"><b></b>${esc(brand)}</div>` : ""}</div></body></html>`;
 }
 
 /** Biggest size that keeps the longest line inside `width` px (Inter Display Black ≈ 0.62 em per uppercase char). */
 const fit = (text, width, max, k = 0.62) => Math.round(Math.min(max, width / (Math.max(3, text.replace(/\*/g, "").length) * k)));
 
-function variantHtml(v, accent, brand) {
-  const kicker = v.kicker ? `<div class="kicker"><i></i>${esc(v.kicker)}</div>` : "";
+function variantHtml(v, accent, brand, base) {
+  const asset = (p) => {
+    const abs = existsSync(p) ? p : join(base || ".", p);
+    return existsSync(abs) ? pathToFileURL(abs).href : die(`${v.name}: not found: ${p}`);
+  };
+  const person = v.person && v.template !== "versus" ? `<img class="person" src="${asset(v.person)}"><div class="person-fade"></div>` : "";
+  const textW = person ? 680 : 1060;
+  const tr = v.logo || v.badge ? `<div class="tr">${v.badge ? `<div class="badge">${esc(v.badge)}</div>` : ""}${v.logo ? `<div class="plate"><img src="${asset(v.logo)}"></div>` : ""}</div>` : "";
+  const kicker = (v.kicker ? `<div class="kicker"><i></i>${esc(v.kicker)}</div>` : "") + tr + person;
   if (v.template === "headline") {
     const lines = v.lines || die(`${v.name}: headline needs "lines"`);
-    const fs = Math.min(...lines.map((l) => fit(l, 1060, 168)));
+    const fs = Math.min(...lines.map((l) => fit(l, textW, 168)));
     return page(accent, `${kicker}<div class="headline" style="--fs:${fs}px">${lines.map((l) => `<div>${marked(l)}</div>`).join("")}</div>`, brand);
   }
   if (v.template === "stat") {
-    const fs = fit(v.number || die(`${v.name}: stat needs "number"`), 760, 280, 0.66);
+    const fs = fit(v.number || die(`${v.name}: stat needs "number"`), person ? 640 : 760, 280, 0.66);
     const down = v.trend !== "up";
     const pts = down ? "0,60 90,90 170,70 260,150 340,130 430,230 520,250 610,330" : "0,330 90,280 170,300 260,200 340,220 430,120 520,130 610,40";
     const end = down ? [610, 330] : [610, 40];
-    const trend = v.trend ? `<svg class="trend" viewBox="0 0 620 360"><defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="${accent}" stop-opacity="0"/><stop offset="1" stop-color="${accent}" stop-opacity=".9"/></linearGradient></defs><polyline points="${pts}" fill="none" stroke="url(#g)" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/><circle cx="${end[0]}" cy="${end[1]}" r="11" fill="${accent}"/><circle cx="${end[0]}" cy="${end[1]}" r="26" fill="${accent}" opacity=".18"/></svg>` : "";
-    return page(accent, `${trend}${kicker}<div class="stat" style="--fs:${fs}px"><div class="num">${esc(v.number)}</div>${v.caption ? `<div class="cap">${marked(v.caption)}</div>` : ""}</div>`, brand);
+    const trend = v.trend && !person ? `<svg class="trend" viewBox="0 0 620 360"><defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="${accent}" stop-opacity="0"/><stop offset="1" stop-color="${accent}" stop-opacity=".9"/></linearGradient></defs><polyline points="${pts}" fill="none" stroke="url(#g)" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/><circle cx="${end[0]}" cy="${end[1]}" r="11" fill="${accent}"/><circle cx="${end[0]}" cy="${end[1]}" r="26" fill="${accent}" opacity=".18"/></svg>` : "";
+    return page(accent, `${trend}${kicker}<div class="stat" style="--fs:${fs}px"><div class="num">${esc(v.number)}</div>${v.caption ? `<div class="cap" style="max-width:${person ? 620 : 760}px">${marked(v.caption)}</div>` : ""}</div>`, brand);
   }
   if (v.template === "versus") {
     const { left, right } = v;
@@ -142,7 +164,7 @@ if (flags.demo) {
   const out = join(PROJECTS, project, "output", "thumbnails");
   mkdirSync(out, { recursive: true });
   for (const v of spec.variants || die("spec has no variants")) {
-    render(variantHtml(v, spec.accent || "#ffb300", spec.brand ?? "CRACK IT"), join(out, `${v.name}.png`));
+    render(variantHtml(v, spec.accent || "#ffb300", spec.brand ?? "CRACK IT", join(PROJECTS, project)), join(out, `${v.name}.png`));
   }
   writeFileSync(join(out, "spec.json"), readFileSync(existsSync(specFile) ? specFile : join(PROJECTS, project, specFile)));
 }

@@ -49,13 +49,20 @@ jobs:
       - name: Install Claude Code
         run: npm install -g @anthropic-ai/claude-code
 
+      - name: Write .env (stock photo for the person cut-out)
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+        run: for k in PEXELS_API_KEY PIXABAY_API_KEY; do echo "$k=${!k}" >> .env; done
+
       - name: Make three thumbnails with Claude Code
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           claude -p "Unattended, nobody will answer questions. Use the youtube-thumbnail skill, section 5b (faceless,
-          three designed variants A/B/C with tools/thumb-design.mjs, no photos), for project $P. The title options are in
+          three designed variants A/B/C with tools/thumb-design.mjs, with the dramatic extras: company logo, one badge,
+          one person cut-out), for project $P. The title options are in
           projects/$P/output/metadata.md, the words in projects/$P/work/cleancut.transcript.md. Read every PNG and feed
           preview, fix and re-render anything clipped or unreadable, then write projects/$P/output/thumbnails/thumbnails.md.
           Do not commit or push." \

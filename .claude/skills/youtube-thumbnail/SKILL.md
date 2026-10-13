@@ -78,9 +78,23 @@ Write `output/thumbnails/spec.json` (format in the tool's header: `accent` = the
 name, `kicker` = a short context label like "4 reasons · 2026"), then
 `node tools/thumb-design.mjs <p> output/thumbnails/spec.json` → `output/thumbnails/A.png` (+ `A-feed.png`).
 
+**Dramatic extras** (the owner asked for them; each one earns its place, never all on every variant):
+- **Company logo** when the video is about named companies: `node tools/logo.mjs search <p> "Cognizant"` → Read
+  `work/thumb/logos/sheet.png`, pick the CURRENT official logo (not an old one, not a sub-brand), then
+  `node tools/logo.mjs pick <p> <n> --name cognizant` → `assets/logos/cognizant.svg`; spec `"logo"`. It sits on a
+  white plate, top right, untouched (never recoloured or cropped). Two companies compared: use `versus` and put the
+  logo of the one the story is about. No logo found → leave it out, never draw one.
+- **Badge** (`"badge": "Must watch"`, or "Explained", "New rules", "Update"): 1-2 words, on ONE variant at most.
+- **Person** on ONE variant (usually A): a real stock photo whose expression carries the story (worried, shocked,
+  relieved; a young Indian graduate or employee, never a celebrity or a real named person):
+  `node tools/broll.mjs search <p> "shocked young indian man office" --photos --orientation portrait --n 8`, Read
+  the candidates, `get` the best, then `node tools/thumbnail.mjs cutout <p> assets/stills/<name>.jpg` → Read
+  `work/thumb/cutout.png` (hair and shoulders clean? no leftover background?) → spec `"person": "work/thumb/cutout.png"`.
+  It stands on the right third, the text narrows to fit.
+
 Rules:
-- **Not AI slop:** one accent colour plus off-white on the dark grade, nothing else. No emoji, arrows, icons, stickers,
-  gradients on text other than the template's, fake UI, logos or faces. If it needs explaining, it is too busy.
+- **Not AI slop:** one accent colour plus off-white on the dark grade. No emoji, arrows, icons, stickers, fake UI,
+  AI-made faces or extra effects. Extras only as above. If it needs explaining, it is too busy.
 - **Words:** ≤ 4 big words per variant, never the title again; the title + thumbnail make one question the video
   answers, and the thumbnail never gives the answer. Highlight exactly one word (`*word*`) in `headline`.
 - **Facts:** every number and name comes from the video (transcript, `metadata.md`); write it exactly as the video
