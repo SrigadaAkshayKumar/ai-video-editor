@@ -4,6 +4,9 @@
 //   node tools/youtube.mjs <project> [--shorts AI-clipper/output/<slug>] [--dry-run]
 //   node tools/youtube.mjs --test <file.mp4>   one Private test upload (no schedule): proves the login works and
 //                                              prints which channel it went to
+//   node tools/youtube.mjs <project> --set-thumbnail [file]   put a (new) thumbnail on the video already uploaded
+//        (id from output/youtube-uploaded.json). file default: output/thumbnails/main.txt names the variant (e.g. "B"),
+//        else youtube.json "thumbnail", else output/thumbnails/A.png. The schedule is left untouched.
 // Reads projects/<p>/output/youtube.json (written by the daily-run skill):
 //   {"title": "…", "description": "…", "tags": ["…"], "thumbnail": "output/thumbnail.png" (optional)}
 // and the Shorts' AI-clipper/jobs/<p>/clips.json (title, description, hashtags per clip id; files NN-*.mp4).
@@ -12,9 +15,10 @@
 // Note: until the Google Cloud project passes YouTube's API audit, YouTube keeps API uploads Private (no publishAt).
 // Auth: YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN (tools/youtube-auth.mjs makes the refresh token once).
 // Writes projects/<p>/output/youtube-uploaded.json (ids, links, publish times) and a summary for the run page.
-import { appendFileSync, existsSync, readFileSync, readdirSync } from "node:fs";
+import { appendFileSync, existsSync, mkdtempSync, readFileSync, readdirSync, rmSync, statSync } from "node:fs";
+import { tmpdir } from "node:os";
 import { extname, join } from "node:path";
-import { PROJECTS, ROOT, die, parseCli, readJson, writeJson } from "./lib/common.mjs";
+import { PROJECTS, ROOT, die, parseCli, readJson, run, writeJson } from "./lib/common.mjs";
 
 const { positional, flags } = parseCli();
 const [project] = positional;
@@ -24,6 +28,7 @@ const dryRun = !!flags["dry-run"];
 const cfg = { publishDelayDays: 1, publishTime: "18:00", shortsTimes: ["09:00", "13:00", "21:00"], categoryId: "27",
   language: "en", syntheticMedia: true, ...(readJson(join(ROOT, "config", "daily.json")).youtube || {}) };
 if (testFile) await testUpload(testFile);
+if (flags["set-thumbnail"]) await setThumbnailOnly(project);
 const out = join(PROJECTS, project, "output");
 const metaFile = join(out, "youtube.json");
 if (!existsSync(metaFile)) die(`${metaFile} missing — the daily-run skill writes it with the metadata`);
@@ -108,11 +113,53 @@ async function testUpload(file) {
 }
 
 async function setThumbnail(token, id, file) {
-  const type = extname(file).toLowerCase() === ".png" ? "image/png" : "image/jpeg";
-  const r = await fetch(`https://www.googleapis.com/upload/youtube/v3/thumbnails/set?videoId=${id}`, {
-    method: "POST", headers: { Authorization: `Bearer ${token}`, "Content-Type": type }, body: readFileSync(file),
-  });
-  return r.ok ? "set" : `not set (${r.status}: custom thumbnails need a phone-verified channel)`;
+  // YouTube takes at most 2 MB: a photo-heavy PNG goes up as a high-quality JPEG instead
+  let tmp = null;
+  if (statSync(file).size > 1.9e6) {
+    tmp = mkdtempSync(join(tmpdir(), "yt-thumb-"));
+    const jpg = join(tmp, "thumb.jpg");
+    for (const q of [2, 4, 6]) {
+      run("ffmpeg", ["-y", "-v", "error", "-i", file, "-q:v", String(q), jpg]);
+      if (statSync(jpg).size < 1.9e6) break;
+    }
+    file = jpg;
+  }
+  try {
+    const type = extname(file).toLowerCase() === ".png" ? "image/png" : "image/jpeg";
+    const r = await fetch(`https://www.googleapis.com/upload/youtube/v3/thumbnails/set?videoId=${id}`, {
+      method: "POST", headers: { Authorization: `Bearer ${token}`, "Content-Type": type }, body: readFileSync(file),
+    });
+    if (r.ok) return "set";
+    const why = (await r.text()).match(/"message":\s*"([^"]+)"/)?.[1] || "";
+    return `not set (${r.status} ${why}${r.status === 403 ? " — custom thumbnails need a phone-verified channel: youtube.com/verify" : ""})`;
+  } finally {
+    if (tmp) rmSync(tmp, { recursive: true, force: true });
+  }
+}
+
+/** --set-thumbnail: replace the thumbnail of the episode's uploaded main video. Hoisted, runs before the plan. */
+async function setThumbnailOnly(p) {
+  const dir = join(PROJECTS, p, "output");
+  const upFile = join(dir, "youtube-uploaded.json");
+  if (!existsSync(upFile)) die(`${upFile} missing: ${p} is not uploaded yet (the thumbnail goes on with the upload)`);
+  const up = readJson(upFile);
+  const video = (up.videos || []).find((v) => v.kind === "video" && v.id) || die("no main video id in youtube-uploaded.json");
+  const pickFile = join(dir, "thumbnails", "main.txt");
+  const pick = existsSync(pickFile) ? readFileSync(pickFile, "utf8").trim().replace(/\.png$/i, "") : "";
+  const yj = existsSync(join(dir, "youtube.json")) ? readJson(join(dir, "youtube.json")) : {};
+  const rel = typeof flags["set-thumbnail"] === "string" ? flags["set-thumbnail"]
+    : pick ? `output/thumbnails/${pick}.png` : yj.thumbnail || "output/thumbnails/A.png";
+  const file = existsSync(rel) ? rel : join(PROJECTS, p, rel);
+  if (!existsSync(file)) die(`thumbnail not found: ${rel}`);
+  const result = await setThumbnail(await accessToken(), video.id, file);
+  video.thumbnail = result;
+  video.thumbnailFile = rel;
+  video.thumbnailSetAt = new Date().toISOString();
+  writeJson(upFile, up);
+  const line = `### YouTube thumbnail\n\n- ${video.url}: ${rel} → **${result}** (schedule unchanged: ${video.publishAt})\n`;
+  console.log(line);
+  if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, line);
+  process.exit(result === "set" ? 0 : 1);
 }
 
 // ---- plan -----------------------------------------------------------------------------------------------------
