@@ -62,30 +62,47 @@ duration stamp. Text 3-4 words; one word huge. A native-script line against an E
 the language instantly. Accent = the section accent of the hook's chapter, or the brand's colour if the user named a brand
 (`config/brands/<slug>.json`). No brand → no channel styling assumed.
 
-## 5b. Faceless channels (Crack IT): three variants from real stock photos
+## 5b. Faceless channels (Crack IT): three designed variants, no photos
 
-No creator face, so the picture has to carry the emotion. Make **three variants that test different ideas**
-(YouTube Studio's *Test & Compare* takes up to 3 and keeps the one with the most watch time), each rendered with
-`--format 16:9 --name A|B|C` → `output/thumbnails/A.png` (+ `A-feed.png`, the feed-size check):
+The owner's call: no stock photos and no AI images. A thumbnail is **type on a colour-graded background**, rendered from
+HTML/CSS by `tools/thumb-design.mjs` (Inter Display, the brand accent, fine grain, vignette; one drawn element at most).
+Make **three variants that test different ideas** (YouTube Studio's *Test & Compare* takes up to 3):
 
-| | Idea | Picture | Text |
+| | Template | Idea | Example (d06) |
 |---|---|---|---|
-| **A · Emotion** | the viewer's own worry | a real stock photo of ONE person whose face shows it (stressed graduate at a laptop, waiting with a file, staring at a phone). Photo search: `node tools/broll.mjs search <p> "worried young indian graduate laptop" --photos --orientation landscape --n 8`, Read the candidates, `get` the best → `assets/stills/` | 2-3 words that name the fear ("STILL WAITING?") |
-| **B · Number** | the one figure the video explains | dark plain background or a calm, out-of-focus office photo (`--dim 0.6`) | the number huge (`--big "₹3.6 LPA"` / `"-40%"`) + 2-4 small words saying what it is |
-| **C · Contrast** | before vs after, this vs that | a photo that already holds the tension (crowded vs empty office, an offer letter vs a closed laptop) | 2 words with the turn ("THEN vs NOW", "OFFER → ?") |
+| **A** | `headline` | the tension in 2-4 words, one word highlighted | `"lines": ["Selected.", "*Not* joined."]` |
+| **B** | `stat` | the one number the video explains + 2-4 words, optional `trend` line (`up`/`down`) | `"number": "25,000", "caption": "freshers hired. *Still waiting?*"` |
+| **C** | `versus` | this vs that, the right side is the answer the viewer wants | `left {Selected, YES}`, `right {Joining date, ?}` |
 
-Rules on top of the ones above:
-- **Natural:** real photos only (Pexels/Pixabay), one subject, nothing pasted on top except the type. Indian
-  setting/people when the photo shows people. No AI faces, no clip art, no arrows, no emoji, no logos.
-- **Text ≤ 4 words**, no full sentences, never the title again. The image + the title must make one question the
-  video answers; the thumbnail never states the answer.
-- **Spelling and numbers:** every word and figure comes from the video (transcript or `metadata.md`); re-read the
-  rendered PNG letter by letter.
-- **Feed check:** open each `*-feed.png` (214 px wide). If the big text is not readable or the subject not obvious at
-  that size, simplify and render again.
-- Put the photo's subject on the side opposite the text (`--bg-pos` to keep the face in frame).
-- Write `output/thumbnails/thumbnails.md`: for each variant the idea, the photo (with its credit line from
-  `work/credits.json`), the exact text, and which one you would pick first and why.
+Write `output/thumbnails/spec.json` (format in the tool's header: `accent` = the brand colour, `brand` = the channel
+name, `kicker` = a short context label like "4 reasons · 2026"), then
+`node tools/thumb-design.mjs <p> output/thumbnails/spec.json` → `output/thumbnails/A.png` (+ `A-feed.png`).
+
+**Dramatic extras** (the owner asked for them; each one earns its place, never all on every variant):
+- **Company logo** when the video is about named companies: `node tools/logo.mjs search <p> "Cognizant"` → Read
+  `work/thumb/logos/sheet.png`, pick the CURRENT official logo (not an old one, not a sub-brand), then
+  `node tools/logo.mjs pick <p> <n> --name cognizant` → `assets/logos/cognizant.svg`; spec `"logo"`. It sits on a
+  white plate, top right, untouched (never recoloured or cropped). Two companies compared: use `versus` and put the
+  logo of the one the story is about. No logo found → leave it out, never draw one.
+- **Badge** (`"badge": "Must watch"`, or "Explained", "New rules", "Update"): 1-2 words, on ONE variant at most.
+- **Person** on ONE variant (usually A): a real stock photo whose expression carries the story (worried, shocked,
+  relieved; a young Indian graduate or employee, never a celebrity or a real named person):
+  `node tools/broll.mjs search <p> "shocked young indian man office" --photos --orientation portrait --n 8`, Read
+  the candidates, `get` the best, then `node tools/thumbnail.mjs cutout <p> assets/stills/<name>.jpg` → Read
+  `work/thumb/cutout.png` (hair and shoulders clean? no leftover background?) → spec `"person": "work/thumb/cutout.png"`.
+  It stands on the right third, the text narrows to fit.
+
+Rules:
+- **Not AI slop:** one accent colour plus off-white on the dark grade. No emoji, arrows, icons, stickers, fake UI,
+  AI-made faces or extra effects. Extras only as above. If it needs explaining, it is too busy.
+- **Words:** ≤ 4 big words per variant, never the title again; the title + thumbnail make one question the video
+  answers, and the thumbnail never gives the answer. Highlight exactly one word (`*word*`) in `headline`.
+- **Facts:** every number and name comes from the video (transcript, `metadata.md`); write it exactly as the video
+  says it. Company names as plain text only.
+- **Check:** Read every PNG and every `*-feed.png` (214 px wide, the size in the feed). Text clipped, wrapping
+  badly, or the big words unreadable at feed size → shorten and render again.
+- Write `output/thumbnails/thumbnails.md`: each variant's idea and text, and which one to use as the main thumbnail
+  (the others go into Test & Compare).
 
 ## 6. Check before handing over
 
