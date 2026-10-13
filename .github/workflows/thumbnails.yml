@@ -1,4 +1,4 @@
-# Three designed thumbnail variants (headline / number / versus; HTML/CSS, no photos) for an episode already edited.
+# Three thumbnail variants (headline / number / versus: a Gemini photo scene + HTML/CSS type) for an episode already edited.
 # Run by hand: Actions → Thumbnails → Run workflow → project (e.g. d06-why-fewer-freshers).
 # Output: Drive AI-edits/output/<project>/thumbnails/ (A.png, B.png, C.png, *-feed.png previews, thumbnails.md).
 name: Thumbnails
@@ -49,11 +49,13 @@ jobs:
       - name: Install Claude Code
         run: npm install -g @anthropic-ai/claude-code
 
-      - name: Write .env (stock photo for the person cut-out)
+      - name: Write .env (Gemini scenes; stock photos as the fallback)
         env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_IMAGE_MODEL: ${{ vars.GEMINI_IMAGE_MODEL }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
-        run: for k in PEXELS_API_KEY PIXABAY_API_KEY; do echo "$k=${!k}" >> .env; done
+        run: for k in GEMINI_API_KEY GEMINI_IMAGE_MODEL PEXELS_API_KEY PIXABAY_API_KEY; do echo "$k=${!k}" >> .env; done
 
       - name: Make three thumbnails with Claude Code
         env:
@@ -61,8 +63,8 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           claude -p "Unattended, nobody will answer questions. Use the youtube-thumbnail skill, section 5b (faceless,
-          three designed variants A/B/C with tools/thumb-design.mjs, with the dramatic extras: company logo, one badge,
-          one person cut-out), for project $P. The title options are in
+          three variants A/B/C: a Gemini photo scene from tools/gemini-image.mjs under the type set by
+          tools/thumb-design.mjs, plus the extras: company logo, one badge), for project $P. The title options are in
           projects/$P/output/metadata.md, the words in projects/$P/work/cleancut.transcript.md. Read every PNG and feed
           preview, fix and re-render anything clipped or unreadable, then write projects/$P/output/thumbnails/thumbnails.md.
           Do not commit or push." \

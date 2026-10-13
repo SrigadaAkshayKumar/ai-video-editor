@@ -176,11 +176,13 @@ jobs:
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_IMAGE_MODEL: ${{ vars.GEMINI_IMAGE_MODEL }}
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
           OPENVERSE_TOKEN: ${{ secrets.OPENVERSE_TOKEN }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: |
-          for k in ELEVENLABS_API_KEY PEXELS_API_KEY PIXABAY_API_KEY OPENVERSE_TOKEN YOUTUBE_API_KEY; do
+          for k in ELEVENLABS_API_KEY GEMINI_API_KEY GEMINI_IMAGE_MODEL PEXELS_API_KEY PIXABAY_API_KEY OPENVERSE_TOKEN YOUTUBE_API_KEY; do
             echo "$k=${!k}" >> .env
           done
 
