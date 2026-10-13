@@ -1,14 +1,19 @@
 # Upload an episode that is already in Drive to YouTube, scheduled (the same tools/youtube.mjs the daily run uses).
 # For episodes made before the YouTube step existed, or to retry a failed upload.
 # Actions → Upload to YouTube → Run workflow → project (e.g. d06-why-fewer-freshers).
+# Tick "test" (project empty) for one Private 10-second test Short that only shows which channel the login reaches.
 name: Upload to YouTube
 
 on:
   workflow_dispatch:
     inputs:
       project:
-        description: "Project folder, e.g. d06-why-fewer-freshers"
-        required: true
+        description: "Project folder, e.g. d06-why-fewer-freshers (empty with 'test')"
+        required: false
+      test:
+        description: "Only a Private 10-second test Short, to check which channel the login uploads to"
+        type: boolean
+        default: false
       force:
         description: "Upload again even if youtube-uploaded.json says it is already on YouTube"
         type: boolean
@@ -31,6 +36,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: rclone + Drive login
+        if: ${{ !inputs.test }}
         env:
           RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
         run: |
@@ -38,7 +44,21 @@ jobs:
           mkdir -p ~/.config/rclone
           printf '%s\n' "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
 
+      - name: Test upload (Private, no schedule)
+        if: inputs.test
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: |
+          sudo apt-get install -y -q ffmpeg > /dev/null
+          ffmpeg -v error -f lavfi -i "color=c=0x0b1020:s=1080x1920:d=10" -f lavfi -i "sine=f=440:d=10" \
+            -vf "drawtext=text='Upload test':fontcolor=white:fontsize=110:x=(w-text_w)/2:y=(h-text_h)/2" \
+            -c:v libx264 -pix_fmt yuv420p -c:a aac -shortest test-short.mp4
+          node tools/youtube.mjs --test test-short.mp4
+
       - name: Pull the episode from Drive
+        if: ${{ !inputs.test }}
         run: |
           test -f "projects/$P/project.json" || { echo "::error::no projects/$P in the repo"; exit 1; }
           rclone copy "$DRIVE/output/$P" "projects/$P/output" --exclude "shorts/**" -v
@@ -54,7 +74,7 @@ jobs:
           node-version: 22
 
       - name: Write youtube.json (episodes made before the YouTube step)
-        if: hashFiles(format('projects/{0}/output/youtube.json', inputs.project)) == ''
+        if: ${{ !inputs.test && hashFiles(format('projects/{0}/output/youtube.json', inputs.project)) == '' }}
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -68,6 +88,7 @@ jobs:
           node -e 'const j=require("./projects/"+process.env.P+"/output/youtube.json"); if(!j.title||!j.description) process.exit(1)'
 
       - name: Upload + schedule
+        if: ${{ !inputs.test }}
         env:
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}

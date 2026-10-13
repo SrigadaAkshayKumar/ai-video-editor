@@ -2,6 +2,8 @@
 // Upload a finished daily episode to YouTube and schedule it (the daily run's last step; .github/workflows/daily-edit.yml).
 // Usage:
 //   node tools/youtube.mjs <project> [--shorts AI-clipper/output/<slug>] [--dry-run]
+//   node tools/youtube.mjs --test <file.mp4>   one Private test upload (no schedule): proves the login works and
+//                                              prints which channel it went to
 // Reads projects/<p>/output/youtube.json (written by the daily-run skill):
 //   {"title": "…", "description": "…", "tags": ["…"], "thumbnail": "output/thumbnail.png" (optional)}
 // and the Shorts' AI-clipper/jobs/<p>/clips.json (title, description, hashtags per clip id; files NN-*.mp4).
@@ -16,10 +18,12 @@ import { PROJECTS, ROOT, die, parseCli, readJson, writeJson } from "./lib/common
 
 const { positional, flags } = parseCli();
 const [project] = positional;
-if (!project) die("usage: node tools/youtube.mjs <project> [--shorts dir] [--dry-run]");
+const testFile = typeof flags.test === "string" ? flags.test : null;
+if (!project && !testFile) die("usage: node tools/youtube.mjs <project> [--shorts dir] [--dry-run] | --test <file.mp4>");
 const dryRun = !!flags["dry-run"];
 const cfg = { publishDelayDays: 1, publishTime: "18:00", shortsTimes: ["09:00", "13:00", "21:00"], categoryId: "27",
   language: "en", syntheticMedia: true, ...(readJson(join(ROOT, "config", "daily.json")).youtube || {}) };
+if (testFile) await testUpload(testFile);
 const out = join(PROJECTS, project, "output");
 const metaFile = join(out, "youtube.json");
 if (!existsSync(metaFile)) die(`${metaFile} missing — the daily-run skill writes it with the metadata`);
@@ -69,8 +73,8 @@ async function accessToken() {
 async function upload(token, file, snippet, publishAt) {
   const body = {
     snippet: { ...snippet, categoryId: cfg.categoryId, defaultLanguage: cfg.language, defaultAudioLanguage: cfg.language },
-    status: { privacyStatus: "private", publishAt: publishAt.toISOString(), selfDeclaredMadeForKids: false,
-      containsSyntheticMedia: cfg.syntheticMedia },
+    status: { privacyStatus: "private", ...(publishAt ? { publishAt: publishAt.toISOString() } : {}),
+      selfDeclaredMadeForKids: false, containsSyntheticMedia: cfg.syntheticMedia },
   };
   const size = readFileSync(file).length;
   const start = await fetch("https://www.googleapis.com/upload/youtube/v3/videos?uploadType=resumable&part=snippet,status", {
@@ -83,10 +87,24 @@ async function upload(token, file, snippet, publishAt) {
   const session = start.headers.get("location");
   for (let attempt = 1; ; attempt++) {
     const put = await fetch(session, { method: "PUT", headers: { "Content-Type": "video/mp4" }, body: readFileSync(file) });
-    if (put.ok) return (await put.json()).id;
+    if (put.ok) return await put.json();
     if (attempt >= 3 || put.status < 500) die(`upload failed for ${file}: ${put.status} ${await put.text()}`);
     await new Promise((r) => setTimeout(r, 5000 * attempt));
   }
+}
+
+/** --test: one Private upload, no schedule; report the channel YouTube put it on. Hoisted, so it runs before the plan. */
+async function testUpload(file) {
+  if (!existsSync(file)) die(`not found: ${file}`);
+  const v = await upload(await accessToken(), file,
+    { title: "Upload test - delete me", description: "Test upload from the Crack IT daily pipeline. Safe to delete.", tags: ["test"] }, null);
+  const lines = ["### YouTube test upload", "", `- Video: https://youtube.com/shorts/${v.id} (Private)`,
+    `- Channel: **${v.snippet?.channelTitle || "?"}** (id ${v.snippet?.channelId || "?"}, https://www.youtube.com/channel/${v.snippet?.channelId || ""})`,
+    `- Status: ${v.status?.privacyStatus} / upload ${v.status?.uploadStatus}`, "",
+    "If the channel is not Crack IT, run tools/youtube-auth.mjs again and pick the Crack IT channel."];
+  console.log(lines.join("\n"));
+  if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, lines.join("\n") + "\n");
+  process.exit(0);
 }
 
 async function setThumbnail(token, id, file) {
@@ -135,7 +153,7 @@ for (const p of plan) {
     results.push({ kind: p.kind, file: p.file, title: p.snippet.title, publishAt: p.publishAt.toISOString(), tags: p.snippet.tags.length });
     continue;
   }
-  const id = await upload(token, p.file, p.snippet, p.publishAt);
+  const { id } = await upload(token, p.file, p.snippet, p.publishAt);
   const url = p.kind === "short" ? `https://youtube.com/shorts/${id}` : `https://youtu.be/${id}`;
   if (p.kind === "video") videoUrl = url;
   const thumb = p.thumbnail && existsSync(p.thumbnail) ? await setThumbnail(token, id, p.thumbnail) : undefined;
