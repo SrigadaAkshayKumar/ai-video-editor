@@ -74,6 +74,11 @@ revoke it at the provider and replace the secret.
 - Time: the `cron` line in the workflow is UTC (`33 9 * * *` = 15:03 IST; minutes :00 and :30 are GitHub's busiest and scheduled runs there get dropped). GitHub may start scheduled runs a few
   minutes late. To run one now, go to **Actions → Daily edit → Run workflow**, optionally naming an episode (`d03`)
   and style words.
+- **Backup start:** GitHub has been starting this schedule 6–10 hours late. A Claude Routine on the owner's account
+  checks every day at 15:45 IST and, if no run has started in the last 12 hours, starts one with **Run workflow**.
+  A run with no episode named does nothing when an episode finished less than `minHoursBetween` (12) hours ago
+  (`config/daily.json`), so the late schedule and the backup never make two episodes in a row. To make an extra
+  episode by hand, name it in **Run workflow** (`d07`).
 - Runner: `ubuntu-latest`, 4 CPUs / 16 GB RAM (public repo), max ~6 h per run. Renders are slower than on the laptop.
 - Minutes: free and unlimited on standard runners for a public repo. One episode (script + voice + edit + render +
   Shorts) will likely take 1.5–3 h.

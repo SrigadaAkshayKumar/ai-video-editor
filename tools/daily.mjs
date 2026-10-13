@@ -11,6 +11,9 @@
 //                                       edit    the audio is there (daily-run skill)
 //                                     plus the edit look for the episode (config/daily.json → looks): a random pick,
 //                                     never one of the last `avoidRecent` looks used, so episodes don't all look alike.
+//                                     Without a named episode it answers "none" when an episode finished less than
+//                                     config.minHoursBetween hours ago: GitHub's schedule fires hours late and the
+//                                     backup start may already have made today's episode.
 //   node tools/daily.mjs script-check reads daily-script.json (written by the daily-script skill), confirms the
 //                                     episode's script + voiceover are complete. Exit 1 = stop the run.
 //   node tools/daily.mjs check        reads daily-run.json (written by Claude at the end of the run), confirms the
@@ -93,13 +96,19 @@ const lookFields = (episode) => {
 };
 
 if (cmd === "next") {
+  const last = state.done.map((d) => Date.parse(d.at)).filter(Number.isFinite).sort((a, b) => a - b).at(-1);
+  const hours = last ? (Date.now() - last) / 3.6e6 : Infinity;
+  if (!arg && config.minHoursBetween && hours < config.minHoursBetween) {
+    output({ episode: "none", reason: `an episode finished ${hours.toFixed(1)} h ago (minHoursBetween ${config.minHoursBetween})` });
+    process.exit(0);
+  }
   if (!existsSync(series)) die(`${config.series} not found — is the Drive inbox synced?`);
   const episodes = listEpisodes();
   const pick = arg ? episodes.find((e) => e.toLowerCase() === arg.toLowerCase()) : episodes.find((e) => !finished(e));
   if (arg && !pick) die(`no episode folder ${arg} in ${config.series}`);
   if (!pick) {
     if (config.freshNews === false) {
-      output({ episode: "none" });
+      output({ episode: "none", reason: "every planned episode is finished and freshNews is off" });
       process.exit(0);
     }
     const last = episodes.length ? episodeNumber(episodes.at(-1)) : 0;
