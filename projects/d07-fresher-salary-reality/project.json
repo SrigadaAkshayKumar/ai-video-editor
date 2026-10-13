@@ -1,0 +1,106 @@
+{
+  "name": "d07-fresher-salary-reality",
+  "createdAt": "2026-10-13T17:27:07.890Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d07-fresher-salary-reality/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d07/d07-voice.wav",
+    "duration": 223.5,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d07-fresher-salary-reality/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d07/d07_fresher_salary_reality_voiceover.txt",
+    "words": 730,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d07-fresher-salary-reality/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Infosys",
+    "Wipro",
+    "And Cognizant",
+    "Gen",
+    "Next",
+    "Gratuity"
+  ],
+  "mode": "faceless",
+  "style": "liquid",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; modern liquid-glass look for a young audience: glossy capsules, jelly-spring arrivals, slow push-ins on b-roll, keyword chips and stat trios; energetic, a beat every 3-5 s; airy swooshes and pops",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d07-fresher-salary-reality/source/intro.mp4",
+  "introAt": 27.06,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-10-13T17:29:27.047Z",
+      "words": 674,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-10-13T17:31:23.102Z",
+      "segments": 12,
+      "kept": 221.933
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-10-13T17:57:15.184Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d07-fresher-salary-reality/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-10-13T17:57:25.114Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-10-13T17:57:25.152Z",
+      "groups": 166
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-10-13T17:58:21.198Z",
+      "music": 0,
+      "sfx": 26
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-10-13T18:02:34.134Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d07-fresher-salary-reality/output/final-16x9.mp4",
+      "duration": 231.964
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.85871,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d07-fresher-salary-reality/work/cleancut.wav",
+    "duration": 221.933542,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

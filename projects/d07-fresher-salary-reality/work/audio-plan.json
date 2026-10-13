@@ -1,0 +1,156 @@
+{
+ "music_cues": [],
+ "sfx_events": [
+  {
+   "time": 0.1,
+   "sfx": "impact",
+   "reason": "title lands",
+   "gain": 4
+  },
+  {
+   "time": 4.45,
+   "sfx": "pop",
+   "reason": "\u00f712 reveal"
+  },
+  {
+   "time": 10.4,
+   "sfx": "impact",
+   "reason": "nobody cheated you",
+   "gain": 4
+  },
+  {
+   "time": 25.8,
+   "sfx": "riser",
+   "reason": "builds into section 01",
+   "gain": 3
+  },
+  {
+   "time": 27.3,
+   "sfx": "impact",
+   "reason": "section 01",
+   "gain": 4
+  },
+  {
+   "time": 35.4,
+   "sfx": "sub_drop",
+   "reason": "table opens",
+   "gain": 4
+  },
+  {
+   "time": 44.9,
+   "sfx": "pop",
+   "reason": "Infosys row"
+  },
+  {
+   "time": 65.4,
+   "sfx": "sub_drop",
+   "reason": "regular vs higher",
+   "gain": 4
+  },
+  {
+   "time": 72.2,
+   "sfx": "riser",
+   "reason": "builds into section 02",
+   "gain": 3
+  },
+  {
+   "time": 73.7,
+   "sfx": "impact",
+   "reason": "section 02",
+   "gain": 4
+  },
+  {
+   "time": 80.7,
+   "sfx": "pop",
+   "reason": "not your bank credit"
+  },
+  {
+   "time": 85.6,
+   "sfx": "sub_drop",
+   "reason": "inside your CTC",
+   "gain": 4
+  },
+  {
+   "time": 104.6,
+   "sfx": "riser",
+   "reason": "builds into section 03",
+   "gain": 3
+  },
+  {
+   "time": 106.7,
+   "sfx": "impact",
+   "reason": "section 03",
+   "gain": 4
+  },
+  {
+   "time": 113.6,
+   "sfx": "sub_drop",
+   "reason": "yearly table",
+   "gain": 4
+  },
+  {
+   "time": 135.9,
+   "sfx": "sub_drop",
+   "reason": "monthly table",
+   "gain": 4
+  },
+  {
+   "time": 152.4,
+   "sfx": "ding",
+   "reason": "in-hand row resolves",
+   "gain": 2
+  },
+  {
+   "time": 156.8,
+   "sfx": "impact",
+   "reason": "33,333 \u2192 29,292",
+   "gain": 4
+  },
+  {
+   "time": 158.3,
+   "sfx": "riser",
+   "reason": "builds into section 04",
+   "gain": 3
+  },
+  {
+   "time": 159.9,
+   "sfx": "impact",
+   "reason": "section 04",
+   "gain": 4
+  },
+  {
+   "time": 172.8,
+   "sfx": "sub_drop",
+   "reason": "how you get in",
+   "gain": 4
+  },
+  {
+   "time": 179.1,
+   "sfx": "pop",
+   "reason": "practice topics"
+  },
+  {
+   "time": 185.6,
+   "sfx": "sub_drop",
+   "reason": "regular vs higher",
+   "gain": 4
+  },
+  {
+   "time": 191.9,
+   "sfx": "impact",
+   "reason": "CTC \u2260 salary",
+   "gain": 4
+  },
+  {
+   "time": 213.9,
+   "sfx": "impact",
+   "reason": "tomorrow",
+   "gain": 4
+  },
+  {
+   "time": 220.3,
+   "sfx": "pop",
+   "reason": "subscribe"
+  }
+ ]
+}

@@ -1,0 +1,1018 @@
+{
+ "style": "liquid",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.1,
+   "duration": 3.9,
+   "type": "title_slide",
+   "text": "Fresher Salary Reality",
+   "eyebrow": "Crack IT · Day 07",
+   "style_hint": "₹4 LPA is not ₹33,333 a month",
+   "value": "2026"
+  },
+  {
+   "start": 4.45,
+   "duration": 2.2,
+   "type": "big_statement",
+   "text": "₹4,00,000 ÷ 12 = ₹33,333",
+   "eyebrow": "33,333"
+  },
+  {
+   "start": 6.8,
+   "duration": 3.5,
+   "type": "number_roll",
+   "value": 29000,
+   "prefix": "₹",
+   "text": "Your first salary: closer to…"
+  },
+  {
+   "start": 10.4,
+   "duration": 2.65,
+   "type": "big_statement",
+   "text": "You read CTC the wrong way",
+   "eyebrow": "wrong"
+  },
+  {
+   "start": 13.4,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "REPORTED PACKAGES",
+   "side": "right"
+  },
+  {
+   "start": 16,
+   "duration": 3.2,
+   "type": "matrix_grid",
+   "text": "5 companies",
+   "items": [
+    {
+     "label": "TCS"
+    },
+    {
+     "label": "Infosys"
+    },
+    {
+     "label": "Wipro"
+    },
+    {
+     "label": "HCLTech"
+    },
+    {
+     "label": "Cognizant"
+    }
+   ]
+  },
+  {
+   "start": 19.4,
+   "duration": 4.2,
+   "type": "flow_diagram",
+   "text": "CTC → in-hand",
+   "items": [
+    {
+     "label": "CTC",
+     "sublabel": "company's cost"
+    },
+    {
+     "label": "Deductions",
+     "sublabel": "PF · tax"
+    },
+    {
+     "label": "In-hand",
+     "sublabel": "what you get"
+    }
+   ]
+  },
+  {
+   "start": 23.8,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "HIGHER PAYING TRACKS",
+   "side": "left"
+  },
+  {
+   "start": 27.3,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Reported Packages",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 1
+  },
+  {
+   "start": 30.5,
+   "duration": 4.8,
+   "type": "keyword_chip",
+   "text": "REPORTED RANGES · 2026",
+   "side": "right"
+  },
+  {
+   "start": 35.4,
+   "duration": 29.8,
+   "type": "data_table",
+   "text": "Reported fresher packages (LPA)",
+   "section": 1,
+   "columns": [
+    "Company",
+    "Regular",
+    "Higher track"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "TCS",
+      "₹3.36L",
+      "₹7L"
+     ],
+     "at": 0.1,
+     "color": "#4fd1ff"
+    },
+    {
+     "cells": [
+      "Infosys",
+      "₹3.6L",
+      "₹9.5L"
+     ],
+     "at": 9.5,
+     "color": "#ffb547"
+    },
+    {
+     "cells": [
+      "Wipro",
+      "₹3.5L",
+      "₹6.5L"
+     ],
+     "at": 16.5,
+     "color": "#9be15d"
+    },
+    {
+     "cells": [
+      "HCLTech",
+      "₹3.5L",
+      "₹5L"
+     ],
+     "at": 21.3,
+     "color": "#b18cff"
+    },
+    {
+     "cells": [
+      "Cognizant",
+      "~₹4L GenC",
+      "~₹6.5L Next"
+     ],
+     "at": 24.5,
+     "color": "#ff6b5b"
+    }
+   ],
+   "footer": "Reported ranges · your offer letter is final",
+   "footer_at": 29
+  },
+  {
+   "start": 65.5,
+   "duration": 5.3,
+   "type": "comparison",
+   "side": "left",
+   "left": {
+    "label": "Regular band",
+    "text": "Most freshers start here"
+   },
+   "right": {
+    "label": "Higher band",
+    "text": "Stronger coders · specialists"
+   }
+  },
+  {
+   "start": 71,
+   "duration": 2.5,
+   "type": "keyword_chip",
+   "text": "REMEMBER THIS",
+   "side": "right"
+  },
+  {
+   "start": 73.7,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "CTC Is Not Salary",
+   "eyebrow": "Section 02",
+   "numeral": "02",
+   "section": 2
+  },
+  {
+   "start": 77.1,
+   "duration": 3.4,
+   "type": "term_card",
+   "side": "right",
+   "text": "CTC",
+   "eyebrow": "Cost To Company",
+   "items": [
+    {
+     "label": "The total the company spends on you in a year"
+    }
+   ]
+  },
+  {
+   "start": 80.7,
+   "duration": 2.1,
+   "type": "big_statement",
+   "text": "Not your bank credit",
+   "eyebrow": "Not"
+  },
+  {
+   "start": 82.95,
+   "duration": 2.55,
+   "type": "keyword_chip",
+   "text": "NOT PAID MONTHLY",
+   "side": "left"
+  },
+  {
+   "start": 85.7,
+   "duration": 11.2,
+   "type": "flow_diagram",
+   "text": "Inside your CTC",
+   "items": [
+    {
+     "label": "Monthly gross",
+     "sublabel": "reaches you"
+    },
+    {
+     "label": "Employer PF",
+     "sublabel": "company's share"
+    },
+    {
+     "label": "Gratuity",
+     "sublabel": "only after 5 years"
+    },
+    {
+     "label": "Variable pay",
+     "sublabel": "later · not guaranteed"
+    }
+   ]
+  },
+  {
+   "start": 97.3,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "DEDUCTED MONTHLY",
+   "side": "right"
+  },
+  {
+   "start": 100.8,
+   "duration": 5.7,
+   "type": "bullet_list",
+   "side": "left",
+   "text": "Monthly deductions",
+   "items": [
+    {
+     "label": "Your own PF"
+    },
+    {
+     "label": "Professional tax (many states)"
+    },
+    {
+     "label": "Income tax (if high enough)"
+    }
+   ]
+  },
+  {
+   "start": 106.65,
+   "duration": 3.07,
+   "type": "chapter_open",
+   "text": "₹4 LPA Breakdown",
+   "eyebrow": "Section 03",
+   "numeral": "03",
+   "section": 3
+  },
+  {
+   "start": 109.8,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "ILLUSTRATIVE EXAMPLE",
+   "side": "left"
+  },
+  {
+   "start": 113.7,
+   "duration": 22.2,
+   "type": "data_table",
+   "text": "₹4 LPA · the year",
+   "section": 3,
+   "columns": [
+    "Step",
+    "Amount / year"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "CTC",
+      "₹4,00,000"
+     ],
+     "at": 0.1,
+     "color": "#4fd1ff"
+    },
+    {
+     "cells": [
+      "Basic · 40%",
+      "₹1,60,000"
+     ],
+     "at": 3.3,
+     "color": "#9be15d"
+    },
+    {
+     "cells": [
+      "− Employer PF · 12% of basic",
+      "₹19,200"
+     ],
+     "at": 8.4,
+     "color": "#ffb547"
+    },
+    {
+     "cells": [
+      "− Gratuity · ~4.81%",
+      "₹7,696"
+     ],
+     "at": 11,
+     "color": "#ff6b5b"
+    },
+    {
+     "cells": [
+      "= Gross",
+      "₹3,73,104"
+     ],
+     "at": 19.8,
+     "color": "#b18cff"
+    }
+   ],
+   "footer": "Illustrative example · structures differ",
+   "footer_at": 1.5
+  },
+  {
+   "start": 136,
+   "duration": 20.6,
+   "type": "data_table",
+   "text": "Gross → in-hand · the month",
+   "section": 3,
+   "columns": [
+    "Step",
+    "Amount / month"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "Gross",
+      "₹31,092"
+     ],
+     "at": 0.2,
+     "color": "#4fd1ff"
+    },
+    {
+     "cells": [
+      "− Your PF · 12% of basic",
+      "₹1,600"
+     ],
+     "at": 4.4,
+     "color": "#ffb547"
+    },
+    {
+     "cells": [
+      "− Professional tax (varies)",
+      "~₹200"
+     ],
+     "at": 9,
+     "color": "#ff6b5b"
+    },
+    {
+     "cells": [
+      "− Income tax · new regime",
+      "₹0"
+     ],
+     "at": 13,
+     "color": "#9be15d"
+    },
+    {
+     "cells": [
+      "= In-hand",
+      "≈ ₹29,292"
+     ],
+     "at": 16.7,
+     "color": "#ffd400"
+    }
+   ],
+   "footer": "Illustrative example · structures differ",
+   "footer_at": 1
+  },
+  {
+   "start": 156.8,
+   "duration": 2.95,
+   "type": "word_swap",
+   "from": "₹33,333",
+   "to": "₹29,292",
+   "text": "In-hand, per month"
+  },
+  {
+   "start": 159.9,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Why Higher Tracks Pay More",
+   "eyebrow": "Section 04",
+   "numeral": "04",
+   "section": 4
+  },
+  {
+   "start": 163.2,
+   "duration": 2,
+   "type": "keyword_chip",
+   "text": "GEN C NEXT · DIGITAL",
+   "side": "right"
+  },
+  {
+   "start": 165.6,
+   "duration": 7,
+   "type": "bullet_list",
+   "side": "right",
+   "text": "What they expect",
+   "items": [
+    {
+     "label": "Better coding"
+    },
+    {
+     "label": "Faster problem solving"
+    },
+    {
+     "label": "Specialist skills"
+    }
+   ]
+  },
+  {
+   "start": 172.85,
+   "duration": 6.05,
+   "type": "flow_diagram",
+   "text": "How you get in",
+   "items": [
+    {
+     "label": "Coding round",
+     "sublabel": "performance"
+    },
+    {
+     "label": "Technical interview",
+     "sublabel": "depth"
+    },
+    {
+     "label": "Higher track",
+     "sublabel": "bigger package"
+    }
+   ]
+  },
+  {
+   "start": 179.1,
+   "duration": 6.4,
+   "type": "matrix_grid",
+   "text": "Practice these",
+   "items": [
+    {
+     "label": "Arrays"
+    },
+    {
+     "label": "Strings"
+    },
+    {
+     "label": "Hashing"
+    },
+    {
+     "label": "Basic DP"
+    },
+    {
+     "label": "SQL"
+    }
+   ]
+  },
+  {
+   "start": 185.6,
+   "duration": 6,
+   "type": "comparison",
+   "side": "left",
+   "left": {
+    "label": "Regular track",
+    "text": "~₹3.5L"
+   },
+   "right": {
+    "label": "Higher track",
+    "text": "~₹6.5L"
+   }
+  },
+  {
+   "start": 191.9,
+   "duration": 4,
+   "type": "big_statement",
+   "text": "CTC ≠ monthly salary",
+   "eyebrow": "≠"
+  },
+  {
+   "start": 196.2,
+   "duration": 5.1,
+   "type": "number_roll",
+   "value": 29,
+   "prefix": "₹",
+   "suffix": "k",
+   "text": "₹4 LPA ≈ in hand, per month (example)"
+  },
+  {
+   "start": 201.6,
+   "duration": 3.9,
+   "type": "keyword_chip",
+   "text": "HIGHER CODING TRACK",
+   "side": "left"
+  },
+  {
+   "start": 205.7,
+   "duration": 5.6,
+   "type": "quote_pull",
+   "text": "CTC: ₹__  ·  In-hand: ₹__",
+   "eyebrow": "Comment yours below"
+  },
+  {
+   "start": 211.5,
+   "duration": 2.25,
+   "type": "keyword_chip",
+   "text": "REAL NUMBERS",
+   "side": "right"
+  },
+  {
+   "start": 213.9,
+   "duration": 3.1,
+   "type": "big_statement",
+   "text": "Tomorrow: can an offer be cancelled?",
+   "eyebrow": "Tomorrow"
+  },
+  {
+   "start": 217.15,
+   "duration": 3,
+   "type": "word_swap",
+   "from": "Offer letter",
+   "to": "LOI → cancelled?",
+   "text": "The scary question"
+  },
+  {
+   "start": 220.3,
+   "duration": 1.6,
+   "type": "keyword_chip",
+   "text": "SUBSCRIBE",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "index": 0,
+   "start": 0,
+   "end": 4.38,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "₹4,00,000",
+    "label": "CTC per annum"
+   }
+  },
+  {
+   "index": 1,
+   "start": 4.38,
+   "end": 6.71,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "÷ 12",
+    "label": "= ₹33,333 a month?"
+   }
+  },
+  {
+   "index": 2,
+   "start": 6.71,
+   "end": 10.35,
+   "kind": "broll",
+   "src": "assets/broll/phone.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 3,
+   "start": 10.35,
+   "end": 13.12,
+   "kind": "graphic",
+   "grade": "hot"
+  },
+  {
+   "index": 4,
+   "start": 13.12,
+   "end": 19.29,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 5,
+   "start": 19.29,
+   "end": 26.82,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "CTC → ₹",
+    "label": "what actually arrives"
+   }
+  },
+  {
+   "index": 6,
+   "start": 26.82,
+   "end": 30.06,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 7,
+   "start": 30.06,
+   "end": 35.43,
+   "kind": "broll",
+   "src": "assets/broll/keys.mp4",
+   "media_start": 0,
+   "motion": "pan_right",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 8,
+   "start": 35.43,
+   "end": 44.87,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "TCS",
+    "label": "₹3.36–7 LPA · reported"
+   }
+  },
+  {
+   "index": 9,
+   "start": 44.87,
+   "end": 51.85,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "Infosys",
+    "label": "₹3.6–9.5 LPA · reported"
+   }
+  },
+  {
+   "index": 10,
+   "start": 51.85,
+   "end": 56.61,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "Wipro",
+    "label": "₹3.5–6.5 LPA · reported"
+   }
+  },
+  {
+   "index": 11,
+   "start": 56.61,
+   "end": 59.83,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "HCLTech",
+    "label": "₹3.5–5 LPA · reported"
+   }
+  },
+  {
+   "index": 12,
+   "start": 59.83,
+   "end": 65.29,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "Cognizant",
+    "label": "GenC · GenC Next"
+   }
+  },
+  {
+   "index": 13,
+   "start": 65.29,
+   "end": 70.9,
+   "kind": "broll",
+   "src": "assets/broll/code.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 14,
+   "start": 70.9,
+   "end": 73.6,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 15,
+   "start": 73.6,
+   "end": 77.55,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 16,
+   "start": 77.55,
+   "end": 80.54,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "CTC",
+    "label": "Cost To Company"
+   }
+  },
+  {
+   "index": 17,
+   "start": 80.54,
+   "end": 82.88,
+   "kind": "graphic",
+   "grade": "hot"
+  },
+  {
+   "index": 18,
+   "start": 82.88,
+   "end": 85.59,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "≠ paid",
+    "label": "every month"
+   }
+  },
+  {
+   "index": 19,
+   "start": 85.59,
+   "end": 97.25,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "CTC",
+    "label": "more than your monthly pay"
+   }
+  },
+  {
+   "index": 20,
+   "start": 97.25,
+   "end": 106.58,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "−",
+    "label": "deducted every month"
+   }
+  },
+  {
+   "index": 21,
+   "start": 106.58,
+   "end": 109.7,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 22,
+   "start": 109.7,
+   "end": 113.7,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "₹4 LPA",
+    "label": "illustrative example"
+   }
+  },
+  {
+   "index": 23,
+   "start": 113.7,
+   "end": 121.9,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "₹1.6L",
+    "label": "basic · 40% of CTC"
+   }
+  },
+  {
+   "index": 24,
+   "start": 121.9,
+   "end": 124.5,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "−₹19,200",
+    "label": "employer PF"
+   }
+  },
+  {
+   "index": 25,
+   "start": 124.5,
+   "end": 133.4,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "−₹7,696",
+    "label": "gratuity · ~4.81%"
+   }
+  },
+  {
+   "index": 26,
+   "start": 133.4,
+   "end": 136,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "₹3,73,104",
+    "label": "gross · a year"
+   }
+  },
+  {
+   "index": 27,
+   "start": 136,
+   "end": 139.6,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "₹31,092",
+    "label": "gross · a month"
+   }
+  },
+  {
+   "index": 28,
+   "start": 139.6,
+   "end": 144,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "−₹1,600",
+    "label": "your PF · monthly"
+   }
+  },
+  {
+   "index": 29,
+   "start": 144,
+   "end": 148.5,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "−₹200",
+    "label": "professional tax · varies"
+   }
+  },
+  {
+   "index": 30,
+   "start": 148.5,
+   "end": 152.4,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "₹0",
+    "label": "income tax · new regime"
+   }
+  },
+  {
+   "index": 31,
+   "start": 152.4,
+   "end": 156.75,
+   "kind": "graphic",
+   "grade": "hot",
+   "card": {
+    "value": "≈ ₹29,292",
+    "label": "in-hand · a month"
+   }
+  },
+  {
+   "index": 32,
+   "start": 156.75,
+   "end": 159.82,
+   "kind": "graphic",
+   "grade": "hot"
+  },
+  {
+   "index": 33,
+   "start": 159.82,
+   "end": 163.1,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 34,
+   "start": 163.1,
+   "end": 172.75,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "Harder",
+    "label": "work, sooner"
+   }
+  },
+  {
+   "index": 35,
+   "start": 172.75,
+   "end": 179.02,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "Coding",
+    "label": "round + interview"
+   }
+  },
+  {
+   "index": 36,
+   "start": 179.02,
+   "end": 185.55,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "5 topics",
+    "label": "arrays → SQL"
+   }
+  },
+  {
+   "index": 37,
+   "start": 185.55,
+   "end": 191.76,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "₹3.5L → ₹6.5L",
+    "label": "from day one"
+   }
+  },
+  {
+   "index": 38,
+   "start": 191.76,
+   "end": 196.08,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 39,
+   "start": 196.08,
+   "end": 201.49,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "≈ ₹29k",
+    "label": "₹4 LPA in hand (example)"
+   }
+  },
+  {
+   "index": 40,
+   "start": 201.49,
+   "end": 205.62,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "Coding",
+    "label": "the fastest way up"
+   }
+  },
+  {
+   "index": 41,
+   "start": 205.62,
+   "end": 211.44,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 42,
+   "start": 211.44,
+   "end": 213.82,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "Real",
+    "label": "numbers help others"
+   }
+  },
+  {
+   "index": 43,
+   "start": 213.82,
+   "end": 217.04,
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "index": 44,
+   "start": 217.04,
+   "end": 220.21,
+   "kind": "graphic",
+   "grade": "hot"
+  },
+  {
+   "index": 45,
+   "start": 220.21,
+   "end": 221.93,
+   "kind": "graphic",
+   "grade": "neutral"
+  }
+ ],
+ "camera_moves": []
+}
