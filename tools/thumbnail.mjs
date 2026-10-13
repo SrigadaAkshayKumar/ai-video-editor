@@ -7,8 +7,9 @@
 //       transparent PNG of the subject via HyperFrames' local background remover → work/thumb/cutout.png
 //   render <project> --big "NOT ENOUGH" [--small "Certificates alone"] [--native "ఉద్యోగం రాదు"]
 //          [--cutout work/thumb/cutout.png] [--background path] [--accent "#ffcc00"] [--side right|left]
-//          [--small-first] [--format 16:9|9:16] [--bg-pos "50% 20%"]
-//       → output/thumbnail-16x9.png (1280x720, YouTube) and/or output/cover-9x16.png (1080x1920, Reels cover)
+//          [--small-first] [--format 16:9|9:16] [--bg-pos "50% 20%"] [--dim 0.35] [--name A]
+//       → output/thumbnail-16x9.png (1280x720, YouTube) and/or output/cover-9x16.png (1080x1920, Reels cover);
+//         with --name A: output/thumbnails/A.png (+ A-cover.png), so several variants can sit side by side
 import { existsSync, mkdirSync, mkdtempSync, rmSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { basename, join } from "node:path";
@@ -71,19 +72,22 @@ if (cmd === "frames") {
     background: asset(flags.background),
     cutoutSide: flags.side === "left" ? "left" : "right",
     smallFirst: !!flags["small-first"],
+    ...(flags.dim !== undefined ? { backgroundDim: Number(flags.dim) } : {}),
   };
+  const variant = flags.name ? String(flags.name).replace(/[^\w-]/g, "") : "";
+  if (variant) mkdirSync(join(paths.output, "thumbnails"), { recursive: true });
   try {
     for (const aspect of want) {
       const [w, h, name] = aspect === "9:16" ? [1080, 1920, "cover-9x16.png"] : [1280, 720, "thumbnail-16x9.png"];
       const propsFile = join(pub, `props-${w}x${h}.json`);
       writeJson(propsFile, { ...base, width: w, height: h });
-      const out = join(paths.output, name);
+      const out = variant ? join(paths.output, "thumbnails", `${variant}${aspect === "9:16" ? "-cover" : ""}.png`) : join(paths.output, name);
       npx(["remotion", "still", "src/index.ts", "Thumbnail", out, `--props=${propsFile}`, `--public-dir=${pub}`, "--log=error"], {
         cwd: REMOTION_DIR,
         inherit: true,
       });
       // the feed shows thumbnails ~120px wide: check legibility at that size
-      const small = join(thumbDir, `preview-120-${name}`);
+      const small = variant ? out.replace(/\.png$/, "-feed.png") : join(thumbDir, `preview-120-${name}`);
       run("ffmpeg", ["-y", "-v", "error", "-i", out, "-vf", `scale=${aspect === "9:16" ? 120 : 214}:-2`, small]);
       console.log(`${out}\n  feed-size preview → ${small} (Read it: is the big word readable, the face recognisable?)`);
     }

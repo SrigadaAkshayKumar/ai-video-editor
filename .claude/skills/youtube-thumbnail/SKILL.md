@@ -62,6 +62,31 @@ duration stamp. Text 3-4 words; one word huge. A native-script line against an E
 the language instantly. Accent = the section accent of the hook's chapter, or the brand's colour if the user named a brand
 (`config/brands/<slug>.json`). No brand → no channel styling assumed.
 
+## 5b. Faceless channels (Crack IT): three variants from real stock photos
+
+No creator face, so the picture has to carry the emotion. Make **three variants that test different ideas**
+(YouTube Studio's *Test & Compare* takes up to 3 and keeps the one with the most watch time), each rendered with
+`--format 16:9 --name A|B|C` → `output/thumbnails/A.png` (+ `A-feed.png`, the feed-size check):
+
+| | Idea | Picture | Text |
+|---|---|---|---|
+| **A · Emotion** | the viewer's own worry | a real stock photo of ONE person whose face shows it (stressed graduate at a laptop, waiting with a file, staring at a phone). Photo search: `node tools/broll.mjs search <p> "worried young indian graduate laptop" --photos --orientation landscape --n 8`, Read the candidates, `get` the best → `assets/stills/` | 2-3 words that name the fear ("STILL WAITING?") |
+| **B · Number** | the one figure the video explains | dark plain background or a calm, out-of-focus office photo (`--dim 0.6`) | the number huge (`--big "₹3.6 LPA"` / `"-40%"`) + 2-4 small words saying what it is |
+| **C · Contrast** | before vs after, this vs that | a photo that already holds the tension (crowded vs empty office, an offer letter vs a closed laptop) | 2 words with the turn ("THEN vs NOW", "OFFER → ?") |
+
+Rules on top of the ones above:
+- **Natural:** real photos only (Pexels/Pixabay), one subject, nothing pasted on top except the type. Indian
+  setting/people when the photo shows people. No AI faces, no clip art, no arrows, no emoji, no logos.
+- **Text ≤ 4 words**, no full sentences, never the title again. The image + the title must make one question the
+  video answers; the thumbnail never states the answer.
+- **Spelling and numbers:** every word and figure comes from the video (transcript or `metadata.md`); re-read the
+  rendered PNG letter by letter.
+- **Feed check:** open each `*-feed.png` (214 px wide). If the big text is not readable or the subject not obvious at
+  that size, simplify and render again.
+- Put the photo's subject on the side opposite the text (`--bg-pos` to keep the face in frame).
+- Write `output/thumbnails/thumbnails.md`: for each variant the idea, the photo (with its credit line from
+  `work/credits.json`), the exact text, and which one you would pick first and why.
+
 ## 6. Check before handing over
 
 Read the feed-size previews (`work/thumb/preview-120-*.png`): big word readable? face recognisable?
