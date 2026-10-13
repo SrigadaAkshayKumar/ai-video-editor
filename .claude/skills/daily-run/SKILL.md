@@ -59,7 +59,9 @@ voiceover and the brief. After you stop, the workflow runs `node tools/daily.mjs
    tags, pinned comment, plus credits from `output/credits.md`). Then pick the best title and write the upload file
    `projects/<p>/output/youtube.json` — the workflow uploads and schedules the video with exactly this, unseen:
    `{"title": "<best title, ≤ 100 chars>", "description": "<the full description: chapters, credits, hashtags>",
-   "tags": ["…"], "thumbnail": "output/thumbnail.png"}` (`thumbnail` only if you made one). Plain text, no
+   "tags": ["…"], "thumbnail": "output/thumbnails/A.png"}`.
+   **Thumbnails:** before writing `youtube.json`, make the three designed variants with the `youtube-thumbnail`
+   skill, section 5b (`tools/thumb-design.mjs`), and point `thumbnail` at the one `thumbnails.md` recommends. Plain text, no
    markdown, no `<` or `>`. The Shorts go up from `clips.json` (their `title`, `description`, `hashtags`).
 3. **Shorts**: read `AI-clipper/.claude/skills/clip-shorts/SKILL.md` and follow it with the finished project:
    `npm run shorts:transcribe -- <p>` (clean source, no Whisper), write `AI-clipper/jobs/<p>/clips.json` (framing from
