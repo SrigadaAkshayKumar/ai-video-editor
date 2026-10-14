@@ -18,6 +18,13 @@ on:
         description: "Upload again even if youtube-uploaded.json says it is already on YouTube"
         type: boolean
         default: false
+      publish_at:
+        description: "Main video publish time, IST, e.g. 2026-10-15 16:00 (empty = next day 18:00). Shorts: the day after"
+        required: false
+      no_thumbnail:
+        description: "Keep YouTube's auto thumbnail (set one later)"
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -93,7 +100,12 @@ jobs:
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          PUBLISH_AT: ${{ inputs.publish_at }}
+          NO_THUMBNAIL: ${{ inputs.no_thumbnail }}
         run: |
-          node tools/youtube.mjs "$P" --shorts "AI-clipper/output/$P"
+          ARGS=(--shorts "AI-clipper/output/$P")
+          [ -n "$PUBLISH_AT" ] && ARGS+=(--publish "$PUBLISH_AT")
+          [ "$NO_THUMBNAIL" = "true" ] && ARGS+=(--no-thumbnail)
+          node tools/youtube.mjs "$P" "${ARGS[@]}"
           rclone copy "projects/$P/output/youtube-uploaded.json" "$DRIVE/output/$P" -v
           rclone copy "projects/$P/output/youtube.json" "$DRIVE/output/$P" -v
