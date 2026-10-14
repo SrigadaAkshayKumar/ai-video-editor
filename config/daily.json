@@ -46,13 +46,10 @@
     "enabled": false,
     "publishDelayDays": 1,
     "publishTime": "18:00",
-    "shortsTimes": [
-      "09:00",
-      "13:00",
-      "21:00"
-    ],
+    "shortsCount": 3,
+    "shortsGapMinutes": 60,
     "categoryId": "27",
     "language": "en",
-    "syntheticMedia": true
+    "syntheticMedia": false
   }
 }

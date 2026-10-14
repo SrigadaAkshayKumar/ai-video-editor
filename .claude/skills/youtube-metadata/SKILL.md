@@ -61,6 +61,22 @@ video mentions, the related older video, socials from the brand profile if any);
 **Tags** 15-25, comma separated: exact English search phrases, the same intent transliterated
 ("nptel telugu"), channel tags, broad topic tags last; highest intent first.
 
+**The upload copy (what goes to YouTube — `output/youtube.json`; the owner's rules, Crack IT and any channel that
+doesn't say otherwise):**
+- **Title — use the 100 characters for search.** The hook/keyword title first (the part the feed shows, ~60
+  chars), then ` | ` and 1-2 more search phrases people actually type, until it is 70-100 characters:
+  `How to Apply for Cognizant GenC Hiring 2026 | Cognizant Off Campus Drive | Apply Now`. Each part is a real
+  query (company + drive/role + year, "salary", "how to apply", "eligibility"), no repeated words, no emoji, every
+  part true to the video. Never over 100 (it is cut).
+- **Description**: no credits for stock footage, photos or sound effects (Pexels, Pixabay, CC0: free, no
+  attribution needed) — leave them out entirely. Keep the news sources the facts come from as a short "Sources"
+  list (credibility). Only a licence that REQUIRES attribution (CC BY / CC BY-SA, e.g. Openverse music) gets one
+  credit line at the end.
+- **Tags: fill the 500 characters.** YouTube counts the commas and the quotes around multi-word tags; aim for
+  430-490 characters (the uploader drops whatever goes past 490). Highest-intent phrases first, then variants
+  (with/without year, company short names, Hindi/Telugu transliterations if the audience searches that way), then
+  broad topic tags. No duplicates, no misleading tags (no company or person the video isn't about).
+
 **Thumbnail text**: 2-3 options, 3-5 words, completing the title rather than repeating it.
 
 **Pinned comment**: one line inviting the specific comment this video should generate.
@@ -73,4 +89,5 @@ topic + language + niche. Suggest a cover frame (see youtube-thumbnail: `output/
 
 - Never promise what the video doesn't deliver; the honest counter-intuitive angle is usually the
   stronger hook anyway. No clickbait the first 30 seconds doesn't pay off.
-- Credits/sources required by `output/credits.md` are not optional.
+- Attribution that a licence requires (CC BY / BY-SA) is not optional; stock footage, photos and SFX that need
+  none are not credited in the description.

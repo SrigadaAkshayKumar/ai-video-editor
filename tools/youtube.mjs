@@ -2,7 +2,7 @@
 // Upload a finished daily episode to YouTube and schedule it (the daily run's last step; .github/workflows/daily-edit.yml).
 // Usage:
 //   node tools/youtube.mjs <project> [--shorts AI-clipper/output/<slug>] [--dry-run]
-//        [--publish "2026-10-15 16:00"]   main video at this IST time (Shorts the next day at shortsTimes)
+//        [--publish "2026-10-15 16:00"]   main video at this IST time (Shorts the same day, see below)
 //        [--no-thumbnail]               leave YouTube's auto thumbnail (set one later with --set-thumbnail)
 //   node tools/youtube.mjs --test <file.mp4>   one Private test upload (no schedule): proves the login works and
 //                                              prints which channel it went to
@@ -27,8 +27,8 @@ const [project] = positional;
 const testFile = typeof flags.test === "string" ? flags.test : null;
 if (!project && !testFile) die("usage: node tools/youtube.mjs <project> [--shorts dir] [--dry-run] | --test <file.mp4>");
 const dryRun = !!flags["dry-run"];
-const cfg = { publishDelayDays: 1, publishTime: "18:00", shortsTimes: ["09:00", "13:00", "21:00"], categoryId: "27",
-  language: "en", syntheticMedia: true, ...(readJson(join(ROOT, "config", "daily.json")).youtube || {}) };
+const cfg = { publishDelayDays: 1, publishTime: "18:00", shortsCount: 3, shortsGapMinutes: 60, categoryId: "27",
+  language: "en", syntheticMedia: false, ...(readJson(join(ROOT, "config", "daily.json")).youtube || {}) };
 if (testFile) await testUpload(testFile);
 if (flags["set-thumbnail"]) await setThumbnailOnly(project);
 const out = join(PROJECTS, project, "output");
@@ -56,7 +56,7 @@ function tags(list) {
   let len = 0;
   for (const t of (list || []).map((x) => clean(x).replace(/^#/, "").trim()).filter(Boolean)) {
     const cost = t.length + (t.includes(" ") ? 2 : 0) + (kept.length ? 1 : 0);
-    if (len + cost > 480) break;
+    if (len + cost > 490) break; // YouTube: 500 characters, commas and quotes included
     kept.push(t);
     len += cost;
   }
@@ -174,12 +174,9 @@ function publishFlag() {
   return t;
 }
 const mainAt = publishFlag();
-/** Shorts: the day after the main video, at "HH:MM" IST. */
-const shortAt = (hhmm) => {
-  const [h, m] = hhmm.split(":").map(Number);
-  const d = new Date(mainAt.getTime() + IST);
-  return new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate() + 1, h, m) - IST);
-};
+/** Shorts: the same day as the main video, one every shortsGapMinutes after it (so the video is already public
+ *  when each Short goes out and can be its "Related video"). */
+const shortAt = (i) => new Date(mainAt.getTime() + (i + 1) * cfg.shortsGapMinutes * 6e4);
 const finals = readdirSync(out).filter((n) => /^final-16x9.*\.mp4$/.test(n));
 if (!finals.length) die(`no final-16x9*.mp4 in ${out}`);
 const plan = [{
@@ -189,18 +186,17 @@ const plan = [{
 }];
 const shortsDir = flags.shorts ? join(ROOT, flags.shorts) : null;
 const jobFile = join(ROOT, "AI-clipper", "jobs", project, "clips.json");
-if (shortsDir && existsSync(shortsDir) && existsSync(jobFile) && cfg.shortsTimes.length) {
+if (shortsDir && existsSync(shortsDir) && existsSync(jobFile) && cfg.shortsCount > 0) {
   const files = readdirSync(shortsDir).filter((n) => n.endsWith(".mp4"));
   const clips = readJson(jobFile).clips || [];
-  clips.slice(0, cfg.shortsTimes.length).forEach((c, i) => {
+  clips.slice(0, cfg.shortsCount).forEach((c, i) => {
     const f = files.find((n) => n.startsWith(`${String(c.id).padStart(2, "0")}-`));
     if (!f) return;
     const hashtags = (c.hashtags || []).map((h) => (h.startsWith("#") ? h : `#${h}`));
     if (!hashtags.some((h) => h.toLowerCase() === "#shorts")) hashtags.unshift("#Shorts");
     plan.push({
-      // the day after the main video, so the "Full video" link already works
-      kind: "short", file: join(shortsDir, f), publishAt: shortAt(cfg.shortsTimes[i]),
-      snippet: { title: title(c.title), description: description(`${c.description || ""}\n\nFULL_VIDEO\n\n${hashtags.join(" ")}`),
+      kind: "short", file: join(shortsDir, f), publishAt: shortAt(i),
+      snippet: { title: title(c.title), description: description(`${c.description || ""}\n\n${hashtags.join(" ")}`),
         tags: tags([...hashtags, ...(meta.tags || [])]) },
     });
   });
@@ -212,7 +208,6 @@ const results = [];
 const token = dryRun ? null : await accessToken();
 let videoUrl = "";
 for (const p of plan) {
-  if (p.kind === "short") p.snippet.description = p.snippet.description.replace("FULL_VIDEO", videoUrl ? `Full video: ${videoUrl}` : "").replace(/\n{3,}/g, "\n\n");
   if (dryRun) {
     results.push({ kind: p.kind, file: p.file, title: p.snippet.title, publishAt: p.publishAt.toISOString(), tags: p.snippet.tags.length });
     continue;
@@ -231,6 +226,7 @@ if (!dryRun) writeJson(join(out, "youtube-uploaded.json"), { uploadedAt: new Dat
 const istText = (iso) => new Date(Date.parse(iso) + IST).toISOString().slice(0, 16).replace("T", " ") + " IST";
 const lines = ["### YouTube", "", "| | Title | Publishes | YouTube stored | Thumbnail |", "|---|---|---|---|---|",
   ...results.map((r) => `| ${r.url ? `[${r.kind}](${r.url})` : r.kind} | ${r.title} | ${istText(r.publishAt)} | ${r.youtubeStatus ? `${r.youtubeStatus.privacy}, ${r.youtubeStatus.publishAt ? "scheduled " + istText(r.youtubeStatus.publishAt) : "NO schedule"}` : ""} | ${r.thumbnail || (r.kind === "video" ? "YouTube auto" : "")} |`), "",
+  ...(videoUrl && results.some((r) => r.kind === "short") ? [`Related video: the API cannot set it. In Studio → each Short → Details → Related video → pick ${videoUrl}.`, ""] : []),
   "Uploaded Private with a publish time. If YouTube shows them as plain Private with no schedule, the API project is not audited yet: set the time in Studio."];
 console.log(lines.join("\n"));
 if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, lines.join("\n") + "\n");
