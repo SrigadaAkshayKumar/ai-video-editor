@@ -14,7 +14,8 @@ server.listen(0, "127.0.0.1", () => {
   const redirect = `http://127.0.0.1:${server.address().port}`;
   const url = `https://accounts.google.com/o/oauth2/v2/auth?${new URLSearchParams({
     client_id: clientId, redirect_uri: redirect, response_type: "code", access_type: "offline", prompt: "consent",
-    scope: "https://www.googleapis.com/auth/youtube.upload",
+    // upload + edit the channel's own videos (title, description, tags, schedule, AI label, thumbnail)
+    scope: "https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/youtube",
   })}`;
   console.log(`Open this link, sign in with the channel's Google account and allow access:\n\n${url}\n`);
   server.on("request", async (req, res) => {

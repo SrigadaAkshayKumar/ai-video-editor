@@ -2,6 +2,8 @@
 # For episodes made before the YouTube step existed, or to retry a failed upload.
 # Actions → Upload to YouTube → Run workflow → project (e.g. d06-why-fewer-freshers).
 # Tick "test" (project empty) for one Private 10-second test Short that only shows which channel the login reaches.
+# Tick "update" to re-apply the current rules to an episode ALREADY on YouTube (title, description, tags, AI label,
+# schedule: Shorts the same day). With "rewrite", Claude first rewrites youtube.json by the current metadata rules.
 name: Upload to YouTube
 
 on:
@@ -23,6 +25,14 @@ on:
         required: false
       no_thumbnail:
         description: "Keep YouTube's auto thumbnail (set one later)"
+        type: boolean
+        default: false
+      update:
+        description: "Already uploaded: update title/description/tags/AI label/schedule instead of uploading"
+        type: boolean
+        default: false
+      rewrite:
+        description: "Rewrite youtube.json by the current title/description/tag rules first"
         type: boolean
         default: false
 
@@ -68,11 +78,16 @@ jobs:
         if: ${{ !inputs.test }}
         run: |
           test -f "projects/$P/project.json" || { echo "::error::no projects/$P in the repo"; exit 1; }
-          rclone copy "$DRIVE/output/$P" "projects/$P/output" --exclude "shorts/**" -v
-          rclone copy "$DRIVE/output/$P/shorts" "AI-clipper/output/$P" -v
+          # an update needs only the text files, not the videos
+          SKIP=(); [ "${{ inputs.update }}" = "true" ] && SKIP=(--exclude "*.mp4")
+          rclone copy "$DRIVE/output/$P" "projects/$P/output" --exclude "shorts/**" "${SKIP[@]}" -v
+          rclone copy "$DRIVE/output/$P/shorts" "AI-clipper/output/$P" "${SKIP[@]}" -v
           mkdir -p "AI-clipper/jobs/$P"
           [ -f "AI-clipper/output/$P/clips.json" ] && cp "AI-clipper/output/$P/clips.json" "AI-clipper/jobs/$P/clips.json" || true
-          if [ -f "projects/$P/output/youtube-uploaded.json" ] && [ "${{ inputs.force }}" != "true" ]; then
+          if [ "${{ inputs.rewrite }}" = "true" ]; then rm -f "projects/$P/output/youtube.json"; fi
+          if [ "${{ inputs.update }}" = "true" ]; then
+            test -f "projects/$P/output/youtube-uploaded.json" || { echo "::error::$P is not on YouTube yet (no youtube-uploaded.json)"; exit 1; }
+          elif [ -f "projects/$P/output/youtube-uploaded.json" ] && [ "${{ inputs.force }}" != "true" ]; then
             echo "::error::$P is already uploaded (youtube-uploaded.json in Drive). Tick 'force' to upload again."; exit 1
           fi
 
@@ -80,7 +95,7 @@ jobs:
         with:
           node-version: 22
 
-      - name: Write youtube.json (episodes made before the YouTube step)
+      - name: Write youtube.json (episodes made before the YouTube step, or "rewrite")
         if: ${{ !inputs.test && hashFiles(format('projects/{0}/output/youtube.json', inputs.project)) == '' }}
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
@@ -95,7 +110,7 @@ jobs:
             --dangerously-skip-permissions --output-format stream-json --verbose > claude-youtube-log.jsonl
           node -e 'const j=require("./projects/"+process.env.P+"/output/youtube.json"); if(!j.title||!j.description) process.exit(1)'
 
-      - name: Upload + schedule
+      - name: Upload + schedule (or update)
         if: ${{ !inputs.test }}
         env:
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
@@ -103,10 +118,12 @@ jobs:
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
           PUBLISH_AT: ${{ inputs.publish_at }}
           NO_THUMBNAIL: ${{ inputs.no_thumbnail }}
+          UPDATE: ${{ inputs.update }}
         run: |
           ARGS=(--shorts "AI-clipper/output/$P")
           [ -n "$PUBLISH_AT" ] && ARGS+=(--publish "$PUBLISH_AT")
           [ "$NO_THUMBNAIL" = "true" ] && ARGS+=(--no-thumbnail)
+          [ "$UPDATE" = "true" ] && ARGS+=(--update)
           node tools/youtube.mjs "$P" "${ARGS[@]}"
           rclone copy "projects/$P/output/youtube-uploaded.json" "$DRIVE/output/$P" -v
           rclone copy "projects/$P/output/youtube.json" "$DRIVE/output/$P" -v
