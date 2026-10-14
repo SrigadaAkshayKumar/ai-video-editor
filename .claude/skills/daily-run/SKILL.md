@@ -56,13 +56,15 @@ voiceover and the brief. After you stop, the workflow runs `node tools/daily.mjs
    `npm run verify -- <p>`. Read the verify sheet and the stills yourself; fix anything broken before moving on.
    `verify` must end with `structure ok`.
 2. **Metadata**: `youtube-metadata` skill → `projects/<p>/output/metadata.md` (titles, description with chapters,
-   tags, pinned comment, plus credits from `output/credits.md`). Then pick the best title and write the upload file
-   `projects/<p>/output/youtube.json` — the workflow uploads and schedules the video with exactly this, unseen:
-   `{"title": "<best title, ≤ 100 chars>", "description": "<the full description: chapters, credits, hashtags>",
+   tags, pinned comment). Then write the upload file `projects/<p>/output/youtube.json` following that skill's
+   **upload copy** rules (SEO title 70-100 chars with ` | ` search phrases; no stock-footage credits; tags filling
+   ~430-490 characters) — it is uploaded exactly as written, unseen:
+   `{"title": "<SEO title, ≤ 100 chars>", "description": "<the full description: chapters, sources, hashtags>",
    "tags": ["…"], "thumbnail": "output/thumbnails/A.png"}`.
    **Thumbnails:** before writing `youtube.json`, make the three variants (Gemini scene + designed type) with the `youtube-thumbnail`
    skill, section 5b (`tools/thumb-design.mjs`), and point `thumbnail` at the one `thumbnails.md` recommends. Plain text, no
-   markdown, no `<` or `>`. The Shorts go up from `clips.json` (their `title`, `description`, `hashtags`).
+   markdown, no `<` or `>`. The Shorts go up from `clips.json` (their `title`, `description`, `hashtags`), the same
+   day as the video; no "full video" link in their descriptions (the owner links the Related video in Studio).
 3. **Shorts**: read `AI-clipper/.claude/skills/clip-shorts/SKILL.md` and follow it with the finished project:
    `npm run shorts:transcribe -- <p>` (clean source, no Whisper), write `AI-clipper/jobs/<p>/clips.json` (framing from
    `config/daily.json` → `shorts.framing`, the video's language), `npm run shorts:prepare -- <p>`,

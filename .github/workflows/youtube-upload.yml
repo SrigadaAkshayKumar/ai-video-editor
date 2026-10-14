@@ -19,7 +19,7 @@ on:
         type: boolean
         default: false
       publish_at:
-        description: "Main video publish time, IST, e.g. 2026-10-15 16:00 (empty = next day 18:00). Shorts: the day after"
+        description: "Main video publish time, IST, e.g. 2026-10-15 16:00 (empty = next day 18:00). Shorts: same day, hourly after it"
         required: false
       no_thumbnail:
         description: "Keep YouTube's auto thumbnail (set one later)"
@@ -88,8 +88,9 @@ jobs:
         run: |
           npm install -g @anthropic-ai/claude-code
           claude -p "Unattended, nobody will answer. Write projects/$P/output/youtube.json from projects/$P/output/metadata.md,
-          exactly as step 2 of .claude/skills/daily-run/SKILL.md describes: the best title, the full description (chapters,
-          credits, hashtags), the tags. If projects/$P/output/thumbnails/ has A.png/B.png/C.png, set \"thumbnail\" to the
+          exactly as step 2 of .claude/skills/daily-run/SKILL.md and the upload copy rules in
+          .claude/skills/youtube-metadata/SKILL.md describe: the SEO title (70-100 chars), the description (chapters,
+          sources, hashtags; no stock-footage credits), tags filling about 430-490 characters. If projects/$P/output/thumbnails/ has A.png/B.png/C.png, set \"thumbnail\" to the
           one thumbnails.md recommends (path relative to the project, e.g. output/thumbnails/A.png). Only write that file." \
             --dangerously-skip-permissions --output-format stream-json --verbose > claude-youtube-log.jsonl
           node -e 'const j=require("./projects/"+process.env.P+"/output/youtube.json"); if(!j.title||!j.description) process.exit(1)'
