@@ -1,0 +1,102 @@
+{
+  "name": "d08-offer-cancel-after-loi",
+  "createdAt": "2026-10-14T10:42:07.695Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d08-offer-cancel-after-loi/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d08/d08-voice.wav",
+    "duration": 196.6,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d08-offer-cancel-after-loi/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d08/d08_offer_cancel_after_loi_voiceover.txt",
+    "words": 611,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d08-offer-cancel-after-loi/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Labour Ministry",
+    "Keep"
+  ],
+  "mode": "faceless",
+  "style": "glass",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; documentary storytelling look: full-frame b-roll leads, graphics docked to one side, quote pulls on the key lines, timelines for the backstory; slower, a beat every 6-10 s; low sub-band SFX on structure only",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d08-offer-cancel-after-loi/source/intro.mp4",
+  "introAt": 18.98,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-10-14T10:43:59.760Z",
+      "words": 605,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-10-14T10:44:17.471Z",
+      "segments": 11,
+      "kept": 194.5
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-10-14T11:16:29.553Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d08-offer-cancel-after-loi/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-10-14T11:30:16.059Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-10-14T11:30:16.100Z",
+      "groups": 176
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-10-14T11:30:33.662Z",
+      "music": 0,
+      "sfx": 16
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-10-14T11:34:14.792Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d08-offer-cancel-after-loi/output/final-16x9.mp4",
+      "duration": 204.542
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.992172,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d08-offer-cancel-after-loi/work/cleancut.wav",
+    "duration": 194.49975,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

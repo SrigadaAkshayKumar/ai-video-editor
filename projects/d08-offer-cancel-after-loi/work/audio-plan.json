@@ -1,0 +1,100 @@
+{
+ "music_cues": [],
+ "sfx_events": [
+  {
+   "time": 0.1,
+   "sfx": "impact",
+   "reason": "title lands",
+   "gain": 4
+  },
+  {
+   "time": 7.6,
+   "sfx": "sub_drop",
+   "reason": "what if they cancel it",
+   "gain": 4
+  },
+  {
+   "time": 18.2,
+   "sfx": "riser",
+   "reason": "builds to section 01",
+   "gain": 3
+  },
+  {
+   "time": 19.2,
+   "sfx": "impact",
+   "reason": "section 01",
+   "gain": 4
+  },
+  {
+   "time": 44.8,
+   "sfx": "riser",
+   "reason": "builds to section 02",
+   "gain": 3
+  },
+  {
+   "time": 45.4,
+   "sfx": "impact",
+   "reason": "section 02",
+   "gain": 4
+  },
+  {
+   "time": 59.8,
+   "sfx": "sub_drop",
+   "reason": "backstory: the 2023 case",
+   "gain": 3
+  },
+  {
+   "time": 74.4,
+   "sfx": "sub_drop",
+   "reason": "NITES quote",
+   "gain": 4
+  },
+  {
+   "time": 78.3,
+   "sfx": "sub_drop",
+   "reason": "delays, not cancellations",
+   "gain": 3
+  },
+  {
+   "time": 86.3,
+   "sfx": "riser",
+   "reason": "builds to section 03",
+   "gain": 3
+  },
+  {
+   "time": 86.9,
+   "sfx": "impact",
+   "reason": "section 03",
+   "gain": 4
+  },
+  {
+   "time": 113.6,
+   "sfx": "impact",
+   "reason": "one sign alone",
+   "gain": 3
+  },
+  {
+   "time": 122.4,
+   "sfx": "riser",
+   "reason": "builds to section 04",
+   "gain": 3
+  },
+  {
+   "time": 123,
+   "sfx": "impact",
+   "reason": "section 04",
+   "gain": 4
+  },
+  {
+   "time": 168.1,
+   "sfx": "impact",
+   "reason": "intent, not a guarantee",
+   "gain": 3
+  },
+  {
+   "time": 172,
+   "sfx": "reveal",
+   "reason": "summary checklist"
+  }
+ ]
+}

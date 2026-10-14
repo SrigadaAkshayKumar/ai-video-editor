@@ -1,0 +1,618 @@
+{
+ "style": "glass",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.1,
+   "duration": 3.5,
+   "type": "title_slide",
+   "text": "Can They Cancel Your Offer?",
+   "eyebrow": "Crack IT · Day 08",
+   "style_hint": "After the letter of intent"
+  },
+  {
+   "start": 4.2,
+   "duration": 2.7,
+   "type": "keyword_chip",
+   "text": "MONTHS OF WAITING",
+   "side": "right"
+  },
+  {
+   "start": 7.6,
+   "duration": 2.4,
+   "type": "big_statement",
+   "text": "What if they cancel it?",
+   "eyebrow": "cancel"
+  },
+  {
+   "start": 10.5,
+   "duration": 8.1,
+   "type": "bullet_list",
+   "side": "right",
+   "text": "In this video",
+   "items": [
+    {
+     "label": "What an LOI is"
+    },
+    {
+     "label": "How often offers get cancelled"
+    },
+    {
+     "label": "Warning signs"
+    },
+    {
+     "label": "How to protect yourself"
+    }
+   ]
+  },
+  {
+   "start": 19.2,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "What an LOI is",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 1
+  },
+  {
+   "start": 22.9,
+   "duration": 6.5,
+   "type": "term_card",
+   "side": "left",
+   "text": "LOI",
+   "eyebrow": "Letter of Intent",
+   "items": [
+    {
+     "label": "The company intends to hire you. Usually no joining date, not a full contract."
+    }
+   ]
+  },
+  {
+   "start": 29.9,
+   "duration": 8.6,
+   "type": "timeline",
+   "side": "right",
+   "text": "Three documents",
+   "current": 2,
+   "items": [
+    {
+     "label": "Letter of intent",
+     "sublabel": "intent to hire"
+    },
+    {
+     "label": "Offer letter",
+     "sublabel": "role, salary, terms"
+    },
+    {
+     "label": "Joining letter",
+     "sublabel": "when and where to report"
+    }
+   ]
+  },
+  {
+   "start": 39.2,
+   "duration": 5.8,
+   "type": "big_statement",
+   "text": "LOI is the weakest step",
+   "eyebrow": "weakest"
+  },
+  {
+   "start": 45.4,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Do they cancel?",
+   "eyebrow": "Section 02",
+   "numeral": "02",
+   "section": 2
+  },
+  {
+   "start": 49,
+   "duration": 10.4,
+   "type": "comparison",
+   "side": "left",
+   "text": "Delays vs cancellations",
+   "left": {
+    "label": "Delays",
+    "text": "Very common. Months, even a year or more."
+   },
+   "right": {
+    "label": "Cancellations",
+    "text": "Much rarer, but they happen."
+   }
+  },
+  {
+   "start": 60.4,
+   "duration": 3,
+   "type": "side_note",
+   "text": "The News Minute · 10 Apr 2023",
+   "side": "right"
+  },
+  {
+   "start": 63.8,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "2023 · LTIMINDTREE",
+   "side": "left"
+  },
+  {
+   "start": 67,
+   "duration": 6.9,
+   "type": "timeline",
+   "side": "right",
+   "text": "The 2023 case",
+   "current": 2,
+   "items": [
+    {
+     "label": "Jan 2022",
+     "sublabel": "offer letters"
+    },
+    {
+     "label": "Still waiting",
+     "sublabel": "into 2023"
+    },
+    {
+     "label": "Apr 2023",
+     "sublabel": "new training + tests"
+    }
+   ]
+  },
+  {
+   "start": 74.4,
+   "duration": 3.6,
+   "type": "quote_pull",
+   "text": "This is not only unfair, but it is also a breach of trust",
+   "eyebrow": "NITES · via The News Minute, Apr 2023"
+  },
+  {
+   "start": 78.3,
+   "duration": 4.1,
+   "type": "big_statement",
+   "text": "Delays, not cancellations",
+   "eyebrow": "Delays"
+  },
+  {
+   "start": 83.2,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "SAFE = JOINING DATE",
+   "side": "left"
+  },
+  {
+   "start": 86.9,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Warning signs",
+   "eyebrow": "Section 03",
+   "numeral": "03",
+   "section": 3
+  },
+  {
+   "start": 90.3,
+   "duration": 22.7,
+   "type": "step_progress",
+   "side": "right",
+   "text": "Warning signs",
+   "current_step": 0,
+   "items": [
+    {
+     "label": "Months of silence",
+     "at": 0
+    },
+    {
+     "label": "Portal status goes backwards",
+     "at": 5.3
+    },
+    {
+     "label": "New conditions, strict deadlines",
+     "at": 12.5
+    },
+    {
+     "label": "Vague answers, again and again",
+     "at": 18.7
+    }
+   ]
+  },
+  {
+   "start": 113.6,
+   "duration": 3.8,
+   "type": "big_statement",
+   "text": "One sign alone isn't proof",
+   "eyebrow": "alone"
+  },
+  {
+   "start": 118.2,
+   "duration": 4.1,
+   "type": "keyword_chip",
+   "text": "SEVERAL TOGETHER? BACK UP",
+   "side": "right"
+  },
+  {
+   "start": 123,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Protect yourself",
+   "eyebrow": "Section 04",
+   "numeral": "04",
+   "section": 4
+  },
+  {
+   "start": 126.9,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "KEEP A RECORD · WITH DATES",
+   "side": "left"
+  },
+  {
+   "start": 131.8,
+   "duration": 6,
+   "type": "side_note",
+   "text": "Respond on time · in writing",
+   "side": "right"
+  },
+  {
+   "start": 138.7,
+   "duration": 2.3,
+   "type": "keyword_chip",
+   "text": "MISSED DEADLINE = EASY REASON",
+   "side": "left"
+  },
+  {
+   "start": 141.6,
+   "duration": 7.8,
+   "type": "sample_answer",
+   "side": "right",
+   "text": "To: [HR team]\nSubject: [Candidate ID] · expected joining timeline\nCould you please share my expected joining timeline?\nThank you, [your name]"
+  },
+  {
+   "start": 150.6,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "KEEP APPLYING ELSEWHERE",
+   "side": "right"
+  },
+  {
+   "start": 155.3,
+   "duration": 8.7,
+   "type": "term_card",
+   "side": "left",
+   "text": "NITES",
+   "eyebrow": "IT employees' union",
+   "items": [
+    {
+     "label": "Nascent Information Technology Employees Senate. Has raised onboarding cases."
+    }
+   ]
+  },
+  {
+   "start": 168.1,
+   "duration": 3.5,
+   "type": "big_statement",
+   "text": "Intent, not a guarantee",
+   "eyebrow": "guarantee"
+  },
+  {
+   "start": 172,
+   "duration": 6.6,
+   "type": "checklist",
+   "text": "To sum up",
+   "items": [
+    {
+     "label": "Keep records",
+     "state": "yes"
+    },
+    {
+     "label": "Meet every deadline",
+     "state": "yes"
+    },
+    {
+     "label": "Follow up politely",
+     "state": "yes"
+    },
+    {
+     "label": "Keep a backup",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 179.3,
+   "duration": 7.6,
+   "type": "sample_answer",
+   "side": "left",
+   "text": "Company: [your company]\nLOI month: [month, year]\nLast update: [what you heard]"
+  },
+  {
+   "start": 188,
+   "duration": 4.3,
+   "type": "lower_third",
+   "text": "Upcoming fresher drives",
+   "eyebrow": "Tomorrow",
+   "side": "left"
+  },
+  {
+   "start": 192.6,
+   "duration": 1.7,
+   "type": "keyword_chip",
+   "text": "SUBSCRIBE",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "index": 0,
+   "start": 0,
+   "end": 7.4,
+   "kind": "broll",
+   "src": "assets/broll/phone-night.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "noir",
+   "transition": "fade"
+  },
+  {
+   "index": 1,
+   "start": 7.4,
+   "end": 19.18,
+   "kind": "broll",
+   "src": "assets/broll/night-window.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "noir",
+   "transition": "fade"
+  },
+  {
+   "index": 2,
+   "start": 19.18,
+   "end": 29.58,
+   "kind": "broll",
+   "src": "assets/broll/writing.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 3,
+   "start": 29.58,
+   "end": 38.81,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 0,
+   "motion": "pan_right",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 4,
+   "start": 38.81,
+   "end": 45.27,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "LOI",
+    "label": "earliest · weakest"
+   }
+  },
+  {
+   "index": 5,
+   "start": 45.27,
+   "end": 48.1,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 6,
+   "start": 48.1,
+   "end": 60,
+   "kind": "broll",
+   "src": "assets/broll/silhouette-city.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 7,
+   "start": 60,
+   "end": 66.7,
+   "kind": "news",
+   "url": "https://www.thenewsminute.com/article/ltimindtree-revokes-offer-letters-freshers-mandates-new-training-programme-175698",
+   "source": "The News Minute",
+   "headline": "LTIMindtree revokes offer letters to freshers, mandates new training programme",
+   "date": "10 Apr 2023",
+   "highlight": {
+    "x": 0.1,
+    "y": 0.08,
+    "w": 0.58,
+    "h": 0.075
+   },
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "index": 8,
+   "start": 66.7,
+   "end": 74.1,
+   "kind": "broll",
+   "src": "assets/broll/walkers.mp4",
+   "media_start": 0,
+   "motion": "pan_left",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 9,
+   "start": 74.1,
+   "end": 80.5,
+   "kind": "broll",
+   "src": "assets/broll/night-window.mp4",
+   "media_start": 14,
+   "motion": "ken_in",
+   "grade": "noir",
+   "transition": "fade"
+  },
+  {
+   "index": 10,
+   "start": 80.5,
+   "end": 86.8,
+   "kind": "broll",
+   "src": "assets/broll/phone-woman.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "noir",
+   "transition": "fade"
+  },
+  {
+   "index": 11,
+   "start": 86.8,
+   "end": 89.9,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 12,
+   "start": 89.9,
+   "end": 99,
+   "kind": "broll",
+   "src": "assets/broll/laptop-email.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 13,
+   "start": 99,
+   "end": 108.97,
+   "kind": "broll",
+   "src": "assets/broll/writing.mp4",
+   "media_start": 12,
+   "motion": "pan_left",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 14,
+   "start": 108.97,
+   "end": 118.9,
+   "kind": "broll",
+   "src": "assets/broll/city-night.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "noir",
+   "transition": "fade"
+  },
+  {
+   "index": 15,
+   "start": 118.9,
+   "end": 122.87,
+   "kind": "broll",
+   "src": "assets/broll/woman-window.mp4",
+   "media_start": 3,
+   "motion": "ken_in",
+   "grade": "noir",
+   "transition": "fade"
+  },
+  {
+   "index": 16,
+   "start": 122.87,
+   "end": 131.03,
+   "kind": "broll",
+   "src": "assets/broll/writing.mp4",
+   "media_start": 12,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 17,
+   "start": 131.03,
+   "end": 141.03,
+   "kind": "broll",
+   "src": "assets/broll/phone-night.mp4",
+   "media_start": 4,
+   "motion": "ken_out",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 18,
+   "start": 141.03,
+   "end": 149.86,
+   "kind": "broll",
+   "src": "assets/broll/laptop-email.mp4",
+   "media_start": 22,
+   "motion": "pan_right",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 19,
+   "start": 149.86,
+   "end": 154.88,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 4.5,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 20,
+   "start": 154.88,
+   "end": 164.3,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "NITES",
+    "label": "IT employees' union"
+   }
+  },
+  {
+   "index": 21,
+   "start": 164.3,
+   "end": 167.9,
+   "kind": "broll",
+   "src": "assets/broll/silhouette-city.mp4",
+   "media_start": 12,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 22,
+   "start": 167.9,
+   "end": 178.83,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "Intent",
+    "label": "not a guarantee"
+   }
+  },
+  {
+   "index": 23,
+   "start": 178.83,
+   "end": 187.52,
+   "kind": "broll",
+   "src": "assets/broll/woman-window.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 24,
+   "start": 187.52,
+   "end": 194.5,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Tomorrow",
+    "label": "upcoming fresher drives"
+   }
+  }
+ ],
+ "camera_moves": []
+}
