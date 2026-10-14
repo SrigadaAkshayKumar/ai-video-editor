@@ -1,6 +1,8 @@
 # Three thumbnail variants (headline / number / versus: a Gemini photo scene + HTML/CSS type) for an episode already edited.
 # Run by hand: Actions → Thumbnails → Run workflow → project (e.g. d06-why-fewer-freshers).
 # Output: Drive AI-edits/output/<project>/thumbnails/ (A.png, B.png, C.png, *-feed.png previews, thumbnails.md).
+# If the episode is already on YouTube (youtube-uploaded.json in Drive), the recommended one (main.txt) is put on the
+# uploaded video right away; its publish schedule is not touched. Untick "apply" to only make the files.
 name: Thumbnails
 
 on:
@@ -9,6 +11,10 @@ on:
       project:
         description: "Project folder in projects/, e.g. d06-why-fewer-freshers"
         required: true
+      apply:
+        description: "If the video is already on YouTube, put the recommended thumbnail on it"
+        type: boolean
+        default: true
 
 permissions:
   contents: read
@@ -40,7 +46,8 @@ jobs:
         run: |
           test -f "projects/$P/project.json" || { echo "::error::no projects/$P in the repo"; exit 1; }
           # the episode's metadata (title options) lives next to the video in Drive
-          rclone copy "$DRIVE/output/$P" "projects/$P/output" --include "metadata.md" --include "credits.md" -v
+          rclone copy "$DRIVE/output/$P" "projects/$P/output" --include "metadata.md" --include "credits.md" \
+            --include "youtube.json" --include "youtube-uploaded.json" -v
 
       - uses: actions/setup-node@v4
         with:
@@ -66,8 +73,8 @@ jobs:
           three variants A/B/C: a Gemini photo scene from tools/gemini-image.mjs under the type set by
           tools/thumb-design.mjs, plus the extras: company logo, one badge), for project $P. The title options are in
           projects/$P/output/metadata.md, the words in projects/$P/work/cleancut.transcript.md. Read every PNG and feed
-          preview, fix and re-render anything clipped or unreadable, then write projects/$P/output/thumbnails/thumbnails.md.
-          Do not commit or push." \
+          preview, fix and re-render anything clipped or unreadable, then write projects/$P/output/thumbnails/thumbnails.md
+          and projects/$P/output/thumbnails/main.txt (only the recommended variant's name, e.g. B). Do not commit or push." \
             --dangerously-skip-permissions --output-format stream-json --verbose > claude-thumbs-log.jsonl
           ls "projects/$P/output/thumbnails/"*.png
 
@@ -89,6 +96,16 @@ jobs:
           rclone copy "projects/$P/output/thumbnails" "$DRIVE/output/$P/thumbnails" -v
           # every Gemini candidate, so the owner can see what was picked from
           [ -d "projects/$P/work/thumb/ai" ] && rclone copy "projects/$P/work/thumb/ai" "$DRIVE/output/$P/thumbnails/gemini" -v || true
+
+      - name: Put the thumbnail on the uploaded video
+        if: inputs.apply && hashFiles(format('projects/{0}/output/youtube-uploaded.json', inputs.project)) != ''
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: |
+          node tools/youtube.mjs "$P" --set-thumbnail
+          rclone copy "projects/$P/output/youtube-uploaded.json" "$DRIVE/output/$P" -v
 
       - name: Keep the Claude log (Drive)
         if: always()
