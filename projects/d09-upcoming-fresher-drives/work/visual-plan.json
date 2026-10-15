@@ -1,0 +1,738 @@
+{
+ "style": "blueprint",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.1,
+   "duration": 3.7,
+   "type": "title_slide",
+   "text": "Never Miss a Fresher Drive",
+   "eyebrow": "Crack IT · Day 09",
+   "style_hint": "Where TCS, Infosys, Wipro, Cognizant, Accenture announce"
+  },
+  {
+   "start": 4.3,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "FOUND OUT TOO LATE",
+   "side": "right"
+  },
+  {
+   "start": 7.6,
+   "duration": 1.7,
+   "type": "keyword_chip",
+   "text": "FAKE LINK",
+   "side": "left"
+  },
+  {
+   "start": 9.7,
+   "duration": 8.1,
+   "type": "bullet_list",
+   "side": "right",
+   "text": "Covered today",
+   "items": [
+    {
+     "label": "TCS"
+    },
+    {
+     "label": "Infosys"
+    },
+    {
+     "label": "Wipro"
+    },
+    {
+     "label": "Cognizant"
+    },
+    {
+     "label": "Accenture"
+    }
+   ]
+  },
+  {
+   "start": 18.2,
+   "duration": 2.8,
+   "type": "big_statement",
+   "text": "Never miss one again",
+   "eyebrow": "system"
+  },
+  {
+   "start": 21.5,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "BATCH 2026 · 2027",
+   "side": "left"
+  },
+  {
+   "start": 26,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Official sources only",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 1
+  },
+  {
+   "start": 29.6,
+   "duration": 8,
+   "type": "checklist",
+   "text": "Register only through",
+   "items": [
+    {
+     "label": "Company careers website",
+     "state": "yes"
+    },
+    {
+     "label": "Official candidate portal",
+     "state": "yes"
+    },
+    {
+     "label": "College placement cell",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 38,
+   "duration": 6.8,
+   "type": "checklist",
+   "text": "Never",
+   "items": [
+    {
+     "label": "Pay to register",
+     "state": "no"
+    },
+    {
+     "label": "Group-only links",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 45.2,
+   "duration": 6.1,
+   "type": "big_statement",
+   "text": "Real drives are free to apply",
+   "eyebrow": "free"
+  },
+  {
+   "start": 51.5,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Process by company",
+   "eyebrow": "Section 02",
+   "numeral": "02",
+   "section": 2
+  },
+  {
+   "start": 54.9,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "TCS · NQT + CAMPUS",
+   "side": "left"
+  },
+  {
+   "start": 59.4,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "TCS NEXTSTEP PORTAL",
+   "side": "right"
+  },
+  {
+   "start": 62.5,
+   "duration": 4.9,
+   "type": "flow_diagram",
+   "text": "TCS process, usually",
+   "items": [
+    {
+     "label": "Online test"
+    },
+    {
+     "label": "Technical"
+    },
+    {
+     "label": "Managerial"
+    },
+    {
+     "label": "HR"
+    }
+   ]
+  },
+  {
+   "start": 67.8,
+   "duration": 7.4,
+   "type": "bullet_list",
+   "side": "right",
+   "text": "Score can decide track",
+   "items": [
+    {
+     "label": "Regular"
+    },
+    {
+     "label": "Digital"
+    },
+    {
+     "label": "Prime"
+    }
+   ]
+  },
+  {
+   "start": 75.5,
+   "duration": 3.7,
+   "type": "lower_third",
+   "text": "Infosys",
+   "eyebrow": "Campus + off-campus",
+   "side": "left"
+  },
+  {
+   "start": 79.6,
+   "duration": 2.7,
+   "type": "keyword_chip",
+   "text": "OFFICIAL CAREERS SITE",
+   "side": "right"
+  },
+  {
+   "start": 82.7,
+   "duration": 7.8,
+   "type": "bullet_list",
+   "side": "right",
+   "text": "Roles have included",
+   "items": [
+    {
+     "label": "Systems Engineer"
+    },
+    {
+     "label": "Specialist Programmer"
+    },
+    {
+     "label": "Digital Specialist Engineer"
+    }
+   ]
+  },
+  {
+   "start": 90.9,
+   "duration": 4,
+   "type": "flow_diagram",
+   "text": "Infosys process, usually",
+   "items": [
+    {
+     "label": "Online assessment"
+    },
+    {
+     "label": "Interview"
+    }
+   ]
+  },
+  {
+   "start": 95.6,
+   "duration": 3.7,
+   "type": "lower_third",
+   "text": "Wipro",
+   "eyebrow": "Announced on careers site",
+   "side": "left"
+  },
+  {
+   "start": 99.8,
+   "duration": 6.1,
+   "type": "bullet_list",
+   "side": "left",
+   "text": "Programmes",
+   "items": [
+    {
+     "label": "Elite National Talent Hunt",
+     "sublabel": "engineers"
+    },
+    {
+     "label": "WILP",
+     "sublabel": "BSc / BCA: work + study"
+    }
+   ]
+  },
+  {
+   "start": 106.3,
+   "duration": 1.8,
+   "type": "keyword_chip",
+   "text": "WIPRO CAREERS SITE",
+   "side": "right"
+  },
+  {
+   "start": 108.4,
+   "duration": 4.6,
+   "type": "flow_diagram",
+   "text": "Wipro process, usually",
+   "items": [
+    {
+     "label": "Online assessment"
+    },
+    {
+     "label": "Technical"
+    },
+    {
+     "label": "HR"
+    }
+   ]
+  },
+  {
+   "start": 113.7,
+   "duration": 4.1,
+   "type": "lower_third",
+   "text": "Cognizant · GenC",
+   "eyebrow": "On + off campus",
+   "side": "left"
+  },
+  {
+   "start": 118.3,
+   "duration": 5.7,
+   "type": "bullet_list",
+   "side": "right",
+   "text": "Where to look",
+   "items": [
+    {
+     "label": "Careers website",
+     "sublabel": "off-campus openings"
+    },
+    {
+     "label": "Superset portal",
+     "sublabel": "applications + status"
+    }
+   ]
+  },
+  {
+   "start": 124.3,
+   "duration": 5.5,
+   "type": "flow_diagram",
+   "text": "Cognizant process, usually",
+   "items": [
+    {
+     "label": "Aptitude"
+    },
+    {
+     "label": "Coding",
+     "sublabel": "higher tracks"
+    },
+    {
+     "label": "Interviews"
+    }
+   ]
+  },
+  {
+   "start": 130.5,
+   "duration": 5.1,
+   "type": "lower_third",
+   "text": "Accenture",
+   "eyebrow": "Associate Software Engineer",
+   "side": "left"
+  },
+  {
+   "start": 136.3,
+   "duration": 1.4,
+   "type": "keyword_chip",
+   "text": "CAREERS SITE",
+   "side": "right"
+  },
+  {
+   "start": 137.9,
+   "duration": 6.6,
+   "type": "flow_diagram",
+   "text": "Accenture process, usually",
+   "items": [
+    {
+     "label": "Cognitive + technical"
+    },
+    {
+     "label": "Coding"
+    },
+    {
+     "label": "Communication"
+    },
+    {
+     "label": "Interview"
+    }
+   ]
+  },
+  {
+   "start": 144.9,
+   "duration": 4.6,
+   "type": "big_statement",
+   "text": "Rounds change every year",
+   "eyebrow": "read the job post"
+  },
+  {
+   "start": 149.9,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "The 5-step system",
+   "eyebrow": "Section 03",
+   "numeral": "03",
+   "section": 3
+  },
+  {
+   "start": 154.3,
+   "duration": 26.9,
+   "type": "step_progress",
+   "side": "right",
+   "text": "30-minute setup",
+   "current_step": 0,
+   "items": [
+    {
+     "label": "Bookmark 10 official pages",
+     "at": 0
+    },
+    {
+     "label": "Create profiles now",
+     "at": 5.2
+    },
+    {
+     "label": "Job alerts: sites, Naukri, LinkedIn",
+     "at": 15.1
+    },
+    {
+     "label": "Check twice a week",
+     "at": 24
+    }
+   ]
+  },
+  {
+   "start": 181.4,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "MON + THU",
+   "side": "left"
+  },
+  {
+   "start": 184.3,
+   "duration": 9.1,
+   "type": "data_table",
+   "text": "Step 5 · Tracking sheet",
+   "columns": [
+    "Company",
+    "Applied on",
+    "Status"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "Company A",
+      "12 Oct",
+      "Applied"
+     ],
+     "at": 3
+    },
+    {
+     "cells": [
+      "Company B",
+      "14 Oct",
+      "Test cleared"
+     ],
+     "at": 4.9
+    }
+   ],
+   "footer": "sample rows",
+   "footer_at": 6.5
+  },
+  {
+   "start": 193.8,
+   "duration": 7.2,
+   "type": "checklist",
+   "text": "To sum up",
+   "items": [
+    {
+     "label": "Official sources only",
+     "state": "yes"
+    },
+    {
+     "label": "Know each process",
+     "state": "yes"
+    },
+    {
+     "label": "5-step system",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 201.5,
+   "duration": 3,
+   "type": "sample_answer",
+   "side": "left",
+   "text": "Batch year: [2027]\nDream company: [your pick]"
+  },
+  {
+   "start": 205.2,
+   "duration": 7.3,
+   "type": "lower_third",
+   "text": "7 more companies hiring",
+   "eyebrow": "Tomorrow",
+   "side": "left"
+  },
+  {
+   "start": 212.9,
+   "duration": 1.3,
+   "type": "keyword_chip",
+   "text": "SUBSCRIBE",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "index": 0,
+   "start": 0,
+   "end": 9.34,
+   "kind": "broll",
+   "src": "assets/broll/keyboard.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 1,
+   "start": 9.34,
+   "end": 18,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "5",
+    "label": "companies"
+   }
+  },
+  {
+   "index": 2,
+   "start": 18,
+   "end": 25.98,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "1",
+    "label": "system"
+   }
+  },
+  {
+   "index": 3,
+   "start": 25.98,
+   "end": 37.5,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "OFFICIAL",
+    "label": "sources only"
+   }
+  },
+  {
+   "index": 4,
+   "start": 37.5,
+   "end": 45,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "NEVER",
+    "label": "pay to register"
+   }
+  },
+  {
+   "index": 5,
+   "start": 45,
+   "end": 51.48,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "FREE",
+    "label": "to apply"
+   }
+  },
+  {
+   "index": 6,
+   "start": 51.48,
+   "end": 62.4,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "TCS",
+    "label": "NQT · NextStep"
+   }
+  },
+  {
+   "index": 7,
+   "start": 62.4,
+   "end": 69,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "TCS",
+    "label": "test → interviews"
+   }
+  },
+  {
+   "index": 8,
+   "start": 69,
+   "end": 75.4,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "Digital",
+    "label": "Prime · regular"
+   }
+  },
+  {
+   "index": 9,
+   "start": 75.4,
+   "end": 85,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "Infosys",
+    "label": "careers site"
+   }
+  },
+  {
+   "index": 10,
+   "start": 85,
+   "end": 95.49,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "Roles",
+    "label": "Infosys"
+   }
+  },
+  {
+   "index": 11,
+   "start": 95.49,
+   "end": 104,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "Wipro",
+    "label": "ENTH · WILP"
+   }
+  },
+  {
+   "index": 12,
+   "start": 104,
+   "end": 113.53,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "Wipro",
+    "label": "assessment → HR"
+   }
+  },
+  {
+   "index": 13,
+   "start": 113.53,
+   "end": 123,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "GenC",
+    "label": "Cognizant"
+   }
+  },
+  {
+   "index": 14,
+   "start": 123,
+   "end": 130.35,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "Superset",
+    "label": "status portal"
+   }
+  },
+  {
+   "index": 15,
+   "start": 130.35,
+   "end": 139,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "Accenture",
+    "label": "associate SE"
+   }
+  },
+  {
+   "index": 16,
+   "start": 139,
+   "end": 149.87,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "Yearly",
+    "label": "rounds change"
+   }
+  },
+  {
+   "index": 17,
+   "start": 149.87,
+   "end": 159.5,
+   "kind": "broll",
+   "src": "assets/broll/laptop-woman.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 18,
+   "start": 159.5,
+   "end": 169.43,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "30",
+    "label": "minutes, one-time"
+   }
+  },
+  {
+   "index": 19,
+   "start": 169.43,
+   "end": 176.5,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "Alerts",
+    "label": "Naukri · LinkedIn"
+   }
+  },
+  {
+   "index": 20,
+   "start": 176.5,
+   "end": 184,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "2x",
+    "label": "a week, fixed days"
+   }
+  },
+  {
+   "index": 21,
+   "start": 184,
+   "end": 193.55,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 22,
+   "start": 193.55,
+   "end": 204.55,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "3",
+    "label": "rules to keep"
+   }
+  },
+  {
+   "index": 23,
+   "start": 204.55,
+   "end": 214.27,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Tomorrow",
+    "label": "7 more companies"
+   }
+  }
+ ],
+ "camera_moves": []
+}

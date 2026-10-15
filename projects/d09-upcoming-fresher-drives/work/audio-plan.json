@@ -1,0 +1,203 @@
+{
+ "music_cues": [],
+ "sfx_events": [
+  {
+   "time": 0.1,
+   "sfx": "click",
+   "reason": "title",
+   "gain": 3
+  },
+  {
+   "time": 7.6,
+   "sfx": "glitch",
+   "reason": "fake link",
+   "gain": 2
+  },
+  {
+   "time": 9.9,
+   "sfx": "typing",
+   "reason": "list",
+   "gain": 3
+  },
+  {
+   "time": 18.2,
+   "sfx": "pop",
+   "reason": "statement",
+   "gain": 3
+  },
+  {
+   "time": 26,
+   "sfx": "pop",
+   "reason": "section 01",
+   "gain": 3
+  },
+  {
+   "time": 29.8,
+   "sfx": "click",
+   "reason": "checklist yes",
+   "gain": 3
+  },
+  {
+   "time": 38.2,
+   "sfx": "click",
+   "reason": "checklist no",
+   "gain": 3
+  },
+  {
+   "time": 45.4,
+   "sfx": "pop",
+   "reason": "free",
+   "gain": 3
+  },
+  {
+   "time": 51.5,
+   "sfx": "pop",
+   "reason": "section 02",
+   "gain": 3
+  },
+  {
+   "time": 62.7,
+   "sfx": "clock_tick",
+   "reason": "TCS flow",
+   "gain": 3
+  },
+  {
+   "time": 68,
+   "sfx": "pop",
+   "reason": "tracks",
+   "gain": 3
+  },
+  {
+   "time": 75.7,
+   "sfx": "clock_tick",
+   "reason": "Infosys",
+   "gain": 3
+  },
+  {
+   "time": 82.9,
+   "sfx": "typing",
+   "reason": "roles",
+   "gain": 3
+  },
+  {
+   "time": 91,
+   "sfx": "clock_tick",
+   "reason": "flow",
+   "gain": 3
+  },
+  {
+   "time": 95.8,
+   "sfx": "pop",
+   "reason": "Wipro",
+   "gain": 3
+  },
+  {
+   "time": 100,
+   "sfx": "clock_tick",
+   "reason": "programmes",
+   "gain": 3
+  },
+  {
+   "time": 108.5,
+   "sfx": "clock_tick",
+   "reason": "flow",
+   "gain": 3
+  },
+  {
+   "time": 113.9,
+   "sfx": "typing",
+   "reason": "Cognizant",
+   "gain": 3
+  },
+  {
+   "time": 118.5,
+   "sfx": "pop",
+   "reason": "where",
+   "gain": 3
+  },
+  {
+   "time": 124.5,
+   "sfx": "clock_tick",
+   "reason": "flow",
+   "gain": 3
+  },
+  {
+   "time": 130.7,
+   "sfx": "clock_tick",
+   "reason": "Accenture",
+   "gain": 3
+  },
+  {
+   "time": 138,
+   "sfx": "clock_tick",
+   "reason": "flow",
+   "gain": 3
+  },
+  {
+   "time": 145,
+   "sfx": "pop",
+   "reason": "rounds change",
+   "gain": 3
+  },
+  {
+   "time": 149.9,
+   "sfx": "pop",
+   "reason": "section 03",
+   "gain": 3
+  },
+  {
+   "time": 154.4,
+   "sfx": "click",
+   "reason": "step1",
+   "gain": 3
+  },
+  {
+   "time": 159.7,
+   "sfx": "click",
+   "reason": "step2",
+   "gain": 3
+  },
+  {
+   "time": 169.6,
+   "sfx": "click",
+   "reason": "step3",
+   "gain": 3
+  },
+  {
+   "time": 178.4,
+   "sfx": "click",
+   "reason": "step4",
+   "gain": 3
+  },
+  {
+   "time": 184.6,
+   "sfx": "typing",
+   "reason": "sheet",
+   "gain": 2
+  },
+  {
+   "time": 188.2,
+   "sfx": "ding",
+   "reason": "row",
+   "gain": 3
+  },
+  {
+   "time": 194,
+   "sfx": "ding",
+   "reason": "sum up",
+   "gain": 2
+  },
+  {
+   "time": 201.6,
+   "sfx": "pop",
+   "reason": "comment",
+   "gain": 3
+  },
+  {
+   "time": 205.3,
+   "sfx": "clock_tick",
+   "reason": "tomorrow",
+   "gain": 3
+  }
+ ]
+}

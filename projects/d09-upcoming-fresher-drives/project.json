@@ -1,0 +1,109 @@
+{
+  "name": "d09-upcoming-fresher-drives",
+  "createdAt": "2026-10-15T10:41:55.649Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d09-upcoming-fresher-drives/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d09/d09-voice.wav",
+    "duration": 218.84,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d09-upcoming-fresher-drives/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d09/d09_upcoming_fresher_drives_voiceover.txt",
+    "words": 648,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d09-upcoming-fresher-drives/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Infosys",
+    "Wipro",
+    "Cognizant",
+    "Accenture",
+    "WhatsApp",
+    "NextStep",
+    "Now Wipro",
+    "Elite National Talent Hunt",
+    "And Accenture",
+    "LinkedIn"
+  ],
+  "mode": "faceless",
+  "style": "blueprint",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; terminal / data-desk look: monospace, stepped plotter arrivals; graphic-led (flow diagrams, checklists, number rolls), b-roll sparse and docked; a beat every 5-7 s; crisp digital ticks and soft clicks for SFX",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 25.72,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-10-15T10:43:44.801Z",
+      "words": 640,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-10-15T10:43:59.517Z",
+      "segments": 16,
+      "kept": 214.267
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-10-15T11:11:10.377Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d09-upcoming-fresher-drives/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-10-15T11:11:12.766Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-10-15T11:11:12.804Z",
+      "groups": 163
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-10-15T11:16:39.116Z",
+      "music": 0,
+      "sfx": 33
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-10-15T11:20:56.343Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d09-upcoming-fresher-drives/output/final-16x9.mp4",
+      "duration": 224.29
+    }
+  },
+  "detectedLanguage": {
+    "code": "eng",
+    "probability": null
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d09-upcoming-fresher-drives/work/cleancut.wav",
+    "duration": 214.266458,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}
