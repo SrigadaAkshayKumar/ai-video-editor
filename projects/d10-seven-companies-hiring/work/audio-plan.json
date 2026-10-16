@@ -1,0 +1,167 @@
+{
+ "music_cues": [],
+ "sfx_events": [
+  {
+   "time": 0.15,
+   "sfx": "click",
+   "reason": "title_slide",
+   "gain": 3
+  },
+  {
+   "time": 7.65,
+   "sfx": "click",
+   "reason": "comparison",
+   "gain": 3
+  },
+  {
+   "time": 16.45,
+   "sfx": "pop",
+   "reason": "number_roll",
+   "gain": 3
+  },
+  {
+   "time": 27.95,
+   "sfx": "reveal",
+   "reason": "lower_third",
+   "gain": 3
+  },
+  {
+   "time": 40.05,
+   "sfx": "click",
+   "reason": "flow_diagram",
+   "gain": 3
+  },
+  {
+   "time": 45.95,
+   "sfx": "reveal",
+   "reason": "lower_third",
+   "gain": 3
+  },
+  {
+   "time": 52.35,
+   "sfx": "click",
+   "reason": "bullet_list",
+   "gain": 3
+  },
+  {
+   "time": 59.25,
+   "sfx": "reveal",
+   "reason": "flow_diagram",
+   "gain": 3
+  },
+  {
+   "time": 63.35,
+   "sfx": "reveal",
+   "reason": "lower_third",
+   "gain": 3
+  },
+  {
+   "time": 79.65,
+   "sfx": "reveal",
+   "reason": "lower_third",
+   "gain": 3
+  },
+  {
+   "time": 90.45,
+   "sfx": "click",
+   "reason": "flow_diagram",
+   "gain": 3
+  },
+  {
+   "time": 94.05,
+   "sfx": "reveal",
+   "reason": "lower_third",
+   "gain": 3
+  },
+  {
+   "time": 104.85,
+   "sfx": "reveal",
+   "reason": "lower_third",
+   "gain": 3
+  },
+  {
+   "time": 114.25,
+   "sfx": "reveal",
+   "reason": "flow_diagram",
+   "gain": 3
+  },
+  {
+   "time": 119.95,
+   "sfx": "sub_drop",
+   "reason": "chapter_open",
+   "gain": 3
+  },
+  {
+   "time": 123.55,
+   "sfx": "pop",
+   "reason": "big_statement",
+   "gain": 3
+  },
+  {
+   "time": 127.05,
+   "sfx": "click",
+   "reason": "matrix_grid",
+   "gain": 3
+  },
+  {
+   "time": 134.05,
+   "sfx": "click",
+   "reason": "comparison",
+   "gain": 3
+  },
+  {
+   "time": 143.95,
+   "sfx": "ding",
+   "reason": "checklist",
+   "gain": 2
+  },
+  {
+   "time": 147.65,
+   "sfx": "pop",
+   "reason": "word_swap",
+   "gain": 3
+  },
+  {
+   "time": 150.35,
+   "sfx": "sub_drop",
+   "reason": "chapter_open",
+   "gain": 3
+  },
+  {
+   "time": 153.65,
+   "sfx": "ding",
+   "reason": "checklist",
+   "gain": 2
+  },
+  {
+   "time": 165.45,
+   "sfx": "click",
+   "reason": "flow_diagram",
+   "gain": 3
+  },
+  {
+   "time": 175.05,
+   "sfx": "click",
+   "reason": "step_progress",
+   "gain": 3
+  },
+  {
+   "time": 182.65,
+   "sfx": "pop",
+   "reason": "big_statement",
+   "gain": 3
+  },
+  {
+   "time": 185.95,
+   "sfx": "pop",
+   "reason": "quote_pull",
+   "gain": 3
+  },
+  {
+   "time": 194.65,
+   "sfx": "reveal",
+   "reason": "lower_third",
+   "gain": 3
+  }
+ ]
+}

@@ -1,0 +1,775 @@
+{
+ "style": "cleantech",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.1,
+   "duration": 4.1,
+   "type": "title_slide",
+   "text": "7 Companies Still Hiring Freshers",
+   "eyebrow": "Crack IT · Day 10",
+   "style_hint": "Rejected by TCS, Infosys or Cognizant?"
+  },
+  {
+   "start": 4.7,
+   "duration": 2.2,
+   "type": "keyword_chip",
+   "text": "REJECTED?",
+   "side": "right"
+  },
+  {
+   "start": 7.6,
+   "duration": 7.9,
+   "type": "comparison",
+   "side": "right",
+   "text": "Where freshers apply",
+   "left": {
+    "label": "Same 5–6 big names",
+    "text": "Most applicants"
+   },
+   "right": {
+    "label": "Other companies",
+    "text": "Also hiring · often less competition"
+   }
+  },
+  {
+   "start": 16.4,
+   "duration": 3.6,
+   "type": "number_roll",
+   "value": 7,
+   "text": "companies still hiring freshers"
+  },
+  {
+   "start": 20.5,
+   "duration": 2.7,
+   "type": "keyword_chip",
+   "text": "WHAT THEY DO · HOW THEY HIRE",
+   "side": "left"
+  },
+  {
+   "start": 23.9,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "NUMBER 7 · OFTEN MISSED",
+   "side": "right"
+  },
+  {
+   "start": 27.9,
+   "duration": 3.7,
+   "type": "lower_third",
+   "text": "Tech Mahindra",
+   "eyebrow": "01 · Mahindra Group",
+   "side": "left"
+  },
+  {
+   "start": 32.2,
+   "duration": 3.7,
+   "type": "keyword_chip",
+   "text": "TELECOM · NETWORKS",
+   "side": "right"
+  },
+  {
+   "start": 36.8,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "ENTRY-LEVEL ENGINEERING",
+   "side": "left"
+  },
+  {
+   "start": 40,
+   "duration": 4.9,
+   "type": "flow_diagram",
+   "text": "Process, usually",
+   "items": [
+    {
+     "label": "Online assessment"
+    },
+    {
+     "label": "Technical"
+    },
+    {
+     "label": "HR"
+    }
+   ]
+  },
+  {
+   "start": 45.9,
+   "duration": 3.8,
+   "type": "lower_third",
+   "text": "LTIMindtree",
+   "eyebrow": "02 · Formed in 2022",
+   "side": "left"
+  },
+  {
+   "start": 50.2,
+   "duration": 1.7,
+   "type": "keyword_chip",
+   "text": "L&T INFOTECH + MINDTREE",
+   "side": "right"
+  },
+  {
+   "start": 52.3,
+   "duration": 3.5,
+   "type": "bullet_list",
+   "side": "right",
+   "text": "Many clients in",
+   "items": [
+    {
+     "label": "Banking"
+    },
+    {
+     "label": "Manufacturing"
+    },
+    {
+     "label": "Enterprise"
+    }
+   ]
+  },
+  {
+   "start": 56.2,
+   "duration": 2.7,
+   "type": "keyword_chip",
+   "text": "CAMPUS + OFF-CAMPUS",
+   "side": "left"
+  },
+  {
+   "start": 59.2,
+   "duration": 3.6,
+   "type": "flow_diagram",
+   "text": "Process, usually",
+   "items": [
+    {
+     "label": "Aptitude + coding"
+    },
+    {
+     "label": "Interviews"
+    }
+   ]
+  },
+  {
+   "start": 63.3,
+   "duration": 3.7,
+   "type": "lower_third",
+   "text": "Persistent Systems",
+   "eyebrow": "03 · Headquartered in Pune",
+   "side": "left"
+  },
+  {
+   "start": 67.6,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "PRODUCT ENGINEERING",
+   "side": "right"
+  },
+  {
+   "start": 71.3,
+   "duration": 2.7,
+   "type": "keyword_chip",
+   "text": "REAL SOFTWARE DEVELOPMENT",
+   "side": "left"
+  },
+  {
+   "start": 74.4,
+   "duration": 4.4,
+   "type": "side_note",
+   "text": "Tip: practise data structures",
+   "side": "right"
+  },
+  {
+   "start": 79.6,
+   "duration": 3.7,
+   "type": "lower_third",
+   "text": "Mphasis",
+   "eyebrow": "04 · Headquartered in Bengaluru",
+   "side": "left"
+  },
+  {
+   "start": 83.7,
+   "duration": 2.2,
+   "type": "keyword_chip",
+   "text": "BANKING & FINANCE",
+   "side": "right"
+  },
+  {
+   "start": 86.4,
+   "duration": 3.5,
+   "type": "side_note",
+   "text": "Interested in banking tech? Keep it on your list",
+   "side": "left"
+  },
+  {
+   "start": 90.4,
+   "duration": 3,
+   "type": "flow_diagram",
+   "text": "Process, usually",
+   "items": [
+    {
+     "label": "Online test"
+    },
+    {
+     "label": "Interviews"
+    }
+   ]
+  },
+  {
+   "start": 94,
+   "duration": 3.8,
+   "type": "lower_third",
+   "text": "Coforge",
+   "eyebrow": "05 · Mid-size and growing",
+   "side": "left"
+  },
+  {
+   "start": 98.2,
+   "duration": 1.7,
+   "type": "keyword_chip",
+   "text": "BANKING · INSURANCE · TRAVEL",
+   "side": "right"
+  },
+  {
+   "start": 100.4,
+   "duration": 3.9,
+   "type": "side_note",
+   "text": "Mid-size = more responsibility earlier",
+   "side": "right"
+  },
+  {
+   "start": 104.8,
+   "duration": 4.1,
+   "type": "lower_third",
+   "text": "Capgemini",
+   "eyebrow": "06 · French multinational",
+   "side": "left"
+  },
+  {
+   "start": 110,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "CAMPUS + OFF-CAMPUS DRIVES",
+   "side": "right"
+  },
+  {
+   "start": 114.2,
+   "duration": 5.2,
+   "type": "flow_diagram",
+   "text": "Process, usually",
+   "items": [
+    {
+     "label": "Technical + aptitude"
+    },
+    {
+     "label": "Communication"
+    },
+    {
+     "label": "Interview"
+    }
+   ]
+  },
+  {
+   "start": 119.9,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Number seven",
+   "eyebrow": "Section 01",
+   "numeral": "07",
+   "section": 1
+  },
+  {
+   "start": 123.5,
+   "duration": 2.9,
+   "type": "big_statement",
+   "text": "Product companies and startups",
+   "eyebrow": "startups"
+  },
+  {
+   "start": 127,
+   "duration": 6.4,
+   "type": "matrix_grid",
+   "text": "Where they hire",
+   "items": [
+    {
+     "label": "Careers pages"
+    },
+    {
+     "label": "LinkedIn"
+    },
+    {
+     "label": "Hiring platforms"
+    }
+   ]
+  },
+  {
+   "start": 134,
+   "duration": 4,
+   "type": "comparison",
+   "side": "left",
+   "text": "Selection is usually based on",
+   "left": {
+    "label": "Not this",
+    "text": "Your percentage"
+   },
+   "right": {
+    "label": "This",
+    "text": "Coding tests + projects"
+   }
+  },
+  {
+   "start": 138.7,
+   "duration": 4.3,
+   "type": "keyword_chip",
+   "text": "REAL WORK FROM MONTH ONE",
+   "side": "left"
+  },
+  {
+   "start": 143.9,
+   "duration": 3.4,
+   "type": "checklist",
+   "text": "The key",
+   "items": [
+    {
+     "label": "Strong GitHub profile",
+     "state": "yes"
+    },
+    {
+     "label": "1–2 real projects",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 147.6,
+   "duration": 2.5,
+   "type": "word_swap",
+   "from": "Certificate",
+   "to": "Projects",
+   "text": "What matters more"
+  },
+  {
+   "start": 150.3,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Apply smartly",
+   "eyebrow": "Section 02",
+   "numeral": "08",
+   "section": 2
+  },
+  {
+   "start": 153.6,
+   "duration": 11.2,
+   "type": "checklist",
+   "text": "Apply smartly",
+   "items": [
+    {
+     "label": "Official careers pages only",
+     "state": "yes"
+    },
+    {
+     "label": "Tailor resume with job-post words",
+     "state": "yes"
+    },
+    {
+     "label": "Apply in parallel",
+     "state": "yes"
+    },
+    {
+     "label": "Rejection = feedback",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 165.4,
+   "duration": 9.1,
+   "type": "flow_diagram",
+   "text": "Every rejection is feedback",
+   "items": [
+    {
+     "label": "Test"
+    },
+    {
+     "label": "Feedback"
+    },
+    {
+     "label": "Practise"
+    },
+    {
+     "label": "Next test"
+    }
+   ]
+  },
+  {
+   "start": 175,
+   "duration": 7.3,
+   "type": "step_progress",
+   "side": "right",
+   "text": "Seven more doors",
+   "current_step": 0,
+   "items": [
+    {
+     "label": "Tech Mahindra",
+     "at": 0.3
+    },
+    {
+     "label": "LTIMindtree",
+     "at": 1.2
+    },
+    {
+     "label": "Persistent",
+     "at": 2.2
+    },
+    {
+     "label": "Mphasis",
+     "at": 3
+    },
+    {
+     "label": "Coforge",
+     "at": 3.8
+    },
+    {
+     "label": "Capgemini",
+     "at": 4.5
+    },
+    {
+     "label": "Product cos & startups",
+     "at": 5.4
+    }
+   ]
+  },
+  {
+   "start": 182.6,
+   "duration": 2.8,
+   "type": "big_statement",
+   "text": "Seven more doors",
+   "eyebrow": "doors"
+  },
+  {
+   "start": 185.9,
+   "duration": 8.1,
+   "type": "quote_pull",
+   "text": "Which company rejected you, and which of these seven will you apply to next?",
+   "eyebrow": "Comment below"
+  },
+  {
+   "start": 194.6,
+   "duration": 5.2,
+   "type": "lower_third",
+   "text": "Is your batch too old?",
+   "eyebrow": "Tomorrow",
+   "side": "left"
+  },
+  {
+   "start": 200.4,
+   "duration": 2.2,
+   "type": "keyword_chip",
+   "text": "SUBSCRIBE",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "index": 0,
+   "start": 0,
+   "end": 7.18,
+   "kind": "broll",
+   "src": "assets/broll/glass-towers.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 1,
+   "start": 7.18,
+   "end": 15.93,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "5–6",
+    "label": "big names"
+   }
+  },
+  {
+   "index": 2,
+   "start": 15.93,
+   "end": 23.5,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "7",
+    "label": "companies"
+   }
+  },
+  {
+   "index": 3,
+   "start": 23.5,
+   "end": 27.4,
+   "kind": "broll",
+   "src": "assets/broll/corridor.mp4",
+   "media_start": 1,
+   "motion": "pan_right",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 4,
+   "start": 27.4,
+   "end": 36.4,
+   "kind": "broll",
+   "src": "assets/broll/office-team.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 5,
+   "start": 36.4,
+   "end": 45.5,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "01",
+    "label": "Tech Mahindra"
+   }
+  },
+  {
+   "index": 6,
+   "start": 45.5,
+   "end": 52,
+   "kind": "broll",
+   "src": "assets/broll/open-office.mp4",
+   "media_start": 0,
+   "motion": "pan_left",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 7,
+   "start": 52,
+   "end": 63.05,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "02",
+    "label": "LTIMindtree"
+   }
+  },
+  {
+   "index": 8,
+   "start": 63.05,
+   "end": 71,
+   "kind": "broll",
+   "src": "assets/broll/code-screen.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 9,
+   "start": 71,
+   "end": 79.24,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "03",
+    "label": "Persistent Systems"
+   }
+  },
+  {
+   "index": 10,
+   "start": 79.24,
+   "end": 86,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 2,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 11,
+   "start": 86,
+   "end": 93.73,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "04",
+    "label": "Mphasis"
+   }
+  },
+  {
+   "index": 12,
+   "start": 93.73,
+   "end": 100,
+   "kind": "broll",
+   "src": "assets/broll/meeting.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 13,
+   "start": 100,
+   "end": 104.54,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "05",
+    "label": "Coforge"
+   }
+  },
+  {
+   "index": 14,
+   "start": 104.54,
+   "end": 109.5,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "06",
+    "label": "Capgemini"
+   }
+  },
+  {
+   "index": 15,
+   "start": 109.5,
+   "end": 114,
+   "kind": "broll",
+   "src": "assets/broll/campus.mp4",
+   "media_start": 2,
+   "motion": "pan_right",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 16,
+   "start": 114,
+   "end": 119.83,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "06",
+    "label": "Capgemini"
+   }
+  },
+  {
+   "index": 17,
+   "start": 119.83,
+   "end": 126.5,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 18,
+   "start": 126.5,
+   "end": 138.2,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "07",
+    "label": "Product cos & startups"
+   }
+  },
+  {
+   "index": 19,
+   "start": 138.2,
+   "end": 143.73,
+   "kind": "broll",
+   "src": "assets/broll/code-screen.mp4",
+   "media_start": 7,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 20,
+   "start": 143.73,
+   "end": 150.23,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Projects",
+    "label": "over certificates"
+   }
+  },
+  {
+   "index": 21,
+   "start": 150.23,
+   "end": 153.4,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 12,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 22,
+   "start": 153.4,
+   "end": 165.2,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "4",
+    "label": "smart rules"
+   }
+  },
+  {
+   "index": 23,
+   "start": 165.2,
+   "end": 174.7,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Learn",
+    "label": "from every test"
+   }
+  },
+  {
+   "index": 24,
+   "start": 174.7,
+   "end": 182.41,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "7",
+    "label": "more doors"
+   }
+  },
+  {
+   "index": 25,
+   "start": 182.41,
+   "end": 185.61,
+   "kind": "broll",
+   "src": "assets/broll/glass-towers.mp4",
+   "media_start": 6,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 26,
+   "start": 185.61,
+   "end": 194.29,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Comment",
+    "label": "below"
+   }
+  },
+  {
+   "index": 27,
+   "start": 194.29,
+   "end": 202.83,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Tomorrow",
+    "label": "Is your batch too old?"
+   }
+  }
+ ],
+ "camera_moves": []
+}
