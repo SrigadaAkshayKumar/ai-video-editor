@@ -1,0 +1,737 @@
+{
+ "style": "broadcast",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 4.75,
+   "type": "title_slide",
+   "text": "Is Your Batch Too Old?",
+   "eyebrow": "Crack IT · Day 11",
+   "style_hint": "2024 · 2025 graduates"
+  },
+  {
+   "start": 5.5,
+   "duration": 4.3,
+   "type": "word_swap",
+   "from": "Too late?",
+   "to": "Still a fresher?",
+   "text": "The question"
+  },
+  {
+   "start": 10.9,
+   "duration": 1.9,
+   "type": "keyword_chip",
+   "text": "FY24 · 3-YEAR LOW",
+   "side": "right"
+  },
+  {
+   "start": 13,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "YOU ARE NOT ALONE",
+   "side": "left"
+  },
+  {
+   "start": 17,
+   "duration": 10.6,
+   "type": "step_progress",
+   "side": "right",
+   "text": "In this video",
+   "current_step": 0,
+   "items": [
+    {
+     "label": "How eligibility works",
+     "at": 0.3
+    },
+    {
+     "label": "What is still open",
+     "at": 3.4
+    },
+    {
+     "label": "Explaining your gap",
+     "at": 7
+    },
+    {
+     "label": "This month's plan",
+     "at": 9
+    }
+   ]
+  },
+  {
+   "start": 27.7,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "How eligibility works",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 1
+  },
+  {
+   "start": 31.6,
+   "duration": 6.8,
+   "type": "data_table",
+   "text": "A drive's eligibility line (sample)",
+   "columns": [
+    "Graduation years",
+    "Minimum %",
+    "Backlogs"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "20XX · 20XX",
+      "60%",
+      "None active"
+     ],
+     "at": 0.6
+    }
+   ],
+   "footer": "Placeholder values, not a real company",
+   "footer_at": 3.5
+  },
+  {
+   "start": 39.17,
+   "duration": 2.6,
+   "type": "big_statement",
+   "text": "No single rule",
+   "eyebrow": "industry"
+  },
+  {
+   "start": 42.07,
+   "duration": 7.5,
+   "type": "bullet_list",
+   "side": "right",
+   "text": "Three kinds of drive",
+   "items": [
+    {
+     "label": "Current batch only"
+    },
+    {
+     "label": "Last 1–2 batches"
+    },
+    {
+     "label": "Open to all meeting criteria"
+    }
+   ]
+  },
+  {
+   "start": 49.87,
+   "duration": 5.7,
+   "type": "big_statement",
+   "text": "Not yes or no. Read each eligibility line.",
+   "eyebrow": "the answer"
+  },
+  {
+   "start": 55.77,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "MANY GIVE UP WITHOUT CHECKING",
+   "side": "left"
+  },
+  {
+   "start": 58.87,
+   "duration": 3.4,
+   "type": "chapter_open",
+   "text": "What is still open",
+   "eyebrow": "Section 02",
+   "numeral": "02",
+   "section": 2
+  },
+  {
+   "start": 62.7,
+   "duration": 2.7,
+   "type": "lower_third",
+   "text": "Off-campus drives",
+   "eyebrow": "01 · Previous batches",
+   "side": "left"
+  },
+  {
+   "start": 65.6,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "CHECK EVERY CAREERS PAGE",
+   "side": "right"
+  },
+  {
+   "start": 70,
+   "duration": 2.2,
+   "type": "lower_third",
+   "text": "Mid-size & product companies",
+   "eyebrow": "02 · Skills over year",
+   "side": "left"
+  },
+  {
+   "start": 72.6,
+   "duration": 3.7,
+   "type": "keyword_chip",
+   "text": "REPORTED · SKILLS FIRST · SEP 2024",
+   "side": "left"
+  },
+  {
+   "start": 76.7,
+   "duration": 2.5,
+   "type": "lower_third",
+   "text": "Internships & apprenticeships",
+   "eyebrow": "03 · Can convert",
+   "side": "left"
+  },
+  {
+   "start": 79.6,
+   "duration": 3.9,
+   "type": "flow_diagram",
+   "text": "A very real path",
+   "items": [
+    {
+     "label": "Internship"
+    },
+    {
+     "label": "Convert"
+    },
+    {
+     "label": "Full-time job"
+    }
+   ]
+  },
+  {
+   "start": 83.9,
+   "duration": 3.5,
+   "type": "lower_third",
+   "text": "Contract & service desk",
+   "eyebrow": "04 · Real experience",
+   "side": "left"
+  },
+  {
+   "start": 87.7,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "NOT YOUR DREAM JOB · REAL WORK",
+   "side": "right"
+  },
+  {
+   "start": 91.3,
+   "duration": 5.2,
+   "type": "comparison",
+   "side": "right",
+   "text": "After one year",
+   "left": {
+    "label": "Fresher queue",
+    "text": "Crowded"
+   },
+   "right": {
+    "label": "1 year experience",
+    "text": "A different set of jobs"
+   }
+  },
+  {
+   "start": 96.8,
+   "duration": 3.17,
+   "type": "chapter_open",
+   "text": "Explain your gap",
+   "eyebrow": "Section 03",
+   "numeral": "03",
+   "section": 3
+  },
+  {
+   "start": 100.17,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "EVERY INTERVIEWER ASKS",
+   "side": "left"
+  },
+  {
+   "start": 102.97,
+   "duration": 4,
+   "type": "quote_pull",
+   "text": "I was just preparing.",
+   "eyebrow": "Never say this ✗"
+  },
+  {
+   "start": 107.27,
+   "duration": 11.8,
+   "type": "step_progress",
+   "side": "right",
+   "text": "Show proof",
+   "current_step": 0,
+   "items": [
+    {
+     "label": "Preparing for placements",
+     "at": 0.3
+    },
+    {
+     "label": "Certification (SQL)",
+     "at": 3.8
+    },
+    {
+     "label": "Project: sales dashboard",
+     "at": 7.2
+    },
+    {
+     "label": "On GitHub",
+     "at": 10.4
+    }
+   ]
+  },
+  {
+   "start": 119.47,
+   "duration": 5.1,
+   "type": "side_note",
+   "text": "Personal reason? Brief + honest, then what you learned",
+   "side": "left"
+  },
+  {
+   "start": 124.77,
+   "duration": 2,
+   "type": "keyword_chip",
+   "text": "MOVE TO WHAT YOU LEARNED",
+   "side": "right"
+  },
+  {
+   "start": 127.07,
+   "duration": 4.7,
+   "type": "comparison",
+   "side": "left",
+   "text": "A gap with…",
+   "left": {
+    "label": "Proof of learning",
+    "text": "Not a weakness"
+   },
+   "right": {
+    "label": "No explanation",
+    "text": "A weakness"
+   }
+  },
+  {
+   "start": 131.77,
+   "duration": 3.13,
+   "type": "chapter_open",
+   "text": "This month's plan",
+   "eyebrow": "Section 04",
+   "numeral": "04",
+   "section": 4
+  },
+  {
+   "start": 135.2,
+   "duration": 23.47,
+   "type": "step_progress",
+   "side": "right",
+   "text": "Four weeks",
+   "current_step": 0,
+   "items": [
+    {
+     "label": "Week 1 · Resume + one project",
+     "at": 0.3
+    },
+    {
+     "label": "Week 2 · 20 companies, check eligibility",
+     "at": 7
+    },
+    {
+     "label": "Week 3 · 5 internships / contract roles",
+     "at": 14.2
+    },
+    {
+     "label": "Week 4 · Interview practice",
+     "at": 16.6
+    }
+   ]
+  },
+  {
+   "start": 158.87,
+   "duration": 1.8,
+   "type": "keyword_chip",
+   "text": "TRACK YOUR APPLICATIONS",
+   "side": "left"
+  },
+  {
+   "start": 160.87,
+   "duration": 1.8,
+   "type": "big_statement",
+   "text": "Consistency beats luck",
+   "eyebrow": "every month"
+  },
+  {
+   "start": 163.07,
+   "duration": 9.2,
+   "type": "checklist",
+   "text": "To sum up",
+   "items": [
+    {
+     "label": "Read each eligibility line",
+     "state": "yes"
+    },
+    {
+     "label": "Skills beat batch year",
+     "state": "yes"
+    },
+    {
+     "label": "Gap + proof = fine",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 173,
+   "duration": 6,
+   "type": "quote_pull",
+   "text": "Your graduation year, and what you are doing right now?",
+   "eyebrow": "Comment below"
+  },
+  {
+   "start": 179.6,
+   "duration": 7,
+   "type": "lower_third",
+   "text": "Frontier engineer roles at Infosys & Cognizant",
+   "eyebrow": "Tomorrow",
+   "side": "left"
+  },
+  {
+   "start": 187,
+   "duration": 2,
+   "type": "keyword_chip",
+   "text": "SUBSCRIBE",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "index": 0,
+   "start": 0,
+   "end": 5.2,
+   "kind": "broll",
+   "src": "assets/broll/woman-laptop.mp4",
+   "media_start": 1,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut"
+  },
+  {
+   "index": 1,
+   "start": 5.2,
+   "end": 10.8,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "2024 · 2025",
+    "label": "graduates"
+   }
+  },
+  {
+   "index": 2,
+   "start": 10.8,
+   "end": 16.7,
+   "kind": "news",
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "url": "https://www.deccanherald.com/india/it-fresher-hiring-at-3-yr-low-in-fy24-dim-outlook-for-q1-fy25-overall-2902804",
+   "source": "Deccan Herald",
+   "headline": "IT fresher hiring at 3-yr low in FY24, dim outlook for Q1 FY25 overall",
+   "date": "20 Feb 2024",
+   "highlight": {
+    "x": 0.065,
+    "y": 0.235,
+    "w": 0.52,
+    "h": 0.06
+   }
+  },
+  {
+   "index": 3,
+   "start": 16.7,
+   "end": 22.7,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "4",
+    "label": "things to know"
+   }
+  },
+  {
+   "index": 4,
+   "start": 22.7,
+   "end": 27.7,
+   "kind": "broll",
+   "src": "assets/broll/laptop-browse.mp4",
+   "media_start": 2,
+   "motion": "pan_right",
+   "grade": "neutral",
+   "transition": "cut"
+  },
+  {
+   "index": 5,
+   "start": 27.7,
+   "end": 39.07,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "01",
+    "label": "Eligibility line"
+   }
+  },
+  {
+   "index": 6,
+   "start": 39.07,
+   "end": 45.17,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "No rule",
+    "label": "one for all"
+   }
+  },
+  {
+   "index": 7,
+   "start": 45.17,
+   "end": 49.67,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "3",
+    "label": "kinds of drives"
+   }
+  },
+  {
+   "index": 8,
+   "start": 49.67,
+   "end": 58.77,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "?",
+    "label": "Too old"
+   }
+  },
+  {
+   "index": 9,
+   "start": 58.77,
+   "end": 62.6,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "02",
+    "label": "What is still open"
+   }
+  },
+  {
+   "index": 10,
+   "start": 62.6,
+   "end": 69.8,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "1",
+    "label": "Off-campus drives"
+   }
+  },
+  {
+   "index": 11,
+   "start": 69.8,
+   "end": 72.3,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "2",
+    "label": "Mid-size · product"
+   }
+  },
+  {
+   "index": 12,
+   "start": 72.3,
+   "end": 76.5,
+   "kind": "news",
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "url": "https://www.business-standard.com/industry/news/indian-it-sector-turns-to-campus-placements-after-a-year-long-pause-124092100163_1.html",
+   "source": "Business Standard",
+   "headline": "Indian IT sector turns to campus placements after a year-long pause",
+   "date": "21 Sep 2024",
+   "highlight": {
+    "x": 0.09,
+    "y": 0.235,
+    "w": 0.58,
+    "h": 0.04
+   }
+  },
+  {
+   "index": 13,
+   "start": 76.5,
+   "end": 83.7,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3",
+    "label": "Internships"
+   }
+  },
+  {
+   "index": 14,
+   "start": 83.7,
+   "end": 91.2,
+   "kind": "broll",
+   "src": "assets/broll/office-desks.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut"
+  },
+  {
+   "index": 15,
+   "start": 91.2,
+   "end": 96.6,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "1 yr",
+    "label": "no longer a fresher"
+   }
+  },
+  {
+   "index": 16,
+   "start": 96.6,
+   "end": 102.87,
+   "kind": "broll",
+   "src": "assets/broll/office-desks.mp4",
+   "media_start": 3,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "cut"
+  },
+  {
+   "index": 17,
+   "start": 102.87,
+   "end": 107.07,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "✗",
+    "label": "I was just preparing"
+   }
+  },
+  {
+   "index": 18,
+   "start": 107.07,
+   "end": 112.87,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "✓",
+    "label": "Proof of learning"
+   }
+  },
+  {
+   "index": 19,
+   "start": 112.87,
+   "end": 119.17,
+   "kind": "broll",
+   "src": "assets/broll/laptop-browse.mp4",
+   "media_start": 6,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut"
+  },
+  {
+   "index": 20,
+   "start": 119.17,
+   "end": 126.77,
+   "kind": "broll",
+   "src": "assets/broll/girl-writing.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut"
+  },
+  {
+   "index": 21,
+   "start": 126.77,
+   "end": 131.77,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "Gap + proof",
+    "label": "= fine"
+   }
+  },
+  {
+   "index": 22,
+   "start": 131.77,
+   "end": 142.4,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "04",
+    "label": "This month's plan"
+   }
+  },
+  {
+   "index": 23,
+   "start": 142.4,
+   "end": 149.6,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "W2",
+    "label": "20 companies"
+   }
+  },
+  {
+   "index": 24,
+   "start": 149.6,
+   "end": 152.07,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "W3",
+    "label": "5 backups"
+   }
+  },
+  {
+   "index": 25,
+   "start": 152.07,
+   "end": 158.47,
+   "kind": "broll",
+   "src": "assets/broll/keyboard.mp4",
+   "media_start": 3,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "cut"
+  },
+  {
+   "index": 26,
+   "start": 158.47,
+   "end": 162.67,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "Consistency",
+    "label": "beats luck"
+   }
+  },
+  {
+   "index": 27,
+   "start": 162.67,
+   "end": 172.6,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 28,
+   "start": 172.6,
+   "end": 179,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Comment",
+    "label": "your batch year"
+   }
+  },
+  {
+   "index": 29,
+   "start": 179,
+   "end": 189.133,
+   "kind": "graphic",
+   "grade": "cool"
+  }
+ ],
+ "camera_moves": []
+}

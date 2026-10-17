@@ -1,0 +1,221 @@
+{
+ "music_cues": [],
+ "sfx_events": [
+  {
+   "time": 0.1,
+   "sfx": "impact",
+   "reason": "title lands on first line",
+   "gain": 4
+  },
+  {
+   "time": 10.9,
+   "sfx": "whoosh",
+   "reason": "wipe to news: FY24 low",
+   "gain": 1.6
+  },
+  {
+   "time": 13,
+   "sfx": "sub_drop",
+   "reason": "you are not alone",
+   "gain": 4
+  },
+  {
+   "time": 17,
+   "sfx": "click",
+   "reason": "agenda item 1",
+   "gain": 2
+  },
+  {
+   "time": 20.1,
+   "sfx": "click",
+   "reason": "agenda item 2",
+   "gain": 2
+  },
+  {
+   "time": 24.1,
+   "sfx": "click",
+   "reason": "agenda item 3",
+   "gain": 2
+  },
+  {
+   "time": 26.3,
+   "sfx": "click",
+   "reason": "agenda item 4",
+   "gain": 2
+  },
+  {
+   "time": 27.7,
+   "sfx": "whoosh",
+   "reason": "section 01 wipe",
+   "gain": 1.6
+  },
+  {
+   "time": 28.2,
+   "sfx": "impact",
+   "reason": "section 01 hit",
+   "gain": 3
+  },
+  {
+   "time": 32.7,
+   "sfx": "typing",
+   "reason": "eligibility row prints",
+   "gain": 2
+  },
+  {
+   "time": 42.07,
+   "sfx": "pop",
+   "reason": "three kinds of drive",
+   "gain": 2
+  },
+  {
+   "time": 49.87,
+   "sfx": "sub_drop",
+   "reason": "not yes or no",
+   "gain": 4
+  },
+  {
+   "time": 58.87,
+   "sfx": "whoosh",
+   "reason": "section 02 wipe",
+   "gain": 1.6
+  },
+  {
+   "time": 59.37,
+   "sfx": "impact",
+   "reason": "section 02 hit",
+   "gain": 3
+  },
+  {
+   "time": 62.7,
+   "sfx": "pop",
+   "reason": "door 1",
+   "gain": 2
+  },
+  {
+   "time": 70,
+   "sfx": "pop",
+   "reason": "door 2",
+   "gain": 2
+  },
+  {
+   "time": 72.3,
+   "sfx": "whoosh",
+   "reason": "wipe to news: skills",
+   "gain": 1.4
+  },
+  {
+   "time": 76.7,
+   "sfx": "pop",
+   "reason": "door 3",
+   "gain": 2
+  },
+  {
+   "time": 83.9,
+   "sfx": "pop",
+   "reason": "door 4",
+   "gain": 2
+  },
+  {
+   "time": 91.3,
+   "sfx": "reveal",
+   "reason": "after one year",
+   "gain": 3
+  },
+  {
+   "time": 96.8,
+   "sfx": "whoosh",
+   "reason": "section 03 wipe",
+   "gain": 1.6
+  },
+  {
+   "time": 97.3,
+   "sfx": "impact",
+   "reason": "section 03 hit",
+   "gain": 3
+  },
+  {
+   "time": 102.97,
+   "sfx": "glitch",
+   "reason": "weak answer",
+   "gain": 2
+  },
+  {
+   "time": 109.87,
+   "sfx": "click",
+   "reason": "proof step 1",
+   "gain": 2
+  },
+  {
+   "time": 112.47,
+   "sfx": "click",
+   "reason": "proof step 2",
+   "gain": 2
+  },
+  {
+   "time": 115.37,
+   "sfx": "click",
+   "reason": "proof step 3",
+   "gain": 2
+  },
+  {
+   "time": 118.07,
+   "sfx": "ding",
+   "reason": "proof step 4",
+   "gain": 2
+  },
+  {
+   "time": 127.07,
+   "sfx": "reveal",
+   "reason": "gap + proof",
+   "gain": 3
+  },
+  {
+   "time": 131.77,
+   "sfx": "whoosh",
+   "reason": "section 04 wipe",
+   "gain": 1.6
+  },
+  {
+   "time": 132.27,
+   "sfx": "impact",
+   "reason": "section 04 hit",
+   "gain": 3
+  },
+  {
+   "time": 142.6,
+   "sfx": "click",
+   "reason": "week 2",
+   "gain": 2
+  },
+  {
+   "time": 149.8,
+   "sfx": "click",
+   "reason": "week 3",
+   "gain": 2
+  },
+  {
+   "time": 152.17,
+   "sfx": "click",
+   "reason": "week 4",
+   "gain": 2
+  },
+  {
+   "time": 163.07,
+   "sfx": "ding",
+   "reason": "checklist",
+   "gain": 2
+  },
+  {
+   "time": 173,
+   "sfx": "pop",
+   "reason": "comment prompt",
+   "gain": 2
+  },
+  {
+   "time": 179.6,
+   "sfx": "whoosh",
+   "reason": "tomorrow",
+   "gain": 1.4
+  }
+ ]
+}

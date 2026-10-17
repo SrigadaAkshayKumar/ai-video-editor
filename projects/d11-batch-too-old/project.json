@@ -1,0 +1,103 @@
+{
+  "name": "d11-batch-too-old",
+  "createdAt": "2026-10-17T10:40:01.917Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d11-batch-too-old/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d11/d11-voice.wav",
+    "duration": 191.14,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d11-batch-too-old/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d11/d11_batch_too_old_voiceover.txt",
+    "words": 603,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d11-batch-too-old/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Git Hub",
+    "Week",
+    "Apply"
+  ],
+  "mode": "faceless",
+  "style": "broadcast",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; bold newsroom look: news screenshots and NewsCards lead, split-screen framing, oversized section numerals, high-contrast accents; punchy pace, a beat every 3-5 s; wipe whooshes and hits on section changes",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 16.7,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-10-17T10:48:16.891Z",
+      "words": 583,
+      "engine": "whisper.cpp medium.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-10-17T10:48:28.346Z",
+      "segments": 12,
+      "kept": 189.133
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-10-17T11:11:59.781Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d11-batch-too-old/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-10-17T11:12:02.894Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-10-17T11:12:02.934Z",
+      "groups": 161
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-10-17T11:12:17.963Z",
+      "music": 0,
+      "sfx": 36
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-10-17T11:15:59.690Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d11-batch-too-old/output/final-16x9.mp4",
+      "duration": 199.146
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.899965,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d11-batch-too-old/work/cleancut.wav",
+    "duration": 189.133417,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}
