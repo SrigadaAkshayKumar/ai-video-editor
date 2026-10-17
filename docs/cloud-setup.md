@@ -88,13 +88,17 @@ One-time setup, signed in with the Google account that **owns the channel**:
 1. <https://console.cloud.google.com> → create a project (any name).
 2. **APIs & Services → Library** → *YouTube Data API v3* → **Enable**.
 3. **Google Auth Platform** (OAuth consent screen): External, an app name, your email. Under **Data access** add the
-   scope `.../auth/youtube.upload`. Under **Audience** press **Publish app** (In production): in Testing mode the
+   scopes `.../auth/youtube.upload` and `.../auth/youtube` (the second lets the pipeline edit its own uploads: title,
+   description, tags, schedule, AI label). Under **Audience** press **Publish app** (In production): in Testing mode the
    login expires after 7 days.
 4. **Clients → Create client → Desktop app**. Copy the client ID and secret.
 5. On your PC, in this repo: `node tools/youtube-auth.mjs <client_id> <client_secret>`. Open the link, pick the
    channel's account (and the channel, for a Brand account), then **Advanced → Go to … (unsafe) → Allow** (it is
    your own app). The terminal prints a refresh token.
 6. GitHub secrets: `YT_CLIENT_ID`, `YT_CLIENT_SECRET`, `YT_REFRESH_TOKEN`. Never paste the token anywhere else.
+   Logins made before October 2026 had upload permission only: run step 5 again (same client) and replace
+   `YT_REFRESH_TOKEN` to allow edits. Then **Actions → Upload to YouTube → project + "update"** (and "rewrite" to
+   rewrite the title/description/tags by the current rules) re-applies them to an episode already on YouTube.
 7. Verify the channel's phone number at <https://www.youtube.com/verify>: custom thumbnails need it.
 8. **YouTube API audit.** Until the Cloud project passes it, YouTube keeps every API upload **Private** and ignores
    the publish time, so you set *Scheduled* in Studio yourself (1 minute). Apply with the *YouTube API Services Audit
