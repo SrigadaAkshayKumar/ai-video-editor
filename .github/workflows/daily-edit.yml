@@ -144,6 +144,7 @@ jobs:
 
       - name: Pick the episode
         id: pick
+        # later steps key on this step's outcome: when Plan said "none" it is skipped and they must skip too
         if: steps.plan.outputs.episode != 'none'
         env:
           EPISODE: ${{ steps.ep.outputs.episode }}
@@ -154,14 +155,14 @@ jobs:
           if [ -n "$BRIEF_IN" ]; then echo "brief=$(echo "$BRIEF_IN" | tr '\n' ' ')" >> "$GITHUB_OUTPUT"; fi
 
       - name: Cache whisper.cpp
-        if: steps.pick.outputs.episode != 'none'
+        if: steps.pick.outcome == 'success'
         uses: actions/cache@v4
         with:
           path: ~/.whisper.cpp
           key: whisper-cpp-v1.9.2-${{ runner.os }}
 
       - name: Build whisper.cpp (first run only)
-        if: steps.pick.outputs.episode != 'none'
+        if: steps.pick.outcome == 'success'
         run: |
           if [ ! -x ~/.whisper.cpp/bin/whisper-cli ]; then
             git clone -q --depth 1 --branch v1.9.2 https://github.com/ggml-org/whisper.cpp /tmp/whisper.cpp
@@ -172,7 +173,7 @@ jobs:
           echo "WHISPER_CLI_PATH=$HOME/.whisper.cpp/bin/whisper-cli" >> "$GITHUB_ENV"
 
       - name: Write .env
-        if: steps.pick.outputs.episode != 'none'
+        if: steps.pick.outcome == 'success'
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
@@ -187,7 +188,7 @@ jobs:
           done
 
       - name: Edit with Claude Code
-        if: steps.pick.outputs.episode != 'none'
+        if: steps.pick.outcome == 'success'
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -208,7 +209,7 @@ jobs:
 
       - name: Check the result
         id: check
-        if: steps.pick.outputs.episode != 'none'
+        if: steps.pick.outcome == 'success'
         run: node tools/daily.mjs check
 
       - name: Upload to Drive

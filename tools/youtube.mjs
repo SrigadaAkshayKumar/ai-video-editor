@@ -9,6 +9,11 @@
 //   node tools/youtube.mjs <project> --set-thumbnail [file]   put a (new) thumbnail on the video already uploaded
 //        (id from output/youtube-uploaded.json). file default: output/thumbnails/main.txt names the variant (e.g. "B"),
 //        else youtube.json "thumbnail", else output/thumbnails/A.png. The schedule is left untouched.
+//   node tools/youtube.mjs <project> --update [--publish "2026-10-15 16:00"] [--shorts dir]
+//        re-apply the CURRENT youtube.json / clips.json / config to the videos already uploaded (ids from
+//        youtube-uploaded.json): title, description, tags, AI label, and the schedule (main at --publish or where it
+//        is; Shorts the same day, shortsGapMinutes apart). A video that is already public stays public.
+//        Needs the edit permission (tools/youtube-auth.mjs asks for it since 2026-10).
 // Reads projects/<p>/output/youtube.json (written by the daily-run skill):
 //   {"title": "…", "description": "…", "tags": ["…"], "thumbnail": "output/thumbnail.png" (optional)}
 // and the Shorts' AI-clipper/jobs/<p>/clips.json (title, description, hashtags per clip id; files NN-*.mp4).
@@ -164,9 +169,19 @@ async function setThumbnailOnly(p) {
   process.exit(result === "set" ? 0 : 1);
 }
 
+const md = (s) => String(s).replace(/\|/g, "\\|"); // titles carry " | ", which splits a table cell
+function istText(iso) {
+  return new Date(Date.parse(iso) + IST).toISOString().slice(0, 16).replace("T", " ") + " IST";
+}
+
 // ---- plan -----------------------------------------------------------------------------------------------------
 /** --publish "YYYY-MM-DD HH:MM" in IST → Date; else the configured slot. */
 function publishFlag() {
+  const upFile = join(out, "youtube-uploaded.json");
+  if (flags.update && !flags.publish && existsSync(upFile)) {
+    const main = readJson(upFile).videos?.find((v) => v.kind === "video");
+    if (main?.publishAt) return new Date(main.publishAt); // --update keeps the main video's time
+  }
   if (!flags.publish) return istSlot(cfg.publishDelayDays, cfg.publishTime);
   const m = String(flags.publish).match(/^(\d{4})-(\d{2})-(\d{2})[ T](\d{1,2}):(\d{2})$/) || die(`--publish "YYYY-MM-DD HH:MM" (IST), got ${flags.publish}`);
   const t = new Date(Date.UTC(+m[1], +m[2] - 1, +m[3], +m[4], +m[5]) - IST);
@@ -178,30 +193,74 @@ const mainAt = publishFlag();
  *  when each Short goes out and can be its "Related video"). */
 const shortAt = (i) => new Date(mainAt.getTime() + (i + 1) * cfg.shortsGapMinutes * 6e4);
 const finals = readdirSync(out).filter((n) => /^final-16x9.*\.mp4$/.test(n));
-if (!finals.length) die(`no final-16x9*.mp4 in ${out}`);
+if (!finals.length && !flags.update) die(`no final-16x9*.mp4 in ${out}`);
 const plan = [{
-  kind: "video", file: join(out, finals[0]), publishAt: mainAt,
+  kind: "video", file: join(out, finals[0] || "final-16x9.mp4"), publishAt: mainAt,
   snippet: { title: title(meta.title), description: description(meta.description), tags: tags(meta.tags) },
   thumbnail: meta.thumbnail && !flags["no-thumbnail"] ? join(PROJECTS, project, meta.thumbnail) : null,
 }];
 const shortsDir = flags.shorts ? join(ROOT, flags.shorts) : null;
 const jobFile = join(ROOT, "AI-clipper", "jobs", project, "clips.json");
-if (shortsDir && existsSync(shortsDir) && existsSync(jobFile) && cfg.shortsCount > 0) {
-  const files = readdirSync(shortsDir).filter((n) => n.endsWith(".mp4"));
+if ((flags.update || (shortsDir && existsSync(shortsDir))) && existsSync(jobFile) && cfg.shortsCount > 0) {
+  const files = shortsDir && existsSync(shortsDir) ? readdirSync(shortsDir).filter((n) => n.endsWith(".mp4")) : [];
   const clips = readJson(jobFile).clips || [];
-  clips.slice(0, cfg.shortsCount).forEach((c, i) => {
-    const f = files.find((n) => n.startsWith(`${String(c.id).padStart(2, "0")}-`));
-    if (!f) return;
+  clips.filter((c) => flags.update || files.some((n) => n.startsWith(`${String(c.id).padStart(2, "0")}-`))).slice(0, cfg.shortsCount).forEach((c, i) => {
+    const f = files.find((n) => n.startsWith(`${String(c.id).padStart(2, "0")}-`)) || "";
     const hashtags = (c.hashtags || []).map((h) => (h.startsWith("#") ? h : `#${h}`));
     if (!hashtags.some((h) => h.toLowerCase() === "#shorts")) hashtags.unshift("#Shorts");
     plan.push({
-      kind: "short", file: join(shortsDir, f), publishAt: shortAt(i),
+      kind: "short", clipId: c.id, file: shortsDir ? join(shortsDir, f) : "", publishAt: shortAt(i),
       snippet: { title: title(c.title), description: description(`${c.description || ""}\n\n${hashtags.join(" ")}`),
         tags: tags([...hashtags, ...(meta.tags || [])]) },
     });
   });
 }
 for (const p of plan) if (!p.snippet.title) die(`no title for ${p.file}`);
+if (flags.update) await updateUploaded();
+
+/** --update: videos.update on what is already on YouTube, from the plan above. */
+async function updateUploaded() {
+  const upFile = join(out, "youtube-uploaded.json");
+  if (!existsSync(upFile)) die(`${upFile} missing: nothing uploaded to update`);
+  const up = readJson(upFile);
+  const token = await accessToken();
+  const shortsUp = up.videos.filter((v) => v.kind === "short");
+  const rows = [];
+  for (const p of plan) {
+    // the uploaded video this plan entry stands for: main video, or the Short of the same clip (older uploads: same title, else same position)
+    const v = p.kind === "video" ? up.videos.find((x) => x.kind === "video")
+      : shortsUp.find((x) => x.clipId != null && x.clipId === p.clipId) || shortsUp.find((x) => x.title === p.snippet.title)
+        || shortsUp[plan.filter((q) => q.kind === "short").indexOf(p)];
+    if (!v) continue;
+    const cur = await (await fetch(`https://www.googleapis.com/youtube/v3/videos?part=status&id=${v.id}`, { headers: { Authorization: `Bearer ${token}` } })).json();
+    const live = cur.items?.[0]?.status?.privacyStatus === "public";
+    const at = p.publishAt;
+    const body = {
+      id: v.id,
+      snippet: { ...p.snippet, categoryId: cfg.categoryId, defaultLanguage: cfg.language, defaultAudioLanguage: cfg.language },
+      status: { privacyStatus: live ? "public" : "private", ...(live ? {} : { publishAt: at.toISOString() }),
+        selfDeclaredMadeForKids: false, containsSyntheticMedia: cfg.syntheticMedia },
+    };
+    const r = await fetch("https://www.googleapis.com/youtube/v3/videos?part=snippet,status", {
+      method: "PUT", headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" }, body: JSON.stringify(body),
+    });
+    const j = await r.json();
+    if (!r.ok) {
+      const why = j.error?.message || r.status;
+      rows.push(`| [${p.kind}](${v.url}) | NOT updated: ${why}${r.status === 403 ? " (re-run tools/youtube-auth.mjs: the login needs the edit permission)" : ""} | |`);
+      continue;
+    }
+    Object.assign(v, { title: p.snippet.title, clipId: p.clipId ?? v.clipId, updatedAt: new Date().toISOString(),
+      publishAt: live ? v.publishAt : at.toISOString(),
+      youtubeStatus: { privacy: j.status?.privacyStatus, publishAt: j.status?.publishAt || null, aiLabel: j.status?.containsSyntheticMedia } });
+    rows.push(`| [${p.kind}](${v.url}) | ${md(p.snippet.title)} | ${live ? "already public" : istText(at.toISOString())}, AI label ${cfg.syntheticMedia ? "Yes" : "No"} |`);
+  }
+  writeJson(upFile, up);
+  const lines = ["### YouTube update", "", "| | Title | Publishes |", "|---|---|---|", ...rows, ""];
+  console.log(lines.join("\n"));
+  if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, lines.join("\n") + "\n");
+  process.exit(rows.some((r) => r.includes("NOT updated")) ? 1 : 0);
+}
 
 // ---- go -------------------------------------------------------------------------------------------------------
 const results = [];
@@ -216,16 +275,15 @@ for (const p of plan) {
   const url = p.kind === "short" ? `https://youtube.com/shorts/${id}` : `https://youtu.be/${id}`;
   if (p.kind === "video") videoUrl = url;
   const thumb = p.thumbnail && existsSync(p.thumbnail) ? await setThumbnail(token, id, p.thumbnail) : undefined;
-  results.push({ kind: p.kind, id, url, title: p.snippet.title, publishAt: p.publishAt.toISOString(),
+  results.push({ kind: p.kind, id, url, title: p.snippet.title, clipId: p.clipId, publishAt: p.publishAt.toISOString(),
     // what YouTube actually stored: no publishAt here = the API project is not audited, the video stays Private
     youtubeStatus: { privacy: status?.privacyStatus, publishAt: status?.publishAt || null }, thumbnail: thumb });
   console.log(`${p.kind} ${url} → publishes ${p.publishAt.toISOString()} (${p.snippet.title}); YouTube stored: ${status?.privacyStatus}, publishAt ${status?.publishAt || "NONE"}`);
 }
 
 if (!dryRun) writeJson(join(out, "youtube-uploaded.json"), { uploadedAt: new Date().toISOString(), videos: results });
-const istText = (iso) => new Date(Date.parse(iso) + IST).toISOString().slice(0, 16).replace("T", " ") + " IST";
 const lines = ["### YouTube", "", "| | Title | Publishes | YouTube stored | Thumbnail |", "|---|---|---|---|---|",
-  ...results.map((r) => `| ${r.url ? `[${r.kind}](${r.url})` : r.kind} | ${r.title} | ${istText(r.publishAt)} | ${r.youtubeStatus ? `${r.youtubeStatus.privacy}, ${r.youtubeStatus.publishAt ? "scheduled " + istText(r.youtubeStatus.publishAt) : "NO schedule"}` : ""} | ${r.thumbnail || (r.kind === "video" ? "YouTube auto" : "")} |`), "",
+  ...results.map((r) => `| ${r.url ? `[${r.kind}](${r.url})` : r.kind} | ${md(r.title)} | ${istText(r.publishAt)} | ${r.youtubeStatus ? `${r.youtubeStatus.privacy}, ${r.youtubeStatus.publishAt ? "scheduled " + istText(r.youtubeStatus.publishAt) : "NO schedule"}` : ""} | ${r.thumbnail || (r.kind === "video" ? "YouTube auto" : "")} |`), "",
   ...(videoUrl && results.some((r) => r.kind === "short") ? [`Related video: the API cannot set it. In Studio → each Short → Details → Related video → pick ${videoUrl}.`, ""] : []),
   "Uploaded Private with a publish time. If YouTube shows them as plain Private with no schedule, the API project is not audited yet: set the time in Studio."];
 console.log(lines.join("\n"));
