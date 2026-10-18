@@ -77,7 +77,9 @@ jobs:
       - name: Pull the episode from Drive
         if: ${{ !inputs.test }}
         run: |
-          test -f "projects/$P/project.json" || { echo "::error::no projects/$P in the repo"; exit 1; }
+          # Drive is the source: an episode whose decisions never reached git (d02) still uploads
+          rclone lsf "$DRIVE/output/$P" > /dev/null 2>&1 || { echo "::error::no $P in Drive output/"; exit 1; }
+          mkdir -p "projects/$P"
           # an update needs only the text files, not the videos
           SKIP=(); [ "${{ inputs.update }}" = "true" ] && SKIP=(--exclude "*.mp4")
           rclone copy "$DRIVE/output/$P" "projects/$P/output" --exclude "shorts/**" "${SKIP[@]}" -v
