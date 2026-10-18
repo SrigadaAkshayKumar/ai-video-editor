@@ -1,0 +1,879 @@
+{
+ "style": "blueprint",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 3.45,
+   "type": "title_slide",
+   "text": "Frontier Engineers",
+   "eyebrow": "Crack IT · Day 12",
+   "style_hint": "Infosys · Cognizant"
+  },
+  {
+   "start": 3.8,
+   "duration": 5.2,
+   "type": "stat_trio",
+   "text": "Frontier headcount plans",
+   "items": [
+    {
+     "label": "Infosys · reported",
+     "value": 6000
+    },
+    {
+     "label": "Cognizant engineers",
+     "value": 5000
+    },
+    {
+     "label": "Cognizant operators",
+     "value": 10000
+    }
+   ]
+  },
+  {
+   "start": 9.3,
+   "duration": 4.1,
+   "type": "big_statement",
+   "text": "A word from science fiction?",
+   "eyebrow": "science"
+  },
+  {
+   "start": 13.8,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "NOW: INDIAN I.T.",
+   "side": "right"
+  },
+  {
+   "start": 16.77,
+   "duration": 11,
+   "type": "step_progress",
+   "side": "right",
+   "text": "In this video",
+   "current_step": 0,
+   "items": [
+    {
+     "label": "What it is",
+     "at": 0.3
+    },
+    {
+     "label": "Why now",
+     "at": 2.8
+    },
+    {
+     "label": "Skills",
+     "at": 5.6
+    },
+    {
+     "label": "What it means for you",
+     "at": 7.6
+    }
+   ]
+  },
+  {
+   "start": 28.27,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "What frontier means",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 1
+  },
+  {
+   "start": 31.77,
+   "duration": 8.3,
+   "type": "flow_diagram",
+   "text": "Frontier AI",
+   "items": [
+    {
+     "label": "Latest LLMs"
+    },
+    {
+     "label": "AI agents"
+    },
+    {
+     "label": "Tasks, step by step"
+    }
+   ]
+  },
+  {
+   "start": 40.9,
+   "duration": 4.8,
+   "type": "term_card",
+   "side": "right",
+   "text": "Frontier engineer",
+   "eyebrow": "in simple words",
+   "items": [
+    {
+     "label": "Builds real business solutions with the latest AI"
+    }
+   ]
+  },
+  {
+   "start": 47.3,
+   "duration": 6.2,
+   "type": "bullet_list",
+   "side": "left",
+   "text": "Not just a chatbot",
+   "items": [
+    {
+     "label": "Connect models to company data"
+    },
+    {
+     "label": "Connect to company systems"
+    },
+    {
+     "label": "Do useful work"
+    }
+   ]
+  },
+  {
+   "start": 53.9,
+   "duration": 6,
+   "type": "flow_diagram",
+   "text": "Example: insurance claim",
+   "items": [
+    {
+     "label": "Claim comes in"
+    },
+    {
+     "label": "AI prepares decision"
+    },
+    {
+     "label": "Human approves"
+    }
+   ]
+  },
+  {
+   "start": 60.5,
+   "duration": 4.6,
+   "type": "comparison",
+   "side": "right",
+   "text": "Two groups at Cognizant",
+   "left": {
+    "label": "Frontier engineer",
+    "text": "Builds AI solutions"
+   },
+   "right": {
+    "label": "Business operator",
+    "text": "Runs processes with AI"
+   }
+  },
+  {
+   "start": 65.8,
+   "duration": 8.6,
+   "type": "step_progress",
+   "side": "left",
+   "text": "Operators: day to day",
+   "current_step": 0,
+   "items": [
+    {
+     "label": "Operations teams",
+     "at": 0.3
+    },
+    {
+     "label": "Support teams",
+     "at": 4.4
+    },
+    {
+     "label": "AI agents, every day",
+     "at": 5.6
+    }
+   ]
+  },
+  {
+   "start": 74.9,
+   "duration": 3.03,
+   "type": "chapter_open",
+   "text": "Why now",
+   "eyebrow": "Section 02",
+   "numeral": "02",
+   "section": 2
+  },
+  {
+   "start": 78.33,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "CLIENTS ARE ASKING",
+   "side": "right"
+  },
+  {
+   "start": 82.53,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "CUT COSTS · MOVE FASTER",
+   "side": "left"
+  },
+  {
+   "start": 86.93,
+   "duration": 4.1,
+   "type": "bar_chart",
+   "side": "right",
+   "text": "AI demand vs skilled people (illustrative)",
+   "items": [
+    {
+     "label": "Client demand",
+     "value": 90
+    },
+    {
+     "label": "Skilled people",
+     "value": 30
+    }
+   ]
+  },
+  {
+   "start": 91.43,
+   "duration": 4.5,
+   "type": "word_swap",
+   "from": "Routine work",
+   "to": "Higher-value work",
+   "text": "Where people move"
+  },
+  {
+   "start": 96.73,
+   "duration": 7.6,
+   "type": "progress_ring",
+   "side": "right",
+   "text": "Reported: up to a third into specialist roles",
+   "value": 33
+  },
+  {
+   "start": 105.03,
+   "duration": 5,
+   "type": "lower_third",
+   "text": "TCS: AI engineers with clients",
+   "eyebrow": "Similar plan",
+   "side": "left"
+  },
+  {
+   "start": 111.53,
+   "duration": 3.3,
+   "type": "flow_diagram",
+   "text": "Same direction",
+   "items": [
+    {
+     "label": "TCS"
+    },
+    {
+     "label": "Infosys"
+    },
+    {
+     "label": "Cognizant"
+    }
+   ]
+  },
+  {
+   "start": 115.03,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Skills these roles need",
+   "eyebrow": "Section 03",
+   "numeral": "03",
+   "section": 3
+  },
+  {
+   "start": 118.43,
+   "duration": 5.6,
+   "type": "side_note",
+   "text": "General guidance, not an official job description",
+   "side": "left"
+  },
+  {
+   "start": 124.77,
+   "duration": 31.23,
+   "type": "step_progress",
+   "side": "right",
+   "text": "5 skills",
+   "current_step": 0,
+   "items": [
+    {
+     "label": "Python",
+     "at": 0.3
+    },
+    {
+     "label": "LLMs + APIs + prompts",
+     "at": 3.5936972024136082
+    },
+    {
+     "label": "AI agents: tools, steps",
+     "at": 11.633148656061422
+    },
+    {
+     "label": "Data + cloud basics",
+     "at": 18.076999999999998
+    },
+    {
+     "label": "Business understanding ★",
+     "at": 24.576746199603406
+    }
+   ]
+  },
+  {
+   "start": 156.2,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "What it means for you",
+   "eyebrow": "Section 04",
+   "numeral": "04",
+   "section": 4
+  },
+  {
+   "start": 159.5,
+   "duration": 4.6,
+   "type": "keyword_chip",
+   "text": "GOOD NEWS: STILL HIRING",
+   "side": "right"
+  },
+  {
+   "start": 164.5,
+   "duration": 6.23,
+   "type": "side_note",
+   "text": "Honest part: experienced staff, retrained, go first",
+   "side": "left"
+  },
+  {
+   "start": 171.13,
+   "duration": 3.4,
+   "type": "quote_pull",
+   "text": "A fresher usually won't start as a frontier engineer.",
+   "eyebrow": "Reality check"
+  },
+  {
+   "start": 174.97,
+   "duration": 2,
+   "type": "keyword_chip",
+   "text": "YOUR OPPORTUNITY",
+   "side": "left"
+  },
+  {
+   "start": 177.27,
+   "duration": 4,
+   "type": "flow_diagram",
+   "text": "Internal path",
+   "items": [
+    {
+     "label": "Join"
+    },
+    {
+     "label": "Show AI skill"
+    },
+    {
+     "label": "Frontier role"
+    }
+   ]
+  },
+  {
+   "start": 181.47,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "COGNIZANT AGENT ACADEMY",
+   "side": "right"
+  },
+  {
+   "start": 184.27,
+   "duration": 6.6,
+   "type": "checklist",
+   "text": "To be first in line",
+   "items": [
+    {
+     "label": "Get in",
+     "state": "yes"
+    },
+    {
+     "label": "Show interest in AI",
+     "state": "yes"
+    },
+    {
+     "label": "Build skill early",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 191.83,
+   "duration": 6.77,
+   "type": "flow_diagram",
+   "text": "Your first project",
+   "items": [
+    {
+     "label": "Placement-docs Q&A agent"
+    },
+    {
+     "label": "Put on GitHub"
+    },
+    {
+     "label": "Talk about it"
+    }
+   ]
+  },
+  {
+   "start": 198.9,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "PUT IT ON GITHUB",
+   "side": "right"
+  },
+  {
+   "start": 203,
+   "duration": 14,
+   "type": "checklist",
+   "text": "To sum up",
+   "items": [
+    {
+     "label": "Frontier = latest AI → real solutions",
+     "state": "yes"
+    },
+    {
+     "label": "TCS · Infosys · Cognizant moving together",
+     "state": "yes"
+    },
+    {
+     "label": "Your path: get in + build AI skills",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 217.83,
+   "duration": 5.2,
+   "type": "quote_pull",
+   "text": "FRONTIER",
+   "eyebrow": "Comment below for the agent project video"
+  },
+  {
+   "start": 223.53,
+   "duration": 2.8,
+   "type": "lower_third",
+   "text": "The bench, explained",
+   "eyebrow": "Next",
+   "side": "left"
+  },
+  {
+   "start": 226.73,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "INFOSYS RESULTS · 23RD",
+   "side": "right"
+  },
+  {
+   "start": 230.73,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "SUBSCRIBE",
+   "side": "left"
+  }
+ ],
+ "scenes": [
+  {
+   "index": 0,
+   "start": 0,
+   "end": 3.7,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "~6,000",
+    "label": "Infosys · reported"
+   }
+  },
+  {
+   "index": 1,
+   "start": 3.7,
+   "end": 9.1,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "5,000 + 10,000",
+    "label": "Cognizant plan"
+   }
+  },
+  {
+   "index": 2,
+   "start": 9.1,
+   "end": 13.7,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "FRONTIER",
+    "label": "one word"
+   }
+  },
+  {
+   "index": 3,
+   "start": 13.7,
+   "end": 16.37,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 4,
+   "start": 16.37,
+   "end": 28.17,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "4",
+    "label": "things to cover"
+   }
+  },
+  {
+   "index": 5,
+   "start": 28.17,
+   "end": 33.87,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "Frontier AI",
+    "label": "latest models + agents"
+   }
+  },
+  {
+   "index": 6,
+   "start": 33.87,
+   "end": 40.6,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Agents",
+    "label": "step by step"
+   }
+  },
+  {
+   "index": 7,
+   "start": 40.6,
+   "end": 47.1,
+   "kind": "broll",
+   "src": "assets/broll/code-screen.mp4",
+   "media_start": 1,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "index": 8,
+   "start": 47.1,
+   "end": 53.7,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "Data → Work",
+    "label": "models + systems"
+   }
+  },
+  {
+   "index": 9,
+   "start": 53.7,
+   "end": 60.07,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "AI → Human",
+    "label": "approves the decision"
+   }
+  },
+  {
+   "index": 10,
+   "start": 60.07,
+   "end": 65.4,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "Operators",
+    "label": "second group"
+   }
+  },
+  {
+   "index": 11,
+   "start": 65.4,
+   "end": 74.8,
+   "kind": "broll",
+   "src": "assets/broll/headset-mic.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "index": 12,
+   "start": 74.8,
+   "end": 77.83,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Why now?",
+    "label": "two reasons"
+   }
+  },
+  {
+   "index": 13,
+   "start": 77.83,
+   "end": 86.73,
+   "kind": "broll",
+   "src": "assets/broll/office-team.mp4",
+   "media_start": 2,
+   "motion": "pan_right",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "index": 14,
+   "start": 86.73,
+   "end": 91.23,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "Big gap",
+    "label": "clients vs skilled people"
+   }
+  },
+  {
+   "index": 15,
+   "start": 91.23,
+   "end": 96.03,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Routine → Value",
+    "label": "move up"
+   }
+  },
+  {
+   "index": 16,
+   "start": 96.03,
+   "end": 104.83,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "25–33%",
+    "label": "reported · specialist roles"
+   }
+  },
+  {
+   "index": 17,
+   "start": 104.83,
+   "end": 111.43,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "TCS",
+    "label": "AI engineers with clients"
+   }
+  },
+  {
+   "index": 18,
+   "start": 111.43,
+   "end": 114.93,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "3 of 3",
+    "label": "same direction"
+   }
+  },
+  {
+   "index": 19,
+   "start": 114.93,
+   "end": 124.67,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "5",
+    "label": "skills"
+   }
+  },
+  {
+   "index": 20,
+   "start": 124.67,
+   "end": 128.37,
+   "kind": "broll",
+   "src": "assets/broll/code-screen.mp4",
+   "media_start": 6,
+   "motion": "pan_left",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "index": 21,
+   "start": 128.37,
+   "end": 136.37,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "LLM + API",
+    "label": "prompts, your documents"
+   }
+  },
+  {
+   "index": 22,
+   "start": 136.37,
+   "end": 141.87,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Agents",
+    "label": "tools · steps"
+   }
+  },
+  {
+   "index": 23,
+   "start": 141.87,
+   "end": 148.7,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "Data + Cloud",
+    "label": "basics"
+   }
+  },
+  {
+   "index": 24,
+   "start": 148.7,
+   "end": 156.2,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Business",
+    "label": "understanding"
+   }
+  },
+  {
+   "index": 25,
+   "start": 156.2,
+   "end": 158,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "?",
+    "label": "for you"
+   }
+  },
+  {
+   "index": 26,
+   "start": 158,
+   "end": 164.3,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "✓",
+    "label": "good news"
+   }
+  },
+  {
+   "index": 27,
+   "start": 164.3,
+   "end": 170.93,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "!",
+    "label": "the honest part"
+   }
+  },
+  {
+   "index": 28,
+   "start": 170.93,
+   "end": 174.77,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "Your chance",
+    "label": "internal paths"
+   }
+  },
+  {
+   "index": 29,
+   "start": 174.77,
+   "end": 183.97,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Agent Academy",
+    "label": "Cognizant"
+   }
+  },
+  {
+   "index": 30,
+   "start": 183.97,
+   "end": 191.43,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "First",
+    "label": "in line"
+   }
+  },
+  {
+   "index": 31,
+   "start": 191.43,
+   "end": 198.7,
+   "kind": "broll",
+   "src": "assets/broll/woman-laptop.mp4",
+   "media_start": 1,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "index": 32,
+   "start": 198.7,
+   "end": 202.4,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "GitHub",
+    "label": "your proof"
+   }
+  },
+  {
+   "index": 33,
+   "start": 202.4,
+   "end": 212.3,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "Sum up",
+    "label": "frontier"
+   }
+  },
+  {
+   "index": 34,
+   "start": 212.3,
+   "end": 217.43,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 35,
+   "start": 217.43,
+   "end": 223.23,
+   "kind": "broll",
+   "src": "assets/broll/students-laptops.mp4",
+   "media_start": 2,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "index": 36,
+   "start": 223.23,
+   "end": 226.43,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "Next",
+    "label": "the bench"
+   }
+  },
+  {
+   "index": 37,
+   "start": 226.43,
+   "end": 234.233,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "23 Oct",
+    "label": "Infosys results"
+   }
+  }
+ ],
+ "camera_moves": []
+}

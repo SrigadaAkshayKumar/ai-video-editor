@@ -1,0 +1,227 @@
+{
+ "music_cues": [],
+ "sfx_events": [
+  {
+   "time": 0.1,
+   "sfx": "impact",
+   "reason": "title lands",
+   "gain": 4
+  },
+  {
+   "time": 3.8,
+   "sfx": "click",
+   "reason": "stat trio prints",
+   "gain": 2
+  },
+  {
+   "time": 9.3,
+   "sfx": "sub_drop",
+   "reason": "FRONTIER statement",
+   "gain": 4
+  },
+  {
+   "time": 16.97,
+   "sfx": "click",
+   "reason": "agenda 1",
+   "gain": 2
+  },
+  {
+   "time": 19.57,
+   "sfx": "clock_tick",
+   "reason": "agenda 2",
+   "gain": 2
+  },
+  {
+   "time": 22.37,
+   "sfx": "click",
+   "reason": "agenda 3",
+   "gain": 2
+  },
+  {
+   "time": 24.37,
+   "sfx": "clock_tick",
+   "reason": "agenda 4",
+   "gain": 2
+  },
+  {
+   "time": 28.27,
+   "sfx": "impact",
+   "reason": "section 01",
+   "gain": 3
+  },
+  {
+   "time": 31.97,
+   "sfx": "clock_tick",
+   "reason": "flow plots",
+   "gain": 2
+  },
+  {
+   "time": 40.9,
+   "sfx": "pop",
+   "reason": "term card",
+   "gain": 2
+  },
+  {
+   "time": 47.3,
+   "sfx": "typing",
+   "reason": "bullets print",
+   "gain": 2
+  },
+  {
+   "time": 54.1,
+   "sfx": "clock_tick",
+   "reason": "claim flow plots",
+   "gain": 2
+  },
+  {
+   "time": 60.6,
+   "sfx": "reveal",
+   "reason": "two groups",
+   "gain": 3
+  },
+  {
+   "time": 66,
+   "sfx": "click",
+   "reason": "operators list",
+   "gain": 2
+  },
+  {
+   "time": 74.9,
+   "sfx": "impact",
+   "reason": "section 02",
+   "gain": 3
+  },
+  {
+   "time": 78.33,
+   "sfx": "pop",
+   "reason": "clients asking chip",
+   "gain": 2
+  },
+  {
+   "time": 87.03,
+   "sfx": "typing",
+   "reason": "demand bars",
+   "gain": 2
+  },
+  {
+   "time": 91.53,
+   "sfx": "reveal",
+   "reason": "routine to value swap",
+   "gain": 3
+  },
+  {
+   "time": 96.93,
+   "sfx": "clock_tick",
+   "reason": "ring fills",
+   "gain": 2
+  },
+  {
+   "time": 105.13,
+   "sfx": "pop",
+   "reason": "TCS lower third",
+   "gain": 2
+  },
+  {
+   "time": 111.63,
+   "sfx": "clock_tick",
+   "reason": "same direction flow",
+   "gain": 2
+  },
+  {
+   "time": 115.13,
+   "sfx": "impact",
+   "reason": "section 03",
+   "gain": 3
+  },
+  {
+   "time": 124.97,
+   "sfx": "click",
+   "reason": "skill 1",
+   "gain": 2
+  },
+  {
+   "time": 129.17,
+   "sfx": "clock_tick",
+   "reason": "skill 2",
+   "gain": 2
+  },
+  {
+   "time": 136.97,
+   "sfx": "click",
+   "reason": "skill 3",
+   "gain": 2
+  },
+  {
+   "time": 142.4,
+   "sfx": "clock_tick",
+   "reason": "skill 4",
+   "gain": 2
+  },
+  {
+   "time": 149.6,
+   "sfx": "ding",
+   "reason": "skill 5",
+   "gain": 2
+  },
+  {
+   "time": 156.3,
+   "sfx": "impact",
+   "reason": "section 04",
+   "gain": 3
+  },
+  {
+   "time": 159.6,
+   "sfx": "pop",
+   "reason": "good news chip",
+   "gain": 2
+  },
+  {
+   "time": 164.6,
+   "sfx": "click",
+   "reason": "honest note",
+   "gain": 2
+  },
+  {
+   "time": 171.23,
+   "sfx": "glitch",
+   "reason": "reality check",
+   "gain": 2
+  },
+  {
+   "time": 177.37,
+   "sfx": "clock_tick",
+   "reason": "internal path plots",
+   "gain": 2
+  },
+  {
+   "time": 184.47,
+   "sfx": "ding",
+   "reason": "first in line checklist",
+   "gain": 2
+  },
+  {
+   "time": 192.03,
+   "sfx": "clock_tick",
+   "reason": "project flow plots",
+   "gain": 2
+  },
+  {
+   "time": 203.2,
+   "sfx": "typing",
+   "reason": "sum-up prints",
+   "gain": 2
+  },
+  {
+   "time": 217.93,
+   "sfx": "pop",
+   "reason": "comment prompt",
+   "gain": 2
+  },
+  {
+   "time": 223.63,
+   "sfx": "click",
+   "reason": "next up",
+   "gain": 2
+  }
+ ]
+}

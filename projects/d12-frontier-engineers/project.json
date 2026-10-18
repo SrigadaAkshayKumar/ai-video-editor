@@ -1,0 +1,108 @@
+{
+  "name": "d12-frontier-engineers",
+  "createdAt": "2026-10-18T10:42:49.651Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d12-frontier-engineers/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d12/d12-voice.wav",
+    "duration": 236.94,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d12-frontier-engineers/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d12/d12_frontier_engineers_voiceover.txt",
+    "words": 721,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d12-frontier-engineers/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Infosys",
+    "Cognizant",
+    "Frontier",
+    "And Cognizant",
+    "Companies",
+    "Strong Python",
+    "Agent Academy",
+    "Git Hub"
+  ],
+  "mode": "faceless",
+  "style": "blueprint",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; terminal / data-desk look: monospace, stepped plotter arrivals; graphic-led (flow diagrams, checklists, number rolls), b-roll sparse and docked; a beat every 5-7 s; crisp digital ticks and soft clicks for SFX",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 16.4,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-10-18T10:44:28.057Z",
+      "words": 713,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-10-18T10:45:17.689Z",
+      "segments": 15,
+      "kept": 234.233
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-10-18T11:08:08.960Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d12-frontier-engineers/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-10-18T11:08:12.151Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-10-18T11:08:12.181Z",
+      "groups": 194
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-10-18T11:08:28.595Z",
+      "music": 0,
+      "sfx": 37
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-10-18T11:12:04.107Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d12-frontier-engineers/output/final-16x9.mp4",
+      "duration": 244.245
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.966104,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d12-frontier-engineers/work/cleancut.wav",
+    "duration": 234.233417,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

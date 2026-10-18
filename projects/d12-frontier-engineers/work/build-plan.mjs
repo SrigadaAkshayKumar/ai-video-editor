@@ -1,0 +1,101 @@
+import { readFileSync, writeFileSync } from "node:fs";
+const T = JSON.parse(readFileSync("work/timeline.json", "utf8"));
+const W = JSON.parse(readFileSync("work/words.json", "utf8"));
+const norm = (s) => s.toLowerCase().replace(/[^a-z0-9]/g, "");
+// raw time of the first word of a phrase, at/after `from`
+const at = (phrase, from = 0) => { const p = phrase.split(" ").map(norm);
+  for (let i = 0; i < W.length; i++) { if (W[i].start < from) continue; if (p.every((x, j) => W[i + j] && norm(W[i + j].text) === x)) return W[i].start; }
+  throw new Error("phrase not found: " + phrase + " from " + from); };
+const c = (r) => { for (const s of T) if (r >= s.raw_start && r <= s.raw_end) return +(s.start + r - s.raw_start).toFixed(2); let b = T[0]; for (const s of T) if (s.raw_start <= r) b = s; return +Math.min(b.end, b.start + Math.max(0, r - b.raw_start)).toFixed(2); };
+const END = T[T.length - 1].end;
+const S = [];
+const sc = (r1, o) => S.push({ index: S.length, start: S.length ? S[S.length - 1].end : 0, end: r1 == null ? END : c(r1), ...o });
+const g = (card, grade = "neutral") => ({ kind: "graphic", grade, ...(card ? { card } : {}) });
+const br = (src, ms = 0, motion = "ken_in", grade = "cool") => ({ kind: "broll", src: `assets/broll/${src}.mp4`, media_start: ms, motion, grade, transition: "cut" });
+sc(3.7, g({ value: "~6,000", label: "Infosys · reported" }));
+sc(9.1, g({ value: "5,000 + 10,000", label: "Cognizant plan" }, "cool"));
+sc(13.7, g({ value: "FRONTIER", label: "one word" }));
+sc(16.6, g(null, "cool"));
+sc(28.4, g({ value: "4", label: "things to cover" }));
+sc(34.1, g({ value: "Frontier AI", label: "latest models + agents" }, "cool"));
+sc(40.9, g({ value: "Agents", label: "step by step" }));
+sc(47.4, br("code-screen", 1));
+sc(54.0, g({ value: "Data → Work", label: "models + systems" }, "cool"));
+sc(60.4, g({ value: "AI → Human", label: "approves the decision" }));
+sc(65.8, g({ value: "Operators", label: "second group" }, "cool"));
+sc(75.2, br("headset-mic", 0, "ken_in"));
+sc(78.3, g({ value: "Why now?", label: "two reasons" }));
+sc(87.2, br("office-team", 2, "pan_right"));
+sc(91.7, g({ value: "Big gap", label: "clients vs skilled people" }, "cool"));
+sc(96.5, g({ value: "Routine → Value", label: "move up" }));
+sc(105.4, g({ value: "25–33%", label: "reported · specialist roles" }, "cool"));
+sc(112.0, g({ value: "TCS", label: "AI engineers with clients" }));
+sc(115.5, g({ value: "3 of 3", label: "same direction" }, "cool"));
+sc(125.3, g({ value: "5", label: "skills" }));
+sc(129.0, br("code-screen", 6, "pan_left"));
+sc(137.0, g({ value: "LLM + API", label: "prompts, your documents" }, "cool"));
+sc(142.7, g({ value: "Agents", label: "tools · steps" }));
+sc(149.7, g({ value: "Data + Cloud", label: "basics" }, "cool"));
+sc(157.2, g({ value: "Business", label: "understanding" }));
+sc(159.4, g({ value: "?", label: "for you" }, "cool"));
+sc(165.7, g({ value: "✓", label: "good news" }));
+sc(172.4, g({ value: "!", label: "the honest part" }, "noir"));
+sc(176.3, g({ value: "Your chance", label: "internal paths" }, "cool"));
+sc(185.5, g({ value: "Agent Academy", label: "Cognizant" }));
+sc(193.6, g({ value: "First", label: "in line" }, "cool"));
+sc(201.0, br("woman-laptop", 1, "ken_in"));
+sc(204.7, g({ value: "GitHub", label: "your proof" }));
+sc(214.6, g({ value: "Sum up", label: "frontier" }, "cool"));
+sc(220.0, g(null));
+sc(225.8, br("students-laptops", 2, "ken_in"));
+sc(229.0, g({ value: "Next", label: "the bench" }, "cool"));
+sc(null, g({ value: "23 Oct", label: "Infosys results" }));
+
+const O = [];
+const o = (r0, r1, type, p) => { const s = c(r0), e = c(r1); O.push({ start: s, duration: +(e - s).toFixed(2), type, ...p }); };
+// hook
+o(0.05, 3.5, "title_slide", { text: "Frontier Engineers", eyebrow: "Crack IT · Day 12", style_hint: "Infosys · Cognizant" });
+o(3.8, 9.0, "stat_trio", { text: "Frontier headcount plans", items: [{ label: "Infosys · reported", value: 6000 }, { label: "Cognizant engineers", value: 5000 }, { label: "Cognizant operators", value: 10000 }] });
+o(9.3, 13.4, "big_statement", { text: "A word from science fiction?", eyebrow: "science" });
+o(13.8, 16.2, "keyword_chip", { text: "NOW: INDIAN I.T.", side: "right" });
+o(17.0, 28.0, "step_progress", { side: "right", text: "In this video", current_step: 0, items: [{ label: "What it is", at: 0.3 }, { label: "Why now", at: 2.8 }, { label: "Skills", at: 5.6 }, { label: "What it means for you", at: 7.6 }] });
+// 01 what
+o(28.5, 31.6, "chapter_open", { text: "What frontier means", eyebrow: "Section 01", numeral: "01", section: 1 });
+o(32.0, 40.3, "flow_diagram", { text: "Frontier AI", items: [{ label: "Latest LLMs" }, { label: "AI agents" }, { label: "Tasks, step by step" }] });
+o(41.2, 46.0, "term_card", { side: "right", text: "Frontier engineer", eyebrow: "in simple words", items: [{ label: "Builds real business solutions with the latest AI" }] });
+o(47.6, 53.8, "bullet_list", { side: "left", text: "Not just a chatbot", items: [{ label: "Connect models to company data" }, { label: "Connect to company systems" }, { label: "Do useful work" }] });
+o(54.2, 60.2, "flow_diagram", { text: "Example: insurance claim", items: [{ label: "Claim comes in" }, { label: "AI prepares decision" }, { label: "Human approves" }] });
+o(60.9, 65.5, "comparison", { side: "right", text: "Two groups at Cognizant", left: { label: "Frontier engineer", text: "Builds AI solutions" }, right: { label: "Business operator", text: "Runs processes with AI" } });
+o(66.2, 74.8, "step_progress", { side: "left", text: "Operators: day to day", current_step: 0, items: [{ label: "Operations teams", at: 0.3 }, { label: "Support teams", at: 4.4 }, { label: "AI agents, every day", at: 5.6 }] });
+// 02 why
+o(75.3, 78.4, "chapter_open", { text: "Why now", eyebrow: "Section 02", numeral: "02", section: 2 });
+o(78.8, 82.8, "keyword_chip", { text: "CLIENTS ARE ASKING", side: "right" });
+o(83.0, 87.0, "keyword_chip", { text: "CUT COSTS · MOVE FASTER", side: "left" });
+o(87.4, 91.5, "bar_chart", { side: "right", text: "AI demand vs skilled people (illustrative)", items: [{ label: "Client demand", value: 90 }, { label: "Skilled people", value: 30 }] });
+o(91.9, 96.4, "word_swap", { from: "Routine work", to: "Higher-value work", text: "Where people move" });
+o(97.2, 104.8, "progress_ring", { side: "right", text: "Reported: up to a third into specialist roles", value: 33 });
+o(105.6, 110.6, "lower_third", { text: "TCS: AI engineers with clients", eyebrow: "Similar plan", side: "left" });
+o(112.1, 115.4, "flow_diagram", { text: "Same direction", items: [{ label: "TCS" }, { label: "Infosys" }, { label: "Cognizant" }] });
+// 03 skills
+o(115.6, 118.8, "chapter_open", { text: "Skills these roles need", eyebrow: "Section 03", numeral: "03", section: 3 });
+o(119.0, 124.6, "side_note", { text: "General guidance, not an official job description", side: "left" });
+o(125.4, 157.0, "step_progress", { side: "right", text: "5 skills", current_step: 0, items: [{ label: "Python", at: 0.3 }, { label: "LLMs + APIs + prompts", at: at("Working with large", 125) - 125.4 }, { label: "AI agents: tools, steps", at: at("AI agents how", 135) - 125.4 }, { label: "Data + cloud basics", at: at("Data and cloud", 140) - 125.4 }, { label: "Business understanding ★", at: at("Business understanding", 148) - 125.4 }] });
+// 04 you
+o(157.2, 160.6, "chapter_open", { text: "What it means for you", eyebrow: "Section 04", numeral: "04", section: 4 });
+o(160.9, 165.5, "keyword_chip", { text: "GOOD NEWS: STILL HIRING", side: "right" });
+o(165.9, 172.2, "side_note", { text: "Honest part: experienced staff, retrained, go first", side: "left" });
+o(172.6, 176.0, "quote_pull", { text: "A fresher usually won't start as a frontier engineer.", eyebrow: "Reality check" });
+o(176.5, 178.5, "keyword_chip", { text: "YOUR OPPORTUNITY", side: "left" });
+o(178.8, 182.8, "flow_diagram", { text: "Internal path", items: [{ label: "Join" }, { label: "Show AI skill" }, { label: "Frontier role" }] });
+o(183.0, 185.4, "keyword_chip", { text: "COGNIZANT AGENT ACADEMY", side: "right" });
+o(185.8, 192.4, "checklist", { text: "To be first in line", items: [{ label: "Get in", state: "yes" }, { label: "Show interest in AI", state: "yes" }, { label: "Build skill early", state: "yes" }] });
+o(194.0, 200.9, "flow_diagram", { text: "Your first project", items: [{ label: "Placement-docs Q&A agent" }, { label: "Put on GitHub" }, { label: "Talk about it" }] });
+o(201.2, 204.4, "keyword_chip", { text: "PUT IT ON GITHUB", side: "right" });
+// sum up
+o(205.3, 219.3, "checklist", { text: "To sum up", items: [{ label: "Frontier = latest AI → real solutions", state: "yes" }, { label: "TCS · Infosys · Cognizant moving together", state: "yes" }, { label: "Your path: get in + build AI skills", state: "yes" }] });
+o(220.4, 225.6, "quote_pull", { text: "FRONTIER", eyebrow: "Comment below for the agent project video" });
+o(226.1, 228.9, "lower_third", { text: "The bench, explained", eyebrow: "Next", side: "left" });
+o(229.3, 232.9, "keyword_chip", { text: "INFOSYS RESULTS · 23RD", side: "right" });
+o(233.3, 236.5, "keyword_chip", { text: "SUBSCRIBE", side: "left" });
+writeFileSync("work/visual-plan.json", JSON.stringify({ style: "blueprint", rail: true, overlays: O, scenes: S, camera_moves: [] }, null, 1));
+console.log(S.length, "scenes", O.length, "overlays", END);
