@@ -43,9 +43,11 @@
     ]
   },
   "youtube": {
-    "enabled": false,
+    "enabled": true,
     "publishDelayDays": 1,
-    "publishTime": "18:00",
+    "publishTime": "16:00",
+    "skipDays": [0],
+    "thumbnail": false,
     "shortsCount": 3,
     "shortsGapMinutes": 60,
     "categoryId": "27",
