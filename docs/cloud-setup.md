@@ -1,6 +1,6 @@
 # Daily cloud edits: one-time setup
 
-Every day at 15:03 IST, `.github/workflows/daily-edit.yml` runs on GitHub. It pulls the inbox from Google Drive and
+Every night at 01:07 IST, `.github/workflows/daily-edit.yml` runs on GitHub. It pulls the inbox from Google Drive and
 takes the next unfinished episode of the series, in order:
 
 1. **Script** (`daily-script` skill), only when the episode needs one: a planned episode whose voiceover still has
@@ -112,7 +112,7 @@ allows about 6 uploads a day, so keep to 1 video and 3 Shorts per run.
 
 ## 5. Schedule, cost, limits
 
-- Time: the `cron` line in the workflow is UTC (`33 9 * * *` = 15:03 IST; minutes :00 and :30 are GitHub's busiest and scheduled runs there get dropped). GitHub may start scheduled runs a few
+- Time: the `cron` line in the workflow is UTC (`37 19 * * *` = 01:07 IST, so the run uses the Claude allowance overnight and not during the day; minutes :00 and :30 are GitHub's busiest and scheduled runs there get dropped). GitHub may start scheduled runs a few
   minutes late. To run one now, go to **Actions → Daily edit → Run workflow**, optionally naming an episode (`d03`)
   and style words.
 - **Backup start:** GitHub has been starting this schedule 6–10 hours late. A Claude Routine on the owner's account

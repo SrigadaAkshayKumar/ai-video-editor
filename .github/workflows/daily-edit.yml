@@ -7,7 +7,8 @@ name: Daily edit
 
 on:
   schedule:
-    - cron: "33 9 * * *" # 09:33 UTC = 15:03 IST, every day (off the busy :00/:30 marks, where GitHub drops scheduled runs)
+    - cron: "37 19 * * *" # 19:37 UTC = 01:07 IST, every night (while the owner sleeps: no clash with daytime Claude use;
+    # off the busy :00/:30 marks, where GitHub drops scheduled runs)
   workflow_dispatch:
     inputs:
       episode:
