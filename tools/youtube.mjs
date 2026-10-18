@@ -4,6 +4,9 @@
 //   node tools/youtube.mjs <project> [--shorts AI-clipper/output/<slug>] [--dry-run]
 //        [--publish "2026-10-15 16:00"]   main video at this IST time (Shorts the same day, see below)
 //        [--no-thumbnail]               leave YouTube's auto thumbnail (set one later with --set-thumbnail)
+//        [--queue dir]                  no --publish: the first free day AFTER the latest main video scheduled in
+//                                       dir/**/youtube-uploaded.json (the daily run pulls them from Drive), skipping
+//                                       youtube.skipDays (0 = Sunday); without it: publishDelayDays from today
 //   node tools/youtube.mjs --test <file.mp4>   one Private test upload (no schedule): proves the login works and
 //                                              prints which channel it went to
 //   node tools/youtube.mjs <project> --set-thumbnail [file]   put a (new) thumbnail on the video already uploaded
@@ -33,7 +36,7 @@ const testFile = typeof flags.test === "string" ? flags.test : null;
 if (!project && !testFile) die("usage: node tools/youtube.mjs <project> [--shorts dir] [--dry-run] | --test <file.mp4>");
 const dryRun = !!flags["dry-run"];
 const cfg = { publishDelayDays: 1, publishTime: "18:00", shortsCount: 3, shortsGapMinutes: 60, categoryId: "27",
-  language: "en", syntheticMedia: false, ...(readJson(join(ROOT, "config", "daily.json")).youtube || {}) };
+  language: "en", syntheticMedia: false, skipDays: [0], thumbnail: true, ...(readJson(join(ROOT, "config", "daily.json")).youtube || {}) };
 if (testFile) await testUpload(testFile);
 if (flags["set-thumbnail"]) await setThumbnailOnly(project);
 const out = join(PROJECTS, project, "output");
@@ -48,8 +51,30 @@ function istSlot(days, hhmm) {
   const [h, m] = hhmm.split(":").map(Number);
   const now = new Date(Date.now() + IST);
   let t = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + days, h, m) - IST;
-  while (t < Date.now() + 3.6e6) t += 864e5;
+  while (t < Date.now() + 3.6e6 || skipDay(t)) t += 864e5;
   return new Date(t);
+}
+/** No upload is scheduled on these IST weekdays (config youtube.skipDays, 0 = Sunday). */
+const skipDay = (t) => (cfg.skipDays || []).includes(new Date(t + IST).getUTCDay());
+
+/** --queue dir: the day after the latest main video already scheduled (any project), else the normal slot. */
+function queueSlot(dir) {
+  const files = [];
+  const walk = (d) => { for (const n of readdirSync(d, { withFileTypes: true })) {
+    if (n.isDirectory()) walk(join(d, n.name)); else if (n.name === "youtube-uploaded.json") files.push(join(d, n.name));
+  } };
+  if (existsSync(dir)) walk(dir);
+  const latest = Math.max(0, ...files.flatMap((f) => (readJson(f).videos || []).filter((v) => v.kind === "video")
+    .map((v) => Date.parse(v.publishAt) || 0)));
+  const slot = istSlot(cfg.publishDelayDays, cfg.publishTime);
+  if (!latest) return slot;
+  // next day after the latest, at publishTime IST
+  const d = new Date(latest + IST);
+  const [h, m] = cfg.publishTime.split(":").map(Number);
+  let t = Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate() + 1, h, m) - IST;
+  while (skipDay(t)) t += 864e5;
+  console.log(`queue: latest scheduled video ${istText(new Date(latest).toISOString())} (${files.length} uploaded episodes) → next free day`);
+  return new Date(Math.max(t, slot.getTime()));
 }
 
 // ---- text limits (YouTube rejects the whole upload otherwise) ----------------------------------------------------
@@ -182,7 +207,7 @@ function publishFlag() {
     const main = readJson(upFile).videos?.find((v) => v.kind === "video");
     if (main?.publishAt) return new Date(main.publishAt); // --update keeps the main video's time
   }
-  if (!flags.publish) return istSlot(cfg.publishDelayDays, cfg.publishTime);
+  if (!flags.publish) return flags.queue ? queueSlot(join(ROOT, flags.queue)) : istSlot(cfg.publishDelayDays, cfg.publishTime);
   const m = String(flags.publish).match(/^(\d{4})-(\d{2})-(\d{2})[ T](\d{1,2}):(\d{2})$/) || die(`--publish "YYYY-MM-DD HH:MM" (IST), got ${flags.publish}`);
   const t = new Date(Date.UTC(+m[1], +m[2] - 1, +m[3], +m[4], +m[5]) - IST);
   if (t < Date.now() + 3.6e6) die(`--publish ${flags.publish} IST is in the past or less than an hour away`);
@@ -197,7 +222,7 @@ if (!finals.length && !flags.update) die(`no final-16x9*.mp4 in ${out}`);
 const plan = [{
   kind: "video", file: join(out, finals[0] || "final-16x9.mp4"), publishAt: mainAt,
   snippet: { title: title(meta.title), description: description(meta.description), tags: tags(meta.tags) },
-  thumbnail: meta.thumbnail && !flags["no-thumbnail"] ? join(PROJECTS, project, meta.thumbnail) : null,
+  thumbnail: meta.thumbnail && cfg.thumbnail !== false && !flags["no-thumbnail"] ? join(PROJECTS, project, meta.thumbnail) : null,
 }];
 const shortsDir = flags.shorts ? join(ROOT, flags.shorts) : null;
 const jobFile = join(ROOT, "AI-clipper", "jobs", project, "clips.json");

@@ -21,7 +21,7 @@ on:
         type: boolean
         default: false
       publish_at:
-        description: "Main video publish time, IST, e.g. 2026-10-15 16:00 (empty = next day 18:00). Shorts: same day, hourly after it"
+        description: "Main video publish time, IST, e.g. 2026-10-15 16:00 (empty = first free day after the latest scheduled episode, no Sundays, 16:00). Shorts: same day, hourly after it"
         required: false
       no_thumbnail:
         description: "Keep YouTube's auto thumbnail (set one later)"
@@ -121,7 +121,12 @@ jobs:
           UPDATE: ${{ inputs.update }}
         run: |
           ARGS=(--shorts "AI-clipper/output/$P")
-          [ -n "$PUBLISH_AT" ] && ARGS+=(--publish "$PUBLISH_AT")
+          if [ -n "$PUBLISH_AT" ]; then ARGS+=(--publish "$PUBLISH_AT")
+          elif [ "$UPDATE" != "true" ]; then
+            # no time given: the first free day after the latest episode already scheduled (Sundays skipped)
+            rclone copy "$DRIVE/output" .yt-queue --include "*/youtube-uploaded.json" -v
+            ARGS+=(--queue .yt-queue)
+          fi
           [ "$NO_THUMBNAIL" = "true" ] && ARGS+=(--no-thumbnail)
           [ "$UPDATE" = "true" ] && ARGS+=(--update)
           node tools/youtube.mjs "$P" "${ARGS[@]}"

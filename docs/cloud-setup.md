@@ -73,10 +73,13 @@ revoke it at the provider and replace the secret.
 ## 4. YouTube upload (optional)
 
 After the Drive upload, the run uploads the video and up to three Shorts to the channel as **Private with a publish
-time**, so YouTube publishes them by itself (`tools/youtube.mjs`). The default schedule is the main video the next day
-at 18:00 IST and the Shorts the same day, one an hour after it (19:00, 20:00, 21:00). Change it in `config/daily.json` →
-`youtube` (`enabled: false` pauses the upload: videos go to Drive only). The upload sets the title, description, tags,
-category Education, and the thumbnail when the run made one. "Altered or synthetic content" is set to No
+time**, so YouTube publishes them by itself (`tools/youtube.mjs`). The schedule is a queue: the main video goes on
+the first free day after the latest episode already scheduled (read from every `youtube-uploaded.json` in Drive), at
+16:00 IST, never on a Sunday (`skipDays`), and the Shorts the same day, one an hour after it (17:00, 18:00, 19:00).
+So a backlog stays a backlog: one video a day, six a week, the newest edit after the last scheduled one. Change it in
+`config/daily.json` → `youtube` (`enabled: false` pauses the upload: videos go to Drive only). The upload sets the
+title, description, tags and category Education; the thumbnail is left to the owner (`"thumbnail": false`, set one
+later in Studio or with the Thumbnails workflow). "Altered or synthetic content" is set to No
 (`syntheticMedia`): the narration is the owner's own cloned voice reading the owner's script over real stock footage,
 which YouTube does not ask to label; set it to true if a video ever uses someone else's voice or a realistic AI-made
 scene. The API cannot set a Short's "Related video": link each Short to the main video in Studio. Links go to the run page and to
