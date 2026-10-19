@@ -33,17 +33,10 @@ import { PROJECTS, ROOT, die, parseCli, readJson, run, writeJson } from "./lib/c
 const { positional, flags } = parseCli();
 const [project] = positional;
 const testFile = typeof flags.test === "string" ? flags.test : null;
-if (!project && !testFile) die("usage: node tools/youtube.mjs <project> [--shorts dir] [--dry-run] | --test <file.mp4>");
+if (!project && !testFile && !flags.due) die("usage: node tools/youtube.mjs <project> [--shorts dir] [--dry-run] | --test <file.mp4> | --due --queue dir");
 const dryRun = !!flags["dry-run"];
 const cfg = { publishDelayDays: 1, publishTime: "18:00", shortsCount: 3, shortsGapMinutes: 60, categoryId: "27",
-  language: "en", syntheticMedia: false, skipDays: [0], thumbnail: true, ...(readJson(join(ROOT, "config", "daily.json")).youtube || {}) };
-if (testFile) await testUpload(testFile);
-if (flags["set-thumbnail"]) await setThumbnailOnly(project);
-const out = join(PROJECTS, project, "output");
-const metaFile = join(out, "youtube.json");
-if (!existsSync(metaFile)) die(`${metaFile} missing — the daily-run skill writes it with the metadata`);
-const meta = readJson(metaFile);
-
+  language: "en", syntheticMedia: false, skipDays: [0], publishDays: null, dueHours: 48, thumbnail: true, ...(readJson(join(ROOT, "config", "daily.json")).youtube || {}) };
 // ---- schedule -------------------------------------------------------------------------------------------------
 const IST = 5.5 * 3.6e6;
 /** "HH:MM" IST on (today IST + days) → Date; pushed a day later while it is less than an hour away. */
@@ -54,10 +47,11 @@ function istSlot(days, hhmm) {
   while (t < Date.now() + 3.6e6 || skipDay(t)) t += 864e5;
   return new Date(t);
 }
-/** No upload is scheduled on these IST weekdays (config youtube.skipDays, 0 = Sunday). */
-const skipDay = (t) => (cfg.skipDays || []).includes(new Date(t + IST).getUTCDay());
+/** Uploads go only on youtube.publishDays (IST weekdays, 0 = Sunday; [1,3,5] = Mon/Wed/Fri), else never on skipDays. */
+const skipDay = (t) => { const wd = new Date(t + IST).getUTCDay();
+  return cfg.publishDays ? !cfg.publishDays.includes(wd) : (cfg.skipDays || []).includes(wd); };
 
-/** --queue dir: the day after the latest main video already scheduled (any project), else the normal slot. */
+/** --queue dir: the first publish day after the latest main video already scheduled (any project), else the normal slot. */
 function queueSlot(dir) {
   const files = [];
   const walk = (d) => { for (const n of readdirSync(d, { withFileTypes: true })) {
@@ -76,6 +70,23 @@ function queueSlot(dir) {
   console.log(`queue: latest scheduled video ${istText(new Date(latest).toISOString())} (${files.length} uploaded episodes) → next free day`);
   return new Date(Math.max(t, slot.getTime()));
 }
+
+// --due --queue dir: exit 0 when the next free slot is within youtube.dueHours (the daily run makes an episode only
+// then, the day before it publishes), else exit 1. A backlog of scheduled videos means no edit, no Claude usage.
+if (flags.due) {
+  const slot = queueSlot(join(ROOT, flags.queue || ".yt-queue"));
+  const hours = (slot.getTime() - Date.now()) / 3.6e6;
+  console.log(`next slot ${istText(slot.toISOString())}, ${hours.toFixed(0)} h away: ${hours <= cfg.dueHours ? "due" : "not due yet"}`);
+  process.exit(hours <= cfg.dueHours ? 0 : 1);
+}
+
+if (testFile) await testUpload(testFile);
+if (flags["set-thumbnail"]) await setThumbnailOnly(project);
+const out = join(PROJECTS, project, "output");
+const metaFile = join(out, "youtube.json");
+if (!existsSync(metaFile)) die(`${metaFile} missing — the daily-run skill writes it with the metadata`);
+const meta = readJson(metaFile);
+
 
 // ---- text limits (YouTube rejects the whole upload otherwise) ----------------------------------------------------
 const clean = (s) => String(s ?? "").replace(/[<>]/g, "");
