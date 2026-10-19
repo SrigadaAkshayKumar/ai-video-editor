@@ -1,0 +1,8 @@
+{
+ "remove": [],
+ "textFixes": {
+  "w123": "I.T.",
+  "w688": "I.T."
+ },
+ "notes": "Clean read, no retakes. Whisper dropped the first 19s of audio (hook paragraphs); words.json was patched from the script (audio checked by chunk STT)."
+}

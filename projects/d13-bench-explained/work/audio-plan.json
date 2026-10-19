@@ -1,0 +1,86 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.1,
+   "sfx": "impact",
+   "reason": "title lands: On the bench?",
+   "gain": 4
+  },
+  {
+   "time": 11.44,
+   "sfx": "riser",
+   "reason": "statement: This is called being on the bench",
+   "gain": 2
+  },
+  {
+   "time": 26.99,
+   "sfx": "impact",
+   "reason": "section opens: What the bench is",
+   "gain": 4
+  },
+  {
+   "time": 30.39,
+   "sfx": "riser",
+   "reason": "definition card: On the bench",
+   "gain": 2
+  },
+  {
+   "time": 41.1,
+   "sfx": "riser",
+   "reason": "statement: For the company, the bench is a cost",
+   "gain": 2
+  },
+  {
+   "time": 47.79,
+   "sfx": "sub_drop",
+   "reason": "quote pull: You and the company want the same thing: a project.",
+   "gain": 4
+  },
+  {
+   "time": 52.5,
+   "sfx": "impact",
+   "reason": "section opens: Why freshers land there",
+   "gain": 4
+  },
+  {
+   "time": 71.44,
+   "sfx": "riser",
+   "reason": "definition card: Inside your control",
+   "gain": 2
+  },
+  {
+   "time": 78.94,
+   "sfx": "impact",
+   "reason": "section opens: What happens on the bench",
+   "gain": 4
+  },
+  {
+   "time": 93.02,
+   "sfx": "riser",
+   "reason": "path plots: Path off the bench",
+   "gain": 2
+  },
+  {
+   "time": 113.18,
+   "sfx": "impact",
+   "reason": "section opens: The risks of a long bench",
+   "gain": 4
+  },
+  {
+   "time": 133.24,
+   "sfx": "sub_drop",
+   "reason": "quote pull: Don't stay on the bench quietly.",
+   "gain": 4
+  },
+  {
+   "time": 135.55,
+   "sfx": "impact",
+   "reason": "section opens: How to get out fast",
+   "gain": 4
+  }
+ ]
+}

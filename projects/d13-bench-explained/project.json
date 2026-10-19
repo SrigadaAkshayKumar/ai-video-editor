@@ -1,0 +1,99 @@
+{
+  "name": "d13-bench-explained",
+  "createdAt": "2026-10-18T22:14:45.710Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d13-bench-explained/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d13/d13-voice.wav",
+    "duration": 222.96,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d13-bench-explained/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d13/d13_bench_explained_voiceover.txt",
+    "words": 707,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d13-bench-explained/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [],
+  "mode": "faceless",
+  "style": "glass",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; documentary storytelling look: full-frame b-roll leads, graphics docked to one side, quote pulls on the key lines, timelines for the backstory; slower, a beat every 6-10 s; low sub-band SFX on structure only",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 19.53,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-10-18T22:16:31.930Z",
+      "words": 634,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-10-18T22:19:06.911Z",
+      "segments": 17,
+      "kept": 213.967
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-10-18T23:50:29.912Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d13-bench-explained/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-10-18T22:57:46.748Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-10-18T22:57:46.787Z",
+      "groups": 192
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-10-18T22:59:05.520Z",
+      "music": 0,
+      "sfx": 13
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-10-18T23:54:53.154Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d13-bench-explained/output/final-16x9.mp4",
+      "duration": 223.982
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.950006,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d13-bench-explained/work/cleancut.wav",
+    "duration": 213.966708,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

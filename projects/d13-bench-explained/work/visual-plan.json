@@ -1,0 +1,774 @@
+{
+ "style": "glass",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 3.4,
+   "type": "title_slide",
+   "text": "On the bench?",
+   "eyebrow": "Crack IT · Day 13",
+   "style_hint": "No project after training"
+  },
+  {
+   "start": 4.9,
+   "duration": 3.4,
+   "type": "checklist",
+   "text": "Your batch",
+   "items": [
+    {
+     "label": "Friends · project",
+     "state": "yes"
+    },
+    {
+     "label": "You · waiting",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 11.39,
+   "duration": 4.2,
+   "type": "big_statement",
+   "text": "This is called being on the bench",
+   "eyebrow": "bench"
+  },
+  {
+   "start": 16.33,
+   "duration": 3.2,
+   "type": "side_note",
+   "text": "How you use this time sets your first year",
+   "side": "right"
+  },
+  {
+   "start": 20,
+   "duration": 6.640000000000001,
+   "type": "step_progress",
+   "side": "right",
+   "text": "In this video",
+   "current_step": 0,
+   "items": [
+    {
+     "label": "What the bench is",
+     "at": 0.4
+    },
+    {
+     "label": "Why freshers land there",
+     "at": 2.4821893491124207
+    },
+    {
+     "label": "What happens",
+     "at": 3.828461538461532
+    },
+    {
+     "label": "The risks",
+     "at": 4.880236686390525
+    },
+    {
+     "label": "How to get out",
+     "at": 5.637514792899399
+    }
+   ]
+  },
+  {
+   "start": 26.94,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "What the bench is",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 1
+  },
+  {
+   "start": 30.34,
+   "duration": 2.59,
+   "type": "term_card",
+   "side": "left",
+   "text": "On the bench",
+   "eyebrow": "in simple words",
+   "items": [
+    {
+     "label": "Paid, but no client project"
+    }
+   ]
+  },
+  {
+   "start": 33.72,
+   "duration": 6.53,
+   "type": "comparison",
+   "side": "right",
+   "text": "Billable vs bench",
+   "left": {
+    "label": "Billable",
+    "text": "On a client project"
+   },
+   "right": {
+    "label": "Bench",
+    "text": "Paid, not billable"
+   }
+  },
+  {
+   "start": 41.05,
+   "duration": 6.12,
+   "type": "big_statement",
+   "text": "For the company, the bench is a cost",
+   "eyebrow": "cost"
+  },
+  {
+   "start": 47.74,
+   "duration": 4.21,
+   "type": "quote_pull",
+   "text": "You and the company want the same thing: a project.",
+   "eyebrow": "Good news"
+  },
+  {
+   "start": 52.45,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Why freshers land there",
+   "eyebrow": "Section 02",
+   "numeral": "02",
+   "section": 2
+  },
+  {
+   "start": 56.21,
+   "duration": 14.08,
+   "type": "step_progress",
+   "side": "left",
+   "text": "Outside your control",
+   "current_step": 0,
+   "items": [
+    {
+     "label": "Planned project delayed or cancelled",
+     "at": 0.3
+    },
+    {
+     "label": "No project matching your tech",
+     "at": 6.1345486486486465
+    },
+    {
+     "label": "Experienced people first",
+     "at": 11.061350343563902
+    }
+   ]
+  },
+  {
+   "start": 71.39,
+   "duration": 7.17,
+   "type": "term_card",
+   "side": "right",
+   "text": "Inside your control",
+   "eyebrow": "sometimes",
+   "items": [
+    {
+     "label": "Low training scores or a weak project interview"
+    }
+   ]
+  },
+  {
+   "start": 78.89,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "What happens on the bench",
+   "eyebrow": "Section 03",
+   "numeral": "03",
+   "section": 3
+  },
+  {
+   "start": 84.64,
+   "duration": 7.76,
+   "type": "bullet_list",
+   "side": "right",
+   "text": "While on the bench",
+   "items": [
+    {
+     "label": "Stay available"
+    },
+    {
+     "label": "Keep learning"
+    },
+    {
+     "label": "Apply on the internal portal"
+    }
+   ]
+  },
+  {
+   "start": 92.97,
+   "duration": 8.73,
+   "type": "flow_diagram",
+   "text": "Path off the bench",
+   "items": [
+    {
+     "label": "Bench"
+    },
+    {
+     "label": "Job portal"
+    },
+    {
+     "label": "Project interview"
+    },
+    {
+     "label": "Allocated"
+    }
+   ]
+  },
+  {
+   "start": 102.4,
+   "duration": 5.17,
+   "type": "side_note",
+   "text": "Every company's bench policy is different",
+   "side": "left"
+  },
+  {
+   "start": 108.07,
+   "duration": 4.8,
+   "type": "lower_third",
+   "text": "Your company's HR policy portal",
+   "eyebrow": "Know your own rules",
+   "side": "left"
+  },
+  {
+   "start": 113.13,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "The risks of a long bench",
+   "eyebrow": "Section 04",
+   "numeral": "04",
+   "section": 4
+  },
+  {
+   "start": 118.39,
+   "duration": 9.71,
+   "type": "step_progress",
+   "side": "left",
+   "text": "A long bench",
+   "current_step": 0,
+   "items": [
+    {
+     "label": "Rusty skills, lower confidence",
+     "at": 0.3
+    },
+    {
+     "label": "Mismatched project, out of desperation",
+     "at": 3.0574358974359086
+    },
+    {
+     "label": "Reviewed in tough times",
+     "at": 10.491576923076948
+    }
+   ]
+  },
+  {
+   "start": 133.19,
+   "duration": 2.01,
+   "type": "quote_pull",
+   "text": "Don't stay on the bench quietly.",
+   "eyebrow": "Reality check"
+  },
+  {
+   "start": 135.5,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "How to get out fast",
+   "eyebrow": "Section 05",
+   "numeral": "05",
+   "section": 0
+  },
+  {
+   "start": 138.8,
+   "duration": 43.7,
+   "type": "step_progress",
+   "side": "right",
+   "text": "5 steps",
+   "current_step": 0,
+   "items": [
+    {
+     "label": "Check the portal daily, apply",
+     "at": 0.3
+    },
+    {
+     "label": "One in-demand certification",
+     "at": 6.869570734669082
+    },
+    {
+     "label": "Prepare for project interviews",
+     "at": 20.47257073466909
+    },
+    {
+     "label": "Talk to people",
+     "at": 28.778570734669103
+    },
+    {
+     "label": "Flexible, not desperate",
+     "at": 39.25021680796752
+    }
+   ]
+  },
+  {
+   "start": 183.04,
+   "duration": 8.33,
+   "type": "checklist",
+   "text": "To sum up",
+   "items": [
+    {
+     "label": "Bench = paid, no project",
+     "state": "yes"
+    },
+    {
+     "label": "Common, not your fault",
+     "state": "yes"
+    },
+    {
+     "label": "A long bench has real risks",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 192.07,
+   "duration": 6.1,
+   "type": "bullet_list",
+   "side": "right",
+   "text": "Get out of the bench",
+   "items": [
+    {
+     "label": "Portal daily"
+    },
+    {
+     "label": "Learn a skill"
+    },
+    {
+     "label": "Interview prep"
+    },
+    {
+     "label": "Network"
+    },
+    {
+     "label": "Stay flexible"
+    }
+   ]
+  },
+  {
+   "start": 198.73,
+   "duration": 4.2,
+   "type": "lower_third",
+   "text": "Bench time + your technology",
+   "eyebrow": "Comment below",
+   "side": "left"
+  },
+  {
+   "start": 206.19,
+   "duration": 3.3,
+   "type": "lower_third",
+   "text": "Fake I.T. job offers: 5 red flags",
+   "eyebrow": "Tomorrow",
+   "side": "left"
+  },
+  {
+   "start": 210.37,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "SUBSCRIBE",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "index": 0,
+   "start": 0,
+   "end": 4.7,
+   "kind": "broll",
+   "src": "assets/broll/man-thinking.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 1,
+   "start": 4.7,
+   "end": 8.33,
+   "kind": "broll",
+   "src": "assets/broll/office-desk.mp4",
+   "media_start": 0,
+   "motion": "pan_right",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 2,
+   "start": 8.33,
+   "end": 11.19,
+   "kind": "broll",
+   "src": "assets/broll/woman-yellow-phone.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 3,
+   "start": 11.19,
+   "end": 15.83,
+   "kind": "broll",
+   "src": "assets/broll/bench-window.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 4,
+   "start": 15.83,
+   "end": 19.7,
+   "kind": "broll",
+   "src": "assets/broll/woman-laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 5,
+   "start": 19.7,
+   "end": 26.84,
+   "kind": "broll",
+   "src": "assets/broll/office-blur.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 6,
+   "start": 26.84,
+   "end": 33.12,
+   "kind": "broll",
+   "src": "assets/broll/notebook-writing.mp4",
+   "media_start": 9,
+   "motion": "static",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 7,
+   "start": 33.12,
+   "end": 40.65,
+   "kind": "broll",
+   "src": "assets/broll/glass-towers.mp4",
+   "media_start": 0,
+   "motion": "pan_left",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 8,
+   "start": 40.65,
+   "end": 47.34,
+   "kind": "broll",
+   "src": "assets/broll/desk-topdown.mp4",
+   "media_start": 6,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 9,
+   "start": 47.34,
+   "end": 52.35,
+   "kind": "broll",
+   "src": "assets/broll/students-park.mp4",
+   "media_start": 2,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 10,
+   "start": 52.35,
+   "end": 56.01,
+   "kind": "broll",
+   "src": "assets/broll/woman-phone.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 11,
+   "start": 56.01,
+   "end": 61.35,
+   "kind": "broll",
+   "src": "assets/broll/office-blur.mp4",
+   "media_start": 8,
+   "motion": "pan_right",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 12,
+   "start": 61.35,
+   "end": 66.27,
+   "kind": "broll",
+   "src": "assets/broll/code-laptop.mp4",
+   "media_start": 1,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 13,
+   "start": 66.27,
+   "end": 70.79,
+   "kind": "broll",
+   "src": "assets/broll/desk-topdown.mp4",
+   "media_start": 30,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 14,
+   "start": 70.79,
+   "end": 78.79,
+   "kind": "broll",
+   "src": "assets/broll/man-thinking.mp4",
+   "media_start": 2,
+   "motion": "ken_out",
+   "grade": "noir",
+   "transition": "fade"
+  },
+  {
+   "index": 15,
+   "start": 78.79,
+   "end": 84.34,
+   "kind": "broll",
+   "src": "assets/broll/woman-laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 16,
+   "start": 84.34,
+   "end": 92.57,
+   "kind": "broll",
+   "src": "assets/broll/typing-hands.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 17,
+   "start": 92.57,
+   "end": 102,
+   "kind": "broll",
+   "src": "assets/broll/code-laptop.mp4",
+   "media_start": 5,
+   "motion": "pan_left",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 18,
+   "start": 102,
+   "end": 107.77,
+   "kind": "broll",
+   "src": "assets/broll/office-desk.mp4",
+   "media_start": 3,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 19,
+   "start": 107.77,
+   "end": 113.03,
+   "kind": "broll",
+   "src": "assets/broll/office-blur.mp4",
+   "media_start": 12,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 20,
+   "start": 113.03,
+   "end": 118.19,
+   "kind": "broll",
+   "src": "assets/broll/bench-window.mp4",
+   "media_start": 1,
+   "motion": "ken_out",
+   "grade": "noir",
+   "transition": "fade"
+  },
+  {
+   "index": 21,
+   "start": 118.19,
+   "end": 121.25,
+   "kind": "broll",
+   "src": "assets/broll/man-thinking.mp4",
+   "media_start": 5,
+   "motion": "ken_in",
+   "grade": "noir",
+   "transition": "fade"
+  },
+  {
+   "index": 22,
+   "start": 121.25,
+   "end": 128.28,
+   "kind": "broll",
+   "src": "assets/broll/woman-phone.mp4",
+   "media_start": 0.5,
+   "motion": "pan_right",
+   "grade": "noir",
+   "transition": "fade"
+  },
+  {
+   "index": 23,
+   "start": 128.28,
+   "end": 135.4,
+   "kind": "broll",
+   "src": "assets/broll/office-blur.mp4",
+   "media_start": 3,
+   "motion": "ken_in",
+   "grade": "noir",
+   "transition": "fade"
+  },
+  {
+   "index": 24,
+   "start": 135.4,
+   "end": 137.92,
+   "kind": "broll",
+   "src": "assets/broll/desk-topdown.mp4",
+   "media_start": 20,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 25,
+   "start": 137.92,
+   "end": 144.55,
+   "kind": "broll",
+   "src": "assets/broll/typing-hands.mp4",
+   "media_start": 5,
+   "motion": "ken_out",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 26,
+   "start": 144.55,
+   "end": 153.05,
+   "kind": "broll",
+   "src": "assets/broll/woman-laptop.mp4",
+   "media_start": 2.5,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 27,
+   "start": 153.05,
+   "end": 157.52,
+   "kind": "broll",
+   "src": "assets/broll/notebook-writing.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 28,
+   "start": 157.52,
+   "end": 163.93,
+   "kind": "broll",
+   "src": "assets/broll/interview-talk.mp4",
+   "media_start": 0.5,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 29,
+   "start": 163.93,
+   "end": 170,
+   "kind": "broll",
+   "src": "assets/broll/students-park.mp4",
+   "media_start": 8,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 30,
+   "start": 170,
+   "end": 174.4,
+   "kind": "broll",
+   "src": "assets/broll/desk-topdown.mp4",
+   "media_start": 12,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 31,
+   "start": 174.4,
+   "end": 182.74,
+   "kind": "broll",
+   "src": "assets/broll/man-street-phone.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 32,
+   "start": 182.74,
+   "end": 191.67,
+   "kind": "broll",
+   "src": "assets/broll/woman-laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 33,
+   "start": 191.67,
+   "end": 198.33,
+   "kind": "broll",
+   "src": "assets/broll/office-desk.mp4",
+   "media_start": 2,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 34,
+   "start": 198.33,
+   "end": 205.89,
+   "kind": "broll",
+   "src": "assets/broll/woman-yellow-phone.mp4",
+   "media_start": 4,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 35,
+   "start": 205.89,
+   "end": 213.967,
+   "kind": "broll",
+   "src": "assets/broll/students-park.mp4",
+   "media_start": 3,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade"
+  }
+ ],
+ "camera_moves": []
+}
