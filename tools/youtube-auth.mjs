@@ -29,6 +29,12 @@ server.listen(0, "127.0.0.1", () => {
     res.end(j.refresh_token ? "Done. Go back to the terminal." : "Failed, see the terminal.");
     server.close();
     if (!j.refresh_token) die(`no refresh token: ${JSON.stringify(j)}`);
+    // Google's consent screen lets each permission be unticked: say what was really granted
+    const granted = String(j.scope || "").split(" ");
+    console.log(`Granted: ${granted.join(", ") || "(none listed)"}\n`);
+    if (!granted.includes("https://www.googleapis.com/auth/youtube"))
+      die('the edit permission ("Manage your YouTube account") was NOT granted: run this again and tick every box on '
+        + "Google's screen; also check the scope .../auth/youtube is under Google Auth Platform → Data access");
     console.log("Paste this into the GitHub secret YT_REFRESH_TOKEN (and nowhere else):\n");
     console.log(j.refresh_token);
   });
