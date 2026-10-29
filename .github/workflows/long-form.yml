@@ -1,0 +1,274 @@
+# Crack IT long-form video from a script in Drive: inbox/faceless/crack-it-long-form-scripts/NN_<topic>_script.md
+# + NN_<topic>_voiceover.md. Claude cleans the voiceover text (drops notes and stray lines) → the owner's cloned voice
+# (Qwen3-TTS) → Claude edits it (edit-video-faceless, Explainer look) → 5 Shorts → metadata → Google Drive only.
+# Long videos outlast one run (6 h) and can hit Claude's usage limit: every run saves its progress to Drive
+# (longform/<project>/) and starts the next run by itself, after the limit resets when that is what stopped it.
+# Actions → Long-form video → Run workflow → script "06".
+name: Long-form video
+
+on:
+  workflow_dispatch:
+    inputs:
+      script:
+        description: "Script number in inbox/faceless/crack-it-long-form-scripts, e.g. 06"
+        required: true
+      attempt:
+        description: "Run number for this video (set by the workflow itself)"
+        default: "1"
+      wait_minutes:
+        description: "Wait this long before starting (set by the workflow after a usage limit)"
+        default: "0"
+
+concurrency:
+  group: long-form-${{ inputs.script }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  actions: write
+
+env:
+  MAX_ATTEMPTS: "12"
+
+jobs:
+  wait:
+    if: inputs.wait_minutes != '0'
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - name: Wait for Claude's usage limit to reset, then start the next run
+        env:
+          GH_TOKEN: ${{ github.token }}
+          W: ${{ inputs.wait_minutes }}
+          N: ${{ inputs.script }}
+          ATTEMPT: ${{ inputs.attempt }}
+        run: |
+          s=$(( W > 330 ? 330 : W )); echo "waiting $s of $W min"; sleep $(( s * 60 ))
+          gh workflow run long-form.yml --repo "$GITHUB_REPOSITORY" --ref "$GITHUB_REF_NAME" \
+            -f script="$N" -f attempt="$ATTEMPT" -f wait_minutes="$(( W - s ))"
+
+  make:
+    if: inputs.wait_minutes == '0'
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    env:
+      DRIVE: gdrive:${{ vars.DRIVE_ROOT || 'AI-edits' }}
+      SRC: inbox/faceless/crack-it-long-form-scripts
+      N: ${{ inputs.script }}
+      ATTEMPT: ${{ inputs.attempt }}
+      REMOTION_CONCURRENCY: "2"
+      RENDER_MIN_FREE_GB: "1.5"
+      HYPERFRAMES_WORKERS: "1"
+    steps:
+      - name: Start the clock
+        run: echo "JOB_START=$(date +%s)" >> "$GITHUB_ENV"
+
+      - uses: actions/checkout@v4
+
+      - name: System packages + rclone
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y -q ffmpeg fonts-noto-core fonts-noto-color-emoji cmake sox
+          curl -fsSL https://rclone.org/install.sh | sudo bash
+
+      - name: Google Drive login
+        env:
+          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
+        run: |
+          test -n "$RCLONE_CONF" || { echo "::error::secret RCLONE_CONF is missing"; exit 1; }
+          mkdir -p ~/.config/rclone
+          printf '%s\n' "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
+
+      - name: Pull the script + brand files, name the project
+        id: name
+        run: |
+          rclone copy "$DRIVE/$SRC" "$SRC" -v
+          rclone copy "$DRIVE/inbox/brand" inbox/brand -v
+          script=$(ls "$SRC"/"$N"_*_script.md 2>/dev/null | head -1)
+          test -n "$script" || { echo "::error::no $SRC/${N}_*_script.md in Drive"; exit 1; }
+          base=$(basename "$script" _script.md)                       # 06_bgv_onboarding_masterclass
+          vo=$(ls "$SRC/${base}"_voiceover.* 2>/dev/null | grep -v '\.clean\.txt$' | head -1)
+          test -n "$vo" || { echo "::error::no $SRC/${base}_voiceover.* in Drive"; exit 1; }
+          p="lf${N}-$(echo "${base#*_}" | tr '_' '-')"                 # lf06-bgv-onboarding-masterclass
+          printf 'p=%s\nscript=%s\nvo=%s\nclean=%s\nwav=%s\n' "$p" "$script" "$vo" "$SRC/${base}_voiceover.clean.txt" "$SRC/$p.wav" >> "$GITHUB_OUTPUT"
+          echo "**$p** (run $ATTEMPT): $script" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Restore the progress of earlier runs (Drive)
+        env:
+          P: ${{ steps.name.outputs.p }}
+        run: |
+          rclone copy "$DRIVE/longform/$P/project" "projects/$P" -q || true
+          rclone copy "$DRIVE/longform/$P/clipper-jobs" "AI-clipper/jobs/$P" -q || true
+          rclone copy "$DRIVE/longform/$P/clipper-output" "AI-clipper/output/$P" -q || true
+          ls "projects/$P" 2>/dev/null && echo "Resumed from Drive" >> "$GITHUB_STEP_SUMMARY" || echo "fresh start"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            remotion/package-lock.json
+            hyperframes/package-lock.json
+            AI-clipper/package-lock.json
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          npm ci
+          (cd remotion && npm ci)
+          (cd hyperframes && npm ci)
+          (cd AI-clipper && npm ci)
+          pip install -q opencv-python-headless numpy
+          npm install -g @anthropic-ai/claude-code
+          chmod +x .github/scripts/claude-run.sh
+
+      - name: Clean the voiceover text
+        id: clean
+        if: hashFiles(steps.name.outputs.clean) == ''
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SCRIPT: ${{ steps.name.outputs.script }}
+          VO: ${{ steps.name.outputs.vo }}
+          CLEAN: ${{ steps.name.outputs.clean }}
+        run: |
+          .github/scripts/claude-run.sh claude-clean-log.jsonl 60 "Unattended, nobody will answer. Read $SRC/00_README_workflow.md, $SCRIPT and $VO.
+          $VO is the narration for a long Crack IT video, but it is not ready to read aloud: it has extra lines
+          (headings, section labels, timestamps, stage directions, [B-ROLL]/[SFX]/visual notes, speaker labels, notes to the
+          editor, markdown symbols, URLs, duplicated or garbled 'noise' lines). Write $CLEAN: ONLY the words the narrator
+          speaks, in order, nothing added, nothing reworded, as plain text with one blank line between paragraphs (a pause
+          and a new TTS chunk each; keep paragraphs about 40-150 words). Write numbers, symbols and abbreviations the way
+          they should be SPOKEN (e.g. 'Rs 4.5 LPA' -> 'four point five lakh per annum', 'BGV' -> 'B G V', '&' -> 'and').
+          Also write $SRC/voiceover-clean-notes.md listing every kind of line you removed, with one example each.
+          Only write those two files."
+          test -s "$CLEAN" || { echo "::error::no clean voiceover written"; exit 1; }
+          rclone copy "$CLEAN" "$DRIVE/$SRC" -v
+          rclone copy "$SRC/voiceover-clean-notes.md" "$DRIVE/$SRC" -v || true
+
+      - name: Voice (cloned, Qwen3-TTS on CPU)
+        if: hashFiles(steps.name.outputs.wav) == ''
+        env:
+          CLEAN: ${{ steps.name.outputs.clean }}
+          WAV: ${{ steps.name.outputs.wav }}
+        run: |
+          python -m venv ~/.venv-tts
+          ~/.venv-tts/bin/pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+          ~/.venv-tts/bin/pip install -q qwen-tts==0.1.1 soundfile
+          ~/.venv-tts/bin/python tools/voice/tts.py "$CLEAN" "$WAV"
+          rclone copy "$WAV" "$DRIVE/$SRC" -v
+          rclone copy "${WAV%.wav}.tts.json" "$DRIVE/$SRC" -v || true
+
+      - name: Cache whisper.cpp
+        uses: actions/cache@v4
+        with:
+          path: ~/.whisper.cpp
+          key: whisper-cpp-v1.9.2-${{ runner.os }}
+
+      - name: Build whisper.cpp (first run only)
+        run: |
+          if [ ! -x ~/.whisper.cpp/bin/whisper-cli ]; then
+            git clone -q --depth 1 --branch v1.9.2 https://github.com/ggml-org/whisper.cpp /tmp/whisper.cpp
+            cmake -S /tmp/whisper.cpp -B /tmp/whisper.cpp/build -DCMAKE_BUILD_TYPE=Release -DBUILD_SHARED_LIBS=OFF -DWHISPER_BUILD_TESTS=OFF
+            cmake --build /tmp/whisper.cpp/build -j --target whisper-cli
+            mkdir -p ~/.whisper.cpp/bin && cp /tmp/whisper.cpp/build/bin/whisper-cli ~/.whisper.cpp/bin/
+          fi
+          echo "WHISPER_CLI_PATH=$HOME/.whisper.cpp/bin/whisper-cli" >> "$GITHUB_ENV"
+
+      - name: Write .env
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_IMAGE_MODEL: ${{ vars.GEMINI_IMAGE_MODEL }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          OPENVERSE_TOKEN: ${{ secrets.OPENVERSE_TOKEN }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: |
+          for k in ELEVENLABS_API_KEY GEMINI_API_KEY GEMINI_IMAGE_MODEL PEXELS_API_KEY PIXABAY_API_KEY OPENVERSE_TOKEN YOUTUBE_API_KEY; do
+            echo "$k=${!k}" >> .env
+          done
+
+      - name: Edit with Claude Code (resumable)
+        id: edit
+        if: hashFiles(format('projects/{0}/output/longform-done.json', steps.name.outputs.p)) == ''
+        continue-on-error: true
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          P: ${{ steps.name.outputs.p }}
+          SCRIPT: ${{ steps.name.outputs.script }}
+          CLEAN: ${{ steps.name.outputs.clean }}
+          WAV: ${{ steps.name.outputs.wav }}
+        run: |
+          # leave ~25 min of the 6-hour job for saving progress to Drive
+          left=$(( 355 - ($(date +%s) - JOB_START) / 60 - 25 ))
+          echo "time budget for Claude: $left min" >> "$GITHUB_STEP_SUMMARY"
+          .github/scripts/claude-run.sh claude-log.jsonl "$left" "This is the unattended LONG-FORM run for the Crack IT channel (run $ATTEMPT; nobody will answer questions).
+          Make a finished long YouTube video, project projects/$P, from the owner's voiceover.
+          Inputs: voiceover audio $WAV (owner's cloned voice); the spoken text $CLEAN (source of truth for the words);
+          the production script with section and visual notes $SCRIPT (use it to plan the picture); workflow notes
+          $SRC/00_README_workflow.md (read it; follow it where it does not conflict with this prompt).
+          1. If projects/$P exists, this is a RESUMED run: read projects/$P/work/longform-progress.md and run
+             npm run status -- $P, then continue from the first unfinished stage. Never redo finished work.
+             Otherwise create it: npm run new -- $WAV --script $CLEAN --name $P --mode faceless --brand crack-it --formats 16:9 --style cleantech --no-captions --brief \"Crack IT long-form masterclass: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; light product-explainer look: calm and clean, checklists, step diagrams, charts and comparison tables carry the content, generous white space, office/campus b-roll full frame between graphics; a beat every 6-8 s; soft, sparse SFX\".
+          2. Edit it with the edit-video-faceless skill end to end, the way the daily-run skill does for Crack IT (same
+             brand intro, no captions, no BGM): clean cut (drop TTS glitches, repeated or garbled words), direction,
+             research and news screenshots for every factual claim, visual plan, SFX, render, finalize --quality delivery,
+             verify. It is a long video: plan chapters (the chapter rail), and keep the picture varied across its whole
+             length (graphic types, b-roll, layouts). Render previews at draft quality; deliver only at the end.
+          3. This run can stop at any moment (a time budget or a usage limit) and the next run continues from the files
+             on disk: after every stage append to projects/$P/work/longform-progress.md what is done and what is next.
+          4. Shorts: read AI-clipper/.claude/skills/clip-shorts/SKILL.md and make 5 Shorts from the finished project
+             (framing black, English), as step 3 of the daily-run skill does.
+          5. Metadata: the youtube-metadata skill (its upload copy rules), with chapters at the real timestamps:
+             projects/$P/output/youtube.json and projects/$P/output/metadata.md. No thumbnail (the owner makes it).
+          6. Only when ALL of that is finished and verified, write projects/$P/output/longform-report.md (what was made,
+             durations, anything to check) and projects/$P/output/longform-done.json {\"video\":\"<file>\",\"duration_s\":n,\"shorts\":n}."
+
+      - name: Save progress to Drive
+        if: always() && steps.name.outputs.p != ''
+        env:
+          P: ${{ steps.name.outputs.p }}
+        run: |
+          [ -d "projects/$P" ] && rclone copy "projects/$P" "$DRIVE/longform/$P/project" -q
+          [ -d "AI-clipper/jobs/$P" ] && rclone copy "AI-clipper/jobs/$P" "$DRIVE/longform/$P/clipper-jobs" -q
+          [ -d "AI-clipper/output/$P" ] && rclone copy "AI-clipper/output/$P" "$DRIVE/longform/$P/clipper-output" -q
+          dir="$DRIVE/output/_logs/$P-run$ATTEMPT-$(date -u +%Y%m%d-%H%M)"
+          for f in claude-clean-log.jsonl claude-log.jsonl claude-result.json; do [ -f "$f" ] && rclone copy "$f" "$dir" -q; done
+          true
+
+      - name: Deliver to Drive (when finished)
+        id: done
+        if: always() && hashFiles(format('projects/{0}/output/longform-done.json', steps.name.outputs.p)) != ''
+        env:
+          P: ${{ steps.name.outputs.p }}
+        run: |
+          rclone copy "projects/$P/output" "$DRIVE/output/$P" -v
+          [ -d "AI-clipper/output/$P" ] && rclone copy "AI-clipper/output/$P" "$DRIVE/output/$P/shorts" -v
+          [ -f "AI-clipper/jobs/$P/clips.json" ] && rclone copy "AI-clipper/jobs/$P/clips.json" "$DRIVE/output/$P/shorts" -v
+          echo "### Finished: Drive output/$P" >> "$GITHUB_STEP_SUMMARY"
+          cat "projects/$P/output/longform-report.md" >> "$GITHUB_STEP_SUMMARY" 2>/dev/null || true
+
+      - name: Not finished yet → start the next run
+        if: always() && steps.name.outputs.p != '' && steps.done.outcome != 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "$ATTEMPT" -ge "$MAX_ATTEMPTS" ]; then
+            echo "::error::not finished after $ATTEMPT runs; progress is in Drive longform/" ; exit 1
+          fi
+          wait=0
+          if [ -f claude-limit.txt ]; then
+            reset=$(cat claude-limit.txt)
+            if [ "$reset" -gt 0 ] 2>/dev/null; then wait=$(( (reset - $(date +%s)) / 60 + 10 )); else wait=60; fi
+            [ "$wait" -lt 10 ] && wait=10
+            echo "Claude usage limit: next run in $wait min" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "Time budget used (or a failed step): next run starts now" >> "$GITHUB_STEP_SUMMARY"
+          fi
+          gh workflow run long-form.yml --repo "$GITHUB_REPOSITORY" --ref "$GITHUB_REF_NAME" \
+            -f script="$N" -f attempt="$(( ATTEMPT + 1 ))" -f wait_minutes="$wait"
