@@ -20,7 +20,7 @@ jobs:
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
         run: |
           python3 - <<'PY'
-          import json, os, time, urllib.parse, urllib.request
+          import json, os, time, urllib.error, urllib.parse, urllib.request
           key = os.environ.get("PIXABAY_API_KEY")
           if not key:
               raise SystemExit("PIXABAY_API_KEY secret is not set")
@@ -28,7 +28,9 @@ jobs:
           for q in qs:
               url = "https://pixabay.com/api/videos/?" + urllib.parse.urlencode({"key": key, "q": q, "per_page": 30, "safesearch": "true"})
               try:
-                  d = json.load(urllib.request.urlopen(url, timeout=30))
+                  d = json.load(urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) ai-video-editor"}), timeout=30))
+              except urllib.error.HTTPError as e:
+                  print(f"Q\t{q}\tERROR HTTP {e.code} {e.read()[:200]!r}"); continue
               except Exception as e:
                   print(f"Q\t{q}\tERROR {type(e).__name__}"); continue
               print(f"Q\t{q}\t{d.get('totalHits')}")
