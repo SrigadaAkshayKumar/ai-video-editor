@@ -1,0 +1,40 @@
+# Runs Pixabay video searches with the repo secret and prints the hits to the job log, so an editing
+# session without the key (cloud sessions cannot read Actions secrets) can pick clips and fetch them
+# from cdn.pixabay.com directly. Prints no key and stores no media. Edit config/pixabay-queries.txt.
+name: pixabay-search
+on:
+  workflow_dispatch:
+  push:
+    branches: ["claude/**"]
+    paths: ["config/pixabay-queries.txt", ".github/workflows/pixabay-search.yml"]
+permissions:
+  contents: read
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Search
+        env:
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+        run: |
+          python3 - <<'PY'
+          import json, os, time, urllib.parse, urllib.request
+          key = os.environ.get("PIXABAY_API_KEY")
+          if not key:
+              raise SystemExit("PIXABAY_API_KEY secret is not set")
+          qs = [l.strip() for l in open("config/pixabay-queries.txt", encoding="utf-8") if l.strip() and not l.startswith("#")]
+          for q in qs:
+              url = "https://pixabay.com/api/videos/?" + urllib.parse.urlencode({"key": key, "q": q, "per_page": 30, "safesearch": "true"})
+              try:
+                  d = json.load(urllib.request.urlopen(url, timeout=30))
+              except Exception as e:
+                  print(f"Q\t{q}\tERROR {type(e).__name__}"); continue
+              print(f"Q\t{q}\t{d.get('totalHits')}")
+              for h in d.get("hits", []):
+                  v = h["videos"]
+                  big = v.get("large") if v.get("large", {}).get("url") else v.get("medium")
+                  print("H\t" + "\t".join(str(x) for x in [q, h["id"], f"{big['width']}x{big['height']}", h["duration"], h["tags"], h.get("user"), big["url"], v["medium"].get("thumbnail") or v["tiny"].get("thumbnail", "")]))
+              time.sleep(0.7)
+          PY
