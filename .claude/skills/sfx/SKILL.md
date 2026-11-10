@@ -49,5 +49,10 @@ Openverse; then `npm run sfx -- list <p>` to see its band before using it. Keep 
 - Budget: ~1 cue per 8-10s (talking head), ~1 per 4-6s clustered (faceless: dense in a montage,
   near-silent under a long calm explanation). If a cue sits on more than ~half the overlays, cut back.
 
+**Shorts / "punchy" briefs**: the house level is for documentaries — cues land ~10 dB under the voice's peaks
+and are effectively inaudible in a fast Short. Set `"sfx_offset_db": 12-16` and `"bed_dip_db": 3` at the top of
+`audio-plan.json`, align each one-shot by its measured peak (cue time = cut − peak offset), and measure the SFX stem
+(mix minus a no-SFX mix) — target cue peaks 3-6 dB under the voice's peaks.
+
 `npm run mix -- <p>` builds `work/mix.wav` (finalize re-mixes automatically when the plan changes).
 You cannot hear it — tell the user to listen for SFX that land wrong or grate.

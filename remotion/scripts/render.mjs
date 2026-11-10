@@ -82,15 +82,20 @@ const progressPrinter = (label) => {
   };
 };
 
+// A machine that can't download Remotion's headless shell (offline / locked-down network) can point
+// at a local Chrome: REMOTION_BROWSER_EXECUTABLE=/path/to/chrome-headless-shell. Unset = Remotion's own.
+const browserExecutable = process.env.REMOTION_BROWSER_EXECUTABLE || null;
+
 /* ---------- child mode: render one frame range from an existing bundle, then exit ---------- */
 const serveUrlArg = arg("serve-url");
 const framesArg = arg("frames");
 if (serveUrlArg && framesArg) {
   const [a, b] = framesArg.split("-").map(Number);
-  const composition = await selectComposition({ serveUrl: serveUrlArg, id, inputProps: props });
+  const composition = await selectComposition({ serveUrl: serveUrlArg, id, inputProps: props, browserExecutable });
   await renderMedia({
     composition,
     serveUrl: serveUrlArg,
+    browserExecutable,
     codec: "h264",
     crf: 16,
     imageFormat: "jpeg",
@@ -111,7 +116,7 @@ if (serveUrlArg && framesArg) {
 process.stdout.write("bundling… ");
 const serveUrl = await bundle({ entryPoint: resolve("src/index.ts"), publicDir });
 console.log("done");
-const composition = await selectComposition({ serveUrl, id, inputProps: props });
+const composition = await selectComposition({ serveUrl, id, inputProps: props, browserExecutable });
 
 if (stills) {
   const outDir = resolve(arg("out-dir"));
@@ -119,7 +124,7 @@ if (stills) {
   for (const t of stills.split(",").map(Number)) {
     const frame = Math.min(composition.durationInFrames - 1, Math.max(0, Math.round(t * composition.fps)));
     const output = join(outDir, `t${t.toFixed(2).padStart(7, "0")}.png`);
-    await renderStill({ composition, serveUrl, output, inputProps: props, frame });
+    await renderStill({ composition, serveUrl, output, inputProps: props, frame, browserExecutable });
     console.log(`still ${t}s → ${output}`);
   }
   process.exit(0);

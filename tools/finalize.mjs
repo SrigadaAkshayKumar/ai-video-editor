@@ -140,7 +140,7 @@ if (news.length) {
   lines.push("SOURCES", ...[...new Map(news.map((s) => [s.url, s])).values()].map((s) => `- ${s.source}${s.date ? `, ${s.date}` : ""}: "${s.headline || ""}" ${s.url}`), "");
 }
 const attrib = credits.filter((c) => c.attribution);
-if (attrib.length) lines.push("MUSIC (attribution required — keep in the description)", ...attrib.map((c) => `- ${c.attribution}`), "");
+if (attrib.length) lines.push("ATTRIBUTION REQUIRED (CC BY / BY-SA — keep in the description)", ...attrib.map((c) => `- ${c.attribution}`), "");
 const courtesy = credits.filter((c) => !c.attribution);
 if (courtesy.length) lines.push("Stock footage, photos & sound", ...courtesy.map((c) => `- ${c.kind}: ${c.title ? `"${c.title}" ` : ""}by ${c.creator} (${c.source}, ${c.license}) ${c.url || ""}`.trim()), "");
 writeText(join(paths.output, "credits.md"), lines.length ? lines.join("\n") : "No third-party assets.\n");

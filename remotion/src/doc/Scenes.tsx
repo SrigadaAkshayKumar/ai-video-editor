@@ -51,6 +51,8 @@ export const GRADE: Record<SceneGrade, string> = {
   warm: "saturate(1.16) contrast(1.06) hue-rotate(6deg) brightness(1.03)",
   noir: "saturate(0.18) contrast(1.34) brightness(0.82)",
   hot: "saturate(1.3) contrast(1.18) brightness(1.06)",
+  // archive / flashback beats ("baat hai 1946 ki"): warm brown, lifted contrast
+  sepia: "sepia(0.78) saturate(0.85) contrast(1.16) brightness(0.9)",
 };
 
 /** Ken Burns: a slow move is the difference between b-roll and a screensaver. */

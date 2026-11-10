@@ -158,6 +158,18 @@ export function markStage(project, stage, extra = {}, fmtKey = null) {
   project.save();
 }
 
+// ffmpeg >= 7.1 reads an option's value from a file as "-/opt file"; older builds only know
+// -filter_complex_script (removed in 8). Pick by the installed major/minor version.
+let ffmpegVer = null;
+export function filterComplexFileArgs(file) {
+  if (ffmpegVer === null) {
+    const out = spawnSync("ffmpeg", ["-version"], { encoding: "utf8" }).stdout || "";
+    const m = out.match(/ffmpeg version n?(\d+)\.(\d+)/);
+    ffmpegVer = m ? Number(m[1]) + Number(m[2]) / 100 : 99;
+  }
+  return ffmpegVer >= 7.01 ? ["-/filter_complex", file] : ["-filter_complex_script", file];
+}
+
 export function readJson(file) {
   // Strip a BOM: PowerShell's Out-File writes one and JSON.parse rejects it.
   return JSON.parse(readFileSync(file, "utf8").replace(/^﻿/, ""));

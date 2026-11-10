@@ -5,6 +5,7 @@ import {
   KeywordChip,
   LowerThird,
   MarqueeStrip,
+  PunchText,
   SideNote,
 } from "./Accents";
 import {
@@ -59,6 +60,7 @@ const REGISTRY: Record<
   term_card: TermCard,
   fact_band: FactBand,
   keyword_chip: KeywordChip,
+  punch_text: PunchText,
   lower_third: LowerThird,
   side_note: SideNote,
   annotation: Annotation,

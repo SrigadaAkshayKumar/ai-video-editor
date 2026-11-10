@@ -232,6 +232,12 @@ const beats: Omit<Overlay, "start">[] = [
     ],
   },
   {
+    type: "punch_text",
+    duration: 1.6,
+    text: "₹1 LAKH CRORE",
+    eyebrow: "Amul today",
+  },
+  {
     type: "keyword_chip",
     duration: 3,
     text: "NPTEL",

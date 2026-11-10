@@ -69,6 +69,8 @@ Alternate dock `side` between consecutive dock beats. Over a whole video no layo
 
 **Full-bleed marks** (never the centre where the face is; `side` left/right)
 - `keyword_chip` — `text` (1-3 words) · `lower_third` — `text`, `eyebrow` · `side_note` — `text`
+- `punch_text` — `text` (1-3 words, ≤22 chars), optional `eyebrow`: the Shorts text pop — big Inter Black, centred
+  low, scale-pop + accent bar. Use it (not `keyword_chip`) when the brief is a fast Short with "a little text".
 - `annotation` — `text`, `shape`: underline|circle|bracket (cheap and lively — use it often)
 - `marquee_strip` — `text` (≤2 per video: the loudest object) · `speed_hint` — optional `text`
 - `sample_answer` — `text` with `[placeholders]` and `\n` lines; holds still to be screenshotted;

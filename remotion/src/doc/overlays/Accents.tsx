@@ -8,7 +8,7 @@
  */
 import React from "react";
 import { AbsoluteFill } from "remotion";
-import { CAPTION_SAFE_Y, EDGE, HEIGHT, MONO_STACK, PORTRAIT, SAFE_TOP, TEXT, TYPE, glass, slab, wash, withAlpha, ON_ACCENT, fg, shade } from "../theme";
+import { CAPTION_SAFE_Y, EDGE, FONT_STACK, HEIGHT, MONO_STACK, PORTRAIT, SAFE_TOP, TEXT, TYPE, WIDTH, glass, slab, wash, withAlpha, ON_ACCENT, fg, shade } from "../theme";
 import type { Overlay } from "../types";
 import {
   DrawnPath,
@@ -315,6 +315,82 @@ export const MarqueeStrip: React.FC<{ ov: Overlay; accent: string }> = ({
         >
           {text.repeat(14)}
         </div>
+      </div>
+    </AbsoluteFill>
+  );
+};
+
+/**
+ * Punch text: the Shorts text pop. One or two big words (Inter Black) land with a scale-pop on the
+ * word the narrator says, an accent bar wipes in under them, and they leave on time. Centred, in the
+ * lower-middle of the frame (clear of the subject's face and Instagram's bottom UI); auto-sized to the
+ * frame width so "₹1 LAKH CRORE" and "FLOP" both fit. Optional `eyebrow`: a small line above.
+ * A keyword_chip is a 34px pill -- right for a documentary aside, unreadable as a Shorts beat.
+ */
+export const PunchText: React.FC<{ ov: Overlay; accent: string }> = ({ ov, accent }) => {
+  const exit = useExit(0.18);
+  const pop = useSettle(0, 0.45);
+  const bar = useWipe(0.22, 0.08);
+  const text = String(ov.text ?? "");
+  const usable = WIDTH - 2 * EDGE;
+  const size = Math.round(Math.min(PORTRAIT ? 168 : 150, usable / Math.max(3, text.length * 0.62)));
+  const scale = 1.35 - 0.35 * pop;
+  return (
+    <AbsoluteFill style={{ opacity: exit }}>
+      <div
+        style={{
+          position: "absolute",
+          left: EDGE,
+          right: EDGE,
+          top: PORTRAIT ? Math.round(HEIGHT * 0.56) : Math.round(HEIGHT * 0.6),
+          textAlign: "center",
+          transform: `scale(${scale}) rotate(${(1 - pop) * -4}deg)`,
+          opacity: Math.min(1, pop * 2),
+        }}
+      >
+        {ov.eyebrow ? (
+          <div
+            style={{
+              display: "inline-block",
+              marginBottom: 14,
+              padding: "8px 22px",
+              borderRadius: 10,
+              background: accent,
+              color: ON_ACCENT,
+              fontFamily: FONT_STACK,
+              fontWeight: 800,
+              fontSize: Math.round(size * 0.32),
+              letterSpacing: 1,
+              textTransform: "uppercase",
+            }}
+          >
+            {ov.eyebrow}
+          </div>
+        ) : null}
+        <div
+          style={{
+            fontFamily: FONT_STACK,
+            fontWeight: 900,
+            fontSize: size,
+            lineHeight: 1.0,
+            letterSpacing: -1,
+            color: "#ffffff",
+            textShadow: "0 6px 0 rgba(0,0,0,0.55), 0 10px 40px rgba(0,0,0,0.75), 0 0 2px rgba(0,0,0,0.9)",
+            WebkitTextStroke: "2px rgba(0,0,0,0.35)",
+          }}
+        >
+          {text}
+        </div>
+        <div
+          style={{
+            margin: "18px auto 0",
+            height: Math.max(10, Math.round(size * 0.09)),
+            width: `${Math.round(60 * bar)}%`,
+            borderRadius: 999,
+            background: accent,
+            boxShadow: `0 6px 24px ${withAlpha(accent, 0.6)}`,
+          }}
+        />
       </div>
     </AbsoluteFill>
   );

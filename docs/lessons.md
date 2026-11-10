@@ -222,3 +222,27 @@ this repo. Append new ones at the end: date, what happened, the rule. Keep it sh
   if it's gone, show a labelled text card ("reported listing"), never the newer page.
 - **TTS reads "I.T." as "I"/"eye"** (and "fresher" → "pressure") in some positions; whisper with the script prompt hides it.
   Prompt-free chunk STT on every line containing an acronym before cutting.
+
+## 2026-11-10 — amul (client sample Short, Hindi faceless VO, 9:16 only, no captions, free stock only, cloud session)
+
+- **House SFX levels are inaudible in a Short.** Measured on an SFX stem (mix minus a no-SFX mix): at the house policy
+  (14 dB under the voice, −8 dB length trim) whooshes/hits peaked ~10 dB under the voice's peaks and lifted the mix
+  0.0-0.5 dB at their own peak — nobody hears that. `audio-plan.json` now takes `"sfx_offset_db"` (+16 here → cue peaks
+  4-5 dB under voice peaks) and `"bed_dip_db"` (music dips under each cue). Measure the stem, don't trust the policy.
+- **Library sub cues stay quiet even lifted** (`impact`/`sub_drop` floor at gain 0.02; the library `riser` peaked −35 dB):
+  for a punchy Short use longer cinematic one-shots (Mixkit) aligned by their measured PEAK offset (cue time = cut − peak).
+- **keyword_chip is a 34px pill** — right for a documentary aside, unreadable as a Shorts beat. New `punch_text` (full-bleed
+  mark): 1-3 big Inter-Black words centred low, scale-pop, accent bar, optional `eyebrow`.
+- **No STT for Hindi in a locked-down session** (no ElevenLabs key; whisper models on huggingface blocked): words.json was
+  built from the client's TurboScribe SRT segments + the corrected script, spread by character length and snapped to
+  measured pauses (`projects/<p>/work/build-words.py`). Fine for scene cuts and text pops; not for word-synced captions.
+- **The SRT/script can be wrong on facts**: the transcript says "1986" for Amul's founding (1946). Show only the checked
+  fact on screen and tell the client the VO line needs a re-record if the narrator really said 1986.
+- **Wikimedia rate-limits a shared egress IP hard** (429 on API, originals AND standard thumbnails for 30+ min after ~40
+  requests). Openverse's thumb proxy (`/v1/images/<id>/thumb/?full_size=true`) serves Flickr CC images at 1024px through
+  api.openverse.org — but not Wikimedia ones (its upstream is rate-limited the same way).
+- **Remotion launches Chrome with `--no-proxy-server`**: behind an HTTPS proxy, Google Fonts fail (cert error) and the
+  render dies in fetchFontData. `REMOTION_BROWSER_EXECUTABLE` (render.mjs) points at a local Chrome; in the cloud box that is
+  a wrapper that drops the proxy-bypass flags and passes `--proxy-server=$HTTPS_PROXY` (TLS checks stay on).
+- **ffmpeg 6 has no `-/filter_complex <file>`**: `filterComplexFileArgs()` picks `-filter_complex_script` below 7.1.
+- **`sepia` scene grade** for flashback beats ("baat hai 1946 ki").

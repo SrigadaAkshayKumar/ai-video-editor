@@ -49,7 +49,7 @@ const warns = [];
 const num = (v) => typeof v === "number" && Number.isFinite(v);
 const items = (ov, min = 1) => Array.isArray(ov.items) && ov.items.length >= min;
 const DOCK = ["bar_chart", "line_chart", "donut_chart", "progress_ring", "step_progress", "timeline", "bullet_list", "comparison", "term_card"];
-const MARKS = ["keyword_chip", "lower_third", "side_note", "annotation", "marquee_strip", "speed_hint", "sample_answer"];
+const MARKS = ["keyword_chip", "punch_text", "lower_third", "side_note", "annotation", "marquee_strip", "speed_hint", "sample_answer"];
 // Required props per component: the template's most common silent defect was a component drawing
 // nothing because a field had the wrong name. Each rule names the exact field the component reads.
 const RULES = {
@@ -76,6 +76,7 @@ const RULES = {
   term_card: [(o) => Boolean((o.text && o.items?.[0]?.label)), "term_card needs text (term) + items[0].label (definition)"],
   fact_band: [(o) => Boolean((items(o, 2) && o.items.every((i) => i.label))), "fact_band needs 2-3 items {label, sublabel}"],
   keyword_chip: [(o) => Boolean(o.text), "keyword_chip needs text"],
+  punch_text: [(o) => Boolean(o.text) && String(o.text).length <= 22, "punch_text needs text (1-3 words, <= 22 chars)"],
   lower_third: [(o) => Boolean(o.text), "lower_third needs text"],
   side_note: [(o) => Boolean(o.text), "side_note needs text"],
   annotation: [(o) => Boolean(o.text), "annotation needs text"],

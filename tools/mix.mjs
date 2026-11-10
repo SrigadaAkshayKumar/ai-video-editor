@@ -7,7 +7,8 @@
 //     then sidechain-ducked against the voice; `gain_rel` trims relative to that house level
 // Usage: node tools/mix.mjs <project> [--dry-run]
 //
-// audio-plan.json (clean-cut timeline):
+// audio-plan.json (clean-cut timeline). Optional: "sfx_offset_db" (lift all cues off the house level,
+// e.g. +8 for Shorts) and "bed_dip_db" (dip the music under each cue so it sits above the bed):
 // {
 //   "music_cues": [ { "start": 0, "end": 46.2, "file": "assets/music/x.mp3", "gain_rel": 1.0,
 //                     "fade_in": 1.0, "fade_out": 2.5, "music_start": 0, "mood": "cold tension",
@@ -18,7 +19,7 @@
 import { existsSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { DUCK, LIBRARY, MUSIC_CONDITION, analyseSfx, musicGain, resolveSfx, sfxGain } from "./lib/audio.mjs";
-import { die, markStage, openProject, parseCli, readJson, round3, run, ts, volumeDetect, writeJson } from "./lib/common.mjs";
+import { die, filterComplexFileArgs, markStage, openProject, parseCli, readJson, round3, run, ts, volumeDetect, writeJson } from "./lib/common.mjs";
 
 const { flags, positional } = parseCli();
 const project = openProject(positional[0]);
@@ -99,7 +100,17 @@ if (musLabels.length) {
       ? `${musLabels.join("")}amix=inputs=${musLabels.length}:duration=longest:dropout_transition=0:normalize=0[bed]`
       : `${musLabels[0]}anull[bed]`,
   );
-  parts.push(`[bed][key]${DUCK}[ducked]`);
+  // Optional bed dip under each SFX (plan.bed_dip_db): the cue has to sit ABOVE the bed, not in it
+  // (talking-head-sample: "dominated by the background music").
+  const dip = Number(plan.bed_dip_db || 0);
+  const dips = dip > 0
+    ? events.map((e) => {
+        const len = Math.min(1.2, sfxLevels[e.sfx]?.seconds ?? 0.6);
+        return `volume=${(10 ** (-dip / 20)).toFixed(4)}:enable='between(t,${(e.time - 0.05).toFixed(3)},${(e.time + len).toFixed(3)})'`;
+      })
+    : [];
+  parts.push(`[bed]${dips.length ? dips.join(",") : "anull"}[bedd]`);
+  parts.push(`[bedd][key]${DUCK}[ducked]`);
   mixLabels.push("[ducked]");
 } else parts.push("[key]anullsink");
 
@@ -118,7 +129,9 @@ for (const [file, list] of byFile) {
   const outs = list.map((_, k) => `[sx${idx}_${k}]`).join("");
   parts.push(list.length > 1 ? `[${idx}:a]asplit=${list.length}${outs}` : `[${idx}:a]anull${outs}`);
   list.forEach((e, k) => {
-    const gain = sfxLevels[e.sfx].gain * Math.min(1, e.gain ?? 1);
+    // plan.sfx_offset_db moves EVERY cue off the house level (Shorts want cues you can hear: +6..+10);
+    // per-event gain still only pushes down.
+    const gain = sfxLevels[e.sfx].gain * 10 ** (Number(plan.sfx_offset_db || 0) / 20) * Math.min(1, e.gain ?? 1);
     const delay = Math.round(e.time * 1000);
     parts.push(`[sx${idx}_${k}]volume=${gain.toFixed(4)},aresample=48000,aformat=sample_fmts=fltp:channel_layouts=stereo,adelay=${delay}|${delay}[sfx${n}]`);
     mixLabels.push(`[sfx${n}]`);
@@ -133,7 +146,7 @@ parts.push(`[pre]alimiter=limit=0.97:level=disabled[aout]`);
 // The graph goes through a file (-/filter_complex): long edits outgrow the command line.
 const graphFile = join(paths.work, "mix.filtergraph.txt");
 writeFileSync(graphFile, parts.join(";\n"));
-run("ffmpeg", ["-y", "-v", "error", ...inputs, "-/filter_complex", graphFile, "-map", "[aout]", "-c:a", "pcm_s16le", "-ar", "48000", paths.mix]);
+run("ffmpeg", ["-y", "-v", "error", ...inputs, ...filterComplexFileArgs(graphFile), "-map", "[aout]", "-c:a", "pcm_s16le", "-ar", "48000", paths.mix]);
 
 const mixed = volumeDetect(paths.mix);
 markStage(project, "mix", { music: musLabels.length, sfx: n });

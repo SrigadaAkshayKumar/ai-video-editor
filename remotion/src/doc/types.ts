@@ -41,6 +41,7 @@ export type OverlayType =
   | "fact_band"
   // --- full: video stays full-bleed, light marks on top ---
   | "keyword_chip"
+  | "punch_text" // Shorts text pop: one or two big words centred low, scale-pop + accent bar
   | "lower_third"
   | "side_note"
   | "annotation" // drawn underline / circle / bracket around a floating word
@@ -148,7 +149,7 @@ export type SceneMotion =
 export type SceneTransition = "cut" | "fade" | "whip" | "flash";
 
 /** Colour treatment. The grade is how the picture carries the tension curve. */
-export type SceneGrade = "neutral" | "cool" | "warm" | "noir" | "hot";
+export type SceneGrade = "neutral" | "cool" | "warm" | "noir" | "hot" | "sepia";
 
 export type Scene = {
   index: number;
