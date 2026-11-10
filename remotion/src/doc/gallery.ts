@@ -232,6 +232,21 @@ const beats: Omit<Overlay, "start">[] = [
     ],
   },
   {
+    type: "story_flow",
+    duration: 2.4,
+    text: "No middleman",
+    items: [{ label: "Farmers" }, { label: "Polson", sublabel: "middleman", state: "no" }, { label: "Customers" }],
+  },
+  {
+    type: "vs_card",
+    duration: 2.6,
+    text: "Why it flopped",
+    items: [
+      { label: "Amul", sublabel: "White · unsalted", state: "no" },
+      { label: "Polson", sublabel: "Yellow · salted", state: "yes" },
+    ],
+  },
+  {
     type: "punch_text",
     duration: 1.6,
     text: "₹1 LAKH CRORE",

@@ -8,6 +8,7 @@ import {
   PunchText,
   SideNote,
 } from "./Accents";
+import { StoryFlow, VsCard } from "./Shorts";
 import {
   Checklist,
   FlowDiagram,
@@ -61,6 +62,8 @@ const REGISTRY: Record<
   fact_band: FactBand,
   keyword_chip: KeywordChip,
   punch_text: PunchText,
+  story_flow: StoryFlow,
+  vs_card: VsCard,
   lower_third: LowerThird,
   side_note: SideNote,
   annotation: Annotation,

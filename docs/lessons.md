@@ -246,3 +246,12 @@ this repo. Append new ones at the end: date, what happened, the rule. Keep it sh
   a wrapper that drops the proxy-bypass flags and passes `--proxy-server=$HTTPS_PROXY` (TLS checks stay on).
 - **ffmpeg 6 has no `-/filter_complex <file>`**: `filterComplexFileArgs()` picks `-filter_complex_script` below 7.1.
 - **`sepia` scene grade** for flashback beats ("baat hai 1946 ki").
+- **v2 client feedback: documentary graphics don't work in a Short.** flow_diagram / checklist / comparison / number_roll
+  reframe the picture (corner/dock): in 9:16 the footage became a thumbnail in an empty dark frame, and a takeover's
+  gap-fill dimmed the next photo too. New full-bleed Shorts set over the live footage: `story_flow` (big pills + drawn
+  arrows, `state: "no"` strikes one out — draw the middleman, then strike him), `vs_card` (two cards, VS, ✓/✗), and
+  `punch_text` `value` (counts up) / `from` (struck-through old line above the new one).
+- **Client photos arrive small** (184-740px). `fit: "card"` frames them over a blurred copy; CSS max-width never enlarges,
+  so a card needs `aspect` (build-plan reads it with ffprobe) to scale up.
+- **Clients want the named thing on screen**: every named company/person (Polson, Kurien) needs its own picture at the
+  word; ask for it up front when the free sources can't reach it.

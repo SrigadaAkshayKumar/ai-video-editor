@@ -380,6 +380,56 @@ const SceneBody: React.FC<{ scene: Scene; accent: string; p: number }> = ({
     );
   }
 
+  // A small or odd-shaped photo (an archive print, an old ad, a portrait the client sent at 400px)
+  // goes on a framed card over a blurred, darkened copy of itself: cover-cropping it to 1080x1920
+  // would blow it up 5x and cut off the subject.
+  if (scene.kind === "still" && scene.fit === "card" && scene.src) {
+    const src = staticFile((PORTRAIT && scene.src_portrait) || scene.src);
+    return (
+      <AbsoluteFill style={{ overflow: "hidden", backgroundColor: PAPER }}>
+        <Img
+          src={src}
+          style={{
+            position: "absolute",
+            inset: -80,
+            width: WIDTH + 160,
+            height: HEIGHT + 160,
+            objectFit: "cover",
+            filter: `blur(46px) brightness(0.45) saturate(1.2) ${grade}`,
+          }}
+        />
+        <AbsoluteFill
+          style={{
+            alignItems: "center",
+            justifyContent: "center",
+            transform: kenBurns(motion === "static" ? "static" : "ken_in", p),
+          }}
+        >
+          <Img
+            src={src}
+            style={{
+              // max-* never enlarges a small image (a 184px-wide ad stayed 184px): with the photo's
+              // aspect known, size the card explicitly to the largest box that fits.
+              ...(() => {
+                const mw = WIDTH * (PORTRAIT ? 0.86 : 0.6);
+                const mh = HEIGHT * (PORTRAIT ? 0.6 : 0.78);
+                if (!scene.aspect) return { maxWidth: mw, maxHeight: mh };
+                const w = Math.min(mw, mh * scene.aspect);
+                return { width: w, height: w / scene.aspect };
+              })(),
+              objectFit: "contain",
+              borderRadius: 18,
+              border: `6px solid ${withAlpha("#ffffff", 0.92)}`,
+              boxShadow: "0 30px 80px rgba(0,0,0,0.65)",
+              transform: `rotate(${scene.tilt ?? 0}deg)`,
+              filter: grade,
+            }}
+          />
+        </AbsoluteFill>
+      </AbsoluteFill>
+    );
+  }
+
   const media =
     scene.kind === "broll" ? (
       <OffthreadVideo

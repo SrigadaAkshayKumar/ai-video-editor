@@ -42,6 +42,8 @@ export type OverlayType =
   // --- full: video stays full-bleed, light marks on top ---
   | "keyword_chip"
   | "punch_text" // Shorts text pop: one or two big words centred low, scale-pop + accent bar
+  | "story_flow" // Shorts: big pills top-to-bottom with drawn arrows; state "no" strikes one out
+  | "vs_card" // Shorts: two stacked cards, VS between, ✓/✗ badges from state
   | "lower_third"
   | "side_note"
   | "annotation" // drawn underline / circle / bracket around a floating word
@@ -163,6 +165,13 @@ export type Scene = {
   src_portrait?: string;
   /** CSS object-position for cover-cropped media, e.g. "30% 50%". */
   position?: string;
+  /** `still` only: "card" frames a small / odd-shaped photo over a blurred copy of itself
+   *  instead of cover-cropping it (default "cover"). */
+  fit?: "cover" | "card";
+  /** `fit: "card"`: a slight rotation of the card, degrees (e.g. -2). */
+  tilt?: number;
+  /** `fit: "card"`: the photo's width/height, so a small photo is scaled UP to fill the card. */
+  aspect?: number;
   /** For `broll`: where in the source clip to start playing, seconds. */
   media_start?: number;
   motion?: SceneMotion;

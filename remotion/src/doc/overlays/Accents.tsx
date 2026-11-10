@@ -331,7 +331,12 @@ export const PunchText: React.FC<{ ov: Overlay; accent: string }> = ({ ov, accen
   const exit = useExit(0.18);
   const pop = useSettle(0, 0.45);
   const bar = useWipe(0.22, 0.08);
-  const text = String(ov.text ?? "");
+  const strike = useWipe(0.25, 0.12);
+  const { t } = useLocal();
+  // value (number): count up to it over ~0.8s, wrapped in prefix/suffix ("36" + " LAKH").
+  const counting = typeof ov.value === "number";
+  const n = counting ? Math.round(Number(ov.value) * Math.min(1, t / 0.8) ** 0.6) : 0;
+  const text = counting ? `${ov.prefix ?? ""}${n}${ov.suffix ?? ""}` : String(ov.text ?? "");
   const usable = WIDTH - 2 * EDGE;
   const size = Math.round(Math.min(PORTRAIT ? 168 : 150, usable / Math.max(3, text.length * 0.62)));
   const scale = 1.35 - 0.35 * pop;
@@ -348,6 +353,34 @@ export const PunchText: React.FC<{ ov: Overlay; accent: string }> = ({ ov, accen
           opacity: Math.min(1, pop * 2),
         }}
       >
+        {ov.from ? (
+          <div
+            style={{
+              position: "relative",
+              display: "inline-block",
+              marginBottom: 10,
+              fontFamily: FONT_STACK,
+              fontWeight: 800,
+              fontSize: Math.round(size * 0.42),
+              color: "rgba(255,255,255,0.72)",
+              textShadow: "0 4px 18px rgba(0,0,0,0.8)",
+            }}
+          >
+            {ov.from}
+            <div
+              style={{
+                position: "absolute",
+                left: 0,
+                top: "52%",
+                height: Math.max(6, Math.round(size * 0.05)),
+                width: `${100 * strike}%`,
+                background: "#ff4d4f",
+                borderRadius: 6,
+              }}
+            />
+          </div>
+        ) : null}
+        {ov.from ? <br /> : null}
         {ov.eyebrow ? (
           <div
             style={{
