@@ -34,9 +34,11 @@ jobs:
               except Exception as e:
                   print(f"Q\t{q}\tERROR {type(e).__name__}"); continue
               print(f"Q\t{q}\t{d.get('totalHits')}")
-              for h in d.get("hits", []):
+              hits = sorted(d.get("hits", []), key=lambda h: h["videos"]["large"]["height"] <= h["videos"]["large"]["width"])  # vertical first
+              for h in hits[:14]:
                   v = h["videos"]
-                  big = v.get("large") if v.get("large", {}).get("url") else v.get("medium")
-                  print("H\t" + "\t".join(str(x) for x in [q, h["id"], f"{big['width']}x{big['height']}", h["duration"], h["tags"], h.get("user"), big["url"], v["medium"].get("thumbnail") or v["tiny"].get("thumbnail", "")]))
+                  big = v["large"] if v.get("large", {}).get("url") else v["medium"]
+                  tags = ",".join(t.strip() for t in h["tags"].split(",")[:4])
+                  print("H\t" + "\t".join(str(x) for x in [h["id"], f"{big['width']}x{big['height']}", h["duration"], tags, big["url"].split("/video/")[-1]]))
               time.sleep(0.7)
           PY
