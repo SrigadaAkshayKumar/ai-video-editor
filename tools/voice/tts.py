@@ -40,13 +40,18 @@ def chunks(text, min_words, max_words):
     return out
 
 
+AUDIO = {".wav", ".mp3", ".m4a", ".flac", ".ogg", ".opus", ".aac"}
+
+
 def find_ref(stem):
+    """The reference clip: an audio file named <stem>.* (a transcript or note with the same name next to it is skipped)."""
     p = ROOT / stem
     if p.is_file():
         return p
-    hits = [f for f in p.parent.glob("*") if f.is_file() and f.stem.lower() == p.name.lower()] if p.parent.is_dir() else []
+    hits = sorted(f for f in p.parent.glob("*") if f.is_file() and f.stem.lower() == p.name.lower()
+                  and f.suffix.lower() in AUDIO) if p.parent.is_dir() else []
     if not hits:
-        sys.exit(f"error: voice reference {stem}.* not found (put it in the Drive folder inbox/brand/)")
+        sys.exit(f"error: voice reference {stem}.<audio> not found (put it in the Drive folder inbox/brand/)")
     return hits[0]
 
 
