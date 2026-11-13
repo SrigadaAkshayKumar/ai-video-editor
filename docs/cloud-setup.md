@@ -36,6 +36,8 @@ AI-edits/
 - **Episodes run in folder order, one a day.** A folder with only a script gets voiced, then edited, in the same
   run; a folder where you dropped your own `dNN-voice.wav` skips the voice step. With no planned folder left, the run
   makes `d<next>/` itself from fresh news (turn that off with `"freshNews": false` in `config/daily.json`).
+- **Fresh scripts only (current setting):** `"plannedEpisodes": false` skips the planned folders altogether; every
+  run researches the day's news and writes a new episode (`fresh-news.txt` marks it, so a failed one is resumed).
 - **Voice reference:** `inbox/brand/my-final-voice.*` plus its exact words in `config/voice.json` → `refText`.
   Recording a new reference? Upload it with the same name and update `refText` (a 10–20 s clip clones better).
 - **Edit looks:** each episode gets a look picked at random from `config/daily.json` → `looks.list` (a visual

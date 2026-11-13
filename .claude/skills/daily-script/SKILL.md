@@ -22,7 +22,12 @@ voice, then the `daily-run` skill edits it. Nobody reads the script before it is
 
 ## 1. Which episode
 
-Work through the cases in order and stop at the first that applies:
+**`config/daily.json` → `"plannedEpisodes": false` (the owner's standing choice):** the planned folders are retired.
+Skip case 1: write a fresh-news episode from today's news (section 2) in the folder the prompt names, and never pick,
+fill or copy a planned folder. Still read the planned titles, but only to avoid repeating a topic. If the prompt names
+a folder that already holds your unfinished fresh script, finish that one.
+
+Otherwise work through the cases in order and stop at the first that applies:
 
 1. **Planned episode named in the prompt has no voiceover, or its voiceover has `{FILL…}`/`{OPTIONAL…}`:**
    - Missing voiceover but the `*_script.md` has ```` ```vo ```` blocks: the voiceover is those blocks' text, in

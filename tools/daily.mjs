@@ -4,7 +4,9 @@
 // Usage:
 //   node tools/daily.mjs next [dNN]   which episode today and what it still needs. Picks the first folder in
 //                                     config/daily.json's series without a finished edit (or the one named); with
-//                                     none left, the next number (a fresh-news episode). Prints JSON with
+//                                     none left, the next number (a fresh-news episode). With "plannedEpisodes": false
+//                                     the planned folders are skipped: only a fresh episode left unfinished (marked
+//                                     fresh-news.txt) is resumed, else a new fresh one is started. Prints JSON with
 //                                     needs = script | voice | edit:
 //                                       script  the voiceover is missing or still has {FILL…}/{OPTIONAL…} (daily-script skill)
 //                                       voice   the voiceover is ready but there is no audio (tools/voice/tts.py)
@@ -21,7 +23,7 @@
 //   node tools/daily.mjs done [--look name]  records the episode (and its look) in config/daily-state.json
 //                                     (committed by the workflow).
 // In GitHub Actions every answer is also written to $GITHUB_OUTPUT (episode, needs, project, shorts_dir, …).
-import { appendFileSync, existsSync, readFileSync, readdirSync } from "node:fs";
+import { appendFileSync, existsSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { basename, extname, join } from "node:path";
 import { PROJECTS, ROOT, die, parseCli, readJson, run, writeJson } from "./lib/common.mjs";
 import { MEDIA_EXT } from "./lib/inbox.mjs";
@@ -31,6 +33,7 @@ const STATE = join(ROOT, "config", "daily-state.json");
 const RESULT = join(ROOT, "daily-run.json");
 const SCRIPT_RESULT = join(ROOT, "daily-script.json");
 const PLACEHOLDER = /\{(FILL|OPTIONAL)/i;
+const FRESH_MARK = "fresh-news.txt"; // in a folder the script step wrote from the news (not a planned episode)
 
 const { positional, flags } = parseCli();
 const [cmd, arg] = positional;
@@ -104,7 +107,9 @@ if (cmd === "next") {
   }
   if (!existsSync(series)) die(`${config.series} not found — is the Drive inbox synced?`);
   const episodes = listEpisodes();
-  const pick = arg ? episodes.find((e) => e.toLowerCase() === arg.toLowerCase()) : episodes.find((e) => !finished(e));
+  const planned = config.plannedEpisodes !== false;
+  const pick = arg ? episodes.find((e) => e.toLowerCase() === arg.toLowerCase())
+    : episodes.find((e) => !finished(e) && (planned || filesOf(e).includes(FRESH_MARK)));
   if (arg && !pick) die(`no episode folder ${arg} in ${config.series}`);
   if (!pick) {
     if (config.freshNews === false) {
@@ -113,7 +118,7 @@ if (cmd === "next") {
     }
     const last = episodes.length ? episodeNumber(episodes.at(-1)) : 0;
     const episode = `d${String(last + 1).padStart(2, "0")}`;
-    output({ episode, needs: "script", dir: rel(config.series, episode), audio: "", voiceover: "", brief: "", ...lookFields(episode) });
+    output({ episode, needs: "script", fresh: 1, dir: rel(config.series, episode), audio: "", voiceover: "", brief: "", ...lookFields(episode) });
     process.exit(0);
   }
   const audio = audioOf(pick);
@@ -140,6 +145,7 @@ if (cmd === "next") {
   if (PLACEHOLDER.test(text) || /[{}]/.test(text)) die(`${vo} still has a placeholder or brace — the voice would read it out`);
   const words = text.split(/\s+/).filter(Boolean).length;
   if (words < 150) die(`${vo} has only ${words} words`);
+  if (r.kind === "fresh") writeFileSync(join(series, r.episode, FRESH_MARK), `fresh-news episode, script written ${new Date().toISOString()}\n`);
   output({ episode: r.episode, needs: needsOf(r.episode), dir: rel(config.series, r.episode), voiceover: rel(config.series, r.episode, vo), words });
 } else if (cmd === "check") {
   if (!existsSync(RESULT)) die("daily-run.json missing — the edit did not finish");
