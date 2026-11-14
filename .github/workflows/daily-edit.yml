@@ -276,6 +276,17 @@ jobs:
           dir="$DRIVE/output/_failed/$EPISODE-$(date -u +%Y%m%d-%H%M)"
           for f in daily-script-report.md daily-script.json daily-report.md daily-run.json; do [ -f "$f" ] && rclone copy "$f" "$dir"; done
           echo "Run failed; report (if any) in $dir and the workflow log." >> "$GITHUB_STEP_SUMMARY"
+          # which tools Claude called and which of them errored (names and short error text only; the log is public)
+          for log in claude-script-log.jsonl claude-log.jsonl; do
+            [ -f "$log" ] && node -e '
+              const lines = require("fs").readFileSync(process.argv[1], "utf8").split("\n").filter(Boolean).map((l) => { try { return JSON.parse(l); } catch { return {}; } });
+              const blocks = lines.flatMap((e) => e.message?.content || []).filter((b) => typeof b === "object");
+              const used = {}; for (const b of blocks) if (b.type === "tool_use") used[b.name] = (used[b.name] || 0) + 1;
+              const errs = blocks.filter((b) => b.type === "tool_result" && b.is_error)
+                .map((b) => String(Array.isArray(b.content) ? b.content.map((c) => c.text || "").join(" ") : b.content).replace(/\s+/g, " ").slice(0, 160));
+              console.log(`${process.argv[1]}: tools ${JSON.stringify(used)}; ${errs.length} errors`);
+              for (const e of errs.slice(0, 8)) console.log(`- ${e}`);' "$log" | tee -a "$GITHUB_STEP_SUMMARY" || true
+          done
 
       # Not a run artifact: this repo is public, and artifacts of a public repo can be downloaded by anyone.
       - name: Keep the Claude logs (Drive)

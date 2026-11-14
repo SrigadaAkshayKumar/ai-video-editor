@@ -53,6 +53,15 @@ Deferring keeps the date-bound plan honest: the deferred episode comes up again 
   Times, Mint, BusinessToday, Moneycontrol, NDTV Profit, official careers pages). Prefer the story with a concrete,
   checkable fact that changes what a fresher should do this week. Skip anything the series has already covered
   unless there is a real update, and say so in the title ("Update: …").
+- **Tools, in this order, and never give up after one failure:** WebSearch / WebFetch; when they are missing, error
+  or are blocked by a site, use the repo's own helpers through Bash, which work on the runner:
+  `node tools/web.mjs news "<query>" [--days 2]` (Google News headlines; add `--provider bing` for direct article
+  links) and `node tools/web.mjs read <url>` (the page's text in headless Chrome; a page read this way counts as
+  opened). Try at least eight different searches (company names, "freshers", "campus hiring", "onboarding",
+  "layoffs", "NQT", "off-campus drive", "joining date") and two days, then three, before concluding there is no
+  topic. A slow news day still has a usable story: a hiring drive, an exam date, a results-day hiring comment.
+  `"status": "failed"` is only for when the tools themselves cannot reach any news; then say which tool failed and
+  its exact error in `notes`.
 - **Shape (copy d01):** a hook that names who it is for and promises specific takeaways; 4–7 scenes `S01 · …`;
   plain-words explanation of every number; a practical "what to do now" section; a CTA that asks a specific comment
   question + subscribe. Length **650–950 words** of voiceover (~4–6 min).
