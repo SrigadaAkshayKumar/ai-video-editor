@@ -1,0 +1,128 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "title_slide: Rejected in the H.R. round?"
+  },
+  {
+   "time": 8.48,
+   "sfx": "click",
+   "gain": 3,
+   "reason": "keyword_chip: Campus or off-campus"
+  },
+  {
+   "time": 20.03,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Why H.R. exists"
+  },
+  {
+   "time": 23.28,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Two different questions"
+  },
+  {
+   "time": 51.03,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Reading your resume"
+  },
+  {
+   "time": 56.38,
+   "sfx": "click",
+   "gain": 3,
+   "reason": "keyword_chip: Name · college · marks"
+  },
+  {
+   "time": 59.98,
+   "sfx": "click",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 66.58,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Tell me about yourself"
+  },
+  {
+   "time": 86.18,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Salary answers"
+  },
+  {
+   "time": 89.58,
+   "sfx": "click",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 103.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: A safer answer"
+  },
+  {
+   "time": 115.68,
+   "sfx": "click",
+   "gain": 3,
+   "reason": "keyword_chip: Mistake 3 next"
+  },
+  {
+   "time": 120.38,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Why hire you?"
+  },
+  {
+   "time": 123.78,
+   "sfx": "ding",
+   "gain": 2,
+   "reason": "checklist: Why should we hire you?"
+  },
+  {
+   "time": 136.18,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Proof method"
+  },
+  {
+   "time": 158.43,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: The one-minute method"
+  },
+  {
+   "time": 161.68,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Any H.R. question"
+  },
+  {
+   "time": 166.18,
+   "sfx": "ding",
+   "gain": 2,
+   "reason": "step_progress: This week"
+  },
+  {
+   "time": 183.38,
+   "sfx": "click",
+   "gain": 3,
+   "reason": "keyword_chip: Sound calm"
+  },
+  {
+   "time": 186.98,
+   "sfx": "ding",
+   "gain": 2,
+   "reason": "checklist: To sum up"
+  }
+ ]
+}

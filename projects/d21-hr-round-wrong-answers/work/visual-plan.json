@@ -1,0 +1,703 @@
+{
+ "style": "blueprint",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 4.35,
+   "type": "title_slide",
+   "text": "Rejected in the H.R. round?",
+   "eyebrow": "Crack IT · Day 21",
+   "style_hint": "3 H.R. answers that get freshers rejected"
+  },
+  {
+   "start": 4.7,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "Rejected in the H.R. round",
+   "side": "right"
+  },
+  {
+   "start": 8.4,
+   "duration": 2.1,
+   "type": "keyword_chip",
+   "text": "Campus or off-campus",
+   "side": "left"
+  },
+  {
+   "start": 10.9,
+   "duration": 8.7,
+   "type": "fact_band",
+   "items": [
+    {
+     "label": "?",
+     "sublabel": "Answer 1"
+    },
+    {
+     "label": "?",
+     "sublabel": "Answer 2"
+    },
+    {
+     "label": "?",
+     "sublabel": "Answer 3"
+    }
+   ]
+  },
+  {
+   "start": 19.95,
+   "duration": 3.05,
+   "type": "chapter_open",
+   "text": "Why H.R. exists",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 1
+  },
+  {
+   "start": 23.2,
+   "duration": 12.2,
+   "type": "flow_diagram",
+   "text": "Two different questions",
+   "items": [
+    {
+     "label": "Technical round",
+     "sublabel": "can you do it?"
+    },
+    {
+     "label": "H.R. round",
+     "sublabel": "will you stay and learn?"
+    },
+    {
+     "label": "Offer"
+    }
+   ]
+  },
+  {
+   "start": 35.7,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "H.R. = risk check",
+   "side": "left"
+  },
+  {
+   "start": 41.2,
+   "duration": 6.3,
+   "type": "matrix_grid",
+   "text": "Heard 100 times",
+   "items": [
+    {
+     "label": "Hard-working"
+    },
+    {
+     "label": "Hard-working"
+    },
+    {
+     "label": "Hard-working"
+    },
+    {
+     "label": "Hard-working"
+    },
+    {
+     "label": "Hard-working"
+    },
+    {
+     "label": "Hard-working"
+    }
+   ]
+  },
+  {
+   "start": 47.7,
+   "duration": 3.1,
+   "type": "big_statement",
+   "text": "Be specific. Be true.",
+   "eyebrow": "specific"
+  },
+  {
+   "start": 50.95,
+   "duration": 3.05,
+   "type": "chapter_open",
+   "text": "Reading your resume",
+   "eyebrow": "Wrong answer 01",
+   "numeral": "01",
+   "section": 2
+  },
+  {
+   "start": 56.3,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "Name · college · marks",
+   "side": "left"
+  },
+  {
+   "start": 59.9,
+   "duration": 6.3,
+   "type": "comparison",
+   "side": "left",
+   "left": {
+    "label": "Resume reading ✗",
+    "text": "Nothing new"
+   },
+   "right": {
+    "label": "Who · Proof · Next ✓",
+    "text": "30-40 seconds"
+   }
+  },
+  {
+   "start": 66.5,
+   "duration": 8.4,
+   "type": "flow_diagram",
+   "text": "Tell me about yourself",
+   "items": [
+    {
+     "label": "Who you are",
+     "sublabel": "one line"
+    },
+    {
+     "label": "Proud of",
+     "sublabel": "built or learned"
+    },
+    {
+     "label": "Next",
+     "sublabel": "work you want"
+    }
+   ]
+  },
+  {
+   "start": 75.2,
+   "duration": 10.7,
+   "type": "quote_pull",
+   "text": "I built a small attendance app for my class and learned how to fix bugs after real users complained.",
+   "eyebrow": "Sample answer · change it to your own story"
+  },
+  {
+   "start": 86.1,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Salary answers",
+   "eyebrow": "Wrong answer 02",
+   "numeral": "02",
+   "section": 3
+  },
+  {
+   "start": 89.5,
+   "duration": 4.5,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Too high",
+    "text": "big number"
+   },
+   "right": {
+    "label": "Anything is fine",
+    "text": "no value"
+   }
+  },
+  {
+   "start": 95.4,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Unaware of fresher pay",
+   "side": "left"
+  },
+  {
+   "start": 98.5,
+   "duration": 3.4,
+   "type": "side_note",
+   "text": "No sense of your own value",
+   "side": "right"
+  },
+  {
+   "start": 103,
+   "duration": 12.2,
+   "type": "flow_diagram",
+   "text": "A safer answer",
+   "items": [
+    {
+     "label": "Do homework"
+    },
+    {
+     "label": "Open to standard range"
+    },
+    {
+     "label": "Shift to learning"
+    }
+   ]
+  },
+  {
+   "start": 115.6,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Mistake 3 next",
+   "side": "right"
+  },
+  {
+   "start": 120.3,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Why hire you?",
+   "eyebrow": "Wrong answer 03",
+   "numeral": "03",
+   "section": 4
+  },
+  {
+   "start": 123.7,
+   "duration": 9.4,
+   "type": "checklist",
+   "text": "Why should we hire you?",
+   "items": [
+    {
+     "label": "Hardworking",
+     "state": "no"
+    },
+    {
+     "label": "Quick learner",
+     "state": "no"
+    },
+    {
+     "label": "Team player",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 133.4,
+   "duration": 2.5,
+   "type": "keyword_chip",
+   "text": "Claim ≠ proof",
+   "side": "right"
+  },
+  {
+   "start": 136.1,
+   "duration": 3.7,
+   "type": "flow_diagram",
+   "text": "Proof method",
+   "items": [
+    {
+     "label": "One quality"
+    },
+    {
+     "label": "Small real story"
+    },
+    {
+     "label": "Show it"
+    }
+   ]
+  },
+  {
+   "start": 140,
+   "duration": 9.7,
+   "type": "quote_pull",
+   "text": "In my third year I had never used databases. In two weeks I built a project with one, and I can show it to you.",
+   "eyebrow": "Sample proof · use your own"
+  },
+  {
+   "start": 150.1,
+   "duration": 2.4,
+   "type": "big_statement",
+   "text": "One story beats ten adjectives",
+   "eyebrow": "story"
+  },
+  {
+   "start": 152.8,
+   "duration": 5.4,
+   "type": "bullet_list",
+   "side": "right",
+   "text": "No project yet?",
+   "items": [
+    {
+     "label": "A lab"
+    },
+    {
+     "label": "A college event"
+    },
+    {
+     "label": "A course you finished"
+    },
+    {
+     "label": "Just keep it real"
+    }
+   ]
+  },
+  {
+   "start": 158.35,
+   "duration": 3.05,
+   "type": "chapter_open",
+   "text": "The one-minute method",
+   "eyebrow": "Section 04",
+   "numeral": "04",
+   "section": 0
+  },
+  {
+   "start": 161.6,
+   "duration": 4.2,
+   "type": "flow_diagram",
+   "text": "Any H.R. question",
+   "items": [
+    {
+     "label": "Answer",
+     "sublabel": "one sentence"
+    },
+    {
+     "label": "Proof",
+     "sublabel": "one sentence"
+    },
+    {
+     "label": "Link to job",
+     "sublabel": "one sentence"
+    }
+   ]
+  },
+  {
+   "start": 166.1,
+   "duration": 16.8,
+   "type": "step_progress",
+   "side": "left",
+   "text": "This week",
+   "current_step": 0,
+   "items": [
+    {
+     "label": "Write your 3 answers",
+     "at": 0
+    },
+    {
+     "label": "Record yourself once",
+     "at": 7.7
+    },
+    {
+     "label": "Surprise questions",
+     "at": 11
+    }
+   ]
+  },
+  {
+   "start": 183.3,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "Sound calm",
+   "side": "right"
+  },
+  {
+   "start": 186.9,
+   "duration": 7.5,
+   "type": "checklist",
+   "text": "To sum up",
+   "items": [
+    {
+     "label": "Reading your resume",
+     "state": "no"
+    },
+    {
+     "label": "Shouting a number",
+     "state": "no"
+    },
+    {
+     "label": "Show one real story",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 194.7,
+   "duration": 7.2,
+   "type": "poll_prompt",
+   "text": "Which answer were you about to give?",
+   "eyebrow": "Tell me in the comments",
+   "items": [
+    {
+     "label": "Resume reading",
+     "value": 40
+    },
+    {
+     "label": "Big number",
+     "value": 30
+    },
+    {
+     "label": "Team player",
+     "value": 60
+    }
+   ]
+  },
+  {
+   "start": 202.2,
+   "duration": 3.6,
+   "type": "big_statement",
+   "text": "Hardest H.R. question?",
+   "eyebrow": "Hardest"
+  },
+  {
+   "start": 206.3,
+   "duration": 4.2,
+   "type": "big_statement",
+   "text": "Subscribe and share",
+   "eyebrow": "share"
+  }
+ ],
+ "scenes": [
+  {
+   "index": 0,
+   "start": 0,
+   "end": 4.5,
+   "kind": "broll",
+   "src": "assets/broll/nervous-foot.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 1,
+   "start": 4.5,
+   "end": 10.65,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "H.R.",
+    "label": "the last 10 minutes"
+   }
+  },
+  {
+   "index": 2,
+   "start": 10.65,
+   "end": 19.83,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "3",
+    "label": "answers · 1 method"
+   }
+  },
+  {
+   "index": 3,
+   "start": 19.83,
+   "end": 25.81,
+   "kind": "broll",
+   "src": "assets/broll/office-desk.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 4,
+   "start": 25.81,
+   "end": 32,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "STAY?",
+    "label": "learn · fit in"
+   }
+  },
+  {
+   "index": 5,
+   "start": 32,
+   "end": 39.58,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "RISK",
+    "label": "check, not a formality"
+   }
+  },
+  {
+   "index": 6,
+   "start": 39.58,
+   "end": 50.92,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "100×",
+    "label": "same sentences heard"
+   }
+  },
+  {
+   "index": 7,
+   "start": 50.92,
+   "end": 59.74,
+   "kind": "broll",
+   "src": "assets/broll/writing-desk.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 8,
+   "start": 59.74,
+   "end": 66.4,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "Who",
+    "label": "proof · next"
+   }
+  },
+  {
+   "index": 9,
+   "start": 66.4,
+   "end": 75.04,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "30-40s",
+    "label": "then stop"
+   }
+  },
+  {
+   "index": 10,
+   "start": 75.04,
+   "end": 86.08,
+   "kind": "broll",
+   "src": "assets/broll/notes-desk.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 11,
+   "start": 86.08,
+   "end": 95.28,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 12,
+   "start": 95.28,
+   "end": 103,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "₹",
+    "label": "expected pay"
+   }
+  },
+  {
+   "index": 13,
+   "start": 103,
+   "end": 110,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "OPEN",
+    "label": "to the standard range"
+   }
+  },
+  {
+   "index": 14,
+   "start": 110,
+   "end": 118.45,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "LEARN",
+    "label": "a good project"
+   }
+  },
+  {
+   "index": 15,
+   "start": 118.45,
+   "end": 124.27,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 16,
+   "start": 124.27,
+   "end": 136,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "0",
+    "label": "weight in adjectives"
+   }
+  },
+  {
+   "index": 17,
+   "start": 136,
+   "end": 140,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "1",
+    "label": "real story"
+   }
+  },
+  {
+   "index": 18,
+   "start": 140,
+   "end": 150,
+   "kind": "broll",
+   "src": "assets/broll/laptop-hands.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 19,
+   "start": 150,
+   "end": 158.31,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "real",
+    "label": "lab · event · course"
+   }
+  },
+  {
+   "index": 20,
+   "start": 158.31,
+   "end": 166,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 21,
+   "start": 166,
+   "end": 177,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3",
+    "label": "things this week"
+   }
+  },
+  {
+   "index": 22,
+   "start": 177,
+   "end": 186.78,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "calm",
+    "label": "even on a new question"
+   }
+  },
+  {
+   "index": 23,
+   "start": 186.78,
+   "end": 194.55,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "1",
+    "label": "real story"
+   }
+  },
+  {
+   "index": 24,
+   "start": 194.55,
+   "end": 202,
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "index": 25,
+   "start": 202,
+   "end": 210.8,
+   "kind": "graphic",
+   "grade": "cool"
+  }
+ ],
+ "camera_moves": []
+}
