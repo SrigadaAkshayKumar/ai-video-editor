@@ -1,0 +1,103 @@
+{
+  "name": "d27-first-work-email",
+  "createdAt": "2026-11-16T21:35:57.599Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d27-first-work-email/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d27/d27-voice.wav",
+    "duration": 199.46,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d27-first-work-email/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d27/d27_first_work_email_voiceover.txt",
+    "words": 680,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d27-first-work-email/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Mistake",
+    "Write",
+    "Line"
+  ],
+  "mode": "faceless",
+  "style": "cleantech",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; light product-explainer look: calm and clean, charts and comparison tables carry the numbers, generous white space, office/campus b-roll full frame between graphics; a beat every 6-8 s; soft, sparse SFX",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 19.99,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-16T21:37:37.293Z",
+      "words": 678,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-16T21:37:41.756Z",
+      "segments": 14,
+      "kept": 195.833
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-16T21:51:06.159Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d27-first-work-email/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-16T21:51:29.543Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-16T21:51:29.570Z",
+      "groups": 179
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-16T21:51:30.755Z",
+      "music": 0,
+      "sfx": 25
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-16T21:54:06.366Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d27-first-work-email/output/final-16x9.mp4",
+      "duration": 205.855
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.985685,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d27-first-work-email/work/cleancut.wav",
+    "duration": 195.826833,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

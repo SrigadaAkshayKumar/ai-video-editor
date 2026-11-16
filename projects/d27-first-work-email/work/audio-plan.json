@@ -1,0 +1,158 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "reveal",
+   "gain": 2,
+   "reason": "title_slide: Your first work email"
+  },
+  {
+   "time": 4.38,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: One email. First impression."
+  },
+  {
+   "time": 12.78,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "step_progress: 4 mistakes"
+  },
+  {
+   "time": 20.58,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Why emails matter"
+  },
+  {
+   "time": 24.98,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: How you are judged"
+  },
+  {
+   "time": 34.38,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "side_note: Emails · messages · status updates"
+  },
+  {
+   "time": 48.68,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: A subject that says nothing"
+  },
+  {
+   "time": 51.78,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: Hi · Doubt · Urgent"
+  },
+  {
+   "time": 57.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 64.78,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: The ask hidden at the end"
+  },
+  {
+   "time": 72.38,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: A better order"
+  },
+  {
+   "time": 80.08,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: Showing you tried earns respect"
+  },
+  {
+   "time": 85.08,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Reply all and wrong people"
+  },
+  {
+   "time": 89.78,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "number_roll: One small question, sent to"
+  },
+  {
+   "time": 98.98,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "checklist: Before you press send"
+  },
+  {
+   "time": 110.08,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: Embarrassment saved"
+  },
+  {
+   "time": 116.38,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: The silent delay"
+  },
+  {
+   "time": 126.38,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: Not the task. The silence."
+  },
+  {
+   "time": 130.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Four-line update"
+  },
+  {
+   "time": 140.78,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 145.88,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: The template"
+  },
+  {
+   "time": 150.48,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "checklist: Your first email"
+  },
+  {
+   "time": 165.68,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: Read it out loud once"
+  },
+  {
+   "time": 172.38,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "checklist: Sum up"
+  },
+  {
+   "time": 191.38,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: Like · Subscribe to Crack IT"
+  }
+ ]
+}

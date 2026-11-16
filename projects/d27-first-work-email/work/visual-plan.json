@@ -1,0 +1,740 @@
+{
+ "style": "cleantech",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 3.65,
+   "type": "title_slide",
+   "text": "Your first work email",
+   "eyebrow": "Crack IT · Day 27",
+   "style_hint": "4 mistakes that look unprofessional"
+  },
+  {
+   "start": 4.3,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "One email. First impression.",
+   "side": "right"
+  },
+  {
+   "start": 8.4,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Nobody teaches the rules",
+   "side": "left"
+  },
+  {
+   "start": 12.7,
+   "duration": 7,
+   "type": "step_progress",
+   "side": "right",
+   "text": "4 mistakes",
+   "items": [
+    {
+     "label": "?"
+    },
+    {
+     "label": "?"
+    },
+    {
+     "label": "?"
+    },
+    {
+     "label": "?"
+    }
+   ],
+   "current_step": 0
+  },
+  {
+   "start": 20.5,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Why emails matter",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 1
+  },
+  {
+   "start": 24.9,
+   "duration": 5.5,
+   "type": "flow_diagram",
+   "text": "How you are judged",
+   "items": [
+    {
+     "label": "You write"
+    },
+    {
+     "label": "Team reads"
+    },
+    {
+     "label": "They form an opinion"
+    }
+   ]
+  },
+  {
+   "start": 31,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "Your manager reads, not watches",
+   "side": "right"
+  },
+  {
+   "start": 34.3,
+   "duration": 2.5,
+   "type": "side_note",
+   "text": "Emails · messages · status updates",
+   "side": "left"
+  },
+  {
+   "start": 37.2,
+   "duration": 3.4,
+   "type": "big_statement",
+   "text": "Your writing is your reputation",
+   "eyebrow": "the catch"
+  },
+  {
+   "start": 41,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "Nobody corrects you politely",
+   "side": "right"
+  },
+  {
+   "start": 44.5,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "The first-week mistake",
+   "side": "left"
+  },
+  {
+   "start": 48.6,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "A subject that says nothing",
+   "eyebrow": "Mistake 1",
+   "numeral": "01",
+   "section": 2
+  },
+  {
+   "start": 51.7,
+   "duration": 2.3,
+   "type": "keyword_chip",
+   "text": "Hi · Doubt · Urgent",
+   "side": "right"
+  },
+  {
+   "start": 54.3,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "Vague sinks to the bottom",
+   "side": "left"
+  },
+  {
+   "start": 57,
+   "duration": 7.2,
+   "type": "comparison",
+   "side": "left",
+   "left": {
+    "label": "Vague",
+    "text": "Doubt"
+   },
+   "right": {
+    "label": "Clear",
+    "text": "Access request for the project repository, needed by Friday"
+   }
+  },
+  {
+   "start": 64.7,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "The ask hidden at the end",
+   "eyebrow": "Mistake 2",
+   "numeral": "02",
+   "section": 3
+  },
+  {
+   "start": 68.2,
+   "duration": 3.7,
+   "type": "keyword_chip",
+   "text": "Ask in the first two lines",
+   "side": "right"
+  },
+  {
+   "start": 72.3,
+   "duration": 6.7,
+   "type": "flow_diagram",
+   "text": "A better order",
+   "items": [
+    {
+     "label": "The ask"
+    },
+    {
+     "label": "2-3 lines of background"
+    },
+    {
+     "label": "What I tried"
+    }
+   ]
+  },
+  {
+   "start": 80,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "Showing you tried earns respect",
+   "side": "right"
+  },
+  {
+   "start": 85,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Reply all and wrong people",
+   "eyebrow": "Mistake 3",
+   "numeral": "03",
+   "section": 4
+  },
+  {
+   "start": 89.7,
+   "duration": 4.2,
+   "type": "number_roll",
+   "value": 40,
+   "suffix": " people",
+   "text": "One small question, sent to"
+  },
+  {
+   "start": 94.9,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Private comment further down the chain",
+   "side": "right"
+  },
+  {
+   "start": 98.9,
+   "duration": 7,
+   "type": "checklist",
+   "text": "Before you press send",
+   "items": [
+    {
+     "label": "To line",
+     "state": "yes"
+    },
+    {
+     "label": "Copy line",
+     "state": "yes"
+    },
+    {
+     "label": "Older messages below",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 106.4,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Only for your lead? Only to your lead",
+   "side": "right"
+  },
+  {
+   "start": 110,
+   "duration": 2.5,
+   "type": "keyword_chip",
+   "text": "Embarrassment saved",
+   "side": "left"
+  },
+  {
+   "start": 112.8,
+   "duration": 3.1,
+   "type": "big_statement",
+   "text": "Write first. Add recipients last.",
+   "eyebrow": "small rule"
+  },
+  {
+   "start": 116.3,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "The silent delay",
+   "eyebrow": "Mistake 4",
+   "numeral": "04",
+   "section": 5
+  },
+  {
+   "start": 119.7,
+   "duration": 1,
+   "type": "keyword_chip",
+   "text": "Most damaging",
+   "side": "right"
+  },
+  {
+   "start": 121.1,
+   "duration": 4.8,
+   "type": "keyword_chip",
+   "text": "Two days stuck · deadline passes",
+   "side": "right"
+  },
+  {
+   "start": 126.3,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "Not the task. The silence.",
+   "side": "left"
+  },
+  {
+   "start": 130,
+   "duration": 8.4,
+   "type": "flow_diagram",
+   "text": "Four-line update",
+   "items": [
+    {
+     "label": "Asked to do"
+    },
+    {
+     "label": "What is done"
+    },
+    {
+     "label": "What blocks me"
+    },
+    {
+     "label": "Help I need"
+    }
+   ]
+  },
+  {
+   "start": 138.8,
+   "duration": 1.5,
+   "type": "keyword_chip",
+   "text": "Sent early",
+   "side": "right"
+  },
+  {
+   "start": 140.7,
+   "duration": 2.5,
+   "type": "comparison",
+   "side": "left",
+   "left": {
+    "label": "Told early",
+    "text": "Forgiven"
+   },
+   "right": {
+    "label": "Surprised them",
+    "text": "Not forgiven"
+   }
+  },
+  {
+   "start": 143.4,
+   "duration": 2.1,
+   "type": "quote_pull",
+   "text": "Tell them early.",
+   "eyebrow": "Crack IT rule"
+  },
+  {
+   "start": 145.8,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "The template",
+   "eyebrow": "Section 06",
+   "numeral": "06",
+   "section": 6
+  },
+  {
+   "start": 149,
+   "duration": 1,
+   "type": "keyword_chip",
+   "text": "First message",
+   "side": "right"
+  },
+  {
+   "start": 150.4,
+   "duration": 14.5,
+   "type": "checklist",
+   "text": "Your first email",
+   "items": [
+    {
+     "label": "Clear subject",
+     "state": "yes"
+    },
+    {
+     "label": "Greet by name",
+     "state": "yes"
+    },
+    {
+     "label": "What I did so far",
+     "state": "yes"
+    },
+    {
+     "label": "What I need, by when",
+     "state": "yes"
+    },
+    {
+     "label": "Thank them",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 165.6,
+   "duration": 2.5,
+   "type": "keyword_chip",
+   "text": "Read it out loud once",
+   "side": "right"
+  },
+  {
+   "start": 168.4,
+   "duration": 3.5,
+   "type": "side_note",
+   "text": "Rude to you? Worse to them",
+   "side": "left"
+  },
+  {
+   "start": 172.3,
+   "duration": 8.7,
+   "type": "checklist",
+   "text": "Sum up",
+   "items": [
+    {
+     "label": "Subject that says something",
+     "state": "yes"
+    },
+    {
+     "label": "Ask first",
+     "state": "yes"
+    },
+    {
+     "label": "Check who is on the mail",
+     "state": "yes"
+    },
+    {
+     "label": "Never go silent",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 181.7,
+   "duration": 5.3,
+   "type": "quote_pull",
+   "text": "Which email mistake do you fear?",
+   "eyebrow": "Tell me below"
+  },
+  {
+   "start": 187.5,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "Most common gets a video",
+   "side": "right"
+  },
+  {
+   "start": 191.3,
+   "duration": 4.3,
+   "type": "keyword_chip",
+   "text": "Like · Subscribe to Crack IT",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "index": 0,
+   "start": 0,
+   "end": 3.77,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 1,
+   "start": 3.77,
+   "end": 11.55,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "1",
+    "label": "email · first impression"
+   }
+  },
+  {
+   "index": 2,
+   "start": 11.55,
+   "end": 19.82,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "4",
+    "label": "email mistakes"
+   }
+  },
+  {
+   "index": 3,
+   "start": 19.82,
+   "end": 24.54,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 4,
+   "start": 24.54,
+   "end": 30.59,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 5,
+   "start": 30.59,
+   "end": 37,
+   "kind": "broll",
+   "src": "assets/broll/officeman.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 6,
+   "start": 37,
+   "end": 44.05,
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "index": 7,
+   "start": 44.05,
+   "end": 48.46,
+   "kind": "broll",
+   "src": "assets/broll/pair.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 8,
+   "start": 48.46,
+   "end": 52.97,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 9,
+   "start": 52.97,
+   "end": 56.81,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 4,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 10,
+   "start": 56.81,
+   "end": 64.31,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "Subject",
+    "label": "tell the story"
+   }
+  },
+  {
+   "index": 11,
+   "start": 64.31,
+   "end": 72.11,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 12,
+   "start": 72.11,
+   "end": 79.61,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 13,
+   "start": 79.61,
+   "end": 84.82,
+   "kind": "broll",
+   "src": "assets/broll/whitedesk.mp4",
+   "media_start": 3,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 14,
+   "start": 84.82,
+   "end": 89.49,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 15,
+   "start": 89.49,
+   "end": 94.55,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 16,
+   "start": 94.55,
+   "end": 98.63,
+   "kind": "broll",
+   "src": "assets/broll/corridor.mp4",
+   "media_start": 2,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 17,
+   "start": 98.63,
+   "end": 106.03,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 18,
+   "start": 106.03,
+   "end": 112.69,
+   "kind": "broll",
+   "src": "assets/broll/officeman.mp4",
+   "media_start": 6,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 19,
+   "start": 112.69,
+   "end": 116.11,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "LAST",
+    "label": "add recipients"
+   }
+  },
+  {
+   "index": 20,
+   "start": 116.11,
+   "end": 120.78,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 21,
+   "start": 120.78,
+   "end": 126.07,
+   "kind": "broll",
+   "src": "assets/broll/whitedesk.mp4",
+   "media_start": 20,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 22,
+   "start": 126.07,
+   "end": 129.77,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "SILENCE",
+    "label": "the real problem"
+   }
+  },
+  {
+   "index": 23,
+   "start": 129.77,
+   "end": 140.47,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 24,
+   "start": 140.47,
+   "end": 145.64,
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "index": 25,
+   "start": 145.64,
+   "end": 150.09,
+   "kind": "broll",
+   "src": "assets/broll/officeman.mp4",
+   "media_start": 10,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 26,
+   "start": 150.09,
+   "end": 158.87,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 27,
+   "start": 158.87,
+   "end": 165.26,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "<10",
+    "label": "lines"
+   }
+  },
+  {
+   "index": 28,
+   "start": 165.26,
+   "end": 172.09,
+   "kind": "broll",
+   "src": "assets/broll/officeman.mp4",
+   "media_start": 10,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 29,
+   "start": 172.09,
+   "end": 181.3,
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "index": 30,
+   "start": 181.3,
+   "end": 187.13,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 31,
+   "start": 187.13,
+   "end": 190.94,
+   "kind": "broll",
+   "src": "assets/broll/pair.mp4",
+   "media_start": 5,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 32,
+   "start": 190.94,
+   "end": 195.83,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe"
+   }
+  }
+ ],
+ "camera_moves": []
+}

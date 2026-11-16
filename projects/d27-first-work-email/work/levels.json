@@ -1,0 +1,37 @@
+{
+  "narration": {
+    "mean": -25.1,
+    "peak": -7.1
+  },
+  "music": {},
+  "sfx": {
+    "reveal": {
+      "gain": 0.043151907682776526,
+      "limitedBy": "rms",
+      "trimDb": 0,
+      "band": "mixed",
+      "seconds": 0.17
+    },
+    "click": {
+      "gain": 0.6606934480075959,
+      "limitedBy": "transient-floor",
+      "trimDb": 0,
+      "band": "vocal",
+      "seconds": 0.06
+    },
+    "clock_tick": {
+      "gain": 0.532864223464201,
+      "limitedBy": "rms",
+      "trimDb": -6.4,
+      "band": "vocal",
+      "seconds": 0.48
+    },
+    "sub_drop": {
+      "gain": 0.02,
+      "limitedBy": "transient-floor",
+      "trimDb": -5.2,
+      "band": "sub",
+      "seconds": 0.4
+    }
+  }
+}
