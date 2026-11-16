@@ -1,0 +1,104 @@
+{
+  "name": "d20-background-verification-mistakes",
+  "createdAt": "2026-11-16T10:59:51.247Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d20-background-verification-mistakes/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d20/d20-voice.wav",
+    "duration": 254.140042,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d20-background-verification-mistakes/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d20/d20_background_verification_mistakes_voiceover.txt",
+    "words": 825,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d20-background-verification-mistakes/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Companies",
+    "Mistake",
+    "Maybe",
+    "Aadhaar",
+    "Check"
+  ],
+  "mode": "faceless",
+  "style": "glass",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; documentary storytelling look: full-frame b-roll leads, graphics docked to one side, quote pulls on the key lines, timelines for the backstory; slower, a beat every 6-10 s; low sub-band SFX on structure only",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 19.8,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-16T11:02:18.876Z",
+      "words": 824,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-16T11:02:32.701Z",
+      "segments": 16,
+      "kept": 248.833
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-16T12:47:12.618Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d20-background-verification-mistakes/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-16T11:35:29.269Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-16T11:35:29.306Z",
+      "groups": 223
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-16T12:47:13.546Z",
+      "music": 0,
+      "sfx": 9
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-16T12:51:54.368Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d20-background-verification-mistakes/output/final-16x9.mp4",
+      "duration": 258.858
+    }
+  },
+  "detectedLanguage": {
+    "code": "eng",
+    "probability": null
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d20-background-verification-mistakes/work/cleancut.wav",
+    "duration": 248.833042,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

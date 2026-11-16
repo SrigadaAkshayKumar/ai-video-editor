@@ -1,0 +1,62 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.1,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "title"
+  },
+  {
+   "time": 19.95,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter: What BGV checks"
+  },
+  {
+   "time": 51.25,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "quote_pull: The agency does not judge you. It only compares."
+  },
+  {
+   "time": 61.75,
+   "sfx": "impact",
+   "gain": 4,
+   "reason": "chapter: Mistake 1: names & dates"
+  },
+  {
+   "time": 100.75,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter: Mistake 2: hidden gaps"
+  },
+  {
+   "time": 109.55,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "timeline: Ravi's story (illustrative)"
+  },
+  {
+   "time": 128.25,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "quote_pull: A false statement is much harder to explain."
+  },
+  {
+   "time": 143.55,
+   "sfx": "impact",
+   "gain": 4,
+   "reason": "chapter: Mistake 3: silence"
+  },
+  {
+   "time": 186,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter: Your checklist this week"
+  }
+ ]
+}

@@ -1,0 +1,770 @@
+{
+ "style": "glass",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 3.85,
+   "type": "title_slide",
+   "text": "Offer cancelled after BGV?",
+   "eyebrow": "Crack IT · Day 20",
+   "style_hint": "3 background verification mistakes"
+  },
+  {
+   "start": 4.3,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "Offer can be withdrawn after BGV",
+   "side": "right"
+  },
+  {
+   "start": 7.6,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "One small mismatch",
+   "side": "left"
+  },
+  {
+   "start": 11.6,
+   "duration": 7.7,
+   "type": "fact_band",
+   "items": [
+    {
+     "label": "?",
+     "sublabel": "Mistake 1"
+    },
+    {
+     "label": "?",
+     "sublabel": "Mistake 2"
+    },
+    {
+     "label": "?",
+     "sublabel": "Mistake 3"
+    }
+   ]
+  },
+  {
+   "start": 19.9,
+   "duration": 3.05,
+   "type": "chapter_open",
+   "text": "What BGV checks",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 1
+  },
+  {
+   "start": 23.1,
+   "duration": 9.7,
+   "type": "flow_diagram",
+   "side": "right",
+   "text": "How it works",
+   "items": [
+    {
+     "label": "Offer accepted"
+    },
+    {
+     "label": "Company",
+     "sublabel": "sends your details"
+    },
+    {
+     "label": "Agency",
+     "sublabel": "verifies"
+    },
+    {
+     "label": "College + documents",
+     "sublabel": "confirm"
+    },
+    {
+     "label": "Report back"
+    }
+   ]
+  },
+  {
+   "start": 33,
+   "duration": 15.9,
+   "type": "step_progress",
+   "side": "right",
+   "text": "Four things checked",
+   "current_step": 0,
+   "items": [
+    {
+     "label": "Identity",
+     "at": 1.5
+    },
+    {
+     "label": "Education",
+     "at": 4.9
+    },
+    {
+     "label": "Past work",
+     "at": 8.4
+    },
+    {
+     "label": "Address · criminal record",
+     "at": 11.9
+    }
+   ]
+  },
+  {
+   "start": 51.2,
+   "duration": 6.6,
+   "type": "quote_pull",
+   "text": "The agency does not judge you. It only compares.",
+   "eyebrow": "So make everything match"
+  },
+  {
+   "start": 58.4,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "Application = documents",
+   "side": "left"
+  },
+  {
+   "start": 61.7,
+   "duration": 3.05,
+   "type": "chapter_open",
+   "text": "Mistake 1: names & dates",
+   "eyebrow": "Section 02",
+   "numeral": "02",
+   "section": 2
+  },
+  {
+   "start": 67.6,
+   "duration": 16,
+   "type": "data_table",
+   "text": "Same person, three spellings (example)",
+   "columns": [
+    "Document",
+    "Name",
+    "Date of birth"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "10th certificate",
+      "Rahul Kumar",
+      "04-07-2003"
+     ],
+     "at": 0.5
+    },
+    {
+     "cells": [
+      "Aadhaar card",
+      "Rahul Kumar R",
+      "04-07-2003"
+     ],
+     "at": 4.6,
+     "color": "#ff5252"
+    },
+    {
+     "cells": [
+      "Application form",
+      "Rahul K",
+      "04-07-2003"
+     ],
+     "at": 8,
+     "color": "#ff5252"
+    }
+   ],
+   "footer": "Mismatch = a mail asking you to explain",
+   "footer_at": 12.5
+  },
+  {
+   "start": 84.2,
+   "duration": 6.8,
+   "type": "side_note",
+   "text": "Check every spelling and every date",
+   "side": "left"
+  },
+  {
+   "start": 91.6,
+   "duration": 8.7,
+   "type": "keyword_chip",
+   "text": "Put all documents side by side today",
+   "side": "left"
+  },
+  {
+   "start": 100.7,
+   "duration": 3.05,
+   "type": "chapter_open",
+   "text": "Mistake 2: hidden gaps",
+   "eyebrow": "Section 03",
+   "numeral": "03",
+   "section": 3
+  },
+  {
+   "start": 104,
+   "duration": 4.9,
+   "type": "keyword_chip",
+   "text": "Backlog · year gap · incomplete degree",
+   "side": "left"
+  },
+  {
+   "start": 109.5,
+   "duration": 13.2,
+   "type": "timeline",
+   "side": "right",
+   "text": "Ravi's story (illustrative)",
+   "current": 2,
+   "items": [
+    {
+     "label": "The form",
+     "sublabel": "says: no backlogs"
+    },
+    {
+     "label": "College record",
+     "sublabel": "one subject pending"
+    },
+    {
+     "label": "Mail from agency",
+     "sublabel": "offer stops: false statement"
+    }
+   ]
+  },
+  {
+   "start": 123.4,
+   "duration": 4.4,
+   "type": "comparison",
+   "side": "left",
+   "text": "Explainable vs not",
+   "left": {
+    "label": "Backlog or gap",
+    "text": "Can be explained"
+   },
+   "right": {
+    "label": "False statement",
+    "text": "Hard to explain"
+   }
+  },
+  {
+   "start": 128.2,
+   "duration": 7.2,
+   "type": "quote_pull",
+   "text": "A false statement is much harder to explain.",
+   "eyebrow": "The rule that matters"
+  },
+  {
+   "start": 136.2,
+   "duration": 6.9,
+   "type": "side_note",
+   "text": "Write it honestly · keep a short reason ready",
+   "side": "left"
+  },
+  {
+   "start": 143.5,
+   "duration": 3.05,
+   "type": "chapter_open",
+   "text": "Mistake 3: silence",
+   "eyebrow": "Section 04",
+   "numeral": "04",
+   "section": 4
+  },
+  {
+   "start": 147.2,
+   "duration": 8.6,
+   "type": "keyword_chip",
+   "text": "Mail lands in spam or promotions",
+   "side": "left"
+  },
+  {
+   "start": 157.2,
+   "duration": 6.6,
+   "type": "keyword_chip",
+   "text": "Open file = delayed joining letter",
+   "side": "left"
+  },
+  {
+   "start": 164.5,
+   "duration": 13.9,
+   "type": "checklist",
+   "side": "right",
+   "text": "Do three things",
+   "items": [
+    {
+     "label": "Check spam + promotions",
+     "state": "yes"
+    },
+    {
+     "label": "Search: verification, documents",
+     "state": "yes"
+    },
+    {
+     "label": "Reply in 1-2 days",
+     "state": "yes"
+    },
+    {
+     "label": "Send clear scans, not blurry photos",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 179.2,
+   "duration": 6.3,
+   "type": "keyword_chip",
+   "text": "Real BGV is never paid by you",
+   "side": "right"
+  },
+  {
+   "start": 185.95,
+   "duration": 3.05,
+   "type": "chapter_open",
+   "text": "Your checklist this week",
+   "eyebrow": "Section 05",
+   "numeral": "05",
+   "section": 5
+  },
+  {
+   "start": 189.6,
+   "duration": 24.6,
+   "type": "step_progress",
+   "side": "right",
+   "text": "This week",
+   "current_step": 0,
+   "items": [
+    {
+     "label": "Folder: 10th, 12th, marksheets",
+     "at": 0.2
+    },
+    {
+     "label": "Degree, Aadhaar, PAN, offer letter",
+     "at": 4
+    },
+    {
+     "label": "Details exactly as on documents",
+     "at": 15.300000000000011
+    },
+    {
+     "label": "Save exam office contact",
+     "at": 21.400000000000006
+    }
+   ]
+  },
+  {
+   "start": 214.5,
+   "duration": 8.5,
+   "type": "side_note",
+   "text": "The agency may call your college to confirm marks",
+   "side": "left"
+  },
+  {
+   "start": 223.7,
+   "duration": 9.5,
+   "type": "fact_band",
+   "items": [
+    {
+     "label": "Match",
+     "sublabel": "names and dates"
+    },
+    {
+     "label": "Be honest",
+     "sublabel": "backlogs and gaps"
+    },
+    {
+     "label": "Reply",
+     "sublabel": "to the verification mail"
+    }
+   ]
+  },
+  {
+   "start": 233.8,
+   "duration": 9,
+   "type": "poll_prompt",
+   "text": "Which mistake were you about to make?",
+   "items": [
+    {
+     "label": "1 · Names and dates"
+    },
+    {
+     "label": "2 · Backlogs and gaps"
+    },
+    {
+     "label": "3 · Missed mail"
+    }
+   ]
+  },
+  {
+   "start": 243.2,
+   "duration": 5.3,
+   "type": "keyword_chip",
+   "text": "SUBSCRIBE",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "index": 0,
+   "start": 0,
+   "end": 4,
+   "kind": "broll",
+   "src": "assets/broll/desk-docs.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 1,
+   "start": 4,
+   "end": 9.9,
+   "kind": "broll",
+   "src": "assets/broll/binders.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 2,
+   "start": 9.9,
+   "end": 19.73,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "3",
+    "label": "mistakes · stay for #3"
+   }
+  },
+  {
+   "index": 3,
+   "start": 19.73,
+   "end": 27.85,
+   "kind": "broll",
+   "src": "assets/broll/office-wide.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 4,
+   "start": 27.85,
+   "end": 34.54,
+   "kind": "broll",
+   "src": "assets/broll/woman-window.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 5,
+   "start": 34.54,
+   "end": 44.88,
+   "kind": "broll",
+   "src": "assets/broll/laptop-desk.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 6,
+   "start": 44.88,
+   "end": 50.97,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "4",
+    "label": "address · criminal check"
+   }
+  },
+  {
+   "index": 7,
+   "start": 50.97,
+   "end": 58.01,
+   "kind": "broll",
+   "src": "assets/broll/desk-docs.mp4",
+   "media_start": 6,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 8,
+   "start": 58.01,
+   "end": 61.58,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "=",
+    "label": "make everything match"
+   }
+  },
+  {
+   "index": 9,
+   "start": 61.58,
+   "end": 67.41,
+   "kind": "broll",
+   "src": "assets/broll/writing.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 10,
+   "start": 67.41,
+   "end": 75,
+   "kind": "broll",
+   "src": "assets/broll/laptop-hands.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 11,
+   "start": 75,
+   "end": 83.95,
+   "kind": "broll",
+   "src": "assets/broll/laptop-hands.mp4",
+   "media_start": 10,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 12,
+   "start": 83.95,
+   "end": 91.4,
+   "kind": "broll",
+   "src": "assets/broll/students.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 13,
+   "start": 91.4,
+   "end": 100.55,
+   "kind": "broll",
+   "src": "assets/broll/files.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 14,
+   "start": 100.55,
+   "end": 109.3,
+   "kind": "broll",
+   "src": "assets/broll/typing-hands.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 15,
+   "start": 109.3,
+   "end": 116,
+   "kind": "broll",
+   "src": "assets/broll/campus.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 16,
+   "start": 116,
+   "end": 122.96,
+   "kind": "broll",
+   "src": "assets/broll/campus.mp4",
+   "media_start": 6.5,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 17,
+   "start": 122.96,
+   "end": 129.3,
+   "kind": "broll",
+   "src": "assets/broll/writing.mp4",
+   "media_start": 6.5,
+   "motion": "ken_in",
+   "grade": "noir",
+   "transition": "fade"
+  },
+  {
+   "index": 18,
+   "start": 129.3,
+   "end": 135.66,
+   "kind": "broll",
+   "src": "assets/broll/charts.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "noir",
+   "transition": "fade"
+  },
+  {
+   "index": 19,
+   "start": 135.66,
+   "end": 143.42,
+   "kind": "broll",
+   "src": "assets/broll/office-woman.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 20,
+   "start": 143.42,
+   "end": 150.1,
+   "kind": "broll",
+   "src": "assets/broll/square.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 21,
+   "start": 150.1,
+   "end": 156.81,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "SPAM",
+    "label": "promotions · unknown sender"
+   }
+  },
+  {
+   "index": 22,
+   "start": 156.81,
+   "end": 164.32,
+   "kind": "broll",
+   "src": "assets/broll/laptop-side.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 23,
+   "start": 164.32,
+   "end": 172,
+   "kind": "broll",
+   "src": "assets/broll/laptop-hands.mp4",
+   "media_start": 20,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 24,
+   "start": 172,
+   "end": 178.67,
+   "kind": "broll",
+   "src": "assets/broll/laptop-hands.mp4",
+   "media_start": 28,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 25,
+   "start": 178.67,
+   "end": 185.82,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "₹0",
+    "label": "real BGV never charges you"
+   }
+  },
+  {
+   "index": 26,
+   "start": 185.82,
+   "end": 191.6,
+   "kind": "broll",
+   "src": "assets/broll/charts.mp4",
+   "media_start": 5.6,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 27,
+   "start": 191.6,
+   "end": 198,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "1 folder",
+    "label": "scans, named clearly"
+   }
+  },
+  {
+   "index": 28,
+   "start": 198,
+   "end": 204.29,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "10th · 12th",
+    "label": "marksheets · degree"
+   }
+  },
+  {
+   "index": 29,
+   "start": 204.29,
+   "end": 210.88,
+   "kind": "broll",
+   "src": "assets/broll/square.mp4",
+   "media_start": 10,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 30,
+   "start": 210.88,
+   "end": 217,
+   "kind": "broll",
+   "src": "assets/broll/campus.mp4",
+   "media_start": 14,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 31,
+   "start": 217,
+   "end": 223.58,
+   "kind": "broll",
+   "src": "assets/broll/campus.mp4",
+   "media_start": 20.5,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 32,
+   "start": 223.58,
+   "end": 233.44,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 33,
+   "start": 233.44,
+   "end": 243,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 34,
+   "start": 243,
+   "end": 248.83,
+   "kind": "graphic",
+   "grade": "cool"
+  }
+ ],
+ "camera_moves": []
+}
