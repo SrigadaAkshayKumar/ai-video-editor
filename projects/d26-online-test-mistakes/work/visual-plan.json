@@ -1,0 +1,739 @@
+{
+ "style": "blueprint",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 2.95,
+   "type": "title_slide",
+   "text": "Online test tomorrow?",
+   "eyebrow": "Crack IT · Day 26",
+   "style_hint": "4 mistakes that get freshers rejected"
+  },
+  {
+   "start": 3.4,
+   "duration": 1.8,
+   "type": "keyword_chip",
+   "text": "Out before the score",
+   "side": "right"
+  },
+  {
+   "start": 5.9,
+   "duration": 3.5,
+   "type": "side_note",
+   "text": "Aptitude · coding · test link",
+   "side": "left"
+  },
+  {
+   "start": 10,
+   "duration": 2.5,
+   "type": "keyword_chip",
+   "text": "Online assessment",
+   "side": "right"
+  },
+  {
+   "start": 13,
+   "duration": 6.7,
+   "type": "step_progress",
+   "side": "right",
+   "text": "4 mistakes",
+   "items": [
+    {
+     "label": "?"
+    },
+    {
+     "label": "?"
+    },
+    {
+     "label": "?"
+    },
+    {
+     "label": "?"
+    }
+   ],
+   "current_step": 0
+  },
+  {
+   "start": 20.5,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "How tests work",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 1
+  },
+  {
+   "start": 24,
+   "duration": 7.5,
+   "type": "flow_diagram",
+   "text": "What a test checks",
+   "items": [
+    {
+     "label": "Test link"
+    },
+    {
+     "label": "Skill score"
+    },
+    {
+     "label": "Honesty check"
+    },
+    {
+     "label": "Shortlist"
+    }
+   ]
+  },
+  {
+   "start": 32,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Webcam · screen · locked browser",
+   "side": "right"
+  },
+  {
+   "start": 35.3,
+   "duration": 4.4,
+   "type": "side_note",
+   "text": "Rules differ by company",
+   "side": "left"
+  },
+  {
+   "start": 40.2,
+   "duration": 4.1,
+   "type": "side_note",
+   "text": "Read the instructions mail twice",
+   "side": "right"
+  },
+  {
+   "start": 44.8,
+   "duration": 3.9,
+   "type": "big_statement",
+   "text": "Nothing to do with being smart",
+   "eyebrow": "the catch"
+  },
+  {
+   "start": 49,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "No system check",
+   "eyebrow": "Mistake 1",
+   "numeral": "01",
+   "section": 2
+  },
+  {
+   "start": 52.9,
+   "duration": 3.1,
+   "type": "keyword_chip",
+   "text": "Camera fails · timer runs",
+   "side": "right"
+  },
+  {
+   "start": 56.4,
+   "duration": 2.1,
+   "type": "keyword_chip",
+   "text": "Maybe no restart",
+   "side": "left"
+  },
+  {
+   "start": 59,
+   "duration": 8.5,
+   "type": "checklist",
+   "text": "System check, day before",
+   "items": [
+    {
+     "label": "Camera and mic",
+     "state": "yes"
+    },
+    {
+     "label": "Right browser",
+     "state": "yes"
+    },
+    {
+     "label": "Charger plugged in",
+     "state": "yes"
+    },
+    {
+     "label": "Backup hotspot",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 68.5,
+   "duration": 7,
+   "type": "side_note",
+   "text": "Laptop, not phone · practice link",
+   "side": "left"
+  },
+  {
+   "start": 76.5,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "Close every other app",
+   "side": "right"
+  },
+  {
+   "start": 81,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Leaving the screen",
+   "eyebrow": "Mistake 2",
+   "numeral": "02",
+   "section": 3
+  },
+  {
+   "start": 84.5,
+   "duration": 6,
+   "type": "big_statement",
+   "text": "Tab switch = recorded",
+   "eyebrow": "trap"
+  },
+  {
+   "start": 91.3,
+   "duration": 3.7,
+   "type": "keyword_chip",
+   "text": "Window loses focus: logged",
+   "side": "right"
+  },
+  {
+   "start": 95.4,
+   "duration": 4.3,
+   "type": "side_note",
+   "text": "A few flags: attempt may be skipped",
+   "side": "left"
+  },
+  {
+   "start": 100.4,
+   "duration": 6.6,
+   "type": "flow_diagram",
+   "text": "Before you start",
+   "items": [
+    {
+     "label": "Notifications off"
+    },
+    {
+     "label": "One window"
+    },
+    {
+     "label": "Eyes on screen"
+    }
+   ]
+  },
+  {
+   "start": 107.4,
+   "duration": 4.4,
+   "type": "side_note",
+   "text": "No second device · no helper",
+   "side": "right"
+  },
+  {
+   "start": 112.5,
+   "duration": 4.5,
+   "type": "keyword_chip",
+   "text": "Mistake 3 next",
+   "side": "left"
+  },
+  {
+   "start": 117.8,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Stuck on one question",
+   "eyebrow": "Mistake 3",
+   "numeral": "03",
+   "section": 4
+  },
+  {
+   "start": 121.5,
+   "duration": 5,
+   "type": "keyword_chip",
+   "text": "40 min on one problem",
+   "side": "right"
+  },
+  {
+   "start": 127.5,
+   "duration": 9.3,
+   "type": "comparison",
+   "side": "left",
+   "left": {
+    "label": "Wrong",
+    "text": "One hard question for forty minutes"
+   },
+   "right": {
+    "label": "Right",
+    "text": "Easy first, hard later"
+   }
+  },
+  {
+   "start": 137.8,
+   "duration": 7.7,
+   "type": "big_statement",
+   "text": "Simple working answer beats perfect unfinished",
+   "eyebrow": "coding rounds"
+  },
+  {
+   "start": 146.2,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Blind guessing",
+   "eyebrow": "Mistake 4",
+   "numeral": "04",
+   "section": 5
+  },
+  {
+   "start": 150,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "Negative marking? Read the rules",
+   "side": "right"
+  },
+  {
+   "start": 154.4,
+   "duration": 3.6,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Marks lost",
+    "text": "Skip what you cannot work out"
+   },
+   "right": {
+    "label": "No penalty",
+    "text": "Always answer"
+   }
+  },
+  {
+   "start": 158.6,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Last 24 hours",
+   "eyebrow": "Section 06",
+   "numeral": "06",
+   "section": 0
+  },
+  {
+   "start": 162.4,
+   "duration": 10.1,
+   "type": "checklist",
+   "text": "Last 24 hours",
+   "items": [
+    {
+     "label": "System check + mail",
+     "state": "yes"
+    },
+    {
+     "label": "One timed mock",
+     "state": "yes"
+    },
+    {
+     "label": "Proper sleep",
+     "state": "yes"
+    },
+    {
+     "label": "Quiet room · I.D. ready",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 173.5,
+   "duration": 5,
+   "type": "keyword_chip",
+   "text": "Breathe · read slowly · watch timer",
+   "side": "right"
+  },
+  {
+   "start": 179.5,
+   "duration": 6.5,
+   "type": "side_note",
+   "text": "Tech problem? Screenshot it",
+   "side": "left"
+  },
+  {
+   "start": 186.5,
+   "duration": 5,
+   "type": "keyword_chip",
+   "text": "Mail the recruiter at once",
+   "side": "right"
+  },
+  {
+   "start": 192.2,
+   "duration": 6.3,
+   "type": "checklist",
+   "text": "Sum up",
+   "items": [
+    {
+     "label": "Check system early",
+     "state": "yes"
+    },
+    {
+     "label": "Never leave window",
+     "state": "yes"
+    },
+    {
+     "label": "Don't get stuck",
+     "state": "yes"
+    },
+    {
+     "label": "Know marking rules",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 200.5,
+   "duration": 5.5,
+   "type": "quote_pull",
+   "text": "Hardest online test you have given?",
+   "eyebrow": "Tell me below"
+  },
+  {
+   "start": 206.8,
+   "duration": 4.2,
+   "type": "keyword_chip",
+   "text": "Subscribe · Share",
+   "side": "right"
+  },
+  {
+   "start": 211.4,
+   "duration": 5.6,
+   "type": "side_note",
+   "text": "Share with a friend who has a test",
+   "side": "left"
+  }
+ ],
+ "scenes": [
+  {
+   "index": 0,
+   "start": 0,
+   "end": 2.8,
+   "kind": "broll",
+   "src": "assets/broll/student.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 1,
+   "start": 2.8,
+   "end": 5.35,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "SCORE?",
+    "label": "checked last"
+   }
+  },
+  {
+   "index": 2,
+   "start": 5.35,
+   "end": 12.66,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 3,
+   "start": 12.66,
+   "end": 19.88,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "4",
+    "label": "mistakes"
+   }
+  },
+  {
+   "index": 4,
+   "start": 19.88,
+   "end": 24.8,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 5,
+   "start": 24.8,
+   "end": 31.7,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "2 jobs",
+    "label": "skill · honesty"
+   }
+  },
+  {
+   "index": 6,
+   "start": 31.7,
+   "end": 39.9,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 2,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 7,
+   "start": 39.9,
+   "end": 44.6,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 8,
+   "start": 44.6,
+   "end": 48.87,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "!",
+    "label": "not about smart"
+   }
+  },
+  {
+   "index": 9,
+   "start": 48.87,
+   "end": 58.6,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "#1",
+    "label": "no system check"
+   }
+  },
+  {
+   "index": 10,
+   "start": 58.6,
+   "end": 68,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 11,
+   "start": 68,
+   "end": 76,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 12,
+   "start": 76,
+   "end": 80.78,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "✓",
+    "label": "checked early"
+   }
+  },
+  {
+   "index": 13,
+   "start": 80.78,
+   "end": 91,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "#2",
+    "label": "leaving the window"
+   }
+  },
+  {
+   "index": 14,
+   "start": 91,
+   "end": 100,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 15,
+   "start": 100,
+   "end": 106,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "1 window",
+    "label": "no tab switch"
+   }
+  },
+  {
+   "index": 16,
+   "start": 106,
+   "end": 111.9,
+   "kind": "broll",
+   "src": "assets/broll/student.mp4",
+   "media_start": 3,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 17,
+   "start": 111.9,
+   "end": 117.5,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "#3",
+    "label": "stuck on one question"
+   }
+  },
+  {
+   "index": 18,
+   "start": 117.5,
+   "end": 127,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 19,
+   "start": 127,
+   "end": 132,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "EASY",
+    "label": "first"
+   }
+  },
+  {
+   "index": 20,
+   "start": 132,
+   "end": 137.3,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 21,
+   "start": 137.3,
+   "end": 141.5,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "SIMPLE",
+    "label": "then improve"
+   }
+  },
+  {
+   "index": 22,
+   "start": 141.5,
+   "end": 146,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "#4",
+    "label": "blind guessing"
+   }
+  },
+  {
+   "index": 23,
+   "start": 146,
+   "end": 152.5,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "−MARKS?",
+    "label": "check the rules"
+   }
+  },
+  {
+   "index": 24,
+   "start": 152.5,
+   "end": 158.3,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "24h",
+    "label": "the plan"
+   }
+  },
+  {
+   "index": 25,
+   "start": 158.3,
+   "end": 165,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 26,
+   "start": 165,
+   "end": 172.8,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "4",
+    "label": "steps"
+   }
+  },
+  {
+   "index": 27,
+   "start": 172.8,
+   "end": 179,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 8,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 28,
+   "start": 179,
+   "end": 185,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "!",
+    "label": "mail the recruiter"
+   }
+  },
+  {
+   "index": 29,
+   "start": 185,
+   "end": 191.79,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 30,
+   "start": 191.79,
+   "end": 198.6,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "4",
+    "label": "rules"
+   }
+  },
+  {
+   "index": 31,
+   "start": 198.6,
+   "end": 206,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 32,
+   "start": 206,
+   "end": 212,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 5,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 33,
+   "start": 212,
+   "end": 217.57,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "TEST?",
+    "label": "tell me below"
+   }
+  }
+ ],
+ "camera_moves": []
+}

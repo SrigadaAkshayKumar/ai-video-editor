@@ -1,0 +1,101 @@
+{
+  "name": "d26-online-test-mistakes",
+  "createdAt": "2026-11-16T20:34:48.842Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d26-online-test-mistakes/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d26/d26-voice.wav",
+    "duration": 222.36,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d26-online-test-mistakes/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d26/d26_online_test_mistakes_voiceover.txt",
+    "words": 748,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d26-online-test-mistakes/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Mistake"
+  ],
+  "mode": "faceless",
+  "style": "blueprint",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; terminal / data-desk look: monospace, stepped plotter arrivals; graphic-led (flow diagrams, checklists, number rolls), b-roll sparse and docked; a beat every 5-7 s; crisp digital ticks and soft clicks for SFX",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 20.07,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-16T20:36:57.885Z",
+      "words": 744,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-16T20:38:29.762Z",
+      "segments": 17,
+      "kept": 217.567
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-16T20:59:58.189Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d26-online-test-mistakes/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-16T21:00:03.579Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-16T21:00:03.615Z",
+      "groups": 190
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-16T21:00:10.332Z",
+      "music": 0,
+      "sfx": 30
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-16T21:05:00.979Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d26-online-test-mistakes/output/final-16x9.mp4",
+      "duration": 227.614
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.988337,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d26-online-test-mistakes/work/cleancut.wav",
+    "duration": 217.566833,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

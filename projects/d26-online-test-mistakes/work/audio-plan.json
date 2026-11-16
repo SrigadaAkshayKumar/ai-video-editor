@@ -1,0 +1,188 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "reveal",
+   "gain": 2,
+   "reason": "title_slide: Online test tomorrow?"
+  },
+  {
+   "time": 3.48,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: Out before the score"
+  },
+  {
+   "time": 10.08,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "keyword_chip: Online assessment"
+  },
+  {
+   "time": 13.08,
+   "sfx": "typing",
+   "gain": 2,
+   "reason": "step_progress: 4 mistakes"
+  },
+  {
+   "time": 20.58,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: How tests work"
+  },
+  {
+   "time": 24.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: What a test checks"
+  },
+  {
+   "time": 35.38,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "side_note: Rules differ by company"
+  },
+  {
+   "time": 44.88,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "big_statement: Nothing to do with being smart"
+  },
+  {
+   "time": 49.08,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: No system check"
+  },
+  {
+   "time": 52.98,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "keyword_chip: Camera fails · timer runs"
+  },
+  {
+   "time": 59.08,
+   "sfx": "typing",
+   "gain": 2,
+   "reason": "checklist: System check, day before"
+  },
+  {
+   "time": 68.58,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "side_note: Laptop, not phone · practice link"
+  },
+  {
+   "time": 81.08,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Leaving the screen"
+  },
+  {
+   "time": 84.58,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "big_statement: Tab switch = recorded"
+  },
+  {
+   "time": 91.38,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "keyword_chip: Window loses focus: logged"
+  },
+  {
+   "time": 100.48,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Before you start"
+  },
+  {
+   "time": 107.48,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "side_note: No second device · no helper"
+  },
+  {
+   "time": 117.88,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Stuck on one question"
+  },
+  {
+   "time": 121.58,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "keyword_chip: 40 min on one problem"
+  },
+  {
+   "time": 127.58,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 137.88,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "big_statement: Simple working answer beats perfect unfinished"
+  },
+  {
+   "time": 146.28,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Blind guessing"
+  },
+  {
+   "time": 154.48,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 158.68,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Last 24 hours"
+  },
+  {
+   "time": 162.48,
+   "sfx": "typing",
+   "gain": 2,
+   "reason": "checklist: Last 24 hours"
+  },
+  {
+   "time": 173.58,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: Breathe · read slowly · watch timer"
+  },
+  {
+   "time": 186.58,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "keyword_chip: Mail the recruiter at once"
+  },
+  {
+   "time": 192.28,
+   "sfx": "typing",
+   "gain": 2,
+   "reason": "checklist: Sum up"
+  },
+  {
+   "time": 200.58,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "quote_pull: Hardest online test you have given?"
+  },
+  {
+   "time": 211.48,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "side_note: Share with a friend who has a test"
+  }
+ ]
+}
