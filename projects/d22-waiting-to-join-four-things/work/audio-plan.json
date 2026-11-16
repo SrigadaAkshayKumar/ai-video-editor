@@ -1,0 +1,110 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "title_slide: Waiting for your joining date?"
+  },
+  {
+   "time": 25.88,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Why the wait matters"
+  },
+  {
+   "time": 42.18,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 51.28,
+   "sfx": "click",
+   "gain": 3,
+   "reason": "chapter_open: Revise the basics"
+  },
+  {
+   "time": 54.78,
+   "sfx": "ding",
+   "gain": 2,
+   "reason": "checklist: Revise properly"
+  },
+  {
+   "time": 72.23,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Pick one stack"
+  },
+  {
+   "time": 79.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 92.63,
+   "sfx": "click",
+   "gain": 3,
+   "reason": "chapter_open: Build one small project"
+  },
+  {
+   "time": 96.58,
+   "sfx": "ding",
+   "gain": 2,
+   "reason": "bullet_list: Project ideas"
+  },
+  {
+   "time": 109.18,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: From idea to proof"
+  },
+  {
+   "time": 119.48,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: The money trap"
+  },
+  {
+   "time": 125.18,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 132.38,
+   "sfx": "ding",
+   "gain": 2,
+   "reason": "checklist: Before you do anything"
+  },
+  {
+   "time": 153.78,
+   "sfx": "click",
+   "gain": 3,
+   "reason": "chapter_open: Work habits"
+  },
+  {
+   "time": 158.38,
+   "sfx": "ding",
+   "gain": 2,
+   "reason": "checklist: Practise the habits"
+  },
+  {
+   "time": 175.68,
+   "sfx": "ding",
+   "gain": 2,
+   "reason": "checklist: Documents folder"
+  },
+  {
+   "time": 188.58,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "timeline: The weekly plan"
+  }
+ ]
+}
