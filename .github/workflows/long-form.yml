@@ -23,6 +23,9 @@ on:
       wait_minutes:
         description: "Wait this long before starting (set by the workflow after a usage limit)"
         default: "0"
+      after_run:
+        description: "Run that started this one (set by the workflow; not counted as busy)"
+        default: ""
 
 concurrency:
   group: long-form-${{ inputs.script || 'weekly' }}
@@ -76,9 +79,16 @@ jobs:
           printf '%s\n' "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
       - name: Pick the script
         id: pick
+        env:
+          GH_TOKEN: ${{ github.token }}
+          AFTER: ${{ inputs.after_run || '0' }}
         run: |
           files=$(rclone lsf "$DRIVE/$SRC")
           if [ -z "$N" ]; then
+            # one long-form at a time: a run still working (or waiting for a usage limit) finishes its own video
+            busy=$(gh run list --repo "$GITHUB_REPOSITORY" --workflow long-form.yml --limit 30 --json status,databaseId \
+              -q "[.[] | select(.status != \"completed\" and .databaseId != $GITHUB_RUN_ID and .databaseId != $AFTER)] | length")
+            if [ "$busy" != "0" ]; then echo "Nothing to do: another long-form run is still working" | tee -a "$GITHUB_STEP_SUMMARY"; exit 0; fi
             rclone copy "$DRIVE/output" .yt-queue --include "*/youtube-uploaded.json" -q
             if ! node tools/youtube.mjs --longform-slot --due --queue .yt-queue; then
               echo "Nothing to do: this week's long-form slot is already scheduled" | tee -a "$GITHUB_STEP_SUMMARY"; exit 0
@@ -328,12 +338,19 @@ jobs:
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
         run: |
           if rclone lsf "$DRIVE/output/$P" | grep -q '^youtube-uploaded\.json$'; then echo "already on YouTube"; exit 0; fi
           rclone copy "$DRIVE/output" .yt-queue --include "*/youtube-uploaded.json" -q
           slot=$(node tools/youtube.mjs --longform-slot --queue .yt-queue)
           node tools/youtube.mjs "$P" --shorts "AI-clipper/output/$P" --publish "$slot" --no-thumbnail
           rclone copy "projects/$P/output/youtube-uploaded.json" "$DRIVE/output/$P" -v
+          # youtube.aheadUntil: while the next free Saturday is before that date, write and make the next one now
+          mkdir -p ".yt-queue/$P" && cp "projects/$P/output/youtube-uploaded.json" ".yt-queue/$P/"
+          if node tools/youtube.mjs --longform-slot --due --queue .yt-queue; then
+            gh workflow run long-form.yml --repo "$GITHUB_REPOSITORY" --ref "$GITHUB_REF_NAME" -f after_run="$GITHUB_RUN_ID"
+            echo "Next long-form started" >> "$GITHUB_STEP_SUMMARY"
+          fi
 
       - name: Not finished yet → start the next run
         if: always() && steps.done.outcome != 'success' && (steps.name.outputs.p != '' || steps.write.outcome == 'failure')

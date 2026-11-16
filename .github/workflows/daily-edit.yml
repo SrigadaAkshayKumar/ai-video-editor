@@ -17,6 +17,9 @@ on:
       brief:
         description: "Style words for this run (empty = brief.txt in the episode folder, else config/daily.json)"
         required: false
+      wait_minutes:
+        description: "Wait this long before starting (set by the workflow itself after a Claude usage limit)"
+        default: "0"
 
 concurrency:
   group: daily-edit
@@ -24,9 +27,24 @@ concurrency:
 
 permissions:
   contents: write
+  actions: write   # making videos ahead (youtube.aheadUntil): each run starts the next one
 
 jobs:
+  wait:
+    if: inputs.wait_minutes && inputs.wait_minutes != '0'
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - name: Wait for Claude's usage limit to reset, then start the next run
+        env:
+          GH_TOKEN: ${{ github.token }}
+          W: ${{ inputs.wait_minutes }}
+        run: |
+          s=$(( W > 330 ? 330 : W )); echo "waiting $s of $W min"; sleep $(( s * 60 ))
+          gh workflow run daily-edit.yml --repo "$GITHUB_REPOSITORY" --ref "$GITHUB_REF_NAME" -f wait_minutes="$(( W - s ))"
+
   edit:
+    if: ${{ !inputs.wait_minutes || inputs.wait_minutes == '0' }}
     runs-on: ubuntu-latest
     timeout-minutes: 350
     env:
@@ -36,6 +54,9 @@ jobs:
       RENDER_MIN_FREE_GB: "1.5"
       HYPERFRAMES_WORKERS: "1"
     steps:
+      - name: Start the clock
+        run: echo "JOB_START=$(date +%s)" >> "$GITHUB_ENV"
+
       - uses: actions/checkout@v4
 
       - name: System packages + rclone
@@ -116,10 +137,9 @@ jobs:
           EPISODE: ${{ steps.plan.outputs.episode }}
           DIR: ${{ steps.plan.outputs.dir }}
         run: |
-          claude -p "This is the unattended daily script step: use the daily-script skill.
+          bash .github/scripts/claude-run.sh claude-script-log.jsonl 75 "This is the unattended daily script step: use the daily-script skill.
           Next episode: $EPISODE (folder $DIR; it does not exist yet when the planned series has run out)
-          Today: $(TZ=Asia/Kolkata date '+%A %d %B %Y, %H:%M IST')" \
-            --dangerously-skip-permissions --output-format stream-json --verbose > claude-script-log.jsonl
+          Today: $(TZ=Asia/Kolkata date '+%A %d %B %Y, %H:%M IST')"
           node tools/daily.mjs script-check
 
       - name: Today's episode
@@ -211,12 +231,12 @@ jobs:
           LOOK_BRIEF: ${{ steps.pick.outputs.look_brief }}
         run: |
           echo "Edit look: **$LOOK** ($LOOK_STYLE)" >> "$GITHUB_STEP_SUMMARY"
-          claude -p "This is the unattended daily run: use the daily-run skill.
+          left=$(( 350 - ($(date +%s) - JOB_START) / 60 - 20 ))
+          bash .github/scripts/claude-run.sh claude-log.jsonl "$left" "This is the unattended daily run: use the daily-run skill.
           Episode: $EPISODE
           Voiceover: $AUDIO
           Look for this episode: $LOOK (--style $LOOK_STYLE): $LOOK_BRIEF
-          Brief override: ${BRIEF:-none, use config/daily.json}" \
-            --dangerously-skip-permissions --output-format stream-json --verbose > claude-log.jsonl
+          Brief override: ${BRIEF:-none, use config/daily.json}"
 
       - name: Check the result
         id: check
@@ -299,3 +319,27 @@ jobs:
             [ -f "$f" ] && rclone copy "$f" "$dir"
           done
           find inbox -name '*.tts.json' -newer package.json -exec rclone copy {} "$dir" \; || true
+
+      - name: Start the next run (usage limit reset, or making videos ahead)
+        if: always() && steps.plan.outputs.episode != 'none'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -f claude-limit.txt ]; then
+            reset=$(cat claude-limit.txt)
+            if [ "$reset" -gt 0 ] 2>/dev/null; then wait=$(( (reset - $(date +%s)) / 60 + 10 )); else wait=60; fi
+            [ "$wait" -lt 10 ] && wait=10
+            echo "Claude usage limit: this episode starts again in $wait min" | tee -a "$GITHUB_STEP_SUMMARY"
+            gh workflow run daily-edit.yml --repo "$GITHUB_REPOSITORY" --ref "$GITHUB_REF_NAME" -f wait_minutes="$wait"
+            exit 0
+          fi
+          [ "${{ job.status }}" = "success" ] || { echo "run failed: no chained run (the nightly schedule tries again)"; exit 0; }
+          [ "${{ steps.youtube.outcome }}" = "success" ] || { echo "not on YouTube: no chained run (it would take the same slot)"; exit 0; }
+          # youtube.aheadUntil: while the next free slot is before that date, make the next episode right away
+          rclone copy "$DRIVE/output" .yt-queue --include "*/youtube-uploaded.json" -q
+          due=0; node tools/youtube.mjs --due --queue .yt-queue > next.txt || due=$?
+          cat next.txt >> "$GITHUB_STEP_SUMMARY"
+          if [ "$due" = 0 ]; then
+            gh workflow run daily-edit.yml --repo "$GITHUB_REPOSITORY" --ref "$GITHUB_REF_NAME"
+            echo "Next episode started" >> "$GITHUB_STEP_SUMMARY"
+          fi
