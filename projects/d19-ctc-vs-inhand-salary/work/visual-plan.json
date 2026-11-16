@@ -1,0 +1,891 @@
+{
+ "style": "broadcast",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 2.85,
+   "type": "title_slide",
+   "text": "Why salary < C.T.C.",
+   "eyebrow": "Crack IT · Day 19",
+   "style_hint": "Freshers: the 3 deductions"
+  },
+  {
+   "start": 3.3,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "₹6 LPA ≠ ₹50,000 / month",
+   "side": "right"
+  },
+  {
+   "start": 7.9,
+   "duration": 3.7,
+   "type": "keyword_chip",
+   "text": "Offer letter in hand?",
+   "side": "left"
+  },
+  {
+   "start": 12.1,
+   "duration": 3.1,
+   "type": "side_note",
+   "text": "Where does the money go?",
+   "side": "left"
+  },
+  {
+   "start": 16,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Changed in September",
+   "side": "left"
+  },
+  {
+   "start": 20.2,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Deduction #3: hold on",
+   "side": "right"
+  },
+  {
+   "start": 24.1,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "C.T.C. is not salary",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 1
+  },
+  {
+   "start": 28.9,
+   "duration": 11.9,
+   "type": "flow_diagram",
+   "text": "Two different numbers",
+   "items": [
+    {
+     "label": "C.T.C.",
+     "sublabel": "what the company spends"
+    },
+    {
+     "label": "Salary + PF + insurance + variable",
+     "sublabel": "inside the C.T.C."
+    },
+    {
+     "label": "In-hand",
+     "sublabel": "what you receive"
+    }
+   ]
+  },
+  {
+   "start": 41.6,
+   "duration": 3.7,
+   "type": "keyword_chip",
+   "text": "Don't plan rent on ÷ 12",
+   "side": "left"
+  },
+  {
+   "start": 46.2,
+   "duration": 4.6,
+   "type": "side_note",
+   "text": "÷ 12 = the company's monthly cost",
+   "side": "left"
+  },
+  {
+   "start": 51.2,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Example only",
+   "side": "right"
+  },
+  {
+   "start": 54.5,
+   "duration": 2.7,
+   "type": "side_note",
+   "text": "Every company structures pay differently",
+   "side": "left"
+  },
+  {
+   "start": 57.6,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "The 3 deductions",
+   "eyebrow": "Section 02",
+   "numeral": "02",
+   "section": 2
+  },
+  {
+   "start": 60.7,
+   "duration": 2.6,
+   "type": "number_roll",
+   "value": 25000,
+   "prefix": "₹",
+   "text": "basic pay (half of ₹50,000 C.T.C.)"
+  },
+  {
+   "start": 63.5,
+   "duration": 1.9,
+   "type": "keyword_chip",
+   "text": "3 things come out",
+   "side": "right"
+  },
+  {
+   "start": 65.6,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "Deduction 1 · Company PF",
+   "side": "right"
+  },
+  {
+   "start": 69.2,
+   "duration": 5.2,
+   "type": "side_note",
+   "text": "12% of wages · inside C.T.C., never in your bank",
+   "side": "left"
+  },
+  {
+   "start": 74.7,
+   "duration": 4.2,
+   "type": "number_roll",
+   "value": 3000,
+   "prefix": "₹",
+   "text": "company PF share / month"
+  },
+  {
+   "start": 79.4,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Deduction 2 · Your PF",
+   "side": "right"
+  },
+  {
+   "start": 83.1,
+   "duration": 2.7,
+   "type": "side_note",
+   "text": "Another 12% = ₹3,000",
+   "side": "left"
+  },
+  {
+   "start": 86,
+   "duration": 4.4,
+   "type": "keyword_chip",
+   "text": "Yours, locked in your PF account",
+   "side": "left"
+  },
+  {
+   "start": 90.6,
+   "duration": 2.5,
+   "type": "keyword_chip",
+   "text": "Deduction 3 · The quiet one",
+   "side": "right"
+  },
+  {
+   "start": 93.3,
+   "duration": 3.2,
+   "type": "side_note",
+   "text": "Professional tax: a small state tax",
+   "side": "left"
+  },
+  {
+   "start": 96.8,
+   "duration": 5.6,
+   "type": "side_note",
+   "text": "Depends on your state — check yours",
+   "side": "left"
+  },
+  {
+   "start": 102.9,
+   "duration": 10.6,
+   "type": "bar_chart",
+   "side": "left",
+   "text": "₹50,000 C.T.C., example",
+   "items": [
+    {
+     "label": "Company PF",
+     "value": 3000
+    },
+    {
+     "label": "Your PF",
+     "value": 3000
+    },
+    {
+     "label": "Prof. tax",
+     "value": 200
+    },
+    {
+     "label": "In-hand ≈",
+     "value": 43800
+    }
+   ]
+  },
+  {
+   "start": 113.8,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "What changed in September",
+   "eyebrow": "Section 03",
+   "numeral": "03",
+   "section": 3
+  },
+  {
+   "start": 117,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "Notified 17 Sep 2026",
+   "side": "right"
+  },
+  {
+   "start": 121.5,
+   "duration": 4.7,
+   "type": "keyword_chip",
+   "text": "PF wage ceiling: ₹15,000 → ₹25,000",
+   "side": "right"
+  },
+  {
+   "start": 126.8,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "Reported · 27 Sep 2026",
+   "side": "right"
+  },
+  {
+   "start": 130.7,
+   "duration": 4.3,
+   "type": "keyword_chip",
+   "text": "Before: ₹1,800 a month",
+   "side": "right"
+  },
+  {
+   "start": 136.2,
+   "duration": 3.7,
+   "type": "keyword_chip",
+   "text": "Now: up to ₹3,000",
+   "side": "right"
+  },
+  {
+   "start": 140.4,
+   "duration": 5.7,
+   "type": "number_roll",
+   "value": 14400,
+   "prefix": "₹",
+   "text": "less in your bank every year (₹1,200 a month)"
+  },
+  {
+   "start": 146.5,
+   "duration": 3.7,
+   "type": "keyword_chip",
+   "text": "The catch: your salary structure",
+   "side": "right"
+  },
+  {
+   "start": 150.5,
+   "duration": 7.5,
+   "type": "comparison",
+   "side": "left",
+   "text": "Does your take-home change?",
+   "left": {
+    "label": "PF on ₹15,000 only",
+    "text": "Deduction rises"
+   },
+   "right": {
+    "label": "PF on full basic, above ₹25,000",
+    "text": "No change"
+   }
+  },
+  {
+   "start": 158.4,
+   "duration": 2.4,
+   "type": "side_note",
+   "text": "Check your salary slip",
+   "side": "left"
+  },
+  {
+   "start": 161,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Income tax: good news",
+   "eyebrow": "Section 04",
+   "numeral": "04",
+   "section": 4
+  },
+  {
+   "start": 164.1,
+   "duration": 3.5,
+   "type": "number_roll",
+   "value": 75000,
+   "prefix": "₹",
+   "text": "standard deduction, new regime"
+  },
+  {
+   "start": 168.2,
+   "duration": 4.4,
+   "type": "keyword_chip",
+   "text": "Standard deduction ₹75,000",
+   "side": "left"
+  },
+  {
+   "start": 173.3,
+   "duration": 4.1,
+   "type": "keyword_chip",
+   "text": "Rebate to ₹12 lakh · Sec 87A",
+   "side": "left"
+  },
+  {
+   "start": 178,
+   "duration": 4.1,
+   "type": "keyword_chip",
+   "text": "Reported · WION",
+   "side": "left"
+  },
+  {
+   "start": 182.5,
+   "duration": 3.9,
+   "type": "side_note",
+   "text": "Ask payroll which regime they used",
+   "side": "left"
+  },
+  {
+   "start": 186.8,
+   "duration": 2.5,
+   "type": "keyword_chip",
+   "text": "Choose in company portal",
+   "side": "right"
+  },
+  {
+   "start": 189.8,
+   "duration": 3.1,
+   "type": "keyword_chip",
+   "text": "PF is not lost",
+   "side": "left"
+  },
+  {
+   "start": 193.1,
+   "duration": 2.9,
+   "type": "side_note",
+   "text": "Earns interest · yours when you leave",
+   "side": "left"
+  },
+  {
+   "start": 196.2,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Before you sign",
+   "eyebrow": "Section 05",
+   "numeral": "05",
+   "section": 5
+  },
+  {
+   "start": 199.3,
+   "duration": 36.5,
+   "type": "step_progress",
+   "side": "right",
+   "text": "Your checklist",
+   "current_step": 0,
+   "items": [
+    {
+     "label": "Salary breakup in writing",
+     "at": 0.4
+    },
+    {
+     "label": "Fixed vs variable pay",
+     "at": 10.599999999999994
+    },
+    {
+     "label": "PF on full basic or ceiling?",
+     "at": 15.599999999999994
+    },
+    {
+     "label": "Bond / notice / clawback",
+     "at": 22.5
+    },
+    {
+     "label": "Compare your first slip",
+     "at": 29.899999999999977
+    }
+   ]
+  },
+  {
+   "start": 205.6,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "One number only? Ask the breakup",
+   "side": "left"
+  },
+  {
+   "start": 212.9,
+   "duration": 1.6,
+   "type": "keyword_chip",
+   "text": "Variable ≠ guaranteed",
+   "side": "left"
+  },
+  {
+   "start": 218.9,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "Changes your take-home",
+   "side": "left"
+  },
+  {
+   "start": 225.5,
+   "duration": 3.1,
+   "type": "keyword_chip",
+   "text": "Money owed back = real salary",
+   "side": "left"
+  },
+  {
+   "start": 233,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Fix mistakes in month 1",
+   "side": "left"
+  },
+  {
+   "start": 236.2,
+   "duration": 11,
+   "type": "flow_diagram",
+   "text": "To sum up",
+   "items": [
+    {
+     "label": "C.T.C.",
+     "sublabel": "what the company spends"
+    },
+    {
+     "label": "2 × PF + state tax",
+     "sublabel": "the gap · wider after September"
+    },
+    {
+     "label": "In-hand",
+     "sublabel": "what you receive"
+    }
+   ]
+  },
+  {
+   "start": 247.8,
+   "duration": 8.9,
+   "type": "lower_third",
+   "text": "Offer C.T.C. · First slip in-hand",
+   "eyebrow": "Comment below",
+   "side": "right"
+  },
+  {
+   "start": 257.1,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "SUBSCRIBE",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "index": 0,
+   "start": 0,
+   "end": 3,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "₹6 LPA",
+    "label": "the offer letter says"
+   }
+  },
+  {
+   "index": 1,
+   "start": 3,
+   "end": 7.5,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "₹50,000",
+    "label": "per month … really?"
+   }
+  },
+  {
+   "index": 2,
+   "start": 7.5,
+   "end": 11.8,
+   "kind": "broll",
+   "src": "assets/broll/woman-laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 3,
+   "start": 11.8,
+   "end": 15.4,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "?",
+    "label": "where does the money go"
+   }
+  },
+  {
+   "index": 4,
+   "start": 15.4,
+   "end": 19.8,
+   "kind": "news",
+   "url": "https://www.scconline.com/blog/post/2026/09/19/labour-ministry-notifies-25000-wage-ceiling-under-social-security-code/",
+   "source": "SCC Online",
+   "headline": "EPFO wage ceiling raised to ₹25,000; more employees to get PF, pension benefits",
+   "date": "19 Sep 2026",
+   "grade": "neutral",
+   "highlight": {
+    "x": 0.06,
+    "y": 0.128,
+    "w": 0.52,
+    "h": 0.04
+   }
+  },
+  {
+   "index": 5,
+   "start": 19.8,
+   "end": 23.9,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "3",
+    "label": "deductions — stay for #3"
+   }
+  },
+  {
+   "index": 6,
+   "start": 23.9,
+   "end": 28.8,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 7,
+   "start": 28.8,
+   "end": 33.2,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "C.T.C.",
+    "label": "cost to company"
+   }
+  },
+  {
+   "index": 8,
+   "start": 33.2,
+   "end": 41.4,
+   "kind": "broll",
+   "src": "assets/broll/office-desk.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 9,
+   "start": 41.4,
+   "end": 45.9,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "÷ 12",
+    "label": "≠ your monthly pay"
+   }
+  },
+  {
+   "index": 10,
+   "start": 45.9,
+   "end": 51,
+   "kind": "broll",
+   "src": "assets/broll/keyboard.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 11,
+   "start": 51,
+   "end": 57.5,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 12,
+   "start": 57.5,
+   "end": 65.5,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 13,
+   "start": 65.5,
+   "end": 74.6,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "1",
+    "label": "company PF share"
+   }
+  },
+  {
+   "index": 14,
+   "start": 74.6,
+   "end": 79.3,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 15,
+   "start": 79.3,
+   "end": 91,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "2",
+    "label": "your PF share"
+   }
+  },
+  {
+   "index": 16,
+   "start": 91,
+   "end": 96.6,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "3",
+    "label": "professional tax"
+   }
+  },
+  {
+   "index": 17,
+   "start": 96.6,
+   "end": 102.7,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "~₹200",
+    "label": "state tax / month"
+   }
+  },
+  {
+   "index": 18,
+   "start": 102.7,
+   "end": 113.7,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 19,
+   "start": 113.7,
+   "end": 116.9,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 20,
+   "start": 116.9,
+   "end": 126.5,
+   "kind": "news",
+   "url": "https://www.scconline.com/blog/post/2026/09/19/labour-ministry-notifies-25000-wage-ceiling-under-social-security-code/",
+   "source": "SCC Online",
+   "headline": "EPFO wage ceiling raised to ₹25,000; more employees to get PF, pension benefits",
+   "date": "19 Sep 2026",
+   "grade": "neutral",
+   "highlight": {
+    "x": 0.06,
+    "y": 0.128,
+    "w": 0.52,
+    "h": 0.04
+   }
+  },
+  {
+   "index": 21,
+   "start": 126.5,
+   "end": 130.4,
+   "kind": "news",
+   "url": "https://www.businesstoday.in/personal-finance/story/epfo-rs25000-ceiling-how-much-pf-will-be-deducted-from-your-salary-from-october-2026-558033-2026-09-27",
+   "source": "Business Today",
+   "headline": "EPFO ₹25,000 ceiling: How much PF will be deducted from your salary from October 2026?",
+   "date": "27 Sep 2026",
+   "grade": "neutral",
+   "highlight": {
+    "x": 0.07,
+    "y": 0.105,
+    "w": 0.66,
+    "h": 0.05
+   }
+  },
+  {
+   "index": 22,
+   "start": 130.4,
+   "end": 140.2,
+   "kind": "news",
+   "url": "https://www.businesstoday.in/personal-finance/story/from-rs1800-to-rs3000-how-epf-contributions-change-under-the-new-rs25000-wage-ceiling-559855-2026-10-06",
+   "source": "Business Today",
+   "headline": "From ₹1,800 to ₹3,000: How EPF contributions change under the new ₹25,000 wage ceiling",
+   "date": "6 Oct 2026",
+   "grade": "neutral",
+   "highlight": {
+    "x": 0.07,
+    "y": 0.105,
+    "w": 0.67,
+    "h": 0.05
+   }
+  },
+  {
+   "index": 23,
+   "start": 140.2,
+   "end": 146.3,
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "index": 24,
+   "start": 146.3,
+   "end": 150.3,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "The catch",
+    "label": "depends on your structure"
+   }
+  },
+  {
+   "index": 25,
+   "start": 150.3,
+   "end": 158.2,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 26,
+   "start": 158.2,
+   "end": 160.9,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 27,
+   "start": 160.9,
+   "end": 167.8,
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "index": 28,
+   "start": 167.8,
+   "end": 177.7,
+   "kind": "news",
+   "url": "https://www.business-standard.com/finance/personal-finance/new-rules-from-april-1-zero-tax-on-income-up-to-rs-12l-see-all-changes-125040200823_1.html",
+   "source": "Business Standard",
+   "headline": "New rules from April 1: Zero tax on income up to Rs 12L, see all changes",
+   "date": "2 Apr 2025",
+   "grade": "neutral",
+   "highlight": {
+    "x": 0.09,
+    "y": 0.238,
+    "w": 0.6,
+    "h": 0.042
+   }
+  },
+  {
+   "index": 29,
+   "start": 177.7,
+   "end": 182.3,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "₹0",
+    "label": "income tax, typical fresher"
+   }
+  },
+  {
+   "index": 30,
+   "start": 182.3,
+   "end": 189.5,
+   "kind": "broll",
+   "src": "assets/broll/office-desk.mp4",
+   "media_start": 6,
+   "motion": "ken_out",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 31,
+   "start": 189.5,
+   "end": 196.1,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "PF",
+    "label": "is yours — with interest"
+   }
+  },
+  {
+   "index": 32,
+   "start": 196.1,
+   "end": 199.4,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 33,
+   "start": 199.4,
+   "end": 209.4,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 34,
+   "start": 209.4,
+   "end": 214.9,
+   "kind": "broll",
+   "src": "assets/broll/keyboard.mp4",
+   "media_start": 5,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 35,
+   "start": 214.9,
+   "end": 221.8,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 36,
+   "start": 221.8,
+   "end": 228.9,
+   "kind": "broll",
+   "src": "assets/broll/office-walk.mp4",
+   "media_start": 8,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 37,
+   "start": 228.9,
+   "end": 236,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 38,
+   "start": 236,
+   "end": 247.5,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 39,
+   "start": 247.5,
+   "end": 256.9,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 40,
+   "start": 256.9,
+   "end": 261.43,
+   "kind": "graphic",
+   "grade": "cool"
+  }
+ ],
+ "camera_moves": []
+}

@@ -1,0 +1,104 @@
+{
+  "name": "d19-ctc-vs-inhand-salary",
+  "createdAt": "2026-11-16T09:47:55.133Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d19-ctc-vs-inhand-salary/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d19/d19-voice.wav",
+    "duration": 268.4,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d19-ctc-vs-inhand-salary/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d19/d19_ctc_vs_inhand_salary_voiceover.txt",
+    "words": 852,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d19-ctc-vs-inhand-salary/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "September",
+    "Deduction",
+    "Ask",
+    "After September"
+  ],
+  "mode": "faceless",
+  "style": "broadcast",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; bold newsroom look: news screenshots and NewsCards lead, split-screen framing, oversized section numerals, high-contrast accents; punchy pace, a beat every 3-5 s; wipe whooshes and hits on section changes",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 23.9,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-16T09:50:09.630Z",
+      "words": 817,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-16T09:50:25.455Z",
+      "segments": 25,
+      "kept": 261.433
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-16T10:16:05.103Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d19-ctc-vs-inhand-salary/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-16T10:16:25.558Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-16T10:16:25.598Z",
+      "groups": 225
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-16T10:16:26.698Z",
+      "music": 0,
+      "sfx": 33
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-16T10:22:19.869Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d19-ctc-vs-inhand-salary/output/final-16x9.mp4",
+      "duration": 271.445
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.982428,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d19-ctc-vs-inhand-salary/work/cleancut.wav",
+    "duration": 261.433042,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

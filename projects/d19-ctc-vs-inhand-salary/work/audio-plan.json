@@ -1,0 +1,206 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.1,
+   "sfx": "impact",
+   "gain": 4,
+   "reason": "title"
+  },
+  {
+   "time": 3.35,
+   "sfx": "pop",
+   "gain": 3,
+   "reason": "chip: ₹6 LPA ≠ ₹50,000 / month"
+  },
+  {
+   "time": 15.45,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "news wipe: SCC Online"
+  },
+  {
+   "time": 24.05,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "wipe → C.T.C. is not salary"
+  },
+  {
+   "time": 24.5,
+   "sfx": "impact",
+   "gain": 4,
+   "reason": "hit: C.T.C. is not salary"
+  },
+  {
+   "time": 28.95,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Two different numbers"
+  },
+  {
+   "time": 41.65,
+   "sfx": "pop",
+   "gain": 3,
+   "reason": "chip: Don't plan rent on ÷ 12"
+  },
+  {
+   "time": 57.55,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "wipe → The 3 deductions"
+  },
+  {
+   "time": 58,
+   "sfx": "impact",
+   "gain": 4,
+   "reason": "hit: The 3 deductions"
+  },
+  {
+   "time": 60.75,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "number: basic pay (half of ₹50,000 C.T.C.)"
+  },
+  {
+   "time": 74.75,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "number: company PF share / month"
+  },
+  {
+   "time": 79.45,
+   "sfx": "pop",
+   "gain": 3,
+   "reason": "chip: Deduction 2 · Your PF"
+  },
+  {
+   "time": 102.95,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "bar_chart: ₹50,000 C.T.C., example"
+  },
+  {
+   "time": 113.75,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "wipe → What changed in September"
+  },
+  {
+   "time": 114.2,
+   "sfx": "impact",
+   "gain": 4,
+   "reason": "hit: What changed in September"
+  },
+  {
+   "time": 116.95,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "news wipe: SCC Online"
+  },
+  {
+   "time": 121.55,
+   "sfx": "pop",
+   "gain": 3,
+   "reason": "chip: PF wage ceiling: ₹15,000 → ₹25,000"
+  },
+  {
+   "time": 126.55,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "news wipe: Business Today"
+  },
+  {
+   "time": 130.45,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "news wipe: Business Today"
+  },
+  {
+   "time": 140.45,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "number: less in your bank every year (₹1,200 a month)"
+  },
+  {
+   "time": 146.55,
+   "sfx": "pop",
+   "gain": 3,
+   "reason": "chip: The catch: your salary structure"
+  },
+  {
+   "time": 150.55,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: Does your take-home change?"
+  },
+  {
+   "time": 160.95,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "wipe → Income tax: good news"
+  },
+  {
+   "time": 161.4,
+   "sfx": "impact",
+   "gain": 4,
+   "reason": "hit: Income tax: good news"
+  },
+  {
+   "time": 164.15,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "number: standard deduction, new regime"
+  },
+  {
+   "time": 167.85,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "news wipe: Business Standard"
+  },
+  {
+   "time": 186.85,
+   "sfx": "pop",
+   "gain": 3,
+   "reason": "chip: Choose in company portal"
+  },
+  {
+   "time": 196.15,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "wipe → Before you sign"
+  },
+  {
+   "time": 196.6,
+   "sfx": "impact",
+   "gain": 4,
+   "reason": "hit: Before you sign"
+  },
+  {
+   "time": 199.35,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "step_progress: Your checklist"
+  },
+  {
+   "time": 218.95,
+   "sfx": "pop",
+   "gain": 3,
+   "reason": "chip: Changes your take-home"
+  },
+  {
+   "time": 236.25,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: To sum up"
+  },
+  {
+   "time": 247.85,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "lower_third: Offer C.T.C. · First slip in-hand"
+  }
+ ]
+}
