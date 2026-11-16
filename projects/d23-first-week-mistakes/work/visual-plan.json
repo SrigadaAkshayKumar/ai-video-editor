@@ -1,0 +1,660 @@
+{
+ "style": "glass",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 5.85,
+   "type": "title_slide",
+   "text": "Your first week at a tech job",
+   "eyebrow": "Crack IT · Day 23",
+   "style_hint": "5 mistakes that look careless"
+  },
+  {
+   "start": 8.4,
+   "duration": 5.2,
+   "type": "keyword_chip",
+   "text": "Week one: your manager is watching",
+   "side": "right"
+  },
+  {
+   "start": 16.9,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "5 small mistakes",
+   "side": "left"
+  },
+  {
+   "start": 21.1,
+   "duration": 4.3,
+   "type": "fact_band",
+   "items": [
+    {
+     "label": "5",
+     "sublabel": "small mistakes"
+    },
+    {
+     "label": "#4",
+     "sublabel": "follows you for months"
+    },
+    {
+     "label": "1",
+     "sublabel": "week"
+    }
+   ]
+  },
+  {
+   "start": 26.1,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Why week one matters",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 1
+  },
+  {
+   "start": 30,
+   "duration": 5.2,
+   "type": "flow_diagram",
+   "text": "How a name is made",
+   "items": [
+    {
+     "label": "No past work"
+    },
+    {
+     "label": "People judge habits"
+    },
+    {
+     "label": "Habits become your name"
+    }
+   ]
+  },
+  {
+   "start": 35.4,
+   "duration": 4.5,
+   "type": "bullet_list",
+   "side": "right",
+   "text": "What they can see",
+   "items": [
+    {
+     "label": "Replies?"
+    },
+    {
+     "label": "On time?"
+    },
+    {
+     "label": "Finishes?"
+    }
+   ]
+  },
+  {
+   "start": 40.3,
+   "duration": 5.7,
+   "type": "side_note",
+   "text": "Habits beat talent in week one",
+   "side": "left"
+  },
+  {
+   "start": 46.5,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "Problem · why it happens · fix",
+   "side": "right"
+  },
+  {
+   "start": 50.6,
+   "duration": 3.6,
+   "type": "chapter_open",
+   "text": "Ignoring onboarding emails",
+   "eyebrow": "Mistake 01",
+   "numeral": "01",
+   "section": 2
+  },
+  {
+   "start": 55.3,
+   "duration": 4.7,
+   "type": "bullet_list",
+   "side": "right",
+   "text": "Mails you will get",
+   "items": [
+    {
+     "label": "HR"
+    },
+    {
+     "label": "Tech help desk"
+    },
+    {
+     "label": "Learning team"
+    }
+   ]
+  },
+  {
+   "start": 63,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "Due in two days",
+   "side": "left"
+  },
+  {
+   "start": 65.7,
+   "duration": 3.2,
+   "type": "side_note",
+   "text": "Missed mail = a reminder to your manager",
+   "side": "left"
+  },
+  {
+   "start": 70.2,
+   "duration": 8.4,
+   "type": "checklist",
+   "text": "What to do",
+   "items": [
+    {
+     "label": "Check work mail 3 times a day",
+     "state": "yes"
+    },
+    {
+     "label": "Reply to every action mail",
+     "state": "yes"
+    },
+    {
+     "label": "“Received, will finish today”",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 79.2,
+   "duration": 3.6,
+   "type": "chapter_open",
+   "text": "Courses and timesheet",
+   "eyebrow": "Mistake 02",
+   "numeral": "02",
+   "section": 3
+  },
+  {
+   "start": 83.6,
+   "duration": 5.4,
+   "type": "keyword_chip",
+   "text": "Security · conduct · timesheet",
+   "side": "right"
+  },
+  {
+   "start": 92,
+   "duration": 6.2,
+   "type": "comparison",
+   "side": "left",
+   "left": {
+    "label": "Done in week one",
+    "text": "Looks organised"
+   },
+   "right": {
+    "label": "Chased for it",
+    "text": "Looks careless"
+   }
+  },
+  {
+   "start": 98.8,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Staying silent when stuck",
+   "eyebrow": "Mistake 03",
+   "numeral": "03",
+   "section": 4
+  },
+  {
+   "start": 102.2,
+   "duration": 5.2,
+   "type": "quote_pull",
+   "text": "If I ask, they will think I am weak.",
+   "eyebrow": "What freshers think"
+  },
+  {
+   "start": 108.9,
+   "duration": 5.1,
+   "type": "flow_diagram",
+   "text": "A simple rule",
+   "items": [
+    {
+     "label": "Try 30 minutes"
+    },
+    {
+     "label": "Write what you tried"
+    },
+    {
+     "label": "Ask with notes"
+    }
+   ]
+  },
+  {
+   "start": 114.5,
+   "duration": 7.7,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "“It is not working”",
+    "text": "Shows nothing"
+   },
+   "right": {
+    "label": "“I tried A and B, stuck at C”",
+    "text": "Shows effort"
+   }
+  },
+  {
+   "start": 122.7,
+   "duration": 4.6,
+   "type": "big_statement",
+   "text": "Silence is read as risk",
+   "eyebrow": "nobody knows you are stuck"
+  },
+  {
+   "start": 127.9,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "The date you missed",
+   "eyebrow": "Mistake 04",
+   "numeral": "04",
+   "section": 1
+  },
+  {
+   "start": 133.2,
+   "duration": 10.6,
+   "type": "timeline",
+   "side": "left",
+   "text": "Ravi's week",
+   "items": [
+    {
+     "label": "Mon",
+     "sublabel": "Promises Wednesday"
+    },
+    {
+     "label": "Wed",
+     "sublabel": "Stuck, says nothing"
+    },
+    {
+     "label": "Fri",
+     "sublabel": "Sends it"
+    },
+    {
+     "label": "Lead remembers",
+     "sublabel": "the silence"
+    }
+   ]
+  },
+  {
+   "start": 146.5,
+   "duration": 5.3,
+   "type": "keyword_chip",
+   "text": "Managing expectations",
+   "side": "left"
+  },
+  {
+   "start": 154.5,
+   "duration": 3.9,
+   "type": "quote_pull",
+   "text": "I am blocked on this. I need until Friday. Is that fine?",
+   "eyebrow": "One early message"
+  },
+  {
+   "start": 159.2,
+   "duration": 2.8,
+   "type": "side_note",
+   "text": "Silent late work is remembered",
+   "side": "right"
+  },
+  {
+   "start": 162.3,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Office rules",
+   "eyebrow": "Mistake 05 · not optional",
+   "numeral": "05",
+   "section": 2
+  },
+  {
+   "start": 165.8,
+   "duration": 5.2,
+   "type": "keyword_chip",
+   "text": "Office days · leave · hours · dress",
+   "side": "right"
+  },
+  {
+   "start": 172.2,
+   "duration": 3.3,
+   "type": "side_note",
+   "text": "Not what a friend’s company does",
+   "side": "left"
+  },
+  {
+   "start": 176.3,
+   "duration": 8.7,
+   "type": "checklist",
+   "text": "Ask on day one",
+   "items": [
+    {
+     "label": "Which days in the office?",
+     "state": "yes"
+    },
+    {
+     "label": "How to apply for leave, whom to tell?",
+     "state": "yes"
+    },
+    {
+     "label": "Working hours for this team?",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 186,
+   "duration": 5,
+   "type": "big_statement",
+   "text": "Follow the rules first. Earn flexibility later.",
+   "eyebrow": "first month"
+  },
+  {
+   "start": 193.4,
+   "duration": 10.4,
+   "type": "checklist",
+   "text": "Your week-one habits",
+   "items": [
+    {
+     "label": "Check your mail",
+     "state": "yes"
+    },
+    {
+     "label": "Courses and timesheet",
+     "state": "yes"
+    },
+    {
+     "label": "Ask with notes",
+     "state": "yes"
+    },
+    {
+     "label": "Warn before you are late",
+     "state": "yes"
+    },
+    {
+     "label": "Learn the rules on day one",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 204.5,
+   "duration": 3.4,
+   "type": "quote_pull",
+   "text": "Which of the five will you make?",
+   "eyebrow": "Comment the number"
+  },
+  {
+   "start": 208.5,
+   "duration": 3.9,
+   "type": "keyword_chip",
+   "text": "One tip for new joiners",
+   "side": "right"
+  },
+  {
+   "start": 212.9,
+   "duration": 1.4,
+   "type": "keyword_chip",
+   "text": "Subscribe",
+   "side": "left"
+  }
+ ],
+ "scenes": [
+  {
+   "index": 0,
+   "start": 0,
+   "end": 8,
+   "kind": "broll",
+   "src": "assets/broll/laptop-man.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 1,
+   "start": 8,
+   "end": 16.7,
+   "kind": "broll",
+   "src": "assets/broll/office-woman.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 2,
+   "start": 16.7,
+   "end": 25.95,
+   "kind": "broll",
+   "src": "assets/broll/pair-laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 3,
+   "start": 25.95,
+   "end": 37,
+   "kind": "broll",
+   "src": "assets/broll/meeting-room.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 4,
+   "start": 37,
+   "end": 43,
+   "kind": "broll",
+   "src": "assets/broll/whiteboard.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 5,
+   "start": 43,
+   "end": 49.6,
+   "kind": "broll",
+   "src": "assets/broll/whiteboard.mp4",
+   "media_start": 7,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 6,
+   "start": 49.6,
+   "end": 60,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 7,
+   "start": 60,
+   "end": 70,
+   "kind": "broll",
+   "src": "assets/broll/office-woman.mp4",
+   "media_start": 10,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 8,
+   "start": 70,
+   "end": 79,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 12,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 9,
+   "start": 79,
+   "end": 88,
+   "kind": "broll",
+   "src": "assets/broll/notes-coffee.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 10,
+   "start": 88,
+   "end": 98.6,
+   "kind": "broll",
+   "src": "assets/broll/pair-laptop.mp4",
+   "media_start": 10,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 11,
+   "start": 98.6,
+   "end": 108,
+   "kind": "broll",
+   "src": "assets/broll/meeting-room.mp4",
+   "media_start": 12,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 12,
+   "start": 108,
+   "end": 118.7,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 24,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 13,
+   "start": 118.7,
+   "end": 127.7,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "30 MIN",
+    "label": "try first, then ask"
+   }
+  },
+  {
+   "index": 14,
+   "start": 127.7,
+   "end": 133,
+   "kind": "broll",
+   "src": "assets/broll/walking.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 15,
+   "start": 133,
+   "end": 144.2,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "FRIDAY",
+    "label": "promised Wednesday"
+   }
+  },
+  {
+   "index": 16,
+   "start": 144.2,
+   "end": 154.3,
+   "kind": "broll",
+   "src": "assets/broll/laptop-man.mp4",
+   "media_start": 2,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 17,
+   "start": 154.3,
+   "end": 162.2,
+   "kind": "broll",
+   "src": "assets/broll/office-woman.mp4",
+   "media_start": 12,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 18,
+   "start": 162.2,
+   "end": 172,
+   "kind": "broll",
+   "src": "assets/broll/pair-laptop.mp4",
+   "media_start": 20,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 19,
+   "start": 172,
+   "end": 182,
+   "kind": "broll",
+   "src": "assets/broll/meeting-room.mp4",
+   "media_start": 22,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 20,
+   "start": 182,
+   "end": 193,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 25,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 21,
+   "start": 193,
+   "end": 204.2,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "5",
+    "label": "habits, week one"
+   }
+  },
+  {
+   "index": 22,
+   "start": 204.2,
+   "end": 214.5,
+   "kind": "broll",
+   "src": "assets/broll/notes-coffee.mp4",
+   "media_start": 5,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade"
+  }
+ ],
+ "camera_moves": []
+}

@@ -1,0 +1,68 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "title_slide: Your first week at a tech job"
+  },
+  {
+   "time": 26.18,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Why week one matters"
+  },
+  {
+   "time": 30.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: How a name is made"
+  },
+  {
+   "time": 50.68,
+   "sfx": "impact",
+   "gain": 4,
+   "reason": "chapter_open: Ignoring onboarding emails"
+  },
+  {
+   "time": 79.28,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Courses and timesheet"
+  },
+  {
+   "time": 98.88,
+   "sfx": "impact",
+   "gain": 4,
+   "reason": "chapter_open: Staying silent when stuck"
+  },
+  {
+   "time": 108.98,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: A simple rule"
+  },
+  {
+   "time": 127.98,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: The date you missed"
+  },
+  {
+   "time": 133.28,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "timeline: Ravi's week"
+  },
+  {
+   "time": 162.38,
+   "sfx": "impact",
+   "gain": 4,
+   "reason": "chapter_open: Treating office rules as optional"
+  }
+ ]
+}

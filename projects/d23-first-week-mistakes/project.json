@@ -1,0 +1,106 @@
+{
+  "name": "d23-first-week-mistakes",
+  "createdAt": "2026-11-16T16:01:13.547Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d23-first-week-mistakes/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d23/d23-voice.wav",
+    "duration": 221.5,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d23-first-week-mistakes/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d23/d23_first_week_mistakes_voiceover.txt",
+    "words": 759,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d23-first-week-mistakes/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Ravi",
+    "By Thursday",
+    "None",
+    "Mistake",
+    "On Wednesday",
+    "Friday"
+  ],
+  "mode": "faceless",
+  "style": "glass",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; documentary storytelling look: full-frame b-roll leads, graphics docked to one side, quote pulls on the key lines, timelines for the backstory; slower, a beat every 6-10 s; low sub-band SFX on structure only",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 25.9,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-16T16:03:07.048Z",
+      "words": 753,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-16T16:03:10.991Z",
+      "segments": 18,
+      "kept": 214.5
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-16T16:57:13.845Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d23-first-week-mistakes/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-16T16:30:25.535Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-16T16:30:25.564Z",
+      "groups": 192
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-16T16:57:14.415Z",
+      "music": 0,
+      "sfx": 10
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-16T17:00:25.203Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d23-first-week-mistakes/output/final-16x9.mp4",
+      "duration": 224.512
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.982457,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d23-first-week-mistakes/work/cleancut.wav",
+    "duration": 214.49975,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}
