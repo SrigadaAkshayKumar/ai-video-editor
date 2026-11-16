@@ -1,6 +1,6 @@
 ---
 name: daily-script
-description: The UNATTENDED script step of the daily run in GitHub Actions — get the next Crack IT episode's script + voiceover ready for the voice step. Planned episodes (the dNN folders already in the series) come first; a planned voiceover with {FILL…}/{OPTIONAL…} gets its figures filled from confirmed sources; when no planned episode is left, research today's news for the channel's audience and write a new episode in the exact d01 format. Use only when the prompt says it is the daily script step (or the user asks to rehearse it locally).
+description: The UNATTENDED script step of the daily run in GitHub Actions — get the next Crack IT episode's script + voiceover ready for the voice step. Planned episodes (the dNN folders already in the series) come first; a planned voiceover with {FILL…}/{OPTIONAL…} gets its figures filled from confirmed sources; when no planned episode is left (or plannedEpisodes is false), write a new episode in the exact d01 format: an evergreen fresher guide first, news only when it changes what a fresher must do. Use only when the prompt says it is the daily script step (or the user asks to rehearse it locally).
 ---
 
 # Daily script step (no human in the loop)
@@ -23,7 +23,7 @@ voice, then the `daily-run` skill edits it. Nobody reads the script before it is
 ## 1. Which episode
 
 **`config/daily.json` → `"plannedEpisodes": false` (the owner's standing choice):** the planned folders are retired.
-Skip case 1: write a fresh-news episode from today's news (section 2) in the folder the prompt names, and never pick,
+Skip case 1: write a fresh episode (section 2: evergreen first) in the folder the prompt names, and never pick,
 fill or copy a planned folder. Still read the planned titles, but only to avoid repeating a topic. If the prompt names
 a folder that already holds your unfinished fresh script, finish that one.
 
@@ -44,23 +44,39 @@ Otherwise work through the cases in order and stop at the first that applies:
 
 Deferring keeps the date-bound plan honest: the deferred episode comes up again tomorrow, first in line.
 
-## 2. Fresh-news episode
+## 2. Fresh episode: evergreen first (the owner's choice, 2026-11-16)
 
-- **Audience:** engineering/science students and freshers moving from campus to their first IT job in India
-  (placements, off-campus drives, onboarding and joining letters, company results as they affect hiring, layoffs,
-  new roles and skills, exams and assessments like NQT/coding contests, salaries for freshers).
-- **Find the topic:** search news from the last 48 hours (company press releases, Business Standard, Economic
-  Times, Mint, BusinessToday, Moneycontrol, NDTV Profit, official careers pages). Prefer the story with a concrete,
-  checkable fact that changes what a fresher should do this week. Skip anything the series has already covered
-  unless there is a real update, and say so in the title ("Update: …").
+Crack IT is **not a news channel**. It is the guide a fresher keeps coming back to between campus and the first
+months of the first IT job. Most episodes are **evergreen**: still true and useful a year from now. A news topic is
+allowed only when it **directly changes what a fresher must do** (a large hiring or onboarding drive with dates,
+joining dates moved, an exam/assessment announced, an offer-letter or BGV policy change at a big recruiter). Company
+results, visas, stock moves, layoffs of senior staff, AI-industry news and the like are **not** topics on their own.
+
+- **Audience:** engineering/science students and freshers moving from campus to their first IT job in India.
+- **Evergreen pillars** (pick the one the series has covered least lately; never repeat a title already in the
+  series, look at every `dNN/*_script.md` title line):
+  1. Offer, onboarding and joining: offer letter vs appointment letter, joining-date delays, documents, first week.
+  2. Background verification: what is checked, mismatches, gaps, insufficiency mails.
+  3. Interviews and tests: aptitude, coding rounds, HR questions, NQT-style exams, group discussion.
+  4. Money: CTC vs in-hand, salary slip, PF/UAN, tax regime basics for a first salary, bond and notice period.
+  5. First year at work: bench, project allocation, appraisals, emails and timesheets, work from office rules.
+  6. Skills and growth: what to learn while waiting to join, certifications that matter, switching after one year.
+  7. Safety: fake offers, paid-training scams, fake HR calls and how to verify.
+- **Facts still need sources** (section 3): official pages (EPFO, income-tax portal, company careers/onboarding
+  pages, labour-law references) for rules and numbers; explain processes in general terms where they differ between
+  companies, and name the company when a fact is company-specific.
+- **When a news topic qualifies:** search the last 48 hours (company press releases, Business Standard, Economic
+  Times, Mint, BusinessToday, Moneycontrol, NDTV Profit, official careers pages) and keep the angle on what the
+  fresher should do this week.
+- **Kind:** write `"kind": "fresh"` in `daily-script.json` for both evergreen and news episodes.
 - **Tools, in this order, and never give up after one failure:** WebSearch / WebFetch; when they are missing, error
   or are blocked by a site, use the repo's own helpers through Bash, which work on the runner:
   `node tools/web.mjs news "<query>" [--days 2]` (Google News headlines; add `--provider bing` for direct article
   links) and `node tools/web.mjs read <url>` (the page's text in headless Chrome; a page read this way counts as
-  opened). Try at least eight different searches (company names, "freshers", "campus hiring", "onboarding",
-  "layoffs", "NQT", "off-campus drive", "joining date") and two days, then three, before concluding there is no
-  topic. A slow news day still has a usable story: a hiring drive, an exam date, a results-day hiring comment.
-  `"status": "failed"` is only for when the tools themselves cannot reach any news; then say which tool failed and
+  opened). For a news check, try several searches ("freshers", "campus hiring", "onboarding", "NQT", "off-campus
+  drive", "joining date", recruiter names); with no qualifying news, make an evergreen episode, which is always
+  possible.
+  `"status": "failed"` is only for when the tools themselves cannot reach any source; then say which tool failed and
   its exact error in `notes`.
 - **Shape (copy d01):** a hook that names who it is for and promises specific takeaways; 4–7 scenes `S01 · …`;
   plain-words explanation of every number; a practical "what to do now" section; a CTA that asks a specific comment

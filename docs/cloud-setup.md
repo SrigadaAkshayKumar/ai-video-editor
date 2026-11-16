@@ -37,7 +37,15 @@ AI-edits/
   run; a folder where you dropped your own `dNN-voice.wav` skips the voice step. With no planned folder left, the run
   makes `d<next>/` itself from fresh news (turn that off with `"freshNews": false` in `config/daily.json`).
 - **Fresh scripts only (current setting):** `"plannedEpisodes": false` skips the planned folders altogether; every
-  run researches the day's news and writes a new episode (`fresh-news.txt` marks it, so a failed one is resumed).
+  run writes a new episode (`fresh-news.txt` marks it, so a failed one is resumed). Topics are **evergreen fresher
+  guides first** (offer and onboarding, B.G.V., interviews, salary and P.F., the first year, skills, scams); a news
+  topic only when it changes what a fresher must do (`daily-script` skill, section 2).
+- **Weekly long-form (20–30 min), Saturday 16:00 IST:** `.github/workflows/long-form.yml` runs every Wednesday night
+  (Thu 01:07 IST). When the coming Saturday has no video yet, Claude writes a new evergreen masterclass
+  (`longform-script` skill) into `inbox/faceless/crack-it-long-form-scripts/NN_*`, then the cloned voice, the edit, 3
+  Shorts and the YouTube schedule (Shorts 17:00/18:00/19:00) follow; long runs continue themselves across runs and
+  usage limits. The Mon/Wed/Fri queue ignores Saturday videos. Day and time: `config/daily.json` →
+  `youtube.longform`.
 - **Voice reference:** `inbox/brand/my-final-voice.*` plus its exact words in `config/voice.json` → `refText`.
   Recording a new reference? Upload it with the same name and update `refText` (a 10–20 s clip clones better).
 - **Edit looks:** each episode gets a look picked at random from `config/daily.json` → `looks.list` (a visual

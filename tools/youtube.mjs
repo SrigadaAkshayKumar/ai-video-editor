@@ -27,13 +27,13 @@
 // Writes projects/<p>/output/youtube-uploaded.json (ids, links, publish times) and a summary for the run page.
 import { appendFileSync, existsSync, mkdtempSync, readFileSync, readdirSync, rmSync, statSync } from "node:fs";
 import { tmpdir } from "node:os";
-import { extname, join } from "node:path";
+import { extname, join, resolve } from "node:path";
 import { PROJECTS, ROOT, die, parseCli, readJson, run, writeJson } from "./lib/common.mjs";
 
 const { positional, flags } = parseCli();
 const [project] = positional;
 const testFile = typeof flags.test === "string" ? flags.test : null;
-if (!project && !testFile && !flags.due) die("usage: node tools/youtube.mjs <project> [--shorts dir] [--dry-run] | --test <file.mp4> | --due --queue dir");
+if (!project && !testFile && !flags.due && !flags["longform-slot"]) die("usage: node tools/youtube.mjs <project> [--shorts dir] [--dry-run] | --test <file.mp4> | --due --queue dir");
 const dryRun = !!flags["dry-run"];
 const cfg = { publishDelayDays: 1, publishTime: "18:00", shortsCount: 3, shortsGapMinutes: 60, categoryId: "27",
   language: "en", syntheticMedia: false, skipDays: [0], publishDays: null, dueHours: 48, thumbnail: true, ...(readJson(join(ROOT, "config", "daily.json")).youtube || {}) };
@@ -58,8 +58,9 @@ function queueSlot(dir) {
     if (n.isDirectory()) walk(join(d, n.name)); else if (n.name === "youtube-uploaded.json") files.push(join(d, n.name));
   } };
   if (existsSync(dir)) walk(dir);
+  // only main videos on the regular days count: a Saturday long-form must not push Mon/Wed/Fri back
   const latest = Math.max(0, ...files.flatMap((f) => (readJson(f).videos || []).filter((v) => v.kind === "video")
-    .map((v) => Date.parse(v.publishAt) || 0)));
+    .map((v) => Date.parse(v.publishAt) || 0).filter((t) => t && !skipDay(t))));
   const slot = istSlot(cfg.publishDelayDays, cfg.publishTime);
   if (!latest) return slot;
   // next day after the latest, at publishTime IST
@@ -69,6 +70,30 @@ function queueSlot(dir) {
   while (skipDay(t)) t += 864e5;
   console.log(`queue: latest scheduled video ${istText(new Date(latest).toISOString())} (${files.length} uploaded episodes) → next free day`);
   return new Date(Math.max(t, slot.getTime()));
+}
+
+// --longform-slot --queue dir: the next youtube.longform day (6 = Saturday) at its time, IST, that has no main video
+// scheduled yet; prints "YYYY-MM-DD HH:MM" and how far away it is. --due with it: exit 0 only when that slot is
+// within 7 days (this week's long-form is still to be made), else 1.
+if (flags["longform-slot"]) {
+  const lf = { day: 6, time: "16:00", ...(cfg.longform || {}) };
+  const dir = resolve(ROOT, flags.queue || ".yt-queue");
+  const files = [];
+  const walk = (d) => { for (const n of readdirSync(d, { withFileTypes: true })) {
+    if (n.isDirectory()) walk(join(d, n.name)); else if (n.name === "youtube-uploaded.json") files.push(join(d, n.name));
+  } };
+  if (existsSync(dir)) walk(dir);
+  const day = (t) => new Date(t + IST).toISOString().slice(0, 10);
+  const taken = new Set(files.flatMap((f) => (readJson(f).videos || []).filter((v) => v.kind === "video")
+    .map((v) => day(Date.parse(v.publishAt)))));
+  const [h, m] = lf.time.split(":").map(Number);
+  const now = new Date(Date.now() + IST);
+  let t = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), h, m) - IST;
+  while (new Date(t + IST).getUTCDay() !== lf.day || t < Date.now() + 3 * 3.6e6 || taken.has(day(t))) t += 864e5;
+  const hours = (t - Date.now()) / 3.6e6;
+  console.log(`${istText(new Date(t).toISOString()).replace(" IST", "")}`);
+  console.error(`next free long-form slot ${istText(new Date(t).toISOString())}, ${hours.toFixed(0)} h away`);
+  process.exit(flags.due && hours > 7 * 24 ? 1 : 0);
 }
 
 // --due --queue dir: exit 0 when the next free slot is within youtube.dueHours (the daily run makes an episode only

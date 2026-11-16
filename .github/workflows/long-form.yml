@@ -1,17 +1,22 @@
-# Crack IT long-form video from a script in Drive: inbox/faceless/crack-it-long-form-scripts/NN_<topic>_script.md
-# + NN_<topic>_voiceover.md. Claude cleans the voiceover text (drops notes and stray lines) → the owner's cloned voice
-# (Qwen3-TTS) → Claude edits it (edit-video-faceless, Explainer look) → 5 Shorts → metadata → Google Drive only.
+# Crack IT weekly long-form video (20-30 min), published Saturday 16:00 IST (config/daily.json → youtube.longform).
+# Every Wednesday night (Thu 01:07 IST) Claude writes a new evergreen masterclass (longform-script skill) into Drive
+# inbox/faceless/crack-it-long-form-scripts/NN_<topic>_script.md + _voiceover(.clean).txt, unless this week's Saturday
+# is already scheduled. A script number given by hand uses that script (written by the owner: Claude cleans its
+# voiceover text first). Then: the owner's cloned voice (Qwen3-TTS) → Claude edits it (edit-video-faceless, Explainer
+# look) → 3 Shorts → metadata → Google Drive → YouTube, scheduled for the next free Saturday (Shorts hourly after it).
 # Long videos outlast one run (6 h) and can hit Claude's usage limit: every run saves its progress to Drive
 # (longform/<project>/) and starts the next run by itself, after the limit resets when that is what stopped it.
-# Actions → Long-form video → Run workflow → script "06".
+# By hand: Actions → Long-form video → Run workflow → script "07" (empty = this week's new script).
 name: Long-form video
 
 on:
+  schedule:
+    - cron: "37 19 * * 3"   # Wednesday 19:37 UTC = Thursday 01:07 IST, two days before the Saturday slot
   workflow_dispatch:
     inputs:
       script:
-        description: "Script number in inbox/faceless/crack-it-long-form-scripts, e.g. 06"
-        required: true
+        description: "Script number in inbox/faceless/crack-it-long-form-scripts, e.g. 07 (empty = write this week's new one)"
+        required: false
       attempt:
         description: "Run number for this video (set by the workflow itself)"
         default: "1"
@@ -20,7 +25,7 @@ on:
         default: "0"
 
 concurrency:
-  group: long-form-${{ inputs.script }}
+  group: long-form-${{ inputs.script || 'weekly' }}
   cancel-in-progress: false
 
 permissions:
@@ -32,7 +37,7 @@ env:
 
 jobs:
   wait:
-    if: inputs.wait_minutes != '0'
+    if: inputs.wait_minutes && inputs.wait_minutes != '0'
     runs-on: ubuntu-latest
     timeout-minutes: 340
     steps:
@@ -47,15 +52,62 @@ jobs:
           gh workflow run long-form.yml --repo "$GITHUB_REPOSITORY" --ref "$GITHUB_REF_NAME" \
             -f script="$N" -f attempt="$ATTEMPT" -f wait_minutes="$(( W - s ))"
 
+  # which script this run makes: the number given, an unfinished script Claude wrote earlier, or a new number
+  # (only when this week's Saturday has no video scheduled yet)
+  plan:
+    if: ${{ !inputs.wait_minutes || inputs.wait_minutes == '0' }}
+    runs-on: ubuntu-latest
+    outputs:
+      n: ${{ steps.pick.outputs.n }}
+      write: ${{ steps.pick.outputs.write }}
+    env:
+      DRIVE: gdrive:${{ vars.DRIVE_ROOT || 'AI-edits' }}
+      SRC: inbox/faceless/crack-it-long-form-scripts
+      N: ${{ inputs.script }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: rclone + Drive login
+        env:
+          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
+        run: |
+          test -n "$RCLONE_CONF" || { echo "::error::secret RCLONE_CONF is missing"; exit 1; }
+          curl -fsSL https://rclone.org/install.sh | sudo bash > /dev/null
+          mkdir -p ~/.config/rclone
+          printf '%s\n' "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
+      - name: Pick the script
+        id: pick
+        run: |
+          files=$(rclone lsf "$DRIVE/$SRC")
+          if [ -z "$N" ]; then
+            rclone copy "$DRIVE/output" .yt-queue --include "*/youtube-uploaded.json" -q
+            if ! node tools/youtube.mjs --longform-slot --due --queue .yt-queue; then
+              echo "Nothing to do: this week's long-form slot is already scheduled" | tee -a "$GITHUB_STEP_SUMMARY"; exit 0
+            fi
+            # a script Claude wrote earlier whose video was never delivered: finish that one first
+            for m in $(echo "$files" | grep '_written-by-claude\.txt$'); do
+              n=${m%%_*}; p=$(rclone lsf "$DRIVE/output" --dirs-only | grep "^lf${n}-" | head -1 | tr -d /)
+              if [ -z "$p" ] || ! rclone lsf "$DRIVE/output/$p" | grep -q '^longform-done\.json$'; then N=$n; break; fi
+            done
+            if [ -z "$N" ]; then
+              max=$(echo "$files" | grep -oE '^[0-9]+' | sort -n | tail -1)
+              N=$(printf '%02d' $(( 10#${max:-0} + 1 )))
+            fi
+          fi
+          write=0; echo "$files" | grep -q "^${N}_.*_script\.md$" || write=1
+          printf 'n=%s\nwrite=%s\n' "$N" "$write" >> "$GITHUB_OUTPUT"
+          echo "Long-form **$N** (new script to write: $write)" >> "$GITHUB_STEP_SUMMARY"
+
   make:
-    if: inputs.wait_minutes == '0'
+    needs: plan
+    if: needs.plan.outputs.n != ''
     runs-on: ubuntu-latest
     timeout-minutes: 355
     env:
       DRIVE: gdrive:${{ vars.DRIVE_ROOT || 'AI-edits' }}
       SRC: inbox/faceless/crack-it-long-form-scripts
-      N: ${{ inputs.script }}
-      ATTEMPT: ${{ inputs.attempt }}
+      N: ${{ needs.plan.outputs.n }}
+      WRITE: ${{ needs.plan.outputs.write }}
+      ATTEMPT: ${{ inputs.attempt || '1' }}
       REMOTION_CONCURRENCY: "2"
       RENDER_MIN_FREE_GB: "1.5"
       HYPERFRAMES_WORKERS: "1"
@@ -78,29 +130,6 @@ jobs:
           test -n "$RCLONE_CONF" || { echo "::error::secret RCLONE_CONF is missing"; exit 1; }
           mkdir -p ~/.config/rclone
           printf '%s\n' "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
-
-      - name: Pull the script + brand files, name the project
-        id: name
-        run: |
-          rclone copy "$DRIVE/$SRC" "$SRC" -v
-          rclone copy "$DRIVE/inbox/brand" inbox/brand -v
-          script=$(ls "$SRC"/"$N"_*_script.md 2>/dev/null | head -1)
-          test -n "$script" || { echo "::error::no $SRC/${N}_*_script.md in Drive"; exit 1; }
-          base=$(basename "$script" _script.md)                       # 06_bgv_onboarding_masterclass
-          vo=$(ls "$SRC/${base}"_voiceover.* 2>/dev/null | grep -v '\.clean\.txt$' | head -1)
-          test -n "$vo" || { echo "::error::no $SRC/${base}_voiceover.* in Drive"; exit 1; }
-          p="lf${N}-$(echo "${base#*_}" | tr '_' '-')"                 # lf06-bgv-onboarding-masterclass
-          printf 'p=%s\nscript=%s\nvo=%s\nclean=%s\nwav=%s\n' "$p" "$script" "$vo" "$SRC/${base}_voiceover.clean.txt" "$SRC/$p.wav" >> "$GITHUB_OUTPUT"
-          echo "**$p** (run $ATTEMPT): $script" >> "$GITHUB_STEP_SUMMARY"
-
-      - name: Restore the progress of earlier runs (Drive)
-        env:
-          P: ${{ steps.name.outputs.p }}
-        run: |
-          rclone copy "$DRIVE/longform/$P/project" "projects/$P" -q || true
-          rclone copy "$DRIVE/longform/$P/clipper-jobs" "AI-clipper/jobs/$P" -q || true
-          rclone copy "$DRIVE/longform/$P/clipper-output" "AI-clipper/output/$P" -q || true
-          ls "projects/$P" 2>/dev/null && echo "Resumed from Drive" >> "$GITHUB_STEP_SUMMARY" || echo "fresh start"
 
       - uses: actions/setup-node@v4
         with:
@@ -125,6 +154,45 @@ jobs:
           pip install -q opencv-python-headless numpy
           npm install -g @anthropic-ai/claude-code
           chmod +x .github/scripts/claude-run.sh
+
+      - name: Write this week's script (Claude, longform-script skill)
+        id: write
+        if: env.WRITE == '1'
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          rclone copy "$DRIVE/$SRC" "$SRC" -q
+          rclone copy "$DRIVE/inbox/faceless/Crack_IT_Daily_Videos" inbox/faceless/Crack_IT_Daily_Videos --include "*_script.md" -q
+          .github/scripts/claude-run.sh claude-script-log.jsonl 90 "This is the unattended long-form script step: use the longform-script skill.
+          SRC=$SRC, number NN=$N. Today: $(TZ=Asia/Kolkata date '+%A %d %B %Y, %H:%M IST')"
+          node -e 'const j=require("./longform-script.json"); if (j.status !== "ok") { console.error("script step failed: " + j.notes); process.exit(1); }'
+          ls "$SRC"/${N}_*_script.md "$SRC"/${N}_*_voiceover.clean.txt
+          rclone copy "$SRC" "$DRIVE/$SRC" --include "${N}_*" -v
+          cat longform-script-report.md >> "$GITHUB_STEP_SUMMARY" 2>/dev/null || true
+
+      - name: Pull the script + brand files, name the project
+        id: name
+        run: |
+          rclone copy "$DRIVE/$SRC" "$SRC" -v
+          rclone copy "$DRIVE/inbox/brand" inbox/brand -v
+          script=$(ls "$SRC"/"$N"_*_script.md 2>/dev/null | head -1)
+          test -n "$script" || { echo "::error::no $SRC/${N}_*_script.md in Drive"; exit 1; }
+          base=$(basename "$script" _script.md)                       # 06_bgv_onboarding_masterclass
+          vo=$(ls "$SRC/${base}"_voiceover.* 2>/dev/null | grep -v '\.clean\.txt$' | head -1)
+          test -n "$vo" || { echo "::error::no $SRC/${base}_voiceover.* in Drive"; exit 1; }
+          p="lf${N}-$(echo "${base#*_}" | tr '_' '-')"                 # lf06-bgv-onboarding-masterclass
+          printf 'p=%s\nscript=%s\nvo=%s\nclean=%s\nwav=%s\n' "$p" "$script" "$vo" "$SRC/${base}_voiceover.clean.txt" "$SRC/$p.wav" >> "$GITHUB_OUTPUT"
+          echo "**$p** (run $ATTEMPT): $script" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Restore the progress of earlier runs (Drive)
+        env:
+          P: ${{ steps.name.outputs.p }}
+        run: |
+          rclone copy "$DRIVE/longform/$P/project" "projects/$P" -q || true
+          rclone copy "$DRIVE/longform/$P/clipper-jobs" "AI-clipper/jobs/$P" -q || true
+          rclone copy "$DRIVE/longform/$P/clipper-output" "AI-clipper/output/$P" -q || true
+          ls "projects/$P" 2>/dev/null && echo "Resumed from Drive" >> "$GITHUB_STEP_SUMMARY" || echo "fresh start"
 
       - name: Clean the voiceover text
         id: clean
@@ -222,7 +290,7 @@ jobs:
              length (graphic types, b-roll, layouts). Render previews at draft quality; deliver only at the end.
           3. This run can stop at any moment (a time budget or a usage limit) and the next run continues from the files
              on disk: after every stage append to projects/$P/work/longform-progress.md what is done and what is next.
-          4. Shorts: read AI-clipper/.claude/skills/clip-shorts/SKILL.md and make 5 Shorts from the finished project
+          4. Shorts: read AI-clipper/.claude/skills/clip-shorts/SKILL.md and make 3 Shorts from the finished project
              (framing black, English), as step 3 of the daily-run skill does.
           5. Metadata: the youtube-metadata skill (its upload copy rules), with chapters at the real timestamps:
              projects/$P/output/youtube.json and projects/$P/output/metadata.md. No thumbnail (the owner makes it).
@@ -230,15 +298,15 @@ jobs:
              durations, anything to check) and projects/$P/output/longform-done.json {\"video\":\"<file>\",\"duration_s\":n,\"shorts\":n}."
 
       - name: Save progress to Drive
-        if: always() && steps.name.outputs.p != ''
+        if: always()
         env:
-          P: ${{ steps.name.outputs.p }}
+          P: ${{ steps.name.outputs.p || format('lf{0}-script', needs.plan.outputs.n) }}
         run: |
           [ -d "projects/$P" ] && rclone copy "projects/$P" "$DRIVE/longform/$P/project" -q
           [ -d "AI-clipper/jobs/$P" ] && rclone copy "AI-clipper/jobs/$P" "$DRIVE/longform/$P/clipper-jobs" -q
           [ -d "AI-clipper/output/$P" ] && rclone copy "AI-clipper/output/$P" "$DRIVE/longform/$P/clipper-output" -q
           dir="$DRIVE/output/_logs/$P-run$ATTEMPT-$(date -u +%Y%m%d-%H%M)"
-          for f in claude-clean-log.jsonl claude-log.jsonl claude-result.json; do [ -f "$f" ] && rclone copy "$f" "$dir" -q; done
+          for f in claude-script-log.jsonl claude-clean-log.jsonl claude-log.jsonl claude-result.json longform-script.json; do [ -f "$f" ] && rclone copy "$f" "$dir" -q; done
           true
 
       - name: Deliver to Drive (when finished)
@@ -253,11 +321,29 @@ jobs:
           echo "### Finished: Drive output/$P" >> "$GITHUB_STEP_SUMMARY"
           cat "projects/$P/output/longform-report.md" >> "$GITHUB_STEP_SUMMARY" 2>/dev/null || true
 
+      - name: Schedule on YouTube (the next free Saturday)
+        if: always() && steps.done.outcome == 'success' && vars.YOUTUBE_UPLOAD != 'off'
+        env:
+          P: ${{ steps.name.outputs.p }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: |
+          if rclone lsf "$DRIVE/output/$P" | grep -q '^youtube-uploaded\.json$'; then echo "already on YouTube"; exit 0; fi
+          rclone copy "$DRIVE/output" .yt-queue --include "*/youtube-uploaded.json" -q
+          slot=$(node tools/youtube.mjs --longform-slot --queue .yt-queue)
+          node tools/youtube.mjs "$P" --shorts "AI-clipper/output/$P" --publish "$slot" --no-thumbnail
+          rclone copy "projects/$P/output/youtube-uploaded.json" "$DRIVE/output/$P" -v
+
       - name: Not finished yet → start the next run
-        if: always() && steps.name.outputs.p != '' && steps.done.outcome != 'success'
+        if: always() && steps.done.outcome != 'success' && (steps.name.outputs.p != '' || steps.write.outcome == 'failure')
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          # the script step only retries after a usage limit; any other failure there needs a person
+          if [ "${{ steps.write.outcome }}" = "failure" ] && [ ! -f claude-limit.txt ]; then
+            echo "::error::the script step failed (see longform-script.json in Drive output/_logs)"; exit 1
+          fi
           if [ "$ATTEMPT" -ge "$MAX_ATTEMPTS" ]; then
             echo "::error::not finished after $ATTEMPT runs; progress is in Drive longform/" ; exit 1
           fi
