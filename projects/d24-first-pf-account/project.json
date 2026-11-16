@@ -1,0 +1,104 @@
+{
+  "name": "d24-first-pf-account",
+  "createdAt": "2026-11-16T17:31:57.871Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d24-first-pf-account/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d24/d24-voice.wav",
+    "duration": 210.160042,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d24-first-pf-account/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d24/d24_first_pf_account_voiceover.txt",
+    "words": 673,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d24-first-pf-account/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Universal Account Number",
+    "The Ministry",
+    "Aadhaar",
+    "Aadhaar Face"
+  ],
+  "mode": "faceless",
+  "style": "broadcast",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; bold newsroom look: news screenshots and NewsCards lead, split-screen framing, oversized section numerals, high-contrast accents; punchy pace, a beat every 3-5 s; wipe whooshes and hits on section changes",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 24.52,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-16T17:33:45.681Z",
+      "words": 662,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-16T17:33:52.062Z",
+      "segments": 22,
+      "kept": 200
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-16T17:54:06.334Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d24-first-pf-account/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-16T17:54:18.566Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-16T17:54:18.594Z",
+      "groups": 164
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-16T17:54:28.300Z",
+      "music": 0,
+      "sfx": 17
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-16T17:57:19.072Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d24-first-pf-account/output/final-16x9.mp4",
+      "duration": 210.018
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.990985,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d24-first-pf-account/work/cleancut.wav",
+    "duration": 199.999625,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

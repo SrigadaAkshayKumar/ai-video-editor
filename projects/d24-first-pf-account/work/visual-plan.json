@@ -1,0 +1,737 @@
+{
+ "style": "broadcast",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 3.9,
+   "type": "title_slide",
+   "text": "Your first P.F. account",
+   "eyebrow": "Crack IT · Day 24",
+   "style_hint": "4 things to do in month one"
+  },
+  {
+   "start": 4.4,
+   "duration": 4.4,
+   "type": "keyword_chip",
+   "text": "Money leaves every month",
+   "side": "right"
+  },
+  {
+   "start": 9.3,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "Offer letter in hand?",
+   "side": "left"
+  },
+  {
+   "start": 13,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Your P.F. account",
+   "side": "right"
+  },
+  {
+   "start": 16.3,
+   "duration": 3.6,
+   "type": "side_note",
+   "text": "One number to get in month one",
+   "side": "left"
+  },
+  {
+   "start": 20.7,
+   "duration": 3.7,
+   "type": "step_progress",
+   "side": "right",
+   "text": "Stay till step 3",
+   "items": [
+    {
+     "label": "1"
+    },
+    {
+     "label": "2"
+    },
+    {
+     "label": "3"
+    },
+    {
+     "label": "4"
+    }
+   ],
+   "current_step": 2
+  },
+  {
+   "start": 24.8,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "What is P.F.?",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 1
+  },
+  {
+   "start": 28.2,
+   "duration": 7.5,
+   "type": "flow_diagram",
+   "text": "Where your money goes",
+   "items": [
+    {
+     "label": "Basic salary"
+    },
+    {
+     "label": "Your share + company share"
+    },
+    {
+     "label": "Your P.F. account",
+     "sublabel": "yours, not the company's"
+    }
+   ]
+  },
+  {
+   "start": 36,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Universal Account Number",
+   "side": "left"
+  },
+  {
+   "start": 39.8,
+   "duration": 6.1,
+   "type": "timeline",
+   "side": "right",
+   "text": "One UAN, many jobs",
+   "items": [
+    {
+     "label": "Job 1",
+     "sublabel": "same UAN"
+    },
+    {
+     "label": "Job 2",
+     "sublabel": "same UAN"
+    },
+    {
+     "label": "Job 3",
+     "sublabel": "same UAN"
+    }
+   ]
+  },
+  {
+   "start": 46.4,
+   "duration": 3.9,
+   "type": "keyword_chip",
+   "text": "Ask HR in month one",
+   "side": "left"
+  },
+  {
+   "start": 51.3,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "New: UAN on UMANG",
+   "side": "left"
+  },
+  {
+   "start": 57.6,
+   "duration": 4.8,
+   "type": "keyword_chip",
+   "text": "Aadhaar face authentication",
+   "side": "right"
+  },
+  {
+   "start": 63,
+   "duration": 5.9,
+   "type": "checklist",
+   "text": "You will need",
+   "items": [
+    {
+     "label": "Aadhaar number",
+     "state": "yes"
+    },
+    {
+     "label": "Aadhaar-linked mobile",
+     "state": "yes"
+    },
+    {
+     "label": "Aadhaar Face RD app",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 69.3,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "So what do you do?",
+   "side": "left"
+  },
+  {
+   "start": 72.1,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Ahead of your batch",
+   "side": "right"
+  },
+  {
+   "start": 75.1,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Get your UAN",
+   "eyebrow": "Step 01",
+   "numeral": "01",
+   "section": 2
+  },
+  {
+   "start": 78.4,
+   "duration": 4,
+   "type": "side_note",
+   "text": "Inactive UAN = money invisible",
+   "side": "left"
+  },
+  {
+   "start": 82.6,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Match your details",
+   "eyebrow": "Step 02",
+   "numeral": "02",
+   "section": 3
+  },
+  {
+   "start": 85.9,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "Name · DOB · Aadhaar",
+   "side": "right"
+  },
+  {
+   "start": 89.6,
+   "duration": 6.8,
+   "type": "comparison",
+   "side": "left",
+   "left": {
+    "label": "Name on Aadhaar",
+    "text": "Rahul Verma"
+   },
+   "right": {
+    "label": "Name on P.F.",
+    "text": "Rahul Varma"
+   }
+  },
+  {
+   "start": 96.8,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Check your passbook",
+   "eyebrow": "Step 03 · most skip it",
+   "numeral": "03",
+   "section": 4
+  },
+  {
+   "start": 100.1,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "After the 2nd salary",
+   "side": "left"
+  },
+  {
+   "start": 104,
+   "duration": 6,
+   "type": "bullet_list",
+   "side": "right",
+   "text": "In your passbook",
+   "items": [
+    {
+     "label": "Month 1 salary"
+    },
+    {
+     "label": "Month 2 salary"
+    },
+    {
+     "label": "Contributions showing?"
+    }
+   ]
+  },
+  {
+   "start": 110.3,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Add a nominee",
+   "eyebrow": "Step 04",
+   "numeral": "04",
+   "section": 1
+  },
+  {
+   "start": 113.8,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Takes a few minutes",
+   "side": "right"
+  },
+  {
+   "start": 116.9,
+   "duration": 2,
+   "type": "side_note",
+   "text": "Almost nobody does it on day 1",
+   "side": "left"
+  },
+  {
+   "start": 119.3,
+   "duration": 3.3,
+   "type": "big_statement",
+   "text": "None cost a rupee",
+   "eyebrow": "rupee"
+  },
+  {
+   "start": 123.1,
+   "duration": 2.5,
+   "type": "keyword_chip",
+   "text": "Why bother?",
+   "side": "left"
+  },
+  {
+   "start": 127,
+   "duration": 6.2,
+   "type": "number_roll",
+   "value": 8.25,
+   "decimals": 2,
+   "suffix": "%",
+   "text": "EPF interest · FY 2025-26"
+  },
+  {
+   "start": 134,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "Credited for FY 2025-26",
+   "side": "right"
+  },
+  {
+   "start": 137.8,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Steady · low risk",
+   "side": "left"
+  },
+  {
+   "start": 141.3,
+   "duration": 4.2,
+   "type": "keyword_chip",
+   "text": "Time does the work",
+   "side": "right"
+  },
+  {
+   "start": 145.9,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "The trap",
+   "eyebrow": "Section 02",
+   "numeral": "02",
+   "section": 2
+  },
+  {
+   "start": 149.4,
+   "duration": 5.6,
+   "type": "flow_diagram",
+   "text": "Transfer, don't withdraw",
+   "items": [
+    {
+     "label": "Old employer P.F."
+    },
+    {
+     "label": "Transfer"
+    },
+    {
+     "label": "New employer P.F.",
+     "sublabel": "same UAN"
+    }
+   ]
+  },
+  {
+   "start": 155.3,
+   "duration": 3.1,
+   "type": "side_note",
+   "text": "Early withdrawal can mean tax",
+   "side": "left"
+  },
+  {
+   "start": 159,
+   "duration": 3.9,
+   "type": "keyword_chip",
+   "text": "Rules differ by case",
+   "side": "right"
+  },
+  {
+   "start": 163.5,
+   "duration": 3.7,
+   "type": "side_note",
+   "text": "Rules keep changing",
+   "side": "left"
+  },
+  {
+   "start": 167.6,
+   "duration": 3.7,
+   "type": "keyword_chip",
+   "text": "Read the EPFO portal",
+   "side": "right"
+  },
+  {
+   "start": 172,
+   "duration": 9.8,
+   "type": "checklist",
+   "text": "Month one",
+   "items": [
+    {
+     "label": "Get UAN from HR",
+     "state": "yes"
+    },
+    {
+     "label": "Activate it",
+     "state": "yes"
+    },
+    {
+     "label": "Check your details",
+     "state": "yes"
+    },
+    {
+     "label": "Passbook after 2nd salary",
+     "state": "yes"
+    },
+    {
+     "label": "Add a nominee",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 182.6,
+   "duration": 6.2,
+   "type": "quote_pull",
+   "text": "Comment “P.F.”. Did you get your UAN? Yes or no.",
+   "eyebrow": "Tell me below"
+  },
+  {
+   "start": 189.2,
+   "duration": 1.8,
+   "type": "keyword_chip",
+   "text": "I will read them",
+   "side": "left"
+  },
+  {
+   "start": 192,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Like · Subscribe",
+   "side": "right"
+  },
+  {
+   "start": 195.6,
+   "duration": 4.2,
+   "type": "side_note",
+   "text": "Share with a friend joining soon",
+   "side": "left"
+  }
+ ],
+ "scenes": [
+  {
+   "index": 0,
+   "start": 0,
+   "end": 4.2,
+   "kind": "broll",
+   "src": "assets/broll/phone.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 1,
+   "start": 4.2,
+   "end": 9.03,
+   "kind": "broll",
+   "src": "assets/broll/coat.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 2,
+   "start": 9.03,
+   "end": 15.9,
+   "kind": "broll",
+   "src": "assets/broll/officew.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 3,
+   "start": 15.9,
+   "end": 24.69,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "?",
+    "label": "the one number"
+   }
+  },
+  {
+   "index": 4,
+   "start": 24.69,
+   "end": 35.83,
+   "kind": "broll",
+   "src": "assets/broll/coins.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 5,
+   "start": 35.83,
+   "end": 45.9,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "UAN",
+    "label": "one number, whole career"
+   }
+  },
+  {
+   "index": 6,
+   "start": 45.9,
+   "end": 50.7,
+   "kind": "broll",
+   "src": "assets/broll/officew.mp4",
+   "media_start": 8,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 7,
+   "start": 50.7,
+   "end": 57,
+   "kind": "news",
+   "url": "https://www.businesstoday.in/personal-finance/story/epfo-uan-services-go-mobile-generate-activate-and-authenticate-your-account-on-umang-553528-2026-09-07",
+   "source": "Business Today",
+   "headline": "EPFO UAN services go mobile: generate, activate and authenticate your account on UMANG",
+   "date": "7 Sep 2026",
+   "motion": "ken_in",
+   "grade": "neutral",
+   "highlight": {
+    "x": 0.07,
+    "y": 0.105,
+    "w": 0.62,
+    "h": 0.04
+   }
+  },
+  {
+   "index": 8,
+   "start": 57,
+   "end": 62.8,
+   "kind": "news",
+   "url": "https://www.businesstoday.in/personal-finance/story/epfo-uan-services-go-mobile-generate-activate-and-authenticate-your-account-on-umang-553528-2026-09-07",
+   "source": "Business Today",
+   "headline": "EPFO UAN services go mobile: generate, activate and authenticate your account on UMANG",
+   "date": "7 Sep 2026",
+   "motion": "ken_out",
+   "grade": "neutral",
+   "highlight": {
+    "x": 0.07,
+    "y": 0.105,
+    "w": 0.62,
+    "h": 0.04
+   }
+  },
+  {
+   "index": 9,
+   "start": 62.8,
+   "end": 69.1,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 10,
+   "start": 69.1,
+   "end": 75,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "4",
+    "label": "steps · first month"
+   }
+  },
+  {
+   "index": 11,
+   "start": 75,
+   "end": 82.55,
+   "kind": "broll",
+   "src": "assets/broll/laptopw.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 12,
+   "start": 82.55,
+   "end": 89.3,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 13,
+   "start": 89.3,
+   "end": 96.7,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 14,
+   "start": 96.7,
+   "end": 103.5,
+   "kind": "broll",
+   "src": "assets/broll/phone2.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 15,
+   "start": 103.5,
+   "end": 110.2,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "2nd",
+    "label": "salary · check passbook"
+   }
+  },
+  {
+   "index": 16,
+   "start": 110.2,
+   "end": 119.1,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 17,
+   "start": 119.1,
+   "end": 122.9,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "₹0",
+    "label": "cost of all four steps"
+   }
+  },
+  {
+   "index": 18,
+   "start": 122.9,
+   "end": 133.5,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "8.25%",
+    "label": "FY 2025-26 interest"
+   }
+  },
+  {
+   "index": 19,
+   "start": 133.5,
+   "end": 140.9,
+   "kind": "news",
+   "url": "https://www.businesstoday.in/personal-finance/news/story/first-time-ever-by-july-15-epfo-credits-8-25-interest-to-34-crore-accounts-ahead-of-schedule-543335-2026-07-16",
+   "source": "Business Today",
+   "headline": "First time ever by July 15: EPFO credits 8.25% interest to 34 crore accounts ahead of schedule",
+   "date": "16 Jul 2026",
+   "motion": "ken_in",
+   "grade": "neutral",
+   "highlight": {
+    "x": 0.07,
+    "y": 0.105,
+    "w": 0.62,
+    "h": 0.04
+   }
+  },
+  {
+   "index": 20,
+   "start": 140.9,
+   "end": 145.8,
+   "kind": "broll",
+   "src": "assets/broll/grow.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 21,
+   "start": 145.8,
+   "end": 155,
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "index": 22,
+   "start": 155,
+   "end": 163.2,
+   "kind": "broll",
+   "src": "assets/broll/kbd.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 23,
+   "start": 163.2,
+   "end": 171.56,
+   "kind": "broll",
+   "src": "assets/broll/man.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 24,
+   "start": 171.56,
+   "end": 182,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 25,
+   "start": 182,
+   "end": 191.28,
+   "kind": "broll",
+   "src": "assets/broll/phone2.mp4",
+   "media_start": 4,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 26,
+   "start": 191.28,
+   "end": 200,
+   "kind": "broll",
+   "src": "assets/broll/laptopw.mp4",
+   "media_start": 8,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade"
+  }
+ ],
+ "camera_moves": []
+}

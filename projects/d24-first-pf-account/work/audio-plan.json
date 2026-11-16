@@ -1,0 +1,110 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "title_slide: Your first P.F. account"
+  },
+  {
+   "time": 24.53,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "chapter_open: What is P.F.?"
+  },
+  {
+   "time": 24.98,
+   "sfx": "impact",
+   "gain": 4,
+   "reason": "chapter_open: What is P.F.?"
+  },
+  {
+   "time": 28.28,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Where your money goes"
+  },
+  {
+   "time": 39.88,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "timeline: One UAN, many jobs"
+  },
+  {
+   "time": 63.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "checklist: You will need"
+  },
+  {
+   "time": 75.28,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Get your UAN"
+  },
+  {
+   "time": 82.33,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "chapter_open: Match your details"
+  },
+  {
+   "time": 82.78,
+   "sfx": "impact",
+   "gain": 4,
+   "reason": "chapter_open: Match your details"
+  },
+  {
+   "time": 89.68,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 96.98,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Check your passbook"
+  },
+  {
+   "time": 110.03,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "chapter_open: Add a nominee"
+  },
+  {
+   "time": 110.48,
+   "sfx": "impact",
+   "gain": 4,
+   "reason": "chapter_open: Add a nominee"
+  },
+  {
+   "time": 127.08,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "number_roll: EPF interest · FY 2025-26"
+  },
+  {
+   "time": 146.08,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: The trap"
+  },
+  {
+   "time": 149.48,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Transfer, don't withdraw"
+  },
+  {
+   "time": 172.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "checklist: Month one"
+  }
+ ]
+}
