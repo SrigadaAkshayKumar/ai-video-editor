@@ -1,0 +1,82 @@
+import { writeFileSync } from "node:fs";
+const MINT = "https://www.livemint.com/companies/news/ibm-to-end-h-1b-visa-and-green-card-sponsorship-for-most-consulting-roles-amid-trumps-immigration-crackdown-report-11794505557647.html";
+const ET = "https://economictimes.indiatimes.com/news/short-videos/ibms-visa-shock-for-consulting-unit-150000-workers-either-move-abroad-or-quit/videoshow/135771474.cms";
+const END = 214.47;
+const S = [];
+const sc = (end, o) => { const start = S.length ? S[S.length - 1].end : 0; S.push({ index: S.length, start, end: end ?? END, ...o }); };
+const g = (card, grade = "neutral") => ({ kind: "graphic", grade, ...(card ? { card } : {}) });
+const br = (src, ms = 0, motion = "ken_in", grade = "cool") => ({ kind: "broll", src: `assets/broll/${src}.mp4`, media_start: ms, motion, grade, transition: "fade" });
+const news = (url, source, headline, date, extra = {}) => ({ kind: "news", url, source, headline, date, grade: "neutral", ...extra });
+
+sc(4.9, br("airport-gates", 0, "ken_in"));
+sc(11.0, news(MINT, "Mint", "IBM to end H-1B visa and green card sponsorship for most consulting roles", "13 Nov 2026", { highlight: { x: 0.15, y: 0.21, w: 0.46, h: 0.07 } }));
+sc(14.4, br("airport-walk", 3, "ken_out"));
+sc(25.0, g({ value: "3", label: "things to do this week" }, "cool"));
+sc(30.3, g(null, "cool"));
+sc(38.6, news(ET, "The Economic Times", "IBM's visa shock for consulting unit: 150,000 workers either move abroad or quit", "12 Nov 2026", { highlight: { x: 0.15, y: 0.395, w: 0.46, h: 0.04 } }));
+sc(46.0, br("lounge-dark", 8, "ken_out", "noir"));
+sc(51.1, g(null, "noir"));
+sc(60.4, g({ value: "2", label: "options for affected staff" }, "cool"));
+sc(67.0, br("lounge-dark", 0, "ken_in", "noir"));
+sc(71.0, br("tarmac-bags", 6, "pan_right", "cool"));
+sc(75.7, g(null, "cool"));
+sc(83.0, g({ value: "1,611", label: "H-1B approvals, FY2026" }, "cool"));
+sc(89.7, g({ value: "2,045", label: "H-1B approvals, FY2025" }, "cool"));
+sc(97.1, g({ value: "27,863", label: "approvals since 2009" }, "cool"));
+sc(106.5, br("airport-walk", 12, "ken_in", "cool"));
+sc(111.6, g(null, "noir"));
+sc(115.5, g(null, "cool"));
+sc(124.8, br("woman-laptop", 0, "ken_in", "warm"));
+sc(131.9, br("tarmac-bags", 18, "ken_out", "noir"));
+sc(136.1, g(null, "noir"));
+sc(147.9, br("keyboard", 2, "ken_in", "cool"));
+sc(153.0, g(null, "warm"));
+sc(164.6, br("laptop-screen", 0, "ken_in", "warm"));
+sc(174.9, g({ value: "Offer letter", label: "location · role · relocation" }, "warm"));
+sc(186.2, g({ value: "Scam", label: "paying for a visa promise" }, "noir"));
+sc(193.5, br("airport-walk", 22, "ken_in", "warm"));
+sc(199.4, br("tarmac-bags", 25, "ken_in", "warm"));
+sc(209.5, br("woman-laptop", 0, "ken_out", "warm"));
+sc(null, g(null, "cool"));
+
+const O = [];
+const o = (s, e, type, p) => O.push({ start: s, duration: +(e - s).toFixed(2), type, ...p });
+// hook
+o(0.05, 3.6, "title_slide", { text: "IBM ends US visa sponsorship", eyebrow: "Crack IT · Day 18", style_hint: "What freshers should do" });
+o(5.6, 10.6, "keyword_chip", { text: "Mint · 13 Nov 2026", side: "right" });
+o(11.2, 14.1, "keyword_chip", { text: "Onsite dream?", side: "left" });
+o(14.9, 24.8, "step_progress", { side: "right", text: "3 things this week", current_step: 0, items: [{ label: "?", at: 0.3 }, { label: "?", at: 3.5 }, { label: "?", at: 6.5 }] });
+// 01 what IBM said
+o(25.1, 28.3, "chapter_open", { text: "What IBM said", eyebrow: "Section 01", numeral: "01", section: 1 });
+o(28.8, 30.1, "keyword_chip", { text: "Bloomberg report", side: "left" });
+o(30.6, 34.4, "keyword_chip", { text: "ET · 12 Nov 2026", side: "right" });
+o(35.2, 38.4, "side_note", { text: "IBM Consulting: its largest division", side: "left" });
+o(38.8, 41.6, "keyword_chip", { text: "IBM spokesperson", side: "left" });
+o(42.0, 50.6, "quote_pull", { text: "We have opted to discontinue visa and green card sponsorship for the majority of such roles in IBM Consulting.", eyebrow: "IBM spokesperson, as reported" });
+o(51.6, 60.2, "flow_diagram", { text: "Two options", items: [{ label: "Needs US sponsorship", sublabel: "affected role" }, { label: "Work outside the US", sublabel: "option 1" }, { label: "Leave by year end", sublabel: "option 2" }] });
+o(63.3, 66.9, "number_roll", { value: 150000, text: "employees in IBM Consulting", suffix: "+" });
+o(67.4, 70.8, "side_note", { text: "Only roles needing U.S. sponsorship", side: "left" });
+// 02 numbers
+o(71.1, 74.4, "chapter_open", { text: "The numbers", eyebrow: "Section 02", numeral: "02", section: 2 });
+o(76.0, 89.4, "bar_chart", { side: "left", text: "IBM H-1B approvals", items: [{ label: "FY2025", value: 2045 }, { label: "FY2026", value: 1611 }] });
+o(90.0, 96.8, "stat_trio", { items: [{ label: "approvals since 2009", sublabel: "", value: 27863 }, { label: "biggest sponsor", sublabel: "#", value: 20 }] });
+o(97.8, 104.3, "number_roll", { value: 100, prefix: "$", suffix: "K", text: "fee on certain new H-1B petitions" });
+o(104.9, 106.4, "lower_third", { text: "Mint 13 Nov · ET 12 Nov 2026", eyebrow: "Sources", side: "left" });
+o(107.0, 111.3, "big_statement", { text: "US sponsorship: costlier and rarer", eyebrow: "costlier" });
+// 03 fresher
+o(111.8, 114.9, "chapter_open", { text: "What it means for you", eyebrow: "Section 03", numeral: "03", section: 3 });
+o(116.0, 124.4, "checklist", { text: "Good news", items: [{ label: "India job: no US visa needed", state: "yes" }, { label: "No offer cancelled by this news", state: "yes" }] });
+o(129.0, 131.6, "side_note", { text: "Onsite after 1-2 years?", side: "left" });
+o(132.3, 135.9, "big_statement", { text: "The onsite path is narrower", eyebrow: "narrower" });
+o(137.0, 145.4, "comparison", { side: "left", text: "Quieter effect", left: { label: "U.S. visa path", text: "Narrower" }, right: { label: "India delivery work", text: "May stay here (not confirmed)" } });
+o(146.1, 149.9, "keyword_chip", { text: "Possibility, not a promise", side: "right" });
+// 04 what to do
+o(150.2, 153.3, "chapter_open", { text: "3 things this week", eyebrow: "Section 04", numeral: "04", section: 4 });
+o(153.5, 184.0, "step_progress", { side: "right", text: "Do this week", current_step: 0, items: [{ label: "Skills that travel: coding, one cloud, one project", at: 0.3 }, { label: "Read your offer letter: location, role, relocation", at: 164.6 - 153.5 }, { label: "Never pay for a visa promise", at: 174.9 - 153.5 }] });
+o(184.7, 187.3, "keyword_chip", { text: "Pay for a visa? Scam.", side: "left" });
+o(188.0, 199.2, "checklist", { text: "To sum up", items: [{ label: "IBM: no US sponsorship for most consulting roles", state: "yes" }, { label: "Approvals falling, fee high", state: "yes" }, { label: "India offers unaffected: keep a backup plan", state: "yes" }] });
+o(200.0, 207.0, "lower_third", { text: "Company · Role · Onsite mentioned?", eyebrow: "Comment below", side: "left" });
+o(210.5, 214.0, "keyword_chip", { text: "SUBSCRIBE", side: "right" });
+O.sort((x, y) => x.start - y.start);
+writeFileSync("work/visual-plan.json", JSON.stringify({ style: "liquid", rail: true, overlays: O, scenes: S, camera_moves: [] }, null, 1));
+console.log(S.length, "scenes", O.length, "overlays");

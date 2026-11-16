@@ -1,0 +1,643 @@
+{
+ "style": "liquid",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 3.55,
+   "type": "title_slide",
+   "text": "IBM ends US visa sponsorship",
+   "eyebrow": "Crack IT · Day 18",
+   "style_hint": "What freshers should do"
+  },
+  {
+   "start": 5.6,
+   "duration": 5,
+   "type": "keyword_chip",
+   "text": "Mint · 13 Nov 2026",
+   "side": "right"
+  },
+  {
+   "start": 11.2,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "Onsite dream?",
+   "side": "left"
+  },
+  {
+   "start": 14.9,
+   "duration": 9.9,
+   "type": "step_progress",
+   "side": "right",
+   "text": "3 things this week",
+   "current_step": 0,
+   "items": [
+    {
+     "label": "?",
+     "at": 0.3
+    },
+    {
+     "label": "?",
+     "at": 3.5
+    },
+    {
+     "label": "?",
+     "at": 6.5
+    }
+   ]
+  },
+  {
+   "start": 25.1,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "What IBM said",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 1
+  },
+  {
+   "start": 28.8,
+   "duration": 1.3,
+   "type": "keyword_chip",
+   "text": "Bloomberg report",
+   "side": "left"
+  },
+  {
+   "start": 30.6,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "ET · 12 Nov 2026",
+   "side": "right"
+  },
+  {
+   "start": 35.2,
+   "duration": 3.2,
+   "type": "side_note",
+   "text": "IBM Consulting: its largest division",
+   "side": "left"
+  },
+  {
+   "start": 38.8,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "IBM spokesperson",
+   "side": "left"
+  },
+  {
+   "start": 42,
+   "duration": 8.6,
+   "type": "quote_pull",
+   "text": "We have opted to discontinue visa and green card sponsorship for the majority of such roles in IBM Consulting.",
+   "eyebrow": "IBM spokesperson, as reported"
+  },
+  {
+   "start": 51.6,
+   "duration": 8.6,
+   "type": "flow_diagram",
+   "text": "Two options",
+   "items": [
+    {
+     "label": "Needs US sponsorship",
+     "sublabel": "affected role"
+    },
+    {
+     "label": "Work outside the US",
+     "sublabel": "option 1"
+    },
+    {
+     "label": "Leave by year end",
+     "sublabel": "option 2"
+    }
+   ]
+  },
+  {
+   "start": 63.3,
+   "duration": 3.6,
+   "type": "number_roll",
+   "value": 150000,
+   "text": "employees in IBM Consulting",
+   "suffix": "+"
+  },
+  {
+   "start": 67.4,
+   "duration": 3.4,
+   "type": "side_note",
+   "text": "Only roles needing U.S. sponsorship",
+   "side": "left"
+  },
+  {
+   "start": 71.1,
+   "duration": 3.3,
+   "type": "chapter_open",
+   "text": "The numbers",
+   "eyebrow": "Section 02",
+   "numeral": "02",
+   "section": 2
+  },
+  {
+   "start": 76,
+   "duration": 13.4,
+   "type": "bar_chart",
+   "side": "left",
+   "text": "IBM H-1B approvals",
+   "items": [
+    {
+     "label": "FY2025",
+     "value": 2045
+    },
+    {
+     "label": "FY2026",
+     "value": 1611
+    }
+   ]
+  },
+  {
+   "start": 90,
+   "duration": 6.8,
+   "type": "stat_trio",
+   "items": [
+    {
+     "label": "approvals since 2009",
+     "sublabel": "",
+     "value": 27863
+    },
+    {
+     "label": "biggest sponsor",
+     "sublabel": "#",
+     "value": 20
+    }
+   ]
+  },
+  {
+   "start": 97.8,
+   "duration": 6.5,
+   "type": "number_roll",
+   "value": 100,
+   "prefix": "$",
+   "suffix": "K",
+   "text": "fee on certain new H-1B petitions"
+  },
+  {
+   "start": 104.9,
+   "duration": 1.5,
+   "type": "lower_third",
+   "text": "Mint 13 Nov · ET 12 Nov 2026",
+   "eyebrow": "Sources",
+   "side": "left"
+  },
+  {
+   "start": 107,
+   "duration": 4.3,
+   "type": "big_statement",
+   "text": "US sponsorship: costlier and rarer",
+   "eyebrow": "costlier"
+  },
+  {
+   "start": 111.8,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "What it means for you",
+   "eyebrow": "Section 03",
+   "numeral": "03",
+   "section": 3
+  },
+  {
+   "start": 116,
+   "duration": 8.4,
+   "type": "checklist",
+   "text": "Good news",
+   "items": [
+    {
+     "label": "India job: no US visa needed",
+     "state": "yes"
+    },
+    {
+     "label": "No offer cancelled by this news",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 129,
+   "duration": 2.6,
+   "type": "side_note",
+   "text": "Onsite after 1-2 years?",
+   "side": "left"
+  },
+  {
+   "start": 132.3,
+   "duration": 3.6,
+   "type": "big_statement",
+   "text": "The onsite path is narrower",
+   "eyebrow": "narrower"
+  },
+  {
+   "start": 137,
+   "duration": 8.4,
+   "type": "comparison",
+   "side": "left",
+   "text": "Quieter effect",
+   "left": {
+    "label": "U.S. visa path",
+    "text": "Narrower"
+   },
+   "right": {
+    "label": "India delivery work",
+    "text": "May stay here (not confirmed)"
+   }
+  },
+  {
+   "start": 146.1,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "Possibility, not a promise",
+   "side": "right"
+  },
+  {
+   "start": 150.2,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "3 things this week",
+   "eyebrow": "Section 04",
+   "numeral": "04",
+   "section": 4
+  },
+  {
+   "start": 153.5,
+   "duration": 30.5,
+   "type": "step_progress",
+   "side": "right",
+   "text": "Do this week",
+   "current_step": 0,
+   "items": [
+    {
+     "label": "Skills that travel: coding, one cloud, one project",
+     "at": 0.3
+    },
+    {
+     "label": "Read your offer letter: location, role, relocation",
+     "at": 11.099999999999994
+    },
+    {
+     "label": "Never pay for a visa promise",
+     "at": 21.400000000000006
+    }
+   ]
+  },
+  {
+   "start": 184.7,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "Pay for a visa? Scam.",
+   "side": "left"
+  },
+  {
+   "start": 188,
+   "duration": 11.2,
+   "type": "checklist",
+   "text": "To sum up",
+   "items": [
+    {
+     "label": "IBM: no US sponsorship for most consulting roles",
+     "state": "yes"
+    },
+    {
+     "label": "Approvals falling, fee high",
+     "state": "yes"
+    },
+    {
+     "label": "India offers unaffected: keep a backup plan",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 200,
+   "duration": 7,
+   "type": "lower_third",
+   "text": "Company · Role · Onsite mentioned?",
+   "eyebrow": "Comment below",
+   "side": "left"
+  },
+  {
+   "start": 210.5,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "SUBSCRIBE",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "index": 0,
+   "start": 0,
+   "end": 4.9,
+   "kind": "broll",
+   "src": "assets/broll/airport-gates.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 1,
+   "start": 4.9,
+   "end": 11,
+   "kind": "news",
+   "url": "https://www.livemint.com/companies/news/ibm-to-end-h-1b-visa-and-green-card-sponsorship-for-most-consulting-roles-amid-trumps-immigration-crackdown-report-11794505557647.html",
+   "source": "Mint",
+   "headline": "IBM to end H-1B visa and green card sponsorship for most consulting roles",
+   "date": "13 Nov 2026",
+   "grade": "neutral",
+   "highlight": {
+    "x": 0.15,
+    "y": 0.21,
+    "w": 0.46,
+    "h": 0.07
+   }
+  },
+  {
+   "index": 2,
+   "start": 11,
+   "end": 14.4,
+   "kind": "broll",
+   "src": "assets/broll/airport-walk.mp4",
+   "media_start": 3,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 3,
+   "start": 14.4,
+   "end": 25,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "3",
+    "label": "things to do this week"
+   }
+  },
+  {
+   "index": 4,
+   "start": 25,
+   "end": 30.3,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 5,
+   "start": 30.3,
+   "end": 38.6,
+   "kind": "news",
+   "url": "https://economictimes.indiatimes.com/news/short-videos/ibms-visa-shock-for-consulting-unit-150000-workers-either-move-abroad-or-quit/videoshow/135771474.cms",
+   "source": "The Economic Times",
+   "headline": "IBM's visa shock for consulting unit: 150,000 workers either move abroad or quit",
+   "date": "12 Nov 2026",
+   "grade": "neutral",
+   "highlight": {
+    "x": 0.15,
+    "y": 0.395,
+    "w": 0.46,
+    "h": 0.04
+   }
+  },
+  {
+   "index": 6,
+   "start": 38.6,
+   "end": 46,
+   "kind": "broll",
+   "src": "assets/broll/lounge-dark.mp4",
+   "media_start": 8,
+   "motion": "ken_out",
+   "grade": "noir",
+   "transition": "fade"
+  },
+  {
+   "index": 7,
+   "start": 46,
+   "end": 51.1,
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "index": 8,
+   "start": 51.1,
+   "end": 60.4,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "2",
+    "label": "options for affected staff"
+   }
+  },
+  {
+   "index": 9,
+   "start": 60.4,
+   "end": 67,
+   "kind": "broll",
+   "src": "assets/broll/lounge-dark.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "noir",
+   "transition": "fade"
+  },
+  {
+   "index": 10,
+   "start": 67,
+   "end": 71,
+   "kind": "broll",
+   "src": "assets/broll/tarmac-bags.mp4",
+   "media_start": 6,
+   "motion": "pan_right",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 11,
+   "start": 71,
+   "end": 75.7,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 12,
+   "start": 75.7,
+   "end": 83,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "1,611",
+    "label": "H-1B approvals, FY2026"
+   }
+  },
+  {
+   "index": 13,
+   "start": 83,
+   "end": 89.7,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "2,045",
+    "label": "H-1B approvals, FY2025"
+   }
+  },
+  {
+   "index": 14,
+   "start": 89.7,
+   "end": 97.1,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "27,863",
+    "label": "approvals since 2009"
+   }
+  },
+  {
+   "index": 15,
+   "start": 97.1,
+   "end": 106.5,
+   "kind": "broll",
+   "src": "assets/broll/airport-walk.mp4",
+   "media_start": 12,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 16,
+   "start": 106.5,
+   "end": 111.6,
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "index": 17,
+   "start": 111.6,
+   "end": 115.5,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 18,
+   "start": 115.5,
+   "end": 124.8,
+   "kind": "broll",
+   "src": "assets/broll/woman-laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 19,
+   "start": 124.8,
+   "end": 131.9,
+   "kind": "broll",
+   "src": "assets/broll/tarmac-bags.mp4",
+   "media_start": 18,
+   "motion": "ken_out",
+   "grade": "noir",
+   "transition": "fade"
+  },
+  {
+   "index": 20,
+   "start": 131.9,
+   "end": 136.1,
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "index": 21,
+   "start": 136.1,
+   "end": 147.9,
+   "kind": "broll",
+   "src": "assets/broll/keyboard.mp4",
+   "media_start": 2,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 22,
+   "start": 147.9,
+   "end": 153,
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "index": 23,
+   "start": 153,
+   "end": 164.6,
+   "kind": "broll",
+   "src": "assets/broll/laptop-screen.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 24,
+   "start": 164.6,
+   "end": 174.9,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "Offer letter",
+    "label": "location · role · relocation"
+   }
+  },
+  {
+   "index": 25,
+   "start": 174.9,
+   "end": 186.2,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "Scam",
+    "label": "paying for a visa promise"
+   }
+  },
+  {
+   "index": 26,
+   "start": 186.2,
+   "end": 193.5,
+   "kind": "broll",
+   "src": "assets/broll/airport-walk.mp4",
+   "media_start": 22,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 27,
+   "start": 193.5,
+   "end": 199.4,
+   "kind": "broll",
+   "src": "assets/broll/tarmac-bags.mp4",
+   "media_start": 25,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 28,
+   "start": 199.4,
+   "end": 209.5,
+   "kind": "broll",
+   "src": "assets/broll/woman-laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 29,
+   "start": 209.5,
+   "end": 214.47,
+   "kind": "graphic",
+   "grade": "cool"
+  }
+ ],
+ "camera_moves": []
+}

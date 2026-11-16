@@ -1,0 +1,164 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.1,
+   "sfx": "impact",
+   "reason": "title_slide: IBM ends US visa sponsorship",
+   "gain": 4
+  },
+  {
+   "time": 5.65,
+   "sfx": "pop",
+   "reason": "keyword_chip: Mint · 13 Nov 2026",
+   "gain": 3
+  },
+  {
+   "time": 11.25,
+   "sfx": "pop",
+   "reason": "keyword_chip: Onsite dream?",
+   "gain": 3
+  },
+  {
+   "time": 14.95,
+   "sfx": "reveal",
+   "reason": "step_progress: 3 things this week",
+   "gain": 3
+  },
+  {
+   "time": 25.15,
+   "sfx": "impact",
+   "reason": "chapter_open: What IBM said",
+   "gain": 4
+  },
+  {
+   "time": 28.85,
+   "sfx": "pop",
+   "reason": "keyword_chip: Bloomberg report",
+   "gain": 3
+  },
+  {
+   "time": 30.65,
+   "sfx": "pop",
+   "reason": "keyword_chip: ET · 12 Nov 2026",
+   "gain": 3
+  },
+  {
+   "time": 38.85,
+   "sfx": "pop",
+   "reason": "keyword_chip: IBM spokesperson",
+   "gain": 3
+  },
+  {
+   "time": 42.05,
+   "sfx": "sub_drop",
+   "reason": "quote_pull: We have opted to discontinue visa and green card sponsorship for the majority of such roles in IBM Consulting.",
+   "gain": 4
+  },
+  {
+   "time": 51.65,
+   "sfx": "whoosh",
+   "reason": "flow_diagram: Two options",
+   "gain": 3
+  },
+  {
+   "time": 63.35,
+   "sfx": "whoosh",
+   "reason": "number_roll: employees in IBM Consulting",
+   "gain": 3
+  },
+  {
+   "time": 71.15,
+   "sfx": "impact",
+   "reason": "chapter_open: The numbers",
+   "gain": 4
+  },
+  {
+   "time": 76.05,
+   "sfx": "whoosh",
+   "reason": "bar_chart: IBM H-1B approvals",
+   "gain": 3
+  },
+  {
+   "time": 90.05,
+   "sfx": "whoosh",
+   "reason": "stat_trio: ",
+   "gain": 3
+  },
+  {
+   "time": 97.85,
+   "sfx": "whoosh",
+   "reason": "number_roll: fee on certain new H-1B petitions",
+   "gain": 3
+  },
+  {
+   "time": 107.05,
+   "sfx": "riser",
+   "reason": "big_statement: US sponsorship: costlier and rarer",
+   "gain": 2
+  },
+  {
+   "time": 111.85,
+   "sfx": "impact",
+   "reason": "chapter_open: What it means for you",
+   "gain": 4
+  },
+  {
+   "time": 116.05,
+   "sfx": "reveal",
+   "reason": "checklist: Good news",
+   "gain": 3
+  },
+  {
+   "time": 132.35,
+   "sfx": "riser",
+   "reason": "big_statement: The onsite path is narrower",
+   "gain": 2
+  },
+  {
+   "time": 137.05,
+   "sfx": "reveal",
+   "reason": "comparison: Quieter effect",
+   "gain": 3
+  },
+  {
+   "time": 146.15,
+   "sfx": "pop",
+   "reason": "keyword_chip: Possibility, not a promise",
+   "gain": 3
+  },
+  {
+   "time": 150.25,
+   "sfx": "impact",
+   "reason": "chapter_open: 3 things this week",
+   "gain": 4
+  },
+  {
+   "time": 153.55,
+   "sfx": "reveal",
+   "reason": "step_progress: Do this week",
+   "gain": 3
+  },
+  {
+   "time": 184.75,
+   "sfx": "pop",
+   "reason": "keyword_chip: Pay for a visa? Scam.",
+   "gain": 3
+  },
+  {
+   "time": 188.05,
+   "sfx": "reveal",
+   "reason": "checklist: To sum up",
+   "gain": 3
+  },
+  {
+   "time": 210.55,
+   "sfx": "pop",
+   "reason": "keyword_chip: SUBSCRIBE",
+   "gain": 3
+  }
+ ]
+}
