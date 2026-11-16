@@ -1,0 +1,224 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "reveal",
+   "gain": 2,
+   "reason": "title_slide: Your probation period"
+  },
+  {
+   "time": 3.98,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: A hidden test"
+  },
+  {
+   "time": 13.98,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "step_progress: 4 checks in your letter"
+  },
+  {
+   "time": 23.83,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: What probation is"
+  },
+  {
+   "time": 24.28,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: What probation is"
+  },
+  {
+   "time": 27.48,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: The path"
+  },
+  {
+   "time": 36.88,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "side_note: Length is in your letter"
+  },
+  {
+   "time": 43.58,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "checklist: During probation"
+  },
+  {
+   "time": 53.08,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: The line nobody reads"
+  },
+  {
+   "time": 55.43,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Length and review"
+  },
+  {
+   "time": 55.88,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: Length and review"
+  },
+  {
+   "time": 62.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 71.83,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Notice period"
+  },
+  {
+   "time": 72.28,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: Notice period"
+  },
+  {
+   "time": 75.38,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 82.48,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "side_note: Know both numbers first"
+  },
+  {
+   "time": 89.13,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Training tests"
+  },
+  {
+   "time": 89.58,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: Training tests"
+  },
+  {
+   "time": 96.38,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "checklist: Ask about"
+  },
+  {
+   "time": 104.33,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Documents and conduct"
+  },
+  {
+   "time": 104.78,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: Documents and conduct"
+  },
+  {
+   "time": 107.88,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: False info can end it"
+  },
+  {
+   "time": 111.08,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "big_statement: Never guess on a form"
+  },
+  {
+   "time": 119.53,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: The weekly habit"
+  },
+  {
+   "time": 119.98,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: The weekly habit"
+  },
+  {
+   "time": 123.08,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "checklist: Five lines a week"
+  },
+  {
+   "time": 132.08,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "side_note: Not two months"
+  },
+  {
+   "time": 135.38,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Friday update"
+  },
+  {
+   "time": 146.38,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "quote_pull: Ask early. Do not be a surprise."
+  },
+  {
+   "time": 152.33,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: If it goes wrong"
+  },
+  {
+   "time": 152.78,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: If it goes wrong"
+  },
+  {
+   "time": 159.38,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "big_statement: Ask what, and by when"
+  },
+  {
+   "time": 165.08,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: Two or three clear points"
+  },
+  {
+   "time": 172.88,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "checklist: Sum up"
+  },
+  {
+   "time": 182.08,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "quote_pull: Which probation question worries you most?"
+  },
+  {
+   "time": 193.58,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: Like · Subscribe to Crack IT"
+  }
+ ]
+}

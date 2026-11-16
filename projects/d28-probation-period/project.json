@@ -1,0 +1,104 @@
+{
+  "name": "d28-probation-period",
+  "createdAt": "2026-11-16T22:31:08.490Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d28-probation-period/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d28/d28-voice.wav",
+    "duration": 200.36,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d28-probation-period/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d28/d28_probation_period_voiceover.txt",
+    "words": 667,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d28-probation-period/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Check",
+    "Know",
+    "Keep",
+    "Ask"
+  ],
+  "mode": "faceless",
+  "style": "broadcast",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; bold newsroom look: news screenshots and NewsCards lead, split-screen framing, oversized section numerals, high-contrast accents; punchy pace, a beat every 3-5 s; wipe whooshes and hits on section changes",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 22.3,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-16T22:33:03.087Z",
+      "words": 667,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-16T22:33:06.131Z",
+      "segments": 14,
+      "kept": 196.167
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-16T22:55:11.347Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d28-probation-period/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-16T22:55:15.407Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-16T22:55:15.447Z",
+      "groups": 176
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-16T22:55:16.409Z",
+      "music": 0,
+      "sfx": 36
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-16T22:59:33.255Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d28-probation-period/output/final-16x9.mp4",
+      "duration": 206.186
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.990216,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d28-probation-period/work/cleancut.wav",
+    "duration": 196.166458,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

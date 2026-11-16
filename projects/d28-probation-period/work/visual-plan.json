@@ -1,0 +1,712 @@
+{
+ "style": "broadcast",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 3.65,
+   "type": "title_slide",
+   "text": "Your probation period",
+   "eyebrow": "Crack IT · Day 28",
+   "style_hint": "4 things freshers must check"
+  },
+  {
+   "start": 3.9,
+   "duration": 3.1,
+   "type": "keyword_chip",
+   "text": "A hidden test",
+   "side": "right"
+  },
+  {
+   "start": 7.3,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "Can delay confirmation",
+   "side": "left"
+  },
+  {
+   "start": 10.4,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Or even end your job",
+   "side": "right"
+  },
+  {
+   "start": 13.9,
+   "duration": 8,
+   "type": "step_progress",
+   "side": "right",
+   "text": "4 checks in your letter",
+   "items": [
+    {
+     "label": "?"
+    },
+    {
+     "label": "?"
+    },
+    {
+     "label": "?"
+    },
+    {
+     "label": "?"
+    }
+   ],
+   "current_step": 0
+  },
+  {
+   "start": 24,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "What probation is",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 1
+  },
+  {
+   "start": 27.4,
+   "duration": 9.1,
+   "type": "flow_diagram",
+   "text": "The path",
+   "items": [
+    {
+     "label": "Joining"
+    },
+    {
+     "label": "Probation"
+    },
+    {
+     "label": "Review"
+    },
+    {
+     "label": "Confirmation"
+    }
+   ]
+  },
+  {
+   "start": 36.8,
+   "duration": 3,
+   "type": "side_note",
+   "text": "Length is in your letter",
+   "side": "left"
+  },
+  {
+   "start": 40,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Rules can differ",
+   "side": "right"
+  },
+  {
+   "start": 43.5,
+   "duration": 6,
+   "type": "checklist",
+   "text": "During probation",
+   "items": [
+    {
+     "label": "Notice may be shorter",
+     "state": "yes"
+    },
+    {
+     "label": "Leave may be limited",
+     "state": "yes"
+    },
+    {
+     "label": "Confirmation not automatic",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 49.8,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Manager review or test",
+   "side": "right"
+  },
+  {
+   "start": 53,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "The line nobody reads",
+   "side": "left"
+  },
+  {
+   "start": 55.6,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Length and review",
+   "eyebrow": "Check 01",
+   "numeral": "01",
+   "section": 2
+  },
+  {
+   "start": 58.8,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Confirmation · Probation · Review",
+   "side": "right"
+  },
+  {
+   "start": 62,
+   "duration": 5,
+   "type": "comparison",
+   "side": "left",
+   "left": {
+    "label": "Fixed period",
+    "text": "Confirmed"
+   },
+   "right": {
+    "label": "Satisfactory review",
+    "text": "Only if approved"
+   }
+  },
+  {
+   "start": 67.3,
+   "duration": 4.3,
+   "type": "side_note",
+   "text": "Two sentences. Very different.",
+   "side": "right"
+  },
+  {
+   "start": 72,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Notice period",
+   "eyebrow": "Check 02",
+   "numeral": "02",
+   "section": 3
+  },
+  {
+   "start": 75.3,
+   "duration": 6.7,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "On probation",
+    "text": "Shorter notice"
+   },
+   "right": {
+    "label": "After confirmation",
+    "text": "Longer notice"
+   }
+  },
+  {
+   "start": 82.4,
+   "duration": 3.6,
+   "type": "side_note",
+   "text": "Know both numbers first",
+   "side": "left"
+  },
+  {
+   "start": 86.3,
+   "duration": 2.7,
+   "type": "keyword_chip",
+   "text": "Training is the surprise",
+   "side": "right"
+  },
+  {
+   "start": 89.3,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Training tests",
+   "eyebrow": "Check 03",
+   "numeral": "03",
+   "section": 4
+  },
+  {
+   "start": 92.6,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Clear them to continue",
+   "side": "right"
+  },
+  {
+   "start": 96.3,
+   "duration": 7.7,
+   "type": "checklist",
+   "text": "Ask about",
+   "items": [
+    {
+     "label": "Passing rule",
+     "state": "yes"
+    },
+    {
+     "label": "Number of attempts",
+     "state": "yes"
+    },
+    {
+     "label": "Who to ask",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 104.5,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Documents and conduct",
+   "eyebrow": "Check 04",
+   "numeral": "04",
+   "section": 1
+  },
+  {
+   "start": 107.8,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "False info can end it",
+   "side": "right"
+  },
+  {
+   "start": 111,
+   "duration": 5.2,
+   "type": "big_statement",
+   "text": "Never guess on a form",
+   "eyebrow": "guess"
+  },
+  {
+   "start": 116.6,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "Keep copies of everything",
+   "side": "left"
+  },
+  {
+   "start": 119.7,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "The weekly habit",
+   "eyebrow": "Section 06",
+   "numeral": "05",
+   "section": 2
+  },
+  {
+   "start": 123,
+   "duration": 5,
+   "type": "checklist",
+   "text": "Five lines a week",
+   "items": [
+    {
+     "label": "Asked",
+     "state": "yes"
+    },
+    {
+     "label": "Done",
+     "state": "yes"
+    },
+    {
+     "label": "Learned",
+     "state": "yes"
+    },
+    {
+     "label": "Stuck",
+     "state": "yes"
+    },
+    {
+     "label": "Feedback",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 128.3,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "Managers remember two weeks",
+   "side": "right"
+  },
+  {
+   "start": 132,
+   "duration": 3,
+   "type": "side_note",
+   "text": "Not two months",
+   "side": "left"
+  },
+  {
+   "start": 135.3,
+   "duration": 7.5,
+   "type": "flow_diagram",
+   "text": "Friday update",
+   "items": [
+    {
+     "label": "Weekly note"
+    },
+    {
+     "label": "Friday update"
+    },
+    {
+     "label": "Strong review"
+    },
+    {
+     "label": "Confirmation"
+    }
+   ]
+  },
+  {
+   "start": 143.2,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Ask for feedback early",
+   "side": "right"
+  },
+  {
+   "start": 146.3,
+   "duration": 5.9,
+   "type": "quote_pull",
+   "text": "Ask early. Do not be a surprise.",
+   "eyebrow": "Crack IT rule"
+  },
+  {
+   "start": 152.5,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "If it goes wrong",
+   "eyebrow": "Section 07",
+   "numeral": "06",
+   "section": 3
+  },
+  {
+   "start": 155.8,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Do not panic. Do not hide.",
+   "side": "right"
+  },
+  {
+   "start": 159.3,
+   "duration": 5.5,
+   "type": "big_statement",
+   "text": "Ask what, and by when",
+   "eyebrow": "when"
+  },
+  {
+   "start": 165,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Two or three clear points",
+   "side": "left"
+  },
+  {
+   "start": 168.3,
+   "duration": 4,
+   "type": "side_note",
+   "text": "Unfair or unclear? Ask HR in writing",
+   "side": "right"
+  },
+  {
+   "start": 172.8,
+   "duration": 8.7,
+   "type": "checklist",
+   "text": "Sum up",
+   "items": [
+    {
+     "label": "Read the probation lines",
+     "state": "yes"
+    },
+    {
+     "label": "Know your notice period",
+     "state": "yes"
+    },
+    {
+     "label": "Understand training rules",
+     "state": "yes"
+    },
+    {
+     "label": "Keep documents safe",
+     "state": "yes"
+    },
+    {
+     "label": "Weekly update",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 182,
+   "duration": 8.3,
+   "type": "quote_pull",
+   "text": "Which probation question worries you most?",
+   "eyebrow": "Tell me below"
+  },
+  {
+   "start": 190.8,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "Most common gets attention",
+   "side": "right"
+  },
+  {
+   "start": 193.5,
+   "duration": 2.5,
+   "type": "keyword_chip",
+   "text": "Like · Subscribe to Crack IT",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "index": 0,
+   "start": 0,
+   "end": 5.7,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "TEST",
+    "label": "probation period"
+   }
+  },
+  {
+   "index": 1,
+   "start": 5.7,
+   "end": 11.4,
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "index": 2,
+   "start": 11.4,
+   "end": 16.5,
+   "kind": "broll",
+   "src": "assets/broll/keys.mp4",
+   "media_start": 1,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 3,
+   "start": 16.5,
+   "end": 22,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "4",
+    "label": "things to check"
+   }
+  },
+  {
+   "index": 4,
+   "start": 22,
+   "end": 29,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 5,
+   "start": 29,
+   "end": 35.5,
+   "kind": "broll",
+   "src": "assets/broll/whitedesk.mp4",
+   "media_start": 2,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 6,
+   "start": 35.5,
+   "end": 41.5,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 7,
+   "start": 41.5,
+   "end": 46.5,
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "index": 8,
+   "start": 46.5,
+   "end": 54.5,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "REVIEW",
+    "label": "before confirmation"
+   }
+  },
+  {
+   "index": 9,
+   "start": 54.5,
+   "end": 60,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "01",
+    "label": "length of probation"
+   }
+  },
+  {
+   "index": 10,
+   "start": 60,
+   "end": 66,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 11,
+   "start": 66,
+   "end": 71.8,
+   "kind": "broll",
+   "src": "assets/broll/notebook.mp4",
+   "media_start": 1,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 12,
+   "start": 71.8,
+   "end": 78,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "02",
+    "label": "notice period"
+   }
+  },
+  {
+   "index": 13,
+   "start": 78,
+   "end": 86.5,
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "index": 14,
+   "start": 86.5,
+   "end": 93.5,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "03",
+    "label": "training tests"
+   }
+  },
+  {
+   "index": 15,
+   "start": 93.5,
+   "end": 99.5,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 16,
+   "start": 99.5,
+   "end": 104.5,
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "index": 17,
+   "start": 104.5,
+   "end": 110,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "04",
+    "label": "documents · conduct"
+   }
+  },
+  {
+   "index": 18,
+   "start": 110,
+   "end": 116.5,
+   "kind": "broll",
+   "src": "assets/broll/keys.mp4",
+   "media_start": 2,
+   "motion": "ken_out",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 19,
+   "start": 116.5,
+   "end": 125,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "5",
+    "label": "lines · every week"
+   }
+  },
+  {
+   "index": 20,
+   "start": 125,
+   "end": 134,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 21,
+   "start": 134,
+   "end": 143,
+   "kind": "broll",
+   "src": "assets/broll/notebook.mp4",
+   "media_start": 3,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 22,
+   "start": 143,
+   "end": 152.3,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "ASK",
+    "label": "early"
+   }
+  },
+  {
+   "index": 23,
+   "start": 152.3,
+   "end": 160.5,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 24,
+   "start": 160.5,
+   "end": 172.5,
+   "kind": "broll",
+   "src": "assets/broll/whitedesk.mp4",
+   "media_start": 14,
+   "motion": "ken_out",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 25,
+   "start": 172.5,
+   "end": 181.8,
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "index": 26,
+   "start": 181.8,
+   "end": 190.6,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "?",
+    "label": "your probation question"
+   }
+  },
+  {
+   "index": 27,
+   "start": 190.6,
+   "end": 196.17,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe"
+   }
+  }
+ ],
+ "camera_moves": []
+}
