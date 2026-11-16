@@ -51,6 +51,14 @@ Title it as a masterclass a fresher would search for ("… complete guide for fr
 - Concrete examples, sample emails/checklists read out step by step, common mistakes ("trap") and fixes ("tip").
 - Do not promise a specific next video.
 
+## 4b. Click and retention
+
+Apply section 2b of `.claude/skills/daily-script/SKILL.md` (angle, hook, open loops, re-hooks, concrete examples,
+strong end) to the whole masterclass: a hook in the first 10 seconds that names the stake; a chapter map promised up
+front ("by chapter five you will …"); every chapter opens with its own mini-hook and closes with a teaser of the
+next; a fresher's story threaded through the video; the most valuable chapter promised early and delivered late.
+Title and thumbnail-text ideas go into the script's table.
+
 ## 5. Writing for the voice (it reads every character)
 
 - Acronyms with dots: `T.C.S.`, `B.G.V.`, `P.F.`, `U.A.N.`, `H.R.`. Avoid bare `I.T.`: say "tech", "software" or

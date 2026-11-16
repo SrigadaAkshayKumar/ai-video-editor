@@ -86,6 +86,29 @@ results, visas, stock moves, layoffs of senior staff, AI-industry news and the l
 - **Do not promise a specific next video** ("tomorrow I will explain …"): tomorrow's topic is not decided yet. A
   generic "subscribe so you don't miss the next update" is fine.
 
+## 2b. Make them click and keep watching (every episode)
+
+The topic and the first 30 seconds decide the video. Honest but irresistible: every promise is paid off in the video.
+
+- **Pick the angle a student would click:** a fear, a mistake, money, a secret rule, a shortcut, a "nobody tells
+  you". Frame the evergreen topic as a question the viewer already worries about ("Your offer letter can be
+  cancelled for this one line", "Why your in-hand salary is 30 percent less than your CTC").
+- **Hook, the first 2–3 sentences (under 10 seconds):** open on the stake or the surprising fact, not on "Hi
+  guys" or the channel name. Then say who it is for and the payoff ("By the end you will know exactly …"). No
+  intro talk before the hook.
+- **Open loops:** promise something specific for later ("the third mistake is the one that gets offers revoked")
+  and pay it off there. One open loop alive at every point of the video.
+- **Re-hooks every 30–45 seconds:** a new question, a number, a "but here is the catch", a mini-story of a
+  fresher ("Ravi joined on Monday and on Wednesday …"), or "most people get this next part wrong".
+- **Concrete over vague:** real numbers, sample lines from an email, a step list; one idea per sentence; talk to
+  "you".
+- **Pattern for scenes:** problem → why it happens → what to do (steps) → trap to avoid. Keep the energy high; no
+  filler, no repeating the same point.
+- **End strong:** a one-line recap, then the comment question tied to their situation, then subscribe. Never end
+  with "that's all for today".
+- Write the title idea and three thumbnail-text options (3–5 words, emotional, completing the title) in the
+  script's item table: the edit and metadata steps use them.
+
 ## 3. Facts (the voice step cannot fix a wrong number)
 
 - Every figure, date, name and quote needs a source you actually opened in this run. Official sources first

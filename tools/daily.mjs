@@ -101,7 +101,9 @@ const lookFields = (episode) => {
 if (cmd === "next") {
   const last = state.done.map((d) => Date.parse(d.at)).filter(Number.isFinite).sort((a, b) => a - b).at(-1);
   const hours = last ? (Date.now() - last) / 3.6e6 : Infinity;
-  if (!arg && config.minHoursBetween && hours < config.minHoursBetween) {
+  // making videos ahead (youtube.aheadUntil): episodes come back to back on purpose
+  const aheadMode = config.youtube?.aheadUntil && new Date(Date.now() + 5.5 * 3.6e6).toISOString().slice(0, 10) <= config.youtube.aheadUntil;
+  if (!arg && !aheadMode && config.minHoursBetween && hours < config.minHoursBetween) {
     output({ episode: "none", reason: `an episode finished ${hours.toFixed(1)} h ago (minHoursBetween ${config.minHoursBetween})` });
     process.exit(0);
   }

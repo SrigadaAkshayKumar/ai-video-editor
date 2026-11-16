@@ -51,6 +51,9 @@ function istSlot(days, hhmm) {
 const skipDay = (t) => { const wd = new Date(t + IST).getUTCDay();
   return cfg.publishDays ? !cfg.publishDays.includes(wd) : (cfg.skipDays || []).includes(wd); };
 
+/** youtube.aheadUntil "YYYY-MM-DD": until that IST date every slot counts as due, so runs build a backlog in a row. */
+const ahead = (t) => !!cfg.aheadUntil && new Date(t + IST).toISOString().slice(0, 10) <= cfg.aheadUntil;
+
 /** --queue dir: the first publish day after the latest main video already scheduled (any project), else the normal slot. */
 function queueSlot(dir) {
   const files = [];
@@ -93,7 +96,7 @@ if (flags["longform-slot"]) {
   const hours = (t - Date.now()) / 3.6e6;
   console.log(`${istText(new Date(t).toISOString()).replace(" IST", "")}`);
   console.error(`next free long-form slot ${istText(new Date(t).toISOString())}, ${hours.toFixed(0)} h away`);
-  process.exit(flags.due && hours > 7 * 24 ? 1 : 0);
+  process.exit(flags.due && hours > 7 * 24 && !ahead(t) ? 1 : 0);
 }
 
 // --due --queue dir: exit 0 when the next free slot is within youtube.dueHours (the daily run makes an episode only
@@ -101,8 +104,9 @@ if (flags["longform-slot"]) {
 if (flags.due) {
   const slot = queueSlot(join(ROOT, flags.queue || ".yt-queue"));
   const hours = (slot.getTime() - Date.now()) / 3.6e6;
-  console.log(`next slot ${istText(slot.toISOString())}, ${hours.toFixed(0)} h away: ${hours <= cfg.dueHours ? "due" : "not due yet"}`);
-  process.exit(hours <= cfg.dueHours ? 0 : 1);
+  const due = hours <= cfg.dueHours || ahead(slot.getTime());
+  console.log(`next slot ${istText(slot.toISOString())}, ${hours.toFixed(0)} h away: ${due ? "due" : "not due yet"}${ahead(slot.getTime()) ? ` (making videos ahead until ${cfg.aheadUntil})` : ""}`);
+  process.exit(due ? 0 : 1);
 }
 
 if (testFile) await testUpload(testFile);

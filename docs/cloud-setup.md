@@ -46,6 +46,10 @@ AI-edits/
   Shorts and the YouTube schedule (Shorts 17:00/18:00/19:00) follow; long runs continue themselves across runs and
   usage limits. The Mon/Wed/Fri queue ignores Saturday videos. Day and time: `config/daily.json` →
   `youtube.longform`.
+- **Making videos ahead:** `config/daily.json` → `youtube.aheadUntil` (`"2026-12-16"`): until that date every run
+  makes the next free slot's video and then starts the next run itself (daily and long-form alike), so a backlog
+  is built back to back. A Claude usage limit pauses the chain until the reset (the run waits, then starts again).
+  Remove the line (or set an earlier date) to go back to one video the night before.
 - **Voice reference:** `inbox/brand/my-final-voice.*` plus its exact words in `config/voice.json` → `refText`.
   Recording a new reference? Upload it with the same name and update `refText` (a 10–20 s clip clones better).
 - **Edit looks:** each episode gets a look picked at random from `config/daily.json` → `looks.list` (a visual
