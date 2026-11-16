@@ -1,0 +1,107 @@
+{
+  "name": "d25-service-bond-offer-letter",
+  "createdAt": "2026-11-16T18:41:03.486Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d25-service-bond-offer-letter/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d25/d25-voice.wav",
+    "duration": 235.200042,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d25-service-bond-offer-letter/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d25/d25_service_bond_offer_letter_voiceover.txt",
+    "words": 810,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d25-service-bond-offer-letter/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Supreme Court",
+    "Read",
+    "Indian Contract Act",
+    "Vijaya Bank",
+    "The Supreme Court",
+    "Question",
+    "Ask"
+  ],
+  "mode": "faceless",
+  "style": "liquid",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; modern liquid-glass look for a young audience: glossy capsules, jelly-spring arrivals, slow push-ins on b-roll, keyword chips and stat trios; energetic, a beat every 3-5 s; airy swooshes and pops",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 24.01,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-16T18:43:02.556Z",
+      "words": 805,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-16T18:43:10.193Z",
+      "segments": 27,
+      "kept": 226.667
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-16T19:11:52.049Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d25-service-bond-offer-letter/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-16T19:17:53.760Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-16T19:17:53.798Z",
+      "groups": 211
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-16T19:17:54.772Z",
+      "music": 0,
+      "sfx": 31
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-16T19:33:03.289Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d25-service-bond-offer-letter/output/final-16x9.mp4",
+      "duration": 236.716
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.959957,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d25-service-bond-offer-letter/work/cleancut.wav",
+    "duration": 226.666833,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

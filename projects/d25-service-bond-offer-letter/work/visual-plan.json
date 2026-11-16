@@ -1,0 +1,782 @@
+{
+ "style": "liquid",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 3.45,
+   "type": "title_slide",
+   "text": "Service bond in your offer letter",
+   "eyebrow": "Crack IT · Day 25",
+   "style_hint": "Is it legal? 3 questions before you sign"
+  },
+  {
+   "start": 3.9,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "One line can cost lakhs",
+   "side": "right"
+  },
+  {
+   "start": 8.3,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Offer letter in hand?",
+   "side": "left"
+  },
+  {
+   "start": 12.8,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "Most freshers don't read it",
+   "side": "right"
+  },
+  {
+   "start": 16.2,
+   "duration": 3.4,
+   "type": "side_note",
+   "text": "Bond · the law · 3 questions",
+   "side": "left"
+  },
+  {
+   "start": 20.2,
+   "duration": 3.6,
+   "type": "step_progress",
+   "side": "right",
+   "text": "Stay till Q3",
+   "items": [
+    {
+     "label": "1"
+    },
+    {
+     "label": "2"
+    },
+    {
+     "label": "3"
+    }
+   ],
+   "current_step": 2
+  },
+  {
+   "start": 24.3,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "What is a bond?",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 1
+  },
+  {
+   "start": 28,
+   "duration": 6.8,
+   "type": "flow_diagram",
+   "text": "How a bond works",
+   "items": [
+    {
+     "label": "You join"
+    },
+    {
+     "label": "Training cost"
+    },
+    {
+     "label": "Minimum period"
+    },
+    {
+     "label": "Leave early"
+    },
+    {
+     "label": "Pay agreed amount"
+    }
+   ]
+  },
+  {
+   "start": 35.2,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Training costs money",
+   "side": "right"
+  },
+  {
+   "start": 38.4,
+   "duration": 3.5,
+   "type": "side_note",
+   "text": "Company wants payback",
+   "side": "left"
+  },
+  {
+   "start": 42.6,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "Big IT firms: often no bond",
+   "side": "right"
+  },
+  {
+   "start": 46.4,
+   "duration": 3.1,
+   "type": "keyword_chip",
+   "text": "Startups · training programmes",
+   "side": "left"
+  },
+  {
+   "start": 50,
+   "duration": 1.8,
+   "type": "side_note",
+   "text": "Read your own letter",
+   "side": "right"
+  },
+  {
+   "start": 52,
+   "duration": 1.9,
+   "type": "big_statement",
+   "text": "Is a bond even legal?",
+   "eyebrow": "legal"
+  },
+  {
+   "start": 54.3,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "What the law says",
+   "eyebrow": "Section 02",
+   "numeral": "02",
+   "section": 2
+  },
+  {
+   "start": 57.9,
+   "duration": 6,
+   "type": "quote_pull",
+   "text": "An agreement that stops a lawful profession is void",
+   "eyebrow": "Section 27, Indian Contract Act"
+  },
+  {
+   "start": 64.8,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Supreme Court · 14 May 2025",
+   "side": "right"
+  },
+  {
+   "start": 68.4,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "Vijaya Bank case",
+   "side": "left"
+  },
+  {
+   "start": 71.5,
+   "duration": 6.9,
+   "type": "stat_trio",
+   "items": [
+    {
+     "label": "years minimum service",
+     "value": 3
+    },
+    {
+     "label": "lakh rupees if you leave",
+     "sublabel": "₹",
+     "value": 2
+    }
+   ]
+  },
+  {
+   "start": 79,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Not a restraint of trade",
+   "side": "right"
+  },
+  {
+   "start": 82.3,
+   "duration": 10.3,
+   "type": "comparison",
+   "side": "left",
+   "left": {
+    "label": "While employed",
+    "text": "A bond can be valid"
+   },
+   "right": {
+    "label": "After you leave",
+    "text": "A ban on working elsewhere: usually not valid"
+   }
+  },
+  {
+   "start": 93.6,
+   "duration": 4.8,
+   "type": "big_statement",
+   "text": "A reasonable bond can be enforced",
+   "eyebrow": "enforced"
+  },
+  {
+   "start": 98.9,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "The catch",
+   "eyebrow": "Section 03",
+   "numeral": "03",
+   "section": 3
+  },
+  {
+   "start": 102.4,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Leaving was not impossible",
+   "side": "right"
+  },
+  {
+   "start": 106.2,
+   "duration": 2.7,
+   "type": "keyword_chip",
+   "text": "Senior manager, good pay",
+   "side": "left"
+  },
+  {
+   "start": 109.3,
+   "duration": 8.9,
+   "type": "stat_trio",
+   "items": [
+    {
+     "label": "monthly salary (example)",
+     "sublabel": "₹",
+     "value": 20000
+    },
+    {
+     "label": "bond (example)",
+     "sublabel": "₹",
+     "value": 300000
+    },
+    {
+     "label": "months of pay",
+     "value": 15
+    }
+   ]
+  },
+  {
+   "start": 118.9,
+   "duration": 6.7,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Fair",
+    "text": "Estimate of real cost"
+   },
+   "right": {
+    "label": "Penalty",
+    "text": "Can be challenged"
+   }
+  },
+  {
+   "start": 126.3,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Lawyers · time · stress",
+   "side": "left"
+  },
+  {
+   "start": 132,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "3 questions",
+   "eyebrow": "Section 04",
+   "numeral": "04",
+   "section": 4
+  },
+  {
+   "start": 135.4,
+   "duration": 8,
+   "type": "bullet_list",
+   "side": "right",
+   "text": "Question 1",
+   "items": [
+    {
+     "label": "How long is the bond?"
+    },
+    {
+     "label": "How much if I leave?"
+    },
+    {
+     "label": "Both in writing"
+    }
+   ]
+  },
+  {
+   "start": 143.9,
+   "duration": 7.6,
+   "type": "term_card",
+   "side": "left",
+   "text": "Question 2",
+   "eyebrow": "Does it reduce?",
+   "items": [
+    {
+     "label": "A fair clause often reduces month by month"
+    }
+   ]
+  },
+  {
+   "start": 152,
+   "duration": 5.2,
+   "type": "big_statement",
+   "text": "What does the company spend on me?",
+   "eyebrow": "spend"
+  },
+  {
+   "start": 157.8,
+   "duration": 3.9,
+   "type": "keyword_chip",
+   "text": "Training · certification · relocation",
+   "side": "right"
+  },
+  {
+   "start": 162.3,
+   "duration": 8.1,
+   "type": "flow_diagram",
+   "text": "A common trap",
+   "items": [
+    {
+     "label": "Bond dispute"
+    },
+    {
+     "label": "Relieving letter held",
+     "sublabel": "check the notice period"
+    }
+   ]
+  },
+  {
+   "start": 170.9,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "This week",
+   "eyebrow": "Section 05",
+   "numeral": "05",
+   "section": 0
+  },
+  {
+   "start": 176.2,
+   "duration": 10.1,
+   "type": "checklist",
+   "text": "Do this week",
+   "items": [
+    {
+     "label": "Find the clause",
+     "state": "yes"
+    },
+    {
+     "label": "Photo + copy",
+     "state": "yes"
+    },
+    {
+     "label": "Email HR your doubts",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 187,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Doubts? Ask a lawyer first",
+   "side": "right"
+  },
+  {
+   "start": 191.5,
+   "duration": 3.4,
+   "type": "big_statement",
+   "text": "Never pay to join",
+   "eyebrow": "Never"
+  },
+  {
+   "start": 195.4,
+   "duration": 3.3,
+   "type": "side_note",
+   "text": "You're allowed to ask",
+   "side": "left"
+  },
+  {
+   "start": 200.6,
+   "duration": 8.2,
+   "type": "checklist",
+   "text": "Before you sign",
+   "items": [
+    {
+     "label": "Months + rupees in writing",
+     "state": "yes"
+    },
+    {
+     "label": "Does it reduce over time?",
+     "state": "yes"
+    },
+    {
+     "label": "What does the company spend?",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 209.6,
+   "duration": 6.2,
+   "type": "quote_pull",
+   "text": "Comment “bond” and tell me how many months",
+   "eyebrow": "Tell me below"
+  },
+  {
+   "start": 216.4,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Like · Subscribe",
+   "side": "right"
+  },
+  {
+   "start": 220,
+   "duration": 3.4,
+   "type": "side_note",
+   "text": "Share with a friend joining soon",
+   "side": "left"
+  },
+  {
+   "start": 223.8,
+   "duration": 2.6,
+   "type": "side_note",
+   "text": "General information, not legal advice",
+   "side": "left"
+  }
+ ],
+ "scenes": [
+  {
+   "index": 0,
+   "start": 0,
+   "end": 3.6,
+   "kind": "broll",
+   "src": "assets/broll/legal.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 1,
+   "start": 3.6,
+   "end": 7.8,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "₹ lakhs",
+    "label": "one small line"
+   }
+  },
+  {
+   "index": 2,
+   "start": 7.8,
+   "end": 12.4,
+   "kind": "broll",
+   "src": "assets/broll/phone.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 3,
+   "start": 12.4,
+   "end": 19.9,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 4,
+   "start": 19.9,
+   "end": 24,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "Q3",
+    "label": "protects your money"
+   }
+  },
+  {
+   "index": 5,
+   "start": 24,
+   "end": 29.3,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "BOND",
+    "label": "minimum service"
+   }
+  },
+  {
+   "index": 6,
+   "start": 29.3,
+   "end": 34.9,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 7,
+   "start": 34.9,
+   "end": 42.4,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 10,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 8,
+   "start": 42.4,
+   "end": 49.7,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "?",
+    "label": "your own letter"
+   }
+  },
+  {
+   "index": 9,
+   "start": 49.7,
+   "end": 53.9,
+   "kind": "broll",
+   "src": "assets/broll/phone.mp4",
+   "media_start": 3,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 10,
+   "start": 53.9,
+   "end": 57.4,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "§ 27",
+    "label": "Indian Contract Act"
+   }
+  },
+  {
+   "index": 11,
+   "start": 57.4,
+   "end": 64.3,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 12,
+   "start": 64.3,
+   "end": 71.2,
+   "kind": "news",
+   "url": "https://mahendrabhavsar.com/supreme-court-upholds-validity-of-employment-bond-clause/",
+   "source": "Mahendra Bhavsar & Co.",
+   "headline": "Supreme Court Upholds Validity of Employment Bond Clause",
+   "date": "30 Oct 2025",
+   "motion": "ken_in",
+   "grade": "neutral",
+   "highlight": {
+    "x": 0.1,
+    "y": 0.08,
+    "w": 0.74,
+    "h": 0.03
+   }
+  },
+  {
+   "index": 13,
+   "start": 71.2,
+   "end": 78.7,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "2025",
+    "label": "Supreme Court · May"
+   }
+  },
+  {
+   "index": 14,
+   "start": 78.7,
+   "end": 85.5,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 15,
+   "start": 85.5,
+   "end": 93,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "≠",
+    "label": "during the job vs after"
+   }
+  },
+  {
+   "index": 16,
+   "start": 93,
+   "end": 98.6,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "✓",
+    "label": "reasonable bond"
+   }
+  },
+  {
+   "index": 17,
+   "start": 98.6,
+   "end": 109,
+   "kind": "broll",
+   "src": "assets/broll/legal.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 18,
+   "start": 109,
+   "end": 118.4,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 19,
+   "start": 118.4,
+   "end": 125.7,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 20,
+   "start": 125.7,
+   "end": 131.8,
+   "kind": "broll",
+   "src": "assets/broll/legal.mp4",
+   "media_start": 2,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 21,
+   "start": 131.8,
+   "end": 135,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "3",
+    "label": "questions"
+   }
+  },
+  {
+   "index": 22,
+   "start": 135,
+   "end": 143.5,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Q1",
+    "label": "months · rupees"
+   }
+  },
+  {
+   "index": 23,
+   "start": 143.5,
+   "end": 151.6,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "Q2",
+    "label": "does it reduce?"
+   }
+  },
+  {
+   "index": 24,
+   "start": 151.6,
+   "end": 161.9,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "Q3",
+    "label": "what do they spend?"
+   }
+  },
+  {
+   "index": 25,
+   "start": 161.9,
+   "end": 170.7,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 26,
+   "start": 170.7,
+   "end": 176,
+   "kind": "broll",
+   "src": "assets/broll/phone.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 27,
+   "start": 176,
+   "end": 186.5,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 28,
+   "start": 186.5,
+   "end": 191.1,
+   "kind": "broll",
+   "src": "assets/broll/legal.mp4",
+   "media_start": 2,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 29,
+   "start": 191.1,
+   "end": 200.3,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "✗",
+    "label": "never pay to join"
+   }
+  },
+  {
+   "index": 30,
+   "start": 200.3,
+   "end": 209,
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "index": 31,
+   "start": 209,
+   "end": 216,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "BOND?",
+    "label": "comment below"
+   }
+  },
+  {
+   "index": 32,
+   "start": 216,
+   "end": 226.67,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  }
+ ],
+ "camera_moves": []
+}
