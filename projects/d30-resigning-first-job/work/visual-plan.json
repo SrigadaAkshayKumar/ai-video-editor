@@ -1,0 +1,693 @@
+{
+ "style": "blueprint",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 3.55,
+   "type": "title_slide",
+   "text": "Quitting your first job",
+   "eyebrow": "Crack IT · Day 30",
+   "style_hint": "The letter you must not leave without"
+  },
+  {
+   "start": 3.9,
+   "duration": 2.1,
+   "type": "keyword_chip",
+   "text": "Starts on your last day",
+   "side": "right"
+  },
+  {
+   "start": 6.8,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "The new company asks for it",
+   "side": "left"
+  },
+  {
+   "start": 11,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "Switching now or after a year",
+   "side": "right"
+  },
+  {
+   "start": 15.6,
+   "duration": 7,
+   "type": "step_progress",
+   "side": "right",
+   "text": "You will learn",
+   "items": [
+    {
+     "label": "The letter"
+    },
+    {
+     "label": "The clause"
+    },
+    {
+     "label": "The salary mistake"
+    }
+   ],
+   "current_step": 0
+  },
+  {
+   "start": 23.5,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Read the contract first",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 1
+  },
+  {
+   "start": 29.8,
+   "duration": 7,
+   "type": "checklist",
+   "text": "Before you resign",
+   "items": [
+    {
+     "label": "Offer + appointment letter",
+     "state": "yes"
+    },
+    {
+     "label": "Notice period",
+     "state": "yes"
+    },
+    {
+     "label": "Training cost or bond",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 37.2,
+   "duration": 3.4,
+   "type": "side_note",
+   "text": "Differs company to company",
+   "side": "left"
+  },
+  {
+   "start": 41,
+   "duration": 5.6,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Friend's number",
+    "text": "30, 60 or 90 days"
+   },
+   "right": {
+    "label": "Your contract",
+    "text": "The only number that counts"
+   }
+  },
+  {
+   "start": 47.4,
+   "duration": 4.4,
+   "type": "keyword_chip",
+   "text": "Training cost clause",
+   "side": "right"
+  },
+  {
+   "start": 52.7,
+   "duration": 5.7,
+   "type": "number_roll",
+   "value": 90000,
+   "prefix": "₹",
+   "suffix": "",
+   "text": "Reported demand after notice period"
+  },
+  {
+   "start": 58.7,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "Employee report, not official",
+   "side": "left"
+  },
+  {
+   "start": 62.4,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Resign in writing",
+   "eyebrow": "Section 02",
+   "numeral": "02",
+   "section": 2
+  },
+  {
+   "start": 66,
+   "duration": 6.3,
+   "type": "flow_diagram",
+   "text": "Your resignation email",
+   "items": [
+    {
+     "label": "Email manager + HR"
+    },
+    {
+     "label": "Reply with last day"
+    },
+    {
+     "label": "Save both"
+    }
+   ]
+  },
+  {
+   "start": 72.8,
+   "duration": 3.7,
+   "type": "keyword_chip",
+   "text": "Short and polite",
+   "side": "left"
+  },
+  {
+   "start": 77,
+   "duration": 6.4,
+   "type": "side_note",
+   "text": "Date, last day, no anger",
+   "side": "right"
+  },
+  {
+   "start": 84.2,
+   "duration": 5,
+   "type": "keyword_chip",
+   "text": "Email and reply = proof",
+   "side": "left"
+  },
+  {
+   "start": 89.9,
+   "duration": 5.3,
+   "type": "big_statement",
+   "text": "Offer in hand first",
+   "eyebrow": "rule"
+  },
+  {
+   "start": 95.8,
+   "duration": 3.6,
+   "type": "side_note",
+   "text": "Never resign on a promise",
+   "side": "right"
+  },
+  {
+   "start": 100,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "The letter",
+   "eyebrow": "Section 03",
+   "numeral": "03",
+   "section": 3
+  },
+  {
+   "start": 103.5,
+   "duration": 7,
+   "type": "timeline",
+   "side": "right",
+   "text": "Leaving properly",
+   "items": [
+    {
+     "label": "Resign"
+    },
+    {
+     "label": "Notice period"
+    },
+    {
+     "label": "Handover"
+    },
+    {
+     "label": "Last day"
+    },
+    {
+     "label": "Relieving letter"
+    }
+   ]
+  },
+  {
+   "start": 111.3,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "No letter, offer at risk",
+   "side": "left"
+  },
+  {
+   "start": 114.6,
+   "duration": 3.3,
+   "type": "side_note",
+   "text": "See: background verification",
+   "side": "right"
+  },
+  {
+   "start": 118.5,
+   "duration": 3.9,
+   "type": "keyword_chip",
+   "text": "Experience letter is separate",
+   "side": "left"
+  },
+  {
+   "start": 122.8,
+   "duration": 7.7,
+   "type": "quote_pull",
+   "text": "Relieving letter = proof you left properly",
+   "eyebrow": "ask for both"
+  },
+  {
+   "start": 131.3,
+   "duration": 5.2,
+   "type": "keyword_chip",
+   "text": "Polite email reminder",
+   "side": "right"
+  },
+  {
+   "start": 137,
+   "duration": 3.4,
+   "type": "side_note",
+   "text": "A calm written trail wins",
+   "side": "left"
+  },
+  {
+   "start": 140.7,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Last salary",
+   "eyebrow": "Section 04",
+   "numeral": "04",
+   "section": 4
+  },
+  {
+   "start": 144.2,
+   "duration": 6.8,
+   "type": "checklist",
+   "text": "Before your last day",
+   "items": [
+    {
+     "label": "Laptop, card back",
+     "state": "yes"
+    },
+    {
+     "label": "Clearance, written",
+     "state": "yes"
+    },
+    {
+     "label": "Settlement date",
+     "state": "yes"
+    },
+    {
+     "label": "Save slips, P.F.",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 151.5,
+   "duration": 9,
+   "type": "flow_diagram",
+   "text": "After your last day",
+   "items": [
+    {
+     "label": "Clearance"
+    },
+    {
+     "label": "Full and final settlement"
+    },
+    {
+     "label": "Check against slips"
+    }
+   ]
+  },
+  {
+   "start": 161.6,
+   "duration": 3.9,
+   "type": "keyword_chip",
+   "text": "Salary slips · Form 16 · P.F.",
+   "side": "right"
+  },
+  {
+   "start": 165.8,
+   "duration": 4.4,
+   "type": "side_note",
+   "text": "Download before email access ends",
+   "side": "left"
+  },
+  {
+   "start": 171.2,
+   "duration": 11.4,
+   "type": "checklist",
+   "text": "Recap",
+   "items": [
+    {
+     "label": "Read notice period + bond clause",
+     "state": "yes"
+    },
+    {
+     "label": "Resign in writing, keep replies",
+     "state": "yes"
+    },
+    {
+     "label": "Relieving letter + clearance",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 185,
+   "duration": 7.6,
+   "type": "quote_pull",
+   "text": "Did you check your notice period before accepting?",
+   "eyebrow": "Comment yes or no"
+  },
+  {
+   "start": 193.4,
+   "duration": 2.2,
+   "type": "keyword_chip",
+   "text": "Like the video",
+   "side": "right"
+  },
+  {
+   "start": 195.8,
+   "duration": 1.6,
+   "type": "keyword_chip",
+   "text": "Subscribe to Crack IT",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "index": 0,
+   "start": 0,
+   "end": 6,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "LETTER?",
+    "label": "one paper"
+   }
+  },
+  {
+   "index": 1,
+   "start": 6,
+   "end": 10.6,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 2,
+   "start": 10.6,
+   "end": 15.4,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "SWITCH",
+    "label": "now or after a year"
+   }
+  },
+  {
+   "index": 3,
+   "start": 15.4,
+   "end": 23.4,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "3",
+    "label": "things to know"
+   }
+  },
+  {
+   "index": 4,
+   "start": 23.4,
+   "end": 29.6,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 5,
+   "start": 29.6,
+   "end": 33.4,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "2",
+    "label": "clauses to check"
+   }
+  },
+  {
+   "index": 6,
+   "start": 33.4,
+   "end": 40.8,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 7,
+   "start": 40.8,
+   "end": 44,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "30 · 60 · 90",
+    "label": "days, it varies"
+   }
+  },
+  {
+   "index": 8,
+   "start": 44,
+   "end": 47.1,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "YOURS",
+    "label": "not a friend's"
+   }
+  },
+  {
+   "index": 9,
+   "start": 47.1,
+   "end": 52.5,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 10,
+   "start": 52.5,
+   "end": 58.5,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "BOND?",
+    "label": "training cost"
+   }
+  },
+  {
+   "index": 11,
+   "start": 58.5,
+   "end": 62.3,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "NOT A RULE",
+    "label": "read yours first"
+   }
+  },
+  {
+   "index": 12,
+   "start": 62.3,
+   "end": 67.9,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 13,
+   "start": 67.9,
+   "end": 72.4,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 1,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 14,
+   "start": 72.4,
+   "end": 79.1,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "EMAIL",
+    "label": "manager + HR"
+   }
+  },
+  {
+   "index": 15,
+   "start": 79.1,
+   "end": 84,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 16,
+   "start": 84,
+   "end": 89.7,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "PROOF",
+    "label": "save the reply"
+   }
+  },
+  {
+   "index": 17,
+   "start": 89.7,
+   "end": 95.4,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "OFFER FIRST",
+    "label": "then resign"
+   }
+  },
+  {
+   "index": 18,
+   "start": 95.4,
+   "end": 99.8,
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "index": 19,
+   "start": 99.8,
+   "end": 107.3,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 20,
+   "start": 107.3,
+   "end": 114.2,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "RELIEVING",
+    "label": "letter"
+   }
+  },
+  {
+   "index": 21,
+   "start": 114.2,
+   "end": 118.3,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 22,
+   "start": 118.3,
+   "end": 123.6,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "EXPERIENCE",
+    "label": "letter"
+   }
+  },
+  {
+   "index": 23,
+   "start": 123.6,
+   "end": 131.1,
+   "kind": "broll",
+   "src": "assets/broll/writing.mp4",
+   "media_start": 6,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 24,
+   "start": 131.1,
+   "end": 137.5,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "DON'T SHOUT",
+    "label": "email it"
+   }
+  },
+  {
+   "index": 25,
+   "start": 137.5,
+   "end": 140.6,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 26,
+   "start": 140.6,
+   "end": 148.8,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 27,
+   "start": 148.8,
+   "end": 153.7,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "F&F",
+    "label": "full and final"
+   }
+  },
+  {
+   "index": 28,
+   "start": 153.7,
+   "end": 161.4,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 29,
+   "start": 161.4,
+   "end": 170.8,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "DOWNLOAD",
+    "label": "before access ends"
+   }
+  },
+  {
+   "index": 30,
+   "start": 170.8,
+   "end": 177.3,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "3",
+    "label": "steps"
+   }
+  },
+  {
+   "index": 31,
+   "start": 177.3,
+   "end": 184.5,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 32,
+   "start": 184.5,
+   "end": 193,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "YES or NO?",
+    "label": "comment below"
+   }
+  },
+  {
+   "index": 33,
+   "start": 193,
+   "end": 197.67,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe"
+   }
+  }
+ ],
+ "camera_moves": []
+}

@@ -1,0 +1,152 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "reveal",
+   "gain": 2,
+   "reason": "title_slide: Quitting your first job"
+  },
+  {
+   "time": 3.98,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: Starts on your last day"
+  },
+  {
+   "time": 11.08,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "keyword_chip: Switching now or after a year"
+  },
+  {
+   "time": 15.68,
+   "sfx": "typing",
+   "gain": 2,
+   "reason": "step_progress: You will learn"
+  },
+  {
+   "time": 29.88,
+   "sfx": "typing",
+   "gain": 2,
+   "reason": "checklist: Before you resign"
+  },
+  {
+   "time": 41.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 47.48,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: Training cost clause"
+  },
+  {
+   "time": 62.48,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Resign in writing"
+  },
+  {
+   "time": 66.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Your resignation email"
+  },
+  {
+   "time": 72.88,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "keyword_chip: Short and polite"
+  },
+  {
+   "time": 84.28,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: Email and reply = proof"
+  },
+  {
+   "time": 89.98,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "big_statement: Offer in hand first"
+  },
+  {
+   "time": 100.08,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: The letter"
+  },
+  {
+   "time": 111.38,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "keyword_chip: No letter, offer at risk"
+  },
+  {
+   "time": 118.58,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: Experience letter is separate"
+  },
+  {
+   "time": 122.88,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "quote_pull: Relieving letter = proof you left properly"
+  },
+  {
+   "time": 137.08,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "side_note: A calm written trail wins"
+  },
+  {
+   "time": 140.78,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Last salary"
+  },
+  {
+   "time": 144.28,
+   "sfx": "typing",
+   "gain": 2,
+   "reason": "checklist: Before your last day"
+  },
+  {
+   "time": 151.58,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: After your last day"
+  },
+  {
+   "time": 165.88,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "side_note: Download before email access ends"
+  },
+  {
+   "time": 171.28,
+   "sfx": "typing",
+   "gain": 2,
+   "reason": "checklist: Recap"
+  },
+  {
+   "time": 185.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "quote_pull: Did you check your notice period before accepting?"
+  },
+  {
+   "time": 195.88,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "keyword_chip: Subscribe to Crack IT"
+  }
+ ]
+}
