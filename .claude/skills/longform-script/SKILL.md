@@ -12,8 +12,11 @@ Nobody will answer a question: decide, and write each decision into the report. 
 
 - The prompt gives the folder (`SRC`, the Drive folder `inbox/faceless/crack-it-long-form-scripts`) and the number `NN`.
 - `SRC/00_README_workflow.md` if it exists (the owner's notes on long-form videos).
-- Every `SRC/*_script.md` title line and every `inbox/faceless/Crack_IT_Daily_Videos/d*/*_script.md` title line: what the
-  channel has already covered. Never repeat a long-form topic; a short video on the same theme is fine to go deeper on.
+- What the channel has already covered: every file in `config/youtube-scheduled/` (one per video already on YouTube:
+  the file name is the topic slug, `lfNN-…` = long-form, `dNN-…` = short video; `title` where present), every
+  `SRC/*_script.md` title line and every `inbox/faceless/Crack_IT_Daily_Videos/d*/*_script.md` title line. Drive can
+  be emptied, so `config/youtube-scheduled/` is the record that always holds. Never repeat a long-form topic (the
+  same big question under another title counts as a repeat); a short video on the same theme is fine to go deeper on.
 - `config/brands/crack-it.json` (audience, voice of the channel), `docs/examples/crack-it-d01/` (the scene format),
   and the `TTS reads` lines in `docs/lessons.md`.
 
