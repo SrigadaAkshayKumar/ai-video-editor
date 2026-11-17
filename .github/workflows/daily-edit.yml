@@ -274,6 +274,18 @@ jobs:
           node tools/youtube.mjs "$P" --shorts "$SHORTS" --queue .yt-queue
           rclone copy "projects/$P/output/youtube-uploaded.json" "$DRIVE/output/$P" -v
 
+      - name: Free Drive space (the video is on YouTube now)
+        if: steps.youtube.outcome == 'success'
+        continue-on-error: true
+        env:
+          P: ${{ steps.check.outputs.project }}
+          DIR: ${{ steps.ep.outputs.dir }}
+        run: |
+          # permanently (not to the Drive trash, which still counts against the quota); the .json/.md files stay:
+          # youtube-uploaded.json is what the schedule queue reads
+          rclone delete "$DRIVE/output/$P" --include "*.mp4" --drive-use-trash=false -v
+          [ -n "$DIR" ] && rclone delete "$DRIVE/$DIR" --include "*.wav" --drive-use-trash=false -v || true
+
       - name: Record + commit the edit decisions
         if: steps.check.outcome == 'success'
         env:
