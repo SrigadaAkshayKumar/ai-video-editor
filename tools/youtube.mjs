@@ -51,16 +51,26 @@ function istSlot(days, hhmm) {
 const skipDay = (t) => { const wd = new Date(t + IST).getUTCDay();
   return cfg.publishDays ? !cfg.publishDays.includes(wd) : (cfg.skipDays || []).includes(wd); };
 
-/** youtube.aheadUntil "YYYY-MM-DD": until that IST date every slot counts as due, so runs build a backlog in a row. */
-const ahead = (t) => !!cfg.aheadUntil && new Date(t + IST).toISOString().slice(0, 10) <= cfg.aheadUntil;
-
-/** --queue dir: the first publish day after the latest main video already scheduled (any project), else the normal slot. */
-function queueSlot(dir) {
+/** What is already scheduled: every youtube-uploaded.json under dir (the run pulls them from Drive) plus the ledger in
+ * git, config/youtube-scheduled/<project>.json, which survives a Drive cleanup (2026-11-17: Drive was emptied, the
+ * queue saw nothing and the runs scheduled videos on days already taken). */
+const LEDGER = join(ROOT, "config", "youtube-scheduled");
+function queueFiles(dir) {
   const files = [];
   const walk = (d) => { for (const n of readdirSync(d, { withFileTypes: true })) {
     if (n.isDirectory()) walk(join(d, n.name)); else if (n.name === "youtube-uploaded.json") files.push(join(d, n.name));
   } };
   if (existsSync(dir)) walk(dir);
+  if (existsSync(LEDGER)) files.push(...readdirSync(LEDGER).filter((n) => n.endsWith(".json")).map((n) => join(LEDGER, n)));
+  return files;
+}
+
+/** youtube.aheadUntil "YYYY-MM-DD": until that IST date every slot counts as due, so runs build a backlog in a row. */
+const ahead = (t) => !!cfg.aheadUntil && new Date(t + IST).toISOString().slice(0, 10) <= cfg.aheadUntil;
+
+/** --queue dir: the first publish day after the latest main video already scheduled (any project), else the normal slot. */
+function queueSlot(dir) {
+  const files = queueFiles(dir);
   // only main videos on the regular days count: a Saturday long-form must not push Mon/Wed/Fri back
   const latest = Math.max(0, ...files.flatMap((f) => (readJson(f).videos || []).filter((v) => v.kind === "video")
     .map((v) => Date.parse(v.publishAt) || 0).filter((t) => t && !skipDay(t))));
@@ -81,11 +91,7 @@ function queueSlot(dir) {
 if (flags["longform-slot"]) {
   const lf = { day: 6, time: "16:00", ...(cfg.longform || {}) };
   const dir = resolve(ROOT, flags.queue || ".yt-queue");
-  const files = [];
-  const walk = (d) => { for (const n of readdirSync(d, { withFileTypes: true })) {
-    if (n.isDirectory()) walk(join(d, n.name)); else if (n.name === "youtube-uploaded.json") files.push(join(d, n.name));
-  } };
-  if (existsSync(dir)) walk(dir);
+  const files = queueFiles(dir);
   const day = (t) => new Date(t + IST).toISOString().slice(0, 10);
   const taken = new Set(files.flatMap((f) => (readJson(f).videos || []).filter((v) => v.kind === "video")
     .map((v) => day(Date.parse(v.publishAt)))));
@@ -347,6 +353,9 @@ for (const p of plan) {
 }
 
 if (!dryRun) writeJson(join(out, "youtube-uploaded.json"), { uploadedAt: new Date().toISOString(), videos: results });
+// the ledger entry (committed by the workflow): only what the queue needs, no video ids
+if (!dryRun) writeJson(join(LEDGER, `${project}.json`), { project, videos: results.filter((r) => r.kind === "video")
+  .map((r) => ({ kind: r.kind, publishAt: r.publishAt })) });
 const lines = ["### YouTube", "", "| | Title | Publishes | YouTube stored | Thumbnail |", "|---|---|---|---|---|",
   ...results.map((r) => `| ${r.url ? `[${r.kind}](${r.url})` : r.kind} | ${md(r.title)} | ${istText(r.publishAt)} | ${r.youtubeStatus ? `${r.youtubeStatus.privacy}, ${r.youtubeStatus.publishAt ? "scheduled " + istText(r.youtubeStatus.publishAt) : "NO schedule"}` : ""} | ${r.thumbnail || (r.kind === "video" ? "YouTube auto" : "")} |`), "",
   ...(videoUrl && results.some((r) => r.kind === "short") ? [`Related video: the API cannot set it. In Studio → each Short → Details → Related video → pick ${videoUrl}.`, ""] : []),
