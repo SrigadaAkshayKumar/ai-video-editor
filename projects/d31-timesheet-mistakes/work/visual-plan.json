@@ -1,0 +1,670 @@
+{
+ "style": "glass",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 3.55,
+   "type": "title_slide",
+   "text": "Your timesheet is not boring",
+   "eyebrow": "Crack IT · Day 31",
+   "style_hint": "4 mistakes that hurt freshers"
+  },
+  {
+   "start": 4.2,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Wrong hours, wrong bill",
+   "side": "right"
+  },
+  {
+   "start": 8.4,
+   "duration": 4.4,
+   "type": "keyword_chip",
+   "text": "Then a manager asks why",
+   "side": "left"
+  },
+  {
+   "start": 14,
+   "duration": 5.4,
+   "type": "timeline",
+   "side": "right",
+   "text": "Four timesheet mistakes",
+   "items": [
+    {
+     "label": "Mistake 1",
+     "sublabel": "?"
+    },
+    {
+     "label": "Mistake 2",
+     "sublabel": "?"
+    },
+    {
+     "label": "Mistake 3",
+     "sublabel": "?"
+    },
+    {
+     "label": "Mistake 4",
+     "sublabel": "?"
+    }
+   ]
+  },
+  {
+   "start": 20.2,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Why it matters",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 1
+  },
+  {
+   "start": 24,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "Client pays for your time",
+   "side": "right"
+  },
+  {
+   "start": 28.3,
+   "duration": 8.5,
+   "type": "flow_diagram",
+   "text": "Where your hours go",
+   "items": [
+    {
+     "label": "Your hours"
+    },
+    {
+     "label": "Timesheet"
+    },
+    {
+     "label": "Billing + project cost"
+    }
+   ]
+  },
+  {
+   "start": 38,
+   "duration": 5,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Project work",
+    "text": "Billed time"
+   },
+   "right": {
+    "label": "Training / bench",
+    "text": "Its own code"
+   }
+  },
+  {
+   "start": 43.6,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Wrong code, wrong record",
+   "side": "left"
+  },
+  {
+   "start": 47.4,
+   "duration": 3,
+   "type": "side_note",
+   "text": "Names differ by company",
+   "side": "right"
+  },
+  {
+   "start": 51,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Ask for the code list in week one",
+   "side": "left"
+  },
+  {
+   "start": 55.4,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Example: Ravi",
+   "side": "right"
+  },
+  {
+   "start": 59.2,
+   "duration": 7.1,
+   "type": "timeline",
+   "side": "right",
+   "text": "Ravi's first weeks",
+   "items": [
+    {
+     "label": "Joins Monday"
+    },
+    {
+     "label": "2 weeks training"
+    },
+    {
+     "label": "Project starts"
+    }
+   ]
+  },
+  {
+   "start": 66.9,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "From memory",
+   "eyebrow": "Mistake 1",
+   "numeral": "02",
+   "section": 2
+  },
+  {
+   "start": 74.2,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Two minutes before log off",
+   "side": "right"
+  },
+  {
+   "start": 77.5,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Copying a friend",
+   "eyebrow": "Mistake 2",
+   "numeral": "03",
+   "section": 3
+  },
+  {
+   "start": 81,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Other project, other codes",
+   "side": "left"
+  },
+  {
+   "start": 86,
+   "duration": 3.8,
+   "type": "side_note",
+   "text": "Ask your team lead",
+   "side": "right"
+  },
+  {
+   "start": 90.6,
+   "duration": 4.2,
+   "type": "keyword_chip",
+   "text": "The third one is coming",
+   "side": "left"
+  },
+  {
+   "start": 95.4,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Padding the hours",
+   "eyebrow": "Mistake 3",
+   "numeral": "04",
+   "section": 4
+  },
+  {
+   "start": 99.4,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Stuck? Waiting? Learning?",
+   "side": "right"
+  },
+  {
+   "start": 103.4,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Not eight hours of coding",
+   "side": "left"
+  },
+  {
+   "start": 107.4,
+   "duration": 3.8,
+   "type": "quote_pull",
+   "text": "Wrong hours are a record, and records get checked",
+   "eyebrow": "remember"
+  },
+  {
+   "start": 111.8,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "Client questions a bill",
+   "side": "right"
+  },
+  {
+   "start": 116,
+   "duration": 5.5,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Padded",
+    "text": "Coding · 8 hours"
+   },
+   "right": {
+    "label": "Honest",
+    "text": "Waiting for test access · 3 hours"
+   }
+  },
+  {
+   "start": 122.2,
+   "duration": 3.6,
+   "type": "side_note",
+   "text": "Blockers get fixed",
+   "side": "left"
+  },
+  {
+   "start": 126.4,
+   "duration": 3,
+   "type": "quote_pull",
+   "text": "Honest entries protect you",
+   "eyebrow": "rule"
+  },
+  {
+   "start": 129.8,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Missing the deadline",
+   "eyebrow": "Mistake 4",
+   "numeral": "05",
+   "section": 5
+  },
+  {
+   "start": 133.6,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Submitted and approved",
+   "side": "right"
+  },
+  {
+   "start": 138,
+   "duration": 6.3,
+   "type": "timeline",
+   "side": "right",
+   "text": "Miss it and you may get",
+   "items": [
+    {
+     "label": "Reminder mails"
+    },
+    {
+     "label": "Delayed approval"
+    },
+    {
+     "label": "A talk with your manager"
+    }
+   ]
+  },
+  {
+   "start": 145,
+   "duration": 2,
+   "type": "keyword_chip",
+   "text": "What to do this week",
+   "side": "left"
+  },
+  {
+   "start": 147.3,
+   "duration": 13.7,
+   "type": "checklist",
+   "text": "This week",
+   "items": [
+    {
+     "label": "Ask deadline + code list",
+     "state": "yes"
+    },
+    {
+     "label": "Daily phone reminder",
+     "state": "yes"
+    },
+    {
+     "label": "Plain-word entries",
+     "state": "yes"
+    },
+    {
+     "label": "Training has its own code",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 162,
+   "duration": 4.6,
+   "type": "quote_pull",
+   "text": "You will never think about your timesheet again",
+   "eyebrow": "the whole point"
+  },
+  {
+   "start": 167.4,
+   "duration": 5.4,
+   "type": "checklist",
+   "text": "Recap",
+   "items": [
+    {
+     "label": "Fill it daily",
+     "state": "yes"
+    },
+    {
+     "label": "Never copy a friend",
+     "state": "yes"
+    },
+    {
+     "label": "Never pad hours",
+     "state": "yes"
+    },
+    {
+     "label": "Know your deadline",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 174.4,
+   "duration": 5.6,
+   "type": "quote_pull",
+   "text": "Did anyone tell you how to fill your timesheet in week one?",
+   "eyebrow": "Comment yes or no"
+  },
+  {
+   "start": 181.6,
+   "duration": 2,
+   "type": "keyword_chip",
+   "text": "Like the video",
+   "side": "right"
+  },
+  {
+   "start": 183.9,
+   "duration": 2.3,
+   "type": "keyword_chip",
+   "text": "Subscribe to Crack IT",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "index": 0,
+   "start": 0,
+   "end": 7.9,
+   "kind": "broll",
+   "src": "assets/broll/man-laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 1,
+   "start": 7.9,
+   "end": 13.6,
+   "kind": "broll",
+   "src": "assets/broll/office-team.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 2,
+   "start": 13.6,
+   "end": 19.9,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "4",
+    "label": "mistakes"
+   }
+  },
+  {
+   "index": 3,
+   "start": 19.9,
+   "end": 27.8,
+   "kind": "broll",
+   "src": "assets/broll/office-desks.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 4,
+   "start": 27.8,
+   "end": 37.3,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 5,
+   "start": 37.3,
+   "end": 43.2,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "2 CODES",
+    "label": "work · training"
+   }
+  },
+  {
+   "index": 6,
+   "start": 43.2,
+   "end": 50.6,
+   "kind": "broll",
+   "src": "assets/broll/office-blur.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 7,
+   "start": 50.6,
+   "end": 58.8,
+   "kind": "broll",
+   "src": "assets/broll/clock.mp4",
+   "media_start": 2,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 8,
+   "start": 58.8,
+   "end": 66.7,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "RAVI",
+    "label": "week one"
+   }
+  },
+  {
+   "index": 9,
+   "start": 66.7,
+   "end": 77.3,
+   "kind": "broll",
+   "src": "assets/broll/writing.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 10,
+   "start": 77.3,
+   "end": 84,
+   "kind": "broll",
+   "src": "assets/broll/two-table.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 11,
+   "start": 84,
+   "end": 90.2,
+   "kind": "broll",
+   "src": "assets/broll/manager-help.mp4",
+   "media_start": 3,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 12,
+   "start": 90.2,
+   "end": 95.3,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "3",
+    "label": "the quiet worry"
+   }
+  },
+  {
+   "index": 13,
+   "start": 95.3,
+   "end": 103,
+   "kind": "broll",
+   "src": "assets/broll/woman-laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 14,
+   "start": 103,
+   "end": 106.9,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 15,
+   "start": 106.9,
+   "end": 115.6,
+   "kind": "broll",
+   "src": "assets/broll/office-desks.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "noir",
+   "transition": "fade"
+  },
+  {
+   "index": 16,
+   "start": 115.6,
+   "end": 121.8,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "REAL",
+    "label": "plain words"
+   }
+  },
+  {
+   "index": 17,
+   "start": 121.8,
+   "end": 126.2,
+   "kind": "broll",
+   "src": "assets/broll/office-blur.mp4",
+   "media_start": 6,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 18,
+   "start": 126.2,
+   "end": 129.6,
+   "kind": "broll",
+   "src": "assets/broll/writing.mp4",
+   "media_start": 8,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 19,
+   "start": 129.6,
+   "end": 137.5,
+   "kind": "broll",
+   "src": "assets/broll/alarm.mp4",
+   "media_start": 5,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 20,
+   "start": 137.5,
+   "end": 144.7,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "DEADLINE",
+    "label": "approved by"
+   }
+  },
+  {
+   "index": 21,
+   "start": 144.7,
+   "end": 150.3,
+   "kind": "broll",
+   "src": "assets/broll/phone.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 22,
+   "start": 150.3,
+   "end": 161.4,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "4",
+    "label": "steps this week"
+   }
+  },
+  {
+   "index": 23,
+   "start": 161.4,
+   "end": 167,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 4,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 24,
+   "start": 167,
+   "end": 173.3,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "RECAP",
+    "label": "four rules"
+   }
+  },
+  {
+   "index": 25,
+   "start": 173.3,
+   "end": 181.3,
+   "kind": "broll",
+   "src": "assets/broll/two-table.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 26,
+   "start": 181.3,
+   "end": 186.4,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe"
+   }
+  }
+ ],
+ "camera_moves": []
+}

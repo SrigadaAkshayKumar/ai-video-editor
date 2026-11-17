@@ -1,0 +1,92 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "title_slide: Your timesheet is not boring"
+  },
+  {
+   "time": 14.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "timeline: Four timesheet mistakes"
+  },
+  {
+   "time": 28.38,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Where your hours go"
+  },
+  {
+   "time": 38.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 59.28,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "timeline: Ravi's first weeks"
+  },
+  {
+   "time": 66.98,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: From memory"
+  },
+  {
+   "time": 77.58,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Copying a friend"
+  },
+  {
+   "time": 95.48,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Padding the hours"
+  },
+  {
+   "time": 107.48,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "quote_pull: Wrong hours are a record, and records get checked"
+  },
+  {
+   "time": 116.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 126.48,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "quote_pull: Honest entries protect you"
+  },
+  {
+   "time": 129.88,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Missing the deadline"
+  },
+  {
+   "time": 162.08,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "quote_pull: You will never think about your timesheet again"
+  },
+  {
+   "time": 174.48,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "quote_pull: Did anyone tell you how to fill your timesheet in week one?"
+  }
+ ]
+}

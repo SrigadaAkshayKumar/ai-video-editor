@@ -1,0 +1,30 @@
+{
+  "narration": {
+    "mean": -24.9,
+    "peak": -6.6
+  },
+  "music": {},
+  "sfx": {
+    "impact": {
+      "gain": 0.02,
+      "limitedBy": "rms",
+      "trimDb": -4.7,
+      "band": "sub",
+      "seconds": 0.37
+    },
+    "reveal": {
+      "gain": 0.044157044735331254,
+      "limitedBy": "rms",
+      "trimDb": 0,
+      "band": "mixed",
+      "seconds": 0.17
+    },
+    "sub_drop": {
+      "gain": 0.02,
+      "limitedBy": "transient-floor",
+      "trimDb": -5.2,
+      "band": "sub",
+      "seconds": 0.4
+    }
+  }
+}
