@@ -50,6 +50,10 @@ AI-edits/
   makes the next free slot's video and then starts the next run itself (daily and long-form alike), so a backlog
   is built back to back. A Claude usage limit pauses the chain until the reset (the run waits, then starts again).
   Remove the line (or set an earlier date) to go back to one video the night before.
+- **Drive space:** once a video is scheduled on YouTube, the run permanently deletes its `.mp4` files (video and
+  Shorts) and its voice `.wav` from Drive, and for a long-form also `longform/<project>/` (bypassing the Drive trash,
+  which still counts against the quota). The `.json`/`.md` files stay: `youtube-uploaded.json` drives the schedule.
+  YouTube is then the only copy of a finished video.
 - **Voice reference:** `inbox/brand/my-final-voice.*` plus its exact words in `config/voice.json` → `refText`.
   Recording a new reference? Upload it with the same name and update `refText` (a 10–20 s clip clones better).
 - **Edit looks:** each episode gets a look picked at random from `config/daily.json` → `looks.list` (a visual

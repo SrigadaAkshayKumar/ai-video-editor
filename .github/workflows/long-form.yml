@@ -335,6 +335,7 @@ jobs:
         if: always() && steps.done.outcome == 'success' && vars.YOUTUBE_UPLOAD != 'off'
         env:
           P: ${{ steps.name.outputs.p }}
+          WAV: ${{ steps.name.outputs.wav }}
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
@@ -345,6 +346,11 @@ jobs:
           slot=$(node tools/youtube.mjs --longform-slot --queue .yt-queue)
           node tools/youtube.mjs "$P" --shorts "AI-clipper/output/$P" --publish "$slot" --no-thumbnail
           rclone copy "projects/$P/output/youtube-uploaded.json" "$DRIVE/output/$P" -v
+          # free Drive space now that it is on YouTube: the videos, the voice and the working copy, permanently
+          # (the Drive trash still counts against the quota); the .json/.md files stay for the schedule queue
+          rclone delete "$DRIVE/output/$P" --include "*.mp4" --drive-use-trash=false -v || true
+          rclone delete "$DRIVE/$SRC" --include "$(basename "$WAV")" --drive-use-trash=false -v || true
+          rclone purge "$DRIVE/longform/$P" --drive-use-trash=false -v || true
           # youtube.aheadUntil: while the next free Saturday is before that date, write and make the next one now
           mkdir -p ".yt-queue/$P" && cp "projects/$P/output/youtube-uploaded.json" ".yt-queue/$P/"
           if node tools/youtube.mjs --longform-slot --due --queue .yt-queue; then
