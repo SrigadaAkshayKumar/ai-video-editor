@@ -295,7 +295,7 @@ jobs:
           node tools/daily.mjs done --look "$LOOK"
           git config user.name "daily-edit bot"
           git config user.email "actions@users.noreply.github.com"
-          git add "projects/$P" config/daily-state.json
+          git add "projects/$P" config/daily-state.json config/youtube-scheduled
           git commit -m "daily: $P"
           # the edit leaves other tracked files modified (not committed); keep them out of the rebase
           git pull --rebase --autostash -q && git push

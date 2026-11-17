@@ -32,7 +32,7 @@ concurrency:
   cancel-in-progress: false
 
 permissions:
-  contents: read
+  contents: write
   actions: write
 
 env:
@@ -96,6 +96,8 @@ jobs:
             # a script Claude wrote earlier whose video was never delivered: finish that one first
             for m in $(echo "$files" | grep '_written-by-claude\.txt$'); do
               n=${m%%_*}; p=$(rclone lsf "$DRIVE/output" --dirs-only | grep "^lf${n}-" | head -1 | tr -d /)
+              # done = scheduled on YouTube per the ledger in git (survives a Drive cleanup), or the Drive done marker
+              ls config/youtube-scheduled 2>/dev/null | grep -qE "^lf${n}(-.*)?\.json$" && continue
               if [ -z "$p" ] || ! rclone lsf "$DRIVE/output/$p" | grep -q '^longform-done\.json$'; then N=$n; break; fi
             done
             if [ -z "$N" ]; then
@@ -341,11 +343,15 @@ jobs:
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
           GH_TOKEN: ${{ github.token }}
         run: |
-          if rclone lsf "$DRIVE/output/$P" | grep -q '^youtube-uploaded\.json$'; then echo "already on YouTube"; exit 0; fi
+          if [ -f "config/youtube-scheduled/$P.json" ] || rclone lsf "$DRIVE/output/$P" | grep -q '^youtube-uploaded\.json$'; then echo "already on YouTube"; exit 0; fi
           rclone copy "$DRIVE/output" .yt-queue --include "*/youtube-uploaded.json" -q
           slot=$(node tools/youtube.mjs --longform-slot --queue .yt-queue)
           node tools/youtube.mjs "$P" --shorts "AI-clipper/output/$P" --publish "$slot" --no-thumbnail
           rclone copy "projects/$P/output/youtube-uploaded.json" "$DRIVE/output/$P" -v
+          # the schedule ledger in git (config/youtube-scheduled): the queue's record that survives a Drive cleanup
+          git config user.name "long-form bot"; git config user.email "actions@users.noreply.github.com"
+          git add config/youtube-scheduled; git diff --cached --quiet || git commit -q -m "long-form: $P scheduled"
+          for i in 1 2 3; do git pull --rebase --autostash -q && git push -q && break; sleep 10; done
           # free Drive space now that it is on YouTube: the videos, the voice and the working copy, permanently
           # (the Drive trash still counts against the quota); the .json/.md files stay for the schedule queue
           rclone delete "$DRIVE/output/$P" --include "*.mp4" --drive-use-trash=false -v || true
