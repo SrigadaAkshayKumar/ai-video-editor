@@ -1,0 +1,101 @@
+{
+  "name": "d29-first-salary-tax",
+  "createdAt": "2026-11-16T23:41:56.537Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d29-first-salary-tax/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d29/d29-voice.wav",
+    "duration": 191.54,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d29-first-salary-tax/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d29/d29_first_salary_tax_voiceover.txt",
+    "words": 656,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d29-first-salary-tax/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Form"
+  ],
+  "mode": "faceless",
+  "style": "liquid",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; modern liquid-glass look for a young audience: glossy capsules, jelly-spring arrivals, slow push-ins on b-roll, keyword chips and stat trios; energetic, a beat every 3-5 s; airy swooshes and pops",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 21.5,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-16T23:43:22.484Z",
+      "words": 649,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-16T23:43:26.118Z",
+      "segments": 16,
+      "kept": 186.733
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-17T00:01:12.067Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d29-first-salary-tax/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-17T00:01:21.346Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-17T00:01:21.376Z",
+      "groups": 168
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-17T00:01:28.662Z",
+      "music": 0,
+      "sfx": 27
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-17T00:04:00.735Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d29-first-salary-tax/output/final-16x9.mp4",
+      "duration": 196.757
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.981675,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d29-first-salary-tax/work/cleancut.wav",
+    "duration": 186.733167,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

@@ -1,0 +1,170 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "reveal",
+   "gain": 2,
+   "reason": "title_slide: Your first salary tax"
+  },
+  {
+   "time": 3.88,
+   "sfx": "pop",
+   "gain": 3,
+   "reason": "keyword_chip: One form decides the cut"
+  },
+  {
+   "time": 13.28,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "step_progress: You will learn"
+  },
+  {
+   "time": 22.83,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Two tax systems"
+  },
+  {
+   "time": 23.28,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: Two tax systems"
+  },
+  {
+   "time": 26.48,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 36.08,
+   "sfx": "pop",
+   "gain": 3,
+   "reason": "side_note: HRA · investments"
+  },
+  {
+   "time": 48.58,
+   "sfx": "pop",
+   "gain": 3,
+   "reason": "side_note: The choice is yours"
+  },
+  {
+   "time": 51.23,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: The zero-tax rule"
+  },
+  {
+   "time": 51.68,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: The zero-tax rule"
+  },
+  {
+   "time": 54.88,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "number_roll: No tax up to this, new regime"
+  },
+  {
+   "time": 59.48,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "stat_trio: The zero-tax numbers (₹)"
+  },
+  {
+   "time": 69.08,
+   "sfx": "ding",
+   "gain": 2,
+   "reason": "checklist: Why a fresher pays ₹0"
+  },
+  {
+   "time": 77.68,
+   "sfx": "ding",
+   "gain": 2,
+   "reason": "big_statement: But here is the catch"
+  },
+  {
+   "time": 85.33,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: The salary mistake"
+  },
+  {
+   "time": 85.78,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: The salary mistake"
+  },
+  {
+   "time": 89.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Where your money waits"
+  },
+  {
+   "time": 98.38,
+   "sfx": "pop",
+   "gain": 3,
+   "reason": "keyword_chip: Guess wrong, too much cut"
+  },
+  {
+   "time": 109.08,
+   "sfx": "ding",
+   "gain": 2,
+   "reason": "big_statement: Week one: tell payroll"
+  },
+  {
+   "time": 112.48,
+   "sfx": "pop",
+   "gain": 3,
+   "reason": "keyword_chip: Choose your regime"
+  },
+  {
+   "time": 124.83,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: The form and the paper"
+  },
+  {
+   "time": 125.28,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: The form and the paper"
+  },
+  {
+   "time": 130.08,
+   "sfx": "pop",
+   "gain": 3,
+   "reason": "keyword_chip: Source: Income Tax Dept"
+  },
+  {
+   "time": 136.48,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "timeline: Your tax paper trail"
+  },
+  {
+   "time": 155.38,
+   "sfx": "pop",
+   "gain": 3,
+   "reason": "side_note: Or tax counted twice"
+  },
+  {
+   "time": 158.08,
+   "sfx": "ding",
+   "gain": 2,
+   "reason": "checklist: Recap"
+  },
+  {
+   "time": 172.48,
+   "sfx": "ding",
+   "gain": 2,
+   "reason": "quote_pull: Which regime is your employer using?"
+  }
+ ]
+}

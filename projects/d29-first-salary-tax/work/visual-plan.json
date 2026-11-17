@@ -1,0 +1,632 @@
+{
+ "style": "liquid",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 3.55,
+   "type": "title_slide",
+   "text": "Your first salary tax",
+   "eyebrow": "Crack IT · Day 29",
+   "style_hint": "The form to fill in week one"
+  },
+  {
+   "start": 3.8,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "One form decides the cut",
+   "side": "right"
+  },
+  {
+   "start": 6.9,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Most freshers never see it",
+   "side": "left"
+  },
+  {
+   "start": 10.2,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "Joining soon or just joined",
+   "side": "right"
+  },
+  {
+   "start": 13.2,
+   "duration": 7.7,
+   "type": "step_progress",
+   "side": "right",
+   "text": "You will learn",
+   "items": [
+    {
+     "label": "The one form"
+    },
+    {
+     "label": "The zero-tax rule"
+    },
+    {
+     "label": "The salary mistake"
+    }
+   ],
+   "current_step": 0
+  },
+  {
+   "start": 23,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Two tax systems",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 1
+  },
+  {
+   "start": 26.4,
+   "duration": 8.6,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "New regime · default",
+    "text": "Lower rates, few deductions"
+   },
+   "right": {
+    "label": "Old regime",
+    "text": "Higher rates, more claims"
+   }
+  },
+  {
+   "start": 36,
+   "duration": 5,
+   "type": "side_note",
+   "text": "HRA · investments",
+   "side": "left"
+  },
+  {
+   "start": 41.8,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "New regime is simpler",
+   "side": "right"
+  },
+  {
+   "start": 46,
+   "duration": 2.2,
+   "type": "keyword_chip",
+   "text": "Few investments to claim",
+   "side": "left"
+  },
+  {
+   "start": 48.5,
+   "duration": 2.6,
+   "type": "side_note",
+   "text": "The choice is yours",
+   "side": "right"
+  },
+  {
+   "start": 51.4,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "The zero-tax rule",
+   "eyebrow": "Section 02",
+   "numeral": "02",
+   "section": 2
+  },
+  {
+   "start": 54.8,
+   "duration": 4.2,
+   "type": "number_roll",
+   "value": 12,
+   "suffix": " lakh",
+   "text": "No tax up to this, new regime"
+  },
+  {
+   "start": 59.4,
+   "duration": 4.6,
+   "type": "stat_trio",
+   "text": "The zero-tax numbers (₹)",
+   "items": [
+    {
+     "value": 1200000,
+     "label": "taxable income limit"
+    },
+    {
+     "value": 60000,
+     "label": "rebate, section 87A"
+    },
+    {
+     "value": 75000,
+     "label": "standard deduction"
+    }
+   ]
+  },
+  {
+   "start": 64.4,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "Taxable income = after deductions",
+   "side": "left"
+  },
+  {
+   "start": 69,
+   "duration": 8.2,
+   "type": "checklist",
+   "text": "Why a fresher pays ₹0",
+   "items": [
+    {
+     "label": "Standard deduction ₹75,000",
+     "state": "yes"
+    },
+    {
+     "label": "Rebate up to ₹60,000",
+     "state": "yes"
+    },
+    {
+     "label": "Few lakh a year",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 77.6,
+   "duration": 5.2,
+   "type": "big_statement",
+   "text": "But here is the catch",
+   "eyebrow": "catch"
+  },
+  {
+   "start": 83.2,
+   "duration": 1.8,
+   "type": "keyword_chip",
+   "text": "Zero a year ≠ zero monthly",
+   "side": "right"
+  },
+  {
+   "start": 85.5,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "The salary mistake",
+   "eyebrow": "Section 03",
+   "numeral": "03",
+   "section": 3
+  },
+  {
+   "start": 89,
+   "duration": 9,
+   "type": "flow_diagram",
+   "text": "Where your money waits",
+   "items": [
+    {
+     "label": "Salary"
+    },
+    {
+     "label": "TDS cut monthly"
+    },
+    {
+     "label": "File return"
+    },
+    {
+     "label": "Refund"
+    }
+   ]
+  },
+  {
+   "start": 98.3,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Guess wrong, too much cut",
+   "side": "left"
+  },
+  {
+   "start": 101.8,
+   "duration": 2.5,
+   "type": "side_note",
+   "text": "Refund takes weeks or months",
+   "side": "right"
+  },
+  {
+   "start": 105.5,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Your money, not usable",
+   "side": "right"
+  },
+  {
+   "start": 109,
+   "duration": 3,
+   "type": "big_statement",
+   "text": "Week one: tell payroll",
+   "eyebrow": "fix"
+  },
+  {
+   "start": 112.4,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Choose your regime",
+   "side": "left"
+  },
+  {
+   "start": 116.4,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "Ask for monthly tax estimate",
+   "side": "right"
+  },
+  {
+   "start": 120.6,
+   "duration": 3.9,
+   "type": "side_note",
+   "text": "Zero tax but big cut? Raise it early",
+   "side": "left"
+  },
+  {
+   "start": 125,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "The form and the paper",
+   "eyebrow": "Section 04",
+   "numeral": "04",
+   "section": 4
+  },
+  {
+   "start": 130,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "Source: Income Tax Dept",
+   "side": "right"
+  },
+  {
+   "start": 136.4,
+   "duration": 9.2,
+   "type": "timeline",
+   "side": "right",
+   "text": "Your tax paper trail",
+   "items": [
+    {
+     "label": "Week one",
+     "sublabel": "Form 12BB"
+    },
+    {
+     "label": "Monthly",
+     "sublabel": "TDS"
+    },
+    {
+     "label": "Year end",
+     "sublabel": "Form 16"
+    },
+    {
+     "label": "Then",
+     "sublabel": "File return"
+    }
+   ]
+  },
+  {
+   "start": 147.3,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "Keep both safely",
+   "side": "left"
+  },
+  {
+   "start": 151.8,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "New job? Share old Form 16",
+   "side": "right"
+  },
+  {
+   "start": 155.3,
+   "duration": 2,
+   "type": "side_note",
+   "text": "Or tax counted twice",
+   "side": "left"
+  },
+  {
+   "start": 158,
+   "duration": 11.8,
+   "type": "checklist",
+   "text": "Recap",
+   "items": [
+    {
+     "label": "New regime is default: check yours",
+     "state": "yes"
+    },
+    {
+     "label": "Up to 12 lakh can mean zero tax",
+     "state": "yes"
+    },
+    {
+     "label": "Week one: tell payroll, keep Form 16",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 172.4,
+   "duration": 8.4,
+   "type": "quote_pull",
+   "text": "Which regime is your employer using?",
+   "eyebrow": "Comment new or old"
+  },
+  {
+   "start": 181.6,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "Like the video",
+   "side": "right"
+  },
+  {
+   "start": 184.2,
+   "duration": 2.3,
+   "type": "keyword_chip",
+   "text": "Subscribe to Crack IT",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "index": 0,
+   "start": 0,
+   "end": 6.4,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "FORM ?",
+    "label": "week one"
+   }
+  },
+  {
+   "index": 1,
+   "start": 6.4,
+   "end": 12.8,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 1,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 2,
+   "start": 12.8,
+   "end": 21.5,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "3",
+    "label": "things to know"
+   }
+  },
+  {
+   "index": 3,
+   "start": 21.5,
+   "end": 28.7,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "2",
+    "label": "tax regimes"
+   }
+  },
+  {
+   "index": 4,
+   "start": 28.7,
+   "end": 35.1,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 5,
+   "start": 35.1,
+   "end": 41.4,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "OLD",
+    "label": "higher rates"
+   }
+  },
+  {
+   "index": 6,
+   "start": 41.4,
+   "end": 48.3,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 7,
+   "start": 48.3,
+   "end": 53.4,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "12L",
+    "label": "zero-tax limit"
+   }
+  },
+  {
+   "index": 8,
+   "start": 53.4,
+   "end": 59.1,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 9,
+   "start": 59.1,
+   "end": 64,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "60K",
+    "label": "rebate"
+   }
+  },
+  {
+   "index": 10,
+   "start": 64,
+   "end": 68.8,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "75K",
+    "label": "standard deduction"
+   }
+  },
+  {
+   "index": 11,
+   "start": 68.8,
+   "end": 77.4,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "₹0",
+    "label": "tax at year end"
+   }
+  },
+  {
+   "index": 12,
+   "start": 77.4,
+   "end": 85.2,
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "index": 13,
+   "start": 85.2,
+   "end": 94,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "TDS",
+    "label": "cut every month"
+   }
+  },
+  {
+   "index": 14,
+   "start": 94,
+   "end": 104.5,
+   "kind": "broll",
+   "src": "assets/broll/clock.mp4",
+   "media_start": 2,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 15,
+   "start": 104.5,
+   "end": 112,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "WEEK 1",
+    "label": "tell payroll"
+   }
+  },
+  {
+   "index": 16,
+   "start": 112,
+   "end": 120.4,
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "index": 17,
+   "start": 120.4,
+   "end": 129.3,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "12BB",
+    "label": "the form"
+   }
+  },
+  {
+   "index": 18,
+   "start": 129.3,
+   "end": 136,
+   "kind": "news",
+   "url": "https://www.incometax.gov.in/iec/foportal/help/individual/return-applicable-1",
+   "source": "Income Tax Department",
+   "headline": "Salaried Individuals for AY 2026-27",
+   "date": "AY 2026-27",
+   "motion": "ken_in",
+   "grade": "neutral",
+   "highlight": {
+    "x": 0.08,
+    "y": 0.085,
+    "w": 0.55,
+    "h": 0.035
+   }
+  },
+  {
+   "index": 19,
+   "start": 136,
+   "end": 145.9,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "16",
+    "label": "tax certificate"
+   }
+  },
+  {
+   "index": 20,
+   "start": 145.9,
+   "end": 151.4,
+   "kind": "broll",
+   "src": "assets/broll/binders.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 21,
+   "start": 151.4,
+   "end": 157.5,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 22,
+   "start": 157.5,
+   "end": 164,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "3",
+    "label": "recap"
+   }
+  },
+  {
+   "index": 23,
+   "start": 164,
+   "end": 170.4,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 24,
+   "start": 170.4,
+   "end": 181.2,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "NEW or OLD?",
+    "label": "comment below"
+   }
+  },
+  {
+   "index": 25,
+   "start": 181.2,
+   "end": 186.73,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe"
+   }
+  }
+ ],
+ "camera_moves": []
+}
