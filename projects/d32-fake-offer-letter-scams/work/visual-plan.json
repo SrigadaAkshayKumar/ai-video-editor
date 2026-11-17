@@ -1,0 +1,818 @@
+{
+ "style": "cleantech",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 3.65,
+   "type": "title_slide",
+   "text": "A real offer costs ₹0",
+   "eyebrow": "Crack IT · Day 32",
+   "style_hint": "Fake offer letters: 5 red flags"
+  },
+  {
+   "start": 4.5,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "Lakhs lost every year",
+   "side": "right"
+  },
+  {
+   "start": 9.8,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "For freshers waiting to join",
+   "side": "left"
+  },
+  {
+   "start": 16.3,
+   "duration": 8,
+   "type": "timeline",
+   "side": "right",
+   "text": "In this video",
+   "items": [
+    {
+     "label": "5 red flags"
+    },
+    {
+     "label": "2-minute check"
+    },
+    {
+     "label": "If you paid"
+    }
+   ]
+  },
+  {
+   "start": 25,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "Flag 3 fools smart people",
+   "side": "left"
+  },
+  {
+   "start": 31,
+   "duration": 5.6,
+   "type": "side_note",
+   "text": "Cyberabad police · Jan 2026",
+   "side": "right"
+  },
+  {
+   "start": 37.5,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "A WhatsApp message first",
+   "side": "right"
+  },
+  {
+   "start": 44,
+   "duration": 6.2,
+   "type": "number_roll",
+   "value": 3.2,
+   "prefix": "₹",
+   "suffix": " lakh",
+   "decimals": 2,
+   "text": "Paid by UPI"
+  },
+  {
+   "start": 51,
+   "duration": 8.7,
+   "type": "timeline",
+   "side": "right",
+   "text": "How it unfolded",
+   "items": [
+    {
+     "label": "WhatsApp message"
+    },
+    {
+     "label": "Payment"
+    },
+    {
+     "label": "Offer letter"
+    },
+    {
+     "label": "Termination"
+    }
+   ]
+  },
+  {
+   "start": 61,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "Look-alike email addresses",
+   "side": "left"
+  },
+  {
+   "start": 65.2,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Sham interviews, fake offices",
+   "side": "right"
+  },
+  {
+   "start": 69.6,
+   "duration": 5.2,
+   "type": "bar_chart",
+   "side": "right",
+   "text": "Asked per job (₹ lakh), as reported by police",
+   "items": [
+    {
+     "label": "From",
+     "value": 2
+    },
+    {
+     "label": "To",
+     "value": 4
+    }
+   ]
+  },
+  {
+   "start": 75.2,
+   "duration": 3.2,
+   "type": "big_statement",
+   "text": "Backdoor placement",
+   "eyebrow": "Backdoor"
+  },
+  {
+   "start": 79,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Five red flags",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 1
+  },
+  {
+   "start": 82.6,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "Fees have many names",
+   "side": "right"
+  },
+  {
+   "start": 86.4,
+   "duration": 7.4,
+   "type": "bullet_list",
+   "side": "right",
+   "text": "Fees they invent",
+   "items": [
+    {
+     "label": "Registration fee"
+    },
+    {
+     "label": "Training fee"
+    },
+    {
+     "label": "Laptop deposit"
+    },
+    {
+     "label": "Security deposit"
+    },
+    {
+     "label": "Verification charge"
+    }
+   ]
+  },
+  {
+   "start": 95.2,
+   "duration": 8.6,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Real",
+    "text": "name@company.com"
+   },
+   "right": {
+    "label": "Fake",
+    "text": "name@company-careers.com"
+   }
+  },
+  {
+   "start": 105,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "One extra letter, or a dash",
+   "side": "left"
+  },
+  {
+   "start": 111,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "Video call, tech round",
+   "side": "right"
+  },
+  {
+   "start": 116,
+   "duration": 2.8,
+   "type": "side_note",
+   "text": "Fakes copy this on purpose",
+   "side": "left"
+  },
+  {
+   "start": 121,
+   "duration": 6.5,
+   "type": "quote_pull",
+   "text": "A real-looking interview proves nothing",
+   "eyebrow": "red flag 3"
+  },
+  {
+   "start": 129.2,
+   "duration": 4.2,
+   "type": "keyword_chip",
+   "text": "Pay today or lose the seat",
+   "side": "right"
+  },
+  {
+   "start": 133.8,
+   "duration": 2,
+   "type": "side_note",
+   "text": "Never tied to payment",
+   "side": "left"
+  },
+  {
+   "start": 138.5,
+   "duration": 8.5,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Official",
+    "text": "Company email + call"
+   },
+   "right": {
+    "label": "Red flag",
+    "text": "Personal WhatsApp only"
+   }
+  },
+  {
+   "start": 147.5,
+   "duration": 2.7,
+   "type": "keyword_chip",
+   "text": "They are happy to be verified",
+   "side": "left"
+  },
+  {
+   "start": 151,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "The 2-minute check",
+   "eyebrow": "Section 02",
+   "numeral": "02",
+   "section": 2
+  },
+  {
+   "start": 154.8,
+   "duration": 9.8,
+   "type": "flow_diagram",
+   "text": "Verify in four steps",
+   "items": [
+    {
+     "label": "Official site"
+    },
+    {
+     "label": "Official email"
+    },
+    {
+     "label": "Placement cell"
+    },
+    {
+     "label": "Offer details"
+    }
+   ]
+  },
+  {
+   "start": 166,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "Write to their real email",
+   "side": "left"
+  },
+  {
+   "start": 171,
+   "duration": 4,
+   "type": "side_note",
+   "text": "Not the letter's contacts",
+   "side": "right"
+  },
+  {
+   "start": 176.4,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "Ask your placement cell",
+   "side": "right"
+  },
+  {
+   "start": 181,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "Not from campus? Ask why",
+   "side": "left"
+  },
+  {
+   "start": 186,
+   "duration": 9.6,
+   "type": "checklist",
+   "text": "A genuine letter has",
+   "items": [
+    {
+     "label": "Joining date",
+     "state": "yes"
+    },
+    {
+     "label": "Location",
+     "state": "yes"
+    },
+    {
+     "label": "Reporting person",
+     "state": "yes"
+    },
+    {
+     "label": "Salary structure",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 197.3,
+   "duration": 4.2,
+   "type": "keyword_chip",
+   "text": "Any step fails? Stop",
+   "side": "right"
+  },
+  {
+   "start": 203.2,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Already paid?",
+   "eyebrow": "Section 03",
+   "numeral": "03",
+   "section": 3
+  },
+  {
+   "start": 207,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "No shame. Speed matters",
+   "side": "left"
+  },
+  {
+   "start": 211,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "National cyber crime portal too",
+   "side": "right"
+  },
+  {
+   "start": 219.4,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "Early report, bank can hold it",
+   "side": "left"
+  },
+  {
+   "start": 224.4,
+   "duration": 16.2,
+   "type": "checklist",
+   "text": "Do this now",
+   "items": [
+    {
+     "label": "Call 1930",
+     "state": "yes"
+    },
+    {
+     "label": "Save screenshots, receipts",
+     "state": "yes"
+    },
+    {
+     "label": "Tell your bank",
+     "state": "yes"
+    },
+    {
+     "label": "Change passwords",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 242.6,
+   "duration": 7,
+   "type": "checklist",
+   "text": "Five red flags",
+   "items": [
+    {
+     "label": "Asks for money",
+     "state": "no"
+    },
+    {
+     "label": "Look-alike email",
+     "state": "no"
+    },
+    {
+     "label": "Interview alone",
+     "state": "no"
+    },
+    {
+     "label": "Pressure",
+     "state": "no"
+    },
+    {
+     "label": "WhatsApp only",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 251,
+   "duration": 7.8,
+   "type": "quote_pull",
+   "text": "Got an offer that felt strange? Share it, name removed",
+   "eyebrow": "In the comments"
+  },
+  {
+   "start": 260.8,
+   "duration": 2.2,
+   "type": "keyword_chip",
+   "text": "Share with a friend",
+   "side": "right"
+  },
+  {
+   "start": 263.4,
+   "duration": 1.8,
+   "type": "keyword_chip",
+   "text": "Subscribe to Crack IT",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "index": 0,
+   "start": 0,
+   "end": 8.4,
+   "kind": "broll",
+   "src": "assets/broll/phone-night.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 1,
+   "start": 8.4,
+   "end": 15.8,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 2,
+   "start": 15.8,
+   "end": 24.5,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "5",
+    "label": "red flags"
+   }
+  },
+  {
+   "index": 3,
+   "start": 24.5,
+   "end": 29.65,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 4,
+   "start": 29.65,
+   "end": 37,
+   "kind": "news",
+   "url": "https://newsmeter.in/crime/backdoor-job-placement-scam-cyberabad-police-arrest-five-for-cheating-unemployed-youth-761243",
+   "source": "Newsmeter",
+   "headline": "Backdoor job placement scam: Cyberabad police arrest five for cheating unemployed youth",
+   "date": "11 Jan 2026",
+   "highlight": {
+    "x": 0.1,
+    "y": 0.075,
+    "w": 0.47,
+    "h": 0.075
+   },
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "index": 5,
+   "start": 37,
+   "end": 43.9,
+   "kind": "broll",
+   "src": "assets/broll/phone-hand.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 6,
+   "start": 43.9,
+   "end": 52,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "₹3.20L",
+    "label": "paid by UPI"
+   }
+  },
+  {
+   "index": 7,
+   "start": 52,
+   "end": 60,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 12,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 8,
+   "start": 60,
+   "end": 69.2,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "FAKE",
+    "label": "domains · interviews · offices"
+   }
+  },
+  {
+   "index": 9,
+   "start": 69.2,
+   "end": 78.6,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "BACKDOOR",
+    "label": "placement"
+   }
+  },
+  {
+   "index": 10,
+   "start": 78.6,
+   "end": 86,
+   "kind": "broll",
+   "src": "assets/broll/meeting.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 11,
+   "start": 86,
+   "end": 94.6,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "1",
+    "label": "they ask for money"
+   }
+  },
+  {
+   "index": 12,
+   "start": 94.6,
+   "end": 102,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "@",
+    "label": "read it letter by letter"
+   }
+  },
+  {
+   "index": 13,
+   "start": 102,
+   "end": 110.2,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 32,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 14,
+   "start": 110.2,
+   "end": 119,
+   "kind": "broll",
+   "src": "assets/broll/videocall.mp4",
+   "media_start": 2,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 15,
+   "start": 119,
+   "end": 128.3,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "3",
+    "label": "interview ≠ proof"
+   }
+  },
+  {
+   "index": 16,
+   "start": 128.3,
+   "end": 136,
+   "kind": "broll",
+   "src": "assets/broll/phone-woman.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 17,
+   "start": 136,
+   "end": 144,
+   "kind": "broll",
+   "src": "assets/broll/man-phone.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 18,
+   "start": 144,
+   "end": 150.6,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "5",
+    "label": "official channels only"
+   }
+  },
+  {
+   "index": 19,
+   "start": 150.6,
+   "end": 158,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 10,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 20,
+   "start": 158,
+   "end": 165.5,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 25,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 21,
+   "start": 165.5,
+   "end": 175.9,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "2",
+    "label": "official email"
+   }
+  },
+  {
+   "index": 22,
+   "start": 175.9,
+   "end": 185.2,
+   "kind": "broll",
+   "src": "assets/broll/campus.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 23,
+   "start": 185.2,
+   "end": 196.7,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "4",
+    "label": "check the letter"
+   }
+  },
+  {
+   "index": 24,
+   "start": 196.7,
+   "end": 202.9,
+   "kind": "broll",
+   "src": "assets/broll/meeting.mp4",
+   "media_start": 15,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 25,
+   "start": 202.9,
+   "end": 210.2,
+   "kind": "broll",
+   "src": "assets/broll/phone-hand.mp4",
+   "media_start": 10,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 26,
+   "start": 210.2,
+   "end": 216.5,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "1930",
+    "label": "cyber crime helpline"
+   }
+  },
+  {
+   "index": 27,
+   "start": 216.5,
+   "end": 223.6,
+   "kind": "broll",
+   "src": "assets/broll/phone-night.mp4",
+   "media_start": 5,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 28,
+   "start": 223.6,
+   "end": 232,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 20,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 29,
+   "start": 232,
+   "end": 241.9,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "SPEED",
+    "label": "report early"
+   }
+  },
+  {
+   "index": 30,
+   "start": 241.9,
+   "end": 250.2,
+   "kind": "broll",
+   "src": "assets/broll/team.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 31,
+   "start": 250.2,
+   "end": 260.1,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "?",
+    "label": "a strange offer?"
+   }
+  },
+  {
+   "index": 32,
+   "start": 260.1,
+   "end": 265.37,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe"
+   }
+  }
+ ],
+ "camera_moves": []
+}

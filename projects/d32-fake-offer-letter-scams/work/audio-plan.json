@@ -1,0 +1,74 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 1,
+   "reason": "title_slide: A real offer costs ₹0"
+  },
+  {
+   "time": 16.38,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "timeline: In this video"
+  },
+  {
+   "time": 44.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "number_roll: Paid by UPI"
+  },
+  {
+   "time": 51.08,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "timeline: How it unfolded"
+  },
+  {
+   "time": 69.68,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "bar_chart: Asked per job (₹ lakh), as reported by police"
+  },
+  {
+   "time": 79.08,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "chapter_open: Five red flags"
+  },
+  {
+   "time": 95.28,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 138.58,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 151.08,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "chapter_open: The 2-minute check"
+  },
+  {
+   "time": 154.88,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "flow_diagram: Verify in four steps"
+  },
+  {
+   "time": 203.28,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "chapter_open: Already paid?"
+  }
+ ]
+}
