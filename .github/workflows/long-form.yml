@@ -105,6 +105,10 @@ jobs:
               N=$(printf '%02d' $(( 10#${max:-0} + 1 )))
             fi
           fi
+          # already scheduled on YouTube (the ledger in git, by number): never make it again, also not on a retry
+          if ls config/youtube-scheduled 2>/dev/null | grep -qE "^lf${N}(-.*)?\.json$"; then
+            echo "Nothing to do: long-form $N is already scheduled on YouTube" | tee -a "$GITHUB_STEP_SUMMARY"; exit 0
+          fi
           write=0; echo "$files" | grep -q "^${N}_.*_script\.md$" || write=1
           printf 'n=%s\nwrite=%s\n' "$N" "$write" >> "$GITHUB_OUTPUT"
           echo "Long-form **$N** (new script to write: $write)" >> "$GITHUB_STEP_SUMMARY"
@@ -343,7 +347,7 @@ jobs:
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
           GH_TOKEN: ${{ github.token }}
         run: |
-          if [ -f "config/youtube-scheduled/$P.json" ] || rclone lsf "$DRIVE/output/$P" | grep -q '^youtube-uploaded\.json$'; then echo "already on YouTube"; exit 0; fi
+          if ls config/youtube-scheduled | grep -qE "^lf${N}(-.*)?\.json$" || rclone lsf "$DRIVE/output/$P" | grep -q '^youtube-uploaded\.json$'; then echo "already on YouTube"; exit 0; fi
           rclone copy "$DRIVE/output" .yt-queue --include "*/youtube-uploaded.json" -q
           slot=$(node tools/youtube.mjs --longform-slot --queue .yt-queue)
           node tools/youtube.mjs "$P" --shorts "AI-clipper/output/$P" --publish "$slot" --no-thumbnail
