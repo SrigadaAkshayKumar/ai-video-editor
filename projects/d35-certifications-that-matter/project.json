@@ -1,0 +1,105 @@
+{
+  "name": "d35-certifications-that-matter",
+  "createdAt": "2026-11-18T18:32:05.861Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d35-certifications-that-matter/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d35/d35-voice.wav",
+    "duration": 212.36,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d35-certifications-that-matter/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d35/d35_certifications_that_matter_voiceover.txt",
+    "words": 706,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d35-certifications-that-matter/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Question",
+    "Certified Cloud Practitioner",
+    "Azure Fundamentals",
+    "Ask",
+    "Week"
+  ],
+  "mode": "faceless",
+  "style": "cleantech",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; light product-explainer look: calm and clean, charts and comparison tables carry the numbers, generous white space, office/campus b-roll full frame between graphics; a beat every 6-8 s; soft, sparse SFX",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 22.05,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-18T18:33:11.124Z",
+      "words": 705,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-18T18:33:15.553Z",
+      "segments": 13,
+      "kept": 209.467
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-18T18:49:02.990Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d35-certifications-that-matter/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-18T18:49:18.548Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-18T18:49:18.576Z",
+      "groups": 179
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-18T18:49:26.191Z",
+      "music": 0,
+      "sfx": 10
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-18T18:51:56.506Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d35-certifications-that-matter/output/final-16x9.mp4",
+      "duration": 219.494
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.973644,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d35-certifications-that-matter/work/cleancut.wav",
+    "duration": 209.466708,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

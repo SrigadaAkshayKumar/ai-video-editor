@@ -1,0 +1,68 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "title_slide: Which certificate is worth it?"
+  },
+  {
+   "time": 45.28,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 53.78,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Is it a real exam?"
+  },
+  {
+   "time": 90.88,
+   "sfx": "click",
+   "gain": 3,
+   "reason": "chapter_open: Does it match your work?"
+  },
+  {
+   "time": 96.48,
+   "sfx": "click",
+   "gain": 3,
+   "reason": "flow_diagram: Pick by path"
+  },
+  {
+   "time": 129.78,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Can you show it?"
+  },
+  {
+   "time": 146.28,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "timeline: Five-week plan"
+  },
+  {
+   "time": 160.38,
+   "sfx": "click",
+   "gain": 3,
+   "reason": "chapter_open: The trap"
+  },
+  {
+   "time": 171.08,
+   "sfx": "click",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 188.08,
+   "sfx": "ding",
+   "gain": 2,
+   "reason": "checklist: Before you pay"
+  }
+ ]
+}

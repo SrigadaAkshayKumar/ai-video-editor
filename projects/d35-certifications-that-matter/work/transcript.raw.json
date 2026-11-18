@@ -1,0 +1,4943 @@
+{
+  "engine": "whisper.cpp small.en",
+  "language_code": "eng",
+  "language_probability": null,
+  "text": "Before you pay for any certificate, hear this. Most fresh- freshers spend money on the wrong ones, and the right one costs less than a phone cover. This video is for every student and fresher who is waiting to join, or already on the bench, and wondering which certification is actually worth it. By the end, you will know the three questions that decide it, the one type of certificate that is worth starting with, and the trap that wastes thousands of rupees. First, the hard truth, a certificate does not get you a job by itself. A recruiter spends a few seconds on your resume, a certificate helps only when it proves a skill that the job really needs. Think of Ravi, he collected eight certificates in six months, all from short online courses, with no project and no exam. In his interview, the panel asked one practical question, and he could not answer. The eight certificates did not help. Now, think of Sneha, she took one proper exam, built one small project with it, and could explain both. That is the difference, so here are the three questions. Question one, is there a real proctored exam? A certificate that you get just by watching videos and clicking next proves very little. A certificate from a timed exam taken at a test center or with an online proctor proves much more. Employers know the difference. For example, the AWS Certified Cloud Practitioner is a foundational exam. According to Amazon's own certification page, it is 90 minutes long, has 65 questions, and costs 100 US dollars. It is meant for people with no earlier experience in cloud. Microsoft's Azure Fundamentals is also a beginner level certification, and it is a common starting point for a career in Azure. Question two, does it match the work? You will actually do. If your company puts you on a cloud project, a cloud basic certificate is useful. If your work is testing, learn a testing skill. If it is data, learn databases and data tools. Do not pick a certificate because it is trending. Ask your trainer, your senior, or look at the skills listed in the job post for the role you want. And here is the catch most people miss. Your company may already pay for training or even for exams. Many large companies have their own learning platforms for employees. So before you pay from your own pocket, ask your manager or your training team if the exam fee is covered. Question three, can you show it in practice? After the exam, do one small thing with it. If you studied cloud, host a simple page and write down the steps. If you studied databases, build a small project and explain every table. Then one line on your resume can say what you built, not only what you passed. Here is a simple plan. Week one and two, learn the basics. Week three, take the practice questions. Week four, book the exam. Then spend one week on a small project. That is about five weeks. And you can do it while waiting to join or on the bench. Now the trap I promised, beware of anyone who says a certificate guarantees a job or asks you to pay a big fee for a package of certificates. A guarantee about a job is a warning sign. Before you pay anyone, check the price on the official exam page. If the official price is a fraction of what they are asking, you know the answer. Also, never share your exam login or personal details with a stranger who promises to pass the exam for you. That can get you banned and it can end a career before it starts. So to sum up, ask three questions. Is there a real exam? Does it match your work? Can you show it in a project? One good certificate with one project beats eight without. Now I want to hear from you guys. Comment the one skill you want to learn this month and tell me if you are waiting to join or already working. If this helped, like the video and subscribe so you don't miss the next update.",
+  "words": [
+    {
+      "text": "Before",
+      "type": "word",
+      "start": 0.02,
+      "end": 0.33606849863512284,
+      "logprob": -0.9287429398133947
+    },
+    {
+      "text": "you",
+      "type": "word",
+      "start": 0.33606849863512284,
+      "end": 0.5434884508644223,
+      "logprob": -0.012244660816439271
+    },
+    {
+      "text": "pay",
+      "type": "word",
+      "start": 0.5434884508644223,
+      "end": 0.6718912784349409,
+      "logprob": -0.006314897057770223
+    },
+    {
+      "text": "for",
+      "type": "word",
+      "start": 0.6718912784349409,
+      "end": 0.8398026683348497,
+      "logprob": -0.002994478980328977
+    },
+    {
+      "text": "any",
+      "type": "word",
+      "start": 0.8398026683348497,
+      "end": 1.0077140582347588,
+      "logprob": -0.0032161663228394382
+    },
+    {
+      "text": "certificate,",
+      "type": "word",
+      "start": 1.0077140582347588,
+      "end": 1.8077624454049137,
+      "logprob": -0.06168712357156625
+    },
+    {
+      "text": "hear",
+      "type": "word",
+      "start": 1.8077624454049137,
+      "end": 1.9954281164695178,
+      "logprob": -0.3791031579301109
+    },
+    {
+      "text": "this.",
+      "type": "word",
+      "start": 1.9954281164695178,
+      "end": 2.4398994426751592,
+      "logprob": -0.3679316348516144
+    },
+    {
+      "text": "Most",
+      "type": "word",
+      "start": 2.4398994426751592,
+      "end": 2.7164593789808915,
+      "logprob": -0.5863594838097186
+    },
+    {
+      "text": "fresh-",
+      "type": "word",
+      "start": 2.7164593789808915,
+      "end": 3.121422142857143,
+      "logprob": -0.4811147295311493
+    },
+    {
+      "text": "freshers",
+      "type": "word",
+      "start": 3.121422142857143,
+      "end": 3.388104938580528,
+      "logprob": -0.15101418710052553
+    },
+    {
+      "text": "spend",
+      "type": "word",
+      "start": 3.388104938580528,
+      "end": 3.654787734303913,
+      "logprob": -0.07482915522064908
+    },
+    {
+      "text": "money",
+      "type": "word",
+      "start": 3.654787734303913,
+      "end": 3.95110195177434,
+      "logprob": -0.008819780166498361
+    },
+    {
+      "text": "on",
+      "type": "word",
+      "start": 3.95110195177434,
+      "end": 4.030119076433121,
+      "logprob": -0.017053589365841115
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 4.030119076433121,
+      "end": 4.188153325750682,
+      "logprob": -0.051035432899839674
+    },
+    {
+      "text": "wrong",
+      "type": "word",
+      "start": 4.188153325750682,
+      "end": 4.346187575068244,
+      "logprob": -0.01497963663632222
+    },
+    {
+      "text": "ones,",
+      "type": "word",
+      "start": 4.346187575068244,
+      "end": 4.840044604185624,
+      "logprob": -0.33555945333465714
+    },
+    {
+      "text": "and",
+      "type": "word",
+      "start": 4.840044604185624,
+      "end": 4.988201712920837,
+      "logprob": -0.5905887871823308
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 4.988201712920837,
+      "end": 5.136358821656051,
+      "logprob": -0.015002984033925904
+    },
+    {
+      "text": "right",
+      "type": "word",
+      "start": 5.136358821656051,
+      "end": 5.383287336214741,
+      "logprob": -0.009868534198605698
+    },
+    {
+      "text": "one",
+      "type": "word",
+      "start": 5.383287336214741,
+      "end": 5.5709530072793445,
+      "logprob": -0.014749237206937212
+    },
+    {
+      "text": "costs",
+      "type": "word",
+      "start": 5.5709530072793445,
+      "end": 5.867267224749773,
+      "logprob": -0.2934587252292354
+    },
+    {
+      "text": "less",
+      "type": "word",
+      "start": 5.867267224749773,
+      "end": 5.975915771155597,
+      "logprob": -0.006570538790360191
+    },
+    {
+      "text": "than",
+      "type": "word",
+      "start": 5.975915771155597,
+      "end": 6.1734585828025486,
+      "logprob": -0.006446735617116685
+    },
+    {
+      "text": "a",
+      "type": "word",
+      "start": 6.1734585828025486,
+      "end": 6.222844285714285,
+      "logprob": -0.005984873681473018
+    },
+    {
+      "text": "phone",
+      "type": "word",
+      "start": 6.222844285714285,
+      "end": 6.469772800272976,
+      "logprob": -0.001052553740390712
+    },
+    {
+      "text": "cover.",
+      "type": "word",
+      "start": 6.469772800272976,
+      "end": 6.914244126478618,
+      "logprob": -0.012033108329124081
+    },
+    {
+      "text": "This",
+      "type": "word",
+      "start": 6.914244126478618,
+      "end": 7.1512955004549585,
+      "logprob": -0.005935580758266978
+    },
+    {
+      "text": "video",
+      "type": "word",
+      "start": 7.1512955004549585,
+      "end": 7.4574868585077345,
+      "logprob": -0.002487090246508978
+    },
+    {
+      "text": "is",
+      "type": "word",
+      "start": 7.4574868585077345,
+      "end": 7.566135404913558,
+      "logprob": -0.004604584848303193
+    },
+    {
+      "text": "for",
+      "type": "word",
+      "start": 7.566135404913558,
+      "end": 7.743923935395814,
+      "logprob": -0.0021362802225741665
+    },
+    {
+      "text": "every",
+      "type": "word",
+      "start": 7.743923935395814,
+      "end": 8.040238152866243,
+      "logprob": -0.003887546727192507
+    },
+    {
+      "text": "student",
+      "type": "word",
+      "start": 8.040238152866243,
+      "end": 8.455078057324842,
+      "logprob": -0.0013599242779907626
+    },
+    {
+      "text": "and",
+      "type": "word",
+      "start": 8.455078057324842,
+      "end": 8.721760853048226,
+      "logprob": -0.07049220921793678
+    },
+    {
+      "text": "fresher",
+      "type": "word",
+      "start": 8.721760853048226,
+      "end": 9.047706492265696,
+      "logprob": -0.028967537073249647
+    },
+    {
+      "text": "who",
+      "type": "word",
+      "start": 9.047706492265696,
+      "end": 9.344020709736125,
+      "logprob": -0.017487010407586732
+    },
+    {
+      "text": "is",
+      "type": "word",
+      "start": 9.344020709736125,
+      "end": 9.383529272065514,
+      "logprob": -0.027526398972974223
+    },
+    {
+      "text": "waiting",
+      "type": "word",
+      "start": 9.353897850318472,
+      "end": 9.758860614194724,
+      "logprob": -0.0033054570087264813
+    },
+    {
+      "text": "to",
+      "type": "word",
+      "start": 9.758860614194724,
+      "end": 10.035420550500456,
+      "logprob": -0.0010905944820295721
+    },
+    {
+      "text": "join,",
+      "type": "word",
+      "start": 10.035420550500456,
+      "end": 10.272471924476799,
+      "logprob": -0.3541688012251514
+    },
+    {
+      "text": "or",
+      "type": "word",
+      "start": 10.272471924476799,
+      "end": 10.43050617379436,
+      "logprob": -0.042661184794283206
+    },
+    {
+      "text": "already",
+      "type": "word",
+      "start": 10.43050617379436,
+      "end": 10.726820391264786,
+      "logprob": -0.037340561746171924
+    },
+    {
+      "text": "on",
+      "type": "word",
+      "start": 10.726820391264786,
+      "end": 10.825591797088263,
+      "logprob": -0.00227759174405797
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 10.825591797088263,
+      "end": 10.973748905823475,
+      "logprob": -0.01028470675055806
+    },
+    {
+      "text": "bench,",
+      "type": "word",
+      "start": 10.973748905823475,
+      "end": 11.358957388535032,
+      "logprob": -0.049442902156527815
+    },
+    {
+      "text": "and",
+      "type": "word",
+      "start": 11.358957388535032,
+      "end": 11.507114497270246,
+      "logprob": -0.042782247895441536
+    },
+    {
+      "text": "wondering",
+      "type": "word",
+      "start": 11.507114497270246,
+      "end": 11.941708682893541,
+      "logprob": -0.011520102299917965
+    },
+    {
+      "text": "which",
+      "type": "word",
+      "start": 11.941708682893541,
+      "end": 12.188637197452229,
+      "logprob": -0.010364526620392953
+    },
+    {
+      "text": "certification",
+      "type": "word",
+      "start": 12.188637197452229,
+      "end": 12.820774194722475,
+      "logprob": -0.02522447900624106
+    },
+    {
+      "text": "is",
+      "type": "word",
+      "start": 12.820774194722475,
+      "end": 12.919545600545952,
+      "logprob": -0.0035934487101339447
+    },
+    {
+      "text": "actually",
+      "type": "word",
+      "start": 12.919545600545952,
+      "end": 13.354139786169245,
+      "logprob": -0.003036605824262258
+    },
+    {
+      "text": "worth",
+      "type": "word",
+      "start": 13.354139786169245,
+      "end": 13.561559738398545,
+      "logprob": -0.00595067017057991
+    },
+    {
+      "text": "it.",
+      "type": "word",
+      "start": 13.561559738398545,
+      "end": 13.828242534121928,
+      "logprob": -0.0059089233529513304
+    },
+    {
+      "text": "By",
+      "type": "word",
+      "start": 13.828242534121928,
+      "end": 13.936891080527753,
+      "logprob": -0.004913049285653835
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 13.936891080527753,
+      "end": 14.10480247042766,
+      "logprob": -0.0012507819016526025
+    },
+    {
+      "text": "end,",
+      "type": "word",
+      "start": 14.10480247042766,
+      "end": 14.381362406733395,
+      "logprob": -0.07583191883470473
+    },
+    {
+      "text": "you",
+      "type": "word",
+      "start": 14.381362406733395,
+      "end": 14.559150937215652,
+      "logprob": -0.001838689353712181
+    },
+    {
+      "text": "will",
+      "type": "word",
+      "start": 14.559150937215652,
+      "end": 14.776448030027298,
+      "logprob": -0.11932422267521267
+    },
+    {
+      "text": "know",
+      "type": "word",
+      "start": 14.776448030027298,
+      "end": 14.993745122838945,
+      "logprob": -0.0030707098073098436
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 14.993745122838945,
+      "end": 15.181410793903547,
+      "logprob": -0.01164655863446135
+    },
+    {
+      "text": "three",
+      "type": "word",
+      "start": 15.181410793903547,
+      "end": 15.635759260691538,
+      "logprob": -0.19179145507333584
+    },
+    {
+      "text": "questions",
+      "type": "word",
+      "start": 15.635759260691538,
+      "end": 15.95182775932666,
+      "logprob": -0.004963296804944375
+    },
+    {
+      "text": "that",
+      "type": "word",
+      "start": 15.95182775932666,
+      "end": 16.26789625796178,
+      "logprob": -0.0024149135579440424
+    },
+    {
+      "text": "decide",
+      "type": "word",
+      "start": 16.26789625796178,
+      "end": 16.544456194267518,
+      "logprob": -0.23062270055336045
+    },
+    {
+      "text": "it,",
+      "type": "word",
+      "start": 16.544456194267518,
+      "end": 16.90991039581438,
+      "logprob": -0.1094789849215744
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 16.90991039581438,
+      "end": 16.94941895814377,
+      "logprob": -0.0658855613223
+    },
+    {
+      "text": "one",
+      "type": "word",
+      "start": 16.94941895814377,
+      "end": 17.028436082802546,
+      "logprob": -0.006450761495462703
+    },
+    {
+      "text": "type",
+      "type": "word",
+      "start": 17.028436082802546,
+      "end": 17.18647033212011,
+      "logprob": -0.010235201424936807
+    },
+    {
+      "text": "of",
+      "type": "word",
+      "start": 17.18647033212011,
+      "end": 17.344504581437672,
+      "logprob": -0.0015491993899302062
+    },
+    {
+      "text": "certificate",
+      "type": "word",
+      "start": 17.344504581437672,
+      "end": 17.709958782984533,
+      "logprob": -0.018870941450258714
+    },
+    {
+      "text": "that",
+      "type": "word",
+      "start": 17.709958782984533,
+      "end": 17.867993032302092,
+      "logprob": -0.007114246345481353
+    },
+    {
+      "text": "is",
+      "type": "word",
+      "start": 17.867993032302092,
+      "end": 17.947010156960875,
+      "logprob": -0.024467912837252036
+    },
+    {
+      "text": "worth",
+      "type": "word",
+      "start": 17.947010156960875,
+      "end": 18.134675828025475,
+      "logprob": -0.000915418868028989
+    },
+    {
+      "text": "starting",
+      "type": "word",
+      "start": 18.134675828025475,
+      "end": 18.460621467242948,
+      "logprob": -0.007108203526062874
+    },
+    {
+      "text": "with,",
+      "type": "word",
+      "start": 18.460621467242948,
+      "end": 18.766812825295723,
+      "logprob": -0.025884122156047993
+    },
+    {
+      "text": "and",
+      "type": "word",
+      "start": 18.766812825295723,
+      "end": 18.98410991810737,
+      "logprob": -0.037166185142088026
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 18.98410991810737,
+      "end": 19.20140701091902,
+      "logprob": -0.009276897660211008
+    },
+    {
+      "text": "trap",
+      "type": "word",
+      "start": 19.20140701091902,
+      "end": 19.497721228389445,
+      "logprob": -0.029026214091794494
+    },
+    {
+      "text": "that",
+      "type": "word",
+      "start": 19.497721228389445,
+      "end": 19.794035445859873,
+      "logprob": -0.0023267046792622877
+    },
+    {
+      "text": "wastes",
+      "type": "word",
+      "start": 19.794035445859873,
+      "end": 20.268138193812558,
+      "logprob": -0.017814744445190853
+    },
+    {
+      "text": "thousands",
+      "type": "word",
+      "start": 20.268138193812558,
+      "end": 20.910152331665152,
+      "logprob": -0.17586762826750707
+    },
+    {
+      "text": "of",
+      "type": "word",
+      "start": 20.910152331665152,
+      "end": 21.03855515923567,
+      "logprob": -0.0019338687192984136
+    },
+    {
+      "text": "rupees.",
+      "type": "word",
+      "start": 21.03855515923567,
+      "end": 21.729955,
+      "logprob": -0.020561615254683325
+    },
+    {
+      "text": "First,",
+      "type": "word",
+      "start": 22.399365,
+      "end": 22.770479775,
+      "logprob": -0.2538766365061794
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 22.770479775,
+      "end": 22.92717268,
+      "logprob": -0.07439385916936689
+    },
+    {
+      "text": "hard",
+      "type": "word",
+      "start": 22.92717268,
+      "end": 23.141594549999997,
+      "logprob": -0.02264241568105936
+    },
+    {
+      "text": "truth,",
+      "type": "word",
+      "start": 23.141594549999997,
+      "end": 23.529203315,
+      "logprob": -0.26957238063051087
+    },
+    {
+      "text": "a",
+      "type": "word",
+      "start": 23.529203315,
+      "end": 23.595179275,
+      "logprob": -0.017404584899592873
+    },
+    {
+      "text": "certificate",
+      "type": "word",
+      "start": 23.595179275,
+      "end": 24.155974935,
+      "logprob": -0.0025923572563763776
+    },
+    {
+      "text": "does",
+      "type": "word",
+      "start": 24.155974935,
+      "end": 24.436372764999998,
+      "logprob": -0.027815283054848896
+    },
+    {
+      "text": "not",
+      "type": "word",
+      "start": 24.436372764999998,
+      "end": 24.52708971,
+      "logprob": -0.006908810967779908
+    },
+    {
+      "text": "get",
+      "type": "word",
+      "start": 24.52708971,
+      "end": 24.683782615,
+      "logprob": -0.006095540114847115
+    },
+    {
+      "text": "you",
+      "type": "word",
+      "start": 24.683782615,
+      "end": 24.88995749,
+      "logprob": -0.002453006161066811
+    },
+    {
+      "text": "a",
+      "type": "word",
+      "start": 24.88995749,
+      "end": 25.005415420000002,
+      "logprob": -0.005252771681451229
+    },
+    {
+      "text": "job",
+      "type": "word",
+      "start": 25.005415420000002,
+      "end": 25.046650395,
+      "logprob": -0.0004460994875820205
+    },
+    {
+      "text": "by",
+      "type": "word",
+      "start": 25.046650395,
+      "end": 25.15386133,
+      "logprob": -0.006312884390039467
+    },
+    {
+      "text": "itself.",
+      "type": "word",
+      "start": 25.15386133,
+      "end": 25.698163,
+      "logprob": -0.010926477128959694
+    },
+    {
+      "text": "A",
+      "type": "word",
+      "start": 26.193764,
+      "end": 26.229358065088757,
+      "logprob": -0.01113779561045721
+    },
+    {
+      "text": "recruiter",
+      "type": "word",
+      "start": 26.22045954881657,
+      "end": 26.674283878698226,
+      "logprob": -0.022551381662402135
+    },
+    {
+      "text": "spends",
+      "type": "word",
+      "start": 26.674283878698226,
+      "end": 26.976833431952663,
+      "logprob": -0.006197162807986264
+    },
+    {
+      "text": "a",
+      "type": "word",
+      "start": 26.976833431952663,
+      "end": 27.02132601331361,
+      "logprob": -0.0033877318891482526
+    },
+    {
+      "text": "few",
+      "type": "word",
+      "start": 27.02132601331361,
+      "end": 27.17260078994083,
+      "logprob": -0.0010415422168311014
+    },
+    {
+      "text": "seconds",
+      "type": "word",
+      "start": 27.17260078994083,
+      "end": 27.528541440828405,
+      "logprob": -0.00346800658921481
+    },
+    {
+      "text": "on",
+      "type": "word",
+      "start": 27.528541440828405,
+      "end": 27.804395445266273,
+      "logprob": -0.0021633383298612116
+    },
+    {
+      "text": "your",
+      "type": "word",
+      "start": 27.804395445266273,
+      "end": 27.83998951035503,
+      "logprob": -0.002865100483356095
+    },
+    {
+      "text": "resume,",
+      "type": "word",
+      "start": 27.831090994082842,
+      "end": 28.276016807692308,
+      "logprob": -0.2791056222342803
+    },
+    {
+      "text": "a",
+      "type": "word",
+      "start": 28.276016807692308,
+      "end": 28.37390048668639,
+      "logprob": -0.007293533267484302
+    },
+    {
+      "text": "certificate",
+      "type": "word",
+      "start": 28.37390048668639,
+      "end": 28.98789810946746,
+      "logprob": -0.0014911111538833397
+    },
+    {
+      "text": "helps",
+      "type": "word",
+      "start": 28.98789810946746,
+      "end": 29.08578178846154,
+      "logprob": -0.015521842941838698
+    },
+    {
+      "text": "only",
+      "type": "word",
+      "start": 29.08578178846154,
+      "end": 29.34383876035503,
+      "logprob": -0.006672209768064572
+    },
+    {
+      "text": "when",
+      "type": "word",
+      "start": 29.34383876035503,
+      "end": 29.49511353698225,
+      "logprob": -0.004570428514761288
+    },
+    {
+      "text": "it",
+      "type": "word",
+      "start": 29.49511353698225,
+      "end": 29.592997215976332,
+      "logprob": -0.0017665594477203124
+    },
+    {
+      "text": "proves",
+      "type": "word",
+      "start": 29.592997215976332,
+      "end": 29.89554676923077,
+      "logprob": -0.0051100340129392905
+    },
+    {
+      "text": "a",
+      "type": "word",
+      "start": 29.89554676923077,
+      "end": 29.940039350591718,
+      "logprob": -0.006565505842164787
+    },
+    {
+      "text": "skill",
+      "type": "word",
+      "start": 29.940039350591718,
+      "end": 30.18919780621302,
+      "logprob": -0.0028189695637982418
+    },
+    {
+      "text": "that",
+      "type": "word",
+      "start": 30.18919780621302,
+      "end": 30.500645875739647,
+      "logprob": -0.00799991415302828
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 30.500645875739647,
+      "end": 30.54513845710059,
+      "logprob": -0.015640680225805077
+    },
+    {
+      "text": "job",
+      "type": "word",
+      "start": 30.54513845710059,
+      "end": 30.69641323372781,
+      "logprob": -0.001226752152822372
+    },
+    {
+      "text": "really",
+      "type": "word",
+      "start": 30.69641323372781,
+      "end": 30.99896278698225,
+      "logprob": -0.00312387421826317
+    },
+    {
+      "text": "needs.",
+      "type": "word",
+      "start": 30.99896278698225,
+      "end": 31.51507673076923,
+      "logprob": -0.004095876662322089
+    },
+    {
+      "text": "Think",
+      "type": "word",
+      "start": 31.51507673076923,
+      "end": 31.78203221893491,
+      "logprob": -0.005123100698770545
+    },
+    {
+      "text": "of",
+      "type": "word",
+      "start": 31.78203221893491,
+      "end": 31.888814414201185,
+      "logprob": -0.0016824144658670436
+    },
+    {
+      "text": "Ravi,",
+      "type": "word",
+      "start": 31.888814414201185,
+      "end": 32.209161,
+      "logprob": -0.09708411897109794
+    },
+    {
+      "text": "he",
+      "type": "word",
+      "start": 32.817415,
+      "end": 32.93547655627009,
+      "logprob": -0.03335928493576597
+    },
+    {
+      "text": "collected",
+      "type": "word",
+      "start": 32.93547655627009,
+      "end": 33.47659202250804,
+      "logprob": -0.0010335339122191681
+    },
+    {
+      "text": "eight",
+      "type": "word",
+      "start": 33.47659202250804,
+      "end": 33.85045361736334,
+      "logprob": -0.8544245281983878
+    },
+    {
+      "text": "certificates",
+      "type": "word",
+      "start": 33.85045361736334,
+      "end": 34.48995371382636,
+      "logprob": -0.0032041277391786486
+    },
+    {
+      "text": "in",
+      "type": "word",
+      "start": 34.48995371382636,
+      "end": 34.60801527009646,
+      "logprob": -0.0012547869159304878
+    },
+    {
+      "text": "six",
+      "type": "word",
+      "start": 34.60801527009646,
+      "end": 34.785107604501604,
+      "logprob": -0.09905267420828018
+    },
+    {
+      "text": "months,",
+      "type": "word",
+      "start": 34.785107604501604,
+      "end": 35.267192292604506,
+      "logprob": -0.18491972912241642
+    },
+    {
+      "text": "all",
+      "type": "word",
+      "start": 35.267192292604506,
+      "end": 35.55250772025724,
+      "logprob": -0.008287244548158735
+    },
+    {
+      "text": "from",
+      "type": "word",
+      "start": 35.55250772025724,
+      "end": 35.680407739549835,
+      "logprob": -0.0034519511336710018
+    },
+    {
+      "text": "short",
+      "type": "word",
+      "start": 35.680407739549835,
+      "end": 35.97556163022508,
+      "logprob": -0.01287654805369732
+    },
+    {
+      "text": "online",
+      "type": "word",
+      "start": 35.97556163022508,
+      "end": 36.339584762057875,
+      "logprob": -0.04859168386795025
+    },
+    {
+      "text": "courses,",
+      "type": "word",
+      "start": 36.339584762057875,
+      "end": 36.969246395498395,
+      "logprob": -0.0889344977287514
+    },
+    {
+      "text": "with",
+      "type": "word",
+      "start": 36.969246395498395,
+      "end": 37.28407721221865,
+      "logprob": -0.01977524767100503
+    },
+    {
+      "text": "no",
+      "type": "word",
+      "start": 37.28407721221865,
+      "end": 37.44149262057878,
+      "logprob": -0.001167681474738969
+    },
+    {
+      "text": "project",
+      "type": "word",
+      "start": 37.44149262057878,
+      "end": 37.982608086816725,
+      "logprob": -0.04776374112184497
+    },
+    {
+      "text": "and",
+      "type": "word",
+      "start": 37.982608086816725,
+      "end": 38.21873119935692,
+      "logprob": -0.1921270741331058
+    },
+    {
+      "text": "no",
+      "type": "word",
+      "start": 38.21873119935692,
+      "end": 38.37614660771705,
+      "logprob": -0.002243514798311205
+    },
+    {
+      "text": "exam.",
+      "type": "word",
+      "start": 38.37614660771705,
+      "end": 38.936939,
+      "logprob": -0.007215468999399094
+    },
+    {
+      "text": "In",
+      "type": "word",
+      "start": 39.315079,
+      "end": 39.40687681666667,
+      "logprob": -0.0018847750731584834
+    },
+    {
+      "text": "his",
+      "type": "word",
+      "start": 39.40687681666667,
+      "end": 39.55375332333333,
+      "logprob": -0.0017695647565984232
+    },
+    {
+      "text": "interview,",
+      "type": "word",
+      "start": 39.55375332333333,
+      "end": 40.095360441666664,
+      "logprob": -0.029338701465497424
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 40.095360441666664,
+      "end": 40.24223694833333,
+      "logprob": -0.0024109038946555075
+    },
+    {
+      "text": "panel",
+      "type": "word",
+      "start": 40.24223694833333,
+      "end": 40.49009105333333,
+      "logprob": -0.005161296605581291
+    },
+    {
+      "text": "asked",
+      "type": "word",
+      "start": 40.49009105333333,
+      "end": 40.737945158333325,
+      "logprob": -0.03342856010555665
+    },
+    {
+      "text": "one",
+      "type": "word",
+      "start": 40.737945158333325,
+      "end": 40.994979044999994,
+      "logprob": -0.003978905355551375
+    },
+    {
+      "text": "practical",
+      "type": "word",
+      "start": 40.994979044999994,
+      "end": 41.334630966666666,
+      "logprob": -0.0011216287904600333
+    },
+    {
+      "text": "question,",
+      "type": "word",
+      "start": 41.334630966666666,
+      "end": 41.83951895833333,
+      "logprob": -0.24325315072150722
+    },
+    {
+      "text": "and",
+      "type": "word",
+      "start": 41.83951895833333,
+      "end": 41.96803590166667,
+      "logprob": -0.0024911002152913806
+    },
+    {
+      "text": "he",
+      "type": "word",
+      "start": 41.96803590166667,
+      "end": 42.21589000666666,
+      "logprob": -0.0016293266320334375
+    },
+    {
+      "text": "could",
+      "type": "word",
+      "start": 42.21589000666666,
+      "end": 42.307687823333325,
+      "logprob": -0.01742595382337842
+    },
+    {
+      "text": "not",
+      "type": "word",
+      "start": 42.307687823333325,
+      "end": 42.45456433,
+      "logprob": -0.0016443512047223396
+    },
+    {
+      "text": "answer.",
+      "type": "word",
+      "start": 42.45456433,
+      "end": 42.98699166666666,
+      "logprob": -0.09944305839378881
+    },
+    {
+      "text": "The",
+      "type": "word",
+      "start": 42.98699166666666,
+      "end": 43.15222773666666,
+      "logprob": -0.37998451337435635
+    },
+    {
+      "text": "eight",
+      "type": "word",
+      "start": 43.15222773666666,
+      "end": 43.42762118666666,
+      "logprob": -0.03802486846064948
+    },
+    {
+      "text": "certificates",
+      "type": "word",
+      "start": 43.42762118666666,
+      "end": 44.088565466666665,
+      "logprob": -0.002256544081625568
+    },
+    {
+      "text": "did",
+      "type": "word",
+      "start": 44.088565466666665,
+      "end": 44.253801536666664,
+      "logprob": -0.01942443881845802
+    },
+    {
+      "text": "not",
+      "type": "word",
+      "start": 44.253801536666664,
+      "end": 44.49247586,
+      "logprob": -0.0014911111538833397
+    },
+    {
+      "text": "help.",
+      "type": "word",
+      "start": 44.49247586,
+      "end": 44.822948,
+      "logprob": -0.005068824814437224
+    },
+    {
+      "text": "Now,",
+      "type": "word",
+      "start": 45.437642,
+      "end": 45.72996911111111,
+      "logprob": -0.2443205851745324
+    },
+    {
+      "text": "think",
+      "type": "word",
+      "start": 45.72996911111111,
+      "end": 46.02229622222222,
+      "logprob": -0.017795403119138766
+    },
+    {
+      "text": "of",
+      "type": "word",
+      "start": 46.02229622222222,
+      "end": 46.14105411111111,
+      "logprob": -0.0005341426287781396
+    },
+    {
+      "text": "Sneha,",
+      "type": "word",
+      "start": 46.14105411111111,
+      "end": 46.57954477777778,
+      "logprob": -0.26607105948457044
+    },
+    {
+      "text": "she",
+      "type": "word",
+      "start": 46.57954477777778,
+      "end": 46.76224922222222,
+      "logprob": -0.018993234942562952
+    },
+    {
+      "text": "took",
+      "type": "word",
+      "start": 46.76224922222222,
+      "end": 47.10938766666666,
+      "logprob": -0.0019488978683332363
+    },
+    {
+      "text": "one",
+      "type": "word",
+      "start": 47.10938766666666,
+      "end": 47.14592855555555,
+      "logprob": -0.006374272578266858
+    },
+    {
+      "text": "proper",
+      "type": "word",
+      "start": 47.13679333333333,
+      "end": 47.69404188888888,
+      "logprob": -0.007919274844547321
+    },
+    {
+      "text": "exam,",
+      "type": "word",
+      "start": 47.69404188888888,
+      "end": 47.84934066666666,
+      "logprob": -0.021717118766009423
+    },
+    {
+      "text": "built",
+      "type": "word",
+      "start": 47.84934066666666,
+      "end": 48.315236999999996,
+      "logprob": -0.01608669991394459
+    },
+    {
+      "text": "one",
+      "type": "word",
+      "start": 48.315236999999996,
+      "end": 48.35177788888888,
+      "logprob": -0.005412621844884031
+    },
+    {
+      "text": "small",
+      "type": "word",
+      "start": 48.324372222222216,
+      "end": 48.68978111111111,
+      "logprob": -0.007468822343797044
+    },
+    {
+      "text": "project",
+      "type": "word",
+      "start": 48.68978111111111,
+      "end": 49.02778433333333,
+      "logprob": -0.0018497096586240758
+    },
+    {
+      "text": "with",
+      "type": "word",
+      "start": 49.02778433333333,
+      "end": 49.26530011111111,
+      "logprob": -0.008597855859933213
+    },
+    {
+      "text": "it,",
+      "type": "word",
+      "start": 49.26530011111111,
+      "end": 49.49368066666666,
+      "logprob": -0.04253909289023349
+    },
+    {
+      "text": "and",
+      "type": "word",
+      "start": 49.49368066666666,
+      "end": 49.67638511111111,
+      "logprob": -0.0019529056795573212
+    },
+    {
+      "text": "could",
+      "type": "word",
+      "start": 49.67638511111111,
+      "end": 49.96871222222222,
+      "logprob": -0.004551341660028257
+    },
+    {
+      "text": "explain",
+      "type": "word",
+      "start": 49.96871222222222,
+      "end": 50.38893244444445,
+      "logprob": -0.00196793511470633
+    },
+    {
+      "text": "both.",
+      "type": "word",
+      "start": 50.38893244444445,
+      "end": 50.918775333333336,
+      "logprob": -0.024373126131605687
+    },
+    {
+      "text": "That",
+      "type": "word",
+      "start": 50.918775333333336,
+      "end": 51.13802066666667,
+      "logprob": -0.3039510305176242
+    },
+    {
+      "text": "is",
+      "type": "word",
+      "start": 51.13802066666667,
+      "end": 51.247643333333336,
+      "logprob": -0.01681559292856184
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 51.247643333333336,
+      "end": 51.421212555555556,
+      "logprob": -0.0011826991129553232
+    },
+    {
+      "text": "difference,",
+      "type": "word",
+      "start": 51.421212555555556,
+      "end": 52.05154288888889,
+      "logprob": -0.1976153123470723
+    },
+    {
+      "text": "so",
+      "type": "word",
+      "start": 52.05154288888889,
+      "end": 52.170300777777776,
+      "logprob": -0.00705381979443923
+    },
+    {
+      "text": "here",
+      "type": "word",
+      "start": 52.170300777777776,
+      "end": 52.54484488888889,
+      "logprob": -0.28598750903571263
+    },
+    {
+      "text": "are",
+      "type": "word",
+      "start": 52.54484488888889,
+      "end": 52.590521,
+      "logprob": -0.002383839087974262
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 52.590521,
+      "end": 52.70927888888889,
+      "logprob": -0.009486858273179003
+    },
+    {
+      "text": "three",
+      "type": "word",
+      "start": 52.70927888888889,
+      "end": 53.17517522222222,
+      "logprob": -0.009338468079378747
+    },
+    {
+      "text": "questions.",
+      "type": "word",
+      "start": 53.17517522222222,
+      "end": 53.659342,
+      "logprob": -0.02984856921994057
+    },
+    {
+      "text": "Question",
+      "type": "word",
+      "start": 54.041814,
+      "end": 54.59603190654205,
+      "logprob": -0.137390257045541
+    },
+    {
+      "text": "one,",
+      "type": "word",
+      "start": 54.59603190654205,
+      "end": 54.94241809813084,
+      "logprob": -0.46238949051207656
+    },
+    {
+      "text": "is",
+      "type": "word",
+      "start": 54.94241809813084,
+      "end": 55.11066281975968,
+      "logprob": -0.09961372679296074
+    },
+    {
+      "text": "there",
+      "type": "word",
+      "start": 55.11066281975968,
+      "end": 55.45704901134847,
+      "logprob": -0.002468043114379959
+    },
+    {
+      "text": "a",
+      "type": "word",
+      "start": 55.45704901134847,
+      "end": 55.506532753004,
+      "logprob": -0.014079654788285155
+    },
+    {
+      "text": "real",
+      "type": "word",
+      "start": 55.506532753004,
+      "end": 55.83312544793057,
+      "logprob": -0.004291194017241403
+    },
+    {
+      "text": "proctored",
+      "type": "word",
+      "start": 55.83312544793057,
+      "end": 56.466517341121495,
+      "logprob": -0.07759944487243592
+    },
+    {
+      "text": "exam?",
+      "type": "word",
+      "start": 56.466517341121495,
+      "end": 57.04052874432576,
+      "logprob": -0.07961425780462471
+    },
+    {
+      "text": "A",
+      "type": "word",
+      "start": 57.04052874432576,
+      "end": 57.149392975967956,
+      "logprob": -0.5678546342142134
+    },
+    {
+      "text": "certificate",
+      "type": "word",
+      "start": 57.149392975967956,
+      "end": 57.60464339919893,
+      "logprob": -0.00526382967509901
+    },
+    {
+      "text": "that",
+      "type": "word",
+      "start": 57.60464339919893,
+      "end": 57.8124751141522,
+      "logprob": -0.013988382822101911
+    },
+    {
+      "text": "you",
+      "type": "word",
+      "start": 57.8124751141522,
+      "end": 57.96092633911882,
+      "logprob": -0.0020180348633162654
+    },
+    {
+      "text": "get",
+      "type": "word",
+      "start": 57.96092633911882,
+      "end": 58.10937756408545,
+      "logprob": -0.011249033802890667
+    },
+    {
+      "text": "just",
+      "type": "word",
+      "start": 58.10937756408545,
+      "end": 58.31720927903872,
+      "logprob": -0.013000136787019532
+    },
+    {
+      "text": "by",
+      "type": "word",
+      "start": 58.31720927903872,
+      "end": 58.4161767623498,
+      "logprob": -0.09189601470453698
+    },
+    {
+      "text": "watching",
+      "type": "word",
+      "start": 58.4161767623498,
+      "end": 58.83184019225634,
+      "logprob": -0.002332718673827721
+    },
+    {
+      "text": "videos",
+      "type": "word",
+      "start": 58.83184019225634,
+      "end": 59.138639390520694,
+      "logprob": -0.014239907948049567
+    },
+    {
+      "text": "and",
+      "type": "word",
+      "start": 59.138639390520694,
+      "end": 59.27719386715621,
+      "logprob": -0.09501092458563469
+    },
+    {
+      "text": "clicking",
+      "type": "word",
+      "start": 59.27719386715621,
+      "end": 59.70275404539386,
+      "logprob": -0.0024129087242901557
+    },
+    {
+      "text": "next",
+      "type": "word",
+      "start": 59.70275404539386,
+      "end": 59.91058576034713,
+      "logprob": -0.46285007702154035
+    },
+    {
+      "text": "proves",
+      "type": "word",
+      "start": 59.91058576034713,
+      "end": 60.217384958611476,
+      "logprob": -0.03383086451890486
+    },
+    {
+      "text": "very",
+      "type": "word",
+      "start": 60.217384958611476,
+      "end": 60.4747004152203,
+      "logprob": -0.0019088206395078957
+    },
+    {
+      "text": "little.",
+      "type": "word",
+      "start": 60.4747004152203,
+      "end": 60.949744335113486,
+      "logprob": -0.014024890608912696
+    },
+    {
+      "text": "A",
+      "type": "word",
+      "start": 60.949744335113486,
+      "end": 61.01902157343124,
+      "logprob": -0.0015071351578416275
+    },
+    {
+      "text": "certificate",
+      "type": "word",
+      "start": 61.01902157343124,
+      "end": 61.81076143991989,
+      "logprob": -0.004400668754548622
+    },
+    {
+      "text": "from",
+      "type": "word",
+      "start": 61.81076143991989,
+      "end": 62.09776714152203,
+      "logprob": -0.007534311779115106
+    },
+    {
+      "text": "a",
+      "type": "word",
+      "start": 62.09776714152203,
+      "end": 62.176941128170895,
+      "logprob": -0.005420665295604876
+    },
+    {
+      "text": "timed",
+      "type": "word",
+      "start": 62.176941128170895,
+      "end": 62.76084927970627,
+      "logprob": -0.004333375524272372
+    },
+    {
+      "text": "exam",
+      "type": "word",
+      "start": 62.76084927970627,
+      "end": 62.810333021361814,
+      "logprob": -0.0015451931963549293
+    },
+    {
+      "text": "taken",
+      "type": "word",
+      "start": 62.810333021361814,
+      "end": 63.305170437917226,
+      "logprob": -0.35285225971506656
+    },
+    {
+      "text": "at",
+      "type": "word",
+      "start": 63.305170437917226,
+      "end": 63.37444767623498,
+      "logprob": -0.003574380493588687
+    },
+    {
+      "text": "a",
+      "type": "word",
+      "start": 63.37444767623498,
+      "end": 63.41403466955941,
+      "logprob": -0.013622364524198313
+    },
+    {
+      "text": "test",
+      "type": "word",
+      "start": 63.394241172897196,
+      "end": 63.67135012616822,
+      "logprob": -0.034392706755351325
+    },
+    {
+      "text": "center",
+      "type": "word",
+      "start": 63.67135012616822,
+      "end": 64.08701355607477,
+      "logprob": -0.28913913344978137
+    },
+    {
+      "text": "or",
+      "type": "word",
+      "start": 64.08701355607477,
+      "end": 64.2552582777036,
+      "logprob": -0.3928796384236655
+    },
+    {
+      "text": "with",
+      "type": "word",
+      "start": 64.2552582777036,
+      "end": 64.51257373431241,
+      "logprob": -0.019695693013853932
+    },
+    {
+      "text": "an",
+      "type": "word",
+      "start": 64.51257373431241,
+      "end": 64.65112821094792,
+      "logprob": -0.007331812167554838
+    },
+    {
+      "text": "online",
+      "type": "word",
+      "start": 64.65112821094792,
+      "end": 65.07668838918558,
+      "logprob": -0.006789999963727375
+    },
+    {
+      "text": "proctor",
+      "type": "word",
+      "start": 65.07668838918558,
+      "end": 65.57152580574099,
+      "logprob": -0.019773207728939438
+    },
+    {
+      "text": "proves",
+      "type": "word",
+      "start": 65.57152580574099,
+      "end": 65.99708598397864,
+      "logprob": -0.2513655724458894
+    },
+    {
+      "text": "much",
+      "type": "word",
+      "start": 65.99708598397864,
+      "end": 66.28409168558078,
+      "logprob": -0.0059627418643694845
+    },
+    {
+      "text": "more.",
+      "type": "word",
+      "start": 66.28409168558078,
+      "end": 66.88779333377838,
+      "logprob": -0.0828529443589731
+    },
+    {
+      "text": "Employers",
+      "type": "word",
+      "start": 66.88779333377838,
+      "end": 67.57066896862483,
+      "logprob": -0.15639477926925974
+    },
+    {
+      "text": "know",
+      "type": "word",
+      "start": 67.57066896862483,
+      "end": 68.04571288851803,
+      "logprob": -0.005222614138444313
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 68.04571288851803,
+      "end": 68.09519663017356,
+      "logprob": -0.002609401528874648
+    },
+    {
+      "text": "difference.",
+      "type": "word",
+      "start": 68.09519663017356,
+      "end": 68.867143,
+      "logprob": -0.023273744659716905
+    },
+    {
+      "text": "For",
+      "type": "word",
+      "start": 69.494671,
+      "end": 69.70346501326149,
+      "logprob": -0.047849756491375885
+    },
+    {
+      "text": "example,",
+      "type": "word",
+      "start": 69.70346501326149,
+      "end": 70.34882832697886,
+      "logprob": -0.012841095088888772
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 70.34882832697886,
+      "end": 70.55762234024037,
+      "logprob": -0.021446337447857046
+    },
+    {
+      "text": "AWS",
+      "type": "word",
+      "start": 70.55762234024037,
+      "end": 70.79488826440117,
+      "logprob": -0.014661963180646807
+    },
+    {
+      "text": "Certified",
+      "type": "word",
+      "start": 70.79488826440117,
+      "end": 71.41177966721922,
+      "logprob": -0.5613472861135709
+    },
+    {
+      "text": "Cloud",
+      "type": "word",
+      "start": 71.41177966721922,
+      "end": 71.83885833070866,
+      "logprob": -0.017966434131142975
+    },
+    {
+      "text": "Practitioner",
+      "type": "word",
+      "start": 71.83885833070866,
+      "end": 72.60759992498964,
+      "logprob": -0.05168881119050152
+    },
+    {
+      "text": "is",
+      "type": "word",
+      "start": 72.60759992498964,
+      "end": 72.74995947948612,
+      "logprob": -0.024610365972717343
+    },
+    {
+      "text": "a",
+      "type": "word",
+      "start": 72.74995947948612,
+      "end": 72.87333776004974,
+      "logprob": -0.014003594237965569
+    },
+    {
+      "text": "foundational",
+      "type": "word",
+      "start": 72.87333776004974,
+      "end": 73.67055126523,
+      "logprob": -0.01756638954068618
+    },
+    {
+      "text": "exam.",
+      "type": "word",
+      "start": 73.67055126523,
+      "end": 74.23998948321591,
+      "logprob": -0.01442504245894458
+    },
+    {
+      "text": "According",
+      "type": "word",
+      "start": 74.23998948321591,
+      "end": 74.85688088603399,
+      "logprob": -0.31234505214787767
+    },
+    {
+      "text": "to",
+      "type": "word",
+      "start": 74.85688088603399,
+      "end": 74.98974980356404,
+      "logprob": -0.0007783027990619119
+    },
+    {
+      "text": "Amazon's",
+      "type": "word",
+      "start": 74.98974980356404,
+      "end": 75.54020674761708,
+      "logprob": -0.02121955065813494
+    },
+    {
+      "text": "own",
+      "type": "word",
+      "start": 75.54020674761708,
+      "end": 75.73001948694571,
+      "logprob": -0.003982921310942153
+    },
+    {
+      "text": "certification",
+      "type": "word",
+      "start": 75.73001948694571,
+      "end": 76.63162999875674,
+      "logprob": -0.033722257405032124
+    },
+    {
+      "text": "page,",
+      "type": "word",
+      "start": 76.63162999875674,
+      "end": 77.16310566887691,
+      "logprob": -0.01952232658409508
+    },
+    {
+      "text": "it",
+      "type": "word",
+      "start": 77.16310566887691,
+      "end": 77.23903076460837,
+      "logprob": -0.04825580696367691
+    },
+    {
+      "text": "is",
+      "type": "word",
+      "start": 77.23903076460837,
+      "end": 77.2769933124741,
+      "logprob": -0.012500810563183392
+    },
+    {
+      "text": "90",
+      "type": "word",
+      "start": 77.23903076460837,
+      "end": 77.4857873257356,
+      "logprob": -0.08802825747374729
+    },
+    {
+      "text": "minutes",
+      "type": "word",
+      "start": 77.4857873257356,
+      "end": 77.77050643472856,
+      "logprob": -0.1061486038955774
+    },
+    {
+      "text": "long,",
+      "type": "word",
+      "start": 77.77050643472856,
+      "end": 78.03624426978864,
+      "logprob": -0.006271122448696822
+    },
+    {
+      "text": "has",
+      "type": "word",
+      "start": 78.03624426978864,
+      "end": 78.264019556983,
+      "logprob": -0.020446614611505667
+    },
+    {
+      "text": "65",
+      "type": "word",
+      "start": 78.264019556983,
+      "end": 78.85243904890179,
+      "logprob": -0.023641265449508835
+    },
+    {
+      "text": "questions,",
+      "type": "word",
+      "start": 78.85243904890179,
+      "end": 79.59270873228347,
+      "logprob": -0.26012332724395176
+    },
+    {
+      "text": "and",
+      "type": "word",
+      "start": 79.59270873228347,
+      "end": 79.87742784127641,
+      "logprob": -0.005979843680029475
+    },
+    {
+      "text": "costs",
+      "type": "word",
+      "start": 79.87742784127641,
+      "end": 80.17163758723581,
+      "logprob": -0.013079160539777007
+    },
+    {
+      "text": "100",
+      "type": "word",
+      "start": 80.17163758723581,
+      "end": 81.01630427724824,
+      "logprob": -0.16577009115393418
+    },
+    {
+      "text": "US",
+      "type": "word",
+      "start": 81.01630427724824,
+      "end": 81.05426682511397,
+      "logprob": -0.19126341632530763
+    },
+    {
+      "text": "dollars.",
+      "type": "word",
+      "start": 81.04477618814754,
+      "end": 81.83249905636137,
+      "logprob": -0.11639843216236456
+    },
+    {
+      "text": "It",
+      "type": "word",
+      "start": 81.85148033029424,
+      "end": 81.93689606299213,
+      "logprob": -0.0074829273982427455
+    },
+    {
+      "text": "is",
+      "type": "word",
+      "start": 81.93689606299213,
+      "end": 82.04129306962288,
+      "logprob": -0.03143287722356967
+    },
+    {
+      "text": "meant",
+      "type": "word",
+      "start": 82.04129306962288,
+      "end": 82.35448408951513,
+      "logprob": -0.01087188535410688
+    },
+    {
+      "text": "for",
+      "type": "word",
+      "start": 82.35448408951513,
+      "end": 82.47786237007875,
+      "logprob": -0.0022204634052293156
+    },
+    {
+      "text": "people",
+      "type": "word",
+      "start": 82.47786237007875,
+      "end": 82.81003466390385,
+      "logprob": -0.005820908665003491
+    },
+    {
+      "text": "with",
+      "type": "word",
+      "start": 82.81003466390385,
+      "end": 83.02831931413179,
+      "logprob": -0.0038333378604155934
+    },
+    {
+      "text": "no",
+      "type": "word",
+      "start": 83.02831931413179,
+      "end": 83.13271632076254,
+      "logprob": -0.0016894262772633485
+    },
+    {
+      "text": "earlier",
+      "type": "word",
+      "start": 83.13271632076254,
+      "end": 83.5692856212184,
+      "logprob": -0.027213963525864693
+    },
+    {
+      "text": "experience",
+      "type": "word",
+      "start": 83.5692856212184,
+      "end": 84.17668638707003,
+      "logprob": -0.009960440904274481
+    },
+    {
+      "text": "in",
+      "type": "word",
+      "start": 84.17668638707003,
+      "end": 84.21464893493577,
+      "logprob": -0.0055845646939180335
+    },
+    {
+      "text": "cloud.",
+      "type": "word",
+      "start": 84.17668638707003,
+      "end": 84.67969014629092,
+      "logprob": -0.12872297163221785
+    },
+    {
+      "text": "Microsoft's",
+      "type": "word",
+      "start": 84.67969014629092,
+      "end": 85.38199728180687,
+      "logprob": -0.08922036045264127
+    },
+    {
+      "text": "Azure",
+      "type": "word",
+      "start": 85.38199728180687,
+      "end": 85.62875384293412,
+      "logprob": -0.016097878361085623
+    },
+    {
+      "text": "Fundamentals",
+      "type": "word",
+      "start": 85.62875384293412,
+      "end": 86.41647671114795,
+      "logprob": -0.23432499801293022
+    },
+    {
+      "text": "is",
+      "type": "word",
+      "start": 86.41647671114795,
+      "end": 86.45443925901368,
+      "logprob": -0.020549706290210214
+    },
+    {
+      "text": "also",
+      "type": "word",
+      "start": 86.45443925901368,
+      "end": 86.69170518317448,
+      "logprob": -0.004059227527827466
+    },
+    {
+      "text": "a",
+      "type": "word",
+      "start": 86.69170518317448,
+      "end": 86.74864900497307,
+      "logprob": -0.011478628104701117
+    },
+    {
+      "text": "beginner",
+      "type": "word",
+      "start": 86.74864900497307,
+      "end": 87.28961531205968,
+      "logprob": -0.010992193403517725
+    },
+    {
+      "text": "level",
+      "type": "word",
+      "start": 87.28961531205968,
+      "end": 87.67873142768337,
+      "logprob": -0.38594193161943047
+    },
+    {
+      "text": "certification,",
+      "type": "word",
+      "start": 87.67873142768337,
+      "end": 88.47594493286365,
+      "logprob": -0.14041560596666258
+    },
+    {
+      "text": "and",
+      "type": "word",
+      "start": 88.47594493286365,
+      "end": 88.6657576721923,
+      "logprob": -0.08763848267020984
+    },
+    {
+      "text": "it",
+      "type": "word",
+      "start": 88.6657576721923,
+      "end": 88.78913595275591,
+      "logprob": -0.029850114668889614
+    },
+    {
+      "text": "is",
+      "type": "word",
+      "start": 88.78913595275591,
+      "end": 88.91251423331951,
+      "logprob": -0.02651236734014768
+    },
+    {
+      "text": "a",
+      "type": "word",
+      "start": 88.91251423331951,
+      "end": 88.96945805511811,
+      "logprob": -0.014976591363777964
+    },
+    {
+      "text": "common",
+      "type": "word",
+      "start": 88.96945805511811,
+      "end": 89.34908353377539,
+      "logprob": -0.0035683590270604343
+    },
+    {
+      "text": "starting",
+      "type": "word",
+      "start": 89.34908353377539,
+      "end": 89.86157792996269,
+      "logprob": -0.0026876083860516596
+    },
+    {
+      "text": "point",
+      "type": "word",
+      "start": 89.86157792996269,
+      "end": 90.18425958682138,
+      "logprob": -0.003089768422080136
+    },
+    {
+      "text": "for",
+      "type": "word",
+      "start": 90.18425958682138,
+      "end": 90.37407232615003,
+      "logprob": -0.01844405057959695
+    },
+    {
+      "text": "a",
+      "type": "word",
+      "start": 90.37407232615003,
+      "end": 90.43101614794861,
+      "logprob": -0.008590795440392877
+    },
+    {
+      "text": "career",
+      "type": "word",
+      "start": 90.43101614794861,
+      "end": 90.86758544840447,
+      "logprob": -0.014642682736952472
+    },
+    {
+      "text": "in",
+      "type": "word",
+      "start": 90.86758544840447,
+      "end": 90.9340199071695,
+      "logprob": -0.0021743622131043527
+    },
+    {
+      "text": "Azure.",
+      "type": "word",
+      "start": 90.9340199071695,
+      "end": 91.32313602279321,
+      "logprob": -0.032416792407488494
+    },
+    {
+      "text": "Question",
+      "type": "word",
+      "start": 91.32313602279321,
+      "end": 92.02544315830916,
+      "logprob": -0.01940200755498561
+    },
+    {
+      "text": "two,",
+      "type": "word",
+      "start": 92.02544315830916,
+      "end": 92.395578,
+      "logprob": -0.08392251607250686
+    },
+    {
+      "text": "does",
+      "type": "word",
+      "start": 93.13,
+      "end": 93.48,
+      "logprob": -0.05203462173435818
+    },
+    {
+      "text": "it",
+      "type": "word",
+      "start": 93.48,
+      "end": 93.83,
+      "logprob": -0.008030155570264336
+    },
+    {
+      "text": "match",
+      "type": "word",
+      "start": 93.83,
+      "end": 94.09,
+      "logprob": -0.009500991821073359
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 94.09,
+      "end": 94.47,
+      "logprob": -0.004539286992109087
+    },
+    {
+      "text": "work?",
+      "type": "word",
+      "start": 94.47,
+      "end": 95.15,
+      "logprob": -0.2469528822377121
+    },
+    {
+      "text": "You",
+      "type": "word",
+      "start": 95.15,
+      "end": 95.19000000000001,
+      "logprob": -0.023651504731284696
+    },
+    {
+      "text": "will",
+      "type": "word",
+      "start": 95.16,
+      "end": 95.35,
+      "logprob": -0.031528851514917064
+    },
+    {
+      "text": "actually",
+      "type": "word",
+      "start": 95.35,
+      "end": 95.74,
+      "logprob": -0.005641885547411041
+    },
+    {
+      "text": "do.",
+      "type": "word",
+      "start": 95.74,
+      "end": 96,
+      "logprob": -0.05094230336052951
+    },
+    {
+      "text": "If",
+      "type": "word",
+      "start": 96,
+      "end": 96.14,
+      "logprob": -0.003669725212491805
+    },
+    {
+      "text": "your",
+      "type": "word",
+      "start": 96.14,
+      "end": 96.42,
+      "logprob": -0.010528227803449041
+    },
+    {
+      "text": "company",
+      "type": "word",
+      "start": 96.42,
+      "end": 96.91,
+      "logprob": -0.001998996663167101
+    },
+    {
+      "text": "puts",
+      "type": "word",
+      "start": 96.91,
+      "end": 97.18,
+      "logprob": -0.008124917933547329
+    },
+    {
+      "text": "you",
+      "type": "word",
+      "start": 97.18,
+      "end": 97.39,
+      "logprob": -0.0047150986269722354
+    },
+    {
+      "text": "on",
+      "type": "word",
+      "start": 97.39,
+      "end": 97.54,
+      "logprob": -0.003639615371790686
+    },
+    {
+      "text": "a",
+      "type": "word",
+      "start": 97.54,
+      "end": 97.83,
+      "logprob": -0.01441236091953733
+    },
+    {
+      "text": "cloud",
+      "type": "word",
+      "start": 97.83,
+      "end": 97.96,
+      "logprob": -0.013715630705948422
+    },
+    {
+      "text": "project,",
+      "type": "word",
+      "start": 97.96,
+      "end": 98.59,
+      "logprob": -0.005852593060265414
+    },
+    {
+      "text": "a",
+      "type": "word",
+      "start": 98.59,
+      "end": 98.75,
+      "logprob": -0.008451614489804393
+    },
+    {
+      "text": "cloud",
+      "type": "word",
+      "start": 98.75,
+      "end": 99.16,
+      "logprob": -0.06268850014886222
+    },
+    {
+      "text": "basic",
+      "type": "word",
+      "start": 99.16,
+      "end": 99.36,
+      "logprob": -0.549214816061916
+    },
+    {
+      "text": "certificate",
+      "type": "word",
+      "start": 99.36,
+      "end": 100.14,
+      "logprob": -0.010225098598367838
+    },
+    {
+      "text": "is",
+      "type": "word",
+      "start": 100.14,
+      "end": 100.28,
+      "logprob": -0.001990980687327201
+    },
+    {
+      "text": "useful.",
+      "type": "word",
+      "start": 100.28,
+      "end": 101,
+      "logprob": -0.0070160550541643486
+    },
+    {
+      "text": "If",
+      "type": "word",
+      "start": 101,
+      "end": 101.09,
+      "logprob": -0.004760312329545074
+    },
+    {
+      "text": "your",
+      "type": "word",
+      "start": 101.09,
+      "end": 101.28,
+      "logprob": -0.004707060849417678
+    },
+    {
+      "text": "work",
+      "type": "word",
+      "start": 101.28,
+      "end": 101.49,
+      "logprob": -0.0016293266320334375
+    },
+    {
+      "text": "is",
+      "type": "word",
+      "start": 101.49,
+      "end": 101.56,
+      "logprob": -0.0014530551735316736
+    },
+    {
+      "text": "testing,",
+      "type": "word",
+      "start": 101.56,
+      "end": 101.98,
+      "logprob": -0.01046911039600808
+    },
+    {
+      "text": "learn",
+      "type": "word",
+      "start": 101.98,
+      "end": 102.24,
+      "logprob": -0.0056036712800091116
+    },
+    {
+      "text": "a",
+      "type": "word",
+      "start": 102.24,
+      "end": 102.28,
+      "logprob": -0.001571233741485137
+    },
+    {
+      "text": "testing",
+      "type": "word",
+      "start": 102.25,
+      "end": 102.58,
+      "logprob": -0.004537277894916942
+    },
+    {
+      "text": "skill.",
+      "type": "word",
+      "start": 102.58,
+      "end": 103,
+      "logprob": -0.017683943293038136
+    },
+    {
+      "text": "If",
+      "type": "word",
+      "start": 103,
+      "end": 103.14,
+      "logprob": -0.48279711804471026
+    },
+    {
+      "text": "it",
+      "type": "word",
+      "start": 103.14,
+      "end": 103.42,
+      "logprob": -0.004108428044543191
+    },
+    {
+      "text": "is",
+      "type": "word",
+      "start": 103.42,
+      "end": 103.47,
+      "logprob": -0.008719908133762165
+    },
+    {
+      "text": "data,",
+      "type": "word",
+      "start": 103.47,
+      "end": 103.85,
+      "logprob": -0.011957709289793592
+    },
+    {
+      "text": "learn",
+      "type": "word",
+      "start": 103.85,
+      "end": 104.21,
+      "logprob": -0.0044267837650563465
+    },
+    {
+      "text": "databases",
+      "type": "word",
+      "start": 104.21,
+      "end": 104.86,
+      "logprob": -0.008605924971877064
+    },
+    {
+      "text": "and",
+      "type": "word",
+      "start": 104.86,
+      "end": 105.07,
+      "logprob": -0.029144608031810265
+    },
+    {
+      "text": "data",
+      "type": "word",
+      "start": 105.07,
+      "end": 105.36,
+      "logprob": -0.002495110200153697
+    },
+    {
+      "text": "tools.",
+      "type": "word",
+      "start": 105.36,
+      "end": 106,
+      "logprob": -0.012446639039418915
+    },
+    {
+      "text": "Do",
+      "type": "word",
+      "start": 106,
+      "end": 106.13,
+      "logprob": -0.564458494935486
+    },
+    {
+      "text": "not",
+      "type": "word",
+      "start": 106.13,
+      "end": 106.33,
+      "logprob": -0.001648357795564284
+    },
+    {
+      "text": "pick",
+      "type": "word",
+      "start": 106.33,
+      "end": 106.6,
+      "logprob": -0.0008693777993876446
+    },
+    {
+      "text": "a",
+      "type": "word",
+      "start": 106.6,
+      "end": 106.67,
+      "logprob": -0.001663382654193266
+    },
+    {
+      "text": "certificate",
+      "type": "word",
+      "start": 106.67,
+      "end": 107.45,
+      "logprob": -0.004778398382987807
+    },
+    {
+      "text": "because",
+      "type": "word",
+      "start": 107.45,
+      "end": 107.91,
+      "logprob": -0.14389808442959762
+    },
+    {
+      "text": "it",
+      "type": "word",
+      "start": 107.91,
+      "end": 108.04,
+      "logprob": -0.0026013806585700647
+    },
+    {
+      "text": "is",
+      "type": "word",
+      "start": 108.04,
+      "end": 108.17,
+      "logprob": -0.008250945626535288
+    },
+    {
+      "text": "trending.",
+      "type": "word",
+      "start": 108.17,
+      "end": 109,
+      "logprob": -0.010803144395285005
+    },
+    {
+      "text": "Ask",
+      "type": "word",
+      "start": 109.02,
+      "end": 109.19,
+      "logprob": -0.0012587919462485767
+    },
+    {
+      "text": "your",
+      "type": "word",
+      "start": 109.19,
+      "end": 109.42,
+      "logprob": -0.008075519410956395
+    },
+    {
+      "text": "trainer,",
+      "type": "word",
+      "start": 109.42,
+      "end": 109.96,
+      "logprob": -0.07970684741424151
+    },
+    {
+      "text": "your",
+      "type": "word",
+      "start": 109.96,
+      "end": 110.24,
+      "logprob": -0.00917798918579366
+    },
+    {
+      "text": "senior,",
+      "type": "word",
+      "start": 110.24,
+      "end": 110.8,
+      "logprob": -0.1265200297753667
+    },
+    {
+      "text": "or",
+      "type": "word",
+      "start": 110.8,
+      "end": 110.84,
+      "logprob": -0.002719695019966006
+    },
+    {
+      "text": "look",
+      "type": "word",
+      "start": 110.83,
+      "end": 111.04,
+      "logprob": -0.003193092498136285
+    },
+    {
+      "text": "at",
+      "type": "word",
+      "start": 111.04,
+      "end": 111.16,
+      "logprob": -0.002224472304986675
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 111.16,
+      "end": 111.47,
+      "logprob": -0.010566630726926934
+    },
+    {
+      "text": "skills",
+      "type": "word",
+      "start": 111.47,
+      "end": 111.75,
+      "logprob": -0.012979875292166251
+    },
+    {
+      "text": "listed",
+      "type": "word",
+      "start": 111.75,
+      "end": 112.16,
+      "logprob": -0.0016673893212872087
+    },
+    {
+      "text": "in",
+      "type": "word",
+      "start": 112.16,
+      "end": 112.2,
+      "logprob": -0.0053060522301931375
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 112.18,
+      "end": 112.36,
+      "logprob": -0.006668182998097824
+    },
+    {
+      "text": "job",
+      "type": "word",
+      "start": 112.36,
+      "end": 112.56,
+      "logprob": -0.019740569221821824
+    },
+    {
+      "text": "post",
+      "type": "word",
+      "start": 112.56,
+      "end": 112.78,
+      "logprob": -0.20506422176849395
+    },
+    {
+      "text": "for",
+      "type": "word",
+      "start": 112.78,
+      "end": 112.96,
+      "logprob": -0.008952958394476292
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 112.96,
+      "end": 113.14,
+      "logprob": -0.003089768422080136
+    },
+    {
+      "text": "role",
+      "type": "word",
+      "start": 113.14,
+      "end": 113.38,
+      "logprob": -0.003368667594815047
+    },
+    {
+      "text": "you",
+      "type": "word",
+      "start": 113.38,
+      "end": 113.56,
+      "logprob": -0.0035071428420841632
+    },
+    {
+      "text": "want.",
+      "type": "word",
+      "start": 113.56,
+      "end": 114,
+      "logprob": -0.008823311178493904
+    },
+    {
+      "text": "And",
+      "type": "word",
+      "start": 114.609116,
+      "end": 114.78327530882353,
+      "logprob": -0.02389318221999826
+    },
+    {
+      "text": "here",
+      "type": "word",
+      "start": 114.78327530882353,
+      "end": 114.9757671764706,
+      "logprob": -0.024559121500703437
+    },
+    {
+      "text": "is",
+      "type": "word",
+      "start": 114.9757671764706,
+      "end": 115.11326136764706,
+      "logprob": -0.08235170468994081
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 115.11326136764706,
+      "end": 115.23242300000001,
+      "logprob": -0.005225629851818828
+    },
+    {
+      "text": "catch",
+      "type": "word",
+      "start": 115.23242300000001,
+      "end": 115.49824510294117,
+      "logprob": -0.020315979038641074
+    },
+    {
+      "text": "most",
+      "type": "word",
+      "start": 115.49824510294117,
+      "end": 115.74573464705882,
+      "logprob": -0.026623275120442144
+    },
+    {
+      "text": "people",
+      "type": "word",
+      "start": 115.74573464705882,
+      "end": 116.02988930882353,
+      "logprob": -0.0010225225980938098
+    },
+    {
+      "text": "miss.",
+      "type": "word",
+      "start": 116.02988930882353,
+      "end": 116.44237188235294,
+      "logprob": -0.23313202039463077
+    },
+    {
+      "text": "Your",
+      "type": "word",
+      "start": 116.44237188235294,
+      "end": 116.87318701470588,
+      "logprob": -0.17704629548419704
+    },
+    {
+      "text": "company",
+      "type": "word",
+      "start": 116.87318701470588,
+      "end": 117.20317307352941,
+      "logprob": -0.0026986380503338414
+    },
+    {
+      "text": "may",
+      "type": "word",
+      "start": 117.20317307352941,
+      "end": 117.50566029411765,
+      "logprob": -0.004722131735329837
+    },
+    {
+      "text": "already",
+      "type": "word",
+      "start": 117.50566029411765,
+      "end": 117.89981030882353,
+      "logprob": -0.004700027847054079
+    },
+    {
+      "text": "pay",
+      "type": "word",
+      "start": 117.89981030882353,
+      "end": 118.11063473529411,
+      "logprob": -0.003974889416288543
+    },
+    {
+      "text": "for",
+      "type": "word",
+      "start": 118.11063473529411,
+      "end": 118.32145916176471,
+      "logprob": -0.00472816015329208
+    },
+    {
+      "text": "training",
+      "type": "word",
+      "start": 118.32145916176471,
+      "end": 118.88060220588235,
+      "logprob": -0.0066701963810542825
+    },
+    {
+      "text": "or",
+      "type": "word",
+      "start": 118.88060220588235,
+      "end": 119.06392779411765,
+      "logprob": -0.5048534924957019
+    },
+    {
+      "text": "even",
+      "type": "word",
+      "start": 119.06392779411765,
+      "end": 119.29308477941176,
+      "logprob": -0.005522219425803124
+    },
+    {
+      "text": "for",
+      "type": "word",
+      "start": 119.29308477941176,
+      "end": 119.4947429264706,
+      "logprob": -0.06396908329807631
+    },
+    {
+      "text": "exams.",
+      "type": "word",
+      "start": 119.4947429264706,
+      "end": 120.10888364705882,
+      "logprob": -0.004935660356889395
+    },
+    {
+      "text": "Many",
+      "type": "word",
+      "start": 120.10888364705882,
+      "end": 120.28304295588235,
+      "logprob": -0.002256544081625568
+    },
+    {
+      "text": "large",
+      "type": "word",
+      "start": 120.28304295588235,
+      "end": 120.5030336617647,
+      "logprob": -0.00214429736322092
+    },
+    {
+      "text": "companies",
+      "type": "word",
+      "start": 120.5030336617647,
+      "end": 120.89718367647059,
+      "logprob": -0.0019108244628028006
+    },
+    {
+      "text": "have",
+      "type": "word",
+      "start": 120.89718367647059,
+      "end": 121.06217670588235,
+      "logprob": -0.00196793511470633
+    },
+    {
+      "text": "their",
+      "type": "word",
+      "start": 121.06217670588235,
+      "end": 121.29133369117648,
+      "logprob": -0.0012898314750910498
+    },
+    {
+      "text": "own",
+      "type": "word",
+      "start": 121.29133369117648,
+      "end": 121.4379941617647,
+      "logprob": -0.008197507945193565
+    },
+    {
+      "text": "learning",
+      "type": "word",
+      "start": 121.4379941617647,
+      "end": 121.78631277941176,
+      "logprob": -0.004343419002489612
+    },
+    {
+      "text": "platforms",
+      "type": "word",
+      "start": 121.78631277941176,
+      "end": 122.29045814705881,
+      "logprob": -0.04038459019547582
+    },
+    {
+      "text": "for",
+      "type": "word",
+      "start": 122.29045814705881,
+      "end": 122.37295466176471,
+      "logprob": -0.001357921558297472
+    },
+    {
+      "text": "employees.",
+      "type": "word",
+      "start": 122.37295466176471,
+      "end": 122.85876747058823,
+      "logprob": -0.03872263721369844
+    },
+    {
+      "text": "So",
+      "type": "word",
+      "start": 122.85876747058823,
+      "end": 123.04209305882353,
+      "logprob": -0.005195473127319356
+    },
+    {
+      "text": "before",
+      "type": "word",
+      "start": 123.04209305882353,
+      "end": 123.53707214705882,
+      "logprob": -0.5544327431483349
+    },
+    {
+      "text": "you",
+      "type": "word",
+      "start": 123.53707214705882,
+      "end": 123.76622913235293,
+      "logprob": -0.0035633411659840002
+    },
+    {
+      "text": "pay",
+      "type": "word",
+      "start": 123.76622913235293,
+      "end": 124.01371867647059,
+      "logprob": -0.010643440998519292
+    },
+    {
+      "text": "from",
+      "type": "word",
+      "start": 124.01371867647059,
+      "end": 124.53619660294117,
+      "logprob": -0.03405018341048557
+    },
+    {
+      "text": "your",
+      "type": "word",
+      "start": 124.53619660294117,
+      "end": 124.67369079411765,
+      "logprob": -0.004836677891527181
+    },
+    {
+      "text": "own",
+      "type": "word",
+      "start": 124.67369079411765,
+      "end": 125.12283848529411,
+      "logprob": -0.013637570373381912
+    },
+    {
+      "text": "pocket,",
+      "type": "word",
+      "start": 125.12283848529411,
+      "end": 125.75531176470588,
+      "logprob": -0.012898833417785345
+    },
+    {
+      "text": "ask",
+      "type": "word",
+      "start": 125.75531176470588,
+      "end": 125.84697455882353,
+      "logprob": -0.01637026459832076
+    },
+    {
+      "text": "your",
+      "type": "word",
+      "start": 125.84697455882353,
+      "end": 126.1677943382353,
+      "logprob": -0.004608603317186189
+    },
+    {
+      "text": "manager",
+      "type": "word",
+      "start": 126.1677943382353,
+      "end": 126.7361036617647,
+      "logprob": -0.0029483420921735583
+    },
+    {
+      "text": "or",
+      "type": "word",
+      "start": 126.7361036617647,
+      "end": 126.8919304117647,
+      "logprob": -0.03194071674893996
+    },
+    {
+      "text": "your",
+      "type": "word",
+      "start": 126.8919304117647,
+      "end": 127.31357926470588,
+      "logprob": -0.018199612810707755
+    },
+    {
+      "text": "training",
+      "type": "word",
+      "start": 127.31357926470588,
+      "end": 127.86355602941177,
+      "logprob": -0.00691183177053808
+    },
+    {
+      "text": "team",
+      "type": "word",
+      "start": 127.86355602941177,
+      "end": 128.18437580882352,
+      "logprob": -0.0023477538184786123
+    },
+    {
+      "text": "if",
+      "type": "word",
+      "start": 128.18437580882352,
+      "end": 128.3402025588235,
+      "logprob": -0.024849199849516463
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 128.3402025588235,
+      "end": 128.57852582352942,
+      "logprob": -0.023013797589207532
+    },
+    {
+      "text": "exam",
+      "type": "word",
+      "start": 128.57852582352942,
+      "end": 128.89934560294117,
+      "logprob": -0.0030095240780095445
+    },
+    {
+      "text": "fee",
+      "type": "word",
+      "start": 128.89934560294117,
+      "end": 129.13766886764705,
+      "logprob": -0.0017395120742440234
+    },
+    {
+      "text": "is",
+      "type": "word",
+      "start": 129.13766886764705,
+      "end": 129.4309898088235,
+      "logprob": -0.0012207448058370403
+    },
+    {
+      "text": "covered.",
+      "type": "word",
+      "start": 129.4309898088235,
+      "end": 130.191791,
+      "logprob": -0.009744826970537539
+    },
+    {
+      "text": "Question",
+      "type": "word",
+      "start": 131.306417,
+      "end": 131.6721824,
+      "logprob": -0.2106432565624094
+    },
+    {
+      "text": "three,",
+      "type": "word",
+      "start": 131.6721824,
+      "end": 132.00043340000002,
+      "logprob": -0.03387069008293961
+    },
+    {
+      "text": "can",
+      "type": "word",
+      "start": 132.00043340000002,
+      "end": 132.1317338,
+      "logprob": -0.012233525359169212
+    },
+    {
+      "text": "you",
+      "type": "word",
+      "start": 132.1317338,
+      "end": 132.2724128,
+      "logprob": -0.001670394332142899
+    },
+    {
+      "text": "show",
+      "type": "word",
+      "start": 132.2724128,
+      "end": 132.46936340000002,
+      "logprob": -0.0022184589613772373
+    },
+    {
+      "text": "it",
+      "type": "word",
+      "start": 132.46936340000002,
+      "end": 132.59128520000002,
+      "logprob": -0.008552468318402052
+    },
+    {
+      "text": "in",
+      "type": "word",
+      "start": 132.59128520000002,
+      "end": 132.666314,
+      "logprob": -0.0016894262772633485
+    },
+    {
+      "text": "practice?",
+      "type": "word",
+      "start": 132.666314,
+      "end": 133.182137,
+      "logprob": -0.018284650006894138
+    },
+    {
+      "text": "After",
+      "type": "word",
+      "start": 133.20089420000002,
+      "end": 133.4822522,
+      "logprob": -0.006625902892391275
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 133.4822522,
+      "end": 133.69796000000002,
+      "logprob": -0.007938426091520867
+    },
+    {
+      "text": "exam,",
+      "type": "word",
+      "start": 133.69796000000002,
+      "end": 134.02621100000002,
+      "logprob": -0.10410852195135226
+    },
+    {
+      "text": "do",
+      "type": "word",
+      "start": 134.02621100000002,
+      "end": 134.1481328,
+      "logprob": -0.0041234899111605924
+    },
+    {
+      "text": "one",
+      "type": "word",
+      "start": 134.1481328,
+      "end": 134.354462,
+      "logprob": -0.007015551533928429
+    },
+    {
+      "text": "small",
+      "type": "word",
+      "start": 134.354462,
+      "end": 134.6264414,
+      "logprob": -0.003055663789062765
+    },
+    {
+      "text": "thing",
+      "type": "word",
+      "start": 134.6264414,
+      "end": 134.9265566,
+      "logprob": -0.00748796496590362
+    },
+    {
+      "text": "with",
+      "type": "word",
+      "start": 134.9265566,
+      "end": 135.1704002,
+      "logprob": -0.03244055049233994
+    },
+    {
+      "text": "it.",
+      "type": "word",
+      "start": 135.1704002,
+      "end": 135.49865119999998,
+      "logprob": -0.05491510840277707
+    },
+    {
+      "text": "If",
+      "type": "word",
+      "start": 135.49865119999998,
+      "end": 135.59243719999998,
+      "logprob": -0.007451695045149385
+    },
+    {
+      "text": "you",
+      "type": "word",
+      "start": 135.59243719999998,
+      "end": 135.77063059999998,
+      "logprob": -0.0029523539109918063
+    },
+    {
+      "text": "studied",
+      "type": "word",
+      "start": 135.77063059999998,
+      "end": 136.1926676,
+      "logprob": -0.06348201277246676
+    },
+    {
+      "text": "cloud,",
+      "type": "word",
+      "start": 136.1926676,
+      "end": 136.61470459999998,
+      "logprob": -0.03151801524654603
+    },
+    {
+      "text": "host",
+      "type": "word",
+      "start": 136.61470459999998,
+      "end": 136.85854819999997,
+      "logprob": -0.09525728120348048
+    },
+    {
+      "text": "a",
+      "type": "word",
+      "start": 136.85854819999997,
+      "end": 136.91481979999998,
+      "logprob": -0.0032884008684403838
+    },
+    {
+      "text": "simple",
+      "type": "word",
+      "start": 136.91481979999998,
+      "end": 137.2805852,
+      "logprob": -0.006178044879040995
+    },
+    {
+      "text": "page",
+      "type": "word",
+      "start": 137.2805852,
+      "end": 137.52442879999998,
+      "logprob": -0.0018747562578232456
+    },
+    {
+      "text": "and",
+      "type": "word",
+      "start": 137.52442879999998,
+      "end": 137.7401366,
+      "logprob": -0.07329138257683873
+    },
+    {
+      "text": "write",
+      "type": "word",
+      "start": 137.7401366,
+      "end": 138.00273739999997,
+      "logprob": -0.005331185549888832
+    },
+    {
+      "text": "down",
+      "type": "word",
+      "start": 138.00273739999997,
+      "end": 138.246581,
+      "logprob": -0.0035703661785412184
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 138.246581,
+      "end": 138.47166739999997,
+      "logprob": -0.3579028403522151
+    },
+    {
+      "text": "steps.",
+      "type": "word",
+      "start": 138.47166739999997,
+      "end": 138.809297,
+      "logprob": -0.007872910186503466
+    },
+    {
+      "text": "If",
+      "type": "word",
+      "start": 139.313741,
+      "end": 139.42372877,
+      "logprob": -0.002243514798311205
+    },
+    {
+      "text": "you",
+      "type": "word",
+      "start": 139.42372877,
+      "end": 139.58871042500002,
+      "logprob": -0.0015942701736035446
+    },
+    {
+      "text": "studied",
+      "type": "word",
+      "start": 139.58871042500002,
+      "end": 139.991998915,
+      "logprob": -0.039890137167547045
+    },
+    {
+      "text": "databases,",
+      "type": "word",
+      "start": 139.991998915,
+      "end": 140.64275988749998,
+      "logprob": -0.024068332493747065
+    },
+    {
+      "text": "build",
+      "type": "word",
+      "start": 140.64275988749998,
+      "end": 140.945226255,
+      "logprob": -0.007837634169303357
+    },
+    {
+      "text": "a",
+      "type": "word",
+      "start": 140.945226255,
+      "end": 140.9910544925,
+      "logprob": -0.0037881660494248764
+    },
+    {
+      "text": "small",
+      "type": "word",
+      "start": 140.9910544925,
+      "end": 141.2293613275,
+      "logprob": -0.004180727073357692
+    },
+    {
+      "text": "project",
+      "type": "word",
+      "start": 141.2293613275,
+      "end": 141.62348417,
+      "logprob": -0.004116461011841033
+    },
+    {
+      "text": "and",
+      "type": "word",
+      "start": 141.62348417,
+      "end": 141.8342940625,
+      "logprob": -0.12316474108981587
+    },
+    {
+      "text": "explain",
+      "type": "word",
+      "start": 141.8342940625,
+      "end": 142.21008561,
+      "logprob": -0.008472792950100914
+    },
+    {
+      "text": "every",
+      "type": "word",
+      "start": 142.21008561,
+      "end": 142.57671151,
+      "logprob": -0.008141048591880187
+    },
+    {
+      "text": "table.",
+      "type": "word",
+      "start": 142.57671151,
+      "end": 142.98,
+      "logprob": -0.01927099863574163
+    },
+    {
+      "text": "Then",
+      "type": "word",
+      "start": 143.453968,
+      "end": 143.67424009375,
+      "logprob": -0.004630705184694397
+    },
+    {
+      "text": "one",
+      "type": "word",
+      "start": 143.67424009375,
+      "end": 143.85780017187503,
+      "logprob": -0.1184311206180821
+    },
+    {
+      "text": "line",
+      "type": "word",
+      "start": 143.85780017187503,
+      "end": 144.04870265312502,
+      "logprob": -0.0017224826218055756
+    },
+    {
+      "text": "on",
+      "type": "word",
+      "start": 144.04870265312502,
+      "end": 144.166181103125,
+      "logprob": -0.009055880992737192
+    },
+    {
+      "text": "your",
+      "type": "word",
+      "start": 144.166181103125,
+      "end": 144.386453196875,
+      "logprob": -0.009971551078315453
+    },
+    {
+      "text": "resume",
+      "type": "word",
+      "start": 144.386453196875,
+      "end": 144.79762777187503,
+      "logprob": -0.003486069284831859
+    },
+    {
+      "text": "can",
+      "type": "word",
+      "start": 144.79762777187503,
+      "end": 144.87839420625002,
+      "logprob": -0.013996495548434351
+    },
+    {
+      "text": "say",
+      "type": "word",
+      "start": 144.87839420625002,
+      "end": 145.039927075,
+      "logprob": -0.01094265304201453
+    },
+    {
+      "text": "what",
+      "type": "word",
+      "start": 145.039927075,
+      "end": 145.267541571875,
+      "logprob": -0.008507082836806432
+    },
+    {
+      "text": "you",
+      "type": "word",
+      "start": 145.267541571875,
+      "end": 145.473128859375,
+      "logprob": -0.00390963266357182
+    },
+    {
+      "text": "built,",
+      "type": "word",
+      "start": 145.473128859375,
+      "end": 145.803537,
+      "logprob": -0.23396059515459122
+    },
+    {
+      "text": "not",
+      "type": "word",
+      "start": 146.2,
+      "end": 146.34015087777777,
+      "logprob": -0.011041736219389815
+    },
+    {
+      "text": "only",
+      "type": "word",
+      "start": 146.34015087777777,
+      "end": 146.5312657111111,
+      "logprob": -0.0067748978812002605
+    },
+    {
+      "text": "what",
+      "type": "word",
+      "start": 146.5312657111111,
+      "end": 146.72238054444443,
+      "logprob": -0.008704776877681016
+    },
+    {
+      "text": "you",
+      "type": "word",
+      "start": 146.72238054444443,
+      "end": 146.86253142222222,
+      "logprob": -0.0025061377414381495
+    },
+    {
+      "text": "passed.",
+      "type": "word",
+      "start": 146.86253142222222,
+      "end": 147.346689,
+      "logprob": -0.015034453127978967
+    },
+    {
+      "text": "Here",
+      "type": "word",
+      "start": 148.00415,
+      "end": 148.19791935416666,
+      "logprob": -0.005197483547326198
+    },
+    {
+      "text": "is",
+      "type": "word",
+      "start": 148.19791935416666,
+      "end": 148.29480403125,
+      "logprob": -0.06594110429762334
+    },
+    {
+      "text": "a",
+      "type": "word",
+      "start": 148.29480403125,
+      "end": 148.34324636979167,
+      "logprob": -0.3321189260428451
+    },
+    {
+      "text": "simple",
+      "type": "word",
+      "start": 148.34324636979167,
+      "end": 148.62421193333333,
+      "logprob": -0.001438033474687424
+    },
+    {
+      "text": "plan.",
+      "type": "word",
+      "start": 148.62421193333333,
+      "end": 148.97299677083333,
+      "logprob": -0.11024073792778116
+    },
+    {
+      "text": "Week",
+      "type": "word",
+      "start": 148.97299677083333,
+      "end": 149.23458539895836,
+      "logprob": -0.10673479287766136
+    },
+    {
+      "text": "one",
+      "type": "word",
+      "start": 149.23458539895836,
+      "end": 149.4186662854167,
+      "logprob": -0.7194911558995473
+    },
+    {
+      "text": "and",
+      "type": "word",
+      "start": 149.4186662854167,
+      "end": 149.777139590625,
+      "logprob": -0.014655874579320336
+    },
+    {
+      "text": "two,",
+      "type": "word",
+      "start": 149.777139590625,
+      "end": 149.94184354166669,
+      "logprob": -0.07186395338669165
+    },
+    {
+      "text": "learn",
+      "type": "word",
+      "start": 149.94184354166669,
+      "end": 150.39720152395833,
+      "logprob": -0.01864779437248307
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 150.39720152395833,
+      "end": 150.46502079791668,
+      "logprob": -0.004280146773704321
+    },
+    {
+      "text": "basics.",
+      "type": "word",
+      "start": 150.46502079791668,
+      "end": 150.9106903125,
+      "logprob": -0.030438073687410305
+    },
+    {
+      "text": "Week",
+      "type": "word",
+      "start": 150.9106903125,
+      "end": 151.11414813437503,
+      "logprob": -0.006082460716358364
+    },
+    {
+      "text": "three,",
+      "type": "word",
+      "start": 151.11414813437503,
+      "end": 151.462932971875,
+      "logprob": -0.026826638003719462
+    },
+    {
+      "text": "take",
+      "type": "word",
+      "start": 151.462932971875,
+      "end": 151.66639079375,
+      "logprob": -0.012790450176564553
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 151.66639079375,
+      "end": 151.811717809375,
+      "logprob": -0.003871484534381583
+    },
+    {
+      "text": "practice",
+      "type": "word",
+      "start": 151.811717809375,
+      "end": 152.23801038854168,
+      "logprob": -0.011095326110124735
+    },
+    {
+      "text": "questions.",
+      "type": "word",
+      "start": 152.23801038854168,
+      "end": 152.84838385416668,
+      "logprob": -0.013461703512757797
+    },
+    {
+      "text": "Week",
+      "type": "word",
+      "start": 152.84838385416668,
+      "end": 153.30374183645836,
+      "logprob": -0.6806417010396616
+    },
+    {
+      "text": "four,",
+      "type": "word",
+      "start": 153.30374183645836,
+      "end": 153.64283820625,
+      "logprob": -0.017826451219010206
+    },
+    {
+      "text": "book",
+      "type": "word",
+      "start": 153.64283820625,
+      "end": 153.97224610833334,
+      "logprob": -0.004193781621788535
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 153.97224610833334,
+      "end": 154.20476933333336,
+      "logprob": -0.004474997883967779
+    },
+    {
+      "text": "exam.",
+      "type": "word",
+      "start": 154.20476933333336,
+      "end": 154.78607739583333,
+      "logprob": -0.16475436740478833
+    },
+    {
+      "text": "Then",
+      "type": "word",
+      "start": 154.78607739583333,
+      "end": 155.008912153125,
+      "logprob": -0.00822271404285245
+    },
+    {
+      "text": "spend",
+      "type": "word",
+      "start": 155.008912153125,
+      "end": 155.3189431197917,
+      "logprob": -0.07968518825788644
+    },
+    {
+      "text": "one",
+      "type": "word",
+      "start": 155.3189431197917,
+      "end": 155.50302400625003,
+      "logprob": -0.04529238852511992
+    },
+    {
+      "text": "week",
+      "type": "word",
+      "start": 155.50302400625003,
+      "end": 155.66772795729167,
+      "logprob": -0.002378827167120579
+    },
+    {
+      "text": "on",
+      "type": "word",
+      "start": 155.66772795729167,
+      "end": 155.7839895697917,
+      "logprob": -0.0013469066716780003
+    },
+    {
+      "text": "a",
+      "type": "word",
+      "start": 155.7839895697917,
+      "end": 155.85180884375,
+      "logprob": -0.005134157258602572
+    },
+    {
+      "text": "small",
+      "type": "word",
+      "start": 155.85180884375,
+      "end": 156.113397471875,
+      "logprob": -0.004589515733809296
+    },
+    {
+      "text": "project.",
+      "type": "word",
+      "start": 156.113397471875,
+      "end": 156.7237709375,
+      "logprob": -0.068378417445364
+    },
+    {
+      "text": "That",
+      "type": "word",
+      "start": 156.7237709375,
+      "end": 157.17912891979168,
+      "logprob": -0.36703557323851166
+    },
+    {
+      "text": "is",
+      "type": "word",
+      "start": 157.17912891979168,
+      "end": 157.305079,
+      "logprob": -0.024375687816333532
+    },
+    {
+      "text": "about",
+      "type": "word",
+      "start": 157.753288,
+      "end": 158.25979883636364,
+      "logprob": -0.005992921736409092
+    },
+    {
+      "text": "five",
+      "type": "word",
+      "start": 158.25979883636364,
+      "end": 158.6215922909091,
+      "logprob": -0.23081540486933702
+    },
+    {
+      "text": "weeks.",
+      "type": "word",
+      "start": 158.6215922909091,
+      "end": 159.01956509090908,
+      "logprob": -0.3538033566092731
+    },
+    {
+      "text": "And",
+      "type": "word",
+      "start": 159.01956509090908,
+      "end": 159.2004618181818,
+      "logprob": -0.1369245715216652
+    },
+    {
+      "text": "you",
+      "type": "word",
+      "start": 159.2004618181818,
+      "end": 159.36326887272728,
+      "logprob": -0.008556502683120734
+    },
+    {
+      "text": "can",
+      "type": "word",
+      "start": 159.36326887272728,
+      "end": 159.53512076363634,
+      "logprob": -0.002616419843165799
+    },
+    {
+      "text": "do",
+      "type": "word",
+      "start": 159.53512076363634,
+      "end": 159.68888298181818,
+      "logprob": -0.0018957958859635604
+    },
+    {
+      "text": "it",
+      "type": "word",
+      "start": 159.68888298181818,
+      "end": 159.7702865090909,
+      "logprob": -0.00877740899503003
+    },
+    {
+      "text": "while",
+      "type": "word",
+      "start": 159.7702865090909,
+      "end": 160.05972127272727,
+      "logprob": -0.003936738797641421
+    },
+    {
+      "text": "waiting",
+      "type": "word",
+      "start": 160.05972127272727,
+      "end": 160.58432178181818,
+      "logprob": -0.003987941277860614
+    },
+    {
+      "text": "to",
+      "type": "word",
+      "start": 160.58432178181818,
+      "end": 160.67477014545454,
+      "logprob": -0.00245701599317515
+    },
+    {
+      "text": "join",
+      "type": "word",
+      "start": 160.67477014545454,
+      "end": 160.81948752727274,
+      "logprob": -0.0016513627492304912
+    },
+    {
+      "text": "or",
+      "type": "word",
+      "start": 160.81948752727274,
+      "end": 160.9370704,
+      "logprob": -0.33095985773702774
+    },
+    {
+      "text": "on",
+      "type": "word",
+      "start": 160.9370704,
+      "end": 161.22650516363635,
+      "logprob": -0.004711079730119223
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 161.22650516363635,
+      "end": 161.2626845090909,
+      "logprob": -0.03996298857152991
+    },
+    {
+      "text": "bench.",
+      "type": "word",
+      "start": 161.25363967272727,
+      "end": 161.733016,
+      "logprob": -0.0043971533244470005
+    },
+    {
+      "text": "Now",
+      "type": "word",
+      "start": 162.338617,
+      "end": 162.52120057323498,
+      "logprob": -0.006826245892357106
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 162.52120057323498,
+      "end": 162.72300346996838,
+      "logprob": -0.3511615989665929
+    },
+    {
+      "text": "trap",
+      "type": "word",
+      "start": 162.72300346996838,
+      "end": 163.0305126459431,
+      "logprob": -0.12402585657606008
+    },
+    {
+      "text": "I",
+      "type": "word",
+      "start": 163.0305126459431,
+      "end": 163.06895129293991,
+      "logprob": -0.4535461987296737
+    },
+    {
+      "text": "promised,",
+      "type": "word",
+      "start": 163.05934163119073,
+      "end": 163.7416276153846,
+      "logprob": -0.3931655586331351
+    },
+    {
+      "text": "beware",
+      "type": "word",
+      "start": 163.7416276153846,
+      "end": 164.14523340885142,
+      "logprob": -0.2278784934811496
+    },
+    {
+      "text": "of",
+      "type": "word",
+      "start": 164.14523340885142,
+      "end": 164.27976867334033,
+      "logprob": -0.012748923262307147
+    },
+    {
+      "text": "anyone",
+      "type": "word",
+      "start": 164.27976867334033,
+      "end": 164.69298412855636,
+      "logprob": -0.0027959049020179257
+    },
+    {
+      "text": "who",
+      "type": "word",
+      "start": 164.69298412855636,
+      "end": 164.96205465753422,
+      "logprob": -0.0071394251527826654
+    },
+    {
+      "text": "says",
+      "type": "word",
+      "start": 164.96205465753422,
+      "end": 165.2022962012645,
+      "logprob": -0.0018447004140633068
+    },
+    {
+      "text": "a",
+      "type": "word",
+      "start": 165.2022962012645,
+      "end": 165.35605078925184,
+      "logprob": -0.15104965963097958
+    },
+    {
+      "text": "certificate",
+      "type": "word",
+      "start": 165.35605078925184,
+      "end": 165.74043725922022,
+      "logprob": -0.003786158460739588
+    },
+    {
+      "text": "guarantees",
+      "type": "word",
+      "start": 165.74043725922022,
+      "end": 166.16326237618546,
+      "logprob": -0.015694517147687072
+    },
+    {
+      "text": "a",
+      "type": "word",
+      "start": 166.16326237618546,
+      "end": 166.4035039199157,
+      "logprob": -0.03716514727714237
+    },
+    {
+      "text": "job",
+      "type": "word",
+      "start": 166.4035039199157,
+      "end": 167.12422855110643,
+      "logprob": -0.0010395401346657022
+    },
+    {
+      "text": "or",
+      "type": "word",
+      "start": 167.12422855110643,
+      "end": 167.33564110958903,
+      "logprob": -0.5225895481862343
+    },
+    {
+      "text": "asks",
+      "type": "word",
+      "start": 167.33564110958903,
+      "end": 167.75846622655425,
+      "logprob": -0.14559356327099265
+    },
+    {
+      "text": "you",
+      "type": "word",
+      "start": 167.75846622655425,
+      "end": 168.0851947260274,
+      "logprob": -0.020995878937835916
+    },
+    {
+      "text": "to",
+      "type": "word",
+      "start": 168.0851947260274,
+      "end": 168.2869976227608,
+      "logprob": -0.042386759793800056
+    },
+    {
+      "text": "pay",
+      "type": "word",
+      "start": 168.2869976227608,
+      "end": 168.46958119599577,
+      "logprob": -0.05003934406986467
+    },
+    {
+      "text": "a",
+      "type": "word",
+      "start": 168.46958119599577,
+      "end": 168.5848971369863,
+      "logprob": -0.09481190396435231
+    },
+    {
+      "text": "big",
+      "type": "word",
+      "start": 168.5848971369863,
+      "end": 168.78670003371968,
+      "logprob": -0.013700423669753875
+    },
+    {
+      "text": "fee",
+      "type": "word",
+      "start": 168.78670003371968,
+      "end": 169.16147684193888,
+      "logprob": -0.006927942872698943
+    },
+    {
+      "text": "for",
+      "type": "word",
+      "start": 169.16147684193888,
+      "end": 169.19991548893572,
+      "logprob": -0.07640059821360602
+    },
+    {
+      "text": "a",
+      "type": "word",
+      "start": 169.19991548893572,
+      "end": 169.23835413593255,
+      "logprob": -0.01356863904213849
+    },
+    {
+      "text": "package",
+      "type": "word",
+      "start": 169.20952515068493,
+      "end": 169.45937635616437,
+      "logprob": -0.012129263002593592
+    },
+    {
+      "text": "of",
+      "type": "word",
+      "start": 169.45937635616437,
+      "end": 169.53625365015805,
+      "logprob": -0.01943973315022612
+    },
+    {
+      "text": "certificates.",
+      "type": "word",
+      "start": 169.53625365015805,
+      "end": 170.00712707586933,
+      "logprob": -0.08181544471041585
+    },
+    {
+      "text": "A",
+      "type": "word",
+      "start": 170.00712707586933,
+      "end": 170.084004369863,
+      "logprob": -0.009142667101363133
+    },
+    {
+      "text": "guarantee",
+      "type": "word",
+      "start": 170.084004369863,
+      "end": 170.7951193393045,
+      "logprob": -0.010856721501092863
+    },
+    {
+      "text": "about",
+      "type": "word",
+      "start": 170.7951193393045,
+      "end": 171.19872513277133,
+      "logprob": -0.007846705026302907
+    },
+    {
+      "text": "a",
+      "type": "word",
+      "start": 171.19872513277133,
+      "end": 171.2659927650158,
+      "logprob": -0.04221775981426202
+    },
+    {
+      "text": "job",
+      "type": "word",
+      "start": 171.2659927650158,
+      "end": 171.50623430874606,
+      "logprob": -0.00028604090579956686
+    },
+    {
+      "text": "is",
+      "type": "word",
+      "start": 171.50623430874606,
+      "end": 171.73686619072708,
+      "logprob": -0.0035211921269758632
+    },
+    {
+      "text": "a",
+      "type": "word",
+      "start": 171.73686619072708,
+      "end": 171.77530483772392,
+      "logprob": -0.007724759275885561
+    },
+    {
+      "text": "warning",
+      "type": "word",
+      "start": 171.7656951759747,
+      "end": 172.38071352792412,
+      "logprob": -0.0015241609433943024
+    },
+    {
+      "text": "sign.",
+      "type": "word",
+      "start": 172.38071352792412,
+      "end": 173.0437801886196,
+      "logprob": -0.19074896787833875
+    },
+    {
+      "text": "Before",
+      "type": "word",
+      "start": 173.0437801886196,
+      "end": 173.16870579135932,
+      "logprob": -0.2059091701209459
+    },
+    {
+      "text": "you",
+      "type": "word",
+      "start": 173.16870579135932,
+      "end": 173.428166658588,
+      "logprob": -0.003189079713404119
+    },
+    {
+      "text": "pay",
+      "type": "word",
+      "start": 173.428166658588,
+      "end": 173.4666053055848,
+      "logprob": -0.0007662935279045333
+    },
+    {
+      "text": "anyone,",
+      "type": "word",
+      "start": 173.45699564383563,
+      "end": 173.8509917755532,
+      "logprob": -0.05506513568795011
+    },
+    {
+      "text": "check",
+      "type": "word",
+      "start": 173.8509917755532,
+      "end": 174.11045264278187,
+      "logprob": -0.06008764101643433
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 174.11045264278187,
+      "end": 174.26420723076922,
+      "logprob": -0.004434819290112672
+    },
+    {
+      "text": "price",
+      "type": "word",
+      "start": 174.26420723076922,
+      "end": 174.51405843624866,
+      "logprob": -0.01227604322680331
+    },
+    {
+      "text": "on",
+      "type": "word",
+      "start": 174.51405843624866,
+      "end": 174.67742268598525,
+      "logprob": -0.008475818481043753
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 174.67742268598525,
+      "end": 174.77351930347734,
+      "logprob": -0.011253079061241102
+    },
+    {
+      "text": "official",
+      "type": "word",
+      "start": 174.77351930347734,
+      "end": 175.18673475869335,
+      "logprob": -0.013079160539777007
+    },
+    {
+      "text": "exam",
+      "type": "word",
+      "start": 175.18673475869335,
+      "end": 175.42697630242358,
+      "logprob": -0.003269338467670898
+    },
+    {
+      "text": "page.",
+      "type": "word",
+      "start": 175.42697630242358,
+      "end": 175.77292412539515,
+      "logprob": -0.01488625249653535
+    },
+    {
+      "text": "If",
+      "type": "word",
+      "start": 175.77292412539515,
+      "end": 175.90745938988408,
+      "logprob": -0.0019188397961354057
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 175.90745938988408,
+      "end": 176.10926228661748,
+      "logprob": -0.0017094602950261989
+    },
+    {
+      "text": "official",
+      "type": "word",
+      "start": 176.10926228661748,
+      "end": 176.65701300632242,
+      "logprob": -0.001304850947837735
+    },
+    {
+      "text": "price",
+      "type": "word",
+      "start": 176.65701300632242,
+      "end": 177.00296082929398,
+      "logprob": -0.010143269464624993
+    },
+    {
+      "text": "is",
+      "type": "word",
+      "start": 177.00296082929398,
+      "end": 177.16632507903054,
+      "logprob": -0.0013158653712252554
+    },
+    {
+      "text": "a",
+      "type": "word",
+      "start": 177.16632507903054,
+      "end": 177.2047637260274,
+      "logprob": -0.0037189065687529715
+    },
+    {
+      "text": "fraction",
+      "type": "word",
+      "start": 177.2047637260274,
+      "end": 177.75251444573234,
+      "logprob": -0.0004881191107523183
+    },
+    {
+      "text": "of",
+      "type": "word",
+      "start": 177.75251444573234,
+      "end": 177.87744004847207,
+      "logprob": -0.0012167399278956983
+    },
+    {
+      "text": "what",
+      "type": "word",
+      "start": 177.87744004847207,
+      "end": 178.15612023919914,
+      "logprob": -0.0006372029706994661
+    },
+    {
+      "text": "they",
+      "type": "word",
+      "start": 178.15612023919914,
+      "end": 178.425190768177,
+      "logprob": -0.001887780737332708
+    },
+    {
+      "text": "are",
+      "type": "word",
+      "start": 178.425190768177,
+      "end": 178.8095772381454,
+      "logprob": -0.2833859805505341
+    },
+    {
+      "text": "asking,",
+      "type": "word",
+      "start": 178.8095772381454,
+      "end": 179.1939637081138,
+      "logprob": -0.03257019694252023
+    },
+    {
+      "text": "you",
+      "type": "word",
+      "start": 179.1939637081138,
+      "end": 179.3765472813488,
+      "logprob": -0.006704424511547316
+    },
+    {
+      "text": "know",
+      "type": "word",
+      "start": 179.3765472813488,
+      "end": 179.64561781032666,
+      "logprob": -0.0014720829826753016
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 179.64561781032666,
+      "end": 179.84742070706008,
+      "logprob": -0.015625443887340707
+    },
+    {
+      "text": "answer.",
+      "type": "word",
+      "start": 179.84742070706008,
+      "end": 180.577755,
+      "logprob": -0.009768557374967811
+    },
+    {
+      "text": "Also,",
+      "type": "word",
+      "start": 181.184649,
+      "end": 181.56061317786973,
+      "logprob": -0.16555352924160732
+    },
+    {
+      "text": "never",
+      "type": "word",
+      "start": 181.56061317786973,
+      "end": 181.88018272905896,
+      "logprob": -0.007697550269904452
+    },
+    {
+      "text": "share",
+      "type": "word",
+      "start": 181.88018272905896,
+      "end": 182.21855048914168,
+      "logprob": -0.006851417449103371
+    },
+    {
+      "text": "your",
+      "type": "word",
+      "start": 182.21855048914168,
+      "end": 182.43472989141677,
+      "logprob": -0.002296635248945451
+    },
+    {
+      "text": "exam",
+      "type": "word",
+      "start": 182.43472989141677,
+      "end": 182.90468511375389,
+      "logprob": -0.0009384401972915618
+    },
+    {
+      "text": "login",
+      "type": "word",
+      "start": 182.90468511375389,
+      "end": 182.99867615822131,
+      "logprob": -0.24341258736204308
+    },
+    {
+      "text": "or",
+      "type": "word",
+      "start": 182.99867615822131,
+      "end": 183.11146541158223,
+      "logprob": -0.006885651783123147
+    },
+    {
+      "text": "personal",
+      "type": "word",
+      "start": 183.11146541158223,
+      "end": 183.62841615615307,
+      "logprob": -0.009180007628302813
+    },
+    {
+      "text": "details",
+      "type": "word",
+      "start": 183.62841615615307,
+      "end": 184.15476600517064,
+      "logprob": -0.002292626059884113
+    },
+    {
+      "text": "with",
+      "type": "word",
+      "start": 184.15476600517064,
+      "end": 184.32394988521202,
+      "logprob": -0.01279450167516325
+    },
+    {
+      "text": "a",
+      "type": "word",
+      "start": 184.32394988521202,
+      "end": 184.38034451189247,
+      "logprob": -0.22265492071358833
+    },
+    {
+      "text": "stranger",
+      "type": "word",
+      "start": 184.38034451189247,
+      "end": 184.94429077869702,
+      "logprob": -0.0008453572137445705
+    },
+    {
+      "text": "who",
+      "type": "word",
+      "start": 184.94429077869702,
+      "end": 185.13227286763185,
+      "logprob": -0.06949371117192495
+    },
+    {
+      "text": "promises",
+      "type": "word",
+      "start": 185.13227286763185,
+      "end": 185.7526137611169,
+      "logprob": -0.002387848642743286
+    },
+    {
+      "text": "to",
+      "type": "word",
+      "start": 185.7526137611169,
+      "end": 185.79021017890383,
+      "logprob": -0.008041244319065574
+    },
+    {
+      "text": "pass",
+      "type": "word",
+      "start": 185.7526137611169,
+      "end": 185.99699047673218,
+      "logprob": -0.002085172461849554
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 185.99699047673218,
+      "end": 186.1755734612203,
+      "logprob": -0.005792745600860223
+    },
+    {
+      "text": "exam",
+      "type": "word",
+      "start": 186.1755734612203,
+      "end": 186.48574390796276,
+      "logprob": -0.0008083266079446951
+    },
+    {
+      "text": "for",
+      "type": "word",
+      "start": 186.48574390796276,
+      "end": 186.6173313702172,
+      "logprob": -0.009306168370376098
+    },
+    {
+      "text": "you.",
+      "type": "word",
+      "start": 186.6173313702172,
+      "end": 186.8241116680455,
+      "logprob": -0.06496687953659822
+    },
+    {
+      "text": "That",
+      "type": "word",
+      "start": 186.8241116680455,
+      "end": 187.03089196587385,
+      "logprob": -0.05976486651196827
+    },
+    {
+      "text": "can",
+      "type": "word",
+      "start": 187.03089196587385,
+      "end": 187.18127763702174,
+      "logprob": -0.0012017217784618384
+    },
+    {
+      "text": "get",
+      "type": "word",
+      "start": 187.18127763702174,
+      "end": 187.34106241261637,
+      "logprob": -0.0012738109528016388
+    },
+    {
+      "text": "you",
+      "type": "word",
+      "start": 187.34106241261637,
+      "end": 187.51964539710445,
+      "logprob": -0.0027217004687703546
+    },
+    {
+      "text": "banned",
+      "type": "word",
+      "start": 187.51964539710445,
+      "end": 187.79221942606,
+      "logprob": -0.02191948626198328
+    },
+    {
+      "text": "and",
+      "type": "word",
+      "start": 187.79221942606,
+      "end": 187.93320599276115,
+      "logprob": -0.1258160894104883
+    },
+    {
+      "text": "it",
+      "type": "word",
+      "start": 187.93320599276115,
+      "end": 188.04599524612206,
+      "logprob": -0.005382459480876329
+    },
+    {
+      "text": "can",
+      "type": "word",
+      "start": 188.04599524612206,
+      "end": 188.19638091726992,
+      "logprob": -0.0017475260345629498
+    },
+    {
+      "text": "end",
+      "type": "word",
+      "start": 188.19638091726992,
+      "end": 188.3937621106515,
+      "logprob": -0.0014670756293769396
+    },
+    {
+      "text": "a",
+      "type": "word",
+      "start": 188.3937621106515,
+      "end": 188.5441477817994,
+      "logprob": -0.03169605453899783
+    },
+    {
+      "text": "career",
+      "type": "word",
+      "start": 188.5441477817994,
+      "end": 188.703932557394,
+      "logprob": -0.013901175170487825
+    },
+    {
+      "text": "before",
+      "type": "word",
+      "start": 188.703932557394,
+      "end": 189.11749315305067,
+      "logprob": -0.0015101396871695669
+    },
+    {
+      "text": "it",
+      "type": "word",
+      "start": 189.11749315305067,
+      "end": 189.15508957083765,
+      "logprob": -0.0010905944820295721
+    },
+    {
+      "text": "starts.",
+      "type": "word",
+      "start": 189.1456904663909,
+      "end": 189.64384300206825,
+      "logprob": -0.0034128170406964357
+    },
+    {
+      "text": "So",
+      "type": "word",
+      "start": 189.66264121096177,
+      "end": 189.75663225542917,
+      "logprob": -0.03351024893424109
+    },
+    {
+      "text": "to",
+      "type": "word",
+      "start": 189.75663225542917,
+      "end": 189.86942150879008,
+      "logprob": -0.23633897930420922
+    },
+    {
+      "text": "sum",
+      "type": "word",
+      "start": 189.86942150879008,
+      "end": 190.0480044932782,
+      "logprob": -0.00374199252932819
+    },
+    {
+      "text": "up,",
+      "type": "word",
+      "start": 190.0480044932782,
+      "end": 190.273583,
+      "logprob": -0.07468098244661328
+    },
+    {
+      "text": "ask",
+      "type": "word",
+      "start": 190.67,
+      "end": 190.85634486074431,
+      "logprob": -0.013227093581094248
+    },
+    {
+      "text": "three",
+      "type": "word",
+      "start": 190.85634486074431,
+      "end": 191.160381212485,
+      "logprob": -0.02862172143893683
+    },
+    {
+      "text": "questions.",
+      "type": "word",
+      "start": 191.160381212485,
+      "end": 191.97441402521008,
+      "logprob": -0.13139310895481246
+    },
+    {
+      "text": "Is",
+      "type": "word",
+      "start": 191.97441402521008,
+      "end": 192.07249026770708,
+      "logprob": -0.3218705618418753
+    },
+    {
+      "text": "there",
+      "type": "word",
+      "start": 192.07249026770708,
+      "end": 192.3765266194478,
+      "logprob": -0.004211857431735907
+    },
+    {
+      "text": "a",
+      "type": "word",
+      "start": 192.3765266194478,
+      "end": 192.43537236494598,
+      "logprob": -0.0037540375898998347
+    },
+    {
+      "text": "real",
+      "type": "word",
+      "start": 192.43537236494598,
+      "end": 192.5824867286915,
+      "logprob": -0.0014099935739067505
+    },
+    {
+      "text": "exam?",
+      "type": "word",
+      "start": 192.5824867286915,
+      "end": 193.11209843817528,
+      "logprob": -0.02869015462514834
+    },
+    {
+      "text": "Does",
+      "type": "word",
+      "start": 193.11209843817528,
+      "end": 193.15132893517406,
+      "logprob": -0.11958678643717496
+    },
+    {
+      "text": "it",
+      "type": "word",
+      "start": 193.1317136866747,
+      "end": 193.21998230492198,
+      "logprob": -0.002537216012065222
+    },
+    {
+      "text": "match",
+      "type": "word",
+      "start": 193.21998230492198,
+      "end": 193.50440340816326,
+      "logprob": -0.014972531014811262
+    },
+    {
+      "text": "your",
+      "type": "word",
+      "start": 193.50440340816326,
+      "end": 193.61228727490996,
+      "logprob": -0.10672811706513155
+    },
+    {
+      "text": "work?",
+      "type": "word",
+      "start": 193.61228727490996,
+      "end": 193.93593887515007,
+      "logprob": -0.005734410348146426
+    },
+    {
+      "text": "Can",
+      "type": "word",
+      "start": 193.93593887515007,
+      "end": 194.17132185714286,
+      "logprob": -0.004982391524300308
+    },
+    {
+      "text": "you",
+      "type": "word",
+      "start": 194.17132185714286,
+      "end": 194.40670483913564,
+      "logprob": -0.00265151215349171
+    },
+    {
+      "text": "show",
+      "type": "word",
+      "start": 194.40670483913564,
+      "end": 194.71074119087635,
+      "logprob": -0.0020430856788969196
+    },
+    {
+      "text": "it",
+      "type": "word",
+      "start": 194.71074119087635,
+      "end": 194.86766317887154,
+      "logprob": -0.0027046542821271883
+    },
+    {
+      "text": "in",
+      "type": "word",
+      "start": 194.86766317887154,
+      "end": 195.02458516686676,
+      "logprob": -0.0036275716893543323
+    },
+    {
+      "text": "a",
+      "type": "word",
+      "start": 195.02458516686676,
+      "end": 195.09323853661465,
+      "logprob": -0.00390963266357182
+    },
+    {
+      "text": "project?",
+      "type": "word",
+      "start": 195.09323853661465,
+      "end": 195.89746372509003,
+      "logprob": -0.08196793473441784
+    },
+    {
+      "text": "One",
+      "type": "word",
+      "start": 195.89746372509003,
+      "end": 196.07400096158466,
+      "logprob": -0.1441302194200236
+    },
+    {
+      "text": "good",
+      "type": "word",
+      "start": 196.07400096158466,
+      "end": 196.35842206482593,
+      "logprob": -0.0168206777303436
+    },
+    {
+      "text": "certificate",
+      "type": "word",
+      "start": 196.35842206482593,
+      "end": 197.03514813805523,
+      "logprob": -0.003773109232526038
+    },
+    {
+      "text": "with",
+      "type": "word",
+      "start": 197.03514813805523,
+      "end": 197.21168537454983,
+      "logprob": -0.030567460766564098
+    },
+    {
+      "text": "one",
+      "type": "word",
+      "start": 197.21168537454983,
+      "end": 197.42745310804324,
+      "logprob": -0.006427612916306366
+    },
+    {
+      "text": "project",
+      "type": "word",
+      "start": 197.42745310804324,
+      "end": 197.79033520528213,
+      "logprob": -0.003368667594815047
+    },
+    {
+      "text": "beats",
+      "type": "word",
+      "start": 197.79033520528213,
+      "end": 198.0845639327731,
+      "logprob": -0.020163932559066067
+    },
+    {
+      "text": "eight",
+      "type": "word",
+      "start": 198.0845639327731,
+      "end": 198.3787926602641,
+      "logprob": -0.36568685809975204
+    },
+    {
+      "text": "without.",
+      "type": "word",
+      "start": 198.3787926602641,
+      "end": 198.839751,
+      "logprob": -0.31506491714034673
+    },
+    {
+      "text": "Now",
+      "type": "word",
+      "start": 199.578095,
+      "end": 199.7120815172414,
+      "logprob": -0.005495070281979874
+    },
+    {
+      "text": "I",
+      "type": "word",
+      "start": 199.7120815172414,
+      "end": 199.75674368965517,
+      "logprob": -0.23479870956012042
+    },
+    {
+      "text": "want",
+      "type": "word",
+      "start": 199.75674368965517,
+      "end": 199.93539237931034,
+      "logprob": -0.0013619270016949475
+    },
+    {
+      "text": "to",
+      "type": "word",
+      "start": 199.93539237931034,
+      "end": 200.05023796551723,
+      "logprob": -0.0004691100148993893
+    },
+    {
+      "text": "hear",
+      "type": "word",
+      "start": 200.05023796551723,
+      "end": 200.20336541379308,
+      "logprob": -0.000915418868028989
+    },
+    {
+      "text": "from",
+      "type": "word",
+      "start": 200.20336541379308,
+      "end": 200.38201410344826,
+      "logprob": -0.001170684984339915
+    },
+    {
+      "text": "you",
+      "type": "word",
+      "start": 200.38201410344826,
+      "end": 200.52238093103446,
+      "logprob": -0.0010835868682570894
+    },
+    {
+      "text": "guys.",
+      "type": "word",
+      "start": 200.52238093103446,
+      "end": 200.85415706896552,
+      "logprob": -0.12132053523655563
+    },
+    {
+      "text": "Comment",
+      "type": "word",
+      "start": 200.85415706896552,
+      "end": 201.15403165517242,
+      "logprob": -0.4414799256407897
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 201.15403165517242,
+      "end": 201.243356,
+      "logprob": -0.04666088269904901
+    },
+    {
+      "text": "one",
+      "type": "word",
+      "start": 201.61,
+      "end": 201.78913809624638,
+      "logprob": -0.01780660068336326
+    },
+    {
+      "text": "skill",
+      "type": "word",
+      "start": 201.78913809624638,
+      "end": 202.1573664051973,
+      "logprob": -0.003036605824262258
+    },
+    {
+      "text": "you",
+      "type": "word",
+      "start": 202.1573664051973,
+      "end": 202.2767918026949,
+      "logprob": -0.014781713207682987
+    },
+    {
+      "text": "want",
+      "type": "word",
+      "start": 202.2767918026949,
+      "end": 202.5554510635226,
+      "logprob": -0.0022445170448467324
+    },
+    {
+      "text": "to",
+      "type": "word",
+      "start": 202.5554510635226,
+      "end": 202.6450201116458,
+      "logprob": -0.0007472791435221843
+    },
+    {
+      "text": "learn",
+      "type": "word",
+      "start": 202.6450201116458,
+      "end": 202.99334418768046,
+      "logprob": -0.0027156841344226318
+    },
+    {
+      "text": "this",
+      "type": "word",
+      "start": 202.99334418768046,
+      "end": 203.43123731183832,
+      "logprob": -0.019714051219156262
+    },
+    {
+      "text": "month",
+      "type": "word",
+      "start": 203.43123731183832,
+      "end": 203.98855583349373,
+      "logprob": -0.007688480765759338
+    },
+    {
+      "text": "and",
+      "type": "word",
+      "start": 203.98855583349373,
+      "end": 204.1875981626564,
+      "logprob": -0.8424804826069223
+    },
+    {
+      "text": "tell",
+      "type": "word",
+      "start": 204.1875981626564,
+      "end": 204.44635319056786,
+      "logprob": -0.013650748963039779
+    },
+    {
+      "text": "me",
+      "type": "word",
+      "start": 204.44635319056786,
+      "end": 204.62549128681422,
+      "logprob": -0.0025402236379005053
+    },
+    {
+      "text": "if",
+      "type": "word",
+      "start": 204.62549128681422,
+      "end": 204.70510821847932,
+      "logprob": -0.01763559700331374
+    },
+    {
+      "text": "you",
+      "type": "word",
+      "start": 204.70510821847932,
+      "end": 204.92405478055824,
+      "logprob": -0.00406826417595393
+    },
+    {
+      "text": "are",
+      "type": "word",
+      "start": 204.92405478055824,
+      "end": 205.19276192492782,
+      "logprob": -0.2580430145311334
+    },
+    {
+      "text": "waiting",
+      "type": "word",
+      "start": 205.19276192492782,
+      "end": 205.56099023387875,
+      "logprob": -0.008173310689161307
+    },
+    {
+      "text": "to",
+      "type": "word",
+      "start": 205.56099023387875,
+      "end": 205.68041563137632,
+      "logprob": -0.007107196393043345
+    },
+    {
+      "text": "join",
+      "type": "word",
+      "start": 205.68041563137632,
+      "end": 206.09840452261793,
+      "logprob": -0.002113231301237616
+    },
+    {
+      "text": "or",
+      "type": "word",
+      "start": 206.09840452261793,
+      "end": 206.14816510490857,
+      "logprob": -0.059140848153220786
+    },
+    {
+      "text": "already",
+      "type": "word",
+      "start": 206.14816510490857,
+      "end": 206.52634553031763,
+      "logprob": -0.01244208268990531
+    },
+    {
+      "text": "working.",
+      "type": "word",
+      "start": 206.52634553031763,
+      "end": 206.9741907709336,
+      "logprob": -0.04330319515426729
+    },
+    {
+      "text": "If",
+      "type": "word",
+      "start": 206.9741907709336,
+      "end": 207.11352040134744,
+      "logprob": -0.032330028544582855
+    },
+    {
+      "text": "this",
+      "type": "word",
+      "start": 207.11352040134744,
+      "end": 207.4021317786333,
+      "logprob": -0.0038303263428667504
+    },
+    {
+      "text": "helped,",
+      "type": "word",
+      "start": 207.4021317786333,
+      "end": 207.979354533205,
+      "logprob": -0.24177478995404705
+    },
+    {
+      "text": "like",
+      "type": "word",
+      "start": 207.979354533205,
+      "end": 208.25801379403273,
+      "logprob": -0.03870964377148845
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 208.25801379403273,
+      "end": 208.4869124725698,
+      "logprob": -0.0042188870016217515
+    },
+    {
+      "text": "video",
+      "type": "word",
+      "start": 208.4869124725698,
+      "end": 208.84518866506255,
+      "logprob": -0.0005261383865296972
+    },
+    {
+      "text": "and",
+      "type": "word",
+      "start": 208.84518866506255,
+      "end": 209.0641352271415,
+      "logprob": -0.051536481849961464
+    },
+    {
+      "text": "subscribe",
+      "type": "word",
+      "start": 209.0641352271415,
+      "end": 209.72097491337826,
+      "logprob": -0.012622327458738276
+    },
+    {
+      "text": "so",
+      "type": "word",
+      "start": 209.72097491337826,
+      "end": 210.07925110587104,
+      "logprob": -0.097553293704303
+    },
+    {
+      "text": "you",
+      "type": "word",
+      "start": 210.07925110587104,
+      "end": 210.11905957170356,
+      "logprob": -0.011031625241294087
+    },
+    {
+      "text": "don't",
+      "type": "word",
+      "start": 210.11905957170356,
+      "end": 210.5171442300289,
+      "logprob": -0.0032793712648850294
+    },
+    {
+      "text": "miss",
+      "type": "word",
+      "start": 210.5171442300289,
+      "end": 210.72613867564968,
+      "logprob": -0.0007192586044651955
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 210.72613867564968,
+      "end": 210.94508523772862,
+      "logprob": -0.003154971693301178
+    },
+    {
+      "text": "next",
+      "type": "word",
+      "start": 210.94508523772862,
+      "end": 211.23369661501445,
+      "logprob": -0.0012167399278956983
+    },
+    {
+      "text": "update.",
+      "type": "word",
+      "start": 211.23369661501445,
+      "end": 211.950249,
+      "logprob": -0.01176898359999889
+    }
+  ]
+}

@@ -1,0 +1,617 @@
+{
+ "style": "cleantech",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 3.65,
+   "type": "title_slide",
+   "text": "Which certificate is worth it?",
+   "eyebrow": "Crack IT · Day 35",
+   "style_hint": "3 questions before you pay"
+  },
+  {
+   "start": 4.2,
+   "duration": 2.6,
+   "type": "side_note",
+   "text": "Wrong certificate = wasted money",
+   "side": "right"
+  },
+  {
+   "start": 8.5,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "Waiting to join or on the bench",
+   "side": "left"
+  },
+  {
+   "start": 14.2,
+   "duration": 7.4,
+   "type": "matrix_grid",
+   "text": "3 questions",
+   "items": [
+    {
+     "label": "1 ?"
+    },
+    {
+     "label": "2 ?"
+    },
+    {
+     "label": "3 ?"
+    }
+   ]
+  },
+  {
+   "start": 26.4,
+   "duration": 4.2,
+   "type": "side_note",
+   "text": "Proof of skill, not a collection",
+   "side": "right"
+  },
+  {
+   "start": 36.2,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "8 certificates, 0 projects",
+   "side": "left"
+  },
+  {
+   "start": 45.2,
+   "duration": 8,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Ravi",
+    "text": "8 certificates, 0 projects"
+   },
+   "right": {
+    "label": "Sneha",
+    "text": "1 exam, 1 project"
+   }
+  },
+  {
+   "start": 53.7,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Is it a real exam?",
+   "eyebrow": "Question 01",
+   "numeral": "01",
+   "section": 1
+  },
+  {
+   "start": 60.6,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "Videos + 'next' proves little",
+   "side": "right"
+  },
+  {
+   "start": 67,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "Employers know",
+   "side": "left"
+  },
+  {
+   "start": 70,
+   "duration": 10.8,
+   "type": "stat_trio",
+   "items": [
+    {
+     "value": 90,
+     "label": "minutes"
+    },
+    {
+     "value": 65,
+     "label": "questions"
+    },
+    {
+     "value": 100,
+     "label": "USD",
+     "sublabel": "$"
+    }
+   ]
+  },
+  {
+   "start": 81.5,
+   "duration": 2.1,
+   "type": "keyword_chip",
+   "text": "Foundational level",
+   "side": "right"
+  },
+  {
+   "start": 86,
+   "duration": 4.2,
+   "type": "keyword_chip",
+   "text": "Level: Beginner",
+   "side": "right"
+  },
+  {
+   "start": 90.8,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Does it match your work?",
+   "eyebrow": "Question 02",
+   "numeral": "02",
+   "section": 2
+  },
+  {
+   "start": 96.4,
+   "duration": 8.2,
+   "type": "flow_diagram",
+   "text": "Pick by path",
+   "items": [
+    {
+     "label": "Your project"
+    },
+    {
+     "label": "Skill needed"
+    },
+    {
+     "label": "Certificate"
+    }
+   ]
+  },
+  {
+   "start": 105.6,
+   "duration": 3.8,
+   "type": "side_note",
+   "text": "Not because it's trending",
+   "side": "right"
+  },
+  {
+   "start": 110,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Ask trainer or senior",
+   "side": "left"
+  },
+  {
+   "start": 114,
+   "duration": 4.6,
+   "type": "side_note",
+   "text": "Company may pay the exam fee",
+   "side": "right"
+  },
+  {
+   "start": 122.2,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Learning platform",
+   "side": "left"
+  },
+  {
+   "start": 126.3,
+   "duration": 2.9,
+   "type": "big_statement",
+   "text": "Ask before you pay",
+   "eyebrow": "Ask"
+  },
+  {
+   "start": 129.7,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Can you show it?",
+   "eyebrow": "Question 03",
+   "numeral": "03",
+   "section": 3
+  },
+  {
+   "start": 134.3,
+   "duration": 3.7,
+   "type": "keyword_chip",
+   "text": "Host a simple page",
+   "side": "right"
+  },
+  {
+   "start": 139,
+   "duration": 4,
+   "type": "side_note",
+   "text": "Explain every table",
+   "side": "left"
+  },
+  {
+   "start": 146.2,
+   "duration": 10.4,
+   "type": "timeline",
+   "side": "right",
+   "text": "Five-week plan",
+   "items": [
+    {
+     "label": "Weeks 1-2",
+     "sublabel": "Learn"
+    },
+    {
+     "label": "Week 3",
+     "sublabel": "Practice"
+    },
+    {
+     "label": "Week 4",
+     "sublabel": "Exam"
+    },
+    {
+     "label": "Week 5",
+     "sublabel": "Project"
+    }
+   ]
+  },
+  {
+   "start": 157.2,
+   "duration": 2.6,
+   "type": "side_note",
+   "text": "Do it while waiting",
+   "side": "right"
+  },
+  {
+   "start": 160.3,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "The trap",
+   "eyebrow": "Section 04",
+   "numeral": "04",
+   "section": 4
+  },
+  {
+   "start": 164.6,
+   "duration": 3.4,
+   "type": "side_note",
+   "text": "Job guarantee = red flag",
+   "side": "right"
+  },
+  {
+   "start": 168.4,
+   "duration": 2.2,
+   "type": "keyword_chip",
+   "text": "Big fee for a package",
+   "side": "left"
+  },
+  {
+   "start": 171,
+   "duration": 7.3,
+   "type": "comparison",
+   "side": "left",
+   "left": {
+    "label": "Official exam page",
+    "text": "Check this price first"
+   },
+   "right": {
+    "label": "Package seller",
+    "text": "Compare with the official price"
+   }
+  },
+  {
+   "start": 179.4,
+   "duration": 4.2,
+   "type": "side_note",
+   "text": "Never share exam login",
+   "side": "right"
+  },
+  {
+   "start": 184.6,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "Can get you banned",
+   "side": "left"
+  },
+  {
+   "start": 188,
+   "duration": 8.2,
+   "type": "checklist",
+   "text": "Before you pay",
+   "items": [
+    {
+     "label": "Real, proctored exam",
+     "state": "yes"
+    },
+    {
+     "label": "Matches your work",
+     "state": "yes"
+    },
+    {
+     "label": "One project to show",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 197.2,
+   "duration": 7.3,
+   "type": "quote_pull",
+   "text": "Which skill will you learn this month?",
+   "eyebrow": "In the comments · waiting or working?"
+  },
+  {
+   "start": 205.4,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Subscribe to Crack IT",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "index": 0,
+   "start": 0,
+   "end": 6.91,
+   "kind": "broll",
+   "src": "assets/broll/student.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 1,
+   "start": 6.91,
+   "end": 13.83,
+   "kind": "broll",
+   "src": "assets/broll/officeworker.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 2,
+   "start": 13.83,
+   "end": 22.2,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3",
+    "label": "questions"
+   }
+  },
+  {
+   "index": 3,
+   "start": 22.2,
+   "end": 31.32,
+   "kind": "broll",
+   "src": "assets/broll/office2.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 4,
+   "start": 31.32,
+   "end": 38.95,
+   "kind": "broll",
+   "src": "assets/broll/officeworker.mp4",
+   "media_start": 6,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 5,
+   "start": 38.95,
+   "end": 44.91,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 3,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 6,
+   "start": 44.91,
+   "end": 53.51,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "1 + 1",
+    "label": "exam + project"
+   }
+  },
+  {
+   "index": 7,
+   "start": 53.51,
+   "end": 59.94,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "?",
+    "label": "real exam"
+   }
+  },
+  {
+   "index": 8,
+   "start": 59.94,
+   "end": 66.36,
+   "kind": "broll",
+   "src": "assets/broll/onlineform.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 9,
+   "start": 66.36,
+   "end": 81.13,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "90",
+    "label": "minute exam"
+   }
+  },
+  {
+   "index": 10,
+   "start": 81.13,
+   "end": 83.98,
+   "kind": "news",
+   "url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+   "source": "AWS",
+   "headline": "AWS Certified Cloud Practitioner",
+   "date": "Official certification page",
+   "highlight": {
+    "x": 0.08,
+    "y": 0.125,
+    "w": 0.4,
+    "h": 0.04
+   },
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut"
+  },
+  {
+   "index": 11,
+   "start": 83.98,
+   "end": 90.62,
+   "kind": "news",
+   "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/",
+   "source": "Microsoft Learn",
+   "headline": "Microsoft Certified: Azure Fundamentals",
+   "date": "Last updated 07/20/2026",
+   "highlight": {
+    "x": 0.017,
+    "y": 0.125,
+    "w": 0.3,
+    "h": 0.06
+   },
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut"
+  },
+  {
+   "index": 12,
+   "start": 90.62,
+   "end": 96,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 13,
+   "start": 96,
+   "end": 105.03,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "FIT",
+    "label": "your work, your skill"
+   }
+  },
+  {
+   "index": 14,
+   "start": 105.03,
+   "end": 113.03,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 15,
+   "start": 113.03,
+   "end": 121.73,
+   "kind": "broll",
+   "src": "assets/broll/office2.mp4",
+   "media_start": 5,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 16,
+   "start": 121.73,
+   "end": 129.54,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "ASK",
+    "label": "does the company pay?"
+   }
+  },
+  {
+   "index": 17,
+   "start": 129.54,
+   "end": 133.73,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 18,
+   "start": 133.73,
+   "end": 145.51,
+   "kind": "broll",
+   "src": "assets/broll/project.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 19,
+   "start": 145.51,
+   "end": 160.17,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "5",
+    "label": "weeks"
+   }
+  },
+  {
+   "index": 20,
+   "start": 160.17,
+   "end": 170.88,
+   "kind": "broll",
+   "src": "assets/broll/planning.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 21,
+   "start": 170.88,
+   "end": 178.41,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "?",
+    "label": "official price"
+   }
+  },
+  {
+   "index": 22,
+   "start": 178.41,
+   "end": 187.33,
+   "kind": "broll",
+   "src": "assets/broll/project.mp4",
+   "media_start": 8,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 23,
+   "start": 187.33,
+   "end": 196.51,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "3",
+    "label": "questions"
+   }
+  },
+  {
+   "index": 24,
+   "start": 196.51,
+   "end": 209.47,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe"
+   }
+  }
+ ],
+ "camera_moves": []
+}
