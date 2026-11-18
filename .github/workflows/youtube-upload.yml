@@ -35,9 +35,13 @@ on:
         description: "Rewrite youtube.json by the current title/description/tag rules first"
         type: boolean
         default: false
+      unschedule:
+        description: "Already uploaded: take it off the schedule (plain Private, no publish time, never deleted) and free its day"
+        type: boolean
+        default: false
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: youtube-upload
@@ -81,13 +85,13 @@ jobs:
           rclone lsf "$DRIVE/output/$P" > /dev/null 2>&1 || { echo "::error::no $P in Drive output/"; exit 1; }
           mkdir -p "projects/$P"
           # an update needs only the text files, not the videos
-          SKIP=(); [ "${{ inputs.update }}" = "true" ] && SKIP=(--exclude "*.mp4")
+          SKIP=(); [ "${{ inputs.update }}" = "true" ] || [ "${{ inputs.unschedule }}" = "true" ] && SKIP=(--exclude "*.mp4")
           rclone copy "$DRIVE/output/$P" "projects/$P/output" --exclude "shorts/**" "${SKIP[@]}" -v
           rclone copy "$DRIVE/output/$P/shorts" "AI-clipper/output/$P" "${SKIP[@]}" -v
           mkdir -p "AI-clipper/jobs/$P"
           [ -f "AI-clipper/output/$P/clips.json" ] && cp "AI-clipper/output/$P/clips.json" "AI-clipper/jobs/$P/clips.json" || true
           if [ "${{ inputs.rewrite }}" = "true" ]; then rm -f "projects/$P/output/youtube.json"; fi
-          if [ "${{ inputs.update }}" = "true" ]; then
+          if [ "${{ inputs.update }}" = "true" ] || [ "${{ inputs.unschedule }}" = "true" ]; then
             test -f "projects/$P/output/youtube-uploaded.json" || { echo "::error::$P is not on YouTube yet (no youtube-uploaded.json)"; exit 1; }
           elif [ -f "projects/$P/output/youtube-uploaded.json" ] && [ "${{ inputs.force }}" != "true" ]; then
             echo "::error::$P is already uploaded (youtube-uploaded.json in Drive). Tick 'force' to upload again."; exit 1
@@ -98,7 +102,7 @@ jobs:
           node-version: 22
 
       - name: Write youtube.json (episodes made before the YouTube step, or "rewrite")
-        if: ${{ !inputs.test && hashFiles(format('projects/{0}/output/youtube.json', inputs.project)) == '' }}
+        if: ${{ !inputs.test && !inputs.unschedule && hashFiles(format('projects/{0}/output/youtube.json', inputs.project)) == '' }}
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -112,8 +116,22 @@ jobs:
             --dangerously-skip-permissions --output-format stream-json --verbose > claude-youtube-log.jsonl
           node -e 'const j=require("./projects/"+process.env.P+"/output/youtube.json"); if(!j.title||!j.description) process.exit(1)'
 
+      - name: Take off the schedule (unschedule)
+        if: inputs.unschedule
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: |
+          node tools/youtube.mjs "$P" --unschedule
+          # the queue reads youtube-uploaded.json from Drive too: keep the record under another name so the day is free
+          rclone moveto "$DRIVE/output/$P/youtube-uploaded.json" "$DRIVE/output/$P/youtube-unscheduled.json" -v
+          git config user.name "youtube bot"; git config user.email "actions@users.noreply.github.com"
+          git add -A config/youtube-scheduled; git diff --cached --quiet || git commit -q -m "youtube: $P unscheduled"
+          for i in 1 2 3; do git pull --rebase --autostash -q && git push -q && break; sleep 10; done
+
       - name: Upload + schedule (or update)
-        if: ${{ !inputs.test }}
+        if: ${{ !inputs.test && !inputs.unschedule }}
         env:
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}

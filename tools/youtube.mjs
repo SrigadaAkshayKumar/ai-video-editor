@@ -9,6 +9,8 @@
 //                                       youtube.skipDays (0 = Sunday); without it: publishDelayDays from today
 //   node tools/youtube.mjs --test <file.mp4>   one Private test upload (no schedule): proves the login works and
 //                                              prints which channel it went to
+//   node tools/youtube.mjs <project> --unschedule   take its videos (main + Shorts) off the schedule: plain Private,
+//        no publish time, never deleted; its ledger entry goes, so the day is free again
 //   node tools/youtube.mjs <project> --set-thumbnail [file]   put a (new) thumbnail on the video already uploaded
 //        (id from output/youtube-uploaded.json). file default: output/thumbnails/main.txt names the variant (e.g. "B"),
 //        else youtube.json "thumbnail", else output/thumbnails/A.png. The schedule is left untouched.
@@ -117,6 +119,32 @@ if (flags.due) {
 
 if (testFile) await testUpload(testFile);
 if (flags["set-thumbnail"]) await setThumbnailOnly(project);
+if (flags.unschedule) await unscheduleOnly(project);
+
+/** --unschedule: take an episode's videos (main + Shorts) off the schedule: plain Private, no publish time (reversible:
+ * schedule it again in Studio or with --update --publish). Frees its day: the ledger entry is removed. Never deletes. */
+async function unscheduleOnly(p) {
+  const upFile = join(PROJECTS, p, "output", "youtube-uploaded.json");
+  if (!existsSync(upFile)) die(`${upFile} missing: ${p} is not on YouTube`);
+  const token = await accessToken();
+  for (const v of readJson(upFile).videos || []) {
+    if (!v.id) continue;
+    const cur = (await (await fetch(`https://www.googleapis.com/youtube/v3/videos?part=status&id=${v.id}`, { headers: { Authorization: `Bearer ${token}` } })).json()).items?.[0];
+    if (!cur) { console.log(`${v.kind} ${v.id}: not found on YouTube (deleted?)`); continue; }
+    if (cur.status.privacyStatus === "public") die(`${v.kind} ${v.id} is already public: not touched`);
+    const { publishAt, ...status } = cur.status;
+    const r = await fetch("https://www.googleapis.com/youtube/v3/videos?part=status", { method: "PUT",
+      headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
+      body: JSON.stringify({ id: v.id, status: { privacyStatus: "private", embeddable: status.embeddable, license: status.license,
+        publicStatsViewable: status.publicStatsViewable, selfDeclaredMadeForKids: status.selfDeclaredMadeForKids,
+        containsSyntheticMedia: status.containsSyntheticMedia } }) });
+    const j = await r.json();
+    if (!r.ok) die(`${v.kind} ${v.id}: ${JSON.stringify(j.error || j)}`);
+    console.log(`${v.kind} ${v.url || v.id}: ${j.status.privacyStatus}, publishAt ${j.status.publishAt || "none"} (was ${publishAt || "none"})`);
+  }
+  rmSync(join(LEDGER, `${p}.json`), { force: true });
+  process.exit(0);
+}
 const out = join(PROJECTS, project, "output");
 const metaFile = join(out, "youtube.json");
 if (!existsSync(metaFile)) die(`${metaFile} missing — the daily-run skill writes it with the metadata`);
