@@ -1,0 +1,102 @@
+{
+  "name": "d37-offer-vs-appointment-letter",
+  "createdAt": "2026-11-18T21:06:04.112Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d37-offer-vs-appointment-letter/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d37/d37-voice.wav",
+    "duration": 246.4,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d37-offer-vs-appointment-letter/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d37/d37_offer_vs_appointment_letter_voiceover.txt",
+    "words": 805,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d37-offer-vs-appointment-letter/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Letter",
+    "Mistake"
+  ],
+  "mode": "faceless",
+  "style": "glass",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; documentary storytelling look: full-frame b-roll leads, graphics docked to one side, quote pulls on the key lines, timelines for the backstory; slower, a beat every 6-10 s; low sub-band SFX on structure only",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 27.07,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-18T21:07:49.181Z",
+      "words": 806,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-18T21:07:53.159Z",
+      "segments": 16,
+      "kept": 242.3
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-18T21:38:12.400Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d37-offer-vs-appointment-letter/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-18T21:38:17.034Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-18T21:38:17.066Z",
+      "groups": 207
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-18T21:38:17.723Z",
+      "music": 0,
+      "sfx": 7
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-18T21:42:47.206Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d37-offer-vs-appointment-letter/output/final-16x9.mp4",
+      "duration": 252.339
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.981294,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d37-offer-vs-appointment-letter/work/cleancut.wav",
+    "duration": 242.300125,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

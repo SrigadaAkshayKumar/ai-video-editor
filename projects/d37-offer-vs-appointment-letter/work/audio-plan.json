@@ -1,0 +1,50 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "title_slide: Offer ≠ Job"
+  },
+  {
+   "time": 27.38,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: The offer letter"
+  },
+  {
+   "time": 63.08,
+   "sfx": "impact",
+   "gain": 4,
+   "reason": "chapter_open: The joining letter"
+  },
+  {
+   "time": 66.58,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "timeline: How the letters arrive"
+  },
+  {
+   "time": 104.68,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: The appointment letter"
+  },
+  {
+   "time": 144.68,
+   "sfx": "impact",
+   "gain": 4,
+   "reason": "chapter_open: Three mistakes"
+  },
+  {
+   "time": 187.58,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: This week"
+  }
+ ]
+}

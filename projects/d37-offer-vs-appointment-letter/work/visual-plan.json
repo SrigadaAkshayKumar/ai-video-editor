@@ -1,0 +1,669 @@
+{
+ "style": "glass",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 4.15,
+   "type": "title_slide",
+   "text": "Offer ≠ Job",
+   "eyebrow": "Crack IT · Day 37",
+   "style_hint": "The 3 letters every fresher must know"
+  },
+  {
+   "start": 4.8,
+   "duration": 3.7,
+   "type": "keyword_chip",
+   "text": "Told everyone too early",
+   "side": "right"
+  },
+  {
+   "start": 13.9,
+   "duration": 3.5,
+   "type": "step_progress",
+   "side": "right",
+   "text": "3 letters",
+   "items": [
+    {
+     "label": "Offer"
+    },
+    {
+     "label": "Joining"
+    },
+    {
+     "label": "Appointment"
+    }
+   ],
+   "current_step": 2
+  },
+  {
+   "start": 18.5,
+   "duration": 4.1,
+   "type": "keyword_chip",
+   "text": "Can it be cancelled?",
+   "side": "right"
+  },
+  {
+   "start": 23,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "The third one protects you",
+   "side": "left"
+  },
+  {
+   "start": 27.3,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "The offer letter",
+   "eyebrow": "Letter 01",
+   "numeral": "01",
+   "section": 1
+  },
+  {
+   "start": 32.5,
+   "duration": 3.9,
+   "type": "side_note",
+   "text": "After final interview or campus drive",
+   "side": "right"
+  },
+  {
+   "start": 37.8,
+   "duration": 4,
+   "type": "side_note",
+   "text": "subject to · conditional · until verification",
+   "side": "left"
+  },
+  {
+   "start": 43.9,
+   "duration": 7.5,
+   "type": "quote_pull",
+   "text": "An offer letter is an intention, not a final contract.",
+   "eyebrow": "Read it slowly"
+  },
+  {
+   "start": 51.5,
+   "duration": 10.9,
+   "type": "checklist",
+   "side": "right",
+   "text": "What an offer depends on",
+   "eyebrow": "General guidance, not one company's rule",
+   "items": [
+    {
+     "label": "Degree and final results",
+     "state": "yes"
+    },
+    {
+     "label": "Documents",
+     "state": "yes"
+    },
+    {
+     "label": "Background verification",
+     "state": "yes"
+    },
+    {
+     "label": "Company needs",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 63,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "The joining letter",
+   "eyebrow": "Letter 02",
+   "numeral": "02",
+   "section": 2
+  },
+  {
+   "start": 66.5,
+   "duration": 14,
+   "type": "timeline",
+   "side": "right",
+   "text": "How the letters arrive",
+   "items": [
+    {
+     "label": "Offer letter",
+     "sublabel": "intention"
+    },
+    {
+     "label": "Joining letter",
+     "sublabel": "where and when"
+    },
+    {
+     "label": "Day one",
+     "sublabel": "documents verified"
+    },
+    {
+     "label": "Appointment letter",
+     "sublabel": "real terms"
+    }
+   ]
+  },
+  {
+   "start": 82,
+   "duration": 5,
+   "type": "side_note",
+   "text": "Batches can be pushed for project needs",
+   "side": "right"
+  },
+  {
+   "start": 87.5,
+   "duration": 3.9,
+   "type": "keyword_chip",
+   "text": "A moved date is not a cancellation",
+   "side": "left"
+  },
+  {
+   "start": 92,
+   "duration": 5.4,
+   "type": "big_statement",
+   "text": "Do not panic",
+   "eyebrow": "Dates can move"
+  },
+  {
+   "start": 98,
+   "duration": 5.8,
+   "type": "keyword_chip",
+   "text": "Confirm only on the official portal or email",
+   "side": "right"
+  },
+  {
+   "start": 104.6,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "The appointment letter",
+   "eyebrow": "Letter 03",
+   "numeral": "03",
+   "section": 3
+  },
+  {
+   "start": 108.5,
+   "duration": 5,
+   "type": "side_note",
+   "text": "The one freshers forget to ask about",
+   "side": "right"
+  },
+  {
+   "start": 114.3,
+   "duration": 10.2,
+   "type": "bullet_list",
+   "side": "right",
+   "text": "The real terms",
+   "items": [
+    {
+     "label": "Designation"
+    },
+    {
+     "label": "Pay structure"
+    },
+    {
+     "label": "Probation"
+    },
+    {
+     "label": "Notice period and any bond"
+    }
+   ]
+  },
+  {
+   "start": 125.2,
+   "duration": 8.3,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Offer letter",
+    "text": "A promise to try"
+   },
+   "right": {
+    "label": "Appointment letter",
+    "text": "The real agreement"
+   }
+  },
+  {
+   "start": 135,
+   "duration": 8.5,
+   "type": "quote_pull",
+   "text": "A new bond or a pay change you never saw? Ask in writing before you sign.",
+   "eyebrow": "If the terms differ"
+  },
+  {
+   "start": 144.6,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Three mistakes",
+   "eyebrow": "Mistakes",
+   "numeral": "04",
+   "section": 4
+  },
+  {
+   "start": 150,
+   "duration": 9.8,
+   "type": "bullet_list",
+   "side": "left",
+   "text": "Mistake 1",
+   "items": [
+    {
+     "label": "Resigning the moment the offer arrives"
+    },
+    {
+     "label": "Dropping other options"
+    }
+   ]
+  },
+  {
+   "start": 161,
+   "duration": 4.5,
+   "type": "keyword_chip",
+   "text": "Conditional · right to withdraw",
+   "side": "right"
+  },
+  {
+   "start": 165.8,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Know what you agree to",
+   "side": "left"
+  },
+  {
+   "start": 169.2,
+   "duration": 7,
+   "type": "step_progress",
+   "side": "right",
+   "text": "Mistake 3",
+   "items": [
+    {
+     "label": "Wrong date"
+    },
+    {
+     "label": "Wrong name"
+    },
+    {
+     "label": "Wrong mark"
+    }
+   ],
+   "current_step": 2
+  },
+  {
+   "start": 177,
+   "duration": 7,
+   "type": "side_note",
+   "text": "Tell the company early, with proof",
+   "side": "right"
+  },
+  {
+   "start": 187.5,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "This week",
+   "eyebrow": "Do this",
+   "numeral": "05",
+   "section": 5
+  },
+  {
+   "start": 191,
+   "duration": 13.5,
+   "type": "checklist",
+   "side": "right",
+   "text": "This week",
+   "items": [
+    {
+     "label": "One folder for all letters",
+     "state": "yes"
+    },
+    {
+     "label": "Underline every condition",
+     "state": "yes"
+    },
+    {
+     "label": "Documents match exactly",
+     "state": "yes"
+    },
+    {
+     "label": "Keep every email, reply fast",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 205.6,
+   "duration": 7.4,
+   "type": "quote_pull",
+   "text": "A real company never asks you to pay for a joining or appointment letter.",
+   "eyebrow": "Safety point"
+  },
+  {
+   "start": 215,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "Verify on the official website",
+   "side": "right"
+  },
+  {
+   "start": 221,
+   "duration": 12,
+   "type": "fact_band",
+   "text": "Sum up",
+   "items": [
+    {
+     "label": "Offer",
+     "sublabel": "an intention"
+    },
+    {
+     "label": "Joining",
+     "sublabel": "a schedule"
+    },
+    {
+     "label": "Appointment",
+     "sublabel": "the real agreement"
+    }
+   ]
+  },
+  {
+   "start": 234.5,
+   "duration": 6.5,
+   "type": "quote_pull",
+   "text": "Which letter have you received, and which are you waiting for?",
+   "eyebrow": "Tell me in the comments"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/woman.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 8.83,
+   "index": 0
+  },
+  {
+   "start": 8.83,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "3",
+    "label": "letters, one real contract"
+   },
+   "end": 17.7,
+   "index": 1
+  },
+  {
+   "start": 17.7,
+   "kind": "broll",
+   "src": "assets/broll/man.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 27.07,
+   "index": 2
+  },
+  {
+   "start": 27.07,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "1",
+    "label": "the offer letter"
+   },
+   "end": 36.76,
+   "index": 3
+  },
+  {
+   "start": 36.76,
+   "kind": "broll",
+   "src": "assets/broll/screen.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 47.66,
+   "index": 4
+  },
+  {
+   "start": 47.66,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 55.4,
+   "index": 5
+  },
+  {
+   "start": 55.4,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "if",
+    "label": "everything checks out"
+   },
+   "end": 62.73,
+   "index": 6
+  },
+  {
+   "start": 62.73,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "2",
+    "label": "the joining letter"
+   },
+   "end": 72,
+   "index": 7
+  },
+  {
+   "start": 72,
+   "kind": "broll",
+   "src": "assets/broll/writing.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 81,
+   "index": 8
+  },
+  {
+   "start": 81,
+   "kind": "broll",
+   "src": "assets/broll/man.mp4",
+   "media_start": 7,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 91.6,
+   "index": 9
+  },
+  {
+   "start": 91.6,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "!",
+    "label": "never resign on a date alone"
+   },
+   "end": 97.6,
+   "index": 10
+  },
+  {
+   "start": 97.6,
+   "kind": "broll",
+   "src": "assets/broll/woman.mp4",
+   "media_start": 3,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 104.38,
+   "index": 11
+  },
+  {
+   "start": 104.38,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "3",
+    "label": "the appointment letter"
+   },
+   "end": 114,
+   "index": 12
+  },
+  {
+   "start": 114,
+   "kind": "broll",
+   "src": "assets/broll/pen.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 125,
+   "index": 13
+  },
+  {
+   "start": 125,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "≠",
+    "label": "promise vs agreement"
+   },
+   "end": 134.5,
+   "index": 14
+  },
+  {
+   "start": 134.5,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 15,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 144.03,
+   "index": 15
+  },
+  {
+   "start": 144.03,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "3",
+    "label": "mistakes that cost offers"
+   },
+   "end": 149.2,
+   "index": 16
+  },
+  {
+   "start": 149.2,
+   "kind": "broll",
+   "src": "assets/broll/writing.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 160.46,
+   "index": 17
+  },
+  {
+   "start": 160.46,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "fine",
+    "label": "print"
+   },
+   "end": 168.93,
+   "index": 18
+  },
+  {
+   "start": 168.93,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 25,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 176.5,
+   "index": 19
+  },
+  {
+   "start": 176.5,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "match",
+    "label": "date · name · marks"
+   },
+   "end": 187.26,
+   "index": 20
+  },
+  {
+   "start": 187.26,
+   "kind": "broll",
+   "src": "assets/broll/woman.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 197,
+   "index": 21
+  },
+  {
+   "start": 197,
+   "kind": "broll",
+   "src": "assets/broll/man.mp4",
+   "media_start": 10,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 205.25,
+   "index": 22
+  },
+  {
+   "start": 205.25,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "₹0",
+    "label": "for any letter"
+   },
+   "end": 214,
+   "index": 23
+  },
+  {
+   "start": 214,
+   "kind": "broll",
+   "src": "assets/broll/man.mp4",
+   "media_start": 5,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 226,
+   "index": 24
+  },
+  {
+   "start": 226,
+   "kind": "broll",
+   "src": "assets/broll/pen.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 233.5,
+   "index": 25
+  },
+  {
+   "start": 233.5,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe"
+   },
+   "end": 242.3,
+   "index": 26
+  }
+ ],
+ "camera_moves": []
+}
