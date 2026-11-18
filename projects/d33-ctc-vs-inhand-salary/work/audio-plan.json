@@ -1,0 +1,200 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 1,
+   "reason": "title_slide: Your CTC ≠ your salary"
+  },
+  {
+   "time": 4.03,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "number_roll: ≠ ₹1 lakh a month"
+  },
+  {
+   "time": 9.98,
+   "sfx": "click",
+   "gain": 3,
+   "reason": "keyword_chip: First job in software"
+  },
+  {
+   "time": 13.98,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "matrix_grid: 5 parts inside your CTC"
+  },
+  {
+   "time": 29.83,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "chapter_open: What is CTC?"
+  },
+  {
+   "time": 33.48,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "term_card: CTC"
+  },
+  {
+   "time": 38.98,
+   "sfx": "click",
+   "gain": 3,
+   "reason": "keyword_chip: CTC = total cost"
+  },
+  {
+   "time": 44.38,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: CTC splits into"
+  },
+  {
+   "time": 59.53,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "chapter_open: 5 hidden parts"
+  },
+  {
+   "time": 65.18,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "term_card: Company PF"
+  },
+  {
+   "time": 72.88,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "fact_band: "
+  },
+  {
+   "time": 89.38,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "big_statement: Variable pay"
+  },
+  {
+   "time": 92.58,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "bar_chart: A ₹15 lakh package (₹ lakh)"
+  },
+  {
+   "time": 104.48,
+   "sfx": "click",
+   "gain": 3,
+   "reason": "keyword_chip: Joining / retention bonus"
+  },
+  {
+   "time": 116.58,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "data_table: "
+  },
+  {
+   "time": 130.48,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Gross to take-home"
+  },
+  {
+   "time": 140.88,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 153.18,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "bullet_list: Where the gap goes"
+  },
+  {
+   "time": 158.78,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "chapter_open: New wage rule"
+  },
+  {
+   "time": 162.48,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "quote_pull: Wages at least 50% of total pay"
+  },
+  {
+   "time": 167.58,
+   "sfx": "click",
+   "gain": 3,
+   "reason": "keyword_chip: PF + gratuity on wages"
+  },
+  {
+   "time": 171.68,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 183.68,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "big_statement: Compare in-hand, not CTC"
+  },
+  {
+   "time": 190.58,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "chapter_open: Before you sign"
+  },
+  {
+   "time": 193.68,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "data_table: "
+  },
+  {
+   "time": 206.98,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "quote_pull: How much of my CTC is fixed, and how much is variable?"
+  },
+  {
+   "time": 213.18,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "checklist: Before you sign"
+  },
+  {
+   "time": 219.58,
+   "sfx": "click",
+   "gain": 3,
+   "reason": "keyword_chip: Never shocked again"
+  },
+  {
+   "time": 223.88,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "matrix_grid: 5 parts inside CTC"
+  },
+  {
+   "time": 228.78,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "big_statement: Only in-hand pays rent"
+  },
+  {
+   "time": 236.38,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "quote_pull: Was your in-hand far lower than expected?"
+  },
+  {
+   "time": 241.48,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "data_table: "
+  }
+ ]
+}

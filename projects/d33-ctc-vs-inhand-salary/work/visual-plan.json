@@ -1,0 +1,894 @@
+{
+ "style": "blueprint",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 3.65,
+   "type": "title_slide",
+   "text": "Your CTC ≠ your salary",
+   "eyebrow": "Crack IT · Day 33",
+   "style_hint": "5 hidden parts freshers never see"
+  },
+  {
+   "start": 3.95,
+   "duration": 5.35,
+   "type": "number_roll",
+   "value": 12,
+   "prefix": "₹",
+   "suffix": " lakh CTC",
+   "decimals": 0,
+   "text": "≠ ₹1 lakh a month"
+  },
+  {
+   "start": 9.9,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "First job in software",
+   "side": "right"
+  },
+  {
+   "start": 13.9,
+   "duration": 7.4,
+   "type": "matrix_grid",
+   "text": "5 parts inside your CTC",
+   "items": [
+    {
+     "label": "1 ?"
+    },
+    {
+     "label": "2 ?"
+    },
+    {
+     "label": "3 ?"
+    },
+    {
+     "label": "4 ?"
+    },
+    {
+     "label": "5 ?"
+    }
+   ]
+  },
+  {
+   "start": 21.9,
+   "duration": 2.5,
+   "type": "keyword_chip",
+   "text": "Ask HR: variable pay",
+   "side": "left"
+  },
+  {
+   "start": 24.8,
+   "duration": 4.1,
+   "type": "keyword_chip",
+   "text": "Stay for part 4",
+   "side": "right"
+  },
+  {
+   "start": 29.75,
+   "duration": 3.35,
+   "type": "chapter_open",
+   "text": "What is CTC?",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 1
+  },
+  {
+   "start": 33.4,
+   "duration": 4.8,
+   "type": "term_card",
+   "side": "right",
+   "text": "CTC",
+   "eyebrow": "Cost to Company",
+   "items": [
+    {
+     "label": "Total the company spends on you in a year"
+    }
+   ]
+  },
+  {
+   "start": 38.9,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "CTC = total cost",
+   "side": "right"
+  },
+  {
+   "start": 44.3,
+   "duration": 7.3,
+   "type": "flow_diagram",
+   "text": "CTC splits into",
+   "items": [
+    {
+     "label": "Monthly salary"
+    },
+    {
+     "label": "Company PF"
+    },
+    {
+     "label": "Gratuity"
+    },
+    {
+     "label": "Bonus / variable"
+    },
+    {
+     "label": "Benefits"
+    }
+   ]
+  },
+  {
+   "start": 52.4,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "12 lakh = what you cost",
+   "side": "left"
+  },
+  {
+   "start": 56.4,
+   "duration": 2.6,
+   "type": "side_note",
+   "text": "Find your monthly share",
+   "side": "right"
+  },
+  {
+   "start": 59.45,
+   "duration": 3.25,
+   "type": "chapter_open",
+   "text": "5 hidden parts",
+   "eyebrow": "Section 02",
+   "numeral": "02",
+   "section": 2
+  },
+  {
+   "start": 65.1,
+   "duration": 7.3,
+   "type": "term_card",
+   "side": "right",
+   "text": "Company PF",
+   "eyebrow": "Part 1",
+   "items": [
+    {
+     "label": "Yours, but you get it later"
+    }
+   ]
+  },
+  {
+   "start": 72.8,
+   "duration": 8.7,
+   "type": "fact_band",
+   "items": [
+    {
+     "label": "Gratuity",
+     "sublabel": "after minimum service"
+    },
+    {
+     "label": "Not rent money",
+     "sublabel": "do not plan around it"
+    }
+   ]
+  },
+  {
+   "start": 82.4,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "Insurance + benefits",
+   "side": "left"
+  },
+  {
+   "start": 85.7,
+   "duration": 2.9,
+   "type": "side_note",
+   "text": "Counted at company cost",
+   "side": "right"
+  },
+  {
+   "start": 89.3,
+   "duration": 2.6,
+   "type": "big_statement",
+   "text": "Variable pay",
+   "eyebrow": "Variable"
+  },
+  {
+   "start": 92.5,
+   "duration": 9.1,
+   "type": "bar_chart",
+   "side": "right",
+   "text": "A ₹15 lakh package (₹ lakh)",
+   "items": [
+    {
+     "label": "Fixed",
+     "value": 13
+    },
+    {
+     "label": "Variable",
+     "value": 2
+    }
+   ]
+  },
+  {
+   "start": 101.9,
+   "duration": 2,
+   "type": "side_note",
+   "text": "Variable ≠ guaranteed",
+   "side": "left"
+  },
+  {
+   "start": 104.4,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "Joining / retention bonus",
+   "side": "right"
+  },
+  {
+   "start": 107.6,
+   "duration": 2.6,
+   "type": "side_note",
+   "text": "Conditions: stay a year",
+   "side": "left"
+  },
+  {
+   "start": 110.6,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Illustration only",
+   "side": "right"
+  },
+  {
+   "start": 113.9,
+   "duration": 2.2,
+   "type": "side_note",
+   "text": "Your numbers will differ",
+   "side": "left"
+  },
+  {
+   "start": 116.5,
+   "duration": 13.5,
+   "type": "data_table",
+   "columns": [
+    "Step",
+    "Per month"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "CTC ÷ 12",
+      "₹1,00,000"
+     ],
+     "at": 2
+    },
+    {
+     "cells": [
+      "Gross, after company PF, gratuity, bonus, insurance",
+      "₹85,000–90,000"
+     ],
+     "at": 9.6
+    }
+   ],
+   "footer": "Illustration · Zee Business, 17 Sep 2026",
+   "footer_at": 11
+  },
+  {
+   "start": 130.4,
+   "duration": 9.9,
+   "type": "flow_diagram",
+   "text": "Gross to take-home",
+   "items": [
+    {
+     "label": "Gross",
+     "sublabel": "₹85–90K"
+    },
+    {
+     "label": "Own PF, tax, small cuts",
+     "sublabel": "₹8–10K"
+    },
+    {
+     "label": "Take-home",
+     "sublabel": "₹75–82K"
+    }
+   ]
+  },
+  {
+   "start": 140.8,
+   "duration": 8.2,
+   "type": "comparison",
+   "side": "left",
+   "left": {
+    "label": "Dream",
+    "text": "₹1,00,000"
+   },
+   "right": {
+    "label": "Reality",
+    "text": "₹75–82K"
+   }
+  },
+  {
+   "start": 150.1,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "The gap is not a cheat",
+   "side": "right"
+  },
+  {
+   "start": 153.1,
+   "duration": 5.2,
+   "type": "bullet_list",
+   "side": "left",
+   "text": "Where the gap goes",
+   "items": [
+    {
+     "label": "Saved in PF"
+    },
+    {
+     "label": "Income tax"
+    },
+    {
+     "label": "Benefits you cannot spend"
+    }
+   ]
+  },
+  {
+   "start": 158.7,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "New wage rule",
+   "eyebrow": "Section 03",
+   "numeral": "03",
+   "section": 3
+  },
+  {
+   "start": 162.4,
+   "duration": 4.7,
+   "type": "quote_pull",
+   "text": "Wages at least 50% of total pay",
+   "eyebrow": "New labour code · Moneycontrol, 22 Apr 2026"
+  },
+  {
+   "start": 167.5,
+   "duration": 2.5,
+   "type": "keyword_chip",
+   "text": "PF + gratuity on wages",
+   "side": "left"
+  },
+  {
+   "start": 171.6,
+   "duration": 6.7,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Offer A",
+    "text": "12 L CTC · more in-hand"
+   },
+   "right": {
+    "label": "Offer B",
+    "text": "12 L CTC · less in-hand"
+   }
+  },
+  {
+   "start": 178.7,
+   "duration": 4.2,
+   "type": "keyword_chip",
+   "text": "More PF, lower take-home",
+   "side": "left"
+  },
+  {
+   "start": 183.6,
+   "duration": 4,
+   "type": "big_statement",
+   "text": "Compare in-hand, not CTC",
+   "eyebrow": "in-hand"
+  },
+  {
+   "start": 188,
+   "duration": 2.2,
+   "type": "keyword_chip",
+   "text": "Ask how it is split",
+   "side": "right"
+  },
+  {
+   "start": 190.5,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Before you sign",
+   "eyebrow": "Section 04",
+   "numeral": "04",
+   "section": 4
+  },
+  {
+   "start": 193.6,
+   "duration": 12.4,
+   "type": "data_table",
+   "columns": [
+    "Step",
+    "Do this"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "1",
+      "Get the salary breakup sheet"
+     ],
+     "at": 0.8
+    },
+    {
+     "cells": [
+      "2",
+      "Monthly gross − deductions"
+     ],
+     "at": 6.4
+    }
+   ],
+   "footer": "Every company has one",
+   "footer_at": 8.5
+  },
+  {
+   "start": 206.9,
+   "duration": 5.9,
+   "type": "quote_pull",
+   "text": "How much of my CTC is fixed, and how much is variable?",
+   "eyebrow": "Ask HR (suggested wording)"
+  },
+  {
+   "start": 213.1,
+   "duration": 5.8,
+   "type": "checklist",
+   "text": "Before you sign",
+   "items": [
+    {
+     "label": "Salary breakup sheet",
+     "state": "yes"
+    },
+    {
+     "label": "Gross − deductions",
+     "state": "yes"
+    },
+    {
+     "label": "Fixed vs variable",
+     "state": "yes"
+    },
+    {
+     "label": "Bonus conditions",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 219.5,
+   "duration": 3.7,
+   "type": "keyword_chip",
+   "text": "Never shocked again",
+   "side": "right"
+  },
+  {
+   "start": 223.8,
+   "duration": 4.5,
+   "type": "matrix_grid",
+   "text": "5 parts inside CTC",
+   "items": [
+    {
+     "label": "Company PF"
+    },
+    {
+     "label": "Gratuity"
+    },
+    {
+     "label": "Insurance"
+    },
+    {
+     "label": "Variable pay"
+    },
+    {
+     "label": "Joining bonus"
+    }
+   ]
+  },
+  {
+   "start": 228.7,
+   "duration": 4.2,
+   "type": "big_statement",
+   "text": "Only in-hand pays rent",
+   "eyebrow": "in-hand"
+  },
+  {
+   "start": 233.3,
+   "duration": 2.5,
+   "type": "keyword_chip",
+   "text": "Variable ≠ guaranteed",
+   "side": "left"
+  },
+  {
+   "start": 236.3,
+   "duration": 4.7,
+   "type": "quote_pull",
+   "text": "Was your in-hand far lower than expected?",
+   "eyebrow": "In the comments"
+  },
+  {
+   "start": 241.4,
+   "duration": 5.5,
+   "type": "data_table",
+   "columns": [
+    "CTC told",
+    "In-hand received"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "₹ _ lakh",
+      "₹ _ / month"
+     ],
+     "at": 0.6
+    }
+   ],
+   "footer": "No company name",
+   "footer_at": 2.5
+  },
+  {
+   "start": 247.6,
+   "duration": 2.3,
+   "type": "keyword_chip",
+   "text": "Subscribe to Crack IT",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "index": 0,
+   "start": 0,
+   "end": 8,
+   "kind": "broll",
+   "src": "assets/broll/phone.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 1,
+   "start": 8,
+   "end": 21.6,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "5",
+    "label": "hidden parts"
+   }
+  },
+  {
+   "index": 2,
+   "start": 21.6,
+   "end": 29.43,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "HR",
+    "label": "ask this"
+   }
+  },
+  {
+   "index": 3,
+   "start": 29.43,
+   "end": 33.2,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 4,
+   "start": 33.2,
+   "end": 38.42,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "CTC",
+    "label": "cost to company"
+   }
+  },
+  {
+   "index": 5,
+   "start": 38.42,
+   "end": 44.04,
+   "kind": "broll",
+   "src": "assets/broll/restaurant.mp4",
+   "media_start": 4,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 6,
+   "start": 44.04,
+   "end": 51.9,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "₹12L",
+    "label": "what you cost"
+   }
+  },
+  {
+   "index": 7,
+   "start": 51.9,
+   "end": 59.34,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "₹?",
+    "label": "your monthly share"
+   }
+  },
+  {
+   "index": 8,
+   "start": 59.34,
+   "end": 64.91,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 9,
+   "start": 64.91,
+   "end": 72.55,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "1",
+    "label": "company PF"
+   }
+  },
+  {
+   "index": 10,
+   "start": 72.55,
+   "end": 82,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "2",
+    "label": "gratuity"
+   }
+  },
+  {
+   "index": 11,
+   "start": 82,
+   "end": 88.89,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "3",
+    "label": "insurance + benefits"
+   }
+  },
+  {
+   "index": 12,
+   "start": 88.89,
+   "end": 92.4,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "4",
+    "label": "variable pay"
+   }
+  },
+  {
+   "index": 13,
+   "start": 92.4,
+   "end": 104.1,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "₹2L",
+    "label": "not guaranteed"
+   }
+  },
+  {
+   "index": 14,
+   "start": 104.1,
+   "end": 110.31,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "5",
+    "label": "joining bonus"
+   }
+  },
+  {
+   "index": 15,
+   "start": 110.31,
+   "end": 116.27,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "₹12L",
+    "label": "an example"
+   }
+  },
+  {
+   "index": 16,
+   "start": 116.27,
+   "end": 125.7,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "₹1L",
+    "label": "÷ 12 a month"
+   }
+  },
+  {
+   "index": 17,
+   "start": 125.7,
+   "end": 130.16,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "₹85–90K",
+    "label": "gross"
+   }
+  },
+  {
+   "index": 18,
+   "start": 130.16,
+   "end": 140.58,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "₹8–10K",
+    "label": "deductions"
+   }
+  },
+  {
+   "index": 19,
+   "start": 140.58,
+   "end": 149.28,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "₹75–82K",
+    "label": "take-home"
+   }
+  },
+  {
+   "index": 20,
+   "start": 149.28,
+   "end": 158.58,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "GAP",
+    "label": "where it goes"
+   }
+  },
+  {
+   "index": 21,
+   "start": 158.58,
+   "end": 162.2,
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "index": 22,
+   "start": 162.2,
+   "end": 171.19,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "50%",
+    "label": "wage floor"
+   }
+  },
+  {
+   "index": 23,
+   "start": 171.19,
+   "end": 178.5,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "≠",
+    "label": "CTC vs in-hand"
+   }
+  },
+  {
+   "index": 24,
+   "start": 178.5,
+   "end": 183.31,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "+PF",
+    "label": "less take-home"
+   }
+  },
+  {
+   "index": 25,
+   "start": 183.31,
+   "end": 190.46,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "IN-HAND",
+    "label": "not CTC"
+   }
+  },
+  {
+   "index": 26,
+   "start": 190.46,
+   "end": 193.5,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 27,
+   "start": 193.5,
+   "end": 205.6,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 28,
+   "start": 205.6,
+   "end": 213,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "?",
+    "label": "fixed or variable"
+   }
+  },
+  {
+   "index": 29,
+   "start": 213,
+   "end": 219.26,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "4",
+    "label": "steps"
+   }
+  },
+  {
+   "index": 30,
+   "start": 219.26,
+   "end": 223.47,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "0",
+    "label": "surprises"
+   }
+  },
+  {
+   "index": 31,
+   "start": 223.47,
+   "end": 236,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "5",
+    "label": "parts in CTC"
+   }
+  },
+  {
+   "index": 32,
+   "start": 236,
+   "end": 247.4,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "?",
+    "label": "your offer"
+   }
+  },
+  {
+   "index": 33,
+   "start": 247.4,
+   "end": 251.23,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe"
+   }
+  }
+ ],
+ "camera_moves": []
+}
