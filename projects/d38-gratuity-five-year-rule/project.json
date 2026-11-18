@@ -1,0 +1,103 @@
+{
+  "name": "d38-gratuity-five-year-rule",
+  "createdAt": "2026-11-18T22:26:49.736Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d38-gratuity-five-year-rule/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d38/d38-voice.wav",
+    "duration": 240.92,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d38-gratuity-five-year-rule/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d38/d38_gratuity_five_year_rule_voiceover.txt",
+    "words": 793,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d38-gratuity-five-year-rule/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Social Security",
+    "Gratuity Act",
+    "CTC"
+  ],
+  "mode": "faceless",
+  "style": "cleantech",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; light product-explainer look: calm and clean, charts and comparison tables carry the numbers, generous white space, office/campus b-roll full frame between graphics; a beat every 6-8 s; soft, sparse SFX",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 26.18,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-18T22:28:45.536Z",
+      "words": 782,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-18T22:28:51.835Z",
+      "segments": 13,
+      "kept": 237.233
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-18T23:02:33.518Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d38-gratuity-five-year-rule/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-18T23:02:39.124Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-18T23:02:39.165Z",
+      "groups": 208
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-18T23:02:48.628Z",
+      "music": 0,
+      "sfx": 9
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-18T23:06:13.163Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d38-gratuity-five-year-rule/output/final-16x9.mp4",
+      "duration": 247.252
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.906673,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d38-gratuity-five-year-rule/work/cleancut.wav",
+    "duration": 237.219875,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

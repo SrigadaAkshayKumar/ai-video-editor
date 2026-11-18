@@ -1,0 +1,696 @@
+{
+ "style": "cleantech",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 4.15,
+   "type": "title_slide",
+   "text": "Gratuity",
+   "eyebrow": "Crack IT · Day 38",
+   "style_hint": "The money you lose by quitting too early"
+  },
+  {
+   "start": 4.6,
+   "duration": 1.6,
+   "type": "keyword_chip",
+   "text": "Not on any payslip",
+   "side": "right"
+  },
+  {
+   "start": 7.2,
+   "duration": 5.6,
+   "type": "big_statement",
+   "text": "₹ ?",
+   "eyebrow": "Worth lakhs"
+  },
+  {
+   "start": 13.5,
+   "duration": 3.7,
+   "type": "keyword_chip",
+   "text": "Quit a few months early, lose it",
+   "side": "right"
+  },
+  {
+   "start": 17.9,
+   "duration": 3.1,
+   "type": "keyword_chip",
+   "text": "Who · how much · which date",
+   "side": "left"
+  },
+  {
+   "start": 21.6,
+   "duration": 4.2,
+   "type": "side_note",
+   "text": "Mark one date before you resign",
+   "side": "right"
+  },
+  {
+   "start": 26.6,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "What gratuity is",
+   "eyebrow": "Part 01",
+   "numeral": "01",
+   "section": 1
+  },
+  {
+   "start": 30.6,
+   "duration": 9.4,
+   "type": "checklist",
+   "side": "right",
+   "text": "Gratuity in one look",
+   "items": [
+    {
+     "label": "Paid once, when you leave",
+     "state": "yes"
+    },
+    {
+     "label": "Not paid every month",
+     "state": "no"
+    },
+    {
+     "label": "Goes to your nominee",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 44.4,
+   "duration": 7.2,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Old law",
+    "text": "Payment of Gratuity Act, 1972"
+   },
+   "right": {
+    "label": "Now",
+    "text": "Code on Social Security, 2020"
+   }
+  },
+  {
+   "start": 52.9,
+   "duration": 1.6,
+   "type": "keyword_chip",
+   "text": "Not every company",
+   "side": "left"
+  },
+  {
+   "start": 54.6,
+   "duration": 6.4,
+   "type": "number_roll",
+   "value": 10,
+   "suffix": "+",
+   "text": "employees: the general cover",
+   "decimals": 0
+  },
+  {
+   "start": 61.8,
+   "duration": 3.2,
+   "type": "side_note",
+   "text": "Small startup? Ask HR if it applies",
+   "side": "right"
+  },
+  {
+   "start": 65.6,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "The formula",
+   "eyebrow": "Part 02",
+   "numeral": "02",
+   "section": 2
+  },
+  {
+   "start": 69.2,
+   "duration": 16.3,
+   "type": "flow_diagram",
+   "text": "Gratuity formula",
+   "items": [
+    {
+     "label": "Last basic + DA",
+     "sublabel": "monthly wages"
+    },
+    {
+     "label": "× 15",
+     "sublabel": "days per year"
+    },
+    {
+     "label": "÷ 26",
+     "sublabel": "working days"
+    },
+    {
+     "label": "× years",
+     "sublabel": "of service"
+    }
+   ]
+  },
+  {
+   "start": 86.2,
+   "duration": 2.7,
+   "type": "keyword_chip",
+   "text": "Wages ≠ full salary",
+   "side": "right"
+  },
+  {
+   "start": 89.2,
+   "duration": 5.8,
+   "type": "side_note",
+   "text": "Basic + dearness allowance. Not bonus, special allowance or CTC",
+   "side": "left"
+  },
+  {
+   "start": 96,
+   "duration": 7,
+   "type": "stat_trio",
+   "text": "The example",
+   "items": [
+    {
+     "label": "Basic pay a month",
+     "sublabel": "₹",
+     "value": 40000
+    },
+    {
+     "label": "Days a year",
+     "sublabel": "",
+     "value": 15
+    },
+    {
+     "label": "Years served",
+     "sublabel": "",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "start": 103.3,
+   "duration": 9.3,
+   "type": "number_roll",
+   "value": 115385,
+   "prefix": "₹",
+   "text": "About, on ₹40,000 basic for 5 years",
+   "decimals": 0
+  },
+  {
+   "start": 113.2,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "The five year rule",
+   "eyebrow": "Part 03",
+   "numeral": "03",
+   "section": 3
+  },
+  {
+   "start": 116.6,
+   "duration": 5,
+   "type": "progress_ring",
+   "side": "right",
+   "value": 100,
+   "text": "5 years continuous, same employer"
+  },
+  {
+   "start": 122.2,
+   "duration": 5.4,
+   "type": "step_progress",
+   "side": "right",
+   "text": "Quit at year 3",
+   "items": [
+    {
+     "label": "Year 1"
+    },
+    {
+     "label": "Year 2"
+    },
+    {
+     "label": "Year 3"
+    },
+    {
+     "label": "Year 4"
+    },
+    {
+     "label": "Year 5"
+    }
+   ],
+   "current_step": 2
+  },
+  {
+   "start": 128.2,
+   "duration": 7.4,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Quit at year 3",
+    "text": "₹0"
+   },
+   "right": {
+    "label": "Stay to year 5",
+    "text": "₹1.15 lakh (example)"
+   }
+  },
+  {
+   "start": 136,
+   "duration": 2.8,
+   "type": "side_note",
+   "text": "Death or disability: 5-year rule waived",
+   "side": "right"
+  },
+  {
+   "start": 139.2,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "A newer point",
+   "side": "left"
+  },
+  {
+   "start": 142,
+   "duration": 8.6,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Permanent role",
+    "text": "5 years"
+   },
+   "right": {
+    "label": "Fixed-term contract",
+    "text": "1 year, pro rata"
+   }
+  },
+  {
+   "start": 152.2,
+   "duration": 6.4,
+   "type": "side_note",
+   "text": "Long unpaid breaks or rejoining can complicate it",
+   "side": "right"
+  },
+  {
+   "start": 158.9,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "Ask HR in writing",
+   "side": "left"
+  },
+  {
+   "start": 162.1,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "What to do",
+   "eyebrow": "Part 04",
+   "numeral": "04",
+   "section": 4
+  },
+  {
+   "start": 165.6,
+   "duration": 6.2,
+   "type": "side_note",
+   "text": "1 · Find the word gratuity in your letters",
+   "side": "right"
+  },
+  {
+   "start": 173,
+   "duration": 9.8,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Bigger CTC",
+    "text": "Mostly special allowance"
+   },
+   "right": {
+    "label": "Higher basic",
+    "text": "Bigger gratuity"
+   }
+  },
+  {
+   "start": 184,
+   "duration": 5.4,
+   "type": "side_note",
+   "text": "3 · Count completed years before resigning",
+   "side": "left"
+  },
+  {
+   "start": 190.8,
+   "duration": 9.2,
+   "type": "side_note",
+   "text": "4 · Ask for the calculation in writing. Read your company policy",
+   "side": "right"
+  },
+  {
+   "start": 203.9,
+   "duration": 6.7,
+   "type": "side_note",
+   "text": "Part of the payout may be taxable",
+   "side": "right"
+  },
+  {
+   "start": 211.6,
+   "duration": 10.2,
+   "type": "stat_trio",
+   "text": "To sum up",
+   "items": [
+    {
+     "label": "Days of wages",
+     "sublabel": "",
+     "value": 15
+    },
+    {
+     "label": "Per year of service",
+     "sublabel": "",
+     "value": 1
+    },
+    {
+     "label": "Years, same employer",
+     "sublabel": "",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "start": 222.5,
+   "duration": 9.7,
+   "type": "quote_pull",
+   "text": "Basic pay as a % of your CTC?",
+   "eyebrow": "Comment the percentage only"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 7,
+   "index": 0
+  },
+  {
+   "start": 7,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "₹ ?",
+    "label": "never on a payslip"
+   },
+   "end": 13.2,
+   "index": 1
+  },
+  {
+   "start": 13.2,
+   "kind": "broll",
+   "src": "assets/broll/woman.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 21.2,
+   "index": 2
+  },
+  {
+   "start": 21.2,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "1",
+    "label": "date to mark"
+   },
+   "end": 26.43,
+   "index": 3
+  },
+  {
+   "start": 26.43,
+   "kind": "broll",
+   "src": "assets/broll/whitedesk.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 36.6,
+   "index": 4
+  },
+  {
+   "start": 36.6,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 44.2,
+   "index": 5
+  },
+  {
+   "start": 44.2,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "2020",
+    "label": "Code on Social Security"
+   },
+   "end": 52.8,
+   "index": 6
+  },
+  {
+   "start": 52.8,
+   "kind": "broll",
+   "src": "assets/broll/corridor.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 59.5,
+   "index": 7
+  },
+  {
+   "start": 59.5,
+   "kind": "broll",
+   "src": "assets/broll/whitedesk.mp4",
+   "media_start": 8,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 65.5,
+   "index": 8
+  },
+  {
+   "start": 65.5,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "× 15 ÷ 26",
+    "label": "the formula"
+   },
+   "end": 77.5,
+   "index": 9
+  },
+  {
+   "start": 77.5,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "26",
+    "label": "working days a month"
+   },
+   "end": 85.9,
+   "index": 10
+  },
+  {
+   "start": 85.9,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 95.2,
+   "index": 11
+  },
+  {
+   "start": 95.2,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "₹40,000",
+    "label": "basic pay · 5 years"
+   },
+   "end": 106.8,
+   "index": 12
+  },
+  {
+   "start": 106.8,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 8,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 113,
+   "index": 13
+  },
+  {
+   "start": 113,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "5",
+    "label": "years, same employer"
+   },
+   "end": 121.9,
+   "index": 14
+  },
+  {
+   "start": 121.9,
+   "kind": "broll",
+   "src": "assets/broll/library.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 128,
+   "index": 15
+  },
+  {
+   "start": 128,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "₹0",
+    "label": "quit at year 3"
+   },
+   "end": 137,
+   "index": 16
+  },
+  {
+   "start": 137,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 145.5,
+   "index": 17
+  },
+  {
+   "start": 145.5,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 3,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 151.8,
+   "index": 18
+  },
+  {
+   "start": 151.8,
+   "kind": "broll",
+   "src": "assets/broll/whitedesk.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 162,
+   "index": 19
+  },
+  {
+   "start": 162,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "4",
+    "label": "things to do"
+   },
+   "end": 172.4,
+   "index": 20
+  },
+  {
+   "start": 172.4,
+   "kind": "broll",
+   "src": "assets/broll/woman.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 183.5,
+   "index": 21
+  },
+  {
+   "start": 183.5,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 5,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 190,
+   "index": 22
+  },
+  {
+   "start": 190,
+   "kind": "broll",
+   "src": "assets/broll/corridor.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 197,
+   "index": 23
+  },
+  {
+   "start": 197,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 203.6,
+   "index": 24
+  },
+  {
+   "start": 203.6,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "tax",
+    "label": "check before you spend"
+   },
+   "end": 211.2,
+   "index": 25
+  },
+  {
+   "start": 211.2,
+   "kind": "broll",
+   "src": "assets/broll/library.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 222.1,
+   "index": 26
+  },
+  {
+   "start": 222.1,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "% ?",
+    "label": "basic as share of CTC"
+   },
+   "end": 232.8,
+   "index": 27
+  },
+  {
+   "start": 232.8,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe"
+   },
+   "end": 237.22,
+   "index": 28
+  }
+ ],
+ "camera_moves": []
+}

@@ -1,0 +1,62 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "reveal",
+   "gain": 4,
+   "reason": "title_slide: Gratuity"
+  },
+  {
+   "time": 26.68,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: What gratuity is"
+  },
+  {
+   "time": 65.68,
+   "sfx": "impact",
+   "gain": 4,
+   "reason": "chapter_open: The formula"
+  },
+  {
+   "time": 69.28,
+   "sfx": "reveal",
+   "gain": 4,
+   "reason": "flow_diagram: Gratuity formula"
+  },
+  {
+   "time": 103.38,
+   "sfx": "ding",
+   "gain": 0,
+   "reason": "number_roll: About, on ₹40,000 basic for 5 years"
+  },
+  {
+   "time": 113.28,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: The five year rule"
+  },
+  {
+   "time": 116.68,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "progress_ring: 5 years continuous, same employer"
+  },
+  {
+   "time": 128.28,
+   "sfx": "reveal",
+   "gain": 4,
+   "reason": "comparison: "
+  },
+  {
+   "time": 162.18,
+   "sfx": "impact",
+   "gain": 4,
+   "reason": "chapter_open: What to do"
+  }
+ ]
+}
