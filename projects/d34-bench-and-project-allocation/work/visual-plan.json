@@ -1,0 +1,631 @@
+{
+ "style": "glass",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 3.65,
+   "type": "title_slide",
+   "text": "Joined. No project yet.",
+   "eyebrow": "Crack IT · Day 34",
+   "style_hint": "Bench survival guide for freshers"
+  },
+  {
+   "start": 4.4,
+   "duration": 4.2,
+   "type": "keyword_chip",
+   "text": "Joining date: fixed",
+   "side": "right"
+  },
+  {
+   "start": 9,
+   "duration": 8,
+   "type": "matrix_grid",
+   "text": "4 things to do",
+   "items": [
+    {
+     "label": "1 ?"
+    },
+    {
+     "label": "2 ?"
+    },
+    {
+     "label": "3 ?"
+    },
+    {
+     "label": "4 ?"
+    }
+   ]
+  },
+  {
+   "start": 18.9,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "Stay for number 3",
+   "side": "left"
+  },
+  {
+   "start": 23,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "What is the bench?",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 1
+  },
+  {
+   "start": 27,
+   "duration": 9.5,
+   "type": "flow_diagram",
+   "side": "right",
+   "text": "Where the bench sits",
+   "items": [
+    {
+     "label": "Joining"
+    },
+    {
+     "label": "Training"
+    },
+    {
+     "label": "Bench",
+     "sublabel": "waiting for allocation"
+    },
+    {
+     "label": "Client project"
+    }
+   ]
+  },
+  {
+   "start": 38.2,
+   "duration": 4.6,
+   "type": "side_note",
+   "text": "Bench = between client projects",
+   "side": "left"
+  },
+  {
+   "start": 43.8,
+   "duration": 3.1,
+   "type": "keyword_chip",
+   "text": "Depends on skills + demand",
+   "side": "right"
+  },
+  {
+   "start": 48,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Wipro's new rule",
+   "eyebrow": "Section 02",
+   "numeral": "02",
+   "section": 2
+  },
+  {
+   "start": 56.8,
+   "duration": 4.2,
+   "type": "keyword_chip",
+   "text": "Reported policy",
+   "side": "left"
+  },
+  {
+   "start": 66,
+   "duration": 6.3,
+   "type": "stat_trio",
+   "items": [
+    {
+     "value": 180,
+     "label": "calendar days"
+    },
+    {
+     "value": 2,
+     "label": "Band 2 and below",
+     "prefix": "≤ B"
+    },
+    {
+     "value": 6,
+     "label": "months, about"
+    }
+   ]
+  },
+  {
+   "start": 73.4,
+   "duration": 5,
+   "type": "side_note",
+   "text": "Clock: released from billable project",
+   "side": "right"
+  },
+  {
+   "start": 86,
+   "duration": 4,
+   "type": "side_note",
+   "text": "Same article, same rule",
+   "side": "right"
+  },
+  {
+   "start": 90.3,
+   "duration": 6.5,
+   "type": "timeline",
+   "side": "right",
+   "text": "Bench window",
+   "items": [
+    {
+     "label": "Released"
+    },
+    {
+     "label": "180 days"
+    },
+    {
+     "label": "Allocated or separated"
+    }
+   ]
+  },
+  {
+   "start": 97.2,
+   "duration": 3.8,
+   "type": "quote_pull",
+   "text": "Even the generous rule has an end date.",
+   "eyebrow": "Wipro policy, as reported"
+  },
+  {
+   "start": 103,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "The four things",
+   "eyebrow": "Section 03",
+   "numeral": "03",
+   "section": 3
+  },
+  {
+   "start": 106.4,
+   "duration": 8.6,
+   "type": "checklist",
+   "side": "right",
+   "text": "Week one",
+   "items": [
+    {
+     "label": "Who decides allocation?",
+     "state": "yes"
+    },
+    {
+     "label": "What do they look at?",
+     "state": "yes"
+    },
+    {
+     "label": "Which skills are in demand?",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 116.4,
+   "duration": 8.6,
+   "type": "term_card",
+   "side": "left",
+   "text": "Training scores",
+   "eyebrow": "Two",
+   "items": [
+    {
+     "label": "Finish every module and assessment on time"
+    }
+   ]
+  },
+  {
+   "start": 126.5,
+   "duration": 7.3,
+   "type": "big_statement",
+   "text": "Build one small thing",
+   "eyebrow": "Three"
+  },
+  {
+   "start": 135,
+   "duration": 5,
+   "type": "side_note",
+   "text": "Show it, don't just claim it",
+   "side": "right"
+  },
+  {
+   "start": 141.5,
+   "duration": 9.5,
+   "type": "bullet_list",
+   "side": "left",
+   "text": "Weekly update, 3 lines",
+   "items": [
+    {
+     "label": "What I learned"
+    },
+    {
+     "label": "What I built"
+    },
+    {
+     "label": "Available for allocation"
+    }
+   ]
+  },
+  {
+   "start": 153,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "The trap",
+   "eyebrow": "Section 04",
+   "numeral": "04",
+   "section": 4
+  },
+  {
+   "start": 156.4,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Don't just wait for the mail",
+   "side": "right"
+  },
+  {
+   "start": 160.4,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "No random project unasked",
+   "side": "left"
+  },
+  {
+   "start": 166.8,
+   "duration": 7,
+   "type": "quote_pull",
+   "text": "What will I learn on this project?",
+   "eyebrow": "Ask this (suggested wording)"
+  },
+  {
+   "start": 175,
+   "duration": 8,
+   "type": "fact_band",
+   "items": [
+    {
+     "label": "Bench",
+     "sublabel": "gap between training and project"
+    },
+    {
+     "label": "Wipro's window ends",
+     "sublabel": "reported, 180 days"
+    }
+   ]
+  },
+  {
+   "start": 183.8,
+   "duration": 4.4,
+   "type": "checklist",
+   "text": "Do these",
+   "items": [
+    {
+     "label": "Ask",
+     "state": "yes"
+    },
+    {
+     "label": "Train",
+     "state": "yes"
+    },
+    {
+     "label": "Build",
+     "state": "yes"
+    },
+    {
+     "label": "Update",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 189,
+   "duration": 8,
+   "type": "quote_pull",
+   "text": "How many weeks did you wait for a project?",
+   "eyebrow": "In the comments · no company name"
+  },
+  {
+   "start": 198.4,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "Subscribe to Crack IT",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "index": 0,
+   "start": 0,
+   "end": 6.46,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 1,
+   "start": 6.46,
+   "end": 13.27,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 2,
+   "start": 13.27,
+   "end": 22.64,
+   "kind": "broll",
+   "src": "assets/broll/crowd.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 3,
+   "start": 22.64,
+   "end": 32.82,
+   "kind": "broll",
+   "src": "assets/broll/office2.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 4,
+   "start": 32.82,
+   "end": 38.8,
+   "kind": "broll",
+   "src": "assets/broll/training.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 5,
+   "start": 38.8,
+   "end": 47.39,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 6,
+   "start": 47.39,
+   "end": 55.9,
+   "kind": "broll",
+   "src": "assets/broll/meeting.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 7,
+   "start": 55.9,
+   "end": 65.5,
+   "kind": "news",
+   "url": "https://trak.in/stories/wipros-junior-employees-can-now-sit-on-bench-for-6-months/",
+   "source": "Trak.in",
+   "headline": "Wipro's Junior Employees Can Now Sit On Bench For 6 Months",
+   "date": "2 Oct 2026",
+   "highlight": {
+    "x": 0.11,
+    "y": 0.283,
+    "w": 0.52,
+    "h": 0.04
+   },
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "index": 8,
+   "start": 65.5,
+   "end": 72.66,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "180",
+    "label": "calendar days"
+   }
+  },
+  {
+   "index": 9,
+   "start": 72.66,
+   "end": 80.81,
+   "kind": "news",
+   "url": "https://www.sightsinplus.com/news/industry-news/wipro-gives-employees-six-months-to-find-new-projects-revised-bench-policy/",
+   "source": "SightsInPlus",
+   "headline": "Wipro Gives Employees Six Months to Find New Projects, Revised Bench Policy",
+   "date": "1 Oct 2026",
+   "highlight": {
+    "x": 0.155,
+    "y": 0.11,
+    "w": 0.45,
+    "h": 0.06
+   },
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "index": 10,
+   "start": 80.81,
+   "end": 88.9,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 5,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 11,
+   "start": 88.9,
+   "end": 99.98,
+   "kind": "broll",
+   "src": "assets/broll/writing.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "noir",
+   "transition": "fade"
+  },
+  {
+   "index": 12,
+   "start": 99.98,
+   "end": 103.55,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "4",
+    "label": "things to do"
+   }
+  },
+  {
+   "index": 13,
+   "start": 103.55,
+   "end": 109.5,
+   "kind": "broll",
+   "src": "assets/broll/manager.mp4",
+   "media_start": 2,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 14,
+   "start": 109.5,
+   "end": 115.61,
+   "kind": "broll",
+   "src": "assets/broll/office2.mp4",
+   "media_start": 12,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 15,
+   "start": 115.61,
+   "end": 125.84,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 4,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 16,
+   "start": 125.84,
+   "end": 134.5,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 17,
+   "start": 134.5,
+   "end": 141.12,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "1",
+    "label": "small build"
+   }
+  },
+  {
+   "index": 18,
+   "start": 141.12,
+   "end": 152.13,
+   "kind": "broll",
+   "src": "assets/broll/meeting.mp4",
+   "media_start": 6,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 19,
+   "start": 152.13,
+   "end": 158,
+   "kind": "broll",
+   "src": "assets/broll/phone.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade"
+  },
+  {
+   "index": 20,
+   "start": 158,
+   "end": 166.31,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "ASK",
+    "label": "first, then decide"
+   }
+  },
+  {
+   "index": 21,
+   "start": 166.31,
+   "end": 174.53,
+   "kind": "broll",
+   "src": "assets/broll/writing.mp4",
+   "media_start": 20,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 22,
+   "start": 174.53,
+   "end": 183.5,
+   "kind": "broll",
+   "src": "assets/broll/training.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 23,
+   "start": 183.5,
+   "end": 188.27,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "4",
+    "label": "steps"
+   }
+  },
+  {
+   "index": 24,
+   "start": 188.27,
+   "end": 197.95,
+   "kind": "broll",
+   "src": "assets/broll/manager.mp4",
+   "media_start": 6,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 25,
+   "start": 197.95,
+   "end": 201.5,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe"
+   }
+  }
+ ],
+ "camera_moves": []
+}

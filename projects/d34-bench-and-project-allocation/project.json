@@ -1,0 +1,103 @@
+{
+  "name": "d34-bench-and-project-allocation",
+  "createdAt": "2026-11-18T17:15:23.434Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d34-bench-and-project-allocation/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d34/d34-voice.wav",
+    "duration": 205.12,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d34-bench-and-project-allocation/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d34/d34_bench_and_project_allocation_voiceover.txt",
+    "words": 695,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d34-bench-and-project-allocation/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Wipro",
+    "Employees",
+    "Ask"
+  ],
+  "mode": "faceless",
+  "style": "glass",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; documentary storytelling look: full-frame b-roll leads, graphics docked to one side, quote pulls on the key lines, timelines for the backstory; slower, a beat every 6-10 s; low sub-band SFX on structure only",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 22.64,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-18T17:16:23.290Z",
+      "words": 692,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-18T17:16:29.810Z",
+      "segments": 11,
+      "kept": 201.5
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-18T17:42:35.730Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d34-bench-and-project-allocation/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-18T17:42:39.136Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-18T17:42:39.167Z",
+      "groups": 177
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-18T17:42:45.829Z",
+      "music": 0,
+      "sfx": 12
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-18T17:45:57.049Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d34-bench-and-project-allocation/output/final-16x9.mp4",
+      "duration": 211.546
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.915558,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d34-bench-and-project-allocation/work/cleancut.wav",
+    "duration": 201.5,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

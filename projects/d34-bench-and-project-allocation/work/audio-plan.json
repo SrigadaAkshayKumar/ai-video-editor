@@ -1,0 +1,80 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 1,
+   "reason": "title_slide: Joined. No project yet."
+  },
+  {
+   "time": 23.08,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "chapter_open: What is the bench?"
+  },
+  {
+   "time": 27.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Where the bench sits"
+  },
+  {
+   "time": 48.08,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "chapter_open: Wipro's new rule"
+  },
+  {
+   "time": 66.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "stat_trio: "
+  },
+  {
+   "time": 90.38,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "timeline: Bench window"
+  },
+  {
+   "time": 97.28,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "quote_pull: Even the generous rule has an end date."
+  },
+  {
+   "time": 103.08,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "chapter_open: The four things"
+  },
+  {
+   "time": 126.58,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "big_statement: Build one small thing"
+  },
+  {
+   "time": 153.08,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "chapter_open: The trap"
+  },
+  {
+   "time": 166.88,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "quote_pull: What will I learn on this project?"
+  },
+  {
+   "time": 189.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "quote_pull: How many weeks did you wait for a project?"
+  }
+ ]
+}
