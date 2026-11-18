@@ -1,0 +1,128 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "title_slide: Lost in 2 minutes"
+  },
+  {
+   "time": 11.48,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "step_progress: 3 rules"
+  },
+  {
+   "time": 26.38,
+   "sfx": "typing",
+   "gain": 3,
+   "reason": "checklist: What panels watch"
+  },
+  {
+   "time": 35.68,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 51.08,
+   "sfx": "click",
+   "gain": 3,
+   "reason": "big_statement: Value, not volume"
+  },
+  {
+   "time": 53.98,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Start with structure"
+  },
+  {
+   "time": 63.88,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Three-sentence opening"
+  },
+  {
+   "time": 94.58,
+   "sfx": "impact",
+   "gain": 4,
+   "reason": "chapter_open: Listen, then connect"
+  },
+  {
+   "time": 102.68,
+   "sfx": "typing",
+   "gain": 3,
+   "reason": "checklist: Sample phrases"
+  },
+  {
+   "time": 124.28,
+   "sfx": "click",
+   "gain": 3,
+   "reason": "quote_pull: We have not heard from you yet. What do you think?"
+  },
+  {
+   "time": 129.48,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Never interrupt, never fight"
+  },
+  {
+   "time": 143.08,
+   "sfx": "click",
+   "gain": 3,
+   "reason": "big_statement: Team from week one"
+  },
+  {
+   "time": 146.88,
+   "sfx": "click",
+   "gain": 3,
+   "reason": "quote_pull: Let me finish this one point, then please go ahead."
+  },
+  {
+   "time": 152.28,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 162.48,
+   "sfx": "typing",
+   "gain": 3,
+   "reason": "bullet_list: Small traps"
+  },
+  {
+   "time": 176.68,
+   "sfx": "impact",
+   "gain": 4,
+   "reason": "chapter_open: Practise this week"
+  },
+  {
+   "time": 182.48,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Practice round"
+  },
+  {
+   "time": 191.88,
+   "sfx": "typing",
+   "gain": 3,
+   "reason": "checklist: Practising alone"
+  },
+  {
+   "time": 212.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "step_progress: Summary"
+  },
+  {
+   "time": 221.08,
+   "sfx": "click",
+   "gain": 3,
+   "reason": "quote_pull: Which group discussion topic scares you the most?"
+  }
+ ]
+}

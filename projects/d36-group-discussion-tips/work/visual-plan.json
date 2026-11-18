@@ -1,0 +1,749 @@
+{
+ "style": "blueprint",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 3.95,
+   "type": "title_slide",
+   "text": "Lost in 2 minutes",
+   "eyebrow": "Crack IT · Day 36",
+   "style_hint": "Group discussion: 3 rules"
+  },
+  {
+   "start": 4.8,
+   "duration": 3.5,
+   "type": "side_note",
+   "text": "Campus + off-campus rounds",
+   "side": "right"
+  },
+  {
+   "start": 11.4,
+   "duration": 7.2,
+   "type": "step_progress",
+   "side": "right",
+   "text": "3 rules",
+   "items": [
+    {
+     "label": "Start"
+    },
+    {
+     "label": "Listen"
+    },
+    {
+     "label": "Never fight"
+    }
+   ],
+   "current_step": 2
+  },
+  {
+   "start": 19.4,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Not a debate",
+   "side": "right"
+  },
+  {
+   "start": 23,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Nobody is trying to win",
+   "side": "left"
+  },
+  {
+   "start": 26.3,
+   "duration": 8.8,
+   "type": "checklist",
+   "text": "What panels watch",
+   "eyebrow": "General guidance, not a company rule",
+   "items": [
+    {
+     "label": "Clear communication",
+     "state": "yes"
+    },
+    {
+     "label": "Listening",
+     "state": "yes"
+    },
+    {
+     "label": "Teamwork",
+     "state": "yes"
+    },
+    {
+     "label": "Calm under disagreement",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 35.6,
+   "duration": 5.8,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Arjun",
+    "text": "Talks most, rejected"
+   },
+   "right": {
+    "label": "Meena",
+    "text": "Speaks 3 times, selected"
+   }
+  },
+  {
+   "start": 42,
+   "duration": 4,
+   "type": "side_note",
+   "text": "Made-up examples",
+   "side": "right"
+  },
+  {
+   "start": 46.5,
+   "duration": 3.9,
+   "type": "keyword_chip",
+   "text": "Connects to the earlier point",
+   "side": "left"
+  },
+  {
+   "start": 51,
+   "duration": 2.8,
+   "type": "big_statement",
+   "text": "Value, not volume",
+   "eyebrow": "The difference"
+  },
+  {
+   "start": 53.9,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Start with structure",
+   "eyebrow": "Point 01",
+   "numeral": "01",
+   "section": 1
+  },
+  {
+   "start": 57.4,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "A weak start is worse than none",
+   "side": "right"
+  },
+  {
+   "start": 63.8,
+   "duration": 8.5,
+   "type": "flow_diagram",
+   "text": "Three-sentence opening",
+   "items": [
+    {
+     "label": "Meaning"
+    },
+    {
+     "label": "Why it matters"
+    },
+    {
+     "label": "How we discuss"
+    }
+   ]
+  },
+  {
+   "start": 73,
+   "duration": 7,
+   "type": "side_note",
+   "text": "Sample topic: work from home vs office",
+   "side": "right"
+  },
+  {
+   "start": 88.4,
+   "duration": 5.4,
+   "type": "side_note",
+   "text": "Speaking first is optional. A clear first point is not.",
+   "side": "right"
+  },
+  {
+   "start": 94.5,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Listen, then connect",
+   "eyebrow": "Point 02",
+   "numeral": "02",
+   "section": 2
+  },
+  {
+   "start": 97.8,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "One keyword per speaker",
+   "side": "left"
+  },
+  {
+   "start": 102.6,
+   "duration": 12.4,
+   "type": "checklist",
+   "text": "Sample phrases",
+   "items": [
+    {
+     "label": "I agree with ... and I would add",
+     "state": "yes"
+    },
+    {
+     "label": "I see it differently because",
+     "state": "yes"
+    },
+    {
+     "label": "Disagree with the idea, not the person",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 115.6,
+   "duration": 4.8,
+   "type": "keyword_chip",
+   "text": "Disagree with the idea",
+   "side": "right"
+  },
+  {
+   "start": 121.2,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "Invite the quiet ones",
+   "side": "left"
+  },
+  {
+   "start": 124.2,
+   "duration": 4.8,
+   "type": "quote_pull",
+   "text": "We have not heard from you yet. What do you think?",
+   "eyebrow": "Sounds like a leader"
+  },
+  {
+   "start": 129.4,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Never interrupt, never fight",
+   "eyebrow": "Point 03",
+   "numeral": "03",
+   "section": 3
+  },
+  {
+   "start": 133.6,
+   "duration": 4.2,
+   "type": "side_note",
+   "text": "Loud is not confident",
+   "side": "right"
+  },
+  {
+   "start": 138.4,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "Interrupting = not a team player",
+   "side": "left"
+  },
+  {
+   "start": 143,
+   "duration": 3.2,
+   "type": "big_statement",
+   "text": "Team from week one",
+   "eyebrow": "Software company"
+  },
+  {
+   "start": 146.8,
+   "duration": 5.2,
+   "type": "quote_pull",
+   "text": "Let me finish this one point, then please go ahead.",
+   "eyebrow": "If someone interrupts you"
+  },
+  {
+   "start": 152.2,
+   "duration": 6.8,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Shouting match",
+    "text": "Two views, no result"
+   },
+   "right": {
+    "label": "You",
+    "text": "One point each, then decide"
+   }
+  },
+  {
+   "start": 159.4,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "Panels remember calm",
+   "side": "left"
+  },
+  {
+   "start": 162.4,
+   "duration": 13.6,
+   "type": "bullet_list",
+   "side": "right",
+   "text": "Small traps",
+   "items": [
+    {
+     "label": "Phone or notes, unless allowed"
+    },
+    {
+     "label": "Mother tongue in an English round"
+    },
+    {
+     "label": "Statistics you are not sure about"
+    }
+   ]
+  },
+  {
+   "start": 176.6,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Practise this week",
+   "eyebrow": "This week",
+   "numeral": "04",
+   "section": 4
+  },
+  {
+   "start": 180,
+   "duration": 2,
+   "type": "keyword_chip",
+   "text": "One topic a day",
+   "side": "right"
+  },
+  {
+   "start": 182.4,
+   "duration": 8.6,
+   "type": "flow_diagram",
+   "text": "Practice round",
+   "items": [
+    {
+     "label": "10 min timer"
+    },
+    {
+     "label": "One observer"
+    },
+    {
+     "label": "Feedback on 4 things"
+    }
+   ]
+  },
+  {
+   "start": 191.8,
+   "duration": 10.6,
+   "type": "checklist",
+   "text": "Practising alone",
+   "items": [
+    {
+     "label": "Record 2 minutes",
+     "state": "yes"
+    },
+    {
+     "label": "3-sentence opening",
+     "state": "yes"
+    },
+    {
+     "label": "Two points + one-line summary",
+     "state": "yes"
+    },
+    {
+     "label": "Fix one thing only",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 203,
+   "duration": 4.8,
+   "type": "side_note",
+   "text": "End with a short summary of what was agreed",
+   "side": "right"
+  },
+  {
+   "start": 212,
+   "duration": 8.4,
+   "type": "step_progress",
+   "side": "right",
+   "text": "Summary",
+   "items": [
+    {
+     "label": "Structure"
+    },
+    {
+     "label": "Listen + connect"
+    },
+    {
+     "label": "No fighting"
+    }
+   ],
+   "current_step": 2
+  },
+  {
+   "start": 221,
+   "duration": 7.8,
+   "type": "quote_pull",
+   "text": "Which group discussion topic scares you the most?",
+   "eyebrow": "Tell me in the comments"
+  },
+  {
+   "start": 229.8,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "Like · Share · Subscribe",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "index": 0,
+   "start": 0,
+   "end": 2.6,
+   "kind": "broll",
+   "src": "assets/broll/meeting.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade"
+  },
+  {
+   "index": 1,
+   "start": 2.6,
+   "end": 8.5,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "2 min",
+    "label": "to lose the round"
+   }
+  },
+  {
+   "index": 2,
+   "start": 8.5,
+   "end": 14.9,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3",
+    "label": "rules"
+   }
+  },
+  {
+   "index": 3,
+   "start": 14.9,
+   "end": 19.2,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "3rd",
+    "label": "the one most people miss"
+   }
+  },
+  {
+   "index": 4,
+   "start": 19.2,
+   "end": 26,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "≠",
+    "label": "debate"
+   }
+  },
+  {
+   "index": 5,
+   "start": 26,
+   "end": 35.3,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "4",
+    "label": "things panels watch"
+   }
+  },
+  {
+   "index": 6,
+   "start": 35.3,
+   "end": 41.5,
+   "kind": "broll",
+   "src": "assets/broll/laptops.mp4",
+   "media_start": 2,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 7,
+   "start": 41.5,
+   "end": 50.7,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "3x",
+    "label": "Meena spoke"
+   }
+  },
+  {
+   "index": 8,
+   "start": 50.7,
+   "end": 53.9,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 9,
+   "start": 53.9,
+   "end": 63.5,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "1",
+    "label": "structure first"
+   }
+  },
+  {
+   "index": 10,
+   "start": 63.5,
+   "end": 72.5,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "3",
+    "label": "short sentences"
+   }
+  },
+  {
+   "index": 11,
+   "start": 72.5,
+   "end": 80.8,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "WFH",
+    "label": "vs office - sample topic"
+   }
+  },
+  {
+   "index": 12,
+   "start": 80.8,
+   "end": 87.5,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 13,
+   "start": 87.5,
+   "end": 94.4,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "2nd",
+    "label": "or 3rd is fine"
+   }
+  },
+  {
+   "index": 14,
+   "start": 94.4,
+   "end": 102.2,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "2",
+    "label": "listen, then connect"
+   }
+  },
+  {
+   "index": 15,
+   "start": 102.2,
+   "end": 109.2,
+   "kind": "broll",
+   "src": "assets/broll/students.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 16,
+   "start": 109.2,
+   "end": 115.3,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "link",
+    "label": "build on ideas"
+   }
+  },
+  {
+   "index": 17,
+   "start": 115.3,
+   "end": 122,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "idea",
+    "label": "not the person"
+   }
+  },
+  {
+   "index": 18,
+   "start": 122,
+   "end": 129.2,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "?",
+    "label": "invite quiet voices"
+   }
+  },
+  {
+   "index": 19,
+   "start": 129.2,
+   "end": 136,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "3",
+    "label": "don't interrupt, don't fight"
+   }
+  },
+  {
+   "index": 20,
+   "start": 136,
+   "end": 142.5,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "loud",
+    "label": "is not confident"
+   }
+  },
+  {
+   "index": 21,
+   "start": 142.5,
+   "end": 149,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "calm",
+    "label": "wins the room"
+   }
+  },
+  {
+   "index": 22,
+   "start": 149,
+   "end": 155.5,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "2",
+    "label": "views, one list"
+   }
+  },
+  {
+   "index": 23,
+   "start": 155.5,
+   "end": 162.1,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "calm",
+    "label": "is remembered"
+   }
+  },
+  {
+   "index": 24,
+   "start": 162.1,
+   "end": 169,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "!",
+    "label": "small traps"
+   }
+  },
+  {
+   "index": 25,
+   "start": 169,
+   "end": 176.4,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "NO",
+    "label": "unsure statistics"
+   }
+  },
+  {
+   "index": 26,
+   "start": 176.4,
+   "end": 185.2,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "10",
+    "label": "min timer"
+   }
+  },
+  {
+   "index": 27,
+   "start": 185.2,
+   "end": 194.6,
+   "kind": "graphic",
+   "grade": "neutral"
+  },
+  {
+   "index": 28,
+   "start": 194.6,
+   "end": 201,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "2 min",
+    "label": "record yourself"
+   }
+  },
+  {
+   "index": 29,
+   "start": 201,
+   "end": 207.9,
+   "kind": "broll",
+   "src": "assets/broll/meeting.mp4",
+   "media_start": 8,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade"
+  },
+  {
+   "index": 30,
+   "start": 207.9,
+   "end": 216.3,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "3",
+    "label": "rules"
+   }
+  },
+  {
+   "index": 31,
+   "start": 216.3,
+   "end": 224,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "?",
+    "label": "your topic"
+   }
+  },
+  {
+   "index": 32,
+   "start": 224,
+   "end": 234.43,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe"
+   }
+  }
+ ],
+ "camera_moves": []
+}

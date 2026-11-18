@@ -1,0 +1,104 @@
+{
+  "name": "d36-group-discussion-tips",
+  "createdAt": "2026-11-18T19:52:56.138Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d36-group-discussion-tips/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d36/d36-voice.wav",
+    "duration": 239.84,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d36-group-discussion-tips/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d36/d36_group_discussion_tips_voiceover.txt",
+    "words": 804,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d36-group-discussion-tips/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Meena",
+    "Point",
+    "Start",
+    "Say"
+  ],
+  "mode": "faceless",
+  "style": "blueprint",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; terminal / data-desk look: monospace, stepped plotter arrivals; graphic-led (flow diagrams, checklists, number rolls), b-roll sparse and docked; a beat every 5-7 s; crisp digital ticks and soft clicks for SFX",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 19,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-18T19:54:50.346Z",
+      "words": 801,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-18T19:54:58.575Z",
+      "segments": 17,
+      "kept": 234.433
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-18T20:14:25.050Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d36-group-discussion-tips/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-18T20:14:36.931Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-18T20:14:36.961Z",
+      "groups": 203
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-18T20:14:37.664Z",
+      "music": 0,
+      "sfx": 20
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-18T20:18:08.135Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d36-group-discussion-tips/output/final-16x9.mp4",
+      "duration": 244.458
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.957305,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d36-group-discussion-tips/work/cleancut.wav",
+    "duration": 234.433292,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}
