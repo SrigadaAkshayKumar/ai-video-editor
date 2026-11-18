@@ -181,7 +181,10 @@ jobs:
           rclone copy "$DRIVE/$SRC" "$SRC" -q
           rclone copy "$DRIVE/inbox/faceless/Crack_IT_Daily_Videos" inbox/faceless/Crack_IT_Daily_Videos --include "*_script.md" -q
           .github/scripts/claude-run.sh claude-script-log.jsonl 90 "This is the unattended long-form script step: use the longform-script skill.
-          SRC=$SRC, number NN=$N. Today: $(TZ=Asia/Kolkata date '+%A %d %B %Y, %H:%M IST')"
+          SRC=$SRC, number NN=$N. Today: $(TZ=Asia/Kolkata date '+%A %d %B %Y, %H:%M IST')
+          Already on YouTube. Never make a long-form on any of these topics again, not even under another title (the
+          short dNN videos may be gone deeper on, but not repeated as a whole):
+          $(.github/scripts/covered-topics.sh)"
           node -e 'const j=require("./longform-script.json"); if (j.status !== "ok") { console.error("script step failed: " + j.notes); process.exit(1); }'
           ls "$SRC"/${N}_*_script.md "$SRC"/${N}_*_voiceover.clean.txt
           rclone copy "$SRC" "$DRIVE/$SRC" --include "${N}_*" -v
