@@ -288,8 +288,8 @@ jobs:
           CLEAN: ${{ steps.name.outputs.clean }}
           WAV: ${{ steps.name.outputs.wav }}
         run: |
-          # leave ~25 min of the 6-hour job for saving progress to Drive
-          left=$(( 355 - ($(date +%s) - JOB_START) / 60 - 25 ))
+          # leave ~60 min of the 6-hour job for saving progress, delivering, scheduling and starting the next run
+          left=$(( 355 - ($(date +%s) - JOB_START) / 60 - 60 ))   # 60: save (up to 25) + deliver + schedule + next run
           echo "time budget for Claude: $left min" >> "$GITHUB_STEP_SUMMARY"
           .github/scripts/claude-run.sh claude-log.jsonl "$left" "This is the unattended LONG-FORM run for the Crack IT channel (run $ATTEMPT; nobody will answer questions).
           Make a finished long YouTube video, project projects/$P, from the owner's voiceover.
@@ -315,6 +315,10 @@ jobs:
 
       - name: Save progress to Drive
         if: always()
+        # a stalled Drive upload once ran into the job's 6 h limit (2026-11-18): the job was killed before it could start
+        # the next run. Cap it; the edit is resumable, so a partial save only costs some redone work
+        timeout-minutes: 25
+        continue-on-error: true
         env:
           P: ${{ steps.name.outputs.p || format('lf{0}-script', needs.plan.outputs.n) }}
         run: |
