@@ -353,9 +353,10 @@ for (const p of plan) {
 }
 
 if (!dryRun) writeJson(join(out, "youtube-uploaded.json"), { uploadedAt: new Date().toISOString(), videos: results });
-// the ledger entry (committed by the workflow): only what the queue needs, no video ids
+// the ledger entry (committed by the workflow): publish time and title (the script steps read the titles so a
+// topic is never repeated), no video ids
 if (!dryRun) writeJson(join(LEDGER, `${project}.json`), { project, videos: results.filter((r) => r.kind === "video")
-  .map((r) => ({ kind: r.kind, publishAt: r.publishAt })) });
+  .map((r) => ({ kind: r.kind, publishAt: r.publishAt, title: r.title })) });
 const lines = ["### YouTube", "", "| | Title | Publishes | YouTube stored | Thumbnail |", "|---|---|---|---|---|",
   ...results.map((r) => `| ${r.url ? `[${r.kind}](${r.url})` : r.kind} | ${md(r.title)} | ${istText(r.publishAt)} | ${r.youtubeStatus ? `${r.youtubeStatus.privacy}, ${r.youtubeStatus.publishAt ? "scheduled " + istText(r.youtubeStatus.publishAt) : "NO schedule"}` : ""} | ${r.thumbnail || (r.kind === "video" ? "YouTube auto" : "")} |`), "",
   ...(videoUrl && results.some((r) => r.kind === "short") ? [`Related video: the API cannot set it. In Studio → each Short → Details → Related video → pick ${videoUrl}.`, ""] : []),

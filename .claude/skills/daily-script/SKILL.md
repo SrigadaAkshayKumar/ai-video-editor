@@ -53,8 +53,9 @@ joining dates moved, an exam/assessment announced, an offer-letter or BGV policy
 results, visas, stock moves, layoffs of senior staff, AI-industry news and the like are **not** topics on their own.
 
 - **Audience:** engineering/science students and freshers moving from campus to their first IT job in India.
-- **Evergreen pillars** (pick the one the series has covered least lately; never repeat a title already in the
-  series, look at every `dNN/*_script.md` title line):
+- **Evergreen pillars** (pick the one the series has covered least lately; never repeat a topic already in the
+  series: look at every `dNN/*_script.md` title line and every file in `config/youtube-scheduled/`, the record of
+  everything already on YouTube that survives a Drive cleanup):
   1. Offer, onboarding and joining: offer letter vs appointment letter, joining-date delays, documents, first week.
   2. Background verification: what is checked, mismatches, gaps, insufficiency mails.
   3. Interviews and tests: aptitude, coding rounds, HR questions, NQT-style exams, group discussion.
