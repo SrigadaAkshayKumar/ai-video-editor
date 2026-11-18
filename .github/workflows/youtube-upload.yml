@@ -92,7 +92,7 @@ jobs:
           [ -f "AI-clipper/output/$P/clips.json" ] && cp "AI-clipper/output/$P/clips.json" "AI-clipper/jobs/$P/clips.json" || true
           if [ "${{ inputs.rewrite }}" = "true" ]; then rm -f "projects/$P/output/youtube.json"; fi
           if [ "${{ inputs.update }}" = "true" ] || [ "${{ inputs.unschedule }}" = "true" ]; then
-            test -f "projects/$P/output/youtube-uploaded.json" || { echo "::error::$P is not on YouTube yet (no youtube-uploaded.json)"; exit 1; }
+            ls "projects/$P/output/" | grep -qE '^youtube-(uploaded|unscheduled)\.json$' || { echo "::error::$P is not on YouTube yet (no youtube-uploaded.json)"; exit 1; }
           elif [ -f "projects/$P/output/youtube-uploaded.json" ] && [ "${{ inputs.force }}" != "true" ]; then
             echo "::error::$P is already uploaded (youtube-uploaded.json in Drive). Tick 'force' to upload again."; exit 1
           fi
@@ -125,7 +125,7 @@ jobs:
         run: |
           node tools/youtube.mjs "$P" --unschedule
           # the queue reads youtube-uploaded.json from Drive too: keep the record under another name so the day is free
-          rclone moveto "$DRIVE/output/$P/youtube-uploaded.json" "$DRIVE/output/$P/youtube-unscheduled.json" -v
+          rclone moveto "$DRIVE/output/$P/youtube-uploaded.json" "$DRIVE/output/$P/youtube-unscheduled.json" -v || true
           git config user.name "youtube bot"; git config user.email "actions@users.noreply.github.com"
           git add -A config/youtube-scheduled; git diff --cached --quiet || git commit -q -m "youtube: $P unscheduled"
           for i in 1 2 3; do git pull --rebase --autostash -q && git push -q && break; sleep 10; done

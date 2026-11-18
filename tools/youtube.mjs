@@ -124,8 +124,9 @@ if (flags.unschedule) await unscheduleOnly(project);
 /** --unschedule: take an episode's videos (main + Shorts) off the schedule: plain Private, no publish time (reversible:
  * schedule it again in Studio or with --update --publish). Frees its day: the ledger entry is removed. Never deletes. */
 async function unscheduleOnly(p) {
-  const upFile = join(PROJECTS, p, "output", "youtube-uploaded.json");
-  if (!existsSync(upFile)) die(`${upFile} missing: ${p} is not on YouTube`);
+  // youtube-unscheduled.json: a second run on an episode already (partly) taken off the schedule
+  const upFile = ["youtube-uploaded.json", "youtube-unscheduled.json"].map((n) => join(PROJECTS, p, "output", n)).find((f) => existsSync(f));
+  if (!upFile) die(`no youtube-uploaded.json for ${p}: it is not on YouTube`);
   const token = await accessToken();
   for (const v of readJson(upFile).videos || []) {
     if (!v.id) continue;
@@ -133,13 +134,20 @@ async function unscheduleOnly(p) {
     if (!cur) { console.log(`${v.kind} ${v.id}: not found on YouTube (deleted?)`); continue; }
     if (cur.status.privacyStatus === "public") die(`${v.kind} ${v.id} is already public: not touched`);
     const { publishAt, ...status } = cur.status;
-    const r = await fetch("https://www.googleapis.com/youtube/v3/videos?part=status", { method: "PUT",
-      headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
-      body: JSON.stringify({ id: v.id, status: { privacyStatus: "private", embeddable: status.embeddable, license: status.license,
-        publicStatsViewable: status.publicStatsViewable, selfDeclaredMadeForKids: status.selfDeclaredMadeForKids,
-        containsSyntheticMedia: status.containsSyntheticMedia } }) });
-    const j = await r.json();
-    if (!r.ok) die(`${v.kind} ${v.id}: ${JSON.stringify(j.error || j)}`);
+    // Shorts kept their publishAt when it was only left out (2026-11-18, lf01): send it as null explicitly, check, retry
+    let j;
+    for (let attempt = 0; attempt < 3; attempt++) {
+      const r = await fetch("https://www.googleapis.com/youtube/v3/videos?part=status", { method: "PUT",
+        headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
+        body: JSON.stringify({ id: v.id, status: { privacyStatus: "private", publishAt: null, embeddable: status.embeddable,
+          license: status.license, publicStatsViewable: status.publicStatsViewable,
+          selfDeclaredMadeForKids: status.selfDeclaredMadeForKids, containsSyntheticMedia: status.containsSyntheticMedia } }) });
+      j = await r.json();
+      if (!r.ok) die(`${v.kind} ${v.id}: ${JSON.stringify(j.error || j)}`);
+      if (!j.status.publishAt) break;
+      await new Promise((ok) => setTimeout(ok, 3000));
+    }
+    if (j.status.publishAt) die(`${v.kind} ${v.id}: YouTube still has publishAt ${j.status.publishAt}; take it off the schedule in Studio`);
     console.log(`${v.kind} ${v.url || v.id}: ${j.status.privacyStatus}, publishAt ${j.status.publishAt || "none"} (was ${publishAt || "none"})`);
   }
   rmSync(join(LEDGER, `${p}.json`), { force: true });
