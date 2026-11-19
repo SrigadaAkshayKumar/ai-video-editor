@@ -1,0 +1,607 @@
+{
+ "style": "blueprint",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 4.55,
+   "type": "title_slide",
+   "text": "Appraisal outcome",
+   "eyebrow": "Crack IT · Day 39",
+   "style_hint": "Decided before anyone tells you"
+  },
+  {
+   "start": 5,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "Decided before you know",
+   "side": "right"
+  },
+  {
+   "start": 7.6,
+   "duration": 4,
+   "type": "big_statement",
+   "text": "Too late",
+   "eyebrow": "Most freshers find out"
+  },
+  {
+   "start": 12,
+   "duration": 3.4,
+   "type": "number_roll",
+   "value": 3,
+   "text": "things decide your rating",
+   "decimals": 0
+  },
+  {
+   "start": 15.8,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "One costly mistake",
+   "side": "left"
+  },
+  {
+   "start": 20.2,
+   "duration": 4.6,
+   "type": "keyword_chip",
+   "text": "Policy differs: read yours",
+   "side": "left"
+  },
+  {
+   "start": 28,
+   "duration": 15.6,
+   "type": "timeline",
+   "side": "right",
+   "text": "Appraisal cycle",
+   "items": [
+    {
+     "label": "Goals",
+     "sublabel": "start of year"
+    },
+    {
+     "label": "Work",
+     "sublabel": "during the year"
+    },
+    {
+     "label": "Self review",
+     "sublabel": "near the end"
+    },
+    {
+     "label": "Manager rating",
+     "sublabel": "your manager"
+    },
+    {
+     "label": "Team calibration",
+     "sublabel": "you don't see this"
+    }
+   ]
+  },
+  {
+   "start": 45,
+   "duration": 6.2,
+   "type": "flow_diagram",
+   "text": "Where the rating goes",
+   "items": [
+    {
+     "label": "Rating",
+     "sublabel": "final"
+    },
+    {
+     "label": "Hike",
+     "sublabel": "pay rise"
+    },
+    {
+     "label": "Bonus",
+     "sublabel": "if paid"
+    }
+   ]
+  },
+  {
+   "start": 51.8,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "First cycle may be pro rata",
+   "side": "right"
+  },
+  {
+   "start": 54.4,
+   "duration": 2.9,
+   "type": "side_note",
+   "text": "Ask HR how your first cycle works",
+   "side": "left"
+  },
+  {
+   "start": 57.6,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Your goals",
+   "eyebrow": "Thing 01",
+   "numeral": "01",
+   "section": 1
+  },
+  {
+   "start": 66.2,
+   "duration": 10.4,
+   "type": "checklist",
+   "side": "right",
+   "text": "Goals, on record",
+   "items": [
+    {
+     "label": "Ask what a good year looks like",
+     "state": "yes"
+    },
+    {
+     "label": "Email the answer back",
+     "state": "yes"
+    },
+    {
+     "label": "Keep the reply",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 77.2,
+   "duration": 11,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Goals written",
+    "text": "Testing"
+   },
+   "right": {
+    "label": "Work done",
+    "text": "Development"
+   }
+  },
+  {
+   "start": 88.6,
+   "duration": 4,
+   "type": "side_note",
+   "text": "Example: Ravi (fictional)",
+   "side": "left"
+  },
+  {
+   "start": 93,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Fixed in March = easy",
+   "side": "right"
+  },
+  {
+   "start": 96.3,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Your proof",
+   "eyebrow": "Thing 02",
+   "numeral": "02",
+   "section": 2
+  },
+  {
+   "start": 100,
+   "duration": 2.4,
+   "type": "side_note",
+   "text": "Three lines every Friday",
+   "side": "right"
+  },
+  {
+   "start": 102.8,
+   "duration": 9.2,
+   "type": "flow_diagram",
+   "text": "The work diary",
+   "items": [
+    {
+     "label": "Friday notes",
+     "sublabel": "3 lines"
+    },
+    {
+     "label": "Monthly summary",
+     "sublabel": ""
+    },
+    {
+     "label": "Self review",
+     "sublabel": "facts, not words"
+    }
+   ]
+  },
+  {
+   "start": 112.6,
+   "duration": 8.4,
+   "type": "number_roll",
+   "value": 50,
+   "text": "small facts instead of one vague line",
+   "decimals": 0
+  },
+  {
+   "start": 122.5,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Bonus: interview proof",
+   "side": "right"
+  },
+  {
+   "start": 126,
+   "duration": 7.6,
+   "type": "side_note",
+   "text": "Keep it personal, never copy confidential material",
+   "side": "left"
+  },
+  {
+   "start": 134.4,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Visibility",
+   "eyebrow": "Thing 03",
+   "numeral": "03",
+   "section": 3
+  },
+  {
+   "start": 138.2,
+   "duration": 5.4,
+   "type": "side_note",
+   "text": "Silent good work = invisible work",
+   "side": "right"
+  },
+  {
+   "start": 144,
+   "duration": 7.4,
+   "type": "flow_diagram",
+   "text": "Who speaks for you",
+   "items": [
+    {
+     "label": "You",
+     "sublabel": ""
+    },
+    {
+     "label": "Manager",
+     "sublabel": "your voice"
+    },
+    {
+     "label": "Team discussion",
+     "sublabel": "the room"
+    }
+   ]
+  },
+  {
+   "start": 152,
+   "duration": 8.4,
+   "type": "checklist",
+   "side": "right",
+   "text": "Mail every two weeks",
+   "items": [
+    {
+     "label": "What is done",
+     "state": "yes"
+    },
+    {
+     "label": "What is blocked",
+     "state": "yes"
+    },
+    {
+     "label": "What is next",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 161.6,
+   "duration": 4.8,
+   "type": "side_note",
+   "text": "Trap: a complaint-only review",
+   "side": "left"
+  },
+  {
+   "start": 166.8,
+   "duration": 5.5,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Walk in with",
+    "text": "Only a hike complaint"
+   },
+   "right": {
+    "label": "Better",
+    "text": "Goals, proof, plan"
+   }
+  },
+  {
+   "start": 173,
+   "duration": 7,
+   "type": "fact_band",
+   "text": "To sum up",
+   "items": [
+    {
+     "label": "Know your goals",
+     "sublabel": "Goals"
+    },
+    {
+     "label": "Keep your proof",
+     "sublabel": "Proof"
+    },
+    {
+     "label": "Be visible",
+     "sublabel": "Visibility"
+    }
+   ]
+  },
+  {
+   "start": 180.6,
+   "duration": 8.3,
+   "type": "quote_pull",
+   "text": "Has your company told you how your first appraisal works?",
+   "eyebrow": "Yes or no, and what surprised you?"
+  },
+  {
+   "start": 189.5,
+   "duration": 3.9,
+   "type": "big_statement",
+   "text": "Crack IT",
+   "eyebrow": "Like · Subscribe"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 7,
+   "index": 0
+  },
+  {
+   "start": 7,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "?",
+    "label": "decided before you know"
+   },
+   "end": 13.5,
+   "index": 1
+  },
+  {
+   "start": 13.5,
+   "kind": "broll",
+   "src": "assets/broll/team.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 19.62,
+   "index": 2
+  },
+  {
+   "start": 19.62,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "5",
+    "label": "steps in a cycle"
+   },
+   "end": 32,
+   "index": 3
+  },
+  {
+   "start": 32,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "?",
+    "label": "calibration: you never see it"
+   },
+   "end": 44.5,
+   "index": 4
+  },
+  {
+   "start": 44.5,
+   "kind": "broll",
+   "src": "assets/broll/meeting.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 51.5,
+   "index": 5
+  },
+  {
+   "start": 51.5,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "HR",
+    "label": "ask about the first cycle"
+   },
+   "end": 57.6,
+   "index": 6
+  },
+  {
+   "start": 57.6,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 61,
+   "index": 7
+  },
+  {
+   "start": 61,
+   "kind": "broll",
+   "src": "assets/broll/notes.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 66,
+   "index": 8
+  },
+  {
+   "start": 66,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "1",
+    "label": "goals = the exam paper"
+   },
+   "end": 77,
+   "index": 9
+  },
+  {
+   "start": 77,
+   "kind": "broll",
+   "src": "assets/broll/meeting.mp4",
+   "media_start": 12,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 88.5,
+   "index": 10
+  },
+  {
+   "start": 88.5,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "March",
+    "label": "fix it early, not in December"
+   },
+   "end": 96.3,
+   "index": 11
+  },
+  {
+   "start": 96.3,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 100,
+   "index": 12
+  },
+  {
+   "start": 100,
+   "kind": "broll",
+   "src": "assets/broll/notes.mp4",
+   "media_start": 6,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 106,
+   "index": 13
+  },
+  {
+   "start": 106,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "Fri",
+    "label": "three lines, every week"
+   },
+   "end": 112.5,
+   "index": 14
+  },
+  {
+   "start": 112.5,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "50",
+    "label": "small facts, not one line"
+   },
+   "end": 122.5,
+   "index": 15
+  },
+  {
+   "start": 122.5,
+   "kind": "broll",
+   "src": "assets/broll/meeting.mp4",
+   "media_start": 20,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 134.4,
+   "index": 16
+  },
+  {
+   "start": 134.4,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 138,
+   "index": 17
+  },
+  {
+   "start": 138,
+   "kind": "broll",
+   "src": "assets/broll/team.mp4",
+   "media_start": 6,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 145,
+   "index": 18
+  },
+  {
+   "start": 145,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "1",
+    "label": "voice in the room: your manager"
+   },
+   "end": 151.8,
+   "index": 19
+  },
+  {
+   "start": 151.8,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "2 wk",
+    "label": "short update mail"
+   },
+   "end": 161.5,
+   "index": 20
+  },
+  {
+   "start": 161.5,
+   "kind": "broll",
+   "src": "assets/broll/meeting.mp4",
+   "media_start": 25,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 172.6,
+   "index": 21
+  },
+  {
+   "start": 172.6,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "3",
+    "label": "habits, 10 minutes a week"
+   },
+   "end": 181,
+   "index": 22
+  },
+  {
+   "start": 181,
+   "kind": "broll",
+   "src": "assets/broll/notes.mp4",
+   "media_start": 4,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 189.4,
+   "index": 23
+  },
+  {
+   "start": 189.4,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe"
+   },
+   "end": 193.53,
+   "index": 24
+  }
+ ],
+ "camera_moves": []
+}

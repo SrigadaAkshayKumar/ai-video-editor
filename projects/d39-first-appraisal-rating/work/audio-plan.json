@@ -1,0 +1,104 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "typing",
+   "gain": 4,
+   "reason": "title_slide: Appraisal outcome"
+  },
+  {
+   "time": 12.08,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "number_roll: things decide your rating"
+  },
+  {
+   "time": 28.08,
+   "sfx": "click",
+   "gain": 4,
+   "reason": "timeline: Appraisal cycle"
+  },
+  {
+   "time": 45.08,
+   "sfx": "click",
+   "gain": 4,
+   "reason": "flow_diagram: Where the rating goes"
+  },
+  {
+   "time": 57.68,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Your goals"
+  },
+  {
+   "time": 66.28,
+   "sfx": "typing",
+   "gain": 4,
+   "reason": "checklist: Goals, on record"
+  },
+  {
+   "time": 77.28,
+   "sfx": "reveal",
+   "gain": 4,
+   "reason": "comparison: "
+  },
+  {
+   "time": 96.38,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Your proof"
+  },
+  {
+   "time": 102.88,
+   "sfx": "click",
+   "gain": 4,
+   "reason": "flow_diagram: The work diary"
+  },
+  {
+   "time": 112.68,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "number_roll: small facts instead of one vague line"
+  },
+  {
+   "time": 134.48,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Visibility"
+  },
+  {
+   "time": 144.08,
+   "sfx": "click",
+   "gain": 4,
+   "reason": "flow_diagram: Who speaks for you"
+  },
+  {
+   "time": 152.08,
+   "sfx": "typing",
+   "gain": 4,
+   "reason": "checklist: Mail every two weeks"
+  },
+  {
+   "time": 166.88,
+   "sfx": "reveal",
+   "gain": 4,
+   "reason": "comparison: "
+  },
+  {
+   "time": 173.08,
+   "sfx": "ding",
+   "gain": 0,
+   "reason": "fact_band: To sum up"
+  },
+  {
+   "time": 180.68,
+   "sfx": "ding",
+   "gain": 0,
+   "reason": "quote_pull: Has your company told you how your first appraisal works?"
+  }
+ ]
+}
