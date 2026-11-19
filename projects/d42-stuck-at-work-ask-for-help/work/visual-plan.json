@@ -1,0 +1,825 @@
+{
+ "style": "blueprint",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 4.15,
+   "type": "title_slide",
+   "text": "Stuck at work?",
+   "eyebrow": "Crack IT · Day 42",
+   "style_hint": "The 30 minute rule"
+  },
+  {
+   "start": 4.6,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Stuck. Silent.",
+   "side": "right"
+  },
+  {
+   "start": 7.9,
+   "duration": 3.1,
+   "type": "big_statement",
+   "text": "Freshers: stay with me",
+   "eyebrow": "Freshers"
+  },
+  {
+   "start": 11.6,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "When to ask",
+   "side": "right"
+  },
+  {
+   "start": 15.2,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "How to ask",
+   "side": "left"
+  },
+  {
+   "start": 18,
+   "duration": 1.7,
+   "type": "side_note",
+   "text": "The one message",
+   "side": "right"
+  },
+  {
+   "start": 20.3,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Why we stay quiet",
+   "eyebrow": "The situation",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 24,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "Read it twice. Still lost.",
+   "side": "right"
+  },
+  {
+   "start": 27.3,
+   "duration": 3.4,
+   "type": "quote_pull",
+   "text": "They will think I am weak",
+   "eyebrow": "Common fresher thought, not a quote"
+  },
+  {
+   "start": 31,
+   "duration": 2.2,
+   "type": "keyword_chip",
+   "text": "A little more on my own",
+   "side": "left"
+  },
+  {
+   "start": 33.6,
+   "duration": 5.4,
+   "type": "timeline",
+   "side": "left",
+   "text": "Stuck, and quiet",
+   "items": [
+    {
+     "label": "1 hour"
+    },
+    {
+     "label": "3 hours"
+    },
+    {
+     "label": "A full day"
+    },
+    {
+     "label": "Nobody knows"
+    }
+   ],
+   "current": 3
+  },
+  {
+   "start": 39.3,
+   "duration": 3,
+   "type": "lower_third",
+   "text": "Two freshers, one task",
+   "eyebrow": "A small story · illustrative",
+   "side": "left"
+  },
+  {
+   "start": 42.6,
+   "duration": 8,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Kiran",
+    "text": "Silent until Thursday, then admits it"
+   },
+   "right": {
+    "label": "Divya",
+    "text": "One clear message, unblocked Tuesday"
+   }
+  },
+  {
+   "start": 51,
+   "duration": 1.8,
+   "type": "side_note",
+   "text": "Same task, Monday",
+   "side": "left"
+  },
+  {
+   "start": 53.4,
+   "duration": 4.5,
+   "type": "side_note",
+   "text": "Divya: no surprises",
+   "side": "right"
+  },
+  {
+   "start": 58.3,
+   "duration": 4.6,
+   "type": "big_statement",
+   "text": "Fear surprises, not questions",
+   "eyebrow": "surprises"
+  },
+  {
+   "start": 63.3,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "The 30 minute rule",
+   "eyebrow": "Step 01",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 66.8,
+   "duration": 6.2,
+   "type": "stat_trio",
+   "items": [
+    {
+     "label": "Small problem, minutes",
+     "value": 30
+    },
+    {
+     "label": "Bigger task, minutes",
+     "value": 60
+    }
+   ]
+  },
+  {
+   "start": 73.5,
+   "duration": 7.5,
+   "type": "checklist",
+   "side": "right",
+   "text": "While the timer runs",
+   "items": [
+    {
+     "label": "Read the error slowly",
+     "state": "yes"
+    },
+    {
+     "label": "Search the exact message",
+     "state": "yes"
+    },
+    {
+     "label": "Check notes and wiki",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 81.5,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Answers already exist",
+   "side": "right"
+  },
+  {
+   "start": 87.2,
+   "duration": 4.8,
+   "type": "big_statement",
+   "text": "Timer ends? Ask. Now.",
+   "eyebrow": "Now"
+  },
+  {
+   "start": 92.4,
+   "duration": 4.2,
+   "type": "side_note",
+   "text": "Waiting adds delay",
+   "side": "left"
+  },
+  {
+   "start": 98,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "How you ask",
+   "eyebrow": "Step 02",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 102.4,
+   "duration": 4.8,
+   "type": "quote_pull",
+   "text": "Sir, I am not able to do it, please help.",
+   "eyebrow": "Bad message · Sample, not a quote from anyone"
+  },
+  {
+   "start": 107.5,
+   "duration": 2.7,
+   "type": "side_note",
+   "text": "Senior must ask 5 questions",
+   "side": "left"
+  },
+  {
+   "start": 110.5,
+   "duration": 3.3,
+   "type": "side_note",
+   "text": "Marked as hand-holding",
+   "side": "right"
+  },
+  {
+   "start": 114.3,
+   "duration": 9.5,
+   "type": "flow_diagram",
+   "text": "The 4-part message",
+   "items": [
+    {
+     "label": "Goal",
+     "sublabel": "what I am doing"
+    },
+    {
+     "label": "Error",
+     "sublabel": "the exact one"
+    },
+    {
+     "label": "Tried",
+     "sublabel": "what I did"
+    },
+    {
+     "label": "My guess",
+     "sublabel": "what it might be"
+    }
+   ]
+  },
+  {
+   "start": 124.3,
+   "duration": 7.9,
+   "type": "comparison",
+   "side": "left",
+   "left": {
+    "label": "Bad · example",
+    "text": "Sir, I am not able to do it"
+   },
+   "right": {
+    "label": "Good · example",
+    "text": "Goal, error, what I tried, my guess"
+   }
+  },
+  {
+   "start": 132.8,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "My guess: database address",
+   "side": "right"
+  },
+  {
+   "start": 137,
+   "duration": 5.2,
+   "type": "side_note",
+   "text": "Often answered in one line",
+   "side": "left"
+  },
+  {
+   "start": 142.5,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Three traps",
+   "eyebrow": "Avoid these",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 146,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Trap 1 · Same question",
+   "side": "right"
+  },
+  {
+   "start": 149.2,
+   "duration": 2.8,
+   "type": "side_note",
+   "text": "Write the answer down",
+   "side": "left"
+  },
+  {
+   "start": 152.8,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "Trap 2 · Asking everyone",
+   "side": "right"
+  },
+  {
+   "start": 155.6,
+   "duration": 2.7,
+   "type": "side_note",
+   "text": "Pick one: buddy or mentor",
+   "side": "left"
+  },
+  {
+   "start": 158.7,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "Not the team group",
+   "side": "right"
+  },
+  {
+   "start": 162,
+   "duration": 3.6,
+   "type": "big_statement",
+   "text": "Trap 3: hiding a delay",
+   "eyebrow": "delay"
+  },
+  {
+   "start": 166,
+   "duration": 8,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Late task",
+    "text": "A normal problem"
+   },
+   "right": {
+    "label": "Late and unknown",
+    "text": "A trust problem"
+   }
+  },
+  {
+   "start": 175,
+   "duration": 4,
+   "type": "side_note",
+   "text": "Meeting? Write it",
+   "side": "left"
+  },
+  {
+   "start": 179.5,
+   "duration": 4.1,
+   "type": "side_note",
+   "text": "Writing = a record",
+   "side": "right"
+  },
+  {
+   "start": 184,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Do this today",
+   "eyebrow": "Step 03",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 187.5,
+   "duration": 8,
+   "type": "checklist",
+   "side": "right",
+   "text": "From today",
+   "items": [
+    {
+     "label": "Set a 30 minute timer",
+     "state": "yes"
+    },
+    {
+     "label": "Search and read notes",
+     "state": "yes"
+    },
+    {
+     "label": "Write the four parts",
+     "state": "yes"
+    },
+    {
+     "label": "Save the replies",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 196.1,
+   "duration": 5.6,
+   "type": "fact_band",
+   "text": "Recap",
+   "items": [
+    {
+     "label": "Try first, with a timer",
+     "sublabel": "1"
+    },
+    {
+     "label": "Ask clearly",
+     "sublabel": "2"
+    },
+    {
+     "label": "Never hide a delay",
+     "sublabel": "3"
+    }
+   ]
+  },
+  {
+   "start": 202.2,
+   "duration": 8.2,
+   "type": "poll_prompt",
+   "text": "What stops you from asking for help?",
+   "eyebrow": "Tell me in the comments",
+   "items": [
+    {
+     "label": "Fear of looking weak",
+     "value": 50
+    },
+    {
+     "label": "Fear of disturbing seniors",
+     "value": 35
+    },
+    {
+     "label": "Something else",
+     "value": 15
+    }
+   ]
+  },
+  {
+   "start": 211.4,
+   "duration": 5.5,
+   "type": "keyword_chip",
+   "text": "Like · Subscribe",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/woman.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 7.69,
+   "index": 0
+  },
+  {
+   "start": 7.69,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "?",
+    "label": "ask, or stay silent"
+   },
+   "end": 11.3,
+   "index": 1
+  },
+  {
+   "start": 11.3,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 15,
+   "index": 2
+  },
+  {
+   "start": 15,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "1",
+    "label": "message managers love"
+   },
+   "end": 19.97,
+   "index": 3
+  },
+  {
+   "start": 19.97,
+   "kind": "broll",
+   "src": "assets/broll/woman.mp4",
+   "media_start": 8,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 27.1,
+   "index": 4
+  },
+  {
+   "start": 27.1,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "weak?",
+    "label": "the voice in your head"
+   },
+   "end": 33.4,
+   "index": 5
+  },
+  {
+   "start": 33.4,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "1 day",
+    "label": "and nobody knows"
+   },
+   "end": 39.1,
+   "index": 6
+  },
+  {
+   "start": 39.1,
+   "kind": "broll",
+   "src": "assets/broll/walk.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 46.8,
+   "index": 7
+  },
+  {
+   "start": 46.8,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Thu / Tue",
+    "label": "Kiran vs Divya"
+   },
+   "end": 53,
+   "index": 8
+  },
+  {
+   "start": 53,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 58.2,
+   "index": 9
+  },
+  {
+   "start": 58.2,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "0",
+    "label": "surprises wanted"
+   },
+   "end": 63.05,
+   "index": 10
+  },
+  {
+   "start": 63.05,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 66.9,
+   "index": 11
+  },
+  {
+   "start": 66.9,
+   "kind": "broll",
+   "src": "assets/broll/keys.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 73.4,
+   "index": 12
+  },
+  {
+   "start": 73.4,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3",
+    "label": "things to try first"
+   },
+   "end": 81.4,
+   "index": 13
+  },
+  {
+   "start": 81.4,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 6,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 87,
+   "index": 14
+  },
+  {
+   "start": 87,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "NOW",
+    "label": "when the timer ends"
+   },
+   "end": 97.9,
+   "index": 15
+  },
+  {
+   "start": 97.9,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 102.2,
+   "index": 16
+  },
+  {
+   "start": 102.2,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "BAD",
+    "label": "sample message"
+   },
+   "end": 108,
+   "index": 17
+  },
+  {
+   "start": 108,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 114.1,
+   "index": 18
+  },
+  {
+   "start": 114.1,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "4",
+    "label": "parts, every time"
+   },
+   "end": 124,
+   "index": 19
+  },
+  {
+   "start": 124,
+   "kind": "broll",
+   "src": "assets/broll/woman.mp4",
+   "media_start": 10,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 132.5,
+   "index": 20
+  },
+  {
+   "start": 132.5,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "?",
+    "label": "my guess"
+   },
+   "end": 137,
+   "index": 21
+  },
+  {
+   "start": 137,
+   "kind": "broll",
+   "src": "assets/broll/keys.mp4",
+   "media_start": 6,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 142.46,
+   "index": 22
+  },
+  {
+   "start": 142.46,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 146,
+   "index": 23
+  },
+  {
+   "start": 146,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "1",
+    "label": "same question again"
+   },
+   "end": 152.5,
+   "index": 24
+  },
+  {
+   "start": 152.5,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "2",
+    "label": "asking everyone"
+   },
+   "end": 158.5,
+   "index": 25
+  },
+  {
+   "start": 158.5,
+   "kind": "broll",
+   "src": "assets/broll/walk.mp4",
+   "media_start": 8,
+   "motion": "ken_out",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 161.8,
+   "index": 26
+  },
+  {
+   "start": 161.8,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "3",
+    "label": "hiding a delay"
+   },
+   "end": 166,
+   "index": 27
+  },
+  {
+   "start": 166,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 8,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 174.6,
+   "index": 28
+  },
+  {
+   "start": 174.6,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Writing",
+    "label": "keeps a record"
+   },
+   "end": 183.82,
+   "index": 29
+  },
+  {
+   "start": 183.82,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 187.3,
+   "index": 30
+  },
+  {
+   "start": 187.3,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 20,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 196,
+   "index": 31
+  },
+  {
+   "start": 196,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "3",
+    "label": "rules to remember"
+   },
+   "end": 201.9,
+   "index": 32
+  },
+  {
+   "start": 201.9,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "?",
+    "label": "what stops you?"
+   },
+   "end": 211,
+   "index": 33
+  },
+  {
+   "start": 211,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe"
+   },
+   "end": 217.17,
+   "index": 34
+  }
+ ],
+ "camera_moves": []
+}

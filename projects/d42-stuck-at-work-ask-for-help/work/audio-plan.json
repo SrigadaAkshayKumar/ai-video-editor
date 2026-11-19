@@ -1,0 +1,170 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "title_slide: Stuck at work?"
+  },
+  {
+   "time": 7.98,
+   "sfx": "pop",
+   "gain": 0,
+   "reason": "big_statement: Freshers: stay with me"
+  },
+  {
+   "time": 20.38,
+   "sfx": "typing",
+   "gain": 3,
+   "reason": "chapter_open: Why we stay quiet"
+  },
+  {
+   "time": 20.88,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Why we stay quiet"
+  },
+  {
+   "time": 27.38,
+   "sfx": "pop",
+   "gain": 0,
+   "reason": "quote_pull: They will think I am weak"
+  },
+  {
+   "time": 33.68,
+   "sfx": "click",
+   "gain": 4,
+   "reason": "timeline: Stuck, and quiet"
+  },
+  {
+   "time": 42.68,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "comparison: "
+  },
+  {
+   "time": 58.38,
+   "sfx": "pop",
+   "gain": 0,
+   "reason": "big_statement: Fear surprises, not questions"
+  },
+  {
+   "time": 63.38,
+   "sfx": "typing",
+   "gain": 3,
+   "reason": "chapter_open: The 30 minute rule"
+  },
+  {
+   "time": 63.88,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: The 30 minute rule"
+  },
+  {
+   "time": 66.88,
+   "sfx": "click",
+   "gain": 4,
+   "reason": "stat_trio: "
+  },
+  {
+   "time": 73.58,
+   "sfx": "click",
+   "gain": 4,
+   "reason": "checklist: While the timer runs"
+  },
+  {
+   "time": 87.28,
+   "sfx": "pop",
+   "gain": 0,
+   "reason": "big_statement: Timer ends? Ask. Now."
+  },
+  {
+   "time": 98.08,
+   "sfx": "typing",
+   "gain": 3,
+   "reason": "chapter_open: How you ask"
+  },
+  {
+   "time": 98.58,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: How you ask"
+  },
+  {
+   "time": 102.48,
+   "sfx": "pop",
+   "gain": 0,
+   "reason": "quote_pull: Sir, I am not able to do it, please help."
+  },
+  {
+   "time": 114.38,
+   "sfx": "click",
+   "gain": 4,
+   "reason": "flow_diagram: The 4-part message"
+  },
+  {
+   "time": 124.38,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "comparison: "
+  },
+  {
+   "time": 142.58,
+   "sfx": "typing",
+   "gain": 3,
+   "reason": "chapter_open: Three traps"
+  },
+  {
+   "time": 143.08,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Three traps"
+  },
+  {
+   "time": 162.08,
+   "sfx": "pop",
+   "gain": 0,
+   "reason": "big_statement: Trap 3: hiding a delay"
+  },
+  {
+   "time": 166.08,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "comparison: "
+  },
+  {
+   "time": 184.08,
+   "sfx": "typing",
+   "gain": 3,
+   "reason": "chapter_open: Do this today"
+  },
+  {
+   "time": 184.58,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Do this today"
+  },
+  {
+   "time": 187.58,
+   "sfx": "click",
+   "gain": 4,
+   "reason": "checklist: From today"
+  },
+  {
+   "time": 196.18,
+   "sfx": "click",
+   "gain": 4,
+   "reason": "fact_band: Recap"
+  },
+  {
+   "time": 202.28,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "poll_prompt: What stops you from asking for help?"
+  }
+ ]
+}
