@@ -1,0 +1,68 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "title_slide: Resume rejected"
+  },
+  {
+   "time": 36.48,
+   "sfx": "ding",
+   "gain": 0,
+   "reason": "quote_pull: The biggest resume mistake is writing for the one person who already knows your story: you."
+  },
+  {
+   "time": 47.93,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Adjectives instead of proof"
+  },
+  {
+   "time": 69.98,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Words only you understand"
+  },
+  {
+   "time": 92.08,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Numbers with no meaning"
+  },
+  {
+   "time": 116.08,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: A wall of text"
+  },
+  {
+   "time": 146.88,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Lying or stretching"
+  },
+  {
+   "time": 154.58,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "timeline: Where a stretch gets caught"
+  },
+  {
+   "time": 176.88,
+   "sfx": "ding",
+   "gain": 0,
+   "reason": "quote_pull: Write only what you can explain for two minutes, and only what your documents can prove."
+  },
+  {
+   "time": 207.88,
+   "sfx": "ding",
+   "gain": 0,
+   "reason": "quote_pull: Which line on your resume are you least sure about?"
+  }
+ ]
+}

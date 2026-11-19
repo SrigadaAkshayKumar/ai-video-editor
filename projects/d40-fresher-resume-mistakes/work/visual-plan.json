@@ -1,0 +1,717 @@
+{
+ "style": "glass",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 4.55,
+   "type": "title_slide",
+   "text": "Resume rejected",
+   "eyebrow": "Crack IT · Day 40",
+   "style_hint": "Four mistakes recruiters spot in seconds"
+  },
+  {
+   "start": 5,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Decided in seconds",
+   "side": "right"
+  },
+  {
+   "start": 9.9,
+   "duration": 2.7,
+   "type": "keyword_chip",
+   "text": "4 mistakes",
+   "side": "right"
+  },
+  {
+   "start": 13.3,
+   "duration": 4.2,
+   "type": "side_note",
+   "text": "Plus one that follows you after the offer",
+   "side": "left"
+  },
+  {
+   "start": 19.6,
+   "duration": 5.4,
+   "type": "big_statement",
+   "text": "Cover your name",
+   "eyebrow": "The test"
+  },
+  {
+   "start": 25.6,
+   "duration": 7.4,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Resume A",
+    "text": "Could be anyone"
+   },
+   "right": {
+    "label": "Resume B",
+    "text": "Could only be you"
+   }
+  },
+  {
+   "start": 36.4,
+   "duration": 10.1,
+   "type": "quote_pull",
+   "text": "The biggest resume mistake is writing for the one person who already knows your story: you.",
+   "eyebrow": "Recruiter advice · reported by Mint, CNBC interview, Jul 2026"
+  },
+  {
+   "start": 47.85,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Adjectives instead of proof",
+   "eyebrow": "Mistake 01",
+   "numeral": "01",
+   "section": 1
+  },
+  {
+   "start": 51.6,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "Team player",
+   "side": "right"
+  },
+  {
+   "start": 54.6,
+   "duration": 7.4,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Weak",
+    "text": "Hard-working team player"
+   },
+   "right": {
+    "label": "Strong",
+    "text": "Led a team of four to build a placement portal"
+   }
+  },
+  {
+   "start": 62.6,
+   "duration": 6.4,
+   "type": "side_note",
+   "text": "Adjective, not proof: show what you did",
+   "side": "left"
+  },
+  {
+   "start": 69.9,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Words only you understand",
+   "eyebrow": "Mistake 02",
+   "numeral": "02",
+   "section": 2
+  },
+  {
+   "start": 73.5,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "Project Phoenix = insider name",
+   "side": "right"
+  },
+  {
+   "start": 78,
+   "duration": 4,
+   "type": "side_note",
+   "text": "The CC team? No one knows",
+   "side": "left"
+  },
+  {
+   "start": 82.5,
+   "duration": 5.3,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Insider",
+    "text": "Project Phoenix"
+   },
+   "right": {
+    "label": "Plain",
+    "text": "Web app to book lab slots, Java + MySQL"
+   }
+  },
+  {
+   "start": 88.4,
+   "duration": 3.1,
+   "type": "side_note",
+   "text": "Mistake 3 is the one most get wrong",
+   "side": "left"
+  },
+  {
+   "start": 92,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Numbers with no meaning",
+   "eyebrow": "Mistake 03",
+   "numeral": "03",
+   "section": 3
+  },
+  {
+   "start": 95.5,
+   "duration": 7.5,
+   "type": "number_roll",
+   "value": 40,
+   "text": "percent of what? compared to what?",
+   "decimals": 0,
+   "suffix": "%"
+  },
+  {
+   "start": 103.5,
+   "duration": 8.5,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Vague",
+    "text": "Improved performance by 40%"
+   },
+   "right": {
+    "label": "Meaningful",
+    "text": "Page load 5 s to 3 s, tested on my laptop"
+   }
+  },
+  {
+   "start": 112.5,
+   "duration": 3.1,
+   "type": "keyword_chip",
+   "text": "Number + what it measures",
+   "side": "right"
+  },
+  {
+   "start": 116,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "A wall of text",
+   "eyebrow": "Mistake 04",
+   "numeral": "04",
+   "section": 4
+  },
+  {
+   "start": 119.5,
+   "duration": 11,
+   "type": "checklist",
+   "side": "right",
+   "text": "Format check",
+   "items": [
+    {
+     "label": "One page",
+     "state": "yes"
+    },
+    {
+     "label": "Clear headings",
+     "state": "yes"
+    },
+    {
+     "label": "Plain font",
+     "state": "yes"
+    },
+    {
+     "label": "PDF, open on your phone",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 131.4,
+   "duration": 5.1,
+   "type": "keyword_chip",
+   "text": "Fancy columns confuse the software",
+   "side": "right"
+  },
+  {
+   "start": 138,
+   "duration": 8,
+   "type": "flow_diagram",
+   "text": "Every project line",
+   "items": [
+    {
+     "label": "What",
+     "sublabel": "you built"
+    },
+    {
+     "label": "Tools",
+     "sublabel": "used"
+    },
+    {
+     "label": "Result",
+     "sublabel": "honest number"
+    }
+   ]
+  },
+  {
+   "start": 146.8,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Lying or stretching",
+   "eyebrow": "The one that follows you",
+   "numeral": "!",
+   "section": 0
+  },
+  {
+   "start": 150.5,
+   "duration": 3.3,
+   "type": "side_note",
+   "text": "One video watched is not a skill",
+   "side": "right"
+  },
+  {
+   "start": 154.5,
+   "duration": 8,
+   "type": "timeline",
+   "side": "right",
+   "text": "Where a stretch gets caught",
+   "items": [
+    {
+     "label": "Interview",
+     "sublabel": "explain the skill"
+    },
+    {
+     "label": "Background check",
+     "sublabel": "education, dates"
+    },
+    {
+     "label": "Offer",
+     "sublabel": "on hold or cancelled"
+    }
+   ]
+  },
+  {
+   "start": 163.5,
+   "duration": 6,
+   "type": "side_note",
+   "text": "Rules differ by company, the risk is real",
+   "side": "left"
+  },
+  {
+   "start": 170.5,
+   "duration": 5,
+   "type": "keyword_chip",
+   "text": "Can't explain it? Remove it",
+   "side": "right"
+  },
+  {
+   "start": 176.8,
+   "duration": 8.4,
+   "type": "quote_pull",
+   "text": "Write only what you can explain for two minutes, and only what your documents can prove.",
+   "eyebrow": "The rule"
+  },
+  {
+   "start": 186,
+   "duration": 14,
+   "type": "checklist",
+   "side": "right",
+   "text": "Do this today",
+   "items": [
+    {
+     "label": "Cover your name, read it",
+     "state": "yes"
+    },
+    {
+     "label": "Delete unprovable adjectives",
+     "state": "yes"
+    },
+    {
+     "label": "Plain names for projects",
+     "state": "yes"
+    },
+    {
+     "label": "Add context to numbers",
+     "state": "yes"
+    },
+    {
+     "label": "One page",
+     "state": "yes"
+    },
+    {
+     "label": "Check dates and marks",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 201.8,
+   "duration": 5.2,
+   "type": "fact_band",
+   "text": "Recap",
+   "items": [
+    {
+     "label": "Prove it",
+     "sublabel": "1"
+    },
+    {
+     "label": "Plain words",
+     "sublabel": "2"
+    },
+    {
+     "label": "Numbers mean something",
+     "sublabel": "3"
+    },
+    {
+     "label": "Short, true",
+     "sublabel": "4"
+    }
+   ]
+  },
+  {
+   "start": 207.8,
+   "duration": 6,
+   "type": "quote_pull",
+   "text": "Which line on your resume are you least sure about?",
+   "eyebrow": "Projects, skills or marks? Tell me below"
+  },
+  {
+   "start": 214.2,
+   "duration": 5.8,
+   "type": "big_statement",
+   "text": "Crack IT",
+   "eyebrow": "Like · Subscribe"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 7,
+   "index": 0
+  },
+  {
+   "start": 7,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 13,
+   "index": 1
+  },
+  {
+   "start": 13,
+   "kind": "broll",
+   "src": "assets/broll/talk.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 18.15,
+   "index": 2
+  },
+  {
+   "start": 18.15,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 25.3,
+   "index": 3
+  },
+  {
+   "start": 25.3,
+   "kind": "broll",
+   "src": "assets/broll/study.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 33.2,
+   "index": 4
+  },
+  {
+   "start": 33.2,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "?",
+    "label": "who is this resume for"
+   },
+   "end": 36.1,
+   "index": 5
+  },
+  {
+   "start": 36.1,
+   "kind": "broll",
+   "src": "assets/broll/worry.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 43,
+   "index": 6
+  },
+  {
+   "start": 43,
+   "kind": "broll",
+   "src": "assets/broll/files.mp4",
+   "media_start": 2,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 47.85,
+   "index": 7
+  },
+  {
+   "start": 47.85,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "1",
+    "label": "adjectives vs proof"
+   },
+   "end": 54.2,
+   "index": 8
+  },
+  {
+   "start": 54.2,
+   "kind": "broll",
+   "src": "assets/broll/notes.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 62.3,
+   "index": 9
+  },
+  {
+   "start": 62.3,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 14,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 69.9,
+   "index": 10
+  },
+  {
+   "start": 69.9,
+   "kind": "broll",
+   "src": "assets/broll/board.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 79.5,
+   "index": 11
+  },
+  {
+   "start": 79.5,
+   "kind": "broll",
+   "src": "assets/broll/notes.mp4",
+   "media_start": 20,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 88.1,
+   "index": 12
+  },
+  {
+   "start": 88.1,
+   "kind": "broll",
+   "src": "assets/broll/talk.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 92,
+   "index": 13
+  },
+  {
+   "start": 92,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "3",
+    "label": "numbers need a meaning"
+   },
+   "end": 98,
+   "index": 14
+  },
+  {
+   "start": 98,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 108,
+   "index": 15
+  },
+  {
+   "start": 108,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 24,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 116,
+   "index": 16
+  },
+  {
+   "start": 116,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "1 pg",
+    "label": "one page, clear headings"
+   },
+   "end": 122,
+   "index": 17
+  },
+  {
+   "start": 122,
+   "kind": "broll",
+   "src": "assets/broll/files.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 131,
+   "index": 18
+  },
+  {
+   "start": 131,
+   "kind": "broll",
+   "src": "assets/broll/phone.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 137.5,
+   "index": 19
+  },
+  {
+   "start": 137.5,
+   "kind": "broll",
+   "src": "assets/broll/board.mp4",
+   "media_start": 4,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 146.5,
+   "index": 20
+  },
+  {
+   "start": 146.5,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 154,
+   "index": 21
+  },
+  {
+   "start": 154,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 163,
+   "index": 22
+  },
+  {
+   "start": 163,
+   "kind": "broll",
+   "src": "assets/broll/files.mp4",
+   "media_start": 8,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 170,
+   "index": 23
+  },
+  {
+   "start": 170,
+   "kind": "broll",
+   "src": "assets/broll/phone.mp4",
+   "media_start": 5,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 175,
+   "index": 24
+  },
+  {
+   "start": 175,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "2 min",
+    "label": "explain it, prove it"
+   },
+   "end": 185.6,
+   "index": 25
+  },
+  {
+   "start": 185.6,
+   "kind": "broll",
+   "src": "assets/broll/study.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 194,
+   "index": 26
+  },
+  {
+   "start": 194,
+   "kind": "broll",
+   "src": "assets/broll/notes.mp4",
+   "media_start": 28,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 201.5,
+   "index": 27
+  },
+  {
+   "start": 201.5,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 8,
+   "motion": "ken_out",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 207.5,
+   "index": 28
+  },
+  {
+   "start": 207.5,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "?",
+    "label": "which line are you least sure about"
+   },
+   "end": 214,
+   "index": 29
+  },
+  {
+   "start": 214,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe"
+   },
+   "end": 220.2,
+   "index": 30
+  }
+ ],
+ "camera_moves": []
+}

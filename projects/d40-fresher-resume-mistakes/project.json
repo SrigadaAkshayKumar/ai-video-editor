@@ -1,0 +1,108 @@
+{
+  "name": "d40-fresher-resume-mistakes",
+  "createdAt": "2026-11-19T01:12:06.060Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d40-fresher-resume-mistakes/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d40/d40-voice.wav",
+    "duration": 224.1,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d40-fresher-resume-mistakes/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d40/d40_fresher_resume_mistakes_voiceover.txt",
+    "words": 735,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d40-fresher-resume-mistakes/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Cover",
+    "Farah Sharghi",
+    "Mistake",
+    "Quick",
+    "Project Phoenix",
+    "Not Project Phoenix",
+    "Write",
+    "Crack It"
+  ],
+  "mode": "faceless",
+  "style": "glass",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; documentary storytelling look: full-frame b-roll leads, graphics docked to one side, quote pulls on the key lines, timelines for the backstory; slower, a beat every 6-10 s; low sub-band SFX on structure only",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 17.93,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-19T01:13:52.162Z",
+      "words": 727,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-19T01:14:02.379Z",
+      "segments": 21,
+      "kept": 220.2
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-19T03:48:38.759Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d40-fresher-resume-mistakes/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-19T03:48:47.005Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-19T03:48:47.043Z",
+      "groups": 186
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-19T03:48:47.833Z",
+      "music": 0,
+      "sfx": 10
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-19T03:52:54.547Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d40-fresher-resume-mistakes/output/final-16x9.mp4",
+      "duration": 230.211
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.975586,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d40-fresher-resume-mistakes/work/cleancut.wav",
+    "duration": 220.19975,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}
