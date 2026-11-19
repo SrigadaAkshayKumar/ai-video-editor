@@ -1,0 +1,103 @@
+{
+  "name": "d41-blank-mind-technical-interview",
+  "createdAt": "2026-11-19T04:38:54.344Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d41-blank-mind-technical-interview/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d41/d41-voice.wav",
+    "duration": 194.32,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d41-blank-mind-technical-interview/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d41/d41_blank_mind_technical_interview_voiceover.txt",
+    "words": 673,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d41-blank-mind-technical-interview/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Say",
+    "Never",
+    "Crack It"
+  ],
+  "mode": "faceless",
+  "style": "broadcast",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; bold newsroom look: news screenshots and NewsCards lead, split-screen framing, oversized section numerals, high-contrast accents; punchy pace, a beat every 3-5 s; wipe whooshes and hits on section changes",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 18.07,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-19T04:44:54.642Z",
+      "words": 669,
+      "engine": "whisper.cpp medium.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-19T04:45:00.929Z",
+      "segments": 17,
+      "kept": 187.667
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-19T05:14:31.162Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d41-blank-mind-technical-interview/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-19T05:14:54.940Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-19T05:14:54.972Z",
+      "groups": 185
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-19T05:15:06.130Z",
+      "music": 0,
+      "sfx": 20
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-19T05:17:45.216Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d41-blank-mind-technical-interview/output/final-16x9.mp4",
+      "duration": 197.704
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.980865,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d41-blank-mind-technical-interview/work/cleancut.wav",
+    "duration": 187.653417,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

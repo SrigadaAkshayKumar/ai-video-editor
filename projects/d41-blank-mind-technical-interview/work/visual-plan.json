@@ -1,0 +1,726 @@
+{
+ "style": "broadcast",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 4.15,
+   "type": "title_slide",
+   "text": "Mind blank?",
+   "eyebrow": "Crack IT · Day 41",
+   "style_hint": "What to say when you don't know the answer"
+  },
+  {
+   "start": 4.6,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Next 10 seconds",
+   "side": "right"
+  },
+  {
+   "start": 8.2,
+   "duration": 2.8,
+   "type": "big_statement",
+   "text": "Freshers: stay with me",
+   "eyebrow": "Freshers"
+  },
+  {
+   "start": 11.6,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "What to say instead",
+   "side": "right"
+  },
+  {
+   "start": 15.6,
+   "duration": 2.4,
+   "type": "side_note",
+   "text": "The reply that ends the round",
+   "side": "left"
+  },
+  {
+   "start": 18.5,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "What they're checking",
+   "eyebrow": "The real test",
+   "numeral": "",
+   "section": 0
+  },
+  {
+   "start": 22,
+   "duration": 4.5,
+   "type": "big_statement",
+   "text": "How you think when stuck",
+   "eyebrow": "think"
+  },
+  {
+   "start": 26.8,
+   "duration": 2,
+   "type": "keyword_chip",
+   "text": "Stuck every single day",
+   "side": "right"
+  },
+  {
+   "start": 29.2,
+   "duration": 6.3,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Option 1",
+    "text": "Silent for a minute"
+   },
+   "right": {
+    "label": "Option 2",
+    "text": "Loud wrong guess"
+   }
+  },
+  {
+   "start": 35.9,
+   "duration": 1.1,
+   "type": "keyword_chip",
+   "text": "Both hurt",
+   "side": "right"
+  },
+  {
+   "start": 37.1,
+   "duration": 2.9,
+   "type": "side_note",
+   "text": "Silence looks like panic",
+   "side": "left"
+  },
+  {
+   "start": 40.2,
+   "duration": 3.1,
+   "type": "side_note",
+   "text": "A wrong guess kills trust",
+   "side": "right"
+  },
+  {
+   "start": 43.7,
+   "duration": 5.6,
+   "type": "lower_third",
+   "text": "Same question: how a web page talks to a server",
+   "eyebrow": "A small story · illustrative",
+   "side": "left"
+  },
+  {
+   "start": 49.6,
+   "duration": 3.8,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Ravi",
+    "text": "Silent, then a confident wrong guess"
+   },
+   "right": {
+    "label": "Meena",
+    "text": "Thinks aloud, half right"
+   }
+  },
+  {
+   "start": 53.8,
+   "duration": 6.2,
+   "type": "quote_pull",
+   "text": "I have not built this, but I think the browser sends a request.",
+   "eyebrow": "Sample reply, not a quote from anyone"
+  },
+  {
+   "start": 61.6,
+   "duration": 4.4,
+   "type": "side_note",
+   "text": "Interviewer helped her finish",
+   "side": "right"
+  },
+  {
+   "start": 66.1,
+   "duration": 2.7,
+   "type": "big_statement",
+   "text": "She got the offer",
+   "eyebrow": "offer"
+  },
+  {
+   "start": 69.1,
+   "duration": 2.8,
+   "type": "fact_band",
+   "text": "The third way",
+   "items": [
+    {
+     "label": "Step 1",
+     "sublabel": "Say what you know"
+    },
+    {
+     "label": "Step 2",
+     "sublabel": "Think aloud"
+    },
+    {
+     "label": "Step 3",
+     "sublabel": "Ask for a hint"
+    }
+   ]
+  },
+  {
+   "start": 72.2,
+   "duration": 7.4,
+   "type": "big_statement",
+   "text": "\"I don't know.\" Silence.",
+   "eyebrow": "Silence"
+  },
+  {
+   "start": 80,
+   "duration": 2.2,
+   "type": "keyword_chip",
+   "text": "Nothing to work with",
+   "side": "right"
+  },
+  {
+   "start": 82.6,
+   "duration": 5.8,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Fine",
+    "text": "Saying I don't know"
+   },
+   "right": {
+    "label": "The mistake",
+    "text": "Stopping there"
+   }
+  },
+  {
+   "start": 90.2,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Say what you know",
+   "eyebrow": "Step 01",
+   "numeral": "01",
+   "section": 1
+  },
+  {
+   "start": 93.4,
+   "duration": 4.1,
+   "type": "quote_pull",
+   "text": "I know the basic idea behind it.",
+   "eyebrow": "Sample reply, not a quote from anyone"
+  },
+  {
+   "start": 97.8,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Think aloud",
+   "eyebrow": "Step 02",
+   "numeral": "02",
+   "section": 2
+  },
+  {
+   "start": 101.2,
+   "duration": 1,
+   "type": "keyword_chip",
+   "text": "Walk through it slowly",
+   "side": "right"
+  },
+  {
+   "start": 102.6,
+   "duration": 6,
+   "type": "term_card",
+   "side": "right",
+   "text": "Database index",
+   "eyebrow": "Example · illustrative",
+   "items": [
+    {
+     "label": "Like the index at the back of a book"
+    }
+   ]
+  },
+  {
+   "start": 112.4,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "Partly right still counts",
+   "side": "right"
+  },
+  {
+   "start": 115.4,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Ask for a hint",
+   "eyebrow": "Step 03",
+   "numeral": "03",
+   "section": 3
+  },
+  {
+   "start": 118.6,
+   "duration": 2.4,
+   "type": "quote_pull",
+   "text": "Am I thinking in the right direction?",
+   "eyebrow": "Sample reply"
+  },
+  {
+   "start": 121.6,
+   "duration": 3.7,
+   "type": "side_note",
+   "text": "Notice what you do with the clue",
+   "side": "right"
+  },
+  {
+   "start": 125.6,
+   "duration": 2.4,
+   "type": "big_statement",
+   "text": "Never make up facts",
+   "eyebrow": "Never"
+  },
+  {
+   "start": 128.4,
+   "duration": 4.5,
+   "type": "quote_pull",
+   "text": "I am not sure, but I think…",
+   "eyebrow": "The safe phrase"
+  },
+  {
+   "start": 133.4,
+   "duration": 6.6,
+   "type": "checklist",
+   "side": "right",
+   "text": "Prepare each resume subject",
+   "items": [
+    {
+     "label": "What is it",
+     "state": "yes"
+    },
+    {
+     "label": "Why is it used",
+     "state": "yes"
+    },
+    {
+     "label": "Where did I use it",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 140.2,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Simple words",
+   "side": "right"
+  },
+  {
+   "start": 143.6,
+   "duration": 3.9,
+   "type": "keyword_chip",
+   "text": "Practise out loud",
+   "side": "right"
+  },
+  {
+   "start": 148,
+   "duration": 4.4,
+   "type": "side_note",
+   "text": "Reading silently = freezing",
+   "side": "left"
+  },
+  {
+   "start": 152.9,
+   "duration": 2.6,
+   "type": "big_statement",
+   "text": "A missed question is useful",
+   "eyebrow": "useful"
+  },
+  {
+   "start": 155.8,
+   "duration": 3.8,
+   "type": "side_note",
+   "text": "Write it down, look it up",
+   "side": "right"
+  },
+  {
+   "start": 160,
+   "duration": 6,
+   "type": "number_roll",
+   "value": 3,
+   "text": "topics from your resume, 30 seconds each",
+   "decimals": 0
+  },
+  {
+   "start": 166.6,
+   "duration": 4.8,
+   "type": "step_progress",
+   "side": "right",
+   "text": "Practise the 3 steps",
+   "items": [
+    {
+     "label": "Say what you know"
+    },
+    {
+     "label": "Think aloud"
+    },
+    {
+     "label": "Ask for a hint"
+    }
+   ],
+   "current_step": 2
+  },
+  {
+   "start": 171.9,
+   "duration": 5.4,
+   "type": "fact_band",
+   "text": "Recap",
+   "items": [
+    {
+     "label": "Never silent",
+     "sublabel": "1"
+    },
+    {
+     "label": "Never loud guess",
+     "sublabel": "2"
+    },
+    {
+     "label": "Never stop at no",
+     "sublabel": "3"
+    }
+   ]
+  },
+  {
+   "start": 177.8,
+   "duration": 7.7,
+   "type": "quote_pull",
+   "text": "Which question made your mind go blank in an interview?",
+   "eyebrow": "Tell me in the comments"
+  },
+  {
+   "start": 186.2,
+   "duration": 1.3,
+   "type": "keyword_chip",
+   "text": "Like · Subscribe",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/hands.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 7.8,
+   "index": 0
+  },
+  {
+   "start": 7.8,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "10 s",
+    "label": "decides the interview"
+   },
+   "end": 11.1,
+   "index": 1
+  },
+  {
+   "start": 11.1,
+   "kind": "broll",
+   "src": "assets/broll/waiting.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 15.3,
+   "index": 2
+  },
+  {
+   "start": 15.3,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "?",
+    "label": "the one reply"
+   },
+   "end": 18.4,
+   "index": 3
+  },
+  {
+   "start": 18.4,
+   "kind": "broll",
+   "src": "assets/broll/meet.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 29,
+   "index": 4
+  },
+  {
+   "start": 29,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "2",
+    "label": "ways it goes wrong"
+   },
+   "end": 35.8,
+   "index": 5
+  },
+  {
+   "start": 35.8,
+   "kind": "broll",
+   "src": "assets/broll/hands.mp4",
+   "media_start": 8,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 43.6,
+   "index": 6
+  },
+  {
+   "start": 43.6,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 53.6,
+   "index": 7
+  },
+  {
+   "start": 53.6,
+   "kind": "broll",
+   "src": "assets/broll/phone.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 61.4,
+   "index": 8
+  },
+  {
+   "start": 61.4,
+   "kind": "broll",
+   "src": "assets/broll/hands.mp4",
+   "media_start": 16,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 69,
+   "index": 9
+  },
+  {
+   "start": 69,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3",
+    "label": "steps"
+   },
+   "end": 72,
+   "index": 10
+  },
+  {
+   "start": 72,
+   "kind": "broll",
+   "src": "assets/broll/phone.mp4",
+   "media_start": 8,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 79.8,
+   "index": 11
+  },
+  {
+   "start": 79.8,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "0",
+    "label": "for the interviewer to work with"
+   },
+   "end": 82.3,
+   "index": 12
+  },
+  {
+   "start": 82.3,
+   "kind": "broll",
+   "src": "assets/broll/phone.mp4",
+   "media_start": 16,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 88.6,
+   "index": 13
+  },
+  {
+   "start": 88.6,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 90.2,
+   "index": 14
+  },
+  {
+   "start": 90.2,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 97.7,
+   "index": 15
+  },
+  {
+   "start": 97.7,
+   "kind": "broll",
+   "src": "assets/broll/meet.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 102.3,
+   "index": 16
+  },
+  {
+   "start": 102.3,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 4,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 109,
+   "index": 17
+  },
+  {
+   "start": 109,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "index",
+    "label": "find a row without reading all"
+   },
+   "end": 115.3,
+   "index": 18
+  },
+  {
+   "start": 115.3,
+   "kind": "broll",
+   "src": "assets/broll/meet.mp4",
+   "media_start": 2,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 121.1,
+   "index": 19
+  },
+  {
+   "start": 121.1,
+   "kind": "broll",
+   "src": "assets/broll/phone.mp4",
+   "media_start": 20,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 125.5,
+   "index": 20
+  },
+  {
+   "start": 125.5,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "!",
+    "label": "never make up facts"
+   },
+   "end": 133.1,
+   "index": 21
+  },
+  {
+   "start": 133.1,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 143.3,
+   "index": 22
+  },
+  {
+   "start": 143.3,
+   "kind": "broll",
+   "src": "assets/broll/phone.mp4",
+   "media_start": 3,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 152.6,
+   "index": 23
+  },
+  {
+   "start": 152.6,
+   "kind": "broll",
+   "src": "assets/broll/waiting.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 159.8,
+   "index": 24
+  },
+  {
+   "start": 159.8,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "3",
+    "label": "topics, 30 seconds each"
+   },
+   "end": 166.3,
+   "index": 25
+  },
+  {
+   "start": 166.3,
+   "kind": "broll",
+   "src": "assets/broll/hands.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 171.6,
+   "index": 26
+  },
+  {
+   "start": 171.6,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "recap",
+    "label": "never stop at I don't know"
+   },
+   "end": 177.6,
+   "index": 27
+  },
+  {
+   "start": 177.6,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "?",
+    "label": "which question made you blank"
+   },
+   "end": 186,
+   "index": 28
+  },
+  {
+   "start": 186,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe"
+   },
+   "end": 187.65,
+   "index": 29
+  }
+ ],
+ "camera_moves": []
+}

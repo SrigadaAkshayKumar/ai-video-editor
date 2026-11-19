@@ -1,0 +1,128 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "title_slide: Mind blank?"
+  },
+  {
+   "time": 8.28,
+   "sfx": "reveal",
+   "gain": 0,
+   "reason": "big_statement: Freshers: stay with me"
+  },
+  {
+   "time": 18.58,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: What they're checking"
+  },
+  {
+   "time": 19.03,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: What they're checking"
+  },
+  {
+   "time": 22.08,
+   "sfx": "reveal",
+   "gain": 0,
+   "reason": "big_statement: How you think when stuck"
+  },
+  {
+   "time": 53.88,
+   "sfx": "ding",
+   "gain": 0,
+   "reason": "quote_pull: I have not built this, but I think the browser sends a request."
+  },
+  {
+   "time": 66.18,
+   "sfx": "reveal",
+   "gain": 0,
+   "reason": "big_statement: She got the offer"
+  },
+  {
+   "time": 72.28,
+   "sfx": "reveal",
+   "gain": 0,
+   "reason": "big_statement: \"I don't know.\" Silence."
+  },
+  {
+   "time": 90.28,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Say what you know"
+  },
+  {
+   "time": 90.73,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Say what you know"
+  },
+  {
+   "time": 93.48,
+   "sfx": "ding",
+   "gain": 0,
+   "reason": "quote_pull: I know the basic idea behind it."
+  },
+  {
+   "time": 97.88,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Think aloud"
+  },
+  {
+   "time": 98.33,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Think aloud"
+  },
+  {
+   "time": 115.48,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Ask for a hint"
+  },
+  {
+   "time": 115.93,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Ask for a hint"
+  },
+  {
+   "time": 118.68,
+   "sfx": "ding",
+   "gain": 0,
+   "reason": "quote_pull: Am I thinking in the right direction?"
+  },
+  {
+   "time": 125.68,
+   "sfx": "reveal",
+   "gain": 0,
+   "reason": "big_statement: Never make up facts"
+  },
+  {
+   "time": 128.48,
+   "sfx": "ding",
+   "gain": 0,
+   "reason": "quote_pull: I am not sure, but I think…"
+  },
+  {
+   "time": 152.98,
+   "sfx": "reveal",
+   "gain": 0,
+   "reason": "big_statement: A missed question is useful"
+  },
+  {
+   "time": 177.88,
+   "sfx": "ding",
+   "gain": 0,
+   "reason": "quote_pull: Which question made your mind go blank in an interview?"
+  }
+ ]
+}
