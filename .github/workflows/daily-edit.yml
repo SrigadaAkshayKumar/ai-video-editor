@@ -139,7 +139,10 @@ jobs:
         run: |
           bash .github/scripts/claude-run.sh claude-script-log.jsonl 75 "This is the unattended daily script step: use the daily-script skill.
           Next episode: $EPISODE (folder $DIR; it does not exist yet when the planned series has run out)
-          Today: $(TZ=Asia/Kolkata date '+%A %d %B %Y, %H:%M IST')"
+          Today: $(TZ=Asia/Kolkata date '+%A %d %B %Y, %H:%M IST')
+          Already on YouTube. Never make a video on any of these topics again, not even under another title or angle
+          (pick a different question from the pillars):
+          $(.github/scripts/covered-topics.sh)"
           node tools/daily.mjs script-check
 
       - name: Today's episode
