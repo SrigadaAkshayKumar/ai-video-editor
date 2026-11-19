@@ -1,0 +1,867 @@
+{
+ "style": "liquid",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 4.15,
+   "type": "title_slide",
+   "text": "Leave in your first job",
+   "eyebrow": "Crack IT · Day 43",
+   "style_hint": "3 mistakes to avoid"
+  },
+  {
+   "start": 4.6,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "Nobody tells freshers",
+   "side": "right"
+  },
+  {
+   "start": 10.6,
+   "duration": 6,
+   "type": "fact_band",
+   "text": "The 3 mistakes",
+   "items": [
+    {
+     "label": "Informal leave",
+     "sublabel": "1"
+    },
+    {
+     "label": "Training and probation",
+     "sublabel": "2"
+    },
+    {
+     "label": "Going silent",
+     "sublabel": "3"
+    }
+   ]
+  },
+  {
+   "start": 17.3,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Why leave is different",
+   "eyebrow": "The basics",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 20.8,
+   "duration": 2.2,
+   "type": "keyword_chip",
+   "text": "Not given all at once",
+   "side": "left"
+  },
+  {
+   "start": 23.6,
+   "duration": 7.2,
+   "type": "timeline",
+   "side": "right",
+   "text": "Credited month by month",
+   "items": [
+    {
+     "label": "Month 1"
+    },
+    {
+     "label": "Month 2"
+    },
+    {
+     "label": "Month 3"
+    },
+    {
+     "label": "Month 4"
+    }
+   ],
+   "current": 0
+  },
+  {
+   "start": 31.3,
+   "duration": 2.1,
+   "type": "keyword_chip",
+   "text": "Rules differ",
+   "side": "right"
+  },
+  {
+   "start": 33.7,
+   "duration": 7.1,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Company",
+    "text": "Its own leave policy"
+   },
+   "right": {
+    "label": "State",
+    "text": "Shops and Establishments rules"
+   }
+  },
+  {
+   "start": 41.2,
+   "duration": 5.7,
+   "type": "big_statement",
+   "text": "Offer letter + company portal",
+   "eyebrow": "Only sources that count"
+  },
+  {
+   "start": 48.3,
+   "duration": 7.6,
+   "type": "flow_diagram",
+   "text": "Leave balance empty?",
+   "items": [
+    {
+     "label": "Apply leave",
+     "sublabel": "balance zero"
+    },
+    {
+     "label": "Marked LOP",
+     "sublabel": "loss of pay"
+    },
+    {
+     "label": "Salary cut",
+     "sublabel": "each day"
+    }
+   ]
+  },
+  {
+   "start": 56.3,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Informal leave",
+   "eyebrow": "Mistake 1",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 60.9,
+   "duration": 3.6,
+   "type": "lower_third",
+   "text": "Ravi, a new joiner",
+   "eyebrow": "An example · illustrative",
+   "side": "left"
+  },
+  {
+   "start": 66.8,
+   "duration": 4.1,
+   "type": "quote_pull",
+   "text": "Okay, take Friday off",
+   "eyebrow": "Chat reply · example, not a real quote"
+  },
+  {
+   "start": 71.7,
+   "duration": 4.2,
+   "type": "big_statement",
+   "text": "Friday: absent. Pay cut.",
+   "eyebrow": "Month end"
+  },
+  {
+   "start": 76.6,
+   "duration": 6.4,
+   "type": "checklist",
+   "side": "right",
+   "text": "Do both, every time",
+   "items": [
+    {
+     "label": "Tell your manager",
+     "state": "yes"
+    },
+    {
+     "label": "Apply in the system",
+     "state": "yes"
+    },
+    {
+     "label": "Get approval",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 83.4,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "The next one surprises",
+   "side": "left"
+  },
+  {
+   "start": 86.5,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Training and probation",
+   "eyebrow": "Mistake 2",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 90,
+   "duration": 2.5,
+   "type": "keyword_chip",
+   "text": "Ask how it works",
+   "side": "right"
+  },
+  {
+   "start": 92.8,
+   "duration": 8.1,
+   "type": "timeline",
+   "side": "left",
+   "text": "Your first months",
+   "items": [
+    {
+     "label": "Joining"
+    },
+    {
+     "label": "Training"
+    },
+    {
+     "label": "Project"
+    },
+    {
+     "label": "Probation end"
+    }
+   ],
+   "current": 1
+  },
+  {
+   "start": 101.3,
+   "duration": 3.8,
+   "type": "side_note",
+   "text": "Low attendance can extend probation",
+   "side": "right"
+  },
+  {
+   "start": 105.4,
+   "duration": 1.6,
+   "type": "keyword_chip",
+   "text": "Not all do. Ask.",
+   "side": "left"
+  },
+  {
+   "start": 107.4,
+   "duration": 4.2,
+   "type": "big_statement",
+   "text": "Ask in week one",
+   "eyebrow": "Do this"
+  },
+  {
+   "start": 112,
+   "duration": 5.7,
+   "type": "quote_pull",
+   "text": "What is the leave rule during training and probation?",
+   "eyebrow": "The one question · write the answer down"
+  },
+  {
+   "start": 118.3,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Next: the silent one",
+   "side": "right"
+  },
+  {
+   "start": 122.4,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Going silent",
+   "eyebrow": "Mistake 3",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 126.1,
+   "duration": 4.8,
+   "type": "big_statement",
+   "text": "Silence damages trust",
+   "eyebrow": "Trust"
+  },
+  {
+   "start": 131.3,
+   "duration": 5.3,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Sick fresher",
+    "text": "A manager can handle it"
+   },
+   "right": {
+    "label": "Unreachable fresher",
+    "text": "A manager cannot"
+   }
+  },
+  {
+   "start": 136.9,
+   "duration": 6.5,
+   "type": "quote_pull",
+   "text": "Good morning, I am not well and will not be able to work today.",
+   "eyebrow": "Copy this · sample message"
+  },
+  {
+   "start": 143.8,
+   "duration": 6.7,
+   "type": "checklist",
+   "side": "right",
+   "text": "The rest of the message",
+   "items": [
+    {
+     "label": "I will apply in the system",
+     "state": "yes"
+    },
+    {
+     "label": "Phone on for urgent work",
+     "state": "yes"
+    },
+    {
+     "label": "Offer help if needed",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 151,
+   "duration": 2.2,
+   "type": "keyword_chip",
+   "text": "Short. Honest. Professional.",
+   "side": "right"
+  },
+  {
+   "start": 153.6,
+   "duration": 2.4,
+   "type": "side_note",
+   "text": "Keep your doctor's note",
+   "side": "left"
+  },
+  {
+   "start": 156.3,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Asked after a few days",
+   "side": "right"
+  },
+  {
+   "start": 159.6,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Plan leave smartly",
+   "eyebrow": "Plan it",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 162.8,
+   "duration": 1.5,
+   "type": "keyword_chip",
+   "text": "1 · Check your balance",
+   "side": "right"
+  },
+  {
+   "start": 164.6,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "2 · Apply early",
+   "side": "left"
+  },
+  {
+   "start": 168.3,
+   "duration": 3.3,
+   "type": "side_note",
+   "text": "Festivals, long weekends",
+   "side": "right"
+  },
+  {
+   "start": 172,
+   "duration": 4.2,
+   "type": "keyword_chip",
+   "text": "3 · Not before a delivery",
+   "side": "right"
+  },
+  {
+   "start": 176.6,
+   "duration": 6.5,
+   "type": "checklist",
+   "side": "left",
+   "text": "4 · If you must be away",
+   "items": [
+    {
+     "label": "Tell your manager early",
+     "state": "yes"
+    },
+    {
+     "label": "Offer a plan",
+     "state": "yes"
+    },
+    {
+     "label": "Say who covers",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 183.5,
+   "duration": 4.4,
+   "type": "big_statement",
+   "text": "Leave is your right",
+   "eyebrow": "Company policy"
+  },
+  {
+   "start": 188.4,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Keep your manager on your side",
+   "side": "left"
+  },
+  {
+   "start": 192,
+   "duration": 8.2,
+   "type": "fact_band",
+   "text": "Recap",
+   "items": [
+    {
+     "label": "Check your policy",
+     "sublabel": "1"
+    },
+    {
+     "label": "Apply in the system",
+     "sublabel": "2"
+    },
+    {
+     "label": "Ask in week one",
+     "sublabel": "3"
+    },
+    {
+     "label": "Never go silent",
+     "sublabel": "4"
+    }
+   ]
+  },
+  {
+   "start": 200.7,
+   "duration": 6.2,
+   "type": "big_statement",
+   "text": "Your leave question?",
+   "eyebrow": "Tell me in the comments"
+  },
+  {
+   "start": 207.4,
+   "duration": 3.9,
+   "type": "keyword_chip",
+   "text": "Write your one leave question",
+   "side": "right"
+  },
+  {
+   "start": 211.8,
+   "duration": 4.5,
+   "type": "keyword_chip",
+   "text": "Like · Subscribe",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 5.7,
+   "index": 0
+  },
+  {
+   "start": 5.7,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "3",
+    "label": "leave mistakes to avoid"
+   },
+   "end": 10.4,
+   "index": 1
+  },
+  {
+   "start": 10.4,
+   "kind": "broll",
+   "src": "assets/broll/notebook.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 17.24,
+   "index": 2
+  },
+  {
+   "start": 17.24,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 20.8,
+   "index": 3
+  },
+  {
+   "start": 20.8,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 27.4,
+   "index": 4
+  },
+  {
+   "start": 27.4,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Few",
+    "label": "days at the start"
+   },
+   "end": 31.3,
+   "index": 5
+  },
+  {
+   "start": 31.3,
+   "kind": "broll",
+   "src": "assets/broll/fan.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 37.6,
+   "index": 6
+  },
+  {
+   "start": 37.6,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "State",
+    "label": "has its own rules too"
+   },
+   "end": 41,
+   "index": 7
+  },
+  {
+   "start": 41,
+   "kind": "broll",
+   "src": "assets/broll/walk.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 48.08,
+   "index": 8
+  },
+  {
+   "start": 48.08,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "LOP",
+    "label": "loss of pay"
+   },
+   "end": 56.2,
+   "index": 9
+  },
+  {
+   "start": 56.2,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 60.8,
+   "index": 10
+  },
+  {
+   "start": 60.8,
+   "kind": "broll",
+   "src": "assets/broll/phone.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 67.46,
+   "index": 11
+  },
+  {
+   "start": 67.46,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "Okay",
+    "label": "is not a record"
+   },
+   "end": 71.5,
+   "index": 12
+  },
+  {
+   "start": 71.5,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 76.4,
+   "index": 13
+  },
+  {
+   "start": 76.4,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Both",
+    "label": "chat + the system"
+   },
+   "end": 83.2,
+   "index": 14
+  },
+  {
+   "start": 83.2,
+   "kind": "broll",
+   "src": "assets/broll/coffee.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 86.4,
+   "index": 15
+  },
+  {
+   "start": 86.4,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 90,
+   "index": 16
+  },
+  {
+   "start": 90,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 6,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 97,
+   "index": 17
+  },
+  {
+   "start": 97,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "Strict",
+    "label": "attendance in training"
+   },
+   "end": 101.97,
+   "index": 18
+  },
+  {
+   "start": 101.97,
+   "kind": "broll",
+   "src": "assets/broll/fan.mp4",
+   "media_start": 4,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 107.2,
+   "index": 19
+  },
+  {
+   "start": 107.2,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "1",
+    "label": "question in week one"
+   },
+   "end": 111.9,
+   "index": 20
+  },
+  {
+   "start": 111.9,
+   "kind": "broll",
+   "src": "assets/broll/writing.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 118.1,
+   "index": 21
+  },
+  {
+   "start": 118.1,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "3",
+    "label": "the silent one"
+   },
+   "end": 122.3,
+   "index": 22
+  },
+  {
+   "start": 122.3,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 126,
+   "index": 23
+  },
+  {
+   "start": 126,
+   "kind": "broll",
+   "src": "assets/broll/sick.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 131.2,
+   "index": 24
+  },
+  {
+   "start": 131.2,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "Sick",
+    "label": "vs unreachable"
+   },
+   "end": 136.8,
+   "index": 25
+  },
+  {
+   "start": 136.8,
+   "kind": "broll",
+   "src": "assets/broll/yellow.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 143.6,
+   "index": 26
+  },
+  {
+   "start": 143.6,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3",
+    "label": "lines in the message"
+   },
+   "end": 150.8,
+   "index": 27
+  },
+  {
+   "start": 150.8,
+   "kind": "broll",
+   "src": "assets/broll/notebook.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 159.55,
+   "index": 28
+  },
+  {
+   "start": 159.55,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 162.3,
+   "index": 29
+  },
+  {
+   "start": 162.3,
+   "kind": "broll",
+   "src": "assets/broll/walk.mp4",
+   "media_start": 6.5,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 168,
+   "index": 30
+  },
+  {
+   "start": 168,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "Early",
+    "label": "festivals, long weekends"
+   },
+   "end": 171.8,
+   "index": 31
+  },
+  {
+   "start": 171.8,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 6,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 176.4,
+   "index": 32
+  },
+  {
+   "start": 176.4,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "4",
+    "label": "a cover plan"
+   },
+   "end": 183.3,
+   "index": 33
+  },
+  {
+   "start": 183.3,
+   "kind": "broll",
+   "src": "assets/broll/sick.mp4",
+   "media_start": 10,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 191.8,
+   "index": 34
+  },
+  {
+   "start": 191.8,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "4",
+    "label": "rules to remember"
+   },
+   "end": 200.5,
+   "index": 35
+  },
+  {
+   "start": 200.5,
+   "kind": "broll",
+   "src": "assets/broll/notebook.mp4",
+   "media_start": 20,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 207.2,
+   "index": 36
+  },
+  {
+   "start": 207.2,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "?",
+    "label": "your leave question"
+   },
+   "end": 211.7,
+   "index": 37
+  },
+  {
+   "start": 211.7,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe"
+   },
+   "end": 216.6,
+   "index": 38
+  }
+ ],
+ "camera_moves": []
+}

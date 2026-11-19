@@ -1,0 +1,104 @@
+{
+  "name": "d43-leave-rules-first-job",
+  "createdAt": "2026-11-19T15:45:00.448Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d43-leave-rules-first-job/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d43/d43-voice.wav",
+    "duration": 221.12,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d43-leave-rules-first-job/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d43/d43_leave_rules_first_job_voiceover.txt",
+    "words": 741,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d43-leave-rules-first-job/source/screen-script.md"
+  },
+  "language": "en",
+  "keyterms": [
+    "Taking",
+    "Mistake",
+    "Friday",
+    "But Ravi",
+    "Write"
+  ],
+  "mode": "faceless",
+  "style": "liquid",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; modern liquid-glass look for a young audience: glossy capsules, jelly-spring arrivals, slow push-ins on b-roll, keyword chips and stat trios; energetic, a beat every 3-5 s; airy swooshes and pops",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 17.1,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-19T15:46:04.552Z",
+      "words": 741,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-19T15:46:08.890Z",
+      "segments": 14,
+      "kept": 216.6
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-19T17:00:53.083Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d43-leave-rules-first-job/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-19T17:00:53.180Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-19T17:00:53.209Z",
+      "groups": 188
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-19T17:00:54.009Z",
+      "music": 0,
+      "sfx": 49
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-19T17:03:19.313Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d43-leave-rules-first-job/output/final-16x9.mp4",
+      "duration": 226.624
+    }
+  },
+  "detectedLanguage": {
+    "code": "eng",
+    "probability": null
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d43-leave-rules-first-job/work/cleancut.wav",
+    "duration": 216.6,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

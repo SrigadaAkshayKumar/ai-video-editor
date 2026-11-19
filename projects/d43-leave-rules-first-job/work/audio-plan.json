@@ -1,0 +1,302 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "title_slide: Leave in your first job"
+  },
+  {
+   "time": 4.68,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: Nobody tells freshers"
+  },
+  {
+   "time": 10.68,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "fact_band: The 3 mistakes"
+  },
+  {
+   "time": 17.38,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "chapter_open: Why leave is different"
+  },
+  {
+   "time": 17.88,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Why leave is different"
+  },
+  {
+   "time": 20.88,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: Not given all at once"
+  },
+  {
+   "time": 23.68,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "timeline: Credited month by month"
+  },
+  {
+   "time": 31.38,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: Rules differ"
+  },
+  {
+   "time": 33.78,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 41.28,
+   "sfx": "typing",
+   "gain": 2,
+   "reason": "big_statement: Offer letter + company portal"
+  },
+  {
+   "time": 48.38,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Leave balance empty?"
+  },
+  {
+   "time": 56.38,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "chapter_open: Informal leave"
+  },
+  {
+   "time": 56.88,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Informal leave"
+  },
+  {
+   "time": 60.98,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "lower_third: Ravi, a new joiner"
+  },
+  {
+   "time": 66.88,
+   "sfx": "ding",
+   "gain": 2,
+   "reason": "quote_pull: Okay, take Friday off"
+  },
+  {
+   "time": 71.78,
+   "sfx": "typing",
+   "gain": 2,
+   "reason": "big_statement: Friday: absent. Pay cut."
+  },
+  {
+   "time": 76.68,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "checklist: Do both, every time"
+  },
+  {
+   "time": 83.48,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: The next one surprises"
+  },
+  {
+   "time": 86.58,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "chapter_open: Training and probation"
+  },
+  {
+   "time": 87.08,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Training and probation"
+  },
+  {
+   "time": 90.08,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: Ask how it works"
+  },
+  {
+   "time": 92.88,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "timeline: Your first months"
+  },
+  {
+   "time": 101.38,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "side_note: Low attendance can extend probation"
+  },
+  {
+   "time": 105.48,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: Not all do. Ask."
+  },
+  {
+   "time": 107.48,
+   "sfx": "typing",
+   "gain": 2,
+   "reason": "big_statement: Ask in week one"
+  },
+  {
+   "time": 112.08,
+   "sfx": "ding",
+   "gain": 2,
+   "reason": "quote_pull: What is the leave rule during training and probation?"
+  },
+  {
+   "time": 118.38,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: Next: the silent one"
+  },
+  {
+   "time": 122.48,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "chapter_open: Going silent"
+  },
+  {
+   "time": 122.98,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Going silent"
+  },
+  {
+   "time": 126.18,
+   "sfx": "typing",
+   "gain": 2,
+   "reason": "big_statement: Silence damages trust"
+  },
+  {
+   "time": 131.38,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 136.98,
+   "sfx": "ding",
+   "gain": 2,
+   "reason": "quote_pull: Good morning, I am not well and will not be able to work today."
+  },
+  {
+   "time": 143.88,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "checklist: The rest of the message"
+  },
+  {
+   "time": 151.08,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: Short. Honest. Professional."
+  },
+  {
+   "time": 153.68,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "side_note: Keep your doctor's note"
+  },
+  {
+   "time": 156.38,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: Asked after a few days"
+  },
+  {
+   "time": 159.68,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "chapter_open: Plan leave smartly"
+  },
+  {
+   "time": 160.18,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Plan leave smartly"
+  },
+  {
+   "time": 162.88,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: 1 · Check your balance"
+  },
+  {
+   "time": 164.68,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: 2 · Apply early"
+  },
+  {
+   "time": 168.38,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "side_note: Festivals, long weekends"
+  },
+  {
+   "time": 172.08,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: 3 · Not before a delivery"
+  },
+  {
+   "time": 176.68,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "checklist: 4 · If you must be away"
+  },
+  {
+   "time": 183.58,
+   "sfx": "typing",
+   "gain": 2,
+   "reason": "big_statement: Leave is your right"
+  },
+  {
+   "time": 188.48,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: Keep your manager on your side"
+  },
+  {
+   "time": 192.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "fact_band: Recap"
+  },
+  {
+   "time": 200.78,
+   "sfx": "typing",
+   "gain": 2,
+   "reason": "big_statement: Your leave question?"
+  },
+  {
+   "time": 207.48,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: Write your one leave question"
+  },
+  {
+   "time": 211.88,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: Like · Subscribe"
+  }
+ ]
+}
