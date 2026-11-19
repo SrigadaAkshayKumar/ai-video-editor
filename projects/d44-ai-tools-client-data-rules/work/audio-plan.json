@@ -1,0 +1,308 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "title_slide: Never paste this into A.I."
+  },
+  {
+   "time": 4.48,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "side_note: One paste = one warning mail"
+  },
+  {
+   "time": 7.38,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: For every fresher"
+  },
+  {
+   "time": 12.38,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Never paste"
+  },
+  {
+   "time": 16.88,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: The safe way + 1 question"
+  },
+  {
+   "time": 22.38,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "chapter_open: The Samsung story"
+  },
+  {
+   "time": 22.73,
+   "sfx": "impact",
+   "gain": 4,
+   "reason": "chapter_open: The Samsung story"
+  },
+  {
+   "time": 25.45,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "news cut: The Register"
+  },
+  {
+   "time": 26.08,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: Source code pasted · 2023"
+  },
+  {
+   "time": 29.98,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "side_note: Meeting notes too"
+  },
+  {
+   "time": 33.25,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "news cut: Fortune"
+  },
+  {
+   "time": 33.48,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: Public A.I. tools banned"
+  },
+  {
+   "time": 36.45,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "news cut: AI News"
+  },
+  {
+   "time": 37.08,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: Reported · June 2026"
+  },
+  {
+   "time": 41.08,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "side_note: Behind a security layer"
+  },
+  {
+   "time": 44.48,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "timeline: Samsung and A.I."
+  },
+  {
+   "time": 52.68,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "side_note: Rules live in a document nobody reads"
+  },
+  {
+   "time": 57.28,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "chapter_open: Client data"
+  },
+  {
+   "time": 57.63,
+   "sfx": "impact",
+   "gain": 4,
+   "reason": "chapter_open: Client data"
+  },
+  {
+   "time": 60.48,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: Code · tables · logs"
+  },
+  {
+   "time": 65.08,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "side_note: Not yours. Not your company's."
+  },
+  {
+   "time": 67.98,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "checklist: Hidden in a log"
+  },
+  {
+   "time": 74.38,
+   "sfx": "typing",
+   "gain": 2,
+   "reason": "big_statement: Confidentiality clause"
+  },
+  {
+   "time": 79.48,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: Incident report, your name"
+  },
+  {
+   "time": 82.88,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "chapter_open: Secrets"
+  },
+  {
+   "time": 83.23,
+   "sfx": "impact",
+   "gain": 4,
+   "reason": "chapter_open: Secrets"
+  },
+  {
+   "time": 86.08,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: Passwords · keys · tokens"
+  },
+  {
+   "time": 89.08,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "side_note: Config file = keys to a live system"
+  },
+  {
+   "time": 95.38,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: Public code sites too"
+  },
+  {
+   "time": 99.28,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 107.48,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "chapter_open: Internal documents"
+  },
+  {
+   "time": 107.83,
+   "sfx": "impact",
+   "gain": 4,
+   "reason": "chapter_open: Internal documents"
+  },
+  {
+   "time": 110.58,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "checklist: Do not paste"
+  },
+  {
+   "time": 115.28,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: It feels harmless"
+  },
+  {
+   "time": 118.38,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "side_note: Same as the Samsung story"
+  },
+  {
+   "time": 121.68,
+   "sfx": "ding",
+   "gain": 2,
+   "reason": "quote_pull: So how do I use A.I. at all?"
+  },
+  {
+   "time": 125.28,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: The part that helps your career"
+  },
+  {
+   "time": 129.48,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "chapter_open: The safe way"
+  },
+  {
+   "time": 129.83,
+   "sfx": "impact",
+   "gain": 4,
+   "reason": "chapter_open: The safe way"
+  },
+  {
+   "time": 132.68,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Using A.I. at work"
+  },
+  {
+   "time": 142.78,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "step_progress: Step 2"
+  },
+  {
+   "time": 147.78,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: Ask general questions"
+  },
+  {
+   "time": 149.68,
+   "sfx": "ding",
+   "gain": 2,
+   "reason": "quote_pull: How do I read a file line by line in Java?"
+  },
+  {
+   "time": 157.18,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "side_note: Cannot explain it? Do not submit it."
+  },
+  {
+   "time": 161.78,
+   "sfx": "typing",
+   "gain": 2,
+   "reason": "big_statement: The next interview asks too"
+  },
+  {
+   "time": 167.78,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "checklist: Never paste"
+  },
+  {
+   "time": 173.18,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: Approved tool only"
+  },
+  {
+   "time": 175.98,
+   "sfx": "typing",
+   "gain": 2,
+   "reason": "big_statement: What is the A.I. tool policy here?"
+  },
+  {
+   "time": 184.28,
+   "sfx": "ding",
+   "gain": 2,
+   "reason": "quote_pull: Yes or no, and what the rule was"
+  },
+  {
+   "time": 190.48,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: Like · Subscribe"
+  }
+ ]
+}

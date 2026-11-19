@@ -1,0 +1,103 @@
+{
+  "name": "d44-ai-tools-client-data-rules",
+  "createdAt": "2026-11-19T17:44:46.681Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d44-ai-tools-client-data-rules/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d44/d44-voice.wav",
+    "duration": 196.360042,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d44-ai-tools-client-data-rules/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d44/d44_ai_tools_client_data_rules_voiceover.txt",
+    "words": 642,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d44-ai-tools-client-data-rules/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Samsung",
+    "Never",
+    "Ask"
+  ],
+  "mode": "faceless",
+  "style": "broadcast",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; bold newsroom look: news screenshots and NewsCards lead, split-screen framing, oversized section numerals, high-contrast accents; punchy pace, a beat every 3-5 s; wipe whooshes and hits on section changes",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 22,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-19T17:50:20.758Z",
+      "words": 640,
+      "engine": "whisper.cpp medium.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-19T17:50:27.410Z",
+      "segments": 12,
+      "kept": 193.7
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-19T18:14:12.867Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d44-ai-tools-client-data-rules/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-19T18:14:21.257Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-19T18:14:21.291Z",
+      "groups": 170
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-19T18:14:22.165Z",
+      "music": 0,
+      "sfx": 50
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-19T18:16:54.204Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d44-ai-tools-client-data-rules/output/final-16x9.mp4",
+      "duration": 203.712
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.965025,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d44-ai-tools-client-data-rules/work/cleancut.wav",
+    "duration": 193.693333,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}
