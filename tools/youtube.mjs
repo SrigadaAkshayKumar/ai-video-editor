@@ -4,7 +4,7 @@
 //   node tools/youtube.mjs <project> [--shorts AI-clipper/output/<slug>] [--dry-run]
 //        [--publish "2026-10-15 16:00"]   main video at this IST time (Shorts the same day, see below)
 //        [--no-thumbnail]               leave YouTube's auto thumbnail (set one later with --set-thumbnail)
-//        [--queue dir]                  no --publish: the first free day AFTER the latest main video scheduled in
+//        [--queue dir]                  no --publish: the first publish day with no main video yet, per
 //                                       dir/**/youtube-uploaded.json (the daily run pulls them from Drive), skipping
 //                                       youtube.skipDays (0 = Sunday); without it: publishDelayDays from today
 //   node tools/youtube.mjs --test <file.mp4>   one Private test upload (no schedule): proves the login works and
@@ -74,17 +74,15 @@ const ahead = (t) => !!cfg.aheadUntil && new Date(t + IST).toISOString().slice(0
 function queueSlot(dir) {
   const files = queueFiles(dir);
   // only main videos on the regular days count: a Saturday long-form must not push Mon/Wed/Fri back
-  const latest = Math.max(0, ...files.flatMap((f) => (readJson(f).videos || []).filter((v) => v.kind === "video")
-    .map((v) => Date.parse(v.publishAt) || 0).filter((t) => t && !skipDay(t))));
-  const slot = istSlot(cfg.publishDelayDays, cfg.publishTime);
-  if (!latest) return slot;
-  // next day after the latest, at publishTime IST
-  const d = new Date(latest + IST);
-  const [h, m] = cfg.publishTime.split(":").map(Number);
-  let t = Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate() + 1, h, m) - IST;
-  while (skipDay(t)) t += 864e5;
-  console.log(`queue: latest scheduled video ${istText(new Date(latest).toISOString())} (${files.length} uploaded episodes) → next free day`);
-  return new Date(Math.max(t, slot.getTime()));
+  const day = (t) => new Date(t + IST).toISOString().slice(0, 10);
+  const taken = new Set(files.flatMap((f) => (readJson(f).videos || []).filter((v) => v.kind === "video")
+    .map((v) => Date.parse(v.publishAt) || 0).filter((t) => t && !skipDay(t)).map(day)));
+  // the first publish day from the normal slot on that has no main video yet: a day freed by --unschedule (or any
+  // gap) is filled before the queue grows past the latest video
+  let t = istSlot(cfg.publishDelayDays, cfg.publishTime).getTime();
+  while (skipDay(t) || taken.has(day(t))) t += 864e5;
+  console.log(`queue: ${taken.size} publish days taken → first free day ${istText(new Date(t).toISOString())}`);
+  return new Date(t);
 }
 
 // --longform-slot --queue dir: the next youtube.longform day (6 = Saturday) at its time, IST, that has no main video
