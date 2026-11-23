@@ -101,8 +101,11 @@ jobs:
               if [ -z "$p" ] || ! rclone lsf "$DRIVE/output/$p" | grep -q '^longform-done\.json$'; then N=$n; break; fi
             done
             if [ -z "$N" ]; then
-              max=$(echo "$files" | grep -oE '^[0-9]+' | sort -n | tail -1)
-              N=$(printf '%02d' $(( 10#${max:-0} + 1 )))
+              # next number after every script in Drive AND every long-form in the ledger (Drive can be emptied: on
+              # 19 Nov the scripts restarted at 01 and reached 07, a number already on YouTube, and the chain stopped)
+              max=$( { echo "$files" | grep -oE '^[0-9]+'; ls config/youtube-scheduled | grep -oE '^lf[0-9]+' | tr -d lf; } \
+                | sed 's/^0*//' | grep . | sort -n | tail -1)
+              N=$(printf '%02d' $(( ${max:-0} + 1 )))
             fi
           fi
           # already scheduled on YouTube (the ledger in git, by number): never make it again, also not on a retry
