@@ -1,0 +1,140 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "title_slide: Side income in your first job?"
+  },
+  {
+   "time": 4.53,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "news cut: TechCrunch"
+  },
+  {
+   "time": 5.38,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: Reported · Sept 2022"
+  },
+  {
+   "time": 15.28,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Before you earn"
+  },
+  {
+   "time": 26.36,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "chapter_open: What it means"
+  },
+  {
+   "time": 29.58,
+   "sfx": "ding",
+   "gain": 2,
+   "reason": "quote_pull: Another job, usually without your employer knowing"
+  },
+  {
+   "time": 33.48,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: After-office side projects"
+  },
+  {
+   "time": 58.34,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "chapter_open: Your contract"
+  },
+  {
+   "time": 61.58,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "checklist: Find in your contract"
+  },
+  {
+   "time": 67.08,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: Work only for us"
+  },
+  {
+   "time": 91.21,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "chapter_open: Three kinds"
+  },
+  {
+   "time": 96.38,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: NEVER"
+  },
+  {
+   "time": 116.28,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "data_table: Three kinds of side work"
+  },
+  {
+   "time": 128.08,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: After hours is not enough"
+  },
+  {
+   "time": 137.43,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "chapter_open: Three steps"
+  },
+  {
+   "time": 146.21,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "news cut: Business Today"
+  },
+  {
+   "time": 156.08,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: Tech Mahindra: written approval"
+  },
+  {
+   "time": 161.28,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "checklist: Your mail says"
+  },
+  {
+   "time": 172.68,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "checklist: Keep it clean"
+  },
+  {
+   "time": 191.38,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "checklist: Recap"
+  },
+  {
+   "time": 201.38,
+   "sfx": "ding",
+   "gain": 2,
+   "reason": "quote_pull: Freelance after you join, or learn a new skill?"
+  },
+  {
+   "time": 212.48,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: Like · Subscribe · Share"
+  }
+ ]
+}
