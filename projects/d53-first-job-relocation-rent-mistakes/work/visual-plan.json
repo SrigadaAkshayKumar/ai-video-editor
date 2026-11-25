@@ -1,0 +1,775 @@
+{
+ "style": "broadcast",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 4.35,
+   "type": "title_slide",
+   "text": "3 rent mistakes that cost freshers",
+   "eyebrow": "Crack IT · Day 53",
+   "style_hint": "Before you book any room"
+  },
+  {
+   "start": 4.8,
+   "duration": 3.2,
+   "type": "side_note",
+   "text": "Not salary. Rent.",
+   "side": "right"
+  },
+  {
+   "start": 8.6,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "Offer in another city?",
+   "side": "left"
+  },
+  {
+   "start": 13,
+   "duration": 8.7,
+   "type": "stat_trio",
+   "text": "This video",
+   "items": [
+    {
+     "label": "rent mistakes",
+     "sublabel": "",
+     "value": 3
+    },
+    {
+     "label": "payment never to make early",
+     "sublabel": "",
+     "value": 1
+    },
+    {
+     "label": "things in writing",
+     "sublabel": "",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "start": 22.3,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Mistake 3 traps most people",
+   "side": "right"
+  },
+  {
+   "start": 26.2,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Why month one is risky",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 30.2,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "New city. No contacts.",
+   "side": "left"
+  },
+  {
+   "start": 33.9,
+   "duration": 4.3,
+   "type": "keyword_chip",
+   "text": "Hurry leads to bad decisions",
+   "side": "right"
+  },
+  {
+   "start": 39.2,
+   "duration": 8.8,
+   "type": "timeline",
+   "side": "left",
+   "text": "You pay from your pocket",
+   "current": 1,
+   "items": [
+    {
+     "label": "Offer",
+     "sublabel": ""
+    },
+    {
+     "label": "Joining day",
+     "sublabel": ""
+    },
+    {
+     "label": "First salary",
+     "sublabel": "End of month"
+    }
+   ]
+  },
+  {
+   "start": 48.7,
+   "duration": 4.5,
+   "type": "keyword_chip",
+   "text": "Spend little. Commit to nothing long.",
+   "side": "right"
+  },
+  {
+   "start": 54.6,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Paying too early",
+   "eyebrow": "Section 02",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 58.8,
+   "duration": 4.8,
+   "type": "keyword_chip",
+   "text": "Joining dates can move",
+   "side": "left"
+  },
+  {
+   "start": 64.9,
+   "duration": 2.8,
+   "type": "side_note",
+   "text": "Some owners return it, some do not",
+   "side": "right"
+  },
+  {
+   "start": 68.2,
+   "duration": 9.8,
+   "type": "checklist",
+   "side": "right",
+   "text": "Before you pay",
+   "items": [
+    {
+     "label": "Joining email: date and place",
+     "state": "yes"
+    },
+    {
+     "label": "Written receipt",
+     "state": "yes"
+    },
+    {
+     "label": "Small booking amount only",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 78.4,
+   "duration": 4.1,
+   "type": "keyword_chip",
+   "text": "A fee to get the job?",
+   "side": "left"
+  },
+  {
+   "start": 82.9,
+   "duration": 3.7,
+   "type": "quote_pull",
+   "text": "Real recruiters never charge for a job.",
+   "eyebrow": "That is a scam, not rent"
+  },
+  {
+   "start": 86.95,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "No paper, no deal",
+   "eyebrow": "Section 03",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 90.4,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "Flat, PG or hostel",
+   "side": "left"
+  },
+  {
+   "start": 94.8,
+   "duration": 1.7,
+   "type": "keyword_chip",
+   "text": "Five things in writing",
+   "side": "right"
+  },
+  {
+   "start": 96.8,
+   "duration": 10,
+   "type": "checklist",
+   "side": "right",
+   "text": "Get in writing",
+   "items": [
+    {
+     "label": "Monthly rent",
+     "state": "yes"
+    },
+    {
+     "label": "Deposit amount",
+     "state": "yes"
+    },
+    {
+     "label": "When the deposit comes back",
+     "state": "yes"
+    },
+    {
+     "label": "Notice period",
+     "state": "yes"
+    },
+    {
+     "label": "What is included",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 107.9,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "Signed paper beats a chat",
+   "side": "left"
+  },
+  {
+   "start": 111.8,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Photo of the room, with date",
+   "side": "right"
+  },
+  {
+   "start": 115.6,
+   "duration": 3.2,
+   "type": "side_note",
+   "text": "Already broken? You have proof.",
+   "side": "left"
+  },
+  {
+   "start": 119.4,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "Large cash, no receipt? No.",
+   "side": "right"
+  },
+  {
+   "start": 122.6,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "Pay by bank or UPI",
+   "side": "left"
+  },
+  {
+   "start": 125.7,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "The long lease trap",
+   "eyebrow": "Section 04",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 129.3,
+   "duration": 3.7,
+   "type": "keyword_chip",
+   "text": "Before you know your office",
+   "side": "left"
+  },
+  {
+   "start": 133.4,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "A real, common situation",
+   "side": "right"
+  },
+  {
+   "start": 136.4,
+   "duration": 14.8,
+   "type": "flow_diagram",
+   "text": "How the rent gets stuck",
+   "items": [
+    {
+     "label": "Join company",
+     "sublabel": ""
+    },
+    {
+     "label": "Sign 1-year lease",
+     "sublabel": ""
+    },
+    {
+     "label": "Project moves office",
+     "sublabel": ""
+    },
+    {
+     "label": "Rent stuck, deposit locked",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 151.8,
+   "duration": 10,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Short and flexible",
+    "text": "PG, hostel, shared flat. Short notice."
+   },
+   "right": {
+    "label": "Long lease",
+    "text": "Locked rent. Locked deposit."
+   }
+  },
+  {
+   "start": 162.5,
+   "duration": 4.1,
+   "type": "keyword_chip",
+   "text": "Location clear? Then go long",
+   "side": "right"
+  },
+  {
+   "start": 167.2,
+   "duration": 4.2,
+   "type": "side_note",
+   "text": "Two hours on the road is not cheap",
+   "side": "left"
+  },
+  {
+   "start": 172,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Your 4-step plan",
+   "eyebrow": "Section 05",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 175.2,
+   "duration": 22.4,
+   "type": "checklist",
+   "side": "left",
+   "text": "Do it in this order",
+   "items": [
+    {
+     "label": "Read joining email",
+     "state": "yes"
+    },
+    {
+     "label": "Short stay first",
+     "state": "yes"
+    },
+    {
+     "label": "Visit before paying",
+     "state": "yes"
+    },
+    {
+     "label": "Long place later",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 198.2,
+   "duration": 5,
+   "type": "side_note",
+   "text": "Ask colleagues: safe areas, fair prices",
+   "side": "right"
+  },
+  {
+   "start": 203.8,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "Keep cash for month one",
+   "side": "left"
+  },
+  {
+   "start": 208.2,
+   "duration": 9.4,
+   "type": "checklist",
+   "side": "right",
+   "text": "Three rules",
+   "items": [
+    {
+     "label": "No payment before joining is confirmed",
+     "state": "yes"
+    },
+    {
+     "label": "Rent, deposit, exit in writing",
+     "state": "yes"
+    },
+    {
+     "label": "No long lease before location",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 218.2,
+   "duration": 9.2,
+   "type": "big_statement",
+   "text": "Your city + your rent?",
+   "eyebrow": "Comment below"
+  },
+  {
+   "start": 228,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Like · Subscribe",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/city.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "cut",
+   "end": 8,
+   "index": 0
+  },
+  {
+   "start": 8,
+   "kind": "broll",
+   "src": "assets/broll/backpack.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 12.9,
+   "index": 1
+  },
+  {
+   "start": 12.9,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 21.9,
+   "index": 2
+  },
+  {
+   "start": 21.9,
+   "kind": "broll",
+   "src": "assets/broll/crowd.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 25.77,
+   "index": 3
+  },
+  {
+   "start": 25.77,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 30,
+   "index": 4
+  },
+  {
+   "start": 30,
+   "kind": "broll",
+   "src": "assets/broll/transit.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 35.9,
+   "index": 5
+  },
+  {
+   "start": 35.9,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "1st",
+    "label": "salary comes after month one"
+   },
+   "end": 39,
+   "index": 6
+  },
+  {
+   "start": 39,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 48.4,
+   "index": 7
+  },
+  {
+   "start": 48.4,
+   "kind": "broll",
+   "src": "assets/broll/phone.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 54.6,
+   "index": 8
+  },
+  {
+   "start": 54.6,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 58.6,
+   "index": 9
+  },
+  {
+   "start": 58.6,
+   "kind": "broll",
+   "src": "assets/broll/street.mp4",
+   "media_start": 0,
+   "motion": "pan_right",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 64.9,
+   "index": 10
+  },
+  {
+   "start": 64.9,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 70.5,
+   "index": 11
+  },
+  {
+   "start": 70.5,
+   "kind": "broll",
+   "src": "assets/broll/street.mp4",
+   "media_start": 8,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 78.2,
+   "index": 12
+  },
+  {
+   "start": 78.2,
+   "kind": "broll",
+   "src": "assets/broll/hands.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 82.7,
+   "index": 13
+  },
+  {
+   "start": 82.7,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 86.9,
+   "index": 14
+  },
+  {
+   "start": 86.9,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 90.2,
+   "index": 15
+  },
+  {
+   "start": 90.2,
+   "kind": "broll",
+   "src": "assets/broll/hall.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 96.7,
+   "index": 16
+  },
+  {
+   "start": 96.7,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "5",
+    "label": "things in writing"
+   },
+   "end": 107.8,
+   "index": 17
+  },
+  {
+   "start": 107.8,
+   "kind": "broll",
+   "src": "assets/broll/sign.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 115.5,
+   "index": 18
+  },
+  {
+   "start": 115.5,
+   "kind": "broll",
+   "src": "assets/broll/phone.mp4",
+   "media_start": 5,
+   "motion": "ken_out",
+   "grade": "warm",
+   "transition": "cut",
+   "end": 119.3,
+   "index": 19
+  },
+  {
+   "start": 119.3,
+   "kind": "broll",
+   "src": "assets/broll/hands.mp4",
+   "media_start": 3,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 125.6,
+   "index": 20
+  },
+  {
+   "start": 125.6,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 129.2,
+   "index": 21
+  },
+  {
+   "start": 129.2,
+   "kind": "broll",
+   "src": "assets/broll/city.mp4",
+   "media_start": 4,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 136.3,
+   "index": 22
+  },
+  {
+   "start": 136.3,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 144,
+   "index": 23
+  },
+  {
+   "start": 144,
+   "kind": "broll",
+   "src": "assets/broll/hall.mp4",
+   "media_start": 2,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 151.7,
+   "index": 24
+  },
+  {
+   "start": 151.7,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "12",
+    "label": "months locked in"
+   },
+   "end": 162.3,
+   "index": 25
+  },
+  {
+   "start": 162.3,
+   "kind": "broll",
+   "src": "assets/broll/transit.mp4",
+   "media_start": 4,
+   "motion": "pan_left",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 167,
+   "index": 26
+  },
+  {
+   "start": 167,
+   "kind": "broll",
+   "src": "assets/broll/crowd.mp4",
+   "media_start": 6,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 171.97,
+   "index": 27
+  },
+  {
+   "start": 171.97,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 175,
+   "index": 28
+  },
+  {
+   "start": 175,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "4",
+    "label": "steps, in order"
+   },
+   "end": 186,
+   "index": 29
+  },
+  {
+   "start": 186,
+   "kind": "broll",
+   "src": "assets/broll/street.mp4",
+   "media_start": 4,
+   "motion": "pan_left",
+   "grade": "warm",
+   "transition": "cut",
+   "end": 192,
+   "index": 30
+  },
+  {
+   "start": 192,
+   "kind": "broll",
+   "src": "assets/broll/hall.mp4",
+   "media_start": 3,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 198,
+   "index": 31
+  },
+  {
+   "start": 198,
+   "kind": "broll",
+   "src": "assets/broll/friends.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "cut",
+   "end": 203.6,
+   "index": 32
+  },
+  {
+   "start": 203.6,
+   "kind": "broll",
+   "src": "assets/broll/phone.mp4",
+   "media_start": 2,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "cut",
+   "end": 208,
+   "index": 33
+  },
+  {
+   "start": 208,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 218,
+   "index": 34
+  },
+  {
+   "start": 218,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 227.8,
+   "index": 35
+  },
+  {
+   "start": 227.8,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe"
+   },
+   "end": 231.12,
+   "index": 36
+  }
+ ],
+ "camera_moves": []
+}
