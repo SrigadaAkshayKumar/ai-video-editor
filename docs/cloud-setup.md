@@ -46,7 +46,7 @@ AI-edits/
   Shorts and the YouTube schedule (Shorts 17:00/18:00/19:00) follow; long runs continue themselves across runs and
   usage limits. The Mon/Wed/Fri queue ignores Saturday videos. Day and time: `config/daily.json` →
   `youtube.longform`.
-- **Making videos ahead:** `config/daily.json` → `youtube.aheadUntil` (`"2027-01-15"`): until that date every run
+- **Making videos ahead:** `config/daily.json` → `youtube.aheadUntil` (`"2027-02-15"`): until that date every run
   makes the next free slot's video and then starts the next run itself (daily and long-form alike), so a backlog
   is built back to back. A Claude usage limit pauses the chain until the reset (the run waits, then starts again).
   Remove the line (or set an earlier date) to go back to one video the night before.
