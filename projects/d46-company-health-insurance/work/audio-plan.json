@@ -1,0 +1,176 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "title_slide: Does your cover end on your last day?"
+  },
+  {
+   "time": 4.68,
+   "sfx": "pop",
+   "gain": 3,
+   "reason": "keyword_chip: Cover ends when the job ends"
+  },
+  {
+   "time": 12.28,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Three mistakes"
+  },
+  {
+   "time": 20.28,
+   "sfx": "pop",
+   "gain": 3,
+   "reason": "keyword_chip: The third one cancels cover"
+  },
+  {
+   "time": 23.94,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "chapter_open: The basics"
+  },
+  {
+   "time": 27.28,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Group policy"
+  },
+  {
+   "time": 34.88,
+   "sfx": "pop",
+   "gain": 3,
+   "reason": "side_note: No separate policy in your name"
+  },
+  {
+   "time": 38.18,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "checklist: Your company decides"
+  },
+  {
+   "time": 50.48,
+   "sfx": "pop",
+   "gain": 3,
+   "reason": "side_note: Ask HR or check the benefits portal"
+  },
+  {
+   "time": 60.85,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "chapter_open: Mistake one"
+  },
+  {
+   "time": 67.48,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "checklist: Common limits"
+  },
+  {
+   "time": 72.48,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Outside the network"
+  },
+  {
+   "time": 78.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "checklist: First week"
+  },
+  {
+   "time": 87.28,
+   "sfx": "pop",
+   "gain": 3,
+   "reason": "side_note: Save the helpline number today"
+  },
+  {
+   "time": 92.64,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "chapter_open: Mistake two"
+  },
+  {
+   "time": 101.08,
+   "sfx": "pop",
+   "gain": 3,
+   "reason": "keyword_chip: Asthma · thyroid · BP"
+  },
+  {
+   "time": 114.38,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "stat_trio: Moratorium period"
+  },
+  {
+   "time": 133.32,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "chapter_open: Mistake three"
+  },
+  {
+   "time": 136.58,
+   "sfx": "pop",
+   "gain": 3,
+   "reason": "side_note: Last day: group cover stops"
+  },
+  {
+   "time": 140.98,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "timeline: Resign without a plan"
+  },
+  {
+   "time": 149.38,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Before you resign"
+  },
+  {
+   "time": 162.28,
+   "sfx": "pop",
+   "gain": 3,
+   "reason": "side_note: Insurer decides terms + premium"
+  },
+  {
+   "time": 178.58,
+   "sfx": "pop",
+   "gain": 3,
+   "reason": "keyword_chip: Low premium while young"
+  },
+  {
+   "time": 192.7,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "chapter_open: Your plan"
+  },
+  {
+   "time": 195.88,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "checklist: This week"
+  },
+  {
+   "time": 214.28,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "checklist: Recap"
+  },
+  {
+   "time": 225.38,
+   "sfx": "ding",
+   "gain": 2,
+   "reason": "quote_pull: Is your company policy your family's first cover?"
+  },
+  {
+   "time": 235.48,
+   "sfx": "pop",
+   "gain": 3,
+   "reason": "keyword_chip: Like · Subscribe · Share"
+  }
+ ]
+}

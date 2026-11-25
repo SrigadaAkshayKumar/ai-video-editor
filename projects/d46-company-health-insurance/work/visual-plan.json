@@ -1,0 +1,972 @@
+{
+ "style": "liquid",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 4.15,
+   "type": "title_slide",
+   "text": "Does your cover end on your last day?",
+   "eyebrow": "Crack IT · Day 46",
+   "style_hint": "Company health insurance for freshers"
+  },
+  {
+   "start": 4.6,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "Cover ends when the job ends",
+   "side": "right"
+  },
+  {
+   "start": 9.3,
+   "duration": 2.3,
+   "type": "keyword_chip",
+   "text": "Your first tech job",
+   "side": "left"
+  },
+  {
+   "start": 12.2,
+   "duration": 7.3,
+   "type": "flow_diagram",
+   "text": "Three mistakes",
+   "items": [
+    {
+     "label": "?",
+     "sublabel": "1"
+    },
+    {
+     "label": "?",
+     "sublabel": "2"
+    },
+    {
+     "label": "?",
+     "sublabel": "3"
+    }
+   ]
+  },
+  {
+   "start": 20.2,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "The third one cancels cover",
+   "side": "right"
+  },
+  {
+   "start": 23.86,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "The basics",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 27.2,
+   "duration": 3.6,
+   "type": "flow_diagram",
+   "text": "Group policy",
+   "items": [
+    {
+     "label": "Company",
+     "sublabel": "buys"
+    },
+    {
+     "label": "Insurer",
+     "sublabel": "covers"
+    },
+    {
+     "label": "You",
+     "sublabel": "insured"
+    }
+   ]
+  },
+  {
+   "start": 31.2,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Company usually pays",
+   "side": "right"
+  },
+  {
+   "start": 34.8,
+   "duration": 2.6,
+   "type": "side_note",
+   "text": "No separate policy in your name",
+   "side": "left"
+  },
+  {
+   "start": 38.1,
+   "duration": 7.9,
+   "type": "checklist",
+   "side": "right",
+   "text": "Your company decides",
+   "items": [
+    {
+     "label": "Cover amount",
+     "state": "yes"
+    },
+    {
+     "label": "Hospital network",
+     "state": "yes"
+    },
+    {
+     "label": "Parents or spouse?",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 46.8,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Do not copy a friend's plan",
+   "side": "left"
+  },
+  {
+   "start": 50.4,
+   "duration": 5,
+   "type": "side_note",
+   "text": "Ask HR or check the benefits portal",
+   "side": "right"
+  },
+  {
+   "start": 56,
+   "duration": 4.6,
+   "type": "big_statement",
+   "text": "Ends when you leave",
+   "eyebrow": "The catch"
+  },
+  {
+   "start": 60.77,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Mistake one",
+   "eyebrow": "Section 02",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 64.2,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Assume it is all covered",
+   "side": "right"
+  },
+  {
+   "start": 67.4,
+   "duration": 4.6,
+   "type": "checklist",
+   "side": "left",
+   "text": "Common limits",
+   "items": [
+    {
+     "label": "Room charges cap",
+     "state": "no"
+    },
+    {
+     "label": "Treatment limits",
+     "state": "no"
+    },
+    {
+     "label": "Cashless hospitals only",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 72.4,
+   "duration": 5,
+   "type": "flow_diagram",
+   "text": "Outside the network",
+   "items": [
+    {
+     "label": "Pay the bill",
+     "sublabel": "first"
+    },
+    {
+     "label": "Claim it back",
+     "sublabel": "later"
+    }
+   ]
+  },
+  {
+   "start": 78,
+   "duration": 8.6,
+   "type": "checklist",
+   "side": "right",
+   "text": "First week",
+   "items": [
+    {
+     "label": "Cover amount",
+     "state": "yes"
+    },
+    {
+     "label": "Parents included?",
+     "state": "yes"
+    },
+    {
+     "label": "Network hospitals",
+     "state": "yes"
+    },
+    {
+     "label": "Helpline number",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 87.2,
+   "duration": 5.2,
+   "type": "side_note",
+   "text": "Save the helpline number today",
+   "side": "left"
+  },
+  {
+   "start": 92.56,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Mistake two",
+   "eyebrow": "Section 03",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 95.8,
+   "duration": 4.2,
+   "type": "keyword_chip",
+   "text": "Hiding medical history",
+   "side": "right"
+  },
+  {
+   "start": 101,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "Asthma · thyroid · BP",
+   "side": "left"
+  },
+  {
+   "start": 105.4,
+   "duration": 8.5,
+   "type": "number_roll",
+   "value": 5,
+   "prefix": "",
+   "suffix": " years",
+   "text": "Continuous cover, then genuine misses are protected"
+  },
+  {
+   "start": 114.3,
+   "duration": 3.7,
+   "type": "stat_trio",
+   "text": "Moratorium period",
+   "items": [
+    {
+     "label": "Before 2024",
+     "sublabel": "",
+     "value": 8
+    },
+    {
+     "label": "Since 2024",
+     "sublabel": "",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "start": 118.6,
+   "duration": 7.2,
+   "type": "side_note",
+   "text": "Hide it on purpose = claim rejected",
+   "side": "left"
+  },
+  {
+   "start": 126.4,
+   "duration": 6.6,
+   "type": "big_statement",
+   "text": "CONTINUOUS",
+   "eyebrow": "No break in cover"
+  },
+  {
+   "start": 133.24,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Mistake three",
+   "eyebrow": "Section 04",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 136.5,
+   "duration": 3.9,
+   "type": "side_note",
+   "text": "Last day: group cover stops",
+   "side": "right"
+  },
+  {
+   "start": 140.9,
+   "duration": 7.8,
+   "type": "timeline",
+   "side": "right",
+   "text": "Resign without a plan",
+   "current": 1,
+   "items": [
+    {
+     "label": "Last working day",
+     "sublabel": "cover stops"
+    },
+    {
+     "label": "The gap",
+     "sublabel": "uninsured"
+    },
+    {
+     "label": "New company",
+     "sublabel": "cover starts"
+    }
+   ]
+  },
+  {
+   "start": 149.3,
+   "duration": 8.2,
+   "type": "flow_diagram",
+   "text": "Before you resign",
+   "items": [
+    {
+     "label": "Group policy",
+     "sublabel": "yours now"
+    },
+    {
+     "label": "Ask insurer",
+     "sublabel": "to port"
+    },
+    {
+     "label": "Individual / family",
+     "sublabel": "policy"
+    }
+   ]
+  },
+  {
+   "start": 158.2,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Reported: same insurer only",
+   "side": "right"
+  },
+  {
+   "start": 162.2,
+   "duration": 3.6,
+   "type": "side_note",
+   "text": "Insurer decides terms + premium",
+   "side": "left"
+  },
+  {
+   "start": 166.4,
+   "duration": 6,
+   "type": "keyword_chip",
+   "text": "Waiting periods can carry over",
+   "side": "right"
+  },
+  {
+   "start": 173.2,
+   "duration": 4.8,
+   "type": "big_statement",
+   "text": "Buy a small personal policy early",
+   "eyebrow": "Better"
+  },
+  {
+   "start": 178.5,
+   "duration": 4.7,
+   "type": "keyword_chip",
+   "text": "Low premium while young",
+   "side": "right"
+  },
+  {
+   "start": 184.2,
+   "duration": 4,
+   "type": "side_note",
+   "text": "Section 80D: check with a tax pro",
+   "side": "left"
+  },
+  {
+   "start": 192.62,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Your plan",
+   "eyebrow": "Section 05",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 195.8,
+   "duration": 17.7,
+   "type": "checklist",
+   "side": "right",
+   "text": "This week",
+   "items": [
+    {
+     "label": "Download the policy document",
+     "state": "yes"
+    },
+    {
+     "label": "Save hospitals + helpline",
+     "state": "yes"
+    },
+    {
+     "label": "Answer health questions honestly",
+     "state": "yes"
+    },
+    {
+     "label": "Talk to insurer before resigning",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 214.2,
+   "duration": 10.1,
+   "type": "checklist",
+   "side": "left",
+   "text": "Recap",
+   "items": [
+    {
+     "label": "Know what is covered",
+     "state": "yes"
+    },
+    {
+     "label": "Be honest in the form",
+     "state": "yes"
+    },
+    {
+     "label": "Never let cover break",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 225.3,
+   "duration": 8.9,
+   "type": "quote_pull",
+   "text": "Is your company policy your family's first cover?",
+   "eyebrow": "Tell me in the comments"
+  },
+  {
+   "start": 235.4,
+   "duration": 5.4,
+   "type": "keyword_chip",
+   "text": "Like · Subscribe · Share",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/corridor.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 4.33,
+   "index": 0
+  },
+  {
+   "start": 4.33,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Last day",
+    "label": "cover can end"
+   },
+   "end": 8.9,
+   "index": 1
+  },
+  {
+   "start": 8.9,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 11.99,
+   "index": 2
+  },
+  {
+   "start": 11.99,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3",
+    "label": "mistakes that cost claims"
+   },
+   "end": 15.47,
+   "index": 3
+  },
+  {
+   "start": 15.47,
+   "kind": "broll",
+   "src": "assets/broll/tablet.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 19.99,
+   "index": 4
+  },
+  {
+   "start": 19.99,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 23.86,
+   "index": 5
+  },
+  {
+   "start": 23.86,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 26.31,
+   "index": 6
+  },
+  {
+   "start": 26.31,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 6,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 30.9,
+   "index": 7
+  },
+  {
+   "start": 30.9,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Company",
+    "label": "pays the premium"
+   },
+   "end": 34.33,
+   "index": 8
+  },
+  {
+   "start": 34.33,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 37.65,
+   "index": 9
+  },
+  {
+   "start": 37.65,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Your plan",
+    "label": "decides the rules"
+   },
+   "end": 42.07,
+   "index": 10
+  },
+  {
+   "start": 42.07,
+   "kind": "broll",
+   "src": "assets/broll/forms.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 46.42,
+   "index": 11
+  },
+  {
+   "start": 46.42,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Ask HR",
+    "label": "for the policy document"
+   },
+   "end": 49.99,
+   "index": 12
+  },
+  {
+   "start": 49.99,
+   "kind": "broll",
+   "src": "assets/broll/tablet.mp4",
+   "media_start": 4,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 55.72,
+   "index": 13
+  },
+  {
+   "start": 55.72,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Ends",
+    "label": "when you leave"
+   },
+   "end": 60.77,
+   "index": 14
+  },
+  {
+   "start": 60.77,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 63.91,
+   "index": 15
+  },
+  {
+   "start": 63.91,
+   "kind": "broll",
+   "src": "assets/broll/doctor.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 67.07,
+   "index": 16
+  },
+  {
+   "start": 67.07,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Limits",
+    "label": "rooms · treatments"
+   },
+   "end": 72.1,
+   "index": 17
+  },
+  {
+   "start": 72.1,
+   "kind": "broll",
+   "src": "assets/broll/drip.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 77.51,
+   "index": 18
+  },
+  {
+   "start": 77.51,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Pay first",
+    "label": "claim later"
+   },
+   "end": 81.17,
+   "index": 19
+  },
+  {
+   "start": 81.17,
+   "kind": "broll",
+   "src": "assets/broll/forms.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 86.89,
+   "index": 20
+  },
+  {
+   "start": 86.89,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Helpline",
+    "label": "save it today"
+   },
+   "end": 92.56,
+   "index": 21
+  },
+  {
+   "start": 92.56,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 95.44,
+   "index": 22
+  },
+  {
+   "start": 95.44,
+   "kind": "broll",
+   "src": "assets/broll/bp.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 100.91,
+   "index": 23
+  },
+  {
+   "start": 100.91,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Blank?",
+    "label": "do not"
+   },
+   "end": 105.24,
+   "index": 24
+  },
+  {
+   "start": 105.24,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "5 years",
+    "label": "continuous cover"
+   },
+   "end": 114.09,
+   "index": 25
+  },
+  {
+   "start": 114.09,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "8 → 5",
+    "label": "years, since 2024"
+   },
+   "end": 118.25,
+   "index": 26
+  },
+  {
+   "start": 118.25,
+   "kind": "broll",
+   "src": "assets/broll/scan.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 122.29,
+   "index": 27
+  },
+  {
+   "start": 122.29,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "On purpose",
+    "label": "claims can be rejected"
+   },
+   "end": 126.23,
+   "index": 28
+  },
+  {
+   "start": 126.23,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "CONTINUOUS",
+    "label": "no break in cover"
+   },
+   "end": 133.24,
+   "index": 29
+  },
+  {
+   "start": 133.24,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 135.48,
+   "index": 30
+  },
+  {
+   "start": 135.48,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 5,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 140.54,
+   "index": 31
+  },
+  {
+   "start": 140.54,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Gap",
+    "label": "= uninsured"
+   },
+   "end": 148.95,
+   "index": 32
+  },
+  {
+   "start": 148.95,
+   "kind": "broll",
+   "src": "assets/broll/forms.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 157.8,
+   "index": 33
+  },
+  {
+   "start": 157.8,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Same insurer",
+    "label": "no gap in cover"
+   },
+   "end": 166.01,
+   "index": 34
+  },
+  {
+   "start": 166.01,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Carry over",
+    "label": "only if continuous"
+   },
+   "end": 172.8,
+   "index": 35
+  },
+  {
+   "start": 172.8,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 10,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 178.15,
+   "index": 36
+  },
+  {
+   "start": 178.15,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Low",
+    "label": "premium while young"
+   },
+   "end": 183.83,
+   "index": 37
+  },
+  {
+   "start": 183.83,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "80D",
+    "label": "check your tax regime"
+   },
+   "end": 188.57,
+   "index": 38
+  },
+  {
+   "start": 188.57,
+   "kind": "broll",
+   "src": "assets/broll/tablet.mp4",
+   "media_start": 8,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 192.62,
+   "index": 39
+  },
+  {
+   "start": 192.62,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 194.43,
+   "index": 40
+  },
+  {
+   "start": 194.43,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "1",
+    "label": "Policy document"
+   },
+   "end": 198.64,
+   "index": 41
+  },
+  {
+   "start": 198.64,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "2",
+    "label": "Hospitals + helpline"
+   },
+   "end": 203.04,
+   "index": 42
+  },
+  {
+   "start": 203.04,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3",
+    "label": "Honest answers"
+   },
+   "end": 207.91,
+   "index": 43
+  },
+  {
+   "start": 207.91,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "4",
+    "label": "Talk to your insurer"
+   },
+   "end": 213.79,
+   "index": 44
+  },
+  {
+   "start": 213.79,
+   "kind": "broll",
+   "src": "assets/broll/doctor.mp4",
+   "media_start": 6,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 219,
+   "index": 45
+  },
+  {
+   "start": 219,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Not forever",
+    "label": "not unlimited"
+   },
+   "end": 224.93,
+   "index": 46
+  },
+  {
+   "start": 224.93,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 234.86,
+   "index": 47
+  },
+  {
+   "start": 234.86,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe"
+   },
+   "end": 241.17,
+   "index": 48
+  }
+ ],
+ "camera_moves": []
+}
