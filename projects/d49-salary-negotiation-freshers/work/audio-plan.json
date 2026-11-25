@@ -1,0 +1,116 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "ding",
+   "gain": 3,
+   "reason": "title_slide: Can freshers negotiate salary?"
+  },
+  {
+   "time": 13.68,
+   "sfx": "click",
+   "gain": 5,
+   "reason": "flow_diagram: By the end you will know"
+  },
+  {
+   "time": 20.28,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: When you cannot"
+  },
+  {
+   "time": 36.88,
+   "sfx": "typing",
+   "gain": 4,
+   "reason": "comparison: Which offer is yours?"
+  },
+  {
+   "time": 58.28,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Asking too early"
+  },
+  {
+   "time": 69.88,
+   "sfx": "click",
+   "gain": 5,
+   "reason": "flow_diagram: Right order"
+  },
+  {
+   "time": 80.78,
+   "sfx": "pop",
+   "gain": 4,
+   "reason": "quote_pull: I would like to understand the role fully first."
+  },
+  {
+   "time": 86.68,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Only the headline"
+  },
+  {
+   "time": 90.38,
+   "sfx": "typing",
+   "gain": 4,
+   "reason": "stat_trio: Same C.T.C., different pay"
+  },
+  {
+   "time": 104.48,
+   "sfx": "click",
+   "gain": 5,
+   "reason": "checklist: Ask for the breakup in writing"
+  },
+  {
+   "time": 113.08,
+   "sfx": "typing",
+   "gain": 4,
+   "reason": "comparison: The better ask"
+  },
+  {
+   "time": 123.88,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Bluffing"
+  },
+  {
+   "time": 148.08,
+   "sfx": "click",
+   "gain": 5,
+   "reason": "checklist: Honest levers"
+  },
+  {
+   "time": 158.08,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: The words to use"
+  },
+  {
+   "time": 161.98,
+   "sfx": "click",
+   "gain": 5,
+   "reason": "flow_diagram: Three steps"
+  },
+  {
+   "time": 167.88,
+   "sfx": "pop",
+   "gain": 4,
+   "reason": "quote_pull: Is there any flexibility in the fixed pay?"
+  },
+  {
+   "time": 183.38,
+   "sfx": "typing",
+   "gain": 4,
+   "reason": "timeline: Your starting point"
+  },
+  {
+   "time": 190.48,
+   "sfx": "click",
+   "gain": 5,
+   "reason": "checklist: Recap"
+  }
+ ]
+}

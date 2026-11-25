@@ -1,0 +1,99 @@
+{
+  "name": "d49-salary-negotiation-freshers",
+  "createdAt": "2026-11-25T14:35:58.787Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d49-salary-negotiation-freshers/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d49/d49-voice.wav",
+    "duration": 217.5,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d49-salary-negotiation-freshers/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d49/d49_salary_negotiation_for_freshers_voiceover.txt",
+    "words": 744,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d49-salary-negotiation-freshers/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [],
+  "mode": "faceless",
+  "style": "cleantech",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; light product-explainer look: calm and clean, charts and comparison tables carry the numbers, generous white space, office/campus b-roll full frame between graphics; a beat every 6-8 s; soft, sparse SFX",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 19.7,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-25T14:37:23.155Z",
+      "words": 671,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-25T14:39:05.260Z",
+      "segments": 12,
+      "kept": 215.133
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-25T14:55:30.310Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d49-salary-negotiation-freshers/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-25T14:55:37.250Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-25T14:55:37.280Z",
+      "groups": 184
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-25T14:55:43.480Z",
+      "music": 0,
+      "sfx": 18
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-25T14:57:53.726Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d49-salary-negotiation-freshers/output/final-16x9.mp4",
+      "duration": 225.152
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.969787,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d49-salary-negotiation-freshers/work/cleancut.wav",
+    "duration": 215.133292,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}
