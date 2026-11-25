@@ -1,0 +1,107 @@
+{
+  "name": "d50-daily-standup-update",
+  "createdAt": "2026-11-25T15:42:57.233Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d50-daily-standup-update/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d50/d50-voice.wav",
+    "duration": 221.26,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d50-daily-standup-update/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d50/d50_daily_standup_update_voiceover.txt",
+    "words": 744,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d50-daily-standup-update/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Scrum Guide",
+    "Daily Scrum",
+    "Part",
+    "Say",
+    "Keep",
+    "Write",
+    "Mistake"
+  ],
+  "mode": "faceless",
+  "style": "broadcast",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; bold newsroom look: news screenshots and NewsCards lead, split-screen framing, oversized section numerals, high-contrast accents; punchy pace, a beat every 3-5 s; wipe whooshes and hits on section changes",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 19.4,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-25T15:44:51.524Z",
+      "words": 743,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-25T15:44:54.932Z",
+      "segments": 14,
+      "kept": 217.667
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-25T16:10:15.166Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d50-daily-standup-update/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-25T16:10:17.246Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-25T16:10:17.283Z",
+      "groups": 199
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-25T16:10:19.100Z",
+      "music": 0,
+      "sfx": 25
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-25T16:14:29.080Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d50-daily-standup-update/output/final-16x9.mp4",
+      "duration": 227.669
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.987034,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d50-daily-standup-update/work/cleancut.wav",
+    "duration": 217.659875,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

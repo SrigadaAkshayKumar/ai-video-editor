@@ -1,0 +1,742 @@
+{
+ "style": "broadcast",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 4.35,
+   "type": "title_slide",
+   "text": "Your first daily stand-up",
+   "eyebrow": "Crack IT · Day 50",
+   "style_hint": "The 3-part answer every fresher needs"
+  },
+  {
+   "start": 4.8,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "2 minutes decide your image",
+   "side": "right"
+  },
+  {
+   "start": 8.9,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "For every fresher about to join",
+   "side": "left"
+  },
+  {
+   "start": 12.4,
+   "duration": 6.9,
+   "type": "flow_diagram",
+   "text": "Your daily answer",
+   "items": [
+    {
+     "label": "Yesterday",
+     "sublabel": ""
+    },
+    {
+     "label": "Today",
+     "sublabel": ""
+    },
+    {
+     "label": "Blockers",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 19.9,
+   "duration": 3.1,
+   "type": "keyword_chip",
+   "text": "Third mistake hurts most",
+   "side": "right"
+  },
+  {
+   "start": 24.6,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "What it really is",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 28.3,
+   "duration": 2,
+   "type": "keyword_chip",
+   "text": "Sprint: about two weeks",
+   "side": "left"
+  },
+  {
+   "start": 31,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Same time, every working day",
+   "side": "right"
+  },
+  {
+   "start": 41.3,
+   "duration": 3.5,
+   "type": "side_note",
+   "text": "Check progress. Spot problems early.",
+   "side": "right"
+  },
+  {
+   "start": 45.6,
+   "duration": 6.4,
+   "type": "number_roll",
+   "text": "minutes for the whole team",
+   "value": 15
+  },
+  {
+   "start": 52.9,
+   "duration": 9.1,
+   "type": "comparison",
+   "side": "right",
+   "text": "How you speak",
+   "left": {
+    "label": "Not this",
+    "text": "A report to the manager"
+   },
+   "right": {
+    "label": "This",
+    "text": "A quick sync with teammates"
+   }
+  },
+  {
+   "start": 62.6,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "The 3-part answer",
+   "eyebrow": "Section 02",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 66.2,
+   "duration": 9.7,
+   "type": "checklist",
+   "side": "left",
+   "text": "Yesterday",
+   "items": [
+    {
+     "label": "What you finished",
+     "state": "yes"
+    },
+    {
+     "label": "Not how hard you tried",
+     "state": "yes"
+    },
+    {
+     "label": "Login form validation, raised for review",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 76.1,
+   "duration": 7.3,
+   "type": "checklist",
+   "side": "right",
+   "text": "Today",
+   "items": [
+    {
+     "label": "One or two clear tasks",
+     "state": "yes"
+    },
+    {
+     "label": "Fix review comments",
+     "state": "yes"
+    },
+    {
+     "label": "Start the next ticket",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 84,
+   "duration": 4.4,
+   "type": "side_note",
+   "text": "Blockers: never skip this part",
+   "side": "left"
+  },
+  {
+   "start": 88.9,
+   "duration": 4.6,
+   "type": "number_roll",
+   "text": "seconds, whole answer",
+   "value": 30,
+   "prefix": "< "
+  },
+  {
+   "start": 93.9,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "Write three short lines first",
+   "side": "right"
+  },
+  {
+   "start": 98,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Mistake one and two",
+   "eyebrow": "Mistake 1 and 2",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 101.7,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "Same task for 3 days",
+   "side": "left"
+  },
+  {
+   "start": 105,
+   "duration": 6.4,
+   "type": "comparison",
+   "side": "left",
+   "text": "Mistake one",
+   "left": {
+    "label": "Weak",
+    "text": "Worked on the same task"
+   },
+   "right": {
+    "label": "Strong",
+    "text": "Finished reading the code"
+   }
+  },
+  {
+   "start": 112,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "Mistake two: the whole story",
+   "side": "right"
+  },
+  {
+   "start": 117,
+   "duration": 3.2,
+   "type": "side_note",
+   "text": "Team has other work to do",
+   "side": "left"
+  },
+  {
+   "start": 121,
+   "duration": 6.5,
+   "type": "quote_pull",
+   "text": "I will discuss this after the call.",
+   "eyebrow": "Say this"
+  },
+  {
+   "start": 128,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Short. Professional.",
+   "side": "right"
+  },
+  {
+   "start": 131.3,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "The silent blocker",
+   "eyebrow": "Mistake three",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 135.4,
+   "duration": 5.6,
+   "type": "timeline",
+   "side": "left",
+   "text": "Silent blocker",
+   "current": 2,
+   "items": [
+    {
+     "label": "Day 1",
+     "sublabel": "stuck"
+    },
+    {
+     "label": "Day 2",
+     "sublabel": "says no blockers"
+    },
+    {
+     "label": "Day 3",
+     "sublabel": "still stuck"
+    }
+   ]
+  },
+  {
+   "start": 141.4,
+   "duration": 5.4,
+   "type": "side_note",
+   "text": "A blocker is not a confession",
+   "side": "right"
+  },
+  {
+   "start": 147.4,
+   "duration": 7.4,
+   "type": "quote_pull",
+   "text": "I am blocked on this task. I have tried two things. Can someone help me after the call?",
+   "eyebrow": "The stuck sentence"
+  },
+  {
+   "start": 155,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Effort. Specific. No drama.",
+   "side": "left"
+  },
+  {
+   "start": 158.4,
+   "duration": 7.9,
+   "type": "side_note",
+   "text": "Don't understand the task? Tell your lead after the call",
+   "side": "right"
+  },
+  {
+   "start": 166.6,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Before your first stand-up",
+   "eyebrow": "Section 05",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 170.5,
+   "duration": 11.9,
+   "type": "checklist",
+   "side": "right",
+   "text": "Every morning",
+   "items": [
+    {
+     "label": "Write your three lines",
+     "state": "yes"
+    },
+    {
+     "label": "Use the ticket number",
+     "state": "yes"
+    },
+    {
+     "label": "Join two minutes early",
+     "state": "yes"
+    },
+    {
+     "label": "Test mic, camera on",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 182.8,
+   "duration": 6,
+   "type": "keyword_chip",
+   "text": "Listen: you learn the project",
+   "side": "left"
+  },
+  {
+   "start": 189.5,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Update changed? Team chat",
+   "side": "right"
+  },
+  {
+   "start": 192.9,
+   "duration": 2.7,
+   "type": "side_note",
+   "text": "Managers love early updates",
+   "side": "left"
+  },
+  {
+   "start": 196,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "To sum up",
+   "eyebrow": "Recap",
+   "numeral": "06",
+   "section": 5
+  },
+  {
+   "start": 199.5,
+   "duration": 5.5,
+   "type": "checklist",
+   "side": "left",
+   "text": "Recap",
+   "items": [
+    {
+     "label": "Yesterday, today, blockers",
+     "state": "yes"
+    },
+    {
+     "label": "Under 30 seconds",
+     "state": "yes"
+    },
+    {
+     "label": "Steps, not stories",
+     "state": "yes"
+    },
+    {
+     "label": "Never stay silent",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 205.4,
+   "duration": 6.6,
+   "type": "big_statement",
+   "text": "Comment your 3-line answer",
+   "eyebrow": "3-line"
+  },
+  {
+   "start": 212.4,
+   "duration": 4.6,
+   "type": "keyword_chip",
+   "text": "Like · Subscribe",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/meeting.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "cut",
+   "end": 8.46,
+   "index": 0
+  },
+  {
+   "start": 8.46,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "2 min",
+    "label": "decide your image"
+   },
+   "end": 12.1,
+   "index": 1
+  },
+  {
+   "start": 12.1,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3",
+    "label": "part answer"
+   },
+   "end": 19.59,
+   "index": 2
+  },
+  {
+   "start": 19.59,
+   "kind": "broll",
+   "src": "assets/broll/notes.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 24.57,
+   "index": 3
+  },
+  {
+   "start": 24.57,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "01",
+    "label": "what a stand-up is"
+   },
+   "end": 30.36,
+   "index": 4
+  },
+  {
+   "start": 30.36,
+   "kind": "broll",
+   "src": "assets/broll/flipchart.mp4",
+   "media_start": 0,
+   "motion": "pan_right",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 34.94,
+   "index": 5
+  },
+  {
+   "start": 34.94,
+   "kind": "news",
+   "url": "https://scrumguides.org/scrum-guide.html#daily-scrum",
+   "source": "Scrum Guide (scrumguides.org)",
+   "headline": "Daily Scrum: a 15-minute event for the Developers",
+   "date": "Opened 25 Nov 2026",
+   "highlight": {
+    "x": 0.3,
+    "y": 0.043,
+    "w": 0.6,
+    "h": 0.027
+   },
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 45.46,
+   "index": 6
+  },
+  {
+   "start": 45.46,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "15 min",
+    "label": "whole team"
+   },
+   "end": 52.76,
+   "index": 7
+  },
+  {
+   "start": 52.76,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Less",
+    "label": "talk, more clarity"
+   },
+   "end": 62.53,
+   "index": 8
+  },
+  {
+   "start": 62.53,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "02",
+    "label": "the 3-part answer"
+   },
+   "end": 66.07,
+   "index": 9
+  },
+  {
+   "start": 66.07,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "1",
+    "label": "yesterday: what you finished"
+   },
+   "end": 76.02,
+   "index": 10
+  },
+  {
+   "start": 76.02,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "2",
+    "label": "today: one or two tasks"
+   },
+   "end": 83.63,
+   "index": 11
+  },
+  {
+   "start": 83.63,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3",
+    "label": "blockers: never skip"
+   },
+   "end": 88.67,
+   "index": 12
+  },
+  {
+   "start": 88.67,
+   "kind": "broll",
+   "src": "assets/broll/notes.mp4",
+   "media_start": 6,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 97.9,
+   "index": 13
+  },
+  {
+   "start": 97.9,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "03",
+    "label": "the 3 mistakes"
+   },
+   "end": 102.7,
+   "index": 14
+  },
+  {
+   "start": 102.7,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Steps",
+    "label": "report the step"
+   },
+   "end": 111.57,
+   "index": 15
+  },
+  {
+   "start": 111.57,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "1 line",
+    "label": "the result only"
+   },
+   "end": 117.5,
+   "index": 16
+  },
+  {
+   "start": 117.5,
+   "kind": "broll",
+   "src": "assets/broll/flipchart.mp4",
+   "media_start": 2,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 124.2,
+   "index": 17
+  },
+  {
+   "start": 124.2,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "After",
+    "label": "the call, 5 minutes"
+   },
+   "end": 131.19,
+   "index": 18
+  },
+  {
+   "start": 131.19,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Silent",
+    "label": "blocker"
+   },
+   "end": 141.1,
+   "index": 19
+  },
+  {
+   "start": 141.1,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Help",
+    "label": "the team can only help with what it hears"
+   },
+   "end": 147.28,
+   "index": 20
+  },
+  {
+   "start": 147.28,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "2 tries",
+    "label": "then ask"
+   },
+   "end": 158.13,
+   "index": 21
+  },
+  {
+   "start": 158.13,
+   "kind": "broll",
+   "src": "assets/broll/call.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 166.52,
+   "index": 22
+  },
+  {
+   "start": 166.52,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "04",
+    "label": "before your first stand-up"
+   },
+   "end": 172.76,
+   "index": 23
+  },
+  {
+   "start": 172.76,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 0,
+   "motion": "pan_left",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 182.56,
+   "index": 24
+  },
+  {
+   "start": 182.56,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Listen",
+    "label": "projects, tools, who to ask"
+   },
+   "end": 189.23,
+   "index": 25
+  },
+  {
+   "start": 189.23,
+   "kind": "broll",
+   "src": "assets/broll/call.mp4",
+   "media_start": 14,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 195.92,
+   "index": 26
+  },
+  {
+   "start": 195.92,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "05",
+    "label": "sum up"
+   },
+   "end": 205.31,
+   "index": 27
+  },
+  {
+   "start": 205.31,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Your turn",
+    "label": "3 lines in the comments"
+   },
+   "end": 213,
+   "index": 28
+  },
+  {
+   "start": 213,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe"
+   },
+   "end": 217.66,
+   "index": 29
+  }
+ ],
+ "camera_moves": []
+}

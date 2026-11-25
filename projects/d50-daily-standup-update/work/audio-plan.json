@@ -1,0 +1,158 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "title_slide: Your first daily stand-up"
+  },
+  {
+   "time": 12.48,
+   "sfx": "click",
+   "gain": 5,
+   "reason": "flow_diagram: Your daily answer"
+  },
+  {
+   "time": 24.6,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "chapter_open: What it really is"
+  },
+  {
+   "time": 25.03,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "chapter_open: What it really is"
+  },
+  {
+   "time": 45.68,
+   "sfx": "pop",
+   "gain": 4,
+   "reason": "number_roll: minutes for the whole team"
+  },
+  {
+   "time": 52.98,
+   "sfx": "click",
+   "gain": 5,
+   "reason": "comparison: How you speak"
+  },
+  {
+   "time": 62.6,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "chapter_open: The 3-part answer"
+  },
+  {
+   "time": 63.03,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "chapter_open: The 3-part answer"
+  },
+  {
+   "time": 66.28,
+   "sfx": "click",
+   "gain": 5,
+   "reason": "checklist: Yesterday"
+  },
+  {
+   "time": 76.18,
+   "sfx": "click",
+   "gain": 5,
+   "reason": "checklist: Today"
+  },
+  {
+   "time": 88.98,
+   "sfx": "pop",
+   "gain": 4,
+   "reason": "number_roll: seconds, whole answer"
+  },
+  {
+   "time": 98,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "chapter_open: Mistake one and two"
+  },
+  {
+   "time": 98.43,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "chapter_open: Mistake one and two"
+  },
+  {
+   "time": 105.08,
+   "sfx": "click",
+   "gain": 5,
+   "reason": "comparison: Mistake one"
+  },
+  {
+   "time": 121.08,
+   "sfx": "pop",
+   "gain": 4,
+   "reason": "quote_pull: I will discuss this after the call."
+  },
+  {
+   "time": 131.3,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "chapter_open: The silent blocker"
+  },
+  {
+   "time": 131.73,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "chapter_open: The silent blocker"
+  },
+  {
+   "time": 135.48,
+   "sfx": "click",
+   "gain": 5,
+   "reason": "timeline: Silent blocker"
+  },
+  {
+   "time": 147.48,
+   "sfx": "pop",
+   "gain": 4,
+   "reason": "quote_pull: I am blocked on this task. I have tried two things. Can someone help me after the call?"
+  },
+  {
+   "time": 166.6,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "chapter_open: Before your first stand-up"
+  },
+  {
+   "time": 167.03,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "chapter_open: Before your first stand-up"
+  },
+  {
+   "time": 170.58,
+   "sfx": "click",
+   "gain": 5,
+   "reason": "checklist: Every morning"
+  },
+  {
+   "time": 196,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "chapter_open: To sum up"
+  },
+  {
+   "time": 196.43,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "chapter_open: To sum up"
+  },
+  {
+   "time": 199.58,
+   "sfx": "click",
+   "gain": 5,
+   "reason": "checklist: Recap"
+  }
+ ]
+}
