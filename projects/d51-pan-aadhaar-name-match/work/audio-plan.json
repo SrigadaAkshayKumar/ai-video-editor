@@ -1,0 +1,74 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "title_slide: One name mismatch can stall your salary"
+  },
+  {
+   "time": 27.7,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Why it matters"
+  },
+  {
+   "time": 37.1,
+   "sfx": "riser",
+   "gain": 2,
+   "reason": "flow_diagram: Your joining file"
+  },
+  {
+   "time": 73,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "quote_pull: Nothing was wrong with Meera. The spelling was."
+  },
+  {
+   "time": 76.6,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: The official rule"
+  },
+  {
+   "time": 91.9,
+   "sfx": "riser",
+   "gain": 2,
+   "reason": "timeline: The Aadhaar link rule"
+  },
+  {
+   "time": 115.55,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: The 3-minute check"
+  },
+  {
+   "time": 165.8,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: If it does not match"
+  },
+  {
+   "time": 173.1,
+   "sfx": "riser",
+   "gain": 2,
+   "reason": "flow_diagram: The fix"
+  },
+  {
+   "time": 202.7,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "quote_pull: Tell HR early, in writing, with a proof document."
+  },
+  {
+   "time": 210.9,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: To sum up"
+  }
+ ]
+}

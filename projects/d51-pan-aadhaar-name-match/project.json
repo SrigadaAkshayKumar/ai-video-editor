@@ -1,0 +1,109 @@
+{
+  "name": "d51-pan-aadhaar-name-match",
+  "createdAt": "2026-11-25T17:03:57.178Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d51-pan-aadhaar-name-match/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d51/d51-voice.wav",
+    "duration": 240.120042,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d51-pan-aadhaar-name-match/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d51/d51_pan_aadhaar_name_match_voiceover.txt",
+    "words": 756,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d51-pan-aadhaar-name-match/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Aadhaar",
+    "Your Aadhaar",
+    "Meera",
+    "Her Aadhaar",
+    "Meera Reddy Kondapalli",
+    "Income Tax Department",
+    "Compare",
+    "Link Aadhaar",
+    "Check"
+  ],
+  "mode": "faceless",
+  "style": "glass",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; documentary storytelling look: full-frame b-roll leads, graphics docked to one side, quote pulls on the key lines, timelines for the backstory; slower, a beat every 6-10 s; low sub-band SFX on structure only",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 27.17,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-25T17:05:39.456Z",
+      "words": 755,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-25T17:05:44.391Z",
+      "segments": 16,
+      "kept": 236.267
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-25T17:34:18.975Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d51-pan-aadhaar-name-match/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-25T17:34:32.844Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-25T17:34:32.877Z",
+      "groups": 203
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-25T17:34:39.569Z",
+      "music": 0,
+      "sfx": 11
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-25T17:38:47.880Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d51-pan-aadhaar-name-match/output/final-16x9.mp4",
+      "duration": 246.323
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.969554,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d51-pan-aadhaar-name-match/work/cleancut.wav",
+    "duration": 236.266833,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

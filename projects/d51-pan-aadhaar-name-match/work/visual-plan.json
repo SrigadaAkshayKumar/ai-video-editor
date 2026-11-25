@@ -1,0 +1,696 @@
+{
+ "style": "glass",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 4.35,
+   "type": "title_slide",
+   "text": "One name mismatch can stall your salary",
+   "eyebrow": "Crack IT · Day 51",
+   "style_hint": "PAN and Aadhaar: the 3-minute check"
+  },
+  {
+   "start": 4.8,
+   "duration": 5.4,
+   "type": "side_note",
+   "text": "One mismatch can stall your salary",
+   "side": "right"
+  },
+  {
+   "start": 11,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Final-year student or fresher",
+   "side": "left"
+  },
+  {
+   "start": 15.4,
+   "duration": 7.1,
+   "type": "checklist",
+   "side": "right",
+   "text": "The 3-minute check",
+   "items": [
+    {
+     "label": "Name and date of birth",
+     "state": "yes"
+    },
+    {
+     "label": "PAN link status",
+     "state": "yes"
+    },
+    {
+     "label": "Match your degree",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 27.6,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Why it matters",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 31.2,
+   "duration": 5.2,
+   "type": "keyword_chip",
+   "text": "Joining day: PAN, Aadhaar, degree, bank",
+   "side": "right"
+  },
+  {
+   "start": 37,
+   "duration": 9.8,
+   "type": "flow_diagram",
+   "text": "Your joining file",
+   "items": [
+    {
+     "label": "PAN",
+     "sublabel": "Payroll tax"
+    },
+    {
+     "label": "Aadhaar",
+     "sublabel": "Identity and PF"
+    },
+    {
+     "label": "Degree",
+     "sublabel": "Verification"
+    }
+   ]
+  },
+  {
+   "start": 48,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "Name or date of birth differs",
+   "side": "left"
+  },
+  {
+   "start": 57,
+   "duration": 3.8,
+   "type": "side_note",
+   "text": "Systems cannot connect, so a human fixes it",
+   "side": "right"
+  },
+  {
+   "start": 63.9,
+   "duration": 8.7,
+   "type": "checklist",
+   "side": "left",
+   "text": "Meera's documents",
+   "items": [
+    {
+     "label": "Aadhaar: Meera K. Reddy",
+     "state": "no"
+    },
+    {
+     "label": "PAN: Meera Reddy Kondapalli",
+     "state": "no"
+    },
+    {
+     "label": "Degree: something else",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 72.9,
+   "duration": 3.4,
+   "type": "quote_pull",
+   "text": "Nothing was wrong with Meera. The spelling was.",
+   "eyebrow": "The lesson"
+  },
+  {
+   "start": 76.5,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "The official rule",
+   "eyebrow": "Section 02",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 81,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "New PAN: linked automatically",
+   "side": "right"
+  },
+  {
+   "start": 86,
+   "duration": 5.4,
+   "type": "keyword_chip",
+   "text": "Reported on the department's own page",
+   "side": "left"
+  },
+  {
+   "start": 91.8,
+   "duration": 10,
+   "type": "timeline",
+   "side": "left",
+   "text": "The Aadhaar link rule",
+   "current": 1,
+   "items": [
+    {
+     "label": "1 July 2017",
+     "sublabel": "PAN allotted on or before: link mandatory"
+    },
+    {
+     "label": "30 June 2023",
+     "sublabel": "Not linked: PAN inoperative"
+    }
+   ]
+  },
+  {
+   "start": 103,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "Inoperative PAN = PAN that does not work",
+   "side": "right"
+  },
+  {
+   "start": 108.5,
+   "duration": 4.7,
+   "type": "side_note",
+   "text": "Your tax is built on your PAN",
+   "side": "left"
+  },
+  {
+   "start": 113.7,
+   "duration": 1.6,
+   "type": "side_note",
+   "text": "Do not assume. Look it up.",
+   "side": "right"
+  },
+  {
+   "start": 115.45,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "The 3-minute check",
+   "eyebrow": "Section 03",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 119.6,
+   "duration": 4.2,
+   "type": "keyword_chip",
+   "text": "Step 1: name and DOB side by side",
+   "side": "left"
+  },
+  {
+   "start": 124.4,
+   "duration": 6.4,
+   "type": "keyword_chip",
+   "text": "Initials, spaces, order all count",
+   "side": "right"
+  },
+  {
+   "start": 132,
+   "duration": 4.5,
+   "type": "keyword_chip",
+   "text": "Step 2: Link Aadhaar status",
+   "side": "left"
+  },
+  {
+   "start": 137.5,
+   "duration": 5,
+   "type": "keyword_chip",
+   "text": "Type the official address yourself",
+   "side": "right"
+  },
+  {
+   "start": 144.6,
+   "duration": 4.9,
+   "type": "side_note",
+   "text": "Never click a link sent on a message",
+   "side": "left"
+  },
+  {
+   "start": 150.2,
+   "duration": 6,
+   "type": "checklist",
+   "side": "right",
+   "text": "Step 3 and the others",
+   "items": [
+    {
+     "label": "Name and DOB side by side",
+     "state": "yes"
+    },
+    {
+     "label": "Link status, official site",
+     "state": "yes"
+    },
+    {
+     "label": "Degree and marksheets",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 156.8,
+   "duration": 4.7,
+   "type": "side_note",
+   "text": "BGV checks education against your name",
+   "side": "left"
+  },
+  {
+   "start": 161.9,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "Same delay, later",
+   "side": "right"
+  },
+  {
+   "start": 165.7,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "If it does not match",
+   "eyebrow": "Section 04",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 169,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "Do it now, while you wait",
+   "side": "left"
+  },
+  {
+   "start": 173,
+   "duration": 9,
+   "type": "flow_diagram",
+   "text": "The fix",
+   "items": [
+    {
+     "label": "Find the wrong one",
+     "sublabel": ""
+    },
+    {
+     "label": "Correct it officially",
+     "sublabel": "PAN or Aadhaar service"
+    },
+    {
+     "label": "Re-check all three",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 182.6,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Fix the one that is wrong",
+   "side": "right"
+  },
+  {
+   "start": 187.5,
+   "duration": 7,
+   "type": "keyword_chip",
+   "text": "Keep scans: phone and email",
+   "side": "left"
+  },
+  {
+   "start": 196.2,
+   "duration": 4.3,
+   "type": "keyword_chip",
+   "text": "Same names everywhere",
+   "side": "right"
+  },
+  {
+   "start": 202.6,
+   "duration": 6.3,
+   "type": "quote_pull",
+   "text": "Tell HR early, in writing, with a proof document.",
+   "eyebrow": "Different name for a real reason?"
+  },
+  {
+   "start": 210.8,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "To sum up",
+   "eyebrow": "Recap",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 214,
+   "duration": 7.3,
+   "type": "checklist",
+   "side": "left",
+   "text": "Before joining day",
+   "items": [
+    {
+     "label": "Name and DOB match everywhere",
+     "state": "yes"
+    },
+    {
+     "label": "PAN link status checked",
+     "state": "yes"
+    },
+    {
+     "label": "Mismatch fixed",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 222.2,
+   "duration": 7.4,
+   "type": "big_statement",
+   "text": "Which document gave you the most trouble?",
+   "eyebrow": "Comment"
+  },
+  {
+   "start": 232.3,
+   "duration": 3.7,
+   "type": "keyword_chip",
+   "text": "Like · Subscribe",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "cut",
+   "end": 10.55,
+   "index": 0
+  },
+  {
+   "start": 10.55,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 2,
+   "motion": "pan_left",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 15.2,
+   "index": 1
+  },
+  {
+   "start": 15.2,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 22.67,
+   "index": 2
+  },
+  {
+   "start": 22.67,
+   "kind": "broll",
+   "src": "assets/broll/writing.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 27.41,
+   "index": 3
+  },
+  {
+   "start": 27.41,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 36.67,
+   "index": 4
+  },
+  {
+   "start": 36.67,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 47.05,
+   "index": 5
+  },
+  {
+   "start": 47.05,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 0,
+   "motion": "pan_right",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 56.15,
+   "index": 6
+  },
+  {
+   "start": 56.15,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 5,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 61.18,
+   "index": 7
+  },
+  {
+   "start": 61.18,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Meera",
+    "label": "an example, not a real person"
+   },
+   "end": 72.8,
+   "index": 8
+  },
+  {
+   "start": 72.8,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 4,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 76.46,
+   "index": 9
+  },
+  {
+   "start": 76.46,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 79.6,
+   "index": 10
+  },
+  {
+   "start": 79.6,
+   "kind": "news",
+   "url": "https://www.incometax.gov.in/iec/foportal/help/how-to-link-aadhaar",
+   "source": "Income Tax Department (incometax.gov.in)",
+   "headline": "Link Aadhaar User Manual",
+   "date": "Opened 25 Nov 2026",
+   "highlight": {
+    "x": 0.11,
+    "y": 0.172,
+    "w": 0.79,
+    "h": 0.042
+   },
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 91.6,
+   "index": 11
+  },
+  {
+   "start": 91.6,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "2023",
+    "label": "deadline on the page"
+   },
+   "end": 102.4,
+   "index": 12
+  },
+  {
+   "start": 102.4,
+   "kind": "broll",
+   "src": "assets/broll/screen.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 109,
+   "index": 13
+  },
+  {
+   "start": 109,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 2,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 115.39,
+   "index": 14
+  },
+  {
+   "start": 115.39,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 119.38,
+   "index": 15
+  },
+  {
+   "start": 119.38,
+   "kind": "broll",
+   "src": "assets/broll/writing.mp4",
+   "media_start": 6,
+   "motion": "pan_left",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 131.28,
+   "index": 16
+  },
+  {
+   "start": 131.28,
+   "kind": "broll",
+   "src": "assets/broll/screen.mp4",
+   "media_start": 3,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 140,
+   "index": 17
+  },
+  {
+   "start": 140,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 149.84,
+   "index": 18
+  },
+  {
+   "start": 149.84,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3",
+    "label": "degree and marksheets"
+   },
+   "end": 156.3,
+   "index": 19
+  },
+  {
+   "start": 156.3,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 0,
+   "motion": "pan_right",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 165.65,
+   "index": 20
+  },
+  {
+   "start": 165.65,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 168.7,
+   "index": 21
+  },
+  {
+   "start": 168.7,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 3,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "cut",
+   "end": 172.54,
+   "index": 22
+  },
+  {
+   "start": 172.54,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 182.2,
+   "index": 23
+  },
+  {
+   "start": 182.2,
+   "kind": "broll",
+   "src": "assets/broll/screen.mp4",
+   "media_start": 5,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "cut",
+   "end": 192,
+   "index": 24
+  },
+  {
+   "start": 192,
+   "kind": "broll",
+   "src": "assets/broll/writing.mp4",
+   "media_start": 10,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "cut",
+   "end": 195.64,
+   "index": 25
+  },
+  {
+   "start": 195.64,
+   "kind": "broll",
+   "src": "assets/broll/writing.mp4",
+   "media_start": 2,
+   "motion": "ken_out",
+   "grade": "warm",
+   "transition": "cut",
+   "end": 203.5,
+   "index": 26
+  },
+  {
+   "start": 203.5,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "cut",
+   "end": 210.77,
+   "index": 27
+  },
+  {
+   "start": 210.77,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 221.5,
+   "index": 28
+  },
+  {
+   "start": 221.5,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 231.9,
+   "index": 29
+  },
+  {
+   "start": 231.9,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe"
+   },
+   "end": 236.27,
+   "index": 30
+  }
+ ],
+ "camera_moves": []
+}
