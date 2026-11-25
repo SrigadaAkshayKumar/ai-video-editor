@@ -1,0 +1,74 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "title_slide: 100 applications, 0 replies"
+  },
+  {
+   "time": 23.94,
+   "sfx": "impact",
+   "gain": 4,
+   "reason": "chapter_open: How off campus works"
+  },
+  {
+   "time": 58.68,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Applying to everything"
+  },
+  {
+   "time": 86.08,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "big_statement: Never pay for a job"
+  },
+  {
+   "time": 93.78,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: A profile with no proof"
+  },
+  {
+   "time": 123.78,
+   "sfx": "impact",
+   "gain": 4,
+   "reason": "chapter_open: Applying, then waiting"
+  },
+  {
+   "time": 134.68,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "quote_pull: Off campus, you must build your own bridge."
+  },
+  {
+   "time": 153.48,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Referrals"
+  },
+  {
+   "time": 162.98,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: This week"
+  },
+  {
+   "time": 167.08,
+   "sfx": "riser",
+   "gain": 3,
+   "reason": "timeline: Your week"
+  },
+  {
+   "time": 193.98,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "quote_pull: A short message to one real person beats a hundred silent applications."
+  }
+ ]
+}

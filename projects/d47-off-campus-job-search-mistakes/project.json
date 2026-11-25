@@ -1,0 +1,105 @@
+{
+  "name": "d47-off-campus-job-search-mistakes",
+  "createdAt": "2026-11-25T11:46:50.045Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d47-off-campus-job-search-mistakes/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d47/d47-voice.wav",
+    "duration": 218.76,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d47-off-campus-job-search-mistakes/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d47/d47_off_campus_job_search_mistakes_voiceover.txt",
+    "words": 741,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d47-off-campus-job-search-mistakes/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Off",
+    "Mistake",
+    "Applying",
+    "Keep",
+    "Day"
+  ],
+  "mode": "faceless",
+  "style": "glass",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; documentary storytelling look: full-frame b-roll leads, graphics docked to one side, quote pulls on the key lines, timelines for the backstory; slower, a beat every 6-10 s; low sub-band SFX on structure only",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 23.6,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-25T11:48:23.573Z",
+      "words": 738,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-25T11:48:28.349Z",
+      "segments": 14,
+      "kept": 215.133
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-25T12:15:08.087Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d47-off-campus-job-search-mistakes/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-25T12:15:14.203Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-25T12:15:14.233Z",
+      "groups": 187
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-25T12:15:25.972Z",
+      "music": 0,
+      "sfx": 11
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-25T12:18:25.124Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d47-off-campus-job-search-mistakes/output/final-16x9.mp4",
+      "duration": 225.152
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.995474,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d47-off-campus-job-search-mistakes/work/cleancut.wav",
+    "duration": 215.133167,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

@@ -1,0 +1,659 @@
+{
+ "style": "glass",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 4.25,
+   "type": "title_slide",
+   "text": "100 applications, 0 replies",
+   "eyebrow": "Crack IT · Day 47",
+   "style_hint": "Off campus job search for freshers"
+  },
+  {
+   "start": 5,
+   "duration": 4.6,
+   "type": "side_note",
+   "text": "100 applications, 0 replies",
+   "side": "right"
+  },
+  {
+   "start": 10.6,
+   "duration": 9.2,
+   "type": "flow_diagram",
+   "text": "Three small mistakes",
+   "items": [
+    {
+     "label": "?",
+     "sublabel": "1"
+    },
+    {
+     "label": "?",
+     "sublabel": "2"
+    },
+    {
+     "label": "?",
+     "sublabel": "3"
+    }
+   ]
+  },
+  {
+   "start": 20.3,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "The third wastes the most",
+   "side": "right"
+  },
+  {
+   "start": 23.86,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "How off campus works",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 28.2,
+   "duration": 4.4,
+   "type": "keyword_chip",
+   "text": "On campus: the college gives the list",
+   "side": "left"
+  },
+  {
+   "start": 33.5,
+   "duration": 5,
+   "type": "side_note",
+   "text": "Off campus: you find the opening",
+   "side": "right"
+  },
+  {
+   "start": 39,
+   "duration": 4.6,
+   "type": "flow_diagram",
+   "text": "A few seconds",
+   "items": [
+    {
+     "label": "Apply",
+     "sublabel": "you"
+    },
+    {
+     "label": "Filter",
+     "sublabel": "automatic"
+    },
+    {
+     "label": "Recruiter",
+     "sublabel": "opens profile"
+    }
+   ]
+  },
+  {
+   "start": 44.2,
+   "duration": 10.4,
+   "type": "checklist",
+   "side": "right",
+   "text": "The simple check",
+   "items": [
+    {
+     "label": "Degree matches",
+     "state": "yes"
+    },
+    {
+     "label": "Graduation year matches",
+     "state": "yes"
+    },
+    {
+     "label": "Skills in the post",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 55.8,
+   "duration": 2.2,
+   "type": "side_note",
+   "text": "Same profile everywhere fails",
+   "side": "left"
+  },
+  {
+   "start": 58.6,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Applying to everything",
+   "eyebrow": "Mistake one",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 62.5,
+   "duration": 4.5,
+   "type": "side_note",
+   "text": "Roles asking 3+ years of experience",
+   "side": "right"
+  },
+  {
+   "start": 67.6,
+   "duration": 7.6,
+   "type": "checklist",
+   "side": "left",
+   "text": "Apply only if",
+   "items": [
+    {
+     "label": "Says fresher / entry level",
+     "state": "yes"
+    },
+    {
+     "label": "Your degree is allowed",
+     "state": "yes"
+    },
+    {
+     "label": "Your year is allowed",
+     "state": "yes"
+    },
+    {
+     "label": "3+ years experience",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 76,
+   "duration": 4.4,
+   "type": "keyword_chip",
+   "text": "Ten good ones, not a hundred",
+   "side": "right"
+  },
+  {
+   "start": 81,
+   "duration": 4,
+   "type": "side_note",
+   "text": "Use the company careers page",
+   "side": "left"
+  },
+  {
+   "start": 86,
+   "duration": 7.2,
+   "type": "big_statement",
+   "text": "Never pay for a job",
+   "eyebrow": "The red flag"
+  },
+  {
+   "start": 93.7,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "A profile with no proof",
+   "eyebrow": "Mistake two",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 97.5,
+   "duration": 5,
+   "type": "side_note",
+   "text": "\"Good at Python and Java\" proves nothing",
+   "side": "right"
+  },
+  {
+   "start": 104.4,
+   "duration": 10.6,
+   "type": "checklist",
+   "side": "right",
+   "text": "Show proof",
+   "items": [
+    {
+     "label": "Small project with a link",
+     "state": "yes"
+    },
+    {
+     "label": "What it does",
+     "state": "yes"
+    },
+    {
+     "label": "What you learned",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 115.9,
+   "duration": 7.3,
+   "type": "checklist",
+   "side": "left",
+   "text": "Profile basics",
+   "items": [
+    {
+     "label": "Same name everywhere",
+     "state": "yes"
+    },
+    {
+     "label": "Professional email",
+     "state": "yes"
+    },
+    {
+     "label": "Links open without login",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 123.7,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Applying, then waiting",
+   "eyebrow": "Mistake three",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 128.2,
+   "duration": 5.8,
+   "type": "side_note",
+   "text": "On campus the college is your bridge",
+   "side": "left"
+  },
+  {
+   "start": 134.6,
+   "duration": 8.9,
+   "type": "quote_pull",
+   "text": "Off campus, you must build your own bridge.",
+   "eyebrow": "The third mistake"
+  },
+  {
+   "start": 144.4,
+   "duration": 8.2,
+   "type": "checklist",
+   "side": "right",
+   "text": "Your short note",
+   "items": [
+    {
+     "label": "Who you are",
+     "state": "yes"
+    },
+    {
+     "label": "Which opening",
+     "state": "yes"
+    },
+    {
+     "label": "Why you fit",
+     "state": "yes"
+    },
+    {
+     "label": "Never ask for a job",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 153.4,
+   "duration": 9,
+   "type": "flow_diagram",
+   "text": "Referrals",
+   "items": [
+    {
+     "label": "Friend",
+     "sublabel": ""
+    },
+    {
+     "label": "Senior",
+     "sublabel": ""
+    },
+    {
+     "label": "Employee",
+     "sublabel": ""
+    },
+    {
+     "label": "Referral",
+     "sublabel": "opened by a human"
+    }
+   ]
+  },
+  {
+   "start": 162.9,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "This week",
+   "eyebrow": "Your plan",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 167,
+   "duration": 14,
+   "type": "timeline",
+   "side": "right",
+   "text": "Your week",
+   "current": 0,
+   "items": [
+    {
+     "label": "Day 1",
+     "sublabel": "Fix your profile"
+    },
+    {
+     "label": "Day 2",
+     "sublabel": "List of ten roles"
+    },
+    {
+     "label": "Day 3",
+     "sublabel": "Apply and message"
+    },
+    {
+     "label": "Weekly",
+     "sublabel": "Repeat"
+    }
+   ]
+  },
+  {
+   "start": 181.8,
+   "duration": 11,
+   "type": "checklist",
+   "side": "left",
+   "text": "Tracker sheet",
+   "items": [
+    {
+     "label": "Company",
+     "state": "yes"
+    },
+    {
+     "label": "Date applied",
+     "state": "yes"
+    },
+    {
+     "label": "Message sent",
+     "state": "yes"
+    },
+    {
+     "label": "Follow up after a week",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 193.9,
+   "duration": 8.1,
+   "type": "quote_pull",
+   "text": "A short message to one real person beats a hundred silent applications.",
+   "eyebrow": "To sum up"
+  },
+  {
+   "start": 202.8,
+   "duration": 7.7,
+   "type": "big_statement",
+   "text": "On campus or off campus? What is stopping you?",
+   "eyebrow": "Tell me in the comments"
+  },
+  {
+   "start": 211.4,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Like · Subscribe · Share",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/form.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 8,
+   "index": 0
+  },
+  {
+   "start": 8,
+   "kind": "broll",
+   "src": "assets/broll/crowd.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 15.82,
+   "index": 1
+  },
+  {
+   "start": 15.82,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3",
+    "label": "small mistakes · off campus"
+   },
+   "end": 23.81,
+   "index": 2
+  },
+  {
+   "start": 23.81,
+   "kind": "broll",
+   "src": "assets/broll/campus.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 35.42,
+   "index": 3
+  },
+  {
+   "start": 35.42,
+   "kind": "broll",
+   "src": "assets/broll/interview.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 43.86,
+   "index": 4
+  },
+  {
+   "start": 43.86,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Filter",
+    "label": "before any human looks"
+   },
+   "end": 55.27,
+   "index": 5
+  },
+  {
+   "start": 55.27,
+   "kind": "broll",
+   "src": "assets/broll/woman.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 66.5,
+   "index": 6
+  },
+  {
+   "start": 66.5,
+   "kind": "broll",
+   "src": "assets/broll/form.mp4",
+   "media_start": 3,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 75.4,
+   "index": 7
+  },
+  {
+   "start": 75.4,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "10",
+    "label": "fitting roles, not 100"
+   },
+   "end": 80.78,
+   "index": 8
+  },
+  {
+   "start": 80.78,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 85.38,
+   "index": 9
+  },
+  {
+   "start": 85.38,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Never pay",
+    "label": "for an interview or a job"
+   },
+   "end": 93.65,
+   "index": 10
+  },
+  {
+   "start": 93.65,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 104,
+   "index": 11
+  },
+  {
+   "start": 104,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Proof",
+    "label": "one thing you built"
+   },
+   "end": 115.56,
+   "index": 12
+  },
+  {
+   "start": 115.56,
+   "kind": "broll",
+   "src": "assets/broll/planning.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 123.61,
+   "index": 13
+  },
+  {
+   "start": 123.61,
+   "kind": "broll",
+   "src": "assets/broll/phone.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 134.2,
+   "index": 14
+  },
+  {
+   "start": 134.2,
+   "kind": "broll",
+   "src": "assets/broll/corridor.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 144,
+   "index": 15
+  },
+  {
+   "start": 144,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "1 question",
+    "label": "never ask for a job"
+   },
+   "end": 152.96,
+   "index": 16
+  },
+  {
+   "start": 152.96,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 3,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 162.72,
+   "index": 17
+  },
+  {
+   "start": 162.72,
+   "kind": "broll",
+   "src": "assets/broll/notebook.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 172.4,
+   "index": 18
+  },
+  {
+   "start": 172.4,
+   "kind": "broll",
+   "src": "assets/broll/planning.mp4",
+   "media_start": 10,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 184,
+   "index": 19
+  },
+  {
+   "start": 184,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Weekly",
+    "label": "repeat · follow up once"
+   },
+   "end": 193.43,
+   "index": 20
+  },
+  {
+   "start": 193.43,
+   "kind": "broll",
+   "src": "assets/broll/crowd.mp4",
+   "media_start": 2,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "cut",
+   "end": 202.4,
+   "index": 21
+  },
+  {
+   "start": 202.4,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Comment",
+    "label": "on or off campus?"
+   },
+   "end": 210.9,
+   "index": 22
+  },
+  {
+   "start": 210.9,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe"
+   },
+   "end": 215.13,
+   "index": 23
+  }
+ ],
+ "camera_moves": []
+}
