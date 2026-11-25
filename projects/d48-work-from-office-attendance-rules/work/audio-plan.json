@@ -1,0 +1,104 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "glitch",
+   "gain": 3,
+   "reason": "title_slide: Attendance can cost you pay"
+  },
+  {
+   "time": 12.28,
+   "sfx": "clock_tick",
+   "gain": 4,
+   "reason": "flow_diagram: Three attendance mistakes"
+  },
+  {
+   "time": 20.88,
+   "sfx": "click",
+   "gain": 5,
+   "reason": "chapter_open: Why attendance matters"
+  },
+  {
+   "time": 31.38,
+   "sfx": "clock_tick",
+   "gain": 4,
+   "reason": "flow_diagram: One linked system"
+  },
+  {
+   "time": 43.48,
+   "sfx": "clock_tick",
+   "gain": 4,
+   "reason": "bullet_list: A small mismatch can become"
+  },
+  {
+   "time": 50.92,
+   "sfx": "click",
+   "gain": 5,
+   "reason": "chapter_open: Office day rules"
+  },
+  {
+   "time": 74.28,
+   "sfx": "clock_tick",
+   "gain": 4,
+   "reason": "checklist: Confirm your office days"
+  },
+  {
+   "time": 87.48,
+   "sfx": "pop",
+   "gain": 4,
+   "reason": "quote_pull: As discussed, I will be in the office on Tuesday, Wednesday and Thursday."
+  },
+  {
+   "time": 94.51,
+   "sfx": "click",
+   "gain": 5,
+   "reason": "chapter_open: Swipe mismatch"
+  },
+  {
+   "time": 100.38,
+   "sfx": "clock_tick",
+   "gain": 4,
+   "reason": "flow_diagram: Ravi's first weeks"
+  },
+  {
+   "time": 119.48,
+   "sfx": "clock_tick",
+   "gain": 4,
+   "reason": "timeline: The fix"
+  },
+  {
+   "time": 131.68,
+   "sfx": "pop",
+   "gain": 4,
+   "reason": "big_statement: Fix it the same day"
+  },
+  {
+   "time": 140.58,
+   "sfx": "click",
+   "gain": 5,
+   "reason": "chapter_open: Leave and hours"
+  },
+  {
+   "time": 150.28,
+   "sfx": "clock_tick",
+   "gain": 4,
+   "reason": "comparison: Taking a day off"
+  },
+  {
+   "time": 174.08,
+   "sfx": "clock_tick",
+   "gain": 4,
+   "reason": "checklist: In your first week"
+  },
+  {
+   "time": 187.68,
+   "sfx": "clock_tick",
+   "gain": 4,
+   "reason": "flow_diagram: To sum up"
+  }
+ ]
+}

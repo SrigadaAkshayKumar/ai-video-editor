@@ -1,0 +1,664 @@
+{
+ "style": "blueprint",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 4.25,
+   "type": "title_slide",
+   "text": "Attendance can cost you pay",
+   "eyebrow": "Crack IT · Day 48",
+   "style_hint": "Work from office rules for freshers"
+  },
+  {
+   "start": 5,
+   "duration": 4,
+   "type": "side_note",
+   "text": "Pay and appraisal at risk",
+   "side": "right"
+  },
+  {
+   "start": 12.2,
+   "duration": 5.4,
+   "type": "flow_diagram",
+   "text": "Three attendance mistakes",
+   "items": [
+    {
+     "label": "?",
+     "sublabel": "1"
+    },
+    {
+     "label": "?",
+     "sublabel": "2"
+    },
+    {
+     "label": "?",
+     "sublabel": "3"
+    }
+   ]
+  },
+  {
+   "start": 18.4,
+   "duration": 1.9,
+   "type": "keyword_chip",
+   "text": "The third: nobody checks",
+   "side": "right"
+  },
+  {
+   "start": 20.8,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Why attendance matters",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 24.6,
+   "duration": 2.3,
+   "type": "keyword_chip",
+   "text": "Hardly any work yet",
+   "side": "left"
+  },
+  {
+   "start": 27.4,
+   "duration": 3.1,
+   "type": "side_note",
+   "text": "Attendance is a record",
+   "side": "right"
+  },
+  {
+   "start": 31.3,
+   "duration": 7.5,
+   "type": "flow_diagram",
+   "text": "One linked system",
+   "items": [
+    {
+     "label": "Badge swipe",
+     "sublabel": ""
+    },
+    {
+     "label": "Portal",
+     "sublabel": ""
+    },
+    {
+     "label": "Timesheet",
+     "sublabel": ""
+    },
+    {
+     "label": "Leave balance",
+     "sublabel": ""
+    },
+    {
+     "label": "Payroll + HR",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 39.6,
+   "duration": 3.1,
+   "type": "keyword_chip",
+   "text": "Feeds payroll and HR",
+   "side": "right"
+  },
+  {
+   "start": 43.4,
+   "duration": 6.9,
+   "type": "bullet_list",
+   "side": "left",
+   "text": "A small mismatch can become",
+   "items": [
+    {
+     "label": "Salary deduction"
+    },
+    {
+     "label": "A mail from HR"
+    },
+    {
+     "label": "A remark in your file"
+    }
+   ]
+  },
+  {
+   "start": 50.84,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Office day rules",
+   "eyebrow": "Mistake one",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 54.6,
+   "duration": 2.1,
+   "type": "side_note",
+   "text": "Interview rules may not hold",
+   "side": "left"
+  },
+  {
+   "start": 57,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "Hybrid: office + home",
+   "side": "right"
+  },
+  {
+   "start": 61.4,
+   "duration": 5.5,
+   "type": "side_note",
+   "text": "Days and location: team, client, project",
+   "side": "left"
+  },
+  {
+   "start": 67.8,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "Can change after you join",
+   "side": "right"
+  },
+  {
+   "start": 70.8,
+   "duration": 3.1,
+   "type": "side_note",
+   "text": "Not a friend's batch",
+   "side": "left"
+  },
+  {
+   "start": 74.2,
+   "duration": 12,
+   "type": "checklist",
+   "side": "right",
+   "text": "Confirm your office days",
+   "items": [
+    {
+     "label": "Joining mail",
+     "state": "yes"
+    },
+    {
+     "label": "Offer letter work mode",
+     "state": "yes"
+    },
+    {
+     "label": "Ask your manager",
+     "state": "yes"
+    },
+    {
+     "label": "Confirm by mail",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 87.4,
+   "duration": 6.8,
+   "type": "quote_pull",
+   "text": "As discussed, I will be in the office on Tuesday, Wednesday and Thursday.",
+   "eyebrow": "Sample mail"
+  },
+  {
+   "start": 94.43,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Swipe mismatch",
+   "eyebrow": "Mistake two",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 100.3,
+   "duration": 11.1,
+   "type": "flow_diagram",
+   "text": "Ravi's first weeks",
+   "items": [
+    {
+     "label": "Badge not active",
+     "sublabel": ""
+    },
+    {
+     "label": "Visitor desk",
+     "sublabel": "works all day"
+    },
+    {
+     "label": "Month end",
+     "sublabel": "marked absent"
+    }
+   ]
+  },
+  {
+   "start": 112.3,
+   "duration": 6.1,
+   "type": "side_note",
+   "text": "Badge, laptop, portal: still being set up",
+   "side": "right"
+  },
+  {
+   "start": 119.4,
+   "duration": 11.6,
+   "type": "timeline",
+   "side": "right",
+   "text": "The fix",
+   "current": 0,
+   "items": [
+    {
+     "label": "Day of mismatch",
+     "sublabel": ""
+    },
+    {
+     "label": "Same-day request",
+     "sublabel": "regularisation"
+    },
+    {
+     "label": "Manager informed",
+     "sublabel": ""
+    },
+    {
+     "label": "Month-end cut-off",
+     "sublabel": "too late after"
+    }
+   ]
+  },
+  {
+   "start": 131.6,
+   "duration": 8,
+   "type": "big_statement",
+   "text": "Fix it the same day",
+   "eyebrow": "same"
+  },
+  {
+   "start": 140.5,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Leave and hours",
+   "eyebrow": "Mistake three",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 146.4,
+   "duration": 3.1,
+   "type": "side_note",
+   "text": "Told a friend, no portal leave",
+   "side": "left"
+  },
+  {
+   "start": 150.2,
+   "duration": 13.6,
+   "type": "comparison",
+   "side": "left",
+   "text": "Taking a day off",
+   "left": {
+    "label": "Told a friend",
+    "text": "Unauthorised absence"
+   },
+   "right": {
+    "label": "Messaged manager and applied",
+    "text": "Approved leave"
+   }
+  },
+  {
+   "start": 164.5,
+   "duration": 2.5,
+   "type": "keyword_chip",
+   "text": "Late arrivals, early exits",
+   "side": "right"
+  },
+  {
+   "start": 167.4,
+   "duration": 5.9,
+   "type": "side_note",
+   "text": "Fixed hours = full day, less = half day",
+   "side": "left"
+  },
+  {
+   "start": 174,
+   "duration": 13,
+   "type": "checklist",
+   "side": "right",
+   "text": "In your first week",
+   "items": [
+    {
+     "label": "Where to apply leave",
+     "state": "yes"
+    },
+    {
+     "label": "Hours for a full day",
+     "state": "yes"
+    },
+    {
+     "label": "Message first, apply right after",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 187.6,
+   "duration": 10.7,
+   "type": "flow_diagram",
+   "text": "To sum up",
+   "items": [
+    {
+     "label": "Office days",
+     "sublabel": "in writing"
+    },
+    {
+     "label": "Swipe match",
+     "sublabel": "same day"
+    },
+    {
+     "label": "Leave and hours",
+     "sublabel": "know them"
+    }
+   ]
+  },
+  {
+   "start": 198.9,
+   "duration": 7.9,
+   "type": "big_statement",
+   "text": "Office days a week? Your city?",
+   "eyebrow": "city"
+  },
+  {
+   "start": 207.4,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Like · Subscribe",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/watch.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 9.13,
+   "index": 0
+  },
+  {
+   "start": 9.13,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3",
+    "label": "attendance mistakes"
+   },
+   "end": 20.76,
+   "index": 1
+  },
+  {
+   "start": 20.76,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 24.5,
+   "index": 2
+  },
+  {
+   "start": 24.5,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Record",
+    "label": "not an opinion"
+   },
+   "end": 31.2,
+   "index": 3
+  },
+  {
+   "start": 31.2,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "5",
+    "label": "linked systems"
+   },
+   "end": 39.5,
+   "index": 4
+  },
+  {
+   "start": 39.5,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 50.84,
+   "index": 5
+  },
+  {
+   "start": 50.84,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 54.5,
+   "index": 6
+  },
+  {
+   "start": 54.5,
+   "kind": "broll",
+   "src": "assets/broll/planner.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 61.4,
+   "index": 7
+  },
+  {
+   "start": 61.4,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3",
+    "label": "who can set the rules"
+   },
+   "end": 66.9,
+   "index": 8
+  },
+  {
+   "start": 66.9,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Ask",
+    "label": "in your first week"
+   },
+   "end": 81,
+   "index": 9
+  },
+  {
+   "start": 81,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Question",
+    "label": "how many days a week?"
+   },
+   "end": 87.4,
+   "index": 10
+  },
+  {
+   "start": 87.4,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "1 line",
+    "label": "protects you later"
+   },
+   "end": 94.43,
+   "index": 11
+  },
+  {
+   "start": 94.43,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 98,
+   "index": 12
+  },
+  {
+   "start": 98,
+   "kind": "broll",
+   "src": "assets/broll/crowd.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 106,
+   "index": 13
+  },
+  {
+   "start": 106,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Absent",
+    "label": "the record was empty"
+   },
+   "end": 112.1,
+   "index": 14
+  },
+  {
+   "start": 112.1,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Same day",
+    "label": "raise the request"
+   },
+   "end": 119,
+   "index": 15
+  },
+  {
+   "start": 119,
+   "kind": "broll",
+   "src": "assets/broll/writing.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 131.5,
+   "index": 16
+  },
+  {
+   "start": 131.5,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Cut-off",
+    "label": "after it, correction is slow"
+   },
+   "end": 140.5,
+   "index": 17
+  },
+  {
+   "start": 140.5,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 144.4,
+   "index": 18
+  },
+  {
+   "start": 144.4,
+   "kind": "broll",
+   "src": "assets/broll/phones.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 150.2,
+   "index": 19
+  },
+  {
+   "start": 150.2,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Unauthorised",
+    "label": "vs approved leave"
+   },
+   "end": 157.5,
+   "index": 20
+  },
+  {
+   "start": 157.5,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Loss of pay",
+    "label": "for the day"
+   },
+   "end": 164.4,
+   "index": 21
+  },
+  {
+   "start": 164.4,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Hours",
+    "label": "full day vs half day"
+   },
+   "end": 174,
+   "index": 22
+  },
+  {
+   "start": 174,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Week 1",
+    "label": "three things to find out"
+   },
+   "end": 184.5,
+   "index": 23
+  },
+  {
+   "start": 184.5,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Message",
+    "label": "first, apply right after"
+   },
+   "end": 187.6,
+   "index": 24
+  },
+  {
+   "start": 187.6,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3 checks",
+    "label": "before you need them"
+   },
+   "end": 198.8,
+   "index": 25
+  },
+  {
+   "start": 198.8,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Days · City",
+    "label": "tell me in the comments"
+   },
+   "end": 207.2,
+   "index": 26
+  },
+  {
+   "start": 207.2,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe"
+   },
+   "end": 211.43,
+   "index": 27
+  }
+ ],
+ "camera_moves": []
+}
