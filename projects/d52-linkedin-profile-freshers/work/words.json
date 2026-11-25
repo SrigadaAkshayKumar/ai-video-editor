@@ -1,0 +1,6498 @@
+[
+  {
+    "id": "w0",
+    "text": "A",
+    "start": 0.04,
+    "end": 0.08000000000000002,
+    "type": "word",
+    "conf": 0.48
+  },
+  {
+    "id": "w1",
+    "text": "recruiter",
+    "start": 0.04,
+    "end": 0.61,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w2",
+    "text": "can",
+    "start": 0.61,
+    "end": 0.7000000000000001,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w3",
+    "text": "look",
+    "start": 0.7000000000000001,
+    "end": 0.95,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w4",
+    "text": "at",
+    "start": 0.95,
+    "end": 1.03,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w5",
+    "text": "your",
+    "start": 1.03,
+    "end": 1.25,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w6",
+    "text": "LinkedIn",
+    "start": 1.25,
+    "end": 1.69,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w7",
+    "text": "profile",
+    "start": 1.69,
+    "end": 2.07,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w8",
+    "text": "for",
+    "start": 2.07,
+    "end": 2.23,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w9",
+    "text": "10",
+    "start": 2.23,
+    "end": 2.5500000000000003,
+    "type": "word",
+    "conf": 0.71
+  },
+  {
+    "id": "w10",
+    "text": "seconds",
+    "start": 2.5500000000000003,
+    "end": 3.07,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w11",
+    "text": "and",
+    "start": 3.07,
+    "end": 3.14,
+    "type": "word",
+    "conf": 0.73
+  },
+  {
+    "id": "w12",
+    "text": "decide",
+    "start": 3.14,
+    "end": 3.42,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w13",
+    "text": "you",
+    "start": 3.42,
+    "end": 3.56,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w14",
+    "text": "are",
+    "start": 3.56,
+    "end": 3.72,
+    "type": "word",
+    "conf": 0.81
+  },
+  {
+    "id": "w15",
+    "text": "not",
+    "start": 3.72,
+    "end": 3.87,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w16",
+    "text": "worth",
+    "start": 3.87,
+    "end": 4.12,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w17",
+    "text": "a",
+    "start": 4.12,
+    "end": 4.24,
+    "type": "word",
+    "conf": 0.3
+  },
+  {
+    "id": "w18",
+    "text": "message,",
+    "start": 4.24,
+    "end": 4.8,
+    "type": "word",
+    "conf": 0.71
+  },
+  {
+    "id": "w19",
+    "text": "and",
+    "start": 4.8,
+    "end": 4.96,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w20",
+    "text": "most",
+    "start": 4.96,
+    "end": 5.17,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w21",
+    "text": "freshers",
+    "start": 5.17,
+    "end": 5.62,
+    "type": "word",
+    "conf": 0.88
+  },
+  {
+    "id": "w22",
+    "text": "lose",
+    "start": 5.62,
+    "end": 5.84,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w23",
+    "text": "their",
+    "start": 5.84,
+    "end": 6.11,
+    "type": "word",
+    "conf": 0.59
+  },
+  {
+    "id": "w24",
+    "text": "10",
+    "start": 6.11,
+    "end": 6.44,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w25",
+    "text": "seconds",
+    "start": 6.44,
+    "end": 6.82,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w26",
+    "text": "on",
+    "start": 6.82,
+    "end": 6.96,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w27",
+    "text": "the",
+    "start": 6.96,
+    "end": 7.09,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w28",
+    "text": "very",
+    "start": 7.09,
+    "end": 7.31,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w29",
+    "text": "first",
+    "start": 7.31,
+    "end": 7.58,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w30",
+    "text": "line.",
+    "start": 7.58,
+    "end": 8,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w31",
+    "text": "If",
+    "start": 8,
+    "end": 8.11,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w32",
+    "text": "you",
+    "start": 8.11,
+    "end": 8.28,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w33",
+    "text": "are",
+    "start": 8.28,
+    "end": 8.45,
+    "type": "word",
+    "conf": 0.93
+  },
+  {
+    "id": "w34",
+    "text": "a",
+    "start": 8.45,
+    "end": 8.5,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w35",
+    "text": "final",
+    "start": 8.5,
+    "end": 8.79,
+    "type": "word",
+    "conf": 0.95
+  },
+  {
+    "id": "w36",
+    "text": "year",
+    "start": 8.79,
+    "end": 9.02,
+    "type": "word",
+    "conf": 0.78
+  },
+  {
+    "id": "w37",
+    "text": "student",
+    "start": 9.02,
+    "end": 9.42,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w38",
+    "text": "or",
+    "start": 9.42,
+    "end": 9.53,
+    "type": "word",
+    "conf": 0.87
+  },
+  {
+    "id": "w39",
+    "text": "a",
+    "start": 9.53,
+    "end": 9.58,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w40",
+    "text": "fresher",
+    "start": 9.58,
+    "end": 9.98,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w41",
+    "text": "looking",
+    "start": 9.98,
+    "end": 10.379999999999999,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w42",
+    "text": "for",
+    "start": 10.379999999999999,
+    "end": 10.55,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w43",
+    "text": "your",
+    "start": 10.55,
+    "end": 10.78,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w44",
+    "text": "first",
+    "start": 10.78,
+    "end": 11.07,
+    "type": "word",
+    "conf": 0.92
+  },
+  {
+    "id": "w45",
+    "text": "tech",
+    "start": 11.07,
+    "end": 11.36,
+    "type": "word",
+    "conf": 0.95
+  },
+  {
+    "id": "w46",
+    "text": "job,",
+    "start": 11.36,
+    "end": 11.679999999999998,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w47",
+    "text": "this",
+    "start": 11.679999999999998,
+    "end": 11.9,
+    "type": "word",
+    "conf": 0.73
+  },
+  {
+    "id": "w48",
+    "text": "video",
+    "start": 11.9,
+    "end": 12.21,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w49",
+    "text": "is",
+    "start": 12.21,
+    "end": 12.28,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w50",
+    "text": "for",
+    "start": 12.28,
+    "end": 12.44,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w51",
+    "text": "you.",
+    "start": 12.44,
+    "end": 12.8,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w52",
+    "text": "In",
+    "start": 12.8,
+    "end": 12.9,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w53",
+    "text": "the",
+    "start": 12.9,
+    "end": 13.08,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w54",
+    "text": "next",
+    "start": 13.08,
+    "end": 13.25,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w55",
+    "text": "five",
+    "start": 13.25,
+    "end": 13.45,
+    "type": "word",
+    "conf": 0.39
+  },
+  {
+    "id": "w56",
+    "text": "minutes,",
+    "start": 13.45,
+    "end": 13.92,
+    "type": "word",
+    "conf": 0.91
+  },
+  {
+    "id": "w57",
+    "text": "I",
+    "start": 13.92,
+    "end": 13.98,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w58",
+    "text": "will",
+    "start": 13.98,
+    "end": 14.22,
+    "type": "word",
+    "conf": 0.96
+  },
+  {
+    "id": "w59",
+    "text": "show",
+    "start": 14.22,
+    "end": 14.459999999999999,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w60",
+    "text": "you",
+    "start": 14.459999999999999,
+    "end": 14.64,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w61",
+    "text": "the",
+    "start": 14.64,
+    "end": 14.820000000000002,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w62",
+    "text": "four",
+    "start": 14.820000000000002,
+    "end": 15.06,
+    "type": "word",
+    "conf": 0.94
+  },
+  {
+    "id": "w63",
+    "text": "parts",
+    "start": 15.06,
+    "end": 15.4,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w64",
+    "text": "of",
+    "start": 15.4,
+    "end": 15.48,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w65",
+    "text": "a",
+    "start": 15.48,
+    "end": 15.54,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w66",
+    "text": "profile",
+    "start": 15.54,
+    "end": 16,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w67",
+    "text": "that",
+    "start": 16,
+    "end": 16.25,
+    "type": "word",
+    "conf": 0.96
+  },
+  {
+    "id": "w68",
+    "text": "recruiters",
+    "start": 16.25,
+    "end": 16.88,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w69",
+    "text": "actually",
+    "start": 16.88,
+    "end": 17.3,
+    "type": "word",
+    "conf": 0.86
+  },
+  {
+    "id": "w70",
+    "text": "read,",
+    "start": 17.3,
+    "end": 17.6,
+    "type": "word",
+    "conf": 0.77
+  },
+  {
+    "id": "w71",
+    "text": "the",
+    "start": 17.6,
+    "end": 17.75,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w72",
+    "text": "three",
+    "start": 17.75,
+    "end": 18.01,
+    "type": "word",
+    "conf": 0.96
+  },
+  {
+    "id": "w73",
+    "text": "mistakes",
+    "start": 18.01,
+    "end": 18.42,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w74",
+    "text": "that",
+    "start": 18.42,
+    "end": 18.62,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w75",
+    "text": "make",
+    "start": 18.62,
+    "end": 18.82,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w76",
+    "text": "them",
+    "start": 18.82,
+    "end": 19.02,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w77",
+    "text": "scroll",
+    "start": 19.02,
+    "end": 19.33,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w78",
+    "text": "past,",
+    "start": 19.33,
+    "end": 19.76,
+    "type": "word",
+    "conf": 0.79
+  },
+  {
+    "id": "w79",
+    "text": "and",
+    "start": 19.76,
+    "end": 19.849999999999998,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w80",
+    "text": "a",
+    "start": 19.849999999999998,
+    "end": 19.9,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w81",
+    "text": "10-minute",
+    "start": 19.9,
+    "end": 20.670000000000005,
+    "type": "word",
+    "conf": 0.85
+  },
+  {
+    "id": "w82",
+    "text": "fix",
+    "start": 20.670000000000005,
+    "end": 20.8,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w83",
+    "text": "you",
+    "start": 20.8,
+    "end": 20.97,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w84",
+    "text": "can",
+    "start": 20.97,
+    "end": 21.140000000000004,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w85",
+    "text": "do",
+    "start": 21.140000000000004,
+    "end": 21.25,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w86",
+    "text": "tonight.",
+    "start": 21.25,
+    "end": 21.84,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w87",
+    "text": "Stay",
+    "start": 21.84,
+    "end": 22.05,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w88",
+    "text": "till",
+    "start": 22.05,
+    "end": 22.26,
+    "type": "word",
+    "conf": 0.9
+  },
+  {
+    "id": "w89",
+    "text": "the",
+    "start": 22.26,
+    "end": 22.45,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w90",
+    "text": "end",
+    "start": 22.45,
+    "end": 22.58,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w91",
+    "text": "because",
+    "start": 22.58,
+    "end": 22.950000000000003,
+    "type": "word",
+    "conf": 0.85
+  },
+  {
+    "id": "w92",
+    "text": "the",
+    "start": 22.950000000000003,
+    "end": 23.11,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w93",
+    "text": "third",
+    "start": 23.11,
+    "end": 23.37,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w94",
+    "text": "mistake",
+    "start": 23.37,
+    "end": 23.76,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w95",
+    "text": "looks",
+    "start": 23.76,
+    "end": 24,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w96",
+    "text": "harmless,",
+    "start": 24,
+    "end": 24.55,
+    "type": "word",
+    "conf": 0.87
+  },
+  {
+    "id": "w97",
+    "text": "but",
+    "start": 24.55,
+    "end": 24.72,
+    "type": "word",
+    "conf": 0.96
+  },
+  {
+    "id": "w98",
+    "text": "it",
+    "start": 24.72,
+    "end": 24.910000000000004,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w99",
+    "text": "can",
+    "start": 24.910000000000004,
+    "end": 25.009999999999998,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w100",
+    "text": "cost",
+    "start": 25.009999999999998,
+    "end": 25.24,
+    "type": "word",
+    "conf": 0.79
+  },
+  {
+    "id": "w101",
+    "text": "you",
+    "start": 25.24,
+    "end": 25.41,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w102",
+    "text": "messages.",
+    "start": 25.41,
+    "end": 26.08,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w103",
+    "text": "First,",
+    "start": 26.88127,
+    "end": 27.248929251497003,
+    "type": "word",
+    "conf": 0.95
+  },
+  {
+    "id": "w104",
+    "text": "why",
+    "start": 27.248929251497003,
+    "end": 27.447663982035927,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w105",
+    "text": "this",
+    "start": 27.447663982035927,
+    "end": 27.636461976047904,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w106",
+    "text": "matters?",
+    "start": 27.636461976047904,
+    "end": 28.21279269461078,
+    "type": "word",
+    "conf": 0.79
+  },
+  {
+    "id": "w107",
+    "text": "Before",
+    "start": 28.21279269461078,
+    "end": 28.56057847305389,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w108",
+    "text": "a",
+    "start": 28.56057847305389,
+    "end": 28.610262155688623,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w109",
+    "text": "recruiter",
+    "start": 28.610262155688623,
+    "end": 29.12697245508982,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w110",
+    "text": "calls",
+    "start": 29.12697245508982,
+    "end": 29.425074550898202,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w111",
+    "text": "you,",
+    "start": 29.425074550898202,
+    "end": 29.89210116766467,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w112",
+    "text": "they",
+    "start": 29.89210116766467,
+    "end": 30.051088952095807,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w113",
+    "text": "usually",
+    "start": 30.051088952095807,
+    "end": 30.468431886227545,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w114",
+    "text": "search.",
+    "start": 30.468431886227545,
+    "end": 31.054699341317367,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w115",
+    "text": "They",
+    "start": 31.054699341317367,
+    "end": 31.342864700598803,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w116",
+    "text": "type",
+    "start": 31.342864700598803,
+    "end": 31.66084026946108,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w117",
+    "text": "words",
+    "start": 31.66084026946108,
+    "end": 31.998689311377248,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w118",
+    "text": "like",
+    "start": 31.998689311377248,
+    "end": 32.286854670658684,
+    "type": "word",
+    "conf": 0.91
+  },
+  {
+    "id": "w119",
+    "text": "Java,",
+    "start": 32.286854670658684,
+    "end": 32.71413434131737,
+    "type": "word",
+    "conf": 0.76
+  },
+  {
+    "id": "w120",
+    "text": "Python,",
+    "start": 32.71413434131737,
+    "end": 33.29046505988024,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w121",
+    "text": "Fresher,",
+    "start": 33.29046505988024,
+    "end": 34.105277455089826,
+    "type": "word",
+    "conf": 0.86
+  },
+  {
+    "id": "w122",
+    "text": "or",
+    "start": 34.105277455089826,
+    "end": 34.14502440119761,
+    "type": "word",
+    "conf": 0.95
+  },
+  {
+    "id": "w123",
+    "text": "Testing",
+    "start": 34.135087664670664,
+    "end": 34.641861227544915,
+    "type": "word",
+    "conf": 0.61
+  },
+  {
+    "id": "w124",
+    "text": "into",
+    "start": 34.641861227544915,
+    "end": 34.93002658682635,
+    "type": "word",
+    "conf": 0.96
+  },
+  {
+    "id": "w125",
+    "text": "a",
+    "start": 34.93002658682635,
+    "end": 34.989647005988026,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w126",
+    "text": "search",
+    "start": 34.989647005988026,
+    "end": 35.426863413173656,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w127",
+    "text": "box,",
+    "start": 35.426863413173656,
+    "end": 35.66534508982036,
+    "type": "word",
+    "conf": 0.9
+  },
+  {
+    "id": "w128",
+    "text": "and",
+    "start": 35.66534508982036,
+    "end": 35.824332874251496,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w129",
+    "text": "then",
+    "start": 35.824332874251496,
+    "end": 36.033004341317366,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w130",
+    "text": "they",
+    "start": 36.033004341317366,
+    "end": 36.27148601796408,
+    "type": "word",
+    "conf": 0.96
+  },
+  {
+    "id": "w131",
+    "text": "open",
+    "start": 36.27148601796408,
+    "end": 36.450347275449104,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w132",
+    "text": "the",
+    "start": 36.450347275449104,
+    "end": 36.60933505988024,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w133",
+    "text": "profiles",
+    "start": 36.60933505988024,
+    "end": 37.026677994011976,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w134",
+    "text": "that",
+    "start": 37.026677994011976,
+    "end": 37.235349461077845,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w135",
+    "text": "come",
+    "start": 37.235349461077845,
+    "end": 37.444020928143715,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w136",
+    "text": "up.",
+    "start": 37.444020928143715,
+    "end": 37.81168017964072,
+    "type": "word",
+    "conf": 0.78
+  },
+  {
+    "id": "w137",
+    "text": "So,",
+    "start": 37.81168017964072,
+    "end": 37.8911740718563,
+    "type": "word",
+    "conf": 0.84
+  },
+  {
+    "id": "w138",
+    "text": "your",
+    "start": 37.8911740718563,
+    "end": 38.129655748503,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w139",
+    "text": "profile",
+    "start": 38.129655748503,
+    "end": 38.66623952095809,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w140",
+    "text": "is",
+    "start": 38.66623952095809,
+    "end": 38.71592320359282,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w141",
+    "text": "not",
+    "start": 38.71592320359282,
+    "end": 38.84510077844311,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w142",
+    "text": "a",
+    "start": 38.84510077844311,
+    "end": 38.92459467065869,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w143",
+    "text": "certificate,",
+    "start": 38.92459467065869,
+    "end": 39.56054580838324,
+    "type": "word",
+    "conf": 0.67
+  },
+  {
+    "id": "w144",
+    "text": "it",
+    "start": 39.56054580838324,
+    "end": 39.67978664670659,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w145",
+    "text": "is",
+    "start": 39.67978664670659,
+    "end": 39.81890095808384,
+    "type": "word",
+    "conf": 0.96
+  },
+  {
+    "id": "w146",
+    "text": "a",
+    "start": 39.81890095808384,
+    "end": 39.85864790419162,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w147",
+    "text": "search",
+    "start": 39.85864790419162,
+    "end": 40.20643368263474,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w148",
+    "text": "result.",
+    "start": 40.20643368263474,
+    "end": 40.752954191616766,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w149",
+    "text": "If",
+    "start": 40.752954191616766,
+    "end": 40.87219502994013,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w150",
+    "text": "the",
+    "start": 40.87219502994013,
+    "end": 41.051056287425155,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w151",
+    "text": "right",
+    "start": 41.051056287425155,
+    "end": 41.35909511976048,
+    "type": "word",
+    "conf": 0.69
+  },
+  {
+    "id": "w152",
+    "text": "words",
+    "start": 41.35909511976048,
+    "end": 41.70688089820359,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w153",
+    "text": "are",
+    "start": 41.70688089820359,
+    "end": 41.84599520958084,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w154",
+    "text": "not",
+    "start": 41.84599520958084,
+    "end": 42.024856467065874,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w155",
+    "text": "in",
+    "start": 42.024856467065874,
+    "end": 42.144097305389224,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w156",
+    "text": "it,",
+    "start": 42.144097305389224,
+    "end": 42.422325928143714,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w157",
+    "text": "you",
+    "start": 42.422325928143714,
+    "end": 42.63099739520958,
+    "type": "word",
+    "conf": 0.93
+  },
+  {
+    "id": "w158",
+    "text": "do",
+    "start": 42.63099739520958,
+    "end": 42.77011170658683,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w159",
+    "text": "not",
+    "start": 42.77011170658683,
+    "end": 42.9787831736527,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w160",
+    "text": "show",
+    "start": 42.9787831736527,
+    "end": 43.247075059880245,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w161",
+    "text": "up,",
+    "start": 43.247075059880245,
+    "end": 43.53524041916168,
+    "type": "word",
+    "conf": 0.86
+  },
+  {
+    "id": "w162",
+    "text": "and",
+    "start": 43.53524041916168,
+    "end": 43.70416494011977,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w163",
+    "text": "if",
+    "start": 43.70416494011977,
+    "end": 43.81346904191617,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w164",
+    "text": "you",
+    "start": 43.81346904191617,
+    "end": 43.98239356287426,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w165",
+    "text": "do",
+    "start": 43.98239356287426,
+    "end": 44.1413813473054,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w166",
+    "text": "show",
+    "start": 44.1413813473054,
+    "end": 44.32024260479042,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w167",
+    "text": "up,",
+    "start": 44.32024260479042,
+    "end": 44.53885080838324,
+    "type": "word",
+    "conf": 0.81
+  },
+  {
+    "id": "w168",
+    "text": "but",
+    "start": 44.53885080838324,
+    "end": 44.70777532934133,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w169",
+    "text": "the",
+    "start": 44.70777532934133,
+    "end": 44.8766998502994,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w170",
+    "text": "top",
+    "start": 44.8766998502994,
+    "end": 45.04562437125749,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w171",
+    "text": "of",
+    "start": 45.04562437125749,
+    "end": 45.1549284730539,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w172",
+    "text": "the",
+    "start": 45.1549284730539,
+    "end": 45.323852994011986,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w173",
+    "text": "page",
+    "start": 45.323852994011986,
+    "end": 45.55239793413174,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w174",
+    "text": "is",
+    "start": 45.55239793413174,
+    "end": 45.681575508982036,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w175",
+    "text": "empty,",
+    "start": 45.681575508982036,
+    "end": 46.049234760479045,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w176",
+    "text": "they",
+    "start": 46.049234760479045,
+    "end": 46.27777970059881,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w177",
+    "text": "leave.",
+    "start": 46.27777970059881,
+    "end": 46.79449,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w178",
+    "text": "Think",
+    "start": 47.518594,
+    "end": 47.556481539187914,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w179",
+    "text": "of",
+    "start": 47.518594,
+    "end": 47.556481539187914,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w180",
+    "text": "two",
+    "start": 47.556481539187914,
+    "end": 47.68908792634561,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w181",
+    "text": "students",
+    "start": 47.68908792634561,
+    "end": 48.25740101416431,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w182",
+    "text": "from",
+    "start": 48.25740101416431,
+    "end": 48.541557558073656,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w183",
+    "text": "the",
+    "start": 48.541557558073656,
+    "end": 48.749939023607176,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w184",
+    "text": "same",
+    "start": 48.749939023607176,
+    "end": 49.03409556751652,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w185",
+    "text": "college",
+    "start": 49.03409556751652,
+    "end": 49.56452111614731,
+    "type": "word",
+    "conf": 0.94
+  },
+  {
+    "id": "w186",
+    "text": "with",
+    "start": 49.56452111614731,
+    "end": 49.810790120868745,
+    "type": "word",
+    "conf": 0.85
+  },
+  {
+    "id": "w187",
+    "text": "the",
+    "start": 49.810790120868745,
+    "end": 50.019171586402265,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w188",
+    "text": "same",
+    "start": 50.019171586402265,
+    "end": 50.42646263267233,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w189",
+    "text": "marks.",
+    "start": 50.42646263267233,
+    "end": 50.92847252691218,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w190",
+    "text": "One",
+    "start": 50.92847252691218,
+    "end": 51.11791022285174,
+    "type": "word",
+    "conf": 0.96
+  },
+  {
+    "id": "w191",
+    "text": "has",
+    "start": 51.11791022285174,
+    "end": 51.31681980358829,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w192",
+    "text": "a",
+    "start": 51.31681980358829,
+    "end": 51.36417922757318,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w193",
+    "text": "blank",
+    "start": 51.36417922757318,
+    "end": 51.67675142587346,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w194",
+    "text": "headline",
+    "start": 51.67675142587346,
+    "end": 52.18823320491029,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w195",
+    "text": "that",
+    "start": 52.18823320491029,
+    "end": 52.44397409442871,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w196",
+    "text": "says",
+    "start": 52.44397409442871,
+    "end": 52.74707440793201,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w197",
+    "text": "\"Student",
+    "start": 52.74707440793201,
+    "end": 53.201724878186965,
+    "type": "word",
+    "conf": 0.58
+  },
+  {
+    "id": "w198",
+    "text": "at",
+    "start": 53.201724878186965,
+    "end": 53.324859380547686,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w199",
+    "text": "some",
+    "start": 53.324859380547686,
+    "end": 53.5806002700661,
+    "type": "word",
+    "conf": 0.84
+  },
+  {
+    "id": "w200",
+    "text": "college.\"",
+    "start": 53.5806002700661,
+    "end": 54.33835105382437,
+    "type": "word",
+    "conf": 0.62
+  },
+  {
+    "id": "w201",
+    "text": "The",
+    "start": 54.376238593012275,
+    "end": 54.603563828139755,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w202",
+    "text": "other",
+    "start": 54.603563828139755,
+    "end": 54.925607911237016,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w203",
+    "text": "has",
+    "start": 54.925607911237016,
+    "end": 55.14346126156751,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w204",
+    "text": "a",
+    "start": 55.14346126156751,
+    "end": 55.238180109537296,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w205",
+    "text": "headline",
+    "start": 55.238180109537296,
+    "end": 55.79702131255902,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w206",
+    "text": "that",
+    "start": 55.79702131255902,
+    "end": 56.09064974126534,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w207",
+    "text": "says",
+    "start": 56.09064974126534,
+    "end": 56.384278169971665,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w208",
+    "text": "\"Final",
+    "start": 56.384278169971665,
+    "end": 56.81051298583569,
+    "type": "word",
+    "conf": 0.86
+  },
+  {
+    "id": "w209",
+    "text": "year",
+    "start": 56.81051298583569,
+    "end": 57.246219686496694,
+    "type": "word",
+    "conf": 0.64
+  },
+  {
+    "id": "w210",
+    "text": "BTEC,",
+    "start": 57.246219686496694,
+    "end": 57.54932,
+    "type": "word",
+    "conf": 0.67
+  },
+  {
+    "id": "w211",
+    "text": "Python,",
+    "start": 57.997959,
+    "end": 58.44371900982318,
+    "type": "word",
+    "conf": 0.8
+  },
+  {
+    "id": "w212",
+    "text": "and",
+    "start": 58.44371900982318,
+    "end": 58.91919635363458,
+    "type": "word",
+    "conf": 0.87
+  },
+  {
+    "id": "w213",
+    "text": "SQL",
+    "start": 58.91919635363458,
+    "end": 59.55316614538311,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w214",
+    "text": "built",
+    "start": 59.55316614538311,
+    "end": 59.71165859332024,
+    "type": "word",
+    "conf": 0.39
+  },
+  {
+    "id": "w215",
+    "text": "two",
+    "start": 59.71165859332024,
+    "end": 59.87015104125737,
+    "type": "word",
+    "conf": 0.82
+  },
+  {
+    "id": "w216",
+    "text": "projects.\"",
+    "start": 59.87015104125737,
+    "end": 60.50412083300589,
+    "type": "word",
+    "conf": 0.9
+  },
+  {
+    "id": "w217",
+    "text": "Only",
+    "start": 60.50412083300589,
+    "end": 60.71214217092338,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w218",
+    "text": "one",
+    "start": 60.71214217092338,
+    "end": 60.870634618860514,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w219",
+    "text": "of",
+    "start": 60.870634618860514,
+    "end": 60.96969239882122,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w220",
+    "text": "them",
+    "start": 60.96969239882122,
+    "end": 61.177713736738696,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w221",
+    "text": "looks",
+    "start": 61.177713736738696,
+    "end": 61.445169742632615,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w222",
+    "text": "like",
+    "start": 61.445169742632615,
+    "end": 61.64328530255403,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w223",
+    "text": "a",
+    "start": 61.64328530255403,
+    "end": 61.69281419253438,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w224",
+    "text": "person",
+    "start": 61.69281419253438,
+    "end": 61.999893310412574,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w225",
+    "text": "who",
+    "start": 61.999893310412574,
+    "end": 62.1583857583497,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w226",
+    "text": "is",
+    "start": 62.1583857583497,
+    "end": 62.25744353831041,
+    "type": "word",
+    "conf": 0.85
+  },
+  {
+    "id": "w227",
+    "text": "ready",
+    "start": 62.25744353831041,
+    "end": 62.51499376620825,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w228",
+    "text": "to",
+    "start": 62.51499376620825,
+    "end": 62.64376888015717,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w229",
+    "text": "work.",
+    "start": 62.64376888015717,
+    "end": 63.04,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w230",
+    "text": "Here",
+    "start": 63.891247,
+    "end": 63.929900611801244,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w231",
+    "text": "are",
+    "start": 63.891247,
+    "end": 63.929900611801244,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w232",
+    "text": "the",
+    "start": 63.929900611801244,
+    "end": 64.05552485015528,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w233",
+    "text": "four",
+    "start": 64.05552485015528,
+    "end": 64.37441714751553,
+    "type": "word",
+    "conf": 0.95
+  },
+  {
+    "id": "w234",
+    "text": "parts",
+    "start": 64.37441714751553,
+    "end": 64.80927028027949,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w235",
+    "text": "that",
+    "start": 64.80927028027949,
+    "end": 65.0895089658385,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w236",
+    "text": "get",
+    "start": 65.0895089658385,
+    "end": 65.32143063664596,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w237",
+    "text": "read.",
+    "start": 65.32143063664596,
+    "end": 65.87224460481367,
+    "type": "word",
+    "conf": 0.7
+  },
+  {
+    "id": "w238",
+    "text": "In",
+    "start": 65.87224460481367,
+    "end": 66.00753224611802,
+    "type": "word",
+    "conf": 0.74
+  },
+  {
+    "id": "w239",
+    "text": "order,",
+    "start": 66.00753224611802,
+    "end": 66.49070239363354,
+    "type": "word",
+    "conf": 0.9
+  },
+  {
+    "id": "w240",
+    "text": "part",
+    "start": 66.49070239363354,
+    "end": 66.85791170574534,
+    "type": "word",
+    "conf": 0.65
+  },
+  {
+    "id": "w241",
+    "text": "one,",
+    "start": 66.85791170574534,
+    "end": 67.06084316770186,
+    "type": "word",
+    "conf": 0.48
+  },
+  {
+    "id": "w242",
+    "text": "your",
+    "start": 67.06084316770186,
+    "end": 67.39906227096273,
+    "type": "word",
+    "conf": 0.89
+  },
+  {
+    "id": "w243",
+    "text": "photo.",
+    "start": 67.39906227096273,
+    "end": 67.8339154037267,
+    "type": "word",
+    "conf": 0.75
+  },
+  {
+    "id": "w244",
+    "text": "A",
+    "start": 67.8339154037267,
+    "end": 67.89189582142856,
+    "type": "word",
+    "conf": 0.95
+  },
+  {
+    "id": "w245",
+    "text": "clear",
+    "start": 67.89189582142856,
+    "end": 68.23011492468945,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w246",
+    "text": "face,",
+    "start": 68.23011492468945,
+    "end": 68.60698763975155,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w247",
+    "text": "plain",
+    "start": 68.60698763975155,
+    "end": 68.93554334006211,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w248",
+    "text": "background,",
+    "start": 68.93554334006211,
+    "end": 69.76659599378883,
+    "type": "word",
+    "conf": 0.91
+  },
+  {
+    "id": "w249",
+    "text": "good",
+    "start": 69.76659599378883,
+    "end": 70.0178444704969,
+    "type": "word",
+    "conf": 0.96
+  },
+  {
+    "id": "w250",
+    "text": "light,",
+    "start": 70.0178444704969,
+    "end": 70.45269760326087,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w251",
+    "text": "no",
+    "start": 70.45269760326087,
+    "end": 70.58798524456522,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w252",
+    "text": "sunglasses,",
+    "start": 70.58798524456522,
+    "end": 71.39004768944099,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w253",
+    "text": "no",
+    "start": 71.39004768944099,
+    "end": 71.51567192779503,
+    "type": "word",
+    "conf": 0.96
+  },
+  {
+    "id": "w254",
+    "text": "group",
+    "start": 71.51567192779503,
+    "end": 71.83456422515529,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w255",
+    "text": "photo.",
+    "start": 71.83456422515529,
+    "end": 72.3950415962733,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w256",
+    "text": "It",
+    "start": 72.3950415962733,
+    "end": 72.51100243167701,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w257",
+    "text": "does",
+    "start": 72.51100243167701,
+    "end": 72.75258750543478,
+    "type": "word",
+    "conf": 0.95
+  },
+  {
+    "id": "w258",
+    "text": "not",
+    "start": 72.75258750543478,
+    "end": 72.98450917624224,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w259",
+    "text": "need",
+    "start": 72.98450917624224,
+    "end": 73.17777723524846,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w260",
+    "text": "to",
+    "start": 73.17777723524846,
+    "end": 73.3130648765528,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w261",
+    "text": "be",
+    "start": 73.3130648765528,
+    "end": 73.4096989060559,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w262",
+    "text": "a",
+    "start": 73.4096989060559,
+    "end": 73.46767932375776,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w263",
+    "text": "studio",
+    "start": 73.46767932375776,
+    "end": 73.83488863586956,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w264",
+    "text": "shot.",
+    "start": 73.83488863586956,
+    "end": 74.32772218633541,
+    "type": "word",
+    "conf": 0.89
+  },
+  {
+    "id": "w265",
+    "text": "A",
+    "start": 74.32772218633541,
+    "end": 74.38570260403728,
+    "type": "word",
+    "conf": 0.87
+  },
+  {
+    "id": "w266",
+    "text": "phone",
+    "start": 74.38570260403728,
+    "end": 74.6949314984472,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w267",
+    "text": "photo",
+    "start": 74.6949314984472,
+    "end": 75.00416039285714,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w268",
+    "text": "near",
+    "start": 75.00416039285714,
+    "end": 75.31338928726709,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w269",
+    "text": "a",
+    "start": 75.31338928726709,
+    "end": 75.36170630201863,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w270",
+    "text": "window",
+    "start": 75.36170630201863,
+    "end": 75.71925221118012,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w271",
+    "text": "works.",
+    "start": 75.71925221118012,
+    "end": 76.33771,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w272",
+    "text": "Part",
+    "start": 76.728776,
+    "end": 77.00576214285714,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w273",
+    "text": "two,",
+    "start": 77.00576214285714,
+    "end": 77.33221009693877,
+    "type": "word",
+    "conf": 0.91
+  },
+  {
+    "id": "w274",
+    "text": "your",
+    "start": 77.33221009693877,
+    "end": 77.56962679081632,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w275",
+    "text": "headline.",
+    "start": 77.56962679081632,
+    "end": 78.31155395918367,
+    "type": "word",
+    "conf": 0.89
+  },
+  {
+    "id": "w276",
+    "text": "This",
+    "start": 78.31155395918367,
+    "end": 78.51929356632652,
+    "type": "word",
+    "conf": 0.92
+  },
+  {
+    "id": "w277",
+    "text": "is",
+    "start": 78.51929356632652,
+    "end": 78.6281095510204,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w278",
+    "text": "the",
+    "start": 78.6281095510204,
+    "end": 78.77649498469387,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w279",
+    "text": "line",
+    "start": 78.77649498469387,
+    "end": 78.98423459183674,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w280",
+    "text": "under",
+    "start": 78.98423459183674,
+    "end": 79.25132837244897,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w281",
+    "text": "your",
+    "start": 79.25132837244897,
+    "end": 79.76573120918367,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w282",
+    "text": "name,",
+    "start": 79.76573120918367,
+    "end": 79.97347081632653,
+    "type": "word",
+    "conf": 0.85
+  },
+  {
+    "id": "w283",
+    "text": "and",
+    "start": 79.97347081632653,
+    "end": 80.15153333673469,
+    "type": "word",
+    "conf": 0.87
+  },
+  {
+    "id": "w284",
+    "text": "it",
+    "start": 80.15153333673469,
+    "end": 80.27024168367346,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w285",
+    "text": "is",
+    "start": 80.27024168367346,
+    "end": 80.38895003061225,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w286",
+    "text": "the",
+    "start": 80.38895003061225,
+    "end": 80.57690491326531,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w287",
+    "text": "most",
+    "start": 80.57690491326531,
+    "end": 80.80442924489796,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w288",
+    "text": "important",
+    "start": 80.80442924489796,
+    "end": 81.33861680612245,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w289",
+    "text": "line",
+    "start": 81.33861680612245,
+    "end": 81.58592586224489,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w290",
+    "text": "on",
+    "start": 81.58592586224489,
+    "end": 81.72441893367346,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w291",
+    "text": "the",
+    "start": 81.72441893367346,
+    "end": 81.88269672959183,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w292",
+    "text": "page.",
+    "start": 81.88269672959183,
+    "end": 82.34763775510203,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w293",
+    "text": "Do",
+    "start": 82.38720720408163,
+    "end": 82.46634610204082,
+    "type": "word",
+    "conf": 0.9
+  },
+  {
+    "id": "w294",
+    "text": "not",
+    "start": 82.46634610204082,
+    "end": 82.65430098469388,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w295",
+    "text": "write",
+    "start": 82.65430098469388,
+    "end": 82.97085657653061,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w296",
+    "text": "only",
+    "start": 82.97085657653061,
+    "end": 83.21816563265307,
+    "type": "word",
+    "conf": 0.95
+  },
+  {
+    "id": "w297",
+    "text": "student.",
+    "start": 83.21816563265307,
+    "end": 83.85127681632653,
+    "type": "word",
+    "conf": 0.63
+  },
+  {
+    "id": "w298",
+    "text": "Write",
+    "start": 83.85127681632653,
+    "end": 84.16783240816326,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w299",
+    "text": "what",
+    "start": 84.16783240816326,
+    "end": 84.484388,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w300",
+    "text": "you",
+    "start": 84.484388,
+    "end": 84.60309634693877,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w301",
+    "text": "are,",
+    "start": 84.60309634693877,
+    "end": 84.9592213877551,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w302",
+    "text": "what",
+    "start": 84.9592213877551,
+    "end": 85.17685335714285,
+    "type": "word",
+    "conf": 0.96
+  },
+  {
+    "id": "w303",
+    "text": "you",
+    "start": 85.17685335714285,
+    "end": 85.38459296428572,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w304",
+    "text": "know,",
+    "start": 85.38459296428572,
+    "end": 85.67147146938774,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w305",
+    "text": "and",
+    "start": 85.67147146938774,
+    "end": 85.84953398979592,
+    "type": "word",
+    "conf": 0.91
+  },
+  {
+    "id": "w306",
+    "text": "what",
+    "start": 85.84953398979592,
+    "end": 86.08695068367346,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w307",
+    "text": "you",
+    "start": 86.08695068367346,
+    "end": 86.26501320408164,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w308",
+    "text": "want.",
+    "start": 86.26501320408164,
+    "end": 86.70027714285715,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w309",
+    "text": "For",
+    "start": 86.70027714285715,
+    "end": 86.85855493877551,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w310",
+    "text": "example,",
+    "start": 86.85855493877551,
+    "end": 87.3531730510204,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w311",
+    "text": "final",
+    "start": 87.3531730510204,
+    "end": 87.64005155612244,
+    "type": "word",
+    "conf": 0.82
+  },
+  {
+    "id": "w312",
+    "text": "year,",
+    "start": 87.64005155612244,
+    "end": 87.95660714795918,
+    "type": "word",
+    "conf": 0.89
+  },
+  {
+    "id": "w313",
+    "text": "computer",
+    "start": 87.95660714795918,
+    "end": 88.39187108673468,
+    "type": "word",
+    "conf": 0.95
+  },
+  {
+    "id": "w314",
+    "text": "science",
+    "start": 88.39187108673468,
+    "end": 88.8370273877551,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w315",
+    "text": "student,",
+    "start": 88.8370273877551,
+    "end": 89.3118607755102,
+    "type": "word",
+    "conf": 0.94
+  },
+  {
+    "id": "w316",
+    "text": "Java,",
+    "start": 89.3118607755102,
+    "end": 89.78669416326531,
+    "type": "word",
+    "conf": 0.6
+  },
+  {
+    "id": "w317",
+    "text": "and",
+    "start": 89.78669416326531,
+    "end": 90.10324975510204,
+    "type": "word",
+    "conf": 0.89
+  },
+  {
+    "id": "w318",
+    "text": "SQL",
+    "start": 90.10324975510204,
+    "end": 90.41980534693879,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w319",
+    "text": "looking",
+    "start": 90.41980534693879,
+    "end": 90.86496164795918,
+    "type": "word",
+    "conf": 0.41
+  },
+  {
+    "id": "w320",
+    "text": "for",
+    "start": 90.86496164795918,
+    "end": 90.98366999489795,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w321",
+    "text": "a",
+    "start": 90.98366999489795,
+    "end": 91.05291653061225,
+    "type": "word",
+    "conf": 0.96
+  },
+  {
+    "id": "w322",
+    "text": "software",
+    "start": 91.05291653061225,
+    "end": 91.60688881632652,
+    "type": "word",
+    "conf": 0.93
+  },
+  {
+    "id": "w323",
+    "text": "engineer",
+    "start": 91.60688881632652,
+    "end": 92.03226039285714,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w324",
+    "text": "role.",
+    "start": 92.03226039285714,
+    "end": 92.24,
+    "type": "word",
+    "conf": 0.94
+  },
+  {
+    "id": "w325",
+    "text": "Part",
+    "start": 93.120363,
+    "end": 93.15993191666666,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w326",
+    "text": "three,",
+    "start": 93.15993191666666,
+    "end": 93.40723764583333,
+    "type": "word",
+    "conf": 0.95
+  },
+  {
+    "id": "w327",
+    "text": "your",
+    "start": 93.40723764583333,
+    "end": 93.773250125,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w328",
+    "text": "about",
+    "start": 93.773250125,
+    "end": 94.22829266666668,
+    "type": "word",
+    "conf": 0.66
+  },
+  {
+    "id": "w329",
+    "text": "section.",
+    "start": 94.22829266666668,
+    "end": 95.2570845,
+    "type": "word",
+    "conf": 0.92
+  },
+  {
+    "id": "w330",
+    "text": "Write",
+    "start": 95.2570845,
+    "end": 95.47471354166667,
+    "type": "word",
+    "conf": 0.73
+  },
+  {
+    "id": "w331",
+    "text": "three",
+    "start": 95.47471354166667,
+    "end": 95.77148041666668,
+    "type": "word",
+    "conf": 0.96
+  },
+  {
+    "id": "w332",
+    "text": "or",
+    "start": 95.77148041666668,
+    "end": 95.89018716666668,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w333",
+    "text": "four",
+    "start": 95.89018716666668,
+    "end": 96.15727735416667,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w334",
+    "text": "short",
+    "start": 96.15727735416667,
+    "end": 96.444152,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w335",
+    "text": "lines.",
+    "start": 96.444152,
+    "end": 96.918979,
+    "type": "word",
+    "conf": 0.87
+  },
+  {
+    "id": "w336",
+    "text": "Who",
+    "start": 96.918979,
+    "end": 97.08714689583333,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w337",
+    "text": "you",
+    "start": 97.08714689583333,
+    "end": 97.25531479166668,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w338",
+    "text": "are,",
+    "start": 97.25531479166668,
+    "end": 97.53229720833333,
+    "type": "word",
+    "conf": 0.96
+  },
+  {
+    "id": "w339",
+    "text": "which",
+    "start": 97.53229720833333,
+    "end": 97.85874077083334,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w340",
+    "text": "skills",
+    "start": 97.85874077083334,
+    "end": 98.14561541666667,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w341",
+    "text": "you",
+    "start": 98.14561541666667,
+    "end": 98.3137833125,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w342",
+    "text": "have",
+    "start": 98.3137833125,
+    "end": 98.53141235416668,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w343",
+    "text": "used,",
+    "start": 98.53141235416668,
+    "end": 98.89742483333333,
+    "type": "word",
+    "conf": 0.95
+  },
+  {
+    "id": "w344",
+    "text": "and",
+    "start": 98.89742483333333,
+    "end": 99.0557005,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w345",
+    "text": "what",
+    "start": 99.0557005,
+    "end": 99.27332954166667,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w346",
+    "text": "kind",
+    "start": 99.27332954166667,
+    "end": 99.49095858333334,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w347",
+    "text": "of",
+    "start": 99.49095858333334,
+    "end": 99.59977310416667,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w348",
+    "text": "role",
+    "start": 99.59977310416667,
+    "end": 99.95589335416668,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w349",
+    "text": "you",
+    "start": 99.95589335416668,
+    "end": 99.99546227083334,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w350",
+    "text": "want.",
+    "start": 99.97567781250001,
+    "end": 100.40104366666667,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w351",
+    "text": "Plain",
+    "start": 100.40104366666667,
+    "end": 100.72748722916667,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w352",
+    "text": "words,",
+    "start": 100.72748722916667,
+    "end": 101.19242200000001,
+    "type": "word",
+    "conf": 0.88
+  },
+  {
+    "id": "w353",
+    "text": "no",
+    "start": 101.19242200000001,
+    "end": 101.3408054375,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w354",
+    "text": "big",
+    "start": 101.3408054375,
+    "end": 101.489188875,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w355",
+    "text": "claims",
+    "start": 101.489188875,
+    "end": 101.845309125,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w356",
+    "text": "like",
+    "start": 101.845309125,
+    "end": 102.082722625,
+    "type": "word",
+    "conf": 0.95
+  },
+  {
+    "id": "w357",
+    "text": "hard-working",
+    "start": 102.082722625,
+    "end": 102.794963125,
+    "type": "word",
+    "conf": 0.64
+  },
+  {
+    "id": "w358",
+    "text": "team",
+    "start": 102.794963125,
+    "end": 103.03237662500001,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w359",
+    "text": "player",
+    "start": 103.03237662500001,
+    "end": 103.43795802083334,
+    "type": "word",
+    "conf": 0.95
+  },
+  {
+    "id": "w360",
+    "text": "with",
+    "start": 103.43795802083334,
+    "end": 103.625910375,
+    "type": "word",
+    "conf": 0.95
+  },
+  {
+    "id": "w361",
+    "text": "a",
+    "start": 103.625910375,
+    "end": 103.72483266666667,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w362",
+    "text": "passion",
+    "start": 103.72483266666667,
+    "end": 104.06116845833333,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w363",
+    "text": "for",
+    "start": 104.06116845833333,
+    "end": 104.22933635416666,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w364",
+    "text": "excellence.",
+    "start": 104.22933635416666,
+    "end": 104.99103799999999,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w365",
+    "text": "Every",
+    "start": 104.99103799999999,
+    "end": 105.26802041666666,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w366",
+    "text": "student",
+    "start": 105.26802041666666,
+    "end": 105.60435620833333,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w367",
+    "text": "writes",
+    "start": 105.60435620833333,
+    "end": 105.93079977083333,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w368",
+    "text": "that,",
+    "start": 105.93079977083333,
+    "end": 106.2077821875,
+    "type": "word",
+    "conf": 0.91
+  },
+  {
+    "id": "w369",
+    "text": "so",
+    "start": 106.2077821875,
+    "end": 106.30670447916667,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w370",
+    "text": "it",
+    "start": 106.30670447916667,
+    "end": 106.40562677083334,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w371",
+    "text": "tells",
+    "start": 106.40562677083334,
+    "end": 106.66282472916667,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w372",
+    "text": "the",
+    "start": 106.66282472916667,
+    "end": 106.81120816666666,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w373",
+    "text": "recruiter",
+    "start": 106.81120816666666,
+    "end": 107.26625070833335,
+    "type": "word",
+    "conf": 0.9
+  },
+  {
+    "id": "w374",
+    "text": "nothing.",
+    "start": 107.26625070833335,
+    "end": 107.84,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w375",
+    "text": "Part",
+    "start": 108.679365,
+    "end": 108.91757102251408,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w376",
+    "text": "four,",
+    "start": 108.91757102251408,
+    "end": 109.24510430347092,
+    "type": "word",
+    "conf": 0.95
+  },
+  {
+    "id": "w377",
+    "text": "your",
+    "start": 109.24510430347092,
+    "end": 109.43368407129456,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w378",
+    "text": "projects.",
+    "start": 109.43368407129456,
+    "end": 110.06890013133209,
+    "type": "word",
+    "conf": 0.84
+  },
+  {
+    "id": "w379",
+    "text": "For",
+    "start": 110.06890013133209,
+    "end": 110.23762939727956,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w380",
+    "text": "each",
+    "start": 110.23762939727956,
+    "end": 110.46591016885553,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w381",
+    "text": "project,",
+    "start": 110.46591016885553,
+    "end": 110.98202321763603,
+    "type": "word",
+    "conf": 0.94
+  },
+  {
+    "id": "w382",
+    "text": "write",
+    "start": 110.98202321763603,
+    "end": 111.26985549484053,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w383",
+    "text": "one",
+    "start": 111.26985549484053,
+    "end": 111.43858476078799,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w384",
+    "text": "line",
+    "start": 111.43858476078799,
+    "end": 111.68671603424015,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w385",
+    "text": "on",
+    "start": 111.68671603424015,
+    "end": 111.77604329268293,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w386",
+    "text": "what",
+    "start": 111.77604329268293,
+    "end": 112.00432406425892,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w387",
+    "text": "it",
+    "start": 112.00432406425892,
+    "end": 112.11350182457787,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w388",
+    "text": "does.",
+    "start": 112.11350182457787,
+    "end": 112.60976437148219,
+    "type": "word",
+    "conf": 0.88
+  },
+  {
+    "id": "w389",
+    "text": "One",
+    "start": 112.60976437148219,
+    "end": 112.77849363742966,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w390",
+    "text": "line",
+    "start": 112.77849363742966,
+    "end": 113.01669965994373,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w391",
+    "text": "on",
+    "start": 113.01669965994373,
+    "end": 113.11595216932457,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w392",
+    "text": "the",
+    "start": 113.11595216932457,
+    "end": 113.28468143527205,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w393",
+    "text": "tools",
+    "start": 113.28468143527205,
+    "end": 113.56258846153847,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w394",
+    "text": "you",
+    "start": 113.56258846153847,
+    "end": 113.73131772748593,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w395",
+    "text": "used,",
+    "start": 113.73131772748593,
+    "end": 114.06877625938087,
+    "type": "word",
+    "conf": 0.75
+  },
+  {
+    "id": "w396",
+    "text": "and",
+    "start": 114.06877625938087,
+    "end": 114.23750552532834,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w397",
+    "text": "a",
+    "start": 114.23750552532834,
+    "end": 114.28713178001877,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w398",
+    "text": "link",
+    "start": 114.28713178001877,
+    "end": 114.51541255159476,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w399",
+    "text": "to",
+    "start": 114.51541255159476,
+    "end": 114.6245903119137,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w400",
+    "text": "the",
+    "start": 114.6245903119137,
+    "end": 114.79331957786118,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w401",
+    "text": "code",
+    "start": 114.79331957786118,
+    "end": 115.02160034943715,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w402",
+    "text": "if",
+    "start": 115.02160034943715,
+    "end": 115.1307781097561,
+    "type": "word",
+    "conf": 0.96
+  },
+  {
+    "id": "w403",
+    "text": "you",
+    "start": 115.1307781097561,
+    "end": 115.29950737570357,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w404",
+    "text": "have",
+    "start": 115.29950737570357,
+    "end": 115.65681640947467,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w405",
+    "text": "one.",
+    "start": 115.65681640947467,
+    "end": 115.94464868667919,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w406",
+    "text": "Now",
+    "start": 115.94464868667919,
+    "end": 116.09352745075047,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w407",
+    "text": "the",
+    "start": 116.09352745075047,
+    "end": 116.24240621482177,
+    "type": "word",
+    "conf": 0.64
+  },
+  {
+    "id": "w408",
+    "text": "three",
+    "start": 116.24240621482177,
+    "end": 116.55008899390245,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w409",
+    "text": "mistakes.",
+    "start": 116.55008899390245,
+    "end": 117.05627679174484,
+    "type": "word",
+    "conf": 0.92
+  },
+  {
+    "id": "w410",
+    "text": "Mistake",
+    "start": 117.05627679174484,
+    "end": 117.47313733114447,
+    "type": "word",
+    "conf": 0.91
+  },
+  {
+    "id": "w411",
+    "text": "number",
+    "start": 117.47313733114447,
+    "end": 117.85029686679175,
+    "type": "word",
+    "conf": 0.94
+  },
+  {
+    "id": "w412",
+    "text": "one,",
+    "start": 117.85029686679175,
+    "end": 118.16790489681051,
+    "type": "word",
+    "conf": 0.74
+  },
+  {
+    "id": "w413",
+    "text": "listing",
+    "start": 118.16790489681051,
+    "end": 118.57484018527204,
+    "type": "word",
+    "conf": 0.87
+  },
+  {
+    "id": "w414",
+    "text": "skills",
+    "start": 118.57484018527204,
+    "end": 118.99170072467167,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w415",
+    "text": "you",
+    "start": 118.99170072467167,
+    "end": 119.11080373592871,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w416",
+    "text": "cannot",
+    "start": 119.11080373592871,
+    "end": 119.46811276969981,
+    "type": "word",
+    "conf": 0.96
+  },
+  {
+    "id": "w417",
+    "text": "explain.",
+    "start": 119.46811276969981,
+    "end": 120.07355307692308,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w418",
+    "text": "If",
+    "start": 120.07355307692308,
+    "end": 120.18273083724203,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w419",
+    "text": "you",
+    "start": 120.18273083724203,
+    "end": 120.3514601031895,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w420",
+    "text": "write",
+    "start": 120.3514601031895,
+    "end": 120.67899338414634,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w421",
+    "text": "machine",
+    "start": 120.67899338414634,
+    "end": 121.01645191604128,
+    "type": "word",
+    "conf": 0.93
+  },
+  {
+    "id": "w422",
+    "text": "learning,",
+    "start": 121.01645191604128,
+    "end": 121.56234071763603,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w423",
+    "text": "cloud,",
+    "start": 121.56234071763603,
+    "end": 121.97920125703565,
+    "type": "word",
+    "conf": 0.88
+  },
+  {
+    "id": "w424",
+    "text": "and",
+    "start": 121.97920125703565,
+    "end": 122.21740727954972,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w425",
+    "text": "cyber",
+    "start": 122.21740727954972,
+    "end": 122.56479106238275,
+    "type": "word",
+    "conf": 0.87
+  },
+  {
+    "id": "w426",
+    "text": "security",
+    "start": 122.56479106238275,
+    "end": 123.17023136960601,
+    "type": "word",
+    "conf": 0.95
+  },
+  {
+    "id": "w427",
+    "text": "because",
+    "start": 123.17023136960601,
+    "end": 123.48783939962476,
+    "type": "word",
+    "conf": 0.75
+  },
+  {
+    "id": "w428",
+    "text": "they",
+    "start": 123.48783939962476,
+    "end": 123.72604542213884,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w429",
+    "text": "sound",
+    "start": 123.72604542213884,
+    "end": 124.0337282012195,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w430",
+    "text": "good,",
+    "start": 124.0337282012195,
+    "end": 124.36126148217636,
+    "type": "word",
+    "conf": 0.94
+  },
+  {
+    "id": "w431",
+    "text": "an",
+    "start": 124.36126148217636,
+    "end": 124.47043924249532,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w432",
+    "text": "interviewer",
+    "start": 124.47043924249532,
+    "end": 125.10565530253282,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w433",
+    "text": "will",
+    "start": 125.10565530253282,
+    "end": 125.33393607410882,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w434",
+    "text": "ask",
+    "start": 125.33393607410882,
+    "end": 125.50266534005628,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w435",
+    "text": "you",
+    "start": 125.50266534005628,
+    "end": 125.67139460600376,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w436",
+    "text": "about",
+    "start": 125.67139460600376,
+    "end": 125.95922688320826,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w437",
+    "text": "them,",
+    "start": 125.95922688320826,
+    "end": 126.34631166979361,
+    "type": "word",
+    "conf": 0.75
+  },
+  {
+    "id": "w438",
+    "text": "and",
+    "start": 126.34631166979361,
+    "end": 126.505115684803,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w439",
+    "text": "you",
+    "start": 126.505115684803,
+    "end": 126.62421869606004,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w440",
+    "text": "will",
+    "start": 126.62421869606004,
+    "end": 126.81279846388368,
+    "type": "word",
+    "conf": 0.95
+  },
+  {
+    "id": "w441",
+    "text": "be",
+    "start": 126.81279846388368,
+    "end": 126.89220047138838,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w442",
+    "text": "caught.",
+    "start": 126.89220047138838,
+    "end": 127.3785377673546,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w443",
+    "text": "Keep",
+    "start": 127.3785377673546,
+    "end": 127.57704278611632,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w444",
+    "text": "only",
+    "start": 127.57704278611632,
+    "end": 127.78547305581613,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w445",
+    "text": "the",
+    "start": 127.78547305581613,
+    "end": 127.98397807457786,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w446",
+    "text": "skills",
+    "start": 127.98397807457786,
+    "end": 128.22218409709194,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w447",
+    "text": "you",
+    "start": 128.22218409709194,
+    "end": 128.37106286116324,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w448",
+    "text": "can",
+    "start": 128.37106286116324,
+    "end": 128.5199416252345,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w449",
+    "text": "talk",
+    "start": 128.5199416252345,
+    "end": 128.71844664399626,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w450",
+    "text": "about",
+    "start": 128.71844664399626,
+    "end": 128.9665779174484,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w451",
+    "text": "for",
+    "start": 128.9665779174484,
+    "end": 129.13530718339587,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w452",
+    "text": "two",
+    "start": 129.13530718339587,
+    "end": 129.28418594746717,
+    "type": "word",
+    "conf": 0.9
+  },
+  {
+    "id": "w453",
+    "text": "minutes.",
+    "start": 129.28418594746717,
+    "end": 129.84,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w454",
+    "text": "Mistake",
+    "start": 130.54805,
+    "end": 130.58766842783504,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w455",
+    "text": "number",
+    "start": 130.58766842783504,
+    "end": 130.91452045747423,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w456",
+    "text": "two,",
+    "start": 130.91452045747423,
+    "end": 131.26118170103092,
+    "type": "word",
+    "conf": 0.95
+  },
+  {
+    "id": "w457",
+    "text": "a",
+    "start": 131.26118170103092,
+    "end": 131.33051394974225,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w458",
+    "text": "profile",
+    "start": 131.33051394974225,
+    "end": 131.8257442976804,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w459",
+    "text": "that",
+    "start": 131.8257442976804,
+    "end": 132.11297789948452,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w460",
+    "text": "does",
+    "start": 132.11297789948452,
+    "end": 132.39030689432988,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w461",
+    "text": "not",
+    "start": 132.39030689432988,
+    "end": 132.68744510309278,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w462",
+    "text": "match",
+    "start": 132.68744510309278,
+    "end": 132.96477409793815,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w463",
+    "text": "your",
+    "start": 132.96477409793815,
+    "end": 133.2421030927835,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w464",
+    "text": "resume.",
+    "start": 133.2421030927835,
+    "end": 133.9552347938144,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w465",
+    "text": "If",
+    "start": 133.9552347938144,
+    "end": 134.08399468427834,
+    "type": "word",
+    "conf": 0.61
+  },
+  {
+    "id": "w466",
+    "text": "your",
+    "start": 134.08399468427834,
+    "end": 134.3613236791237,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w467",
+    "text": "resume",
+    "start": 134.3613236791237,
+    "end": 134.71788952963917,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w468",
+    "text": "says",
+    "start": 134.71788952963917,
+    "end": 134.97540931056702,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w469",
+    "text": "one",
+    "start": 134.97540931056702,
+    "end": 135.1635968427835,
+    "type": "word",
+    "conf": 0.96
+  },
+  {
+    "id": "w470",
+    "text": "college",
+    "start": 135.1635968427835,
+    "end": 135.60930415592782,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w471",
+    "text": "name,",
+    "start": 135.60930415592782,
+    "end": 136.0946298969072,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w472",
+    "text": "one",
+    "start": 136.0946298969072,
+    "end": 136.19367596649482,
+    "type": "word",
+    "conf": 0.9
+  },
+  {
+    "id": "w473",
+    "text": "year,",
+    "start": 136.19367596649482,
+    "end": 136.5700510309278,
+    "type": "word",
+    "conf": 0.85
+  },
+  {
+    "id": "w474",
+    "text": "or",
+    "start": 136.5700510309278,
+    "end": 136.70871552835052,
+    "type": "word",
+    "conf": 0.88
+  },
+  {
+    "id": "w475",
+    "text": "one",
+    "start": 136.70871552835052,
+    "end": 136.99594913015463,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w476",
+    "text": "project",
+    "start": 136.99594913015463,
+    "end": 137.40203801546392,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w477",
+    "text": "title,",
+    "start": 137.40203801546392,
+    "end": 137.75860386597938,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w478",
+    "text": "and",
+    "start": 137.79822229381443,
+    "end": 137.92698218427833,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w479",
+    "text": "your",
+    "start": 137.92698218427833,
+    "end": 138.16469275128867,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w480",
+    "text": "profile",
+    "start": 138.16469275128867,
+    "end": 138.53116320876288,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w481",
+    "text": "says",
+    "start": 138.53116320876288,
+    "end": 138.74906456185568,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w482",
+    "text": "another,",
+    "start": 138.74906456185568,
+    "end": 139.2442949097938,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w483",
+    "text": "it",
+    "start": 139.2442949097938,
+    "end": 139.3532455863402,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w484",
+    "text": "looks",
+    "start": 139.3532455863402,
+    "end": 139.66028840206184,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w485",
+    "text": "careless.",
+    "start": 139.66028840206184,
+    "end": 140.2941832474227,
+    "type": "word",
+    "conf": 0.94
+  },
+  {
+    "id": "w486",
+    "text": "Later,",
+    "start": 140.2941832474227,
+    "end": 140.70027213273195,
+    "type": "word",
+    "conf": 0.95
+  },
+  {
+    "id": "w487",
+    "text": "during",
+    "start": 140.70027213273195,
+    "end": 141.0073149484536,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w488",
+    "text": "background",
+    "start": 141.0073149484536,
+    "end": 141.56197293814432,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w489",
+    "text": "verification,",
+    "start": 141.56197293814432,
+    "end": 142.35434149484536,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w490",
+    "text": "the",
+    "start": 142.35434149484536,
+    "end": 142.5029105992268,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w491",
+    "text": "same",
+    "start": 142.5029105992268,
+    "end": 142.70100273840205,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w492",
+    "text": "details",
+    "start": 142.70100273840205,
+    "end": 143.04766398195878,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w493",
+    "text": "are",
+    "start": 143.04766398195878,
+    "end": 143.1962330863402,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w494",
+    "text": "checked",
+    "start": 143.1962330863402,
+    "end": 143.5428943298969,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w495",
+    "text": "against",
+    "start": 143.5428943298969,
+    "end": 143.8895555734536,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w496",
+    "text": "your",
+    "start": 143.8895555734536,
+    "end": 144.1074569265464,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w497",
+    "text": "documents,",
+    "start": 144.1074569265464,
+    "end": 144.6918287371134,
+    "type": "word",
+    "conf": 0.8
+  },
+  {
+    "id": "w498",
+    "text": "so",
+    "start": 144.6918287371134,
+    "end": 144.76116098582474,
+    "type": "word",
+    "conf": 0.96
+  },
+  {
+    "id": "w499",
+    "text": "keep",
+    "start": 144.76116098582474,
+    "end": 144.98896694587629,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w500",
+    "text": "them",
+    "start": 144.98896694587629,
+    "end": 145.39505583118554,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w501",
+    "text": "identical.",
+    "start": 145.39505583118554,
+    "end": 145.92,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w502",
+    "text": "Mistake",
+    "start": 146.722449,
+    "end": 146.76204689851485,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w503",
+    "text": "number",
+    "start": 146.76204689851485,
+    "end": 147.32631695235148,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w504",
+    "text": "three,",
+    "start": 147.32631695235148,
+    "end": 147.91038595544555,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w505",
+    "text": "the",
+    "start": 147.91038595544555,
+    "end": 148.06877754950494,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w506",
+    "text": "harmless",
+    "start": 148.06877754950494,
+    "end": 148.50435443316834,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w507",
+    "text": "looking",
+    "start": 148.50435443316834,
+    "end": 148.88053446905943,
+    "type": "word",
+    "conf": 0.73
+  },
+  {
+    "id": "w508",
+    "text": "one,",
+    "start": 148.88053446905943,
+    "end": 149.1775187079208,
+    "type": "word",
+    "conf": 0.84
+  },
+  {
+    "id": "w509",
+    "text": "having",
+    "start": 149.1775187079208,
+    "end": 149.52400031992573,
+    "type": "word",
+    "conf": 0.83
+  },
+  {
+    "id": "w510",
+    "text": "no",
+    "start": 149.52400031992573,
+    "end": 149.76158771101484,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w511",
+    "text": "way",
+    "start": 149.76158771101484,
+    "end": 149.8011856095297,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w512",
+    "text": "to",
+    "start": 149.8011856095297,
+    "end": 149.91997930507426,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w513",
+    "text": "contact",
+    "start": 149.91997930507426,
+    "end": 150.30605881559407,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w514",
+    "text": "you.",
+    "start": 150.30605881559407,
+    "end": 150.68223885148515,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w515",
+    "text": "Many",
+    "start": 150.68223885148515,
+    "end": 150.95942414108913,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w516",
+    "text": "freshers",
+    "start": 150.95942414108913,
+    "end": 151.42469944863862,
+    "type": "word",
+    "conf": 0.8
+  },
+  {
+    "id": "w517",
+    "text": "turn",
+    "start": 151.42469944863862,
+    "end": 151.67218631435645,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w518",
+    "text": "off",
+    "start": 151.67218631435645,
+    "end": 151.860276332302,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w519",
+    "text": "messages",
+    "start": 151.860276332302,
+    "end": 152.36514953836632,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w520",
+    "text": "or",
+    "start": 152.36514953836632,
+    "end": 152.4839432339109,
+    "type": "word",
+    "conf": 0.57
+  },
+  {
+    "id": "w521",
+    "text": "leave",
+    "start": 152.4839432339109,
+    "end": 152.82052537128715,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w522",
+    "text": "an",
+    "start": 152.82052537128715,
+    "end": 152.91952011757425,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w523",
+    "text": "email",
+    "start": 152.91952011757425,
+    "end": 153.29570015346533,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w524",
+    "text": "address",
+    "start": 153.29570015346533,
+    "end": 153.7213775625,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w525",
+    "text": "that",
+    "start": 153.7213775625,
+    "end": 153.8203723087871,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w526",
+    "text": "looks",
+    "start": 153.8203723087871,
+    "end": 154.07775864913367,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w527",
+    "text": "like",
+    "start": 154.07775864913367,
+    "end": 154.28564761633663,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w528",
+    "text": "a",
+    "start": 154.28564761633663,
+    "end": 154.3351449894802,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w529",
+    "text": "joke.",
+    "start": 154.3351449894802,
+    "end": 154.7212245,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w530",
+    "text": "Use",
+    "start": 154.7212245,
+    "end": 154.89941504331682,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w531",
+    "text": "a",
+    "start": 154.89941504331682,
+    "end": 154.99840978960395,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w532",
+    "text": "simple",
+    "start": 154.99840978960395,
+    "end": 155.3250924523515,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w533",
+    "text": "email",
+    "start": 155.3250924523515,
+    "end": 155.66167458972774,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w534",
+    "text": "with",
+    "start": 155.66167458972774,
+    "end": 155.84976460767328,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w535",
+    "text": "your",
+    "start": 155.84976460767328,
+    "end": 156.0873519987624,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w536",
+    "text": "name",
+    "start": 156.0873519987624,
+    "end": 156.32493938985147,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w537",
+    "text": "in",
+    "start": 156.32493938985147,
+    "end": 156.4734315092822,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w538",
+    "text": "it,",
+    "start": 156.4734315092822,
+    "end": 156.70111942574258,
+    "type": "word",
+    "conf": 0.82
+  },
+  {
+    "id": "w539",
+    "text": "and",
+    "start": 156.70111942574258,
+    "end": 156.859511019802,
+    "type": "word",
+    "conf": 0.93
+  },
+  {
+    "id": "w540",
+    "text": "make",
+    "start": 156.859511019802,
+    "end": 157.0772994616337,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w541",
+    "text": "sure",
+    "start": 157.0772994616337,
+    "end": 157.29508790346537,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w542",
+    "text": "people",
+    "start": 157.29508790346537,
+    "end": 157.76036321101486,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w543",
+    "text": "can",
+    "start": 157.76036321101486,
+    "end": 157.7999611095297,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w544",
+    "text": "message",
+    "start": 157.78016216027225,
+    "end": 158.20583956930693,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w545",
+    "text": "you.",
+    "start": 158.20583956930693,
+    "end": 158.44342696039604,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w546",
+    "text": "Also",
+    "start": 158.44342696039604,
+    "end": 158.72061225000002,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w547",
+    "text": "keep",
+    "start": 158.72061225000002,
+    "end": 158.91860174257425,
+    "type": "word",
+    "conf": 0.74
+  },
+  {
+    "id": "w548",
+    "text": "your",
+    "start": 158.91860174257425,
+    "end": 159.15618913366336,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w549",
+    "text": "profile",
+    "start": 159.15618913366336,
+    "end": 159.5719670680693,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w550",
+    "text": "visible",
+    "start": 159.5719670680693,
+    "end": 159.98774500247526,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w551",
+    "text": "because",
+    "start": 159.98774500247526,
+    "end": 160.4233218861386,
+    "type": "word",
+    "conf": 0.66
+  },
+  {
+    "id": "w552",
+    "text": "a",
+    "start": 160.4233218861386,
+    "end": 160.47281925928218,
+    "type": "word",
+    "conf": 0.95
+  },
+  {
+    "id": "w553",
+    "text": "hidden",
+    "start": 160.47281925928218,
+    "end": 160.79950192202972,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w554",
+    "text": "profile",
+    "start": 160.79950192202972,
+    "end": 161.1756819579208,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w555",
+    "text": "cannot",
+    "start": 161.1756819579208,
+    "end": 161.50236462066832,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w556",
+    "text": "be",
+    "start": 161.50236462066832,
+    "end": 161.61125884158415,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w557",
+    "text": "found",
+    "start": 161.61125884158415,
+    "end": 161.8785446565594,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w558",
+    "text": "by",
+    "start": 161.8785446565594,
+    "end": 161.98743887747523,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w559",
+    "text": "a",
+    "start": 161.98743887747523,
+    "end": 162.03693625061882,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w560",
+    "text": "recruiter.",
+    "start": 162.03693625061882,
+    "end": 162.72,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w561",
+    "text": "Here",
+    "start": 163.56322,
+    "end": 163.5916653559322,
+    "type": "word",
+    "conf": 0.86
+  },
+  {
+    "id": "w562",
+    "text": "is",
+    "start": 163.56322,
+    "end": 163.5916653559322,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w563",
+    "text": "the",
+    "start": 163.5916653559322,
+    "end": 163.6627787457627,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w564",
+    "text": "10",
+    "start": 163.6627787457627,
+    "end": 164.0396797118644,
+    "type": "word",
+    "conf": 0.69
+  },
+  {
+    "id": "w565",
+    "text": "minute",
+    "start": 164.0396797118644,
+    "end": 164.4165806779661,
+    "type": "word",
+    "conf": 0.53
+  },
+  {
+    "id": "w566",
+    "text": "fix.",
+    "start": 164.4165806779661,
+    "end": 164.821927,
+    "type": "word",
+    "conf": 0.95
+  },
+  {
+    "id": "w567",
+    "text": "Do",
+    "start": 165.23093,
+    "end": 165.37302978723406,
+    "type": "word",
+    "conf": 0.61
+  },
+  {
+    "id": "w568",
+    "text": "it",
+    "start": 165.37302978723406,
+    "end": 165.4677629787234,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w569",
+    "text": "tonight.",
+    "start": 165.4677629787234,
+    "end": 166.13089531914895,
+    "type": "word",
+    "conf": 0.91
+  },
+  {
+    "id": "w570",
+    "text": "Step",
+    "start": 166.1687885957447,
+    "end": 166.40562157446809,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w571",
+    "text": "one,",
+    "start": 166.40562157446809,
+    "end": 166.74666106382978,
+    "type": "word",
+    "conf": 0.86
+  },
+  {
+    "id": "w572",
+    "text": "change",
+    "start": 166.74666106382978,
+    "end": 167.16348710638297,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w573",
+    "text": "your",
+    "start": 167.16348710638297,
+    "end": 167.43821336170214,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w574",
+    "text": "photo",
+    "start": 167.43821336170214,
+    "end": 167.80767280851063,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w575",
+    "text": "if",
+    "start": 167.80767280851063,
+    "end": 167.9497725957447,
+    "type": "word",
+    "conf": 0.91
+  },
+  {
+    "id": "w576",
+    "text": "it",
+    "start": 167.9497725957447,
+    "end": 168.04450578723404,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w577",
+    "text": "is",
+    "start": 168.04450578723404,
+    "end": 168.17713225531915,
+    "type": "word",
+    "conf": 0.92
+  },
+  {
+    "id": "w578",
+    "text": "not",
+    "start": 168.17713225531915,
+    "end": 168.38554527659576,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w579",
+    "text": "clear.",
+    "start": 168.38554527659576,
+    "end": 168.78342468085106,
+    "type": "word",
+    "conf": 0.9
+  },
+  {
+    "id": "w580",
+    "text": "Two",
+    "start": 168.78342468085106,
+    "end": 168.93499778723404,
+    "type": "word",
+    "conf": 0.84
+  },
+  {
+    "id": "w581",
+    "text": "minutes.",
+    "start": 168.93499778723404,
+    "end": 169.46550365957447,
+    "type": "word",
+    "conf": 0.94
+  },
+  {
+    "id": "w582",
+    "text": "Step",
+    "start": 169.46550365957447,
+    "end": 169.79706982978723,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w583",
+    "text": "two,",
+    "start": 169.79706982978723,
+    "end": 170.22336919148938,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w584",
+    "text": "rewrite",
+    "start": 170.22336919148938,
+    "end": 170.64966855319147,
+    "type": "word",
+    "conf": 0.88
+  },
+  {
+    "id": "w585",
+    "text": "your",
+    "start": 170.64966855319147,
+    "end": 170.8865015319149,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w586",
+    "text": "headline",
+    "start": 170.8865015319149,
+    "end": 171.36964080851067,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w587",
+    "text": "using",
+    "start": 171.36964080851067,
+    "end": 171.7012069787234,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w588",
+    "text": "the",
+    "start": 171.7012069787234,
+    "end": 171.8527800851064,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w589",
+    "text": "pattern",
+    "start": 171.8527800851064,
+    "end": 172.33591936170214,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w590",
+    "text": "I",
+    "start": 172.33591936170214,
+    "end": 172.37381263829786,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w591",
+    "text": "gave",
+    "start": 172.37381263829786,
+    "end": 172.57275234042552,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w592",
+    "text": "you.",
+    "start": 172.57275234042552,
+    "end": 172.800112,
+    "type": "word",
+    "conf": 0.93
+  },
+  {
+    "id": "w593",
+    "text": "Roll,",
+    "start": 172.800112,
+    "end": 173.18851808510638,
+    "type": "word",
+    "conf": 0.68
+  },
+  {
+    "id": "w594",
+    "text": "skills,",
+    "start": 173.18851808510638,
+    "end": 173.70007731914893,
+    "type": "word",
+    "conf": 0.88
+  },
+  {
+    "id": "w595",
+    "text": "and",
+    "start": 173.70007731914893,
+    "end": 173.88007038297872,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w596",
+    "text": "what",
+    "start": 173.88007038297872,
+    "end": 174.13585,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w597",
+    "text": "you",
+    "start": 174.547052,
+    "end": 174.71358953846155,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w598",
+    "text": "are",
+    "start": 174.71358953846155,
+    "end": 174.8801270769231,
+    "type": "word",
+    "conf": 0.91
+  },
+  {
+    "id": "w599",
+    "text": "looking",
+    "start": 174.8801270769231,
+    "end": 175.27981716923077,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w600",
+    "text": "for,",
+    "start": 175.27981716923077,
+    "end": 175.629546,
+    "type": "word",
+    "conf": 0.68
+  },
+  {
+    "id": "w601",
+    "text": "two",
+    "start": 176.00161,
+    "end": 176.18333844444444,
+    "type": "word",
+    "conf": 0.9
+  },
+  {
+    "id": "w602",
+    "text": "minutes.",
+    "start": 176.18333844444444,
+    "end": 176.410499,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w603",
+    "text": "Step",
+    "start": 176.804014,
+    "end": 177.0005597265625,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w604",
+    "text": "three,",
+    "start": 177.0005597265625,
+    "end": 177.3749325390625,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w605",
+    "text": "write",
+    "start": 177.3749325390625,
+    "end": 177.5808375859375,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w606",
+    "text": "three",
+    "start": 177.5808375859375,
+    "end": 177.82417991406248,
+    "type": "word",
+    "conf": 0.96
+  },
+  {
+    "id": "w607",
+    "text": "lines",
+    "start": 177.82417991406248,
+    "end": 178.06752224218752,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w608",
+    "text": "in",
+    "start": 178.06752224218752,
+    "end": 178.1611154453125,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w609",
+    "text": "about",
+    "start": 178.1611154453125,
+    "end": 178.40445777343749,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w610",
+    "text": "three",
+    "start": 178.40445777343749,
+    "end": 178.64780010156252,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w611",
+    "text": "minutes.",
+    "start": 178.64780010156252,
+    "end": 179.2,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w612",
+    "text": "Step",
+    "start": 180.069048,
+    "end": 180.10862932584268,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w613",
+    "text": "four,",
+    "start": 180.069048,
+    "end": 180.1877919775281,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w614",
+    "text": "add",
+    "start": 180.1877919775281,
+    "end": 180.43517526404494,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w615",
+    "text": "your",
+    "start": 180.43517526404494,
+    "end": 180.77161653370788,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w616",
+    "text": "two",
+    "start": 180.77161653370788,
+    "end": 181.01899982022474,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w617",
+    "text": "best",
+    "start": 181.01899982022474,
+    "end": 181.35544108988765,
+    "type": "word",
+    "conf": 0.96
+  },
+  {
+    "id": "w618",
+    "text": "projects",
+    "start": 181.35544108988765,
+    "end": 182.0283236292135,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w619",
+    "text": "with",
+    "start": 182.0283236292135,
+    "end": 182.40434622471912,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w620",
+    "text": "one",
+    "start": 182.40434622471912,
+    "end": 182.64183417977532,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w621",
+    "text": "line",
+    "start": 182.64183417977532,
+    "end": 183.106914758427,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w622",
+    "text": "each,",
+    "start": 183.106914758427,
+    "end": 183.31471671910114,
+    "type": "word",
+    "conf": 0.85
+  },
+  {
+    "id": "w623",
+    "text": "and",
+    "start": 183.31471671910114,
+    "end": 183.50272801685392,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w624",
+    "text": "remove",
+    "start": 183.50272801685392,
+    "end": 183.91833193820227,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w625",
+    "text": "any",
+    "start": 183.91833193820227,
+    "end": 184.06676191011238,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w626",
+    "text": "skill",
+    "start": 184.06676191011238,
+    "end": 184.38341251685395,
+    "type": "word",
+    "conf": 0.94
+  },
+  {
+    "id": "w627",
+    "text": "you",
+    "start": 184.38341251685395,
+    "end": 184.57142381460676,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w628",
+    "text": "cannot",
+    "start": 184.57142381460676,
+    "end": 184.94744641011238,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w629",
+    "text": "explain.",
+    "start": 184.94744641011238,
+    "end": 185.61043361797755,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w630",
+    "text": "Three",
+    "start": 185.61043361797755,
+    "end": 185.91718889325844,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w631",
+    "text": "minutes,",
+    "start": 185.91718889325844,
+    "end": 186.48122278651687,
+    "type": "word",
+    "conf": 0.7
+  },
+  {
+    "id": "w632",
+    "text": "then",
+    "start": 186.48122278651687,
+    "end": 186.76818739887642,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w633",
+    "text": "open",
+    "start": 186.76818739887642,
+    "end": 187.05515201123595,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w634",
+    "text": "your",
+    "start": 187.05515201123595,
+    "end": 187.36190728651687,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w635",
+    "text": "resume",
+    "start": 187.36190728651687,
+    "end": 187.7775112078652,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w636",
+    "text": "next",
+    "start": 187.7775112078652,
+    "end": 188.06447582022474,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w637",
+    "text": "to",
+    "start": 188.06447582022474,
+    "end": 188.20301046067416,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w638",
+    "text": "it,",
+    "start": 188.20301046067416,
+    "end": 188.3811264269663,
+    "type": "word",
+    "conf": 0.84
+  },
+  {
+    "id": "w639",
+    "text": "and",
+    "start": 188.3811264269663,
+    "end": 188.55924239325844,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w640",
+    "text": "check",
+    "start": 188.55924239325844,
+    "end": 188.85610233707868,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w641",
+    "text": "that",
+    "start": 188.85610233707868,
+    "end": 189.09359029213482,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w642",
+    "text": "the",
+    "start": 189.09359029213482,
+    "end": 189.32118291573036,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w643",
+    "text": "college",
+    "start": 189.32118291573036,
+    "end": 189.68731017977527,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w644",
+    "text": "name,",
+    "start": 189.68731017977527,
+    "end": 190.04354211235955,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w645",
+    "text": "year,",
+    "start": 190.04354211235955,
+    "end": 190.5185180224719,
+    "type": "word",
+    "conf": 0.96
+  },
+  {
+    "id": "w646",
+    "text": "and",
+    "start": 190.5185180224719,
+    "end": 190.65705266292136,
+    "type": "word",
+    "conf": 0.94
+  },
+  {
+    "id": "w647",
+    "text": "project",
+    "start": 190.65705266292136,
+    "end": 191.1716098988764,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w648",
+    "text": "titles",
+    "start": 191.1716098988764,
+    "end": 191.62679514606742,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w649",
+    "text": "are",
+    "start": 191.62679514606742,
+    "end": 191.80491111235955,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w650",
+    "text": "the",
+    "start": 191.80491111235955,
+    "end": 191.9830270786517,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w651",
+    "text": "same.",
+    "start": 191.9830270786517,
+    "end": 192.41842166292136,
+    "type": "word",
+    "conf": 0.94
+  },
+  {
+    "id": "w652",
+    "text": "That",
+    "start": 192.41842166292136,
+    "end": 192.69549094382023,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w653",
+    "text": "is",
+    "start": 192.69549094382023,
+    "end": 192.75486293258427,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w654",
+    "text": "the",
+    "start": 192.75486293258427,
+    "end": 192.92308356741572,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w655",
+    "text": "part",
+    "start": 192.92308356741572,
+    "end": 193.15067619101123,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w656",
+    "text": "most",
+    "start": 193.15067619101123,
+    "end": 193.37826881460674,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w657",
+    "text": "people",
+    "start": 193.37826881460674,
+    "end": 193.72460541573034,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w658",
+    "text": "skip.",
+    "start": 193.72460541573034,
+    "end": 194.16,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w659",
+    "text": "One",
+    "start": 195.276168,
+    "end": 195.41297885906644,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w660",
+    "text": "more",
+    "start": 195.41297885906644,
+    "end": 195.65728396454222,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w661",
+    "text": "thing",
+    "start": 195.65728396454222,
+    "end": 195.96022229533216,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w662",
+    "text": "because",
+    "start": 195.96022229533216,
+    "end": 196.38042707675046,
+    "type": "word",
+    "conf": 0.83
+  },
+  {
+    "id": "w663",
+    "text": "freshers",
+    "start": 196.38042707675046,
+    "end": 196.85926508348297,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w664",
+    "text": "are",
+    "start": 196.85926508348297,
+    "end": 197.03516475942553,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w665",
+    "text": "the",
+    "start": 197.03516475942553,
+    "end": 197.21106443536806,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w666",
+    "text": "target",
+    "start": 197.21106443536806,
+    "end": 197.57263599147217,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w667",
+    "text": "here.",
+    "start": 197.57263599147217,
+    "end": 198.05147399820467,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w668",
+    "text": "A",
+    "start": 198.05147399820467,
+    "end": 198.11987942773789,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w669",
+    "text": "real",
+    "start": 198.11987942773789,
+    "end": 198.38372894165173,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w670",
+    "text": "recruiter",
+    "start": 198.38372894165173,
+    "end": 198.97983339901256,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w671",
+    "text": "will",
+    "start": 198.97983339901256,
+    "end": 199.2436829129264,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w672",
+    "text": "never",
+    "start": 199.2436829129264,
+    "end": 199.57593785637346,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w673",
+    "text": "ask",
+    "start": 199.57593785637346,
+    "end": 199.7811541449731,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w674",
+    "text": "you",
+    "start": 199.7811541449731,
+    "end": 199.96682602513468,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w675",
+    "text": "to",
+    "start": 199.96682602513468,
+    "end": 200.16227010951528,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w676",
+    "text": "pay",
+    "start": 200.16227010951528,
+    "end": 200.28930876436266,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w677",
+    "text": "money",
+    "start": 200.28930876436266,
+    "end": 200.69974134156197,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w678",
+    "text": "for",
+    "start": 200.69974134156197,
+    "end": 201.02222408078995,
+    "type": "word",
+    "conf": 0.94
+  },
+  {
+    "id": "w679",
+    "text": "a",
+    "start": 201.02222408078995,
+    "end": 201.06131289766606,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w680",
+    "text": "job,",
+    "start": 201.05154069344704,
+    "end": 201.41311224955118,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w681",
+    "text": "an",
+    "start": 201.41311224955118,
+    "end": 201.53037870017954,
+    "type": "word",
+    "conf": 0.69
+  },
+  {
+    "id": "w682",
+    "text": "interview",
+    "start": 201.53037870017954,
+    "end": 202.06784993222624,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w683",
+    "text": "slot,",
+    "start": 202.06784993222624,
+    "end": 202.4489658967684,
+    "type": "word",
+    "conf": 0.96
+  },
+  {
+    "id": "w684",
+    "text": "or",
+    "start": 202.4489658967684,
+    "end": 202.55646014317776,
+    "type": "word",
+    "conf": 0.93
+  },
+  {
+    "id": "w685",
+    "text": "a",
+    "start": 202.55646014317776,
+    "end": 202.61509336849193,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w686",
+    "text": "laptop.",
+    "start": 202.61509336849193,
+    "end": 203.2111978258528,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w687",
+    "text": "If",
+    "start": 203.2111978258528,
+    "end": 203.34800868491922,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w688",
+    "text": "someone",
+    "start": 203.34800868491922,
+    "end": 203.83661889587074,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w689",
+    "text": "on",
+    "start": 203.83661889587074,
+    "end": 203.97342975493717,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w690",
+    "text": "LinkedIn",
+    "start": 203.97342975493717,
+    "end": 204.5304453954219,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w691",
+    "text": "asks",
+    "start": 204.5304453954219,
+    "end": 204.80406711355477,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w692",
+    "text": "for",
+    "start": 204.80406711355477,
+    "end": 205.0092834021544,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w693",
+    "text": "a",
+    "start": 205.0092834021544,
+    "end": 205.08746103590664,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w694",
+    "text": "fee",
+    "start": 205.08746103590664,
+    "end": 205.3219939371634,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w695",
+    "text": "or",
+    "start": 205.3219939371634,
+    "end": 205.44903259201078,
+    "type": "word",
+    "conf": 0.55
+  },
+  {
+    "id": "w696",
+    "text": "tells",
+    "start": 205.44903259201078,
+    "end": 205.7715153312388,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w697",
+    "text": "you",
+    "start": 205.7715153312388,
+    "end": 205.95718721140037,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w698",
+    "text": "to",
+    "start": 205.95718721140037,
+    "end": 206.21126452109516,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w699",
+    "text": "move",
+    "start": 206.21126452109516,
+    "end": 206.33830317594254,
+    "type": "word",
+    "conf": 0.96
+  },
+  {
+    "id": "w700",
+    "text": "to",
+    "start": 206.33830317594254,
+    "end": 206.49465844344704,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w701",
+    "text": "a",
+    "start": 206.49465844344704,
+    "end": 206.5728360771993,
+    "type": "word",
+    "conf": 0.95
+  },
+  {
+    "id": "w702",
+    "text": "chat",
+    "start": 206.5728360771993,
+    "end": 206.88554661220826,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w703",
+    "text": "app",
+    "start": 206.88554661220826,
+    "end": 207.19825714721725,
+    "type": "word",
+    "conf": 0.94
+  },
+  {
+    "id": "w704",
+    "text": "and",
+    "start": 207.19825714721725,
+    "end": 207.38392902737883,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w705",
+    "text": "send",
+    "start": 207.38392902737883,
+    "end": 207.6282341328546,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w706",
+    "text": "your",
+    "start": 207.6282341328546,
+    "end": 207.87253923833038,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w707",
+    "text": "documents",
+    "start": 207.87253923833038,
+    "end": 208.4295548788151,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w708",
+    "text": "straight",
+    "start": 208.4295548788151,
+    "end": 208.92793729398565,
+    "type": "word",
+    "conf": 0.87
+  },
+  {
+    "id": "w709",
+    "text": "away,",
+    "start": 208.92793729398565,
+    "end": 209.30905325852785,
+    "type": "word",
+    "conf": 0.84
+  },
+  {
+    "id": "w710",
+    "text": "stop.",
+    "start": 209.30905325852785,
+    "end": 209.7781190610413,
+    "type": "word",
+    "conf": 0.9
+  },
+  {
+    "id": "w711",
+    "text": "Check",
+    "start": 209.7781190610413,
+    "end": 210.07128518761223,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w712",
+    "text": "the",
+    "start": 210.07128518761223,
+    "end": 210.24718486355476,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w713",
+    "text": "company",
+    "start": 210.24718486355476,
+    "end": 210.647845236535,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w714",
+    "text": "on",
+    "start": 210.647845236535,
+    "end": 210.76511168716337,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w715",
+    "text": "its",
+    "start": 210.76511168716337,
+    "end": 210.94101136310593,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w716",
+    "text": "official",
+    "start": 210.94101136310593,
+    "end": 211.40030496140037,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w717",
+    "text": "carriers",
+    "start": 211.40030496140037,
+    "end": 211.8889151723519,
+    "type": "word",
+    "conf": 0.52
+  },
+  {
+    "id": "w718",
+    "text": "page",
+    "start": 211.8889151723519,
+    "end": 212.12344807360864,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w719",
+    "text": "and",
+    "start": 212.12344807360864,
+    "end": 212.35798097486534,
+    "type": "word",
+    "conf": 0.43
+  },
+  {
+    "id": "w720",
+    "text": "see",
+    "start": 212.35798097486534,
+    "end": 212.51433624236986,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w721",
+    "text": "whether",
+    "start": 212.51433624236986,
+    "end": 212.82704677737883,
+    "type": "word",
+    "conf": 0.94
+  },
+  {
+    "id": "w722",
+    "text": "the",
+    "start": 212.82704677737883,
+    "end": 213.06157967863558,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w723",
+    "text": "recruiter",
+    "start": 213.06157967863558,
+    "end": 213.52087327693002,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w724",
+    "text": "is",
+    "start": 213.52087327693002,
+    "end": 213.63813972755835,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w725",
+    "text": "listed",
+    "start": 213.63813972755835,
+    "end": 213.98016687522443,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w726",
+    "text": "there.",
+    "start": 213.98016687522443,
+    "end": 214.46877708617598,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w727",
+    "text": "A",
+    "start": 214.46877708617598,
+    "end": 214.54695471992818,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w728",
+    "text": "real",
+    "start": 214.54695471992818,
+    "end": 214.86943745915622,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w729",
+    "text": "offer",
+    "start": 214.86943745915622,
+    "end": 215.27009783213646,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w730",
+    "text": "can",
+    "start": 215.27009783213646,
+    "end": 215.5046307333932,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w731",
+    "text": "always",
+    "start": 215.5046307333932,
+    "end": 215.9834687401257,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w732",
+    "text": "be",
+    "start": 215.9834687401257,
+    "end": 216.13982400763015,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w733",
+    "text": "verified.",
+    "start": 216.13982400763015,
+    "end": 217.048639,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w734",
+    "text": "So,",
+    "start": 217.60449,
+    "end": 217.8688528798236,
+    "type": "word",
+    "conf": 0.8
+  },
+  {
+    "id": "w735",
+    "text": "to",
+    "start": 217.8688528798236,
+    "end": 218.0010343197354,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w736",
+    "text": "sum",
+    "start": 218.0010343197354,
+    "end": 218.19930647960308,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w737",
+    "text": "up,",
+    "start": 218.19930647960308,
+    "end": 218.50143548511576,
+    "type": "word",
+    "conf": 0.91
+  },
+  {
+    "id": "w738",
+    "text": "your",
+    "start": 218.50143548511576,
+    "end": 218.72803223925027,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w739",
+    "text": "profile",
+    "start": 218.72803223925027,
+    "end": 219.20010881036384,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w740",
+    "text": "is",
+    "start": 219.20010881036384,
+    "end": 219.33229025027563,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w741",
+    "text": "a",
+    "start": 219.33229025027563,
+    "end": 219.4172640330761,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w742",
+    "text": "search",
+    "start": 219.4172640330761,
+    "end": 219.83269141565603,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w743",
+    "text": "result.",
+    "start": 219.83269141565603,
+    "end": 220.47471555237044,
+    "type": "word",
+    "conf": 0.86
+  },
+  {
+    "id": "w744",
+    "text": "So",
+    "start": 220.47471555237044,
+    "end": 220.59745546086,
+    "type": "word",
+    "conf": 0.89
+  },
+  {
+    "id": "w745",
+    "text": "use",
+    "start": 220.59745546086,
+    "end": 220.7862860893054,
+    "type": "word",
+    "conf": 0.55
+  },
+  {
+    "id": "w746",
+    "text": "the",
+    "start": 220.7862860893054,
+    "end": 220.9751167177508,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w747",
+    "text": "words",
+    "start": 220.9751167177508,
+    "end": 221.29612878610806,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w748",
+    "text": "\"recruiter",
+    "start": 221.29612878610806,
+    "end": 221.91926985997793,
+    "type": "word",
+    "conf": 0.75
+  },
+  {
+    "id": "w749",
+    "text": "search",
+    "start": 221.91926985997793,
+    "end": 222.30637264829107,
+    "type": "word",
+    "conf": 0.96
+  },
+  {
+    "id": "w750",
+    "text": "for\",",
+    "start": 222.30637264829107,
+    "end": 222.74068309371555,
+    "type": "word",
+    "conf": 0.63
+  },
+  {
+    "id": "w751",
+    "text": "fix",
+    "start": 222.77844921940462,
+    "end": 223.00504597353915,
+    "type": "word",
+    "conf": 0.77
+  },
+  {
+    "id": "w752",
+    "text": "your",
+    "start": 223.00504597353915,
+    "end": 223.3166165104741,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w753",
+    "text": "headline",
+    "start": 223.3166165104741,
+    "end": 223.835900738699,
+    "type": "word",
+    "conf": 0.95
+  },
+  {
+    "id": "w754",
+    "text": "first,",
+    "start": 223.835900738699,
+    "end": 224.34574343550167,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w755",
+    "text": "keep",
+    "start": 224.34574343550167,
+    "end": 224.63843090959205,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w756",
+    "text": "skills",
+    "start": 224.63843090959205,
+    "end": 225.07274135501655,
+    "type": "word",
+    "conf": 0.96
+  },
+  {
+    "id": "w757",
+    "text": "you",
+    "start": 225.07274135501655,
+    "end": 225.2898965777288,
+    "type": "word",
+    "conf": 0.97
+  },
+  {
+    "id": "w758",
+    "text": "can",
+    "start": 225.2898965777288,
+    "end": 225.6392332403528,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w759",
+    "text": "explain,",
+    "start": 225.6392332403528,
+    "end": 226.167959,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w760",
+    "text": "match",
+    "start": 226.530635,
+    "end": 226.81019629081246,
+    "type": "word",
+    "conf": 0.49
+  },
+  {
+    "id": "w761",
+    "text": "your",
+    "start": 226.81019629081246,
+    "end": 227.03983592255125,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w762",
+    "text": "resume,",
+    "start": 227.03983592255125,
+    "end": 227.53905251328777,
+    "type": "word",
+    "conf": 0.92
+  },
+  {
+    "id": "w763",
+    "text": "and",
+    "start": 227.53905251328777,
+    "end": 227.85855113135915,
+    "type": "word",
+    "conf": 0.96
+  },
+  {
+    "id": "w764",
+    "text": "stay",
+    "start": 227.85855113135915,
+    "end": 227.93842578587697,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w765",
+    "text": "reachable.",
+    "start": 227.93842578587697,
+    "end": 228.65729767653758,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w766",
+    "text": "Now",
+    "start": 228.65729767653758,
+    "end": 228.8569843128322,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w767",
+    "text": "tell",
+    "start": 228.8569843128322,
+    "end": 229.12656127182993,
+    "type": "word",
+    "conf": 0.76
+  },
+  {
+    "id": "w768",
+    "text": "me",
+    "start": 229.12656127182993,
+    "end": 229.26634191723613,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w769",
+    "text": "in",
+    "start": 229.26634191723613,
+    "end": 229.38615389901292,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w770",
+    "text": "the",
+    "start": 229.38615389901292,
+    "end": 229.60580919893698,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w771",
+    "text": "comments,",
+    "start": 229.60580919893698,
+    "end": 230.27475943052391,
+    "type": "word",
+    "conf": 0.73
+  },
+  {
+    "id": "w772",
+    "text": "what",
+    "start": 230.27475943052391,
+    "end": 230.48443039863326,
+    "type": "word",
+    "conf": 0.77
+  },
+  {
+    "id": "w773",
+    "text": "is",
+    "start": 230.48443039863326,
+    "end": 230.58427371678056,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w774",
+    "text": "your",
+    "start": 230.58427371678056,
+    "end": 230.81391334851938,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w775",
+    "text": "headline",
+    "start": 230.81391334851938,
+    "end": 231.25322394836752,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w776",
+    "text": "right",
+    "start": 231.25322394836752,
+    "end": 231.49284791192102,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w777",
+    "text": "now,",
+    "start": 231.49284791192102,
+    "end": 231.69253454821566,
+    "type": "word",
+    "conf": 0.75
+  },
+  {
+    "id": "w778",
+    "text": "and",
+    "start": 231.69253454821566,
+    "end": 231.8722525208808,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w779",
+    "text": "what",
+    "start": 231.8722525208808,
+    "end": 232.1118764844343,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w780",
+    "text": "role",
+    "start": 232.1118764844343,
+    "end": 232.35150044798786,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w781",
+    "text": "are",
+    "start": 232.35150044798786,
+    "end": 232.531218420653,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w782",
+    "text": "you",
+    "start": 232.531218420653,
+    "end": 232.71093639331815,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w783",
+    "text": "aiming",
+    "start": 232.71093639331815,
+    "end": 233.07037233864844,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w784",
+    "text": "for?",
+    "start": 233.07037233864844,
+    "end": 233.4497769476082,
+    "type": "word",
+    "conf": 0.78
+  },
+  {
+    "id": "w785",
+    "text": "Write",
+    "start": 233.4497769476082,
+    "end": 233.75929123386484,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w786",
+    "text": "it",
+    "start": 233.75929123386484,
+    "end": 233.8791032156416,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w787",
+    "text": "and",
+    "start": 233.8791032156416,
+    "end": 234.0688055201215,
+    "type": "word",
+    "conf": 0.55
+  },
+  {
+    "id": "w788",
+    "text": "I",
+    "start": 234.0688055201215,
+    "end": 234.12871151100987,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w789",
+    "text": "will",
+    "start": 234.12871151100987,
+    "end": 234.39828847000757,
+    "type": "word",
+    "conf": 0.94
+  },
+  {
+    "id": "w790",
+    "text": "tell",
+    "start": 234.39828847000757,
+    "end": 234.6279281017464,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w791",
+    "text": "you",
+    "start": 234.6279281017464,
+    "end": 234.81763040622627,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w792",
+    "text": "what",
+    "start": 234.81763040622627,
+    "end": 235.06723870159453,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w793",
+    "text": "I",
+    "start": 235.06723870159453,
+    "end": 235.12714469248291,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w794",
+    "text": "would",
+    "start": 235.12714469248291,
+    "end": 235.43665897873956,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w795",
+    "text": "change",
+    "start": 235.43665897873956,
+    "end": 235.81606358769932,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w796",
+    "text": "in",
+    "start": 235.81606358769932,
+    "end": 235.93587556947608,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w797",
+    "text": "a",
+    "start": 235.93587556947608,
+    "end": 235.99578156036446,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w798",
+    "text": "few",
+    "start": 235.99578156036446,
+    "end": 236.1754995330296,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w799",
+    "text": "of",
+    "start": 236.1754995330296,
+    "end": 236.3052958466211,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w800",
+    "text": "them.",
+    "start": 236.3052958466211,
+    "end": 236.64476312832193,
+    "type": "word",
+    "conf": 0.81
+  },
+  {
+    "id": "w801",
+    "text": "And",
+    "start": 236.64476312832193,
+    "end": 236.82448110098707,
+    "type": "word",
+    "conf": 0.98
+  },
+  {
+    "id": "w802",
+    "text": "subscribe",
+    "start": 236.82448110098707,
+    "end": 237.36363501898256,
+    "type": "word",
+    "conf": 0.92
+  },
+  {
+    "id": "w803",
+    "text": "so",
+    "start": 237.36363501898256,
+    "end": 237.4834470007593,
+    "type": "word",
+    "conf": 0.72
+  },
+  {
+    "id": "w804",
+    "text": "you",
+    "start": 237.4834470007593,
+    "end": 237.66316497342444,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w805",
+    "text": "don't",
+    "start": 237.66316497342444,
+    "end": 237.96269492786638,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w806",
+    "text": "miss",
+    "start": 237.96269492786638,
+    "end": 238.20231889141988,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w807",
+    "text": "the",
+    "start": 238.20231889141988,
+    "end": 238.41198985952923,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w808",
+    "text": "next",
+    "start": 238.41198985952923,
+    "end": 238.62166082763858,
+    "type": "word",
+    "conf": 1
+  },
+  {
+    "id": "w809",
+    "text": "update",
+    "start": 238.62166082763858,
+    "end": 239.00106543659834,
+    "type": "word",
+    "conf": 0.95
+  },
+  {
+    "id": "w810",
+    "text": "for",
+    "start": 239.00106543659834,
+    "end": 239.160814745634,
+    "type": "word",
+    "conf": 0.99
+  },
+  {
+    "id": "w811",
+    "text": "freshers.",
+    "start": 239.160814745634,
+    "end": 239.68,
+    "type": "word",
+    "conf": 0.94
+  }
+]

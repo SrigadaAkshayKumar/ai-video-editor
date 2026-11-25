@@ -1,0 +1,116 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "title_slide: Recruiters decide in 10 seconds"
+  },
+  {
+   "time": 8.7,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "keyword_chip: Final-year student or fresher"
+  },
+  {
+   "time": 13.1,
+   "sfx": "riser",
+   "gain": 2,
+   "reason": "stat_trio: This video"
+  },
+  {
+   "time": 26.8,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Why it matters"
+  },
+  {
+   "time": 34.5,
+   "sfx": "riser",
+   "gain": 2,
+   "reason": "flow_diagram: How a recruiter finds you"
+  },
+  {
+   "time": 50.7,
+   "sfx": "whoosh",
+   "gain": 0,
+   "reason": "comparison: "
+  },
+  {
+   "time": 63.1,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: Four parts they read"
+  },
+  {
+   "time": 67.1,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "keyword_chip: Part 1: Photo"
+  },
+  {
+   "time": 103.7,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "keyword_chip: Part 4: Projects"
+  },
+  {
+   "time": 114.3,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Three mistakes"
+  },
+  {
+   "time": 133.7,
+   "sfx": "whoosh",
+   "gain": 0,
+   "reason": "comparison: "
+  },
+  {
+   "time": 143.1,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "keyword_chip: Keep them identical"
+  },
+  {
+   "time": 160.9,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: The 10-minute fix"
+  },
+  {
+   "time": 164.3,
+   "sfx": "riser",
+   "gain": 2,
+   "reason": "timeline: Do it tonight"
+  },
+  {
+   "time": 186.1,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "keyword_chip: Remove skills you cannot explain"
+  },
+  {
+   "time": 200.3,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Stay safe"
+  },
+  {
+   "time": 208.7,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "quote_pull: A real offer can always be verified."
+  },
+  {
+   "time": 213.9,
+   "sfx": "riser",
+   "gain": 2,
+   "reason": "flow_diagram: Before you reply"
+  }
+ ]
+}

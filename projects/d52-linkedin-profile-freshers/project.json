@@ -1,0 +1,110 @@
+{
+  "name": "d52-linkedin-profile-freshers",
+  "createdAt": "2026-11-25T19:38:11.034Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d52-linkedin-profile-freshers/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d52/d52-voice.wav",
+    "duration": 239.9,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d52-linkedin-profile-freshers/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d52/d52_linkedin_profile_freshers_voiceover.txt",
+    "words": 814,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d52-linkedin-profile-freshers/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "LinkedIn",
+    "Java",
+    "Python",
+    "Student",
+    "Final",
+    "Part",
+    "Write",
+    "Mistake",
+    "Machine Learning",
+    "Cyber Security"
+  ],
+  "mode": "faceless",
+  "style": "liquid",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; modern liquid-glass look for a young audience: glossy capsules, jelly-spring arrivals, slow push-ins on b-roll, keyword chips and stat trios; energetic, a beat every 3-5 s; airy swooshes and pops",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 26.3,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-25T19:39:55.194Z",
+      "words": 812,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-25T19:39:57.968Z",
+      "segments": 12,
+      "kept": 235.767
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-25T20:09:58.221Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d52-linkedin-profile-freshers/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-25T20:09:59.814Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-25T20:09:59.846Z",
+      "groups": 230
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-25T20:10:00.569Z",
+      "music": 0,
+      "sfx": 18
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-25T20:14:53.206Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d52-linkedin-profile-freshers/output/final-16x9.mp4",
+      "duration": 245.781
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.973017,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d52-linkedin-profile-freshers/work/cleancut.wav",
+    "duration": 235.766833,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

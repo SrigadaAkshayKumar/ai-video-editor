@@ -1,0 +1,719 @@
+{
+ "style": "liquid",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 4.35,
+   "type": "title_slide",
+   "text": "Recruiters decide in 10 seconds",
+   "eyebrow": "Crack IT · Day 52",
+   "style_hint": "Your LinkedIn profile, fixed tonight"
+  },
+  {
+   "start": 4.8,
+   "duration": 3.1,
+   "type": "side_note",
+   "text": "Most freshers lose it on line one",
+   "side": "right"
+  },
+  {
+   "start": 8.6,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "Final-year student or fresher",
+   "side": "left"
+  },
+  {
+   "start": 13,
+   "duration": 8.6,
+   "type": "stat_trio",
+   "text": "This video",
+   "items": [
+    {
+     "label": "parts recruiters read",
+     "sublabel": "",
+     "value": 4
+    },
+    {
+     "label": "mistakes to avoid",
+     "sublabel": "",
+     "value": 3
+    },
+    {
+     "label": "minute fix",
+     "sublabel": "",
+     "value": 10
+    }
+   ]
+  },
+  {
+   "start": 22.2,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "Mistake 3 looks harmless",
+   "side": "right"
+  },
+  {
+   "start": 26.7,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Why it matters",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 30.5,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "Java · Python · Fresher · Testing",
+   "side": "left"
+  },
+  {
+   "start": 34.4,
+   "duration": 11.4,
+   "type": "flow_diagram",
+   "text": "How a recruiter finds you",
+   "items": [
+    {
+     "label": "Searches keywords",
+     "sublabel": ""
+    },
+    {
+     "label": "Profiles listed",
+     "sublabel": ""
+    },
+    {
+     "label": "Top of page read",
+     "sublabel": ""
+    },
+    {
+     "label": "Message or scroll",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 47.4,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "Same college, same marks",
+   "side": "right"
+  },
+  {
+   "start": 50.6,
+   "duration": 11.2,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Headline A",
+    "text": "Student at some college"
+   },
+   "right": {
+    "label": "Headline B",
+    "text": "Final year B.Tech, Python and SQL, built two projects"
+   }
+  },
+  {
+   "start": 63,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Four parts they read",
+   "eyebrow": "Section 02",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 67,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "Part 1: Photo",
+   "side": "left"
+  },
+  {
+   "start": 71.5,
+   "duration": 3.9,
+   "type": "keyword_chip",
+   "text": "Clear face, plain background",
+   "side": "right"
+  },
+  {
+   "start": 76,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Part 2: Headline",
+   "side": "left"
+  },
+  {
+   "start": 80,
+   "duration": 10.8,
+   "type": "checklist",
+   "side": "right",
+   "text": "Headline pattern",
+   "items": [
+    {
+     "label": "What you are",
+     "state": "yes"
+    },
+    {
+     "label": "What you know",
+     "state": "yes"
+    },
+    {
+     "label": "What you want",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 91.8,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "Part 3: About",
+   "side": "left"
+  },
+  {
+   "start": 96.4,
+   "duration": 6.2,
+   "type": "side_note",
+   "text": "Skip: hard-working team player",
+   "side": "right"
+  },
+  {
+   "start": 103.6,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "Part 4: Projects",
+   "side": "left"
+  },
+  {
+   "start": 107.8,
+   "duration": 6,
+   "type": "checklist",
+   "side": "left",
+   "text": "Each project",
+   "items": [
+    {
+     "label": "What it does",
+     "state": "yes"
+    },
+    {
+     "label": "Tools used",
+     "state": "yes"
+    },
+    {
+     "label": "Link to code",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 114.2,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Three mistakes",
+   "eyebrow": "Section 03",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 118.2,
+   "duration": 5.4,
+   "type": "keyword_chip",
+   "text": "Mistake 1: skills you cannot explain",
+   "side": "left"
+  },
+  {
+   "start": 124.6,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Keep what you can talk about for 2 min",
+   "side": "right"
+  },
+  {
+   "start": 128.6,
+   "duration": 4.4,
+   "type": "keyword_chip",
+   "text": "Mistake 2: profile differs from resume",
+   "side": "left"
+  },
+  {
+   "start": 133.6,
+   "duration": 4.2,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Resume",
+    "text": "B.Tech 2026"
+   },
+   "right": {
+    "label": "Profile",
+    "text": "B.Tech 2025"
+   }
+  },
+  {
+   "start": 138.4,
+   "duration": 4.2,
+   "type": "side_note",
+   "text": "Background checks compare details",
+   "side": "left"
+  },
+  {
+   "start": 143,
+   "duration": 4.6,
+   "type": "keyword_chip",
+   "text": "Keep them identical",
+   "side": "right"
+  },
+  {
+   "start": 148.4,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "Mistake 3: no way to contact you",
+   "side": "left"
+  },
+  {
+   "start": 153.2,
+   "duration": 4.2,
+   "type": "keyword_chip",
+   "text": "Joke email? Change it",
+   "side": "right"
+  },
+  {
+   "start": 157.9,
+   "duration": 2.5,
+   "type": "side_note",
+   "text": "Messages on, profile visible",
+   "side": "left"
+  },
+  {
+   "start": 160.8,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "The 10-minute fix",
+   "eyebrow": "Section 04",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 164.2,
+   "duration": 13.8,
+   "type": "timeline",
+   "side": "left",
+   "text": "Do it tonight",
+   "current": 3,
+   "items": [
+    {
+     "label": "2 min",
+     "sublabel": "Photo"
+    },
+    {
+     "label": "2 min",
+     "sublabel": "Headline"
+    },
+    {
+     "label": "3 min",
+     "sublabel": "About"
+    },
+    {
+     "label": "3 min",
+     "sublabel": "Projects"
+    }
+   ]
+  },
+  {
+   "start": 180.4,
+   "duration": 5,
+   "type": "keyword_chip",
+   "text": "Role, skills, what you want",
+   "side": "right"
+  },
+  {
+   "start": 186,
+   "duration": 4.8,
+   "type": "keyword_chip",
+   "text": "Remove skills you cannot explain",
+   "side": "left"
+  },
+  {
+   "start": 191.6,
+   "duration": 8.2,
+   "type": "checklist",
+   "side": "right",
+   "text": "Last check",
+   "items": [
+    {
+     "label": "College name matches",
+     "state": "yes"
+    },
+    {
+     "label": "Year matches",
+     "state": "yes"
+    },
+    {
+     "label": "Project titles match",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 200.2,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Stay safe",
+   "eyebrow": "Section 05",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 204.2,
+   "duration": 4.2,
+   "type": "keyword_chip",
+   "text": "Fee for a job? Stop.",
+   "side": "left"
+  },
+  {
+   "start": 208.6,
+   "duration": 4.6,
+   "type": "quote_pull",
+   "text": "A real offer can always be verified.",
+   "eyebrow": "Real recruiters never ask for money"
+  },
+  {
+   "start": 213.8,
+   "duration": 9.6,
+   "type": "flow_diagram",
+   "text": "Before you reply",
+   "items": [
+    {
+     "label": "Message",
+     "sublabel": ""
+    },
+    {
+     "label": "Check careers page",
+     "sublabel": ""
+    },
+    {
+     "label": "Verify recruiter",
+     "sublabel": ""
+    },
+    {
+     "label": "Then reply",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 224.2,
+   "duration": 7.2,
+   "type": "big_statement",
+   "text": "Your headline + target role?",
+   "eyebrow": "Comment below"
+  },
+  {
+   "start": 232,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Like · Subscribe",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/woman.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "cut",
+   "end": 8,
+   "index": 0
+  },
+  {
+   "start": 8,
+   "kind": "broll",
+   "src": "assets/broll/hands.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 12.8,
+   "index": 1
+  },
+  {
+   "start": 12.8,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 21.84,
+   "index": 2
+  },
+  {
+   "start": 21.84,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 26.52,
+   "index": 3
+  },
+  {
+   "start": 26.52,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 37.45,
+   "index": 4
+  },
+  {
+   "start": 37.45,
+   "kind": "broll",
+   "src": "assets/broll/screen.mp4",
+   "media_start": 2,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 46.89,
+   "index": 5
+  },
+  {
+   "start": 46.89,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 55,
+   "index": 6
+  },
+  {
+   "start": 55,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 2,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 62.86,
+   "index": 7
+  },
+  {
+   "start": 62.86,
+   "kind": "broll",
+   "src": "assets/broll/keys.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 66,
+   "index": 8
+  },
+  {
+   "start": 66,
+   "kind": "broll",
+   "src": "assets/broll/phone.mp4",
+   "media_start": 0,
+   "motion": "pan_right",
+   "grade": "warm",
+   "transition": "cut",
+   "end": 75.69,
+   "index": 9
+  },
+  {
+   "start": 75.69,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 81.5,
+   "index": 10
+  },
+  {
+   "start": 81.5,
+   "kind": "broll",
+   "src": "assets/broll/woman.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 91.65,
+   "index": 11
+  },
+  {
+   "start": 91.65,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 103,
+   "index": 12
+  },
+  {
+   "start": 103,
+   "kind": "broll",
+   "src": "assets/broll/notes.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 114.08,
+   "index": 13
+  },
+  {
+   "start": 114.08,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3",
+    "label": "mistakes recruiters scroll past"
+   },
+   "end": 124,
+   "index": 14
+  },
+  {
+   "start": 124,
+   "kind": "broll",
+   "src": "assets/broll/screen.mp4",
+   "media_start": 8,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 128.41,
+   "index": 15
+  },
+  {
+   "start": 128.41,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 138,
+   "index": 16
+  },
+  {
+   "start": 138,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 0,
+   "motion": "pan_left",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 148.2,
+   "index": 17
+  },
+  {
+   "start": 148.2,
+   "kind": "broll",
+   "src": "assets/broll/phone.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "cut",
+   "end": 154,
+   "index": 18
+  },
+  {
+   "start": 154,
+   "kind": "broll",
+   "src": "assets/broll/keys.mp4",
+   "media_start": 5,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 160.66,
+   "index": 19
+  },
+  {
+   "start": 160.66,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "10",
+    "label": "minute fix, tonight"
+   },
+   "end": 171,
+   "index": 20
+  },
+  {
+   "start": 171,
+   "kind": "broll",
+   "src": "assets/broll/hands.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 180,
+   "index": 21
+  },
+  {
+   "start": 180,
+   "kind": "broll",
+   "src": "assets/broll/notes.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "warm",
+   "transition": "cut",
+   "end": 186,
+   "index": 22
+  },
+  {
+   "start": 186,
+   "kind": "broll",
+   "src": "assets/broll/screen.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 191.31,
+   "index": 23
+  },
+  {
+   "start": 191.31,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 200,
+   "index": 24
+  },
+  {
+   "start": 200,
+   "kind": "broll",
+   "src": "assets/broll/cafe.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 205,
+   "index": 25
+  },
+  {
+   "start": 205,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 213.54,
+   "index": 26
+  },
+  {
+   "start": 213.54,
+   "kind": "broll",
+   "src": "assets/broll/woman.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "cut",
+   "end": 224,
+   "index": 27
+  },
+  {
+   "start": 224,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 231.9,
+   "index": 28
+  },
+  {
+   "start": 231.9,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe"
+   },
+   "end": 235.77,
+   "index": 29
+  }
+ ],
+ "camera_moves": []
+}
