@@ -1,0 +1,102 @@
+{
+  "name": "d57-video-interview-mistakes",
+  "createdAt": "2026-11-26T04:46:58.969Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d57-video-interview-mistakes/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d57/d57-voice.wav",
+    "duration": 235.98,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d57-video-interview-mistakes/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d57/d57_video_interview_mistakes_voiceover.txt",
+    "words": 780,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d57-video-interview-mistakes/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Mistake",
+    "Keep"
+  ],
+  "mode": "faceless",
+  "style": "blueprint",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; terminal / data-desk look: monospace, stepped plotter arrivals; graphic-led (flow diagrams, checklists, number rolls), b-roll sparse and docked; a beat every 5-7 s; crisp digital ticks and soft clicks for SFX",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 24.9,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-26T04:49:23.254Z",
+      "words": 778,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-26T04:49:27.061Z",
+      "segments": 17,
+      "kept": 230.5
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-26T05:21:29.813Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d57-video-interview-mistakes/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-26T05:21:29.956Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-26T05:21:29.997Z",
+      "groups": 205
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-26T05:21:32.389Z",
+      "music": 0,
+      "sfx": 25
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-26T05:27:53.306Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d57-video-interview-mistakes/output/final-16x9.mp4",
+      "duration": 240.512
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.987199,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d57-video-interview-mistakes/work/cleancut.wav",
+    "duration": 230.499875,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

@@ -1,0 +1,158 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "title_slide: Video interview"
+  },
+  {
+   "time": 9.78,
+   "sfx": "pop",
+   "gain": 0,
+   "reason": "big_statement: Freshers: this is for you"
+  },
+  {
+   "time": 25.21,
+   "sfx": "typing",
+   "gain": 3,
+   "reason": "chapter_open: Why video rounds differ"
+  },
+  {
+   "time": 25.71,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Why video rounds differ"
+  },
+  {
+   "time": 33.48,
+   "sfx": "pop",
+   "gain": 0,
+   "reason": "big_statement: A small window"
+  },
+  {
+   "time": 36.38,
+   "sfx": "click",
+   "gain": 4,
+   "reason": "fact_band: The window shows"
+  },
+  {
+   "time": 45.28,
+   "sfx": "pop",
+   "gain": 0,
+   "reason": "quote_pull: A distracted interviewer remembers the problem"
+  },
+  {
+   "time": 50.48,
+   "sfx": "pop",
+   "gain": 0,
+   "reason": "big_statement: All three: your control"
+  },
+  {
+   "time": 54.91,
+   "sfx": "typing",
+   "gain": 3,
+   "reason": "chapter_open: The bad setup"
+  },
+  {
+   "time": 55.41,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: The bad setup"
+  },
+  {
+   "time": 70.68,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "comparison: "
+  },
+  {
+   "time": 89.28,
+   "sfx": "pop",
+   "gain": 0,
+   "reason": "big_statement: Record 30 seconds the day before"
+  },
+  {
+   "time": 96.93,
+   "sfx": "typing",
+   "gain": 3,
+   "reason": "chapter_open: Tech trouble"
+  },
+  {
+   "time": 97.43,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Tech trouble"
+  },
+  {
+   "time": 114.98,
+   "sfx": "click",
+   "gain": 4,
+   "reason": "checklist: The day before"
+  },
+  {
+   "time": 134.78,
+   "sfx": "click",
+   "gain": 4,
+   "reason": "flow_diagram: If the call drops"
+  },
+  {
+   "time": 143.9,
+   "sfx": "typing",
+   "gain": 3,
+   "reason": "chapter_open: Looking away"
+  },
+  {
+   "time": 144.4,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Looking away"
+  },
+  {
+   "time": 169.58,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "comparison: "
+  },
+  {
+   "time": 188.28,
+   "sfx": "pop",
+   "gain": 0,
+   "reason": "quote_pull: Give me a moment to think."
+  },
+  {
+   "time": 193.38,
+   "sfx": "typing",
+   "gain": 3,
+   "reason": "chapter_open: What to do now"
+  },
+  {
+   "time": 193.88,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: What to do now"
+  },
+  {
+   "time": 196.98,
+   "sfx": "click",
+   "gain": 4,
+   "reason": "checklist: Your 3 steps"
+  },
+  {
+   "time": 212.08,
+   "sfx": "click",
+   "gain": 4,
+   "reason": "fact_band: Recap"
+  },
+  {
+   "time": 219.68,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "poll_prompt: Which one have you ignored until today?"
+  }
+ ]
+}

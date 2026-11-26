@@ -1,0 +1,797 @@
+{
+ "style": "blueprint",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 4.15,
+   "type": "title_slide",
+   "text": "Video interview",
+   "eyebrow": "Crack IT · Day 57",
+   "style_hint": "3 mistakes, 3 fixes"
+  },
+  {
+   "start": 5.8,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "Camera. Background. Tab.",
+   "side": "right"
+  },
+  {
+   "start": 9.7,
+   "duration": 3.7,
+   "type": "big_statement",
+   "text": "Freshers: this is for you",
+   "eyebrow": "Freshers"
+  },
+  {
+   "start": 14.1,
+   "duration": 3.1,
+   "type": "keyword_chip",
+   "text": "3 mistakes",
+   "side": "left"
+  },
+  {
+   "start": 17.4,
+   "duration": 2.7,
+   "type": "keyword_chip",
+   "text": "3 simple fixes",
+   "side": "right"
+  },
+  {
+   "start": 20.4,
+   "duration": 4.1,
+   "type": "side_note",
+   "text": "Third: not about skills",
+   "side": "right"
+  },
+  {
+   "start": 25.13,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Why video rounds differ",
+   "eyebrow": "The situation",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 28.6,
+   "duration": 4.4,
+   "type": "keyword_chip",
+   "text": "No handshake, no room",
+   "side": "right"
+  },
+  {
+   "start": 33.4,
+   "duration": 2.6,
+   "type": "big_statement",
+   "text": "A small window",
+   "eyebrow": "Their view"
+  },
+  {
+   "start": 36.3,
+   "duration": 8.3,
+   "type": "fact_band",
+   "text": "The window shows",
+   "items": [
+    {
+     "label": "Your face",
+     "sublabel": "1"
+    },
+    {
+     "label": "Your background",
+     "sublabel": "2"
+    },
+    {
+     "label": "Call smoothness",
+     "sublabel": "3"
+    }
+   ]
+  },
+  {
+   "start": 45.2,
+   "duration": 4.7,
+   "type": "quote_pull",
+   "text": "A distracted interviewer remembers the problem",
+   "eyebrow": "Not your answer"
+  },
+  {
+   "start": 50.4,
+   "duration": 4.2,
+   "type": "big_statement",
+   "text": "All three: your control",
+   "eyebrow": "Good news"
+  },
+  {
+   "start": 54.83,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "The bad setup",
+   "eyebrow": "Mistake 01",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 58.2,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Window behind = shadow",
+   "side": "right"
+  },
+  {
+   "start": 61.6,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Low camera = chin shot",
+   "side": "left"
+  },
+  {
+   "start": 64.9,
+   "duration": 5.1,
+   "type": "side_note",
+   "text": "Messy bed, fan, poster",
+   "side": "right"
+  },
+  {
+   "start": 70.6,
+   "duration": 11.2,
+   "type": "comparison",
+   "side": "left",
+   "left": {
+    "label": "Bad",
+    "text": "Window behind, low camera, messy room"
+   },
+   "right": {
+    "label": "Good",
+    "text": "Face the light, eye-level camera, plain wall"
+   }
+  },
+  {
+   "start": 82.1,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "Look at the lens",
+   "side": "right"
+  },
+  {
+   "start": 86,
+   "duration": 2.8,
+   "type": "side_note",
+   "text": "That is eye contact",
+   "side": "left"
+  },
+  {
+   "start": 89.2,
+   "duration": 5.6,
+   "type": "big_statement",
+   "text": "Record 30 seconds the day before",
+   "eyebrow": "The test"
+  },
+  {
+   "start": 95,
+   "duration": 1.7,
+   "type": "side_note",
+   "text": "3 fixes, 2 minutes",
+   "side": "right"
+  },
+  {
+   "start": 96.85,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Tech trouble",
+   "eyebrow": "Mistake 02",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 100.2,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "Joined at the exact minute",
+   "side": "right"
+  },
+  {
+   "start": 103.8,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Weak signal, low battery",
+   "side": "left"
+  },
+  {
+   "start": 107.4,
+   "duration": 3.6,
+   "type": "side_note",
+   "text": "Update asked, mic muted",
+   "side": "right"
+  },
+  {
+   "start": 111.4,
+   "duration": 3,
+   "type": "side_note",
+   "text": "5 minutes gone",
+   "side": "left"
+  },
+  {
+   "start": 114.9,
+   "duration": 18.6,
+   "type": "checklist",
+   "side": "right",
+   "text": "The day before",
+   "items": [
+    {
+     "label": "Test the meeting app",
+     "state": "yes"
+    },
+    {
+     "label": "Laptop plugged in",
+     "state": "yes"
+    },
+    {
+     "label": "Headphones with mic",
+     "state": "yes"
+    },
+    {
+     "label": "Close other tabs",
+     "state": "yes"
+    },
+    {
+     "label": "Phone hotspot ready",
+     "state": "yes"
+    },
+    {
+     "label": "Join 5 minutes early",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 134.7,
+   "duration": 8.8,
+   "type": "flow_diagram",
+   "text": "If the call drops",
+   "items": [
+    {
+     "label": "Drop",
+     "sublabel": "do not panic"
+    },
+    {
+     "label": "Rejoin",
+     "sublabel": "quickly"
+    },
+    {
+     "label": "Say sorry",
+     "sublabel": "once"
+    },
+    {
+     "label": "Continue",
+     "sublabel": "have a plan"
+    }
+   ]
+  },
+  {
+   "start": 143.82,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Looking away",
+   "eyebrow": "Mistake 03",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 147.8,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Eyes on the screen's edge",
+   "side": "right"
+  },
+  {
+   "start": 151.9,
+   "duration": 3.9,
+   "type": "keyword_chip",
+   "text": "Glancing away looks like cheating",
+   "side": "right"
+  },
+  {
+   "start": 156,
+   "duration": 3.5,
+   "type": "side_note",
+   "text": "Notes? Or a helper?",
+   "side": "left"
+  },
+  {
+   "start": 160,
+   "duration": 4.2,
+   "type": "keyword_chip",
+   "text": "Proctoring tools can flag it",
+   "side": "right"
+  },
+  {
+   "start": 164.6,
+   "duration": 4.4,
+   "type": "side_note",
+   "text": "Rejection, maybe a ban",
+   "side": "left"
+  },
+  {
+   "start": 169.5,
+   "duration": 10.5,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Fine",
+    "text": "Small notes: intro, project names"
+   },
+   "right": {
+    "label": "Not fine",
+    "text": "Reading answers, outside help"
+   }
+  },
+  {
+   "start": 180.3,
+   "duration": 2.5,
+   "type": "side_note",
+   "text": "Unsure? Ask first",
+   "side": "left"
+  },
+  {
+   "start": 183,
+   "duration": 4.5,
+   "type": "keyword_chip",
+   "text": "Ask politely at the start",
+   "side": "right"
+  },
+  {
+   "start": 188.2,
+   "duration": 4.9,
+   "type": "quote_pull",
+   "text": "Give me a moment to think.",
+   "eyebrow": "Say this, not silence"
+  },
+  {
+   "start": 193.3,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "What to do now",
+   "eyebrow": "Step by step",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 196.9,
+   "duration": 14.7,
+   "type": "checklist",
+   "side": "right",
+   "text": "Your 3 steps",
+   "items": [
+    {
+     "label": "Mock call tonight",
+     "state": "yes"
+    },
+    {
+     "label": "Test it all a day before",
+     "state": "yes"
+    },
+    {
+     "label": "Short notes, eyes on camera",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 212,
+   "duration": 7.1,
+   "type": "fact_band",
+   "text": "Recap",
+   "items": [
+    {
+     "label": "A bad setup",
+     "sublabel": "1"
+    },
+    {
+     "label": "Tech trouble",
+     "sublabel": "2"
+    },
+    {
+     "label": "Looking away",
+     "sublabel": "3"
+    }
+   ]
+  },
+  {
+   "start": 219.6,
+   "duration": 8.6,
+   "type": "poll_prompt",
+   "text": "Which one have you ignored until today?",
+   "eyebrow": "Write 1, 2 or 3",
+   "items": [
+    {
+     "label": "1 · Bad setup",
+     "value": 34
+    },
+    {
+     "label": "2 · Tech trouble",
+     "value": 33
+    },
+    {
+     "label": "3 · Looking away",
+     "value": 33
+    }
+   ]
+  },
+  {
+   "start": 228.7,
+   "duration": 1.6,
+   "type": "keyword_chip",
+   "text": "Like · Subscribe",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/hands.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 7.5,
+   "index": 0
+  },
+  {
+   "start": 7.5,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "30 s",
+    "label": "to be rejected"
+   },
+   "end": 13.9,
+   "index": 1
+  },
+  {
+   "start": 13.9,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "3",
+    "label": "mistakes, 3 fixes"
+   },
+   "end": 20.2,
+   "index": 2
+  },
+  {
+   "start": 20.2,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "?",
+    "label": "the third is not technical"
+   },
+   "end": 25.13,
+   "index": 3
+  },
+  {
+   "start": 25.13,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 30.3,
+   "index": 4
+  },
+  {
+   "start": 30.3,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 36.05,
+   "index": 5
+  },
+  {
+   "start": 36.05,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3",
+    "label": "face, background, call"
+   },
+   "end": 40.86,
+   "index": 6
+  },
+  {
+   "start": 40.86,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "0",
+    "label": "words spoken so far"
+   },
+   "end": 50.25,
+   "index": 7
+  },
+  {
+   "start": 50.25,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3/3",
+    "label": "in your control"
+   },
+   "end": 54.83,
+   "index": 8
+  },
+  {
+   "start": 54.83,
+   "kind": "broll",
+   "src": "assets/broll/man.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 61.37,
+   "index": 9
+  },
+  {
+   "start": 61.37,
+   "kind": "broll",
+   "src": "assets/broll/fan.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 70.33,
+   "index": 10
+  },
+  {
+   "start": 70.33,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "FIX",
+    "label": "the simple version"
+   },
+   "end": 78.09,
+   "index": 11
+  },
+  {
+   "start": 78.09,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 88.93,
+   "index": 12
+  },
+  {
+   "start": 88.93,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "30 s",
+    "label": "record, watch, fix"
+   },
+   "end": 96.85,
+   "index": 13
+  },
+  {
+   "start": 96.85,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 100.1,
+   "index": 14
+  },
+  {
+   "start": 100.1,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "0:00",
+    "label": "joining at the exact minute"
+   },
+   "end": 107.21,
+   "index": 15
+  },
+  {
+   "start": 107.21,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "5 min",
+    "label": "gone to updates"
+   },
+   "end": 114.8,
+   "index": 16
+  },
+  {
+   "start": 114.8,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "6",
+    "label": "checks, day before"
+   },
+   "end": 124.5,
+   "index": 17
+  },
+  {
+   "start": 124.5,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "1 day",
+    "label": "before the interview"
+   },
+   "end": 134.53,
+   "index": 18
+  },
+  {
+   "start": 134.53,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 143.82,
+   "index": 19
+  },
+  {
+   "start": 143.82,
+   "kind": "broll",
+   "src": "assets/broll/man.mp4",
+   "media_start": 2,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 151.62,
+   "index": 20
+  },
+  {
+   "start": 151.62,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "EYES",
+    "label": "give you away"
+   },
+   "end": 159.68,
+   "index": 21
+  },
+  {
+   "start": 159.68,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "flag",
+    "label": "some tools, some firms"
+   },
+   "end": 164.44,
+   "index": 22
+  },
+  {
+   "start": 164.44,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "ban",
+    "label": "possible, on cheating"
+   },
+   "end": 169.32,
+   "index": 23
+  },
+  {
+   "start": 169.32,
+   "kind": "broll",
+   "src": "assets/broll/hands.mp4",
+   "media_start": 3.5,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 177.23,
+   "index": 24
+  },
+  {
+   "start": 177.23,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "NO",
+    "label": "outside help"
+   },
+   "end": 182.88,
+   "index": 25
+  },
+  {
+   "start": 182.88,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "ASK",
+    "label": "if unsure, at the start"
+   },
+   "end": 187.82,
+   "index": 26
+  },
+  {
+   "start": 187.82,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 193.25,
+   "index": 27
+  },
+  {
+   "start": 193.25,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 197,
+   "index": 28
+  },
+  {
+   "start": 197,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "01",
+    "label": "mock call"
+   },
+   "end": 201.74,
+   "index": 29
+  },
+  {
+   "start": 201.74,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "02",
+    "label": "test it all"
+   },
+   "end": 207.7,
+   "index": 30
+  },
+  {
+   "start": 207.7,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "03",
+    "label": "notes, not answers"
+   },
+   "end": 211.84,
+   "index": 31
+  },
+  {
+   "start": 211.84,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3",
+    "label": "mistakes, recapped"
+   },
+   "end": 219.32,
+   "index": 32
+  },
+  {
+   "start": 219.32,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "?",
+    "label": "which number?"
+   },
+   "end": 228.44,
+   "index": 33
+  },
+  {
+   "start": 228.44,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe"
+   },
+   "end": 230.5,
+   "index": 34
+  }
+ ],
+ "camera_moves": []
+}
