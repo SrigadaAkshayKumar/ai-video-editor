@@ -1,0 +1,218 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "title_slide: Handed a PIP?"
+  },
+  {
+   "time": 5.78,
+   "sfx": "whoosh",
+   "gain": 1,
+   "reason": "number_roll: to meet the targets"
+  },
+  {
+   "time": 9.78,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "keyword_chip: First year, or about to join"
+  },
+  {
+   "time": 13.88,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "stat_trio: This video"
+  },
+  {
+   "time": 24.38,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: What a PIP really is"
+  },
+  {
+   "time": 33.48,
+   "sfx": "whoosh",
+   "gain": 1,
+   "reason": "number_roll: usually 30 to 90"
+  },
+  {
+   "time": 37.48,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "keyword_chip: As Mint described it"
+  },
+  {
+   "time": 40.58,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "side_note: Not automatically a termination letter"
+  },
+  {
+   "time": 44.38,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "flow_diagram: How a PIP runs"
+  },
+  {
+   "time": 56.88,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "checklist: You can see it coming"
+  },
+  {
+   "time": 66.68,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Saying yes and walking out"
+  },
+  {
+   "time": 69.98,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "keyword_chip: Mistake one: stay silent"
+  },
+  {
+   "time": 72.48,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "keyword_chip: Nod. Sign. Walk away."
+  },
+  {
+   "time": 78.38,
+   "sfx": "whoosh",
+   "gain": 1,
+   "reason": "big_statement: Ask for it in writing"
+  },
+  {
+   "time": 83.28,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "checklist: Get these in writing"
+  },
+  {
+   "time": 90.88,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "comparison: "
+  },
+  {
+   "time": 98.08,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "side_note: Viral post, not official"
+  },
+  {
+   "time": 101.88,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "keyword_chip: Nothing in writing"
+  },
+  {
+   "time": 104.98,
+   "sfx": "whoosh",
+   "gain": 1,
+   "reason": "big_statement: Written targets protect you"
+  },
+  {
+   "time": 109.68,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Hiding the real reason"
+  },
+  {
+   "time": 116.48,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "keyword_chip: Sick, or trouble at home?"
+  },
+  {
+   "time": 119.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "side_note: Scared of looking weak"
+  },
+  {
+   "time": 121.48,
+   "sfx": "whoosh",
+   "gain": 1,
+   "reason": "big_statement: HR can only help with what it knows"
+  },
+  {
+   "time": 129.28,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "side_note: Tell HR about illness affecting work"
+  },
+  {
+   "time": 133.78,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "keyword_chip: Write a letter if you disagree"
+  },
+  {
+   "time": 137.28,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "checklist: The calm email"
+  },
+  {
+   "time": 146.68,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Waiting for the result"
+  },
+  {
+   "time": 154.88,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "side_note: Job portals every night"
+  },
+  {
+   "time": 159.38,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "flow_diagram: Every week"
+  },
+  {
+   "time": 168.58,
+   "sfx": "whoosh",
+   "gain": 1,
+   "reason": "big_statement: You are not guessing. You are showing."
+  },
+  {
+   "time": 175.68,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "keyword_chip: Reported by Mint"
+  },
+  {
+   "time": 184.08,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "side_note: Notice / severance: depends on your contract"
+  },
+  {
+   "time": 193.08,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "fact_band: Recap"
+  },
+  {
+   "time": 205.88,
+   "sfx": "whoosh",
+   "gain": 1,
+   "reason": "big_statement: What helped your team?"
+  },
+  {
+   "time": 214.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "keyword_chip: Like · Subscribe"
+  }
+ ]
+}

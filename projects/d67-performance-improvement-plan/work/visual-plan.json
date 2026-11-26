@@ -1,0 +1,826 @@
+{
+ "style": "broadcast",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 5.45,
+   "type": "title_slide",
+   "text": "Handed a PIP?",
+   "eyebrow": "Crack IT · Day 67",
+   "style_hint": "3 mistakes freshers make"
+  },
+  {
+   "start": 5.7,
+   "duration": 3.5,
+   "type": "number_roll",
+   "value": 30,
+   "suffix": " days",
+   "text": "to meet the targets"
+  },
+  {
+   "start": 9.7,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "First year, or about to join",
+   "side": "left"
+  },
+  {
+   "start": 13.8,
+   "duration": 5.4,
+   "type": "stat_trio",
+   "text": "This video",
+   "items": [
+    {
+     "label": "mistakes",
+     "sublabel": "",
+     "value": 3
+    },
+    {
+     "label": "minutes",
+     "sublabel": "",
+     "value": 5
+    },
+    {
+     "label": "thing to do on day one",
+     "sublabel": "",
+     "value": 1
+    }
+   ]
+  },
+  {
+   "start": 19.6,
+   "duration": 4,
+   "type": "side_note",
+   "text": "Third one quietly ends careers",
+   "side": "right"
+  },
+  {
+   "start": 24.3,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "What a PIP really is",
+   "eyebrow": "The situation",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 27.6,
+   "duration": 5.4,
+   "type": "quote_pull",
+   "text": "Performance Improvement Plan",
+   "eyebrow": "A formal document with targets"
+  },
+  {
+   "start": 33.4,
+   "duration": 3.4,
+   "type": "number_roll",
+   "value": 90,
+   "suffix": " days max",
+   "text": "usually 30 to 90"
+  },
+  {
+   "start": 37.4,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "As Mint described it",
+   "side": "right"
+  },
+  {
+   "start": 40.5,
+   "duration": 3.5,
+   "type": "side_note",
+   "text": "Not automatically a termination letter",
+   "side": "left"
+  },
+  {
+   "start": 44.3,
+   "duration": 7.7,
+   "type": "flow_diagram",
+   "text": "How a PIP runs",
+   "items": [
+    {
+     "label": "Concern",
+     "sublabel": ""
+    },
+    {
+     "label": "Written plan",
+     "sublabel": "a chance to fix"
+    },
+    {
+     "label": "Targets",
+     "sublabel": ""
+    },
+    {
+     "label": "Review",
+     "sublabel": ""
+    },
+    {
+     "label": "Result",
+     "sublabel": "sometimes a warning"
+    }
+   ]
+  },
+  {
+   "start": 52.3,
+   "duration": 4.1,
+   "type": "side_note",
+   "text": "Take it seriously. Don't panic.",
+   "side": "right"
+  },
+  {
+   "start": 56.8,
+   "duration": 9.2,
+   "type": "checklist",
+   "side": "right",
+   "text": "You can see it coming",
+   "items": [
+    {
+     "label": "Weak output",
+     "state": "no"
+    },
+    {
+     "label": "Missed deadlines",
+     "state": "no"
+    },
+    {
+     "label": "Too many mistakes",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 66.6,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Saying yes and walking out",
+   "eyebrow": "Mistake 01",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 69.9,
+   "duration": 2.3,
+   "type": "keyword_chip",
+   "text": "Mistake one: stay silent",
+   "side": "left"
+  },
+  {
+   "start": 72.4,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Nod. Sign. Walk away.",
+   "side": "right"
+  },
+  {
+   "start": 75.4,
+   "duration": 2.6,
+   "type": "side_note",
+   "text": "Measured on things you never understood",
+   "side": "left"
+  },
+  {
+   "start": 78.3,
+   "duration": 4.5,
+   "type": "big_statement",
+   "text": "Ask for it in writing",
+   "eyebrow": "Instead"
+  },
+  {
+   "start": 83.2,
+   "duration": 7.1,
+   "type": "checklist",
+   "side": "right",
+   "text": "Get these in writing",
+   "items": [
+    {
+     "label": "What is expected",
+     "state": "yes"
+    },
+    {
+     "label": "How it is measured",
+     "state": "yes"
+    },
+    {
+     "label": "By which date",
+     "state": "yes"
+    },
+    {
+     "label": "Review meetings",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 90.8,
+   "duration": 6.6,
+   "type": "comparison",
+   "side": "left",
+   "left": {
+    "label": "Vague",
+    "text": "Improve your performance"
+   },
+   "right": {
+    "label": "Measurable",
+    "text": "Tasks closed, bugs reopened"
+   }
+  },
+  {
+   "start": 98,
+   "duration": 3.5,
+   "type": "side_note",
+   "text": "Viral post, not official",
+   "side": "right"
+  },
+  {
+   "start": 101.8,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Nothing in writing",
+   "side": "left"
+  },
+  {
+   "start": 104.9,
+   "duration": 4.3,
+   "type": "big_statement",
+   "text": "Written targets protect you",
+   "eyebrow": "Do not be that person"
+  },
+  {
+   "start": 109.6,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Hiding the real reason",
+   "eyebrow": "Mistake 02",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 114.2,
+   "duration": 2,
+   "type": "keyword_chip",
+   "text": "Struggling with the tech?",
+   "side": "right"
+  },
+  {
+   "start": 116.4,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "Sick, or trouble at home?",
+   "side": "left"
+  },
+  {
+   "start": 119,
+   "duration": 2.3,
+   "type": "side_note",
+   "text": "Scared of looking weak",
+   "side": "right"
+  },
+  {
+   "start": 121.4,
+   "duration": 2.9,
+   "type": "big_statement",
+   "text": "HR can only help with what it knows",
+   "eyebrow": "The catch"
+  },
+  {
+   "start": 125.8,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Law firm quoted by Mint",
+   "side": "right"
+  },
+  {
+   "start": 129.2,
+   "duration": 4.3,
+   "type": "side_note",
+   "text": "Tell HR about illness affecting work",
+   "side": "left"
+  },
+  {
+   "start": 133.7,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Write a letter if you disagree",
+   "side": "right"
+  },
+  {
+   "start": 137.2,
+   "duration": 8.8,
+   "type": "checklist",
+   "side": "right",
+   "text": "The calm email",
+   "items": [
+    {
+     "label": "Thank your manager",
+     "state": "yes"
+    },
+    {
+     "label": "Confirm targets",
+     "state": "yes"
+    },
+    {
+     "label": "Ask weekly check-in",
+     "state": "yes"
+    },
+    {
+     "label": "No anger, no blame",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 146.6,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Waiting for the result",
+   "eyebrow": "Mistake 03",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 151.3,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "Doing the work, not showing it",
+   "side": "right"
+  },
+  {
+   "start": 154.8,
+   "duration": 4.1,
+   "type": "side_note",
+   "text": "Job portals every night",
+   "side": "left"
+  },
+  {
+   "start": 159.3,
+   "duration": 8.9,
+   "type": "flow_diagram",
+   "text": "Every week",
+   "items": [
+    {
+     "label": "Weekly task",
+     "sublabel": "small"
+    },
+    {
+     "label": "3-line update",
+     "sublabel": ""
+    },
+    {
+     "label": "Proof",
+     "sublabel": "for review"
+    }
+   ]
+  },
+  {
+   "start": 168.5,
+   "duration": 4.7,
+   "type": "big_statement",
+   "text": "You are not guessing. You are showing.",
+   "eyebrow": "Your proof"
+  },
+  {
+   "start": 175.6,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "Reported by Mint",
+   "side": "left"
+  },
+  {
+   "start": 178.8,
+   "duration": 5,
+   "type": "keyword_chip",
+   "text": "Gratuity: poor performance alone is not a bar",
+   "side": "left"
+  },
+  {
+   "start": 184,
+   "duration": 6.4,
+   "type": "side_note",
+   "text": "Notice / severance: depends on your contract",
+   "side": "left"
+  },
+  {
+   "start": 193,
+   "duration": 10,
+   "type": "fact_band",
+   "text": "Recap",
+   "items": [
+    {
+     "label": "ASK",
+     "sublabel": "in writing"
+    },
+    {
+     "label": "EXPLAIN",
+     "sublabel": "calm email"
+    },
+    {
+     "label": "SHOW",
+     "sublabel": "weekly"
+    }
+   ]
+  },
+  {
+   "start": 205.8,
+   "duration": 7.7,
+   "type": "big_statement",
+   "text": "What helped your team?",
+   "eyebrow": "Comment below. No names, no company secrets."
+  },
+  {
+   "start": 214,
+   "duration": 4.3,
+   "type": "keyword_chip",
+   "text": "Like · Subscribe",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/paper.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 5.6,
+   "index": 0
+  },
+  {
+   "start": 5.6,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "30",
+    "label": "days on the plan"
+   },
+   "end": 9.5,
+   "index": 1
+  },
+  {
+   "start": 9.5,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "1st",
+    "label": "year as a fresher"
+   },
+   "end": 16.2,
+   "index": 2
+  },
+  {
+   "start": 16.2,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "3",
+    "label": "mistakes that make it worse"
+   },
+   "end": 19.4,
+   "index": 3
+  },
+  {
+   "start": 19.4,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "?",
+    "label": "the third ends careers"
+   },
+   "end": 24.1,
+   "index": 4
+  },
+  {
+   "start": 24.1,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "PIP",
+    "label": "performance improvement plan"
+   },
+   "end": 33.3,
+   "index": 5
+  },
+  {
+   "start": 33.3,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "30-90",
+    "label": "days, usually"
+   },
+   "end": 36.9,
+   "index": 6
+  },
+  {
+   "start": 36.9,
+   "kind": "news",
+   "url": "https://www.livemint.com/news/trends/5000-spent-on-tickets-leave-denied-what-are-employees-rights-when-companies-put-them-on-a-pip-11792164439078.html",
+   "source": "Mint (livemint.com)",
+   "headline": "Leave Denied: What Are Employees' Rights When Companies Put Them On A PIP?",
+   "date": "16 Oct 2026",
+   "highlight": {
+    "x": 0.15,
+    "y": 0.27,
+    "w": 0.47,
+    "h": 0.05
+   },
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 40.3,
+   "index": 7
+  },
+  {
+   "start": 40.3,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "NOT",
+    "label": "automatically an exit"
+   },
+   "end": 46.4,
+   "index": 8
+  },
+  {
+   "start": 46.4,
+   "kind": "broll",
+   "src": "assets/broll/worried.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 52.2,
+   "index": 9
+  },
+  {
+   "start": 52.2,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 56.7,
+   "index": 10
+  },
+  {
+   "start": 56.7,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "?",
+    "label": "you can see it coming"
+   },
+   "end": 66.4,
+   "index": 11
+  },
+  {
+   "start": 66.4,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 72.3,
+   "index": 12
+  },
+  {
+   "start": 72.3,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "NOD",
+    "label": "sign, walk away"
+   },
+   "end": 78,
+   "index": 13
+  },
+  {
+   "start": 78,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 83,
+   "index": 14
+  },
+  {
+   "start": 83,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "4",
+    "label": "things to ask in writing"
+   },
+   "end": 90.5,
+   "index": 15
+  },
+  {
+   "start": 90.5,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "NUMBERS",
+    "label": "not 'improve'"
+   },
+   "end": 97.6,
+   "index": 16
+  },
+  {
+   "start": 97.6,
+   "kind": "news",
+   "url": "https://www.livemint.com/news/trends/5000-spent-on-tickets-leave-denied-what-are-employees-rights-when-companies-put-them-on-a-pip-11792164439078.html",
+   "source": "Mint (livemint.com)",
+   "headline": "Leave Denied: What Are Employees' Rights When Companies Put Them On A PIP?",
+   "date": "16 Oct 2026",
+   "highlight": {
+    "x": 0.15,
+    "y": 0.535,
+    "w": 0.47,
+    "h": 0.055
+   },
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 104.7,
+   "index": 17
+  },
+  {
+   "start": 104.7,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "0",
+    "label": "pages in writing"
+   },
+   "end": 109.5,
+   "index": 18
+  },
+  {
+   "start": 109.5,
+   "kind": "graphic",
+   "grade": "noir",
+   "end": 114,
+   "index": 19
+  },
+  {
+   "start": 114,
+   "kind": "broll",
+   "src": "assets/broll/worried.mp4",
+   "media_start": 6,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 121.4,
+   "index": 20
+  },
+  {
+   "start": 121.4,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 124.4,
+   "index": 21
+  },
+  {
+   "start": 124.4,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "HR",
+    "label": "tell them what affects work"
+   },
+   "end": 129.2,
+   "index": 22
+  },
+  {
+   "start": 129.2,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 133.7,
+   "index": 23
+  },
+  {
+   "start": 133.7,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 8,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 137,
+   "index": 24
+  },
+  {
+   "start": 137,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "1",
+    "label": "calm, short email"
+   },
+   "end": 146.4,
+   "index": 25
+  },
+  {
+   "start": 146.4,
+   "kind": "graphic",
+   "grade": "noir",
+   "end": 150,
+   "index": 26
+  },
+  {
+   "start": 150,
+   "kind": "broll",
+   "src": "assets/broll/keys.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 159.2,
+   "index": 27
+  },
+  {
+   "start": 159.2,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "3",
+    "label": "lines every week"
+   },
+   "end": 168.4,
+   "index": 28
+  },
+  {
+   "start": 168.4,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "PROOF",
+    "label": "not guessing"
+   },
+   "end": 173.3,
+   "index": 29
+  },
+  {
+   "start": 173.3,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "GRATUITY",
+    "label": "still protected, reported by Mint"
+   },
+   "end": 178.8,
+   "index": 30
+  },
+  {
+   "start": 178.8,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 184,
+   "index": 31
+  },
+  {
+   "start": 184,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "CONTRACT",
+    "label": "notice and severance"
+   },
+   "end": 192.8,
+   "index": 32
+  },
+  {
+   "start": 192.8,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "3",
+    "label": "ASK · EXPLAIN · SHOW"
+   },
+   "end": 198.8,
+   "index": 33
+  },
+  {
+   "start": 198.8,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 205.6,
+   "index": 34
+  },
+  {
+   "start": 205.6,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "?",
+    "label": "what helped your team"
+   },
+   "end": 213.8,
+   "index": 35
+  },
+  {
+   "start": 213.8,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe"
+   },
+   "end": 218.83,
+   "index": 36
+  }
+ ],
+ "camera_moves": []
+}
