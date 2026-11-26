@@ -112,6 +112,12 @@ if (cmd === "next") {
   const planned = config.plannedEpisodes !== false;
   const pick = arg ? episodes.find((e) => e.toLowerCase() === arg.toLowerCase())
     : episodes.find((e) => !finished(e) && (planned || filesOf(e).includes(FRESH_MARK)));
+  // a new number named on purpose (parallel runs, each with its own episode and publish time): a fresh episode
+  if (arg && !pick && /^d\d+$/i.test(arg) && config.freshNews !== false) {
+    const episode = arg.toLowerCase();
+    output({ episode, needs: "script", fresh: 1, dir: rel(config.series, episode), audio: "", voiceover: "", brief: "", ...lookFields(episode) });
+    process.exit(0);
+  }
   if (arg && !pick) die(`no episode folder ${arg} in ${config.series}`);
   if (!pick) {
     if (config.freshNews === false) {
