@@ -1,0 +1,104 @@
+{
+  "name": "d58-work-chat-etiquette",
+  "createdAt": "2026-11-26T06:25:04.654Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d58-work-chat-etiquette/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d58/d58-voice.wav",
+    "duration": 213.160042,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d58-work-chat-etiquette/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d58/d58_work_chat_etiquette_voiceover.txt",
+    "words": 744,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d58-work-chat-etiquette/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Mistake",
+    "Others",
+    "Write",
+    "Never"
+  ],
+  "mode": "faceless",
+  "style": "liquid",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; modern liquid-glass look for a young audience: glossy capsules, jelly-spring arrivals, slow push-ins on b-roll, keyword chips and stat trios; energetic, a beat every 3-5 s; airy swooshes and pops",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 23.2,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-26T06:26:49.767Z",
+      "words": 674,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-26T06:27:59.744Z",
+      "segments": 12,
+      "kept": 209.9
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-26T06:51:55.914Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d58-work-chat-etiquette/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-26T06:51:59.241Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-26T06:51:59.282Z",
+      "groups": 201
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-26T06:52:11.355Z",
+      "music": 0,
+      "sfx": 32
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-26T06:57:13.957Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d58-work-chat-etiquette/output/final-16x9.mp4",
+      "duration": 219.904
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.944607,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d58-work-chat-etiquette/work/cleancut.wav",
+    "duration": 209.893458,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

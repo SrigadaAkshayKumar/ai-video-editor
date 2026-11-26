@@ -1,0 +1,830 @@
+{
+ "style": "liquid",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 4.25,
+   "type": "title_slide",
+   "text": "Work chat etiquette",
+   "eyebrow": "Crack IT · Day 58",
+   "style_hint": "3 message mistakes"
+  },
+  {
+   "start": 4.5,
+   "duration": 4.1,
+   "type": "keyword_chip",
+   "text": "One word. One impression.",
+   "side": "right"
+  },
+  {
+   "start": 9.3,
+   "duration": 1.8,
+   "type": "keyword_chip",
+   "text": "First month or first job",
+   "side": "left"
+  },
+  {
+   "start": 11.4,
+   "duration": 5.6,
+   "type": "stat_trio",
+   "text": "This video",
+   "items": [
+    {
+     "label": "chat mistakes",
+     "sublabel": "",
+     "value": 3
+    },
+    {
+     "label": "minutes",
+     "sublabel": "",
+     "value": 5
+    },
+    {
+     "label": "message to copy",
+     "sublabel": "",
+     "value": 1
+    }
+   ]
+  },
+  {
+   "start": 18.4,
+   "duration": 4.4,
+   "type": "side_note",
+   "text": "Third one = real trouble",
+   "side": "right"
+  },
+  {
+   "start": 23.43,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Why chat matters",
+   "eyebrow": "The situation",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 27,
+   "duration": 2,
+   "type": "keyword_chip",
+   "text": "Hybrid work",
+   "side": "right"
+  },
+  {
+   "start": 29.9,
+   "duration": 3.9,
+   "type": "keyword_chip",
+   "text": "Teammates in another city",
+   "side": "left"
+  },
+  {
+   "start": 34.4,
+   "duration": 6.1,
+   "type": "flow_diagram",
+   "text": "Your message",
+   "items": [
+    {
+     "label": "Message",
+     "sublabel": "what you write"
+    },
+    {
+     "label": "Impression",
+     "sublabel": "how you look"
+    },
+    {
+     "label": "Work",
+     "sublabel": "what you get"
+    }
+   ]
+  },
+  {
+   "start": 40.9,
+   "duration": 1.5,
+   "type": "keyword_chip",
+   "text": "Clear message = trust",
+   "side": "right"
+  },
+  {
+   "start": 42.7,
+   "duration": 3.8,
+   "type": "big_statement",
+   "text": "Clear writing looks ready",
+   "eyebrow": "Before the code is"
+  },
+  {
+   "start": 47.1,
+   "duration": 3.2,
+   "type": "side_note",
+   "text": "A skill. Learn it today.",
+   "side": "left"
+  },
+  {
+   "start": 50.5,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "The lonely hi",
+   "eyebrow": "Mistake 01",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 54.4,
+   "duration": 2.5,
+   "type": "keyword_chip",
+   "text": "\"Hi sir\" ... waits",
+   "side": "right"
+  },
+  {
+   "start": 57,
+   "duration": 1.3,
+   "type": "keyword_chip",
+   "text": "\"Are you free?\"",
+   "side": "left"
+  },
+  {
+   "start": 58.4,
+   "duration": 2.8,
+   "type": "side_note",
+   "text": "Manager must reply to ask",
+   "side": "right"
+  },
+  {
+   "start": 61.4,
+   "duration": 2.9,
+   "type": "number_roll",
+   "value": 10,
+   "suffix": " min",
+   "text": "for a 2-line problem"
+  },
+  {
+   "start": 64.9,
+   "duration": 5.1,
+   "type": "comparison",
+   "side": "left",
+   "left": {
+    "label": "Bad",
+    "text": "\"Hi sir\" / \"Are you free?\""
+   },
+   "right": {
+    "label": "Good",
+    "text": "Hello + topic + what I tried + what I need"
+   }
+  },
+  {
+   "start": 70.6,
+   "duration": 9.1,
+   "type": "quote_pull",
+   "text": "Hi, I am working on the login ticket. I tried restarting the service and checking the logs. Same error. Could you spare five minutes today?",
+   "eyebrow": "Sample message, not a real person"
+  },
+  {
+   "start": 80.3,
+   "duration": 6,
+   "type": "checklist",
+   "side": "right",
+   "text": "Manager now knows",
+   "items": [
+    {
+     "label": "Topic",
+     "state": "yes"
+    },
+    {
+     "label": "What I tried",
+     "state": "yes"
+    },
+    {
+     "label": "What I need",
+     "state": "yes"
+    },
+    {
+     "label": "How long",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 86.5,
+   "duration": 1.7,
+   "type": "side_note",
+   "text": "Answerable from a phone",
+   "side": "right"
+  },
+  {
+   "start": 88.25,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Wrong place, wrong time",
+   "eyebrow": "Mistake 02",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 91.4,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "One senior = helpline",
+   "side": "right"
+  },
+  {
+   "start": 94.2,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "They get tired",
+   "side": "left"
+  },
+  {
+   "start": 97.2,
+   "duration": 1.1,
+   "type": "keyword_chip",
+   "text": "Or the opposite",
+   "side": "right"
+  },
+  {
+   "start": 98.5,
+   "duration": 5,
+   "type": "number_roll",
+   "value": 50,
+   "text": "people can read your team post"
+  },
+  {
+   "start": 103.9,
+   "duration": 8.6,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Team channel",
+    "text": "Common doubts, updates"
+   },
+   "right": {
+    "label": "Private / call",
+    "text": "Leave, performance, complaints"
+   }
+  },
+  {
+   "start": 112.8,
+   "duration": 3.7,
+   "type": "keyword_chip",
+   "text": "Manager, privately",
+   "side": "left"
+  },
+  {
+   "start": 116.8,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "Or in a call",
+   "side": "right"
+  },
+  {
+   "start": 119.9,
+   "duration": 3.7,
+   "type": "keyword_chip",
+   "text": "Many mute after hours",
+   "side": "right"
+  },
+  {
+   "start": 124.1,
+   "duration": 3.4,
+   "type": "big_statement",
+   "text": "11 PM: urgent only to you",
+   "eyebrow": "Watch the clock"
+  },
+  {
+   "start": 127.8,
+   "duration": 3.4,
+   "type": "side_note",
+   "text": "Schedule it for the morning",
+   "side": "right"
+  },
+  {
+   "start": 131.5,
+   "duration": 2.6,
+   "type": "big_statement",
+   "text": "Unless broken, it can wait",
+   "eyebrow": "Rule"
+  },
+  {
+   "start": 134.27,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "The careless message",
+   "eyebrow": "Mistake 03",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 137.9,
+   "duration": 1.9,
+   "type": "keyword_chip",
+   "text": "Not a private diary",
+   "side": "right"
+  },
+  {
+   "start": 140,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "Companies can usually look",
+   "side": "left"
+  },
+  {
+   "start": 143,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "Jokes about your manager",
+   "side": "right"
+  },
+  {
+   "start": 146.8,
+   "duration": 3.4,
+   "type": "side_note",
+   "text": "Project screenshots to friends",
+   "side": "left"
+  },
+  {
+   "start": 150.4,
+   "duration": 10.2,
+   "type": "checklist",
+   "side": "right",
+   "text": "Never share in personal chat",
+   "items": [
+    {
+     "label": "Client names",
+     "state": "no"
+    },
+    {
+     "label": "Code",
+     "state": "no"
+    },
+    {
+     "label": "Passwords",
+     "state": "no"
+    },
+    {
+     "label": "Confidential files",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 160.9,
+   "duration": 5.3,
+   "type": "progress_ring",
+   "side": "right",
+   "text": "Angry? Wait ten minutes",
+   "value": 100
+  },
+  {
+   "start": 167.6,
+   "duration": 4.9,
+   "type": "quote_pull",
+   "text": "Thanks for the feedback, I will fix this and update you by evening.",
+   "eyebrow": "Sample reply"
+  },
+  {
+   "start": 172.9,
+   "duration": 1.4,
+   "type": "keyword_chip",
+   "text": "One more habit",
+   "side": "left"
+  },
+  {
+   "start": 174.5,
+   "duration": 5.8,
+   "type": "quote_pull",
+   "text": "Okay, I will do it.",
+   "eyebrow": "Reply fast to a task"
+  },
+  {
+   "start": 180.6,
+   "duration": 11.6,
+   "type": "checklist",
+   "side": "right",
+   "text": "Before you send",
+   "items": [
+    {
+     "label": "Topic",
+     "state": "yes"
+    },
+    {
+     "label": "What I tried",
+     "state": "yes"
+    },
+    {
+     "label": "What I need",
+     "state": "yes"
+    },
+    {
+     "label": "Right place, right time",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 192.6,
+   "duration": 6.6,
+   "type": "fact_band",
+   "text": "Recap",
+   "items": [
+    {
+     "label": "The lonely hi",
+     "sublabel": "1"
+    },
+    {
+     "label": "Wrong place, wrong time",
+     "sublabel": "2"
+    },
+    {
+     "label": "The careless message",
+     "sublabel": "3"
+    }
+   ]
+  },
+  {
+   "start": 199.6,
+   "duration": 6.3,
+   "type": "big_statement",
+   "text": "Your scariest chat message?",
+   "eyebrow": "Tell me in the comments"
+  },
+  {
+   "start": 206.3,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "Like · Subscribe",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/keys1.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 4.44,
+   "index": 0
+  },
+  {
+   "start": 4.44,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "HI",
+    "label": "one word, one impression"
+   },
+   "end": 9.1,
+   "index": 1
+  },
+  {
+   "start": 9.1,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "1st",
+    "label": "job or first month"
+   },
+   "end": 11.29,
+   "index": 2
+  },
+  {
+   "start": 11.29,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "3",
+    "label": "chat mistakes"
+   },
+   "end": 18.28,
+   "index": 3
+  },
+  {
+   "start": 18.28,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "?",
+    "label": "the third is the risky one"
+   },
+   "end": 23.43,
+   "index": 4
+  },
+  {
+   "start": 23.43,
+   "kind": "broll",
+   "src": "assets/broll/phone.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 29.8,
+   "index": 5
+  },
+  {
+   "start": 29.8,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "CHAT",
+    "label": "where your day happens"
+   },
+   "end": 34.28,
+   "index": 6
+  },
+  {
+   "start": 34.28,
+   "kind": "broll",
+   "src": "assets/broll/keys2.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 40.72,
+   "index": 7
+  },
+  {
+   "start": 40.72,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "TRUST",
+    "label": "from clear writing"
+   },
+   "end": 46.53,
+   "index": 8
+  },
+  {
+   "start": 46.53,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 50.47,
+   "index": 9
+  },
+  {
+   "start": 50.47,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 54.37,
+   "index": 10
+  },
+  {
+   "start": 54.37,
+   "kind": "broll",
+   "src": "assets/broll/hands.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 58.26,
+   "index": 11
+  },
+  {
+   "start": 58.26,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "10 min",
+    "label": "for a 2-line problem"
+   },
+   "end": 64.78,
+   "index": 12
+  },
+  {
+   "start": 64.78,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "1 go",
+    "label": "send it whole"
+   },
+   "end": 70.47,
+   "index": 13
+  },
+  {
+   "start": 70.47,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 80.19,
+   "index": 14
+  },
+  {
+   "start": 80.19,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3",
+    "label": "topic, tried, time"
+   },
+   "end": 86.37,
+   "index": 15
+  },
+  {
+   "start": 86.37,
+   "kind": "broll",
+   "src": "assets/broll/phone.mp4",
+   "media_start": 4,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 88.25,
+   "index": 16
+  },
+  {
+   "start": 88.25,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 91.3,
+   "index": 17
+  },
+  {
+   "start": 91.3,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "1",
+    "label": "senior, tired helpline"
+   },
+   "end": 97.14,
+   "index": 18
+  },
+  {
+   "start": 97.14,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "50",
+    "label": "people can read it"
+   },
+   "end": 103.81,
+   "index": 19
+  },
+  {
+   "start": 103.81,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 112.67,
+   "index": 20
+  },
+  {
+   "start": 112.67,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "1:1",
+    "label": "leave, feedback, complaints"
+   },
+   "end": 119.82,
+   "index": 21
+  },
+  {
+   "start": 119.82,
+   "kind": "broll",
+   "src": "assets/broll/keys2.mp4",
+   "media_start": 5,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 124,
+   "index": 22
+  },
+  {
+   "start": 124,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "11 PM",
+    "label": "urgent only for you"
+   },
+   "end": 127.74,
+   "index": 23
+  },
+  {
+   "start": 127.74,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "AM",
+    "label": "schedule it for morning"
+   },
+   "end": 134.27,
+   "index": 24
+  },
+  {
+   "start": 134.27,
+   "kind": "graphic",
+   "grade": "noir",
+   "end": 139.78,
+   "index": 25
+  },
+  {
+   "start": 139.78,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "READ",
+    "label": "companies can look"
+   },
+   "end": 146.6,
+   "index": 26
+  },
+  {
+   "start": 146.6,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "LATER",
+    "label": "it can come back to you"
+   },
+   "end": 150.31,
+   "index": 27
+  },
+  {
+   "start": 150.31,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 160.75,
+   "index": 28
+  },
+  {
+   "start": 160.75,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "10 min",
+    "label": "wait, then reply"
+   },
+   "end": 167.45,
+   "index": 29
+  },
+  {
+   "start": 167.45,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 174.3,
+   "index": 30
+  },
+  {
+   "start": 174.3,
+   "kind": "broll",
+   "src": "assets/broll/hands.mp4",
+   "media_start": 3,
+   "motion": "ken_out",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 180.33,
+   "index": 31
+  },
+  {
+   "start": 180.33,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 185.69,
+   "index": 32
+  },
+  {
+   "start": 185.69,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "4",
+    "label": "checks before you send"
+   },
+   "end": 192.39,
+   "index": 33
+  },
+  {
+   "start": 192.39,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3",
+    "label": "mistakes, recapped"
+   },
+   "end": 199.3,
+   "index": 34
+  },
+  {
+   "start": 199.3,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "?",
+    "label": "your scariest message"
+   },
+   "end": 206.12,
+   "index": 35
+  },
+  {
+   "start": 206.12,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe"
+   },
+   "end": 209.9,
+   "index": 36
+  }
+ ],
+ "camera_moves": []
+}
