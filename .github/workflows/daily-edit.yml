@@ -20,9 +20,13 @@ on:
       wait_minutes:
         description: "Wait this long before starting (set by the workflow itself after a Claude usage limit)"
         default: "0"
+      publish_at:
+        description: "Main video publish time, IST, e.g. 2027-02-17 16:00 (empty = the first free publish day). With an episode: a parallel run (no chained run)"
+        required: false
 
+# one chain at a time; a run for a named episode (parallel runs, each with its own publish time) runs beside it
 concurrency:
-  group: daily-edit
+  group: daily-edit-${{ inputs.episode || 'chain' }}
   cancel-in-progress: false
 
 permissions:
@@ -39,9 +43,12 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           W: ${{ inputs.wait_minutes }}
+          EPISODE: ${{ inputs.episode }}
+          PUBLISH_AT: ${{ inputs.publish_at }}
         run: |
           s=$(( W > 330 ? 330 : W )); echo "waiting $s of $W min"; sleep $(( s * 60 ))
-          gh workflow run daily-edit.yml --repo "$GITHUB_REPOSITORY" --ref "$GITHUB_REF_NAME" -f wait_minutes="$(( W - s ))"
+          gh workflow run daily-edit.yml --repo "$GITHUB_REPOSITORY" --ref "$GITHUB_REF_NAME" -f wait_minutes="$(( W - s ))" \
+            ${EPISODE:+-f episode="$EPISODE"} ${PUBLISH_AT:+-f publish_at="$PUBLISH_AT"}
 
   edit:
     if: ${{ !inputs.wait_minutes || inputs.wait_minutes == '0' }}
@@ -144,6 +151,8 @@ jobs:
           (pick a different question from the pillars):
           $(.github/scripts/covered-topics.sh)"
           node tools/daily.mjs script-check
+          # straight to Drive: a parallel run started after this one reads its title there and picks another topic
+          rclone copy "$DIR" "$DRIVE/$DIR" -q || true
 
       - name: Today's episode
         id: ep
@@ -268,13 +277,19 @@ jobs:
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          PUBLISH_AT: ${{ inputs.publish_at }}
         run: |
           if [ -z "$YT_REFRESH_TOKEN" ] || ! node -e 'process.exit(require("./config/daily.json").youtube?.enabled ? 0 : 1)'; then
             echo "YouTube upload off (no YT_REFRESH_TOKEN secret, or youtube.enabled is false)" >> "$GITHUB_STEP_SUMMARY"; exit 0
           fi
-          # schedule after the latest episode already on YouTube (backlog first; Sundays skipped): youtube.mjs --queue
-          rclone copy "$DRIVE/output" .yt-queue --include "*/youtube-uploaded.json" -v
-          node tools/youtube.mjs "$P" --shorts "$SHORTS" --queue .yt-queue
+          if [ -n "$PUBLISH_AT" ]; then
+            # a parallel run: its day was given when it was started, so two runs never take the same one
+            node tools/youtube.mjs "$P" --shorts "$SHORTS" --publish "$PUBLISH_AT"
+          else
+            # the first free publish day (Sundays skipped): youtube.mjs --queue
+            rclone copy "$DRIVE/output" .yt-queue --include "*/youtube-uploaded.json" -v
+            node tools/youtube.mjs "$P" --shorts "$SHORTS" --queue .yt-queue
+          fi
           rclone copy "projects/$P/output/youtube-uploaded.json" "$DRIVE/output/$P" -v
 
       - name: Free Drive space (the video is on YouTube now)
@@ -300,8 +315,16 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add "projects/$P" config/daily-state.json config/youtube-scheduled
           git commit -m "daily: $P"
-          # the edit leaves other tracked files modified (not committed); keep them out of the rebase
-          git pull --rebase --autostash -q && git push
+          # the edit leaves other tracked files modified (not committed); keep them out of the rebase.
+          # Parallel runs all touch daily-state.json: on a conflict take the newer file and record this episode again
+          for i in 1 2 3 4 5; do
+            if git pull --rebase --autostash -q; then git push -q && break; else
+              git checkout --ours config/daily-state.json 2>/dev/null && node tools/daily.mjs done --look "$LOOK" \
+                && git add config/daily-state.json && GIT_EDITOR=true git rebase --continue && git push -q && break
+              git rebase --abort 2>/dev/null || true
+            fi
+            sleep $(( i * 7 ))
+          done
 
       - name: Failure report to Drive
         if: failure() && steps.plan.outputs.episode != 'none'
@@ -339,17 +362,21 @@ jobs:
         if: always() && steps.plan.outputs.episode != 'none'
         env:
           GH_TOKEN: ${{ github.token }}
+          EPISODE: ${{ inputs.episode }}
+          PUBLISH_AT: ${{ inputs.publish_at }}
         run: |
           if [ -f claude-limit.txt ]; then
             reset=$(cat claude-limit.txt)
             if [ "$reset" -gt 0 ] 2>/dev/null; then wait=$(( (reset - $(date +%s)) / 60 + 10 )); else wait=60; fi
             [ "$wait" -lt 10 ] && wait=10
             echo "Claude usage limit: this episode starts again in $wait min" | tee -a "$GITHUB_STEP_SUMMARY"
-            gh workflow run daily-edit.yml --repo "$GITHUB_REPOSITORY" --ref "$GITHUB_REF_NAME" -f wait_minutes="$wait"
+            gh workflow run daily-edit.yml --repo "$GITHUB_REPOSITORY" --ref "$GITHUB_REF_NAME" -f wait_minutes="$wait" \
+              ${EPISODE:+-f episode="$EPISODE"} ${PUBLISH_AT:+-f publish_at="$PUBLISH_AT"}
             exit 0
           fi
           [ "${{ job.status }}" = "success" ] || { echo "run failed: no chained run (the nightly schedule tries again)"; exit 0; }
           [ "${{ steps.youtube.outcome }}" = "success" ] || { echo "not on YouTube: no chained run (it would take the same slot)"; exit 0; }
+          [ -z "$PUBLISH_AT" ] || { echo "parallel run (publish_at given): no chained run"; exit 0; }
           # youtube.aheadUntil: while the next free slot is before that date, make the next episode right away
           rclone copy "$DRIVE/output" .yt-queue --include "*/youtube-uploaded.json" -q
           due=0; node tools/youtube.mjs --due --queue .yt-queue > next.txt || due=$?
