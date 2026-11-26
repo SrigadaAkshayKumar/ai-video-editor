@@ -1,0 +1,701 @@
+{
+ "style": "glass",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 3.85,
+   "type": "title_slide",
+   "text": "No reply after your interview?",
+   "eyebrow": "Crack IT · Day 54",
+   "style_hint": "What freshers should do next"
+  },
+  {
+   "start": 4.3,
+   "duration": 2.6,
+   "type": "quote_pull",
+   "text": "We will get back to you.",
+   "eyebrow": "And then, silence"
+  },
+  {
+   "start": 8,
+   "duration": 2.3,
+   "type": "side_note",
+   "text": "Most freshers do this",
+   "side": "right"
+  },
+  {
+   "start": 13.8,
+   "duration": 3.7,
+   "type": "keyword_chip",
+   "text": "Waiting for a reply?",
+   "side": "left"
+  },
+  {
+   "start": 18.7,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "How long to wait",
+   "side": "left"
+  },
+  {
+   "start": 22,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "The follow-up mail",
+   "side": "right"
+  },
+  {
+   "start": 25.5,
+   "duration": 2.5,
+   "type": "side_note",
+   "text": "The third one feels polite",
+   "side": "left"
+  },
+  {
+   "start": 28.4,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Why the silence happens",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 32.2,
+   "duration": 10.8,
+   "type": "flow_diagram",
+   "text": "Where your file waits",
+   "items": [
+    {
+     "label": "Interview done",
+     "sublabel": ""
+    },
+    {
+     "label": "Panel feedback",
+     "sublabel": "pending"
+    },
+    {
+     "label": "Manager decision",
+     "sublabel": "on leave?"
+    },
+    {
+     "label": "Mail to you",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 44,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "Silent rejection: no mail sent",
+   "side": "right"
+  },
+  {
+   "start": 49.8,
+   "duration": 2.6,
+   "type": "side_note",
+   "text": "Still waiting, or no",
+   "side": "left"
+  },
+  {
+   "start": 53,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Follow up properly",
+   "side": "right"
+  },
+  {
+   "start": 56.4,
+   "duration": 4,
+   "type": "quote_pull",
+   "text": "A polite follow-up is normal.",
+   "eyebrow": "Recruiters expect it"
+  },
+  {
+   "start": 62.1,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "When to follow up",
+   "eyebrow": "Section 02",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 65.4,
+   "duration": 10.6,
+   "type": "timeline",
+   "side": "left",
+   "text": "Your waiting plan",
+   "current": 2,
+   "items": [
+    {
+     "label": "Interview day",
+     "sublabel": ""
+    },
+    {
+     "label": "Thank-you note",
+     "sublabel": "same day or next morning"
+    },
+    {
+     "label": "Wait",
+     "sublabel": "promised time, or about 5 working days"
+    },
+    {
+     "label": "One follow-up mail",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 77,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "Same day or next morning",
+   "side": "right"
+  },
+  {
+   "start": 81.2,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Thank-you note: 3 lines",
+   "side": "left"
+  },
+  {
+   "start": 85,
+   "duration": 3.8,
+   "type": "side_note",
+   "text": "One thing you liked about the role",
+   "side": "right"
+  },
+  {
+   "start": 90,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Not every day",
+   "side": "left"
+  },
+  {
+   "start": 94.5,
+   "duration": 2.5,
+   "type": "keyword_chip",
+   "text": "One person. One message.",
+   "side": "right"
+  },
+  {
+   "start": 97.3,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "The mail that works",
+   "eyebrow": "Section 03",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 102.5,
+   "duration": 4.4,
+   "type": "quote_pull",
+   "text": "Following up: Role, interview date, Your name",
+   "eyebrow": "Subject line"
+  },
+  {
+   "start": 107.4,
+   "duration": 12.1,
+   "type": "checklist",
+   "side": "right",
+   "text": "Three short lines",
+   "items": [
+    {
+     "label": "Hello, recruiter's name",
+     "state": "yes"
+    },
+    {
+     "label": "Attended on this date, still interested",
+     "state": "yes"
+    },
+    {
+     "label": "One question: any update?",
+     "state": "yes"
+    },
+    {
+     "label": "Thanks, full name, phone",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 120.2,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "No complaints",
+   "side": "left"
+  },
+  {
+   "start": 124.2,
+   "duration": 4.2,
+   "type": "side_note",
+   "text": "No long life story",
+   "side": "right"
+  },
+  {
+   "start": 130.6,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Reply on the interview thread",
+   "side": "left"
+  },
+  {
+   "start": 134.1,
+   "duration": 2.7,
+   "type": "keyword_chip",
+   "text": "Full history, one click",
+   "side": "right"
+  },
+  {
+   "start": 137.1,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Three mistakes",
+   "eyebrow": "Section 04",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 140.4,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "1 · Too early, too often",
+   "side": "right"
+  },
+  {
+   "start": 143.4,
+   "duration": 9.2,
+   "type": "timeline",
+   "side": "left",
+   "text": "One mail, then one more",
+   "current": 1,
+   "items": [
+    {
+     "label": "Promised time passes",
+     "sublabel": ""
+    },
+    {
+     "label": "First follow-up",
+     "sublabel": ""
+    },
+    {
+     "label": "Wait another week",
+     "sublabel": ""
+    },
+    {
+     "label": "Second one, then move on",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 153.2,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "2 · Anger or desperation",
+   "side": "right"
+  },
+  {
+   "start": 156.5,
+   "duration": 4.3,
+   "type": "quote_pull",
+   "text": "I have another offer, reply today.",
+   "eyebrow": "Do not send this"
+  },
+  {
+   "start": 161,
+   "duration": 1,
+   "type": "side_note",
+   "text": "Be calm",
+   "side": "left"
+  },
+  {
+   "start": 162.3,
+   "duration": 9.5,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Pressure",
+    "text": "I have another offer, reply today."
+   },
+   "right": {
+    "label": "Calm and honest",
+    "text": "I have a deadline on this date. Is a decision possible by then?"
+   }
+  },
+  {
+   "start": 172,
+   "duration": 2.3,
+   "type": "keyword_chip",
+   "text": "Never invent an offer",
+   "side": "left"
+  },
+  {
+   "start": 175,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "3 · Waiting on one company",
+   "side": "right"
+  },
+  {
+   "start": 180.6,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Refreshing the inbox",
+   "side": "left"
+  },
+  {
+   "start": 184.6,
+   "duration": 3.4,
+   "type": "side_note",
+   "text": "A whole month lost",
+   "side": "right"
+  },
+  {
+   "start": 188.6,
+   "duration": 4.2,
+   "type": "checklist",
+   "side": "left",
+   "text": "After you follow up",
+   "items": [
+    {
+     "label": "One follow-up",
+     "state": "yes"
+    },
+    {
+     "label": "Apply again",
+     "state": "yes"
+    },
+    {
+     "label": "Practise",
+     "state": "yes"
+    },
+    {
+     "label": "Refresh inbox",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 193.1,
+   "duration": 2.6,
+   "type": "quote_pull",
+   "text": "A reply is a bonus, not a rescue.",
+   "eyebrow": "The rule"
+  },
+  {
+   "start": 196,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Do this today",
+   "eyebrow": "Section 05",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 199.3,
+   "duration": 10.7,
+   "type": "checklist",
+   "side": "right",
+   "text": "Right now",
+   "items": [
+    {
+     "label": "Find the interview invite",
+     "state": "yes"
+    },
+    {
+     "label": "Note the promised date",
+     "state": "yes"
+    },
+    {
+     "label": "Send the three-line follow-up",
+     "state": "yes"
+    },
+    {
+     "label": "Apply to two more roles today",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 210.5,
+   "duration": 5.5,
+   "type": "big_statement",
+   "text": "Wait. Follow up once. Keep applying.",
+   "eyebrow": "To sum up"
+  },
+  {
+   "start": 219.8,
+   "duration": 8.7,
+   "type": "big_statement",
+   "text": "Longest wait you have had?",
+   "eyebrow": "Comment below"
+  },
+  {
+   "start": 229,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Like · Subscribe",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/phone.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 6.97,
+   "index": 0
+  },
+  {
+   "start": 6.97,
+   "kind": "broll",
+   "src": "assets/broll/waiting.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 13.5,
+   "index": 1
+  },
+  {
+   "start": 13.5,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 18.5,
+   "index": 2
+  },
+  {
+   "start": 18.5,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3",
+    "label": "mistakes that kill your chance"
+   },
+   "end": 28.32,
+   "index": 3
+  },
+  {
+   "start": 28.32,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 43.29,
+   "index": 4
+  },
+  {
+   "start": 43.29,
+   "kind": "broll",
+   "src": "assets/broll/man.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 52.61,
+   "index": 5
+  },
+  {
+   "start": 52.61,
+   "kind": "broll",
+   "src": "assets/broll/woman.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "cut",
+   "end": 62.02,
+   "index": 6
+  },
+  {
+   "start": 62.02,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 76.11,
+   "index": 7
+  },
+  {
+   "start": 76.11,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 83.5,
+   "index": 8
+  },
+  {
+   "start": 83.5,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 9.4,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 89.45,
+   "index": 9
+  },
+  {
+   "start": 89.45,
+   "kind": "broll",
+   "src": "assets/broll/hands.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 97.17,
+   "index": 10
+  },
+  {
+   "start": 97.17,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 102,
+   "index": 11
+  },
+  {
+   "start": 102,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 107.2,
+   "index": 12
+  },
+  {
+   "start": 107.2,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 119.72,
+   "index": 13
+  },
+  {
+   "start": 119.72,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 130.2,
+   "index": 14
+  },
+  {
+   "start": 130.2,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 3,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 136.97,
+   "index": 15
+  },
+  {
+   "start": 136.97,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 152.93,
+   "index": 16
+  },
+  {
+   "start": 152.93,
+   "kind": "broll",
+   "src": "assets/broll/man.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 162,
+   "index": 17
+  },
+  {
+   "start": 162,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 174.47,
+   "index": 18
+  },
+  {
+   "start": 174.47,
+   "kind": "broll",
+   "src": "assets/broll/walk.mp4",
+   "media_start": 0,
+   "motion": "pan_right",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 181,
+   "index": 19
+  },
+  {
+   "start": 181,
+   "kind": "broll",
+   "src": "assets/broll/thumbs.mp4",
+   "media_start": 5,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 188.35,
+   "index": 20
+  },
+  {
+   "start": 188.35,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 195.89,
+   "index": 21
+  },
+  {
+   "start": 195.89,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 210.3,
+   "index": 22
+  },
+  {
+   "start": 210.3,
+   "kind": "broll",
+   "src": "assets/broll/woman.mp4",
+   "media_start": 8,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "cut",
+   "end": 219.53,
+   "index": 23
+  },
+  {
+   "start": 219.53,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 231.13,
+   "index": 24
+  },
+  {
+   "start": 231.13,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe"
+   },
+   "end": 232.07,
+   "index": 25
+  }
+ ],
+ "camera_moves": []
+}

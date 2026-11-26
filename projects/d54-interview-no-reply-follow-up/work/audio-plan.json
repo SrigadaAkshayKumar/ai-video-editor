@@ -1,0 +1,128 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "title_slide: No reply after your interview?"
+  },
+  {
+   "time": 4.4,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "quote_pull: We will get back to you."
+  },
+  {
+   "time": 28.4,
+   "sfx": "riser",
+   "gain": 3,
+   "reason": "chapter_open: Why the silence happens"
+  },
+  {
+   "time": 32.3,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "flow_diagram: Where your file waits"
+  },
+  {
+   "time": 56.5,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "quote_pull: A polite follow-up is normal."
+  },
+  {
+   "time": 62.1,
+   "sfx": "riser",
+   "gain": 3,
+   "reason": "chapter_open: When to follow up"
+  },
+  {
+   "time": 65.5,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "timeline: Your waiting plan"
+  },
+  {
+   "time": 97.3,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: The mail that works"
+  },
+  {
+   "time": 102.6,
+   "sfx": "riser",
+   "gain": 2,
+   "reason": "quote_pull: Following up: Role, interview date, Your name"
+  },
+  {
+   "time": 107.5,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "checklist: Three short lines"
+  },
+  {
+   "time": 137.1,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Three mistakes"
+  },
+  {
+   "time": 143.5,
+   "sfx": "riser",
+   "gain": 2,
+   "reason": "timeline: One mail, then one more"
+  },
+  {
+   "time": 156.6,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "quote_pull: I have another offer, reply today."
+  },
+  {
+   "time": 162.4,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "comparison: "
+  },
+  {
+   "time": 188.7,
+   "sfx": "riser",
+   "gain": 2,
+   "reason": "checklist: After you follow up"
+  },
+  {
+   "time": 193.2,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "quote_pull: A reply is a bonus, not a rescue."
+  },
+  {
+   "time": 196,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Do this today"
+  },
+  {
+   "time": 199.4,
+   "sfx": "riser",
+   "gain": 2,
+   "reason": "checklist: Right now"
+  },
+  {
+   "time": 210.6,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "big_statement: Wait. Follow up once. Keep applying."
+  },
+  {
+   "time": 219.9,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "big_statement: Longest wait you have had?"
+  }
+ ]
+}
