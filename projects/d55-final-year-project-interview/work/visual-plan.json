@@ -1,0 +1,732 @@
+{
+ "style": "cleantech",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 3.85,
+   "type": "title_slide",
+   "text": "Explain your final year project",
+   "eyebrow": "Crack IT · Day 55",
+   "style_hint": "A 4-part answer for freshers"
+  },
+  {
+   "start": 4.3,
+   "duration": 2.5,
+   "type": "quote_pull",
+   "text": "Tell me about your final year project",
+   "eyebrow": "The question"
+  },
+  {
+   "start": 7.3,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Don't read out the title",
+   "side": "left"
+  },
+  {
+   "start": 13.4,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "A simple 4-part answer",
+   "side": "right"
+  },
+  {
+   "start": 18,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "Three mistakes",
+   "side": "left"
+  },
+  {
+   "start": 23.2,
+   "duration": 2.8,
+   "type": "side_note",
+   "text": "Even a real project can fail",
+   "side": "right"
+  },
+  {
+   "start": 28.4,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Why they ask",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 31.5,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "Not to hear the title",
+   "side": "right"
+  },
+  {
+   "start": 37.2,
+   "duration": 10.1,
+   "type": "flow_diagram",
+   "text": "What the interviewer checks",
+   "items": [
+    {
+     "label": "Did you build it?",
+     "sublabel": ""
+    },
+    {
+     "label": "Do you understand it?",
+     "sublabel": ""
+    },
+    {
+     "label": "Can you explain it?",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 47.9,
+   "duration": 2.7,
+   "type": "side_note",
+   "text": "Not about how big",
+   "side": "left"
+  },
+  {
+   "start": 51.5,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "Clear beats big",
+   "side": "right"
+  },
+  {
+   "start": 55.4,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "The 4-part answer",
+   "eyebrow": "Section 02",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 58.7,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "About 60 seconds",
+   "side": "right"
+  },
+  {
+   "start": 64.1,
+   "duration": 7.2,
+   "type": "quote_pull",
+   "text": "Students in our college waste time finding free classrooms.",
+   "eyebrow": "1 · Problem · sample, not a real project"
+  },
+  {
+   "start": 71.9,
+   "duration": 6.4,
+   "type": "step_progress",
+   "side": "right",
+   "text": "The four parts",
+   "current_step": 1,
+   "items": [
+    {
+     "label": "Problem"
+    },
+    {
+     "label": "Tools"
+    },
+    {
+     "label": "Your role"
+    },
+    {
+     "label": "Result"
+    }
+   ]
+  },
+  {
+   "start": 78.8,
+   "duration": 4.2,
+   "type": "step_progress",
+   "side": "right",
+   "text": "Say what YOU built",
+   "current_step": 2,
+   "items": [
+    {
+     "label": "Problem"
+    },
+    {
+     "label": "Tools"
+    },
+    {
+     "label": "Your role"
+    },
+    {
+     "label": "Result"
+    }
+   ]
+  },
+  {
+   "start": 83.5,
+   "duration": 4.9,
+   "type": "quote_pull",
+   "text": "I built the login and the room search. My teammate built the admin page.",
+   "eyebrow": "3 · Your role · sample"
+  },
+  {
+   "start": 88.9,
+   "duration": 6.1,
+   "type": "step_progress",
+   "side": "right",
+   "text": "The four parts",
+   "current_step": 3,
+   "items": [
+    {
+     "label": "Problem"
+    },
+    {
+     "label": "Tools"
+    },
+    {
+     "label": "Your role"
+    },
+    {
+     "label": "Result"
+    }
+   ]
+  },
+  {
+   "start": 95.3,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Then stop",
+   "side": "left"
+  },
+  {
+   "start": 98.9,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Follow-up questions",
+   "eyebrow": "Section 03",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 102.2,
+   "duration": 9,
+   "type": "checklist",
+   "side": "right",
+   "text": "Likely next questions",
+   "items": [
+    {
+     "label": "Why this tool?",
+     "state": "yes"
+    },
+    {
+     "label": "Hardest bug?",
+     "state": "yes"
+    },
+    {
+     "label": "What would you change?",
+     "state": "yes"
+    },
+    {
+     "label": "What if more users?",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 111.8,
+   "duration": 2.5,
+   "type": "side_note",
+   "text": "Honest beats perfect",
+   "side": "left"
+  },
+  {
+   "start": 114.6,
+   "duration": 5.4,
+   "type": "quote_pull",
+   "text": "I chose Python because I already knew it.",
+   "eyebrow": "An honest answer"
+  },
+  {
+   "start": 123,
+   "duration": 9,
+   "type": "timeline",
+   "side": "left",
+   "text": "Your bug story",
+   "current": 2,
+   "items": [
+    {
+     "label": "The bug",
+     "sublabel": ""
+    },
+    {
+     "label": "What I tried",
+     "sublabel": ""
+    },
+    {
+     "label": "The fix",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 132.3,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Three mistakes",
+   "eyebrow": "Section 04",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 136.3,
+   "duration": 3.7,
+   "type": "keyword_chip",
+   "text": "1 · Reading the report",
+   "side": "right"
+  },
+  {
+   "start": 141.4,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "Talk like to a friend",
+   "side": "left"
+  },
+  {
+   "start": 144.8,
+   "duration": 3.7,
+   "type": "keyword_chip",
+   "text": "2 · 'We' for everything",
+   "side": "right"
+  },
+  {
+   "start": 149,
+   "duration": 9,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Only we",
+    "text": "We built it, we tested it, we deployed it."
+   },
+   "right": {
+    "label": "We and I",
+    "text": "We for the team. I for my own part."
+   }
+  },
+  {
+   "start": 158.6,
+   "duration": 5,
+   "type": "quote_pull",
+   "text": "Claiming work that is not yours.",
+   "eyebrow": "Mistake 3 · the one that ends interviews"
+  },
+  {
+   "start": 164.4,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "Bought or copied",
+   "side": "left"
+  },
+  {
+   "start": 172,
+   "duration": 4.3,
+   "type": "keyword_chip",
+   "text": "One small question",
+   "side": "right"
+  },
+  {
+   "start": 177,
+   "duration": 12,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Falls apart",
+    "text": "I built all of it."
+   },
+   "right": {
+    "label": "Honest and strong",
+    "text": "I followed a tutorial, then added search and filters."
+   }
+  },
+  {
+   "start": 190,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "Background verification",
+   "side": "right"
+  },
+  {
+   "start": 194.6,
+   "duration": 3.2,
+   "type": "side_note",
+   "text": "Caught later is worse",
+   "side": "left"
+  },
+  {
+   "start": 198.3,
+   "duration": 4.3,
+   "type": "big_statement",
+   "text": "Open it. Explain it.",
+   "eyebrow": "The rule"
+  },
+  {
+   "start": 203,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Do this week",
+   "eyebrow": "Section 05",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 206.2,
+   "duration": 11,
+   "type": "checklist",
+   "side": "right",
+   "text": "This week",
+   "items": [
+    {
+     "label": "Pick your best two projects",
+     "state": "yes"
+    },
+    {
+     "label": "Write the 4-part answer",
+     "state": "yes"
+    },
+    {
+     "label": "Say it aloud, time it",
+     "state": "yes"
+    },
+    {
+     "label": "Open the code, explain every file",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 218,
+   "duration": 5.2,
+   "type": "flow_diagram",
+   "text": "To sum up",
+   "items": [
+    {
+     "label": "Problem",
+     "sublabel": ""
+    },
+    {
+     "label": "Tools",
+     "sublabel": ""
+    },
+    {
+     "label": "Your role",
+     "sublabel": "use I"
+    },
+    {
+     "label": "Result",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 224,
+   "duration": 5.6,
+   "type": "big_statement",
+   "text": "Your project, in one line?",
+   "eyebrow": "Comment below"
+  },
+  {
+   "start": 230.2,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Like · Subscribe",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/hands.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 6.9,
+   "index": 0
+  },
+  {
+   "start": 6.9,
+   "kind": "broll",
+   "src": "assets/broll/pair.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 13.1,
+   "index": 1
+  },
+  {
+   "start": 13.1,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 17.5,
+   "index": 2
+  },
+  {
+   "start": 17.5,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3",
+    "label": "mistakes to avoid"
+   },
+   "end": 22.8,
+   "index": 3
+  },
+  {
+   "start": 22.8,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 28.35,
+   "index": 4
+  },
+  {
+   "start": 28.35,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 31.6,
+   "index": 5
+  },
+  {
+   "start": 31.6,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 4,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 37.2,
+   "index": 6
+  },
+  {
+   "start": 37.2,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 47.5,
+   "index": 7
+  },
+  {
+   "start": 47.5,
+   "kind": "broll",
+   "src": "assets/broll/meeting.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 55.3,
+   "index": 8
+  },
+  {
+   "start": 55.3,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 63.9,
+   "index": 9
+  },
+  {
+   "start": 63.9,
+   "kind": "broll",
+   "src": "assets/broll/campus.mp4",
+   "media_start": 10,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 71.7,
+   "index": 10
+  },
+  {
+   "start": 71.7,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 78.6,
+   "index": 11
+  },
+  {
+   "start": 78.6,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 83.1,
+   "index": 12
+  },
+  {
+   "start": 83.1,
+   "kind": "broll",
+   "src": "assets/broll/code.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 88.7,
+   "index": 13
+  },
+  {
+   "start": 88.7,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 98.8,
+   "index": 14
+  },
+  {
+   "start": 98.8,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 111.5,
+   "index": 15
+  },
+  {
+   "start": 111.5,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 6,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 122.8,
+   "index": 16
+  },
+  {
+   "start": 122.8,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 132.2,
+   "index": 17
+  },
+  {
+   "start": 132.2,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 135.9,
+   "index": 18
+  },
+  {
+   "start": 135.9,
+   "kind": "broll",
+   "src": "assets/broll/library.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 144.5,
+   "index": 19
+  },
+  {
+   "start": 144.5,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 158.3,
+   "index": 20
+  },
+  {
+   "start": 158.3,
+   "kind": "broll",
+   "src": "assets/broll/hands.mp4",
+   "media_start": 12,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 163.9,
+   "index": 21
+  },
+  {
+   "start": 163.9,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 171.6,
+   "index": 22
+  },
+  {
+   "start": 171.6,
+   "kind": "broll",
+   "src": "assets/broll/pair.mp4",
+   "media_start": 3,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 176.7,
+   "index": 23
+  },
+  {
+   "start": 176.7,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 189.5,
+   "index": 24
+  },
+  {
+   "start": 189.5,
+   "kind": "broll",
+   "src": "assets/broll/board.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 198.1,
+   "index": 25
+  },
+  {
+   "start": 198.1,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 202.9,
+   "index": 26
+  },
+  {
+   "start": 202.9,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 217.7,
+   "index": 27
+  },
+  {
+   "start": 217.7,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 223.4,
+   "index": 28
+  },
+  {
+   "start": 223.4,
+   "kind": "broll",
+   "src": "assets/broll/meeting.mp4",
+   "media_start": 8,
+   "motion": "ken_out",
+   "grade": "warm",
+   "transition": "cut",
+   "end": 229.8,
+   "index": 29
+  },
+  {
+   "start": 229.8,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe"
+   },
+   "end": 233.76,
+   "index": 30
+  }
+ ],
+ "camera_moves": []
+}

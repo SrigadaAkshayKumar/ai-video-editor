@@ -1,0 +1,92 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "title_slide: Explain your final year project"
+  },
+  {
+   "time": 28.4,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "chapter_open: Why they ask"
+  },
+  {
+   "time": 37.3,
+   "sfx": "reveal",
+   "gain": 2,
+   "reason": "flow_diagram: What the interviewer checks"
+  },
+  {
+   "time": 55.4,
+   "sfx": "sub_drop",
+   "gain": 1,
+   "reason": "chapter_open: The 4-part answer"
+  },
+  {
+   "time": 98.9,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "chapter_open: Follow-up questions"
+  },
+  {
+   "time": 102.3,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "checklist: Likely next questions"
+  },
+  {
+   "time": 123.1,
+   "sfx": "reveal",
+   "gain": 2,
+   "reason": "timeline: Your bug story"
+  },
+  {
+   "time": 132.3,
+   "sfx": "sub_drop",
+   "gain": 1,
+   "reason": "chapter_open: Three mistakes"
+  },
+  {
+   "time": 149.1,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "comparison: "
+  },
+  {
+   "time": 158.7,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "quote_pull: Claiming work that is not yours."
+  },
+  {
+   "time": 177.1,
+   "sfx": "reveal",
+   "gain": 2,
+   "reason": "comparison: "
+  },
+  {
+   "time": 203,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "chapter_open: Do this week"
+  },
+  {
+   "time": 206.3,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "checklist: This week"
+  },
+  {
+   "time": 218.1,
+   "sfx": "reveal",
+   "gain": 2,
+   "reason": "flow_diagram: To sum up"
+  }
+ ]
+}
