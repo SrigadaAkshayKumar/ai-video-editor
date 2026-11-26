@@ -1,0 +1,146 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "title_slide: You broke something at work"
+  },
+  {
+   "time": 9.98,
+   "sfx": "click",
+   "gain": 3,
+   "reason": "keyword_chip: Your first tech job"
+  },
+  {
+   "time": 25.83,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: The real danger"
+  },
+  {
+   "time": 29.38,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "keyword_chip: Everyone breaks things"
+  },
+  {
+   "time": 37.38,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "timeline: Ravi's weekend"
+  },
+  {
+   "time": 54.23,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "quote_pull: Report it: an incident. Hide it: a question about your honesty."
+  },
+  {
+   "time": 60.43,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Steps one and two"
+  },
+  {
+   "time": 63.68,
+   "sfx": "click",
+   "gain": 3,
+   "reason": "keyword_chip: Trap: 2nd command to fix 1st"
+  },
+  {
+   "time": 92.58,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "keyword_chip: Team can roll back or switch to backup"
+  },
+  {
+   "time": 98.73,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: The message"
+  },
+  {
+   "time": 101.88,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "data_table: What the message has"
+  },
+  {
+   "time": 124.08,
+   "sfx": "click",
+   "gain": 3,
+   "reason": "side_note: Seniors relax: everything they need"
+  },
+  {
+   "time": 129.93,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Steps three and four"
+  },
+  {
+   "time": 150.78,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "keyword_chip: Blameless postmortem"
+  },
+  {
+   "time": 158.08,
+   "sfx": "click",
+   "gain": 3,
+   "reason": "side_note: Impact · actions · cause · follow-up"
+  },
+  {
+   "time": 161.78,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "comparison: "
+  },
+  {
+   "time": 179.18,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "quote_pull: Here is how we can prevent this next time."
+  },
+  {
+   "time": 184.93,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: The traps"
+  },
+  {
+   "time": 199.68,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "flow_diagram: Client data leak"
+  },
+  {
+   "time": 213.68,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "comparison: "
+  },
+  {
+   "time": 219.38,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "quote_pull: Speak early, speak plainly."
+  },
+  {
+   "time": 223.28,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "step_progress: The first hour"
+  },
+  {
+   "time": 245.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "keyword_chip: Like · Subscribe"
+  }
+ ]
+}

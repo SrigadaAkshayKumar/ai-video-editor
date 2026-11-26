@@ -1,0 +1,826 @@
+{
+ "style": "cleantech",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 4.25,
+   "type": "title_slide",
+   "text": "You broke something at work",
+   "eyebrow": "Crack IT · Day 65",
+   "style_hint": "the first-hour rules"
+  },
+  {
+   "start": 4.5,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "Why is the test server down?",
+   "side": "right"
+  },
+  {
+   "start": 9.9,
+   "duration": 2.7,
+   "type": "keyword_chip",
+   "text": "Your first tech job",
+   "side": "left"
+  },
+  {
+   "start": 13.4,
+   "duration": 7.4,
+   "type": "stat_trio",
+   "text": "This video",
+   "items": [
+    {
+     "label": "steps",
+     "sublabel": "",
+     "value": 4
+    },
+    {
+     "label": "hour",
+     "sublabel": "",
+     "value": 1
+    },
+    {
+     "label": "minutes",
+     "sublabel": "",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "start": 21.5,
+   "duration": 3.6,
+   "type": "side_note",
+   "text": "Step 4: managers remember",
+   "side": "right"
+  },
+  {
+   "start": 25.75,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "The real danger",
+   "eyebrow": "Hiding it",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 29.3,
+   "duration": 1.9,
+   "type": "keyword_chip",
+   "text": "Everyone breaks things",
+   "side": "right"
+  },
+  {
+   "start": 33.6,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "The gap is the problem",
+   "side": "left"
+  },
+  {
+   "start": 37.3,
+   "duration": 12.5,
+   "type": "timeline",
+   "side": "left",
+   "text": "Ravi's weekend",
+   "items": [
+    {
+     "label": "Fri evening",
+     "sublabel": "wrong folder deleted"
+    },
+    {
+     "label": "Fri evening",
+     "sublabel": "says nothing"
+    },
+    {
+     "label": "Mon morning",
+     "sublabel": "2 hours lost"
+    },
+    {
+     "label": "Mon",
+     "sublabel": "activity log"
+    }
+   ]
+  },
+  {
+   "start": 50.5,
+   "duration": 3.1,
+   "type": "big_statement",
+   "text": "Hiding it was the big one",
+   "eyebrow": "Small problem vs"
+  },
+  {
+   "start": 54.15,
+   "duration": 6.05,
+   "type": "quote_pull",
+   "text": "Report it: an incident. Hide it: a question about your honesty.",
+   "eyebrow": "Remember this line"
+  },
+  {
+   "start": 60.35,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Steps one and two",
+   "eyebrow": "First hour",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 63.6,
+   "duration": 4.4,
+   "type": "keyword_chip",
+   "text": "Trap: 2nd command to fix 1st",
+   "side": "left"
+  },
+  {
+   "start": 69.5,
+   "duration": 6.1,
+   "type": "progress_ring",
+   "side": "right",
+   "text": "Hands off: 10 seconds",
+   "value": 100
+  },
+  {
+   "start": 76,
+   "duration": 8.6,
+   "type": "checklist",
+   "side": "right",
+   "text": "First hour",
+   "items": [
+    {
+     "label": "1 STOP",
+     "state": "yes"
+    },
+    {
+     "label": "2 TELL your lead",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 86.8,
+   "duration": 4.7,
+   "type": "side_note",
+   "text": "Live problem? Speak up faster",
+   "side": "left"
+  },
+  {
+   "start": 92.5,
+   "duration": 5.4,
+   "type": "keyword_chip",
+   "text": "Team can roll back or switch to backup",
+   "side": "right"
+  },
+  {
+   "start": 98.65,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "The message",
+   "eyebrow": "Copy this",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 101.8,
+   "duration": 11.6,
+   "type": "data_table",
+   "text": "What the message has",
+   "columns": [
+    "Part",
+    "What you say"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "WHEN",
+      "At 10:15"
+     ],
+     "at": 0.4
+    },
+    {
+     "cells": [
+      "WHAT",
+      "I ran this command"
+     ],
+     "at": 1.5
+    },
+    {
+     "cells": [
+      "EFFECT",
+      "Service not responding"
+     ],
+     "at": 2.6
+    },
+    {
+     "cells": [
+      "NOT TOUCHED",
+      "Nothing else since"
+     ],
+     "at": 4.6
+    },
+    {
+     "cells": [
+      "HELP",
+      "Can you help me?"
+     ],
+     "at": 8.8
+    }
+   ]
+  },
+  {
+   "start": 120.6,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "No long apology. No excuses.",
+   "side": "left"
+  },
+  {
+   "start": 124,
+   "duration": 5.2,
+   "type": "side_note",
+   "text": "Seniors relax: everything they need",
+   "side": "right"
+  },
+  {
+   "start": 129.85,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Steps three and four",
+   "eyebrow": "Fix, then prevent",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 133,
+   "duration": 10,
+   "type": "checklist",
+   "side": "right",
+   "text": "Step 3: fix it together",
+   "items": [
+    {
+     "label": "Answer honestly",
+     "state": "yes"
+    },
+    {
+     "label": "Share notes + screen",
+     "state": "yes"
+    },
+    {
+     "label": "Do what your senior asks",
+     "state": "yes"
+    },
+    {
+     "label": "Clever solo recovery",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 145.6,
+   "duration": 4.2,
+   "type": "side_note",
+   "text": "The step managers remember",
+   "side": "left"
+  },
+  {
+   "start": 150.7,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "Blameless postmortem",
+   "side": "right"
+  },
+  {
+   "start": 154.3,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "Source: Google SRE book",
+   "side": "left"
+  },
+  {
+   "start": 158,
+   "duration": 3.2,
+   "type": "side_note",
+   "text": "Impact · actions · cause · follow-up",
+   "side": "right"
+  },
+  {
+   "start": 161.7,
+   "duration": 8.3,
+   "type": "comparison",
+   "side": "left",
+   "left": {
+    "label": "Blame the person",
+    "text": "People hide problems"
+   },
+   "right": {
+    "label": "Fix the system",
+    "text": "People report early"
+   }
+  },
+  {
+   "start": 170.7,
+   "duration": 7.7,
+   "type": "bullet_list",
+   "side": "right",
+   "text": "Offer one improvement",
+   "items": [
+    {
+     "label": "Confirmation prompt"
+    },
+    {
+     "label": "Checklist"
+    },
+    {
+     "label": "Test environment"
+    },
+    {
+     "label": "Wiki note"
+    }
+   ]
+  },
+  {
+   "start": 179.1,
+   "duration": 5.6,
+   "type": "quote_pull",
+   "text": "Here is how we can prevent this next time.",
+   "eyebrow": "Say this after the fix"
+  },
+  {
+   "start": 184.85,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "The traps",
+   "eyebrow": "Don't",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 188.2,
+   "duration": 10.1,
+   "type": "checklist",
+   "side": "right",
+   "text": "Never do this",
+   "items": [
+    {
+     "label": "Delete logs",
+     "state": "no"
+    },
+    {
+     "label": "Blame the tool or a teammate",
+     "state": "no"
+    },
+    {
+     "label": "Private chat only",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 199.6,
+   "duration": 10.2,
+   "type": "flow_diagram",
+   "text": "Client data leak",
+   "items": [
+    {
+     "label": "Client data leak",
+     "sublabel": "the mistake"
+    },
+    {
+     "label": "Security / compliance",
+     "sublabel": "must know"
+    },
+    {
+     "label": "Your lead",
+     "sublabel": "ask in message one"
+    }
+   ]
+  },
+  {
+   "start": 210.2,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "Not sure? Ask which team",
+   "side": "right"
+  },
+  {
+   "start": 213.6,
+   "duration": 5.4,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Honest mistake",
+    "text": "While following your task"
+   },
+   "right": {
+    "label": "Not forgiven",
+    "text": "Hiding, lying, breaking a clear rule"
+   }
+  },
+  {
+   "start": 219.3,
+   "duration": 3.5,
+   "type": "quote_pull",
+   "text": "Speak early, speak plainly.",
+   "eyebrow": "Your best protection"
+  },
+  {
+   "start": 223.2,
+   "duration": 10.4,
+   "type": "step_progress",
+   "side": "left",
+   "text": "The first hour",
+   "current_step": 3,
+   "items": [
+    {
+     "label": "STOP"
+    },
+    {
+     "label": "TELL"
+    },
+    {
+     "label": "FIX"
+    },
+    {
+     "label": "PREVENT"
+    }
+   ]
+  },
+  {
+   "start": 234.5,
+   "duration": 8.3,
+   "type": "big_statement",
+   "text": "Your biggest first-job mistake?",
+   "eyebrow": "Tell me in the comments"
+  },
+  {
+   "start": 245,
+   "duration": 4.9,
+   "type": "keyword_chip",
+   "text": "Like · Subscribe",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/server.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 9.65,
+   "index": 0
+  },
+  {
+   "start": 9.65,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "4",
+    "label": "steps in the first hour"
+   },
+   "end": 21.27,
+   "index": 1
+  },
+  {
+   "start": 21.27,
+   "kind": "broll",
+   "src": "assets/broll/keys.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 25.68,
+   "index": 2
+  },
+  {
+   "start": 25.68,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 36.94,
+   "index": 3
+  },
+  {
+   "start": 36.94,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "FRI → MON",
+    "label": "Ravi's hidden delete"
+   },
+   "end": 44.79,
+   "index": 4
+  },
+  {
+   "start": 44.79,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "2 hrs",
+    "label": "lost on Monday"
+   },
+   "end": 50.19,
+   "index": 5
+  },
+  {
+   "start": 50.19,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 14,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 54.05,
+   "index": 6
+  },
+  {
+   "start": 54.05,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 60.3,
+   "index": 7
+  },
+  {
+   "start": 60.3,
+   "kind": "broll",
+   "src": "assets/broll/keys.mp4",
+   "media_start": 2,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 68.1,
+   "index": 8
+  },
+  {
+   "start": 68.1,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "10 s",
+    "label": "hands off the keyboard"
+   },
+   "end": 75.72,
+   "index": 9
+  },
+  {
+   "start": 75.72,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "2",
+    "label": "tell your lead or buddy"
+   },
+   "end": 86.64,
+   "index": 10
+  },
+  {
+   "start": 86.64,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 8,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 98.6,
+   "index": 11
+  },
+  {
+   "start": 98.6,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "1",
+    "label": "message to copy"
+   },
+   "end": 106.45,
+   "index": 12
+  },
+  {
+   "start": 106.45,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "5",
+    "label": "parts, nothing extra"
+   },
+   "end": 113.76,
+   "index": 13
+  },
+  {
+   "start": 113.76,
+   "kind": "broll",
+   "src": "assets/broll/meeting.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 120.59,
+   "index": 14
+  },
+  {
+   "start": 120.59,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "NO",
+    "label": "long apology, no excuses"
+   },
+   "end": 129.82,
+   "index": 15
+  },
+  {
+   "start": 129.82,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3",
+    "label": "fix it with your senior"
+   },
+   "end": 138.56,
+   "index": 16
+  },
+  {
+   "start": 138.56,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "NO",
+    "label": "clever solo recovery"
+   },
+   "end": 145.36,
+   "index": 17
+  },
+  {
+   "start": 145.36,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "4",
+    "label": "prevent it again"
+   },
+   "end": 150.43,
+   "index": 18
+  },
+  {
+   "start": 150.43,
+   "kind": "news",
+   "url": "https://sre.google/sre-book/postmortem-culture/",
+   "source": "Google SRE book",
+   "headline": "Postmortem Culture: Learning from Failure",
+   "date": "Chapter 15",
+   "highlight": {
+    "x": 0.16,
+    "y": 0.325,
+    "w": 0.68,
+    "h": 0.055
+   },
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 161.44,
+   "index": 19
+  },
+  {
+   "start": 161.44,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "NO BLAME",
+    "label": "fix the system, not the person"
+   },
+   "end": 170.51,
+   "index": 20
+  },
+  {
+   "start": 170.51,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "1",
+    "label": "improvement to offer"
+   },
+   "end": 178.9,
+   "index": 21
+  },
+  {
+   "start": 178.9,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 12,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 185.22,
+   "index": 22
+  },
+  {
+   "start": 185.22,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "NO",
+    "label": "logs, blame, private chat"
+   },
+   "end": 192.77,
+   "index": 23
+  },
+  {
+   "start": 192.77,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "NO",
+    "label": "private chat only"
+   },
+   "end": 198.47,
+   "index": 24
+  },
+  {
+   "start": 198.47,
+   "kind": "broll",
+   "src": "assets/broll/meeting.mp4",
+   "media_start": 14,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 205.33,
+   "index": 25
+  },
+  {
+   "start": 205.33,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "→",
+    "label": "security or compliance team"
+   },
+   "end": 213.44,
+   "index": 26
+  },
+  {
+   "start": 213.44,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "≠",
+    "label": "honest mistake vs hiding"
+   },
+   "end": 219.09,
+   "index": 27
+  },
+  {
+   "start": 219.09,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 22,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 222.9,
+   "index": 28
+  },
+  {
+   "start": 222.9,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "4",
+    "label": "steps, one hour"
+   },
+   "end": 234.24,
+   "index": 29
+  },
+  {
+   "start": 234.24,
+   "kind": "broll",
+   "src": "assets/broll/meeting.mp4",
+   "media_start": 22,
+   "motion": "ken_out",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 243.4,
+   "index": 30
+  },
+  {
+   "start": 243.4,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CRACK IT",
+    "label": "like · subscribe"
+   },
+   "end": 250.47,
+   "index": 31
+  }
+ ],
+ "camera_moves": []
+}
