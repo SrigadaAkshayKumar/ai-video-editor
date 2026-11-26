@@ -1,0 +1,859 @@
+{
+ "style": "broadcast",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 3.65,
+   "type": "title_slide",
+   "text": "Company laptop rules",
+   "eyebrow": "Crack IT · Day 56",
+   "style_hint": "3 mistakes that can cost a fresher the job"
+  },
+  {
+   "start": 4,
+   "duration": 3,
+   "type": "quote_pull",
+   "text": "Policy violation",
+   "eyebrow": "A warning, or worse"
+  },
+  {
+   "start": 7.3,
+   "duration": 3.2,
+   "type": "big_statement",
+   "text": "Nobody tells you the rule first",
+   "eyebrow": "rule"
+  },
+  {
+   "start": 11.3,
+   "duration": 3.1,
+   "type": "keyword_chip",
+   "text": "Waiting to join?",
+   "side": "left"
+  },
+  {
+   "start": 15.5,
+   "duration": 3.5,
+   "type": "number_roll",
+   "value": 3,
+   "suffix": " rules",
+   "text": "Laptop and security",
+   "side": "right"
+  },
+  {
+   "start": 19.3,
+   "duration": 3.1,
+   "type": "keyword_chip",
+   "text": "Why · and what to do",
+   "side": "right"
+  },
+  {
+   "start": 23.1,
+   "duration": 3.3,
+   "type": "side_note",
+   "text": "The third surprises most",
+   "side": "left"
+  },
+  {
+   "start": 27,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Not your laptop",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 30.8,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "Belongs to the company",
+   "side": "right"
+  },
+  {
+   "start": 35,
+   "duration": 6.8,
+   "type": "flow_diagram",
+   "text": "Who sets the rules",
+   "items": [
+    {
+     "label": "Client contract",
+     "sublabel": ""
+    },
+    {
+     "label": "Company policy",
+     "sublabel": ""
+    },
+    {
+     "label": "Your laptop",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 42.2,
+   "duration": 5.2,
+   "type": "side_note",
+   "text": "Watched, not distrusted",
+   "side": "left"
+  },
+  {
+   "start": 48.2,
+   "duration": 6.7,
+   "type": "checklist",
+   "side": "right",
+   "text": "Joining week",
+   "items": [
+    {
+     "label": "Policy box ticked",
+     "state": "yes"
+    },
+    {
+     "label": "Policy actually read",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 55.3,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "Break it: on you",
+   "side": "right"
+  },
+  {
+   "start": 59,
+   "duration": 2.7,
+   "type": "keyword_chip",
+   "text": "Read before you tick",
+   "side": "left"
+  },
+  {
+   "start": 62,
+   "duration": 4.3,
+   "type": "big_statement",
+   "text": "Laptop = work tool",
+   "eyebrow": "tool"
+  },
+  {
+   "start": 66.67,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "No personal use",
+   "eyebrow": "Section 02",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 70.1,
+   "duration": 6,
+   "type": "checklist",
+   "side": "right",
+   "text": "Keep off the laptop",
+   "items": [
+    {
+     "label": "Personal cloud drives",
+     "state": "no"
+    },
+    {
+     "label": "Personal email",
+     "state": "no"
+    },
+    {
+     "label": "Movies and games",
+     "state": "no"
+    },
+    {
+     "label": "Software from the web",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 76.4,
+   "duration": 3.2,
+   "type": "side_note",
+   "text": "Security team can see",
+   "side": "left"
+  },
+  {
+   "start": 79.9,
+   "duration": 3.6,
+   "type": "quote_pull",
+   "text": "A free screen recorder on the office laptop",
+   "eyebrow": "Ravi · invented fresher story"
+  },
+  {
+   "start": 83.8,
+   "duration": 9.2,
+   "type": "timeline",
+   "side": "left",
+   "text": "Ravi's first month",
+   "current": 2,
+   "items": [
+    {
+     "label": "Day 1 download",
+     "sublabel": ""
+    },
+    {
+     "label": "Flagged same day",
+     "sublabel": ""
+    },
+    {
+     "label": "Mail to manager",
+     "sublabel": ""
+    },
+    {
+     "label": "Written explanation",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 93.7,
+   "duration": 4.1,
+   "type": "keyword_chip",
+   "text": "Personal things: own device",
+   "side": "right"
+  },
+  {
+   "start": 98.1,
+   "duration": 5.9,
+   "type": "flow_diagram",
+   "text": "The safe way",
+   "items": [
+    {
+     "label": "Need a tool",
+     "sublabel": ""
+    },
+    {
+     "label": "Raise request",
+     "sublabel": ""
+    },
+    {
+     "label": "Approved install",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 104.4,
+   "duration": 3.8,
+   "type": "big_statement",
+   "text": "Asking costs one day",
+   "eyebrow": "day"
+  },
+  {
+   "start": 108.53,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Files stay in",
+   "eyebrow": "Section 03",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 112.3,
+   "duration": 9.2,
+   "type": "matrix_grid",
+   "text": "Looks harmless. Is leakage.",
+   "items": [
+    {
+     "label": "Personal email"
+    },
+    {
+     "label": "Pen drive"
+    },
+    {
+     "label": "Personal drive"
+    }
+   ]
+  },
+  {
+   "start": 121.8,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Feels harmless",
+   "side": "left"
+  },
+  {
+   "start": 125.6,
+   "duration": 7.5,
+   "type": "term_card",
+   "side": "left",
+   "text": "Data leakage",
+   "eyebrow": "Security team's word",
+   "items": [
+    {
+     "label": "A work file leaving company systems"
+    }
+   ]
+  },
+  {
+   "start": 133.4,
+   "duration": 4.5,
+   "type": "big_statement",
+   "text": "Detected automatically",
+   "eyebrow": "automatically"
+  },
+  {
+   "start": 138.5,
+   "duration": 11.2,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Never",
+    "text": "Phone photo of screen. Group chats. Social media."
+   },
+   "right": {
+    "label": "Even if",
+    "text": "It looks like a normal page"
+   }
+  },
+  {
+   "start": 150.6,
+   "duration": 10.4,
+   "type": "checklist",
+   "side": "right",
+   "text": "Do this instead",
+   "items": [
+    {
+     "label": "Company chat",
+     "state": "yes"
+    },
+    {
+     "label": "Company drive",
+     "state": "yes"
+    },
+    {
+     "label": "Company remote access",
+     "state": "yes"
+    },
+    {
+     "label": "Ask your manager",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 161.35,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Lock, badge, password",
+   "eyebrow": "Section 04",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 164.8,
+   "duration": 2.5,
+   "type": "keyword_chip",
+   "text": "Small habits count",
+   "side": "left"
+  },
+  {
+   "start": 167.8,
+   "duration": 3.3,
+   "type": "number_roll",
+   "value": 2,
+   "suffix": " min",
+   "text": "Lock it even for",
+   "side": "right"
+  },
+  {
+   "start": 171.4,
+   "duration": 2,
+   "type": "keyword_chip",
+   "text": "Not in the canteen",
+   "side": "left"
+  },
+  {
+   "start": 173.6,
+   "duration": 7.8,
+   "type": "bullet_list",
+   "side": "left",
+   "text": "Never share",
+   "items": [
+    {
+     "label": "Your password"
+    },
+    {
+     "label": "Your badge"
+    },
+    {
+     "label": "Your logged-in laptop"
+    }
+   ]
+  },
+  {
+   "start": 181.9,
+   "duration": 4,
+   "type": "big_statement",
+   "text": "Your login = your name",
+   "eyebrow": "name"
+  },
+  {
+   "start": 186.2,
+   "duration": 3.9,
+   "type": "side_note",
+   "text": "The log shows you",
+   "side": "left"
+  },
+  {
+   "start": 190.5,
+   "duration": 5.9,
+   "type": "quote_pull",
+   "text": "Verify your account now",
+   "eyebrow": "Sample fake mail · report it"
+  },
+  {
+   "start": 196.7,
+   "duration": 3.9,
+   "type": "keyword_chip",
+   "text": "Stop. Don't click.",
+   "side": "right"
+  },
+  {
+   "start": 200.9,
+   "duration": 3.5,
+   "type": "big_statement",
+   "text": "Security never asks your password",
+   "eyebrow": "never"
+  },
+  {
+   "start": 204.9,
+   "duration": 3.5,
+   "type": "side_note",
+   "text": "Saying no feels rude",
+   "side": "left"
+  },
+  {
+   "start": 208.7,
+   "duration": 2.8,
+   "type": "quote_pull",
+   "text": "Sorry, company rule.",
+   "eyebrow": "Always accepted"
+  },
+  {
+   "start": 211.65,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "What to do now",
+   "eyebrow": "Section 05",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 215,
+   "duration": 7.4,
+   "type": "term_card",
+   "side": "left",
+   "text": "Step 1",
+   "eyebrow": "First week",
+   "items": [
+    {
+     "label": "Read the security policy before you tick the box"
+    }
+   ]
+  },
+  {
+   "start": 222.8,
+   "duration": 8.8,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Step 2 · Ask first",
+    "text": "A question is never a mistake"
+   },
+   "right": {
+    "label": "Guess",
+    "text": "A guess can be"
+   }
+  },
+  {
+   "start": 231.9,
+   "duration": 5.5,
+   "type": "flow_diagram",
+   "text": "Step 3 · Keep apart",
+   "items": [
+    {
+     "label": "Device",
+     "sublabel": ""
+    },
+    {
+     "label": "Mail",
+     "sublabel": ""
+    },
+    {
+     "label": "Phone",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 237.9,
+   "duration": 8.3,
+   "type": "checklist",
+   "side": "right",
+   "text": "Recap",
+   "items": [
+    {
+     "label": "1 · No personal use",
+     "state": "yes"
+    },
+    {
+     "label": "2 · Work files stay in",
+     "state": "yes"
+    },
+    {
+     "label": "3 · Lock, badge, password",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 246.5,
+   "duration": 5.9,
+   "type": "big_statement",
+   "text": "Which number was fine? 1, 2 or 3",
+   "eyebrow": "number"
+  },
+  {
+   "start": 252.9,
+   "duration": 5.4,
+   "type": "keyword_chip",
+   "text": "Like · Subscribe",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/woman.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 7,
+   "index": 0
+  },
+  {
+   "start": 7,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 14,
+   "index": 1
+  },
+  {
+   "start": 14,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3",
+    "label": "laptop rules"
+   },
+   "end": 22,
+   "index": 2
+  },
+  {
+   "start": 22,
+   "kind": "broll",
+   "src": "assets/broll/hands.mp4",
+   "media_start": 0,
+   "motion": "pan_left",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 27,
+   "index": 3
+  },
+  {
+   "start": 27,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 34,
+   "index": 4
+  },
+  {
+   "start": 34,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "CLIENT",
+    "label": "sets the rules"
+   },
+   "end": 42,
+   "index": 5
+  },
+  {
+   "start": 42,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 48,
+   "index": 6
+  },
+  {
+   "start": 48,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 55,
+   "index": 7
+  },
+  {
+   "start": 55,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 62,
+   "index": 8
+  },
+  {
+   "start": 62,
+   "kind": "broll",
+   "src": "assets/broll/keys.mp4",
+   "media_start": 0,
+   "motion": "pan_left",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 66.67,
+   "index": 9
+  },
+  {
+   "start": 66.67,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 70,
+   "index": 10
+  },
+  {
+   "start": 70,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 77,
+   "index": 11
+  },
+  {
+   "start": 77,
+   "kind": "broll",
+   "src": "assets/broll/coffee.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 84,
+   "index": 12
+  },
+  {
+   "start": 84,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 93,
+   "index": 13
+  },
+  {
+   "start": 93,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 98,
+   "index": 14
+  },
+  {
+   "start": 98,
+   "kind": "broll",
+   "src": "assets/broll/meeting.mp4",
+   "media_start": 0,
+   "motion": "pan_left",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 104,
+   "index": 15
+  },
+  {
+   "start": 104,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 108.53,
+   "index": 16
+  },
+  {
+   "start": 108.53,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 112,
+   "index": 17
+  },
+  {
+   "start": 112,
+   "kind": "broll",
+   "src": "assets/broll/woman.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 122,
+   "index": 18
+  },
+  {
+   "start": 122,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "LEAK",
+    "label": "data leaving"
+   },
+   "end": 133,
+   "index": 19
+  },
+  {
+   "start": 133,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 142,
+   "index": 20
+  },
+  {
+   "start": 142,
+   "kind": "broll",
+   "src": "assets/broll/hands.mp4",
+   "media_start": 0,
+   "motion": "pan_left",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 150.5,
+   "index": 21
+  },
+  {
+   "start": 150.5,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 161.3,
+   "index": 22
+  },
+  {
+   "start": 161.3,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 165,
+   "index": 23
+  },
+  {
+   "start": 165,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 172,
+   "index": 24
+  },
+  {
+   "start": 172,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "RULE 3",
+    "label": "lock · badge · password"
+   },
+   "end": 181,
+   "index": 25
+  },
+  {
+   "start": 181,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 190,
+   "index": 26
+  },
+  {
+   "start": 190,
+   "kind": "broll",
+   "src": "assets/broll/keys.mp4",
+   "media_start": 0,
+   "motion": "pan_left",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 196,
+   "index": 27
+  },
+  {
+   "start": 196,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "REPORT",
+    "label": "fake mails"
+   },
+   "end": 205,
+   "index": 28
+  },
+  {
+   "start": 205,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 211.6,
+   "index": 29
+  },
+  {
+   "start": 211.6,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 215,
+   "index": 30
+  },
+  {
+   "start": 215,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 223,
+   "index": 31
+  },
+  {
+   "start": 223,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 232,
+   "index": 32
+  },
+  {
+   "start": 232,
+   "kind": "broll",
+   "src": "assets/broll/coffee.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 238,
+   "index": 33
+  },
+  {
+   "start": 238,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 246.5,
+   "index": 34
+  },
+  {
+   "start": 246.5,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 252.5,
+   "index": 35
+  },
+  {
+   "start": 252.5,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe"
+   },
+   "end": 258.6,
+   "index": 36
+  }
+ ],
+ "camera_moves": []
+}

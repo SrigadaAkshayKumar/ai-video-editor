@@ -1,0 +1,230 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "title_slide: Company laptop rules"
+  },
+  {
+   "time": 4.1,
+   "sfx": "ding",
+   "gain": 2,
+   "reason": "quote_pull: Policy violation"
+  },
+  {
+   "time": 7.4,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "big_statement: Nobody tells you the rule first"
+  },
+  {
+   "time": 11.4,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: Waiting to join?"
+  },
+  {
+   "time": 27,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Not your laptop (wipe)"
+  },
+  {
+   "time": 27.4,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "chapter_open: Not your laptop (hit)"
+  },
+  {
+   "time": 35.1,
+   "sfx": "reveal",
+   "gain": 2,
+   "reason": "flow_diagram: Who sets the rules"
+  },
+  {
+   "time": 48.3,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "checklist: Joining week"
+  },
+  {
+   "time": 55.4,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: Break it: on you"
+  },
+  {
+   "time": 66.67,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: No personal use (wipe)"
+  },
+  {
+   "time": 67.07,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "chapter_open: No personal use (hit)"
+  },
+  {
+   "time": 70.2,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "checklist: Keep off the laptop"
+  },
+  {
+   "time": 80,
+   "sfx": "ding",
+   "gain": 2,
+   "reason": "quote_pull: A free screen recorder on the office laptop"
+  },
+  {
+   "time": 83.9,
+   "sfx": "reveal",
+   "gain": 2,
+   "reason": "timeline: Ravi's first month"
+  },
+  {
+   "time": 98.2,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "flow_diagram: The safe way"
+  },
+  {
+   "time": 104.5,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "big_statement: Asking costs one day"
+  },
+  {
+   "time": 108.53,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Files stay in (wipe)"
+  },
+  {
+   "time": 108.93,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "chapter_open: Files stay in (hit)"
+  },
+  {
+   "time": 112.4,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "matrix_grid: Looks harmless. Is leakage."
+  },
+  {
+   "time": 121.9,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: Feels harmless"
+  },
+  {
+   "time": 125.7,
+   "sfx": "reveal",
+   "gain": 2,
+   "reason": "term_card: Data leakage"
+  },
+  {
+   "time": 138.6,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "comparison: "
+  },
+  {
+   "time": 150.7,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "checklist: Do this instead"
+  },
+  {
+   "time": 161.35,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Lock, badge, password (wipe)"
+  },
+  {
+   "time": 161.75,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "chapter_open: Lock, badge, password (hit)"
+  },
+  {
+   "time": 173.7,
+   "sfx": "reveal",
+   "gain": 2,
+   "reason": "bullet_list: Never share"
+  },
+  {
+   "time": 182,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "big_statement: Your login = your name"
+  },
+  {
+   "time": 190.6,
+   "sfx": "ding",
+   "gain": 2,
+   "reason": "quote_pull: Verify your account now"
+  },
+  {
+   "time": 196.8,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: Stop. Don't click."
+  },
+  {
+   "time": 208.8,
+   "sfx": "ding",
+   "gain": 2,
+   "reason": "quote_pull: Sorry, company rule."
+  },
+  {
+   "time": 211.65,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: What to do now (wipe)"
+  },
+  {
+   "time": 212.05,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "chapter_open: What to do now (hit)"
+  },
+  {
+   "time": 215.1,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "term_card: Step 1"
+  },
+  {
+   "time": 222.9,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "comparison: "
+  },
+  {
+   "time": 232,
+   "sfx": "reveal",
+   "gain": 2,
+   "reason": "flow_diagram: Step 3 · Keep apart"
+  },
+  {
+   "time": 238,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "checklist: Recap"
+  },
+  {
+   "time": 246.6,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "big_statement: Which number was fine? 1, 2 or 3"
+  }
+ ]
+}
