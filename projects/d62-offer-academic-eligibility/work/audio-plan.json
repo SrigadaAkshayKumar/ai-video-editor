@@ -1,0 +1,158 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "title_slide: Offer cancelled for paper?"
+  },
+  {
+   "time": 10.48,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "stat_trio: This video"
+  },
+  {
+   "time": 19.48,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "side_note: Third one: most students skip it"
+  },
+  {
+   "time": 23.6,
+   "sfx": "whoosh",
+   "gain": 1,
+   "reason": "chapter_open: What happened"
+  },
+  {
+   "time": 34.68,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "keyword_chip: Candidate-reported, companies had not commented"
+  },
+  {
+   "time": 51.28,
+   "sfx": "whoosh",
+   "gain": 1,
+   "reason": "fact_band: Reported, 2022"
+  },
+  {
+   "time": 57.08,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "flow_diagram: The reason"
+  },
+  {
+   "time": 67.03,
+   "sfx": "whoosh",
+   "gain": 1,
+   "reason": "chapter_open: Your marks"
+  },
+  {
+   "time": 73.68,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "checklist: Marks: exactly as the marksheet"
+  },
+  {
+   "time": 83.68,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 95.58,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "side_note: Mismatch found in verification"
+  },
+  {
+   "time": 101.68,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "checklist: Do this"
+  },
+  {
+   "time": 109.32,
+   "sfx": "whoosh",
+   "gain": 1,
+   "reason": "chapter_open: Backlogs"
+  },
+  {
+   "time": 117.08,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "keyword_chip: Read your own offer"
+  },
+  {
+   "time": 127.68,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "flow_diagram: Exam written is not cleared"
+  },
+  {
+   "time": 139.68,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "checklist: Make a list today"
+  },
+  {
+   "time": 153.07,
+   "sfx": "whoosh",
+   "gain": 1,
+   "reason": "chapter_open: Documents"
+  },
+  {
+   "time": 159.58,
+   "sfx": "whoosh",
+   "gain": 1,
+   "reason": "timeline: Final proof, in order"
+  },
+  {
+   "time": 173.88,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "keyword_chip: Miss the date: delay or withdrawal"
+  },
+  {
+   "time": 184.68,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "checklist: Three actions"
+  },
+  {
+   "time": 200.59,
+   "sfx": "whoosh",
+   "gain": 1,
+   "reason": "chapter_open: If the mail arrives"
+  },
+  {
+   "time": 204.48,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "flow_diagram: In order"
+  },
+  {
+   "time": 229.08,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "side_note: Your offer letter is the final guide"
+  },
+  {
+   "time": 237.28,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "checklist: This week"
+  },
+  {
+   "time": 252.68,
+   "sfx": "whoosh",
+   "gain": 1,
+   "reason": "fact_band: Recap"
+  }
+ ]
+}

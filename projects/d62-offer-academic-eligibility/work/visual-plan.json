@@ -1,0 +1,833 @@
+{
+ "style": "cleantech",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 5.95,
+   "type": "title_slide",
+   "text": "Offer cancelled for paper?",
+   "eyebrow": "Crack IT · Day 62",
+   "style_hint": "3 academic checks"
+  },
+  {
+   "start": 6.4,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Null and void?",
+   "side": "right"
+  },
+  {
+   "start": 10.4,
+   "duration": 8.4,
+   "type": "stat_trio",
+   "text": "This video",
+   "items": [
+    {
+     "label": "academic checks",
+     "sublabel": "",
+     "value": 3
+    },
+    {
+     "label": "minutes",
+     "sublabel": "",
+     "value": 5
+    },
+    {
+     "label": "check this week",
+     "sublabel": "",
+     "value": 1
+    }
+   ]
+  },
+  {
+   "start": 19.4,
+   "duration": 3.5,
+   "type": "side_note",
+   "text": "Third one: most students skip it",
+   "side": "right"
+  },
+  {
+   "start": 23.52,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "What happened",
+   "eyebrow": "The reports",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 28,
+   "duration": 4.5,
+   "type": "keyword_chip",
+   "text": "Reported, Oct 2022",
+   "side": "right"
+  },
+  {
+   "start": 34.6,
+   "duration": 5.9,
+   "type": "keyword_chip",
+   "text": "Candidate-reported, companies had not commented",
+   "side": "right"
+  },
+  {
+   "start": 44.6,
+   "duration": 6.2,
+   "type": "quote_pull",
+   "text": "Not meeting our academic eligibility criteria. Hence your offer stands null and void.",
+   "eyebrow": "As reported by Telangana Today"
+  },
+  {
+   "start": 51.2,
+   "duration": 5,
+   "type": "fact_band",
+   "text": "Reported, 2022",
+   "items": [
+    {
+     "label": "Wipro",
+     "sublabel": "reported"
+    },
+    {
+     "label": "Infosys",
+     "sublabel": "reported"
+    },
+    {
+     "label": "Tech Mahindra",
+     "sublabel": "reported"
+    }
+   ]
+  },
+  {
+   "start": 57,
+   "duration": 7.5,
+   "type": "flow_diagram",
+   "text": "The reason",
+   "items": [
+    {
+     "label": "Not skill",
+     "sublabel": "interview"
+    },
+    {
+     "label": "Not performance",
+     "sublabel": ""
+    },
+    {
+     "label": "Paper",
+     "sublabel": "marks, degree, documents"
+    }
+   ]
+  },
+  {
+   "start": 66.95,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Your marks",
+   "eyebrow": "Check 01",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 71,
+   "duration": 2,
+   "type": "keyword_chip",
+   "text": "10th · 12th · Degree",
+   "side": "right"
+  },
+  {
+   "start": 73.6,
+   "duration": 9,
+   "type": "checklist",
+   "side": "right",
+   "text": "Marks: exactly as the marksheet",
+   "items": [
+    {
+     "label": "10th",
+     "state": "yes"
+    },
+    {
+     "label": "12th",
+     "state": "yes"
+    },
+    {
+     "label": "Degree",
+     "state": "yes"
+    },
+    {
+     "label": "Hiring notice cut-off",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 83.6,
+   "duration": 11,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Form",
+    "text": "7.50 (rounded up)"
+   },
+   "right": {
+    "label": "Marksheet",
+    "text": "7.45"
+   }
+  },
+  {
+   "start": 95.5,
+   "duration": 5.3,
+   "type": "side_note",
+   "text": "Mismatch found in verification",
+   "side": "left"
+  },
+  {
+   "start": 101.6,
+   "duration": 7.4,
+   "type": "checklist",
+   "side": "right",
+   "text": "Do this",
+   "items": [
+    {
+     "label": "Write marks as printed",
+     "state": "yes"
+    },
+    {
+     "label": "Official conversion only",
+     "state": "yes"
+    },
+    {
+     "label": "Keep a copy",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 109.24,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Backlogs",
+   "eyebrow": "Check 02",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 113.5,
+   "duration": 2.7,
+   "type": "keyword_chip",
+   "text": "Company rule, not a law",
+   "side": "right"
+  },
+  {
+   "start": 117,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "Read your own offer",
+   "side": "left"
+  },
+  {
+   "start": 121.3,
+   "duration": 5.7,
+   "type": "big_statement",
+   "text": "One pending paper counts",
+   "eyebrow": "pending"
+  },
+  {
+   "start": 127.6,
+   "duration": 11,
+   "type": "flow_diagram",
+   "text": "Exam written is not cleared",
+   "items": [
+    {
+     "label": "Exam written",
+     "sublabel": ""
+    },
+    {
+     "label": "Result awaited",
+     "sublabel": "say so"
+    },
+    {
+     "label": "Cleared",
+     "sublabel": "before joining"
+    }
+   ]
+  },
+  {
+   "start": 139.6,
+   "duration": 8.4,
+   "type": "checklist",
+   "side": "right",
+   "text": "Make a list today",
+   "items": [
+    {
+     "label": "Pending papers",
+     "state": "yes"
+    },
+    {
+     "label": "Next exam date",
+     "state": "yes"
+    },
+    {
+     "label": "What the offer says",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 148.8,
+   "duration": 3.6,
+   "type": "side_note",
+   "text": "Exam first, courses after",
+   "side": "left"
+  },
+  {
+   "start": 152.99,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Documents",
+   "eyebrow": "Check 03",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 159.5,
+   "duration": 13.4,
+   "type": "timeline",
+   "side": "right",
+   "text": "Final proof, in order",
+   "current": 1,
+   "items": [
+    {
+     "label": "Final semester marksheet",
+     "sublabel": ""
+    },
+    {
+     "label": "Provisional certificate",
+     "sublabel": ""
+    },
+    {
+     "label": "Degree certificate",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 173.8,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "Miss the date: delay or withdrawal",
+   "side": "right"
+  },
+  {
+   "start": 178,
+   "duration": 6,
+   "type": "side_note",
+   "text": "Universities take weeks",
+   "side": "left"
+  },
+  {
+   "start": 184.6,
+   "duration": 11.4,
+   "type": "checklist",
+   "side": "right",
+   "text": "Three actions",
+   "items": [
+    {
+     "label": "Find the document deadline",
+     "state": "yes"
+    },
+    {
+     "label": "Ask college office today",
+     "state": "yes"
+    },
+    {
+     "label": "Mail the company early",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 200.51,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "If the mail arrives",
+   "eyebrow": "Plan",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 204.4,
+   "duration": 18.3,
+   "type": "flow_diagram",
+   "text": "In order",
+   "items": [
+    {
+     "label": "Read the reason",
+     "sublabel": "twice"
+    },
+    {
+     "label": "Reply in writing",
+     "sublabel": "with marksheets"
+    },
+    {
+     "label": "Placement cell",
+     "sublabel": "writes too"
+    }
+   ]
+  },
+  {
+   "start": 223.4,
+   "duration": 4.8,
+   "type": "big_statement",
+   "text": "Calm, written, with proof",
+   "eyebrow": "Calm"
+  },
+  {
+   "start": 229,
+   "duration": 5.4,
+   "type": "side_note",
+   "text": "Your offer letter is the final guide",
+   "side": "left"
+  },
+  {
+   "start": 237.2,
+   "duration": 14.6,
+   "type": "checklist",
+   "side": "right",
+   "text": "This week",
+   "items": [
+    {
+     "label": "Marks rule",
+     "state": "yes"
+    },
+    {
+     "label": "Backlog rule",
+     "state": "yes"
+    },
+    {
+     "label": "Document deadline",
+     "state": "yes"
+    },
+    {
+     "label": "Provisional date",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 252.6,
+   "duration": 5.9,
+   "type": "fact_band",
+   "text": "Recap",
+   "items": [
+    {
+     "label": "Exact marks",
+     "sublabel": "1"
+    },
+    {
+     "label": "No hidden backlogs",
+     "sublabel": "2"
+    },
+    {
+     "label": "Documents on time",
+     "sublabel": "3"
+    }
+   ]
+  },
+  {
+   "start": 259.2,
+   "duration": 8.7,
+   "type": "big_statement",
+   "text": "Marks, backlogs or certificate?",
+   "eyebrow": "Comment"
+  },
+  {
+   "start": 268.5,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "Like · Subscribe",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 10.26,
+   "index": 0
+  },
+  {
+   "start": 10.26,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3",
+    "label": "academic checks"
+   },
+   "end": 19.16,
+   "index": 1
+  },
+  {
+   "start": 19.16,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "?",
+    "label": "the third is missed most"
+   },
+   "end": 23.52,
+   "index": 2
+  },
+  {
+   "start": 23.52,
+   "kind": "broll",
+   "src": "assets/broll/campus.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 33.41,
+   "index": 3
+  },
+  {
+   "start": 33.41,
+   "kind": "news",
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "url": "https://telanganatoday.com/wipro-infosys-tech-mahindra-revoke-offer-letters-given-to-freshers-reports",
+   "source": "Telangana Today",
+   "headline": "Wipro, Infosys, Tech Mahindra revoke offer letters given to freshers: Reports",
+   "date": "3 Oct 2022",
+   "highlight": {
+    "x": 0.15,
+    "y": 0.755,
+    "w": 0.44,
+    "h": 0.065
+   },
+   "end": 44.5,
+   "index": 4
+  },
+  {
+   "start": 44.5,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "0",
+    "label": "numbers quoted: reports differ"
+   },
+   "end": 51,
+   "index": 5
+  },
+  {
+   "start": 51,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 56.77,
+   "index": 6
+  },
+  {
+   "start": 56.77,
+   "kind": "broll",
+   "src": "assets/broll/binders.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 62.8,
+   "index": 7
+  },
+  {
+   "start": 62.8,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "PAPER",
+    "label": "marks · degree · documents"
+   },
+   "end": 66.95,
+   "index": 8
+  },
+  {
+   "start": 66.95,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "1",
+    "label": "your marks"
+   },
+   "end": 73.1,
+   "index": 9
+  },
+  {
+   "start": 73.1,
+   "kind": "broll",
+   "src": "assets/broll/form.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 83.27,
+   "index": 10
+  },
+  {
+   "start": 83.27,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "7.45",
+    "label": "not 7.5"
+   },
+   "end": 89.5,
+   "index": 11
+  },
+  {
+   "start": 89.5,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "%",
+    "label": "a formula your university does not use"
+   },
+   "end": 95.3,
+   "index": 12
+  },
+  {
+   "start": 95.3,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 101.45,
+   "index": 13
+  },
+  {
+   "start": 101.45,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 109.24,
+   "index": 14
+  },
+  {
+   "start": 109.24,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "2",
+    "label": "backlogs"
+   },
+   "end": 121.11,
+   "index": 15
+  },
+  {
+   "start": 121.11,
+   "kind": "broll",
+   "src": "assets/broll/study.mp4",
+   "media_start": 4,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 133.2,
+   "index": 16
+  },
+  {
+   "start": 133.2,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "RESULT",
+    "label": "awaited is not cleared"
+   },
+   "end": 139.27,
+   "index": 17
+  },
+  {
+   "start": 139.27,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "LIST",
+    "label": "pending papers today"
+   },
+   "end": 148.5,
+   "index": 18
+  },
+  {
+   "start": 148.5,
+   "kind": "broll",
+   "src": "assets/broll/write.mp4",
+   "media_start": 3,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 152.99,
+   "index": 19
+  },
+  {
+   "start": 152.99,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3",
+    "label": "final degree documents"
+   },
+   "end": 163.17,
+   "index": 20
+  },
+  {
+   "start": 163.17,
+   "kind": "broll",
+   "src": "assets/broll/campus.mp4",
+   "media_start": 12,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 173.39,
+   "index": 21
+  },
+  {
+   "start": 173.39,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 184.28,
+   "index": 22
+  },
+  {
+   "start": 184.28,
+   "kind": "broll",
+   "src": "assets/broll/write.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 190.5,
+   "index": 23
+  },
+  {
+   "start": 190.5,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "DEADLINE",
+    "label": "find it in your offer"
+   },
+   "end": 196.35,
+   "index": 24
+  },
+  {
+   "start": 196.35,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "EARLY",
+    "label": "a polite mail beats an excuse"
+   },
+   "end": 200.51,
+   "index": 25
+  },
+  {
+   "start": 200.51,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "MAIL",
+    "label": "if it arrives"
+   },
+   "end": 208.08,
+   "index": 26
+  },
+  {
+   "start": 208.08,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 214.22,
+   "index": 27
+  },
+  {
+   "start": 214.22,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 223.27,
+   "index": 28
+  },
+  {
+   "start": 223.27,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "CALM",
+    "label": "no angry mails"
+   },
+   "end": 228.7,
+   "index": 29
+  },
+  {
+   "start": 228.7,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 234.65,
+   "index": 30
+  },
+  {
+   "start": 234.65,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 246.44,
+   "index": 31
+  },
+  {
+   "start": 246.44,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3",
+    "label": "marks · backlogs · documents"
+   },
+   "end": 252.5,
+   "index": 32
+  },
+  {
+   "start": 252.5,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 259.07,
+   "index": 33
+  },
+  {
+   "start": 259.07,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "1 word",
+    "label": "tell me in the comments"
+   },
+   "end": 268.39,
+   "index": 34
+  },
+  {
+   "start": 268.39,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe"
+   },
+   "end": 272.73,
+   "index": 35
+  }
+ ],
+ "camera_moves": []
+}
