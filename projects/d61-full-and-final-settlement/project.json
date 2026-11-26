@@ -1,0 +1,104 @@
+{
+  "name": "d61-full-and-final-settlement",
+  "createdAt": "2026-11-26T16:23:54.756Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d61-full-and-final-settlement/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d61/d61-voice.wav",
+    "duration": 252.46,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d61-full-and-final-settlement/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d61/d61_full_and_final_settlement_voiceover.txt",
+    "words": 840,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d61-full-and-final-settlement/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "The Code",
+    "Ask",
+    "Number",
+    "Keep"
+  ],
+  "mode": "faceless",
+  "style": "blueprint",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; terminal / data-desk look: monospace, stepped plotter arrivals; graphic-led (flow diagrams, checklists, number rolls), b-roll sparse and docked; a beat every 5-7 s; crisp digital ticks and soft clicks for SFX",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 26.47,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-26T16:25:09.558Z",
+      "words": 836,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-26T16:25:14.681Z",
+      "segments": 12,
+      "kept": 249.667
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-26T16:53:40.070Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d61-full-and-final-settlement/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-26T16:53:40.165Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-26T16:53:40.189Z",
+      "groups": 221
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-26T16:53:41.809Z",
+      "music": 0,
+      "sfx": 33
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-26T16:56:33.158Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d61-full-and-final-settlement/output/final-16x9.mp4",
+      "duration": 259.72
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.985789,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d61-full-and-final-settlement/work/cleancut.wav",
+    "duration": 249.666708,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

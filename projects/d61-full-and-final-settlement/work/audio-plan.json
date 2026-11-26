@@ -1,0 +1,206 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "click",
+   "gain": 3,
+   "reason": "title_slide: Last salary stuck?"
+  },
+  {
+   "time": 6.28,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: You resigned. The money didn't come."
+  },
+  {
+   "time": 12.28,
+   "sfx": "typing",
+   "gain": 1,
+   "reason": "stat_trio: This video"
+  },
+  {
+   "time": 19.88,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "side_note: Third one decides if next employer trusts you"
+  },
+  {
+   "time": 26.98,
+   "sfx": "glitch",
+   "gain": 1,
+   "reason": "chapter_open: What F and F means"
+  },
+  {
+   "time": 30.68,
+   "sfx": "typing",
+   "gain": 1,
+   "reason": "flow_diagram: How F and F works"
+  },
+  {
+   "time": 39.08,
+   "sfx": "typing",
+   "gain": 1,
+   "reason": "checklist: Add side"
+  },
+  {
+   "time": 50.78,
+   "sfx": "typing",
+   "gain": 1,
+   "reason": "checklist: Subtract side"
+  },
+  {
+   "time": 65.68,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "side_note: Read every line of the statement"
+  },
+  {
+   "time": 71.68,
+   "sfx": "glitch",
+   "gain": 1,
+   "reason": "chapter_open: The rule on timing"
+  },
+  {
+   "time": 75.08,
+   "sfx": "ding",
+   "gain": 0,
+   "reason": "big_statement: Code on Wages, in force 21 Nov 2025"
+  },
+  {
+   "time": 81.08,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: Reported by LiveLaw, 3 Oct 2026"
+  },
+  {
+   "time": 88.88,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "number_roll: wages payable on resignation"
+  },
+  {
+   "time": 94.68,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "side_note: Two days is for wages, not every line"
+  },
+  {
+   "time": 99.88,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: Salary and allowances"
+  },
+  {
+   "time": 103.68,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "number_roll: gratuity has its own timeline"
+  },
+  {
+   "time": 107.28,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "side_note: Reports: firms still struggling with the labour codes"
+  },
+  {
+   "time": 113.68,
+   "sfx": "ding",
+   "gain": 0,
+   "reason": "big_statement: Ask HR in writing for the date of each part"
+  },
+  {
+   "time": 123.38,
+   "sfx": "glitch",
+   "gain": 1,
+   "reason": "chapter_open: Three things to check"
+  },
+  {
+   "time": 127.08,
+   "sfx": "typing",
+   "gain": 1,
+   "reason": "checklist: 1 · Statement in writing"
+  },
+  {
+   "time": 135.98,
+   "sfx": "typing",
+   "gain": 1,
+   "reason": "comparison: "
+  },
+  {
+   "time": 146.88,
+   "sfx": "typing",
+   "gain": 1,
+   "reason": "checklist: 3 · Collect on the last day"
+  },
+  {
+   "time": 162.28,
+   "sfx": "typing",
+   "gain": 1,
+   "reason": "flow_diagram: Why the third decides trust"
+  },
+  {
+   "time": 173.48,
+   "sfx": "glitch",
+   "gain": 1,
+   "reason": "chapter_open: If the money is late"
+  },
+  {
+   "time": 177.88,
+   "sfx": "typing",
+   "gain": 1,
+   "reason": "flow_diagram: Stay calm, in order"
+  },
+  {
+   "time": 196.68,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "side_note: Keep letter, payslips, mails in one folder"
+  },
+  {
+   "time": 202.58,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: Dates and numbers, not anger"
+  },
+  {
+   "time": 206.48,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: General guide: your appointment letter decides"
+  },
+  {
+   "time": 215.68,
+   "sfx": "glitch",
+   "gain": 1,
+   "reason": "chapter_open: What to do from today"
+  },
+  {
+   "time": 219.58,
+   "sfx": "typing",
+   "gain": 1,
+   "reason": "checklist: From today"
+  },
+  {
+   "time": 232.28,
+   "sfx": "typing",
+   "gain": 1,
+   "reason": "fact_band: Recap"
+  },
+  {
+   "time": 238.08,
+   "sfx": "ding",
+   "gain": 0,
+   "reason": "big_statement: What is your notice period?"
+  },
+  {
+   "time": 245.28,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: Like · Subscribe"
+  }
+ ]
+}
