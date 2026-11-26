@@ -1,0 +1,105 @@
+{
+  "name": "d59-first-client-call",
+  "createdAt": "2026-11-26T10:46:26.098Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d59-first-client-call/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d59/d59-voice.wav",
+    "duration": 194.74,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d59-first-client-call/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d59/d59_first_client_call_voiceover.txt",
+    "words": 687,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d59-first-client-call/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Rule",
+    "Say",
+    "During",
+    "Keep",
+    "Write"
+  ],
+  "mode": "faceless",
+  "style": "broadcast",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; bold newsroom look: news screenshots and NewsCards lead, split-screen framing, oversized section numerals, high-contrast accents; punchy pace, a beat every 3-5 s; wipe whooshes and hits on section changes",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": null,
+  "introAt": 23.2,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-26T10:47:51.025Z",
+      "words": 687,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-26T10:47:54.473Z",
+      "segments": 11,
+      "kept": 191.1
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-26T11:09:56.868Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d59-first-client-call/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-26T11:09:58.697Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-26T11:09:58.728Z",
+      "groups": 180
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-26T11:10:00.457Z",
+      "music": 0,
+      "sfx": 28
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-26T11:10:16.435Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d59-first-client-call/output/final-16x9.mp4",
+      "duration": 191.1
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.989759,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d59-first-client-call/work/cleancut.wav",
+    "duration": 191.10025,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

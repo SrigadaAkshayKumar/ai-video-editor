@@ -1,0 +1,176 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "title_slide: Your first client call"
+  },
+  {
+   "time": 3.68,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "side_note: First ten seconds matter"
+  },
+  {
+   "time": 11.88,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "stat_trio: This video"
+  },
+  {
+   "time": 18.98,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "side_note: Rule 3: most never hear it"
+  },
+  {
+   "time": 23.5,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Why calls feel scary"
+  },
+  {
+   "time": 27.08,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "flow_diagram: Who answers to whom"
+  },
+  {
+   "time": 32.98,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "side_note: First calls: listen, learn, take notes"
+  },
+  {
+   "time": 43.58,
+   "sfx": "whoosh",
+   "gain": 1,
+   "reason": "big_statement: Prepared. Calm. No promises."
+  },
+  {
+   "time": 49.68,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Prepare for ten minutes"
+  },
+  {
+   "time": 53.68,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "keyword_chip: Read the agenda"
+  },
+  {
+   "time": 55.48,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "keyword_chip: No agenda? Ask your manager"
+  },
+  {
+   "time": 63.98,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "checklist: The boring checks"
+  },
+  {
+   "time": 69.88,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "keyword_chip: No private pop-up on a shared screen"
+  },
+  {
+   "time": 83.38,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Say less, write more"
+  },
+  {
+   "time": 87.18,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "keyword_chip: Mute unless speaking"
+  },
+  {
+   "time": 91.68,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "side_note: Do not interrupt. Wait one second."
+  },
+  {
+   "time": 96.68,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "keyword_chip: Every decision, date, task"
+  },
+  {
+   "time": 105.38,
+   "sfx": "whoosh",
+   "gain": 1,
+   "reason": "number_roll: to send your summary"
+  },
+  {
+   "time": 117.18,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "checklist: Rule 2 in four"
+  },
+  {
+   "time": 124.73,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Never promise on the spot"
+  },
+  {
+   "time": 128.98,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "side_note: Unless your manager agreed"
+  },
+  {
+   "time": 134.08,
+   "sfx": "whoosh",
+   "gain": 1,
+   "reason": "big_statement: \"Yes sir, by tomorrow\" = a promise"
+  },
+  {
+   "time": 141.48,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "keyword_chip: Becomes your manager's problem too"
+  },
+  {
+   "time": 152.68,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "fact_band: The client hears"
+  },
+  {
+   "time": 166.78,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "checklist: From today"
+  },
+  {
+   "time": 174.38,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "fact_band: Recap"
+  },
+  {
+   "time": 180.68,
+   "sfx": "whoosh",
+   "gain": 1,
+   "reason": "big_statement: Your scariest client question?"
+  },
+  {
+   "time": 187.88,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "keyword_chip: Like · Subscribe"
+  }
+ ]
+}
