@@ -1,0 +1,106 @@
+{
+  "name": "d66-tell-me-about-yourself",
+  "createdAt": "2026-11-26T11:06:10.279Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d66-tell-me-about-yourself/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d66/d66-voice.wav",
+    "duration": 236.88,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d66-tell-me-about-yourself/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d66/d66_tell_me_about_yourself_voiceover.txt",
+    "words": 788,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d66-tell-me-about-yourself/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Tell",
+    "Present",
+    "Part",
+    "Ravi",
+    "Say",
+    "End"
+  ],
+  "mode": "faceless",
+  "style": "glass",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; documentary storytelling look: full-frame b-roll leads, graphics docked to one side, quote pulls on the key lines, timelines for the backstory; slower, a beat every 6-10 s; low sub-band SFX on structure only",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 26.15,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-26T11:08:11.371Z",
+      "words": 782,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-26T11:08:15.752Z",
+      "segments": 17,
+      "kept": 231.267
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-26T11:37:35.016Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d66-tell-me-about-yourself/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-26T11:37:38.911Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-26T11:37:38.948Z",
+      "groups": 207
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-26T11:37:51.002Z",
+      "music": 0,
+      "sfx": 18
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-26T11:41:31.894Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d66-tell-me-about-yourself/output/final-16x9.mp4",
+      "duration": 241.296
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.97498,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d66-tell-me-about-yourself/work/cleancut.wav",
+    "duration": 231.266458,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

@@ -1,0 +1,802 @@
+{
+ "style": "glass",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 3.95,
+   "type": "title_slide",
+   "text": "Tell me about yourself",
+   "eyebrow": "Crack IT · Day 66",
+   "style_hint": "The 90 second answer"
+  },
+  {
+   "start": 4.4,
+   "duration": 4,
+   "type": "quote_pull",
+   "text": "Tell me about yourself.",
+   "eyebrow": "The first question"
+  },
+  {
+   "start": 8.9,
+   "duration": 2.2,
+   "type": "side_note",
+   "text": "Name · Father · Hobbies",
+   "side": "right"
+  },
+  {
+   "start": 11.3,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "Preparing for placements",
+   "side": "left"
+  },
+  {
+   "start": 15.3,
+   "duration": 6.2,
+   "type": "side_note",
+   "text": "Two mistakes quietly end good interviews",
+   "side": "right"
+  },
+  {
+   "start": 22,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "The last part: better questions",
+   "side": "right"
+  },
+  {
+   "start": 26.4,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "What they really want",
+   "eyebrow": "The question",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 30,
+   "duration": 3.9,
+   "type": "big_statement",
+   "text": "Not your life story",
+   "eyebrow": "story"
+  },
+  {
+   "start": 34.4,
+   "duration": 5.8,
+   "type": "checklist",
+   "side": "right",
+   "text": "Three silent questions",
+   "items": [
+    {
+     "label": "Speaks clearly?",
+     "state": "yes"
+    },
+    {
+     "label": "Knows their strengths?",
+     "state": "yes"
+    },
+    {
+     "label": "Right for this role?",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 41,
+   "duration": 7.8,
+   "type": "quote_pull",
+   "text": "It is your chance to choose the first topic of the interview.",
+   "eyebrow": "The real question"
+  },
+  {
+   "start": 49.2,
+   "duration": 7.6,
+   "type": "flow_diagram",
+   "text": "Control",
+   "items": [
+    {
+     "label": "Your answer",
+     "sublabel": "you pick it"
+    },
+    {
+     "label": "Next question",
+     "sublabel": "they ask it"
+    }
+   ]
+  },
+  {
+   "start": 57.3,
+   "duration": 2.7,
+   "type": "keyword_chip",
+   "text": "Hobbies · school · family",
+   "side": "right"
+  },
+  {
+   "start": 60.1,
+   "duration": 3.1,
+   "type": "side_note",
+   "text": "A polite nod, then a random question",
+   "side": "left"
+  },
+  {
+   "start": 63.4,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Present, past, future",
+   "eyebrow": "The answer",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 66.6,
+   "duration": 2.2,
+   "type": "number_roll",
+   "value": 90,
+   "suffix": " sec",
+   "text": "30 s each, 90 in total"
+  },
+  {
+   "start": 69,
+   "duration": 8.9,
+   "type": "timeline",
+   "side": "right",
+   "text": "The 3 part answer",
+   "current": 0,
+   "items": [
+    {
+     "label": "Present",
+     "sublabel": "who you are now"
+    },
+    {
+     "label": "Past",
+     "sublabel": "two proofs"
+    },
+    {
+     "label": "Future",
+     "sublabel": "why this role"
+    }
+   ]
+  },
+  {
+   "start": 78.4,
+   "duration": 7.4,
+   "type": "timeline",
+   "side": "right",
+   "text": "The 3 part answer",
+   "current": 1,
+   "items": [
+    {
+     "label": "Present",
+     "sublabel": "who you are now"
+    },
+    {
+     "label": "Past",
+     "sublabel": "two proofs"
+    },
+    {
+     "label": "Future",
+     "sublabel": "why this role"
+    }
+   ]
+  },
+  {
+   "start": 86.2,
+   "duration": 9.3,
+   "type": "quote_pull",
+   "text": "In my final year project I built a placement tracking app, and I fixed a slow search by adding an index.",
+   "eyebrow": "Sample answer, not a real person"
+  },
+  {
+   "start": 96,
+   "duration": 5.2,
+   "type": "quote_pull",
+   "text": "I want to start my career as a software developer.",
+   "eyebrow": "Sample answer"
+  },
+  {
+   "start": 101.8,
+   "duration": 6,
+   "type": "timeline",
+   "side": "right",
+   "text": "The 3 part answer",
+   "current": 2,
+   "items": [
+    {
+     "label": "Present",
+     "sublabel": "who you are now"
+    },
+    {
+     "label": "Past",
+     "sublabel": "two proofs"
+    },
+    {
+     "label": "Future",
+     "sublabel": "why this role"
+    }
+   ]
+  },
+  {
+   "start": 108,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "The memorised speech",
+   "eyebrow": "Mistake 01",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 113.9,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "The voice goes flat",
+   "side": "right"
+  },
+  {
+   "start": 117,
+   "duration": 2.8,
+   "type": "side_note",
+   "text": "Then a follow up question",
+   "side": "left"
+  },
+  {
+   "start": 120.2,
+   "duration": 9.3,
+   "type": "quote_pull",
+   "text": "Which team?",
+   "eyebrow": "Ravi's interviewer. Ravi had no answer."
+  },
+  {
+   "start": 130.2,
+   "duration": 6.6,
+   "type": "checklist",
+   "side": "right",
+   "text": "Memorise only",
+   "items": [
+    {
+     "label": "Three parts",
+     "state": "yes"
+    },
+    {
+     "label": "Two proofs",
+     "state": "yes"
+    },
+    {
+     "label": "Whole sentences",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 137.1,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "The long story",
+   "eyebrow": "Mistake 02",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 140.4,
+   "duration": 2.5,
+   "type": "number_roll",
+   "value": 5,
+   "suffix": " min",
+   "text": "starting from tenth class"
+  },
+  {
+   "start": 143.2,
+   "duration": 7.3,
+   "type": "progress_ring",
+   "side": "right",
+   "text": "Target: 90 seconds, not 2 minutes+",
+   "value": 75
+  },
+  {
+   "start": 151,
+   "duration": 3.5,
+   "type": "side_note",
+   "text": "Record yourself on your phone",
+   "side": "right"
+  },
+  {
+   "start": 154.9,
+   "duration": 5.4,
+   "type": "checklist",
+   "side": "right",
+   "text": "If over 2 minutes, cut",
+   "items": [
+    {
+     "label": "School details",
+     "state": "no"
+    },
+    {
+     "label": "Hobbies",
+     "state": "no"
+    },
+    {
+     "label": "What connects to the role",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 160.8,
+   "duration": 9,
+   "type": "big_statement",
+   "text": "End clear, then smile",
+   "eyebrow": "smile"
+  },
+  {
+   "start": 170.2,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Leave a hook",
+   "eyebrow": "The control",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 174,
+   "duration": 4.8,
+   "type": "quote_pull",
+   "text": "I fixed a slow search in my project.",
+   "eyebrow": "The hook line"
+  },
+  {
+   "start": 179.4,
+   "duration": 6.8,
+   "type": "flow_diagram",
+   "text": "The hook",
+   "items": [
+    {
+     "label": "Hook line",
+     "sublabel": "in your past part"
+    },
+    {
+     "label": "How did you fix it?",
+     "sublabel": "their question"
+    },
+    {
+     "label": "You know it well",
+     "sublabel": "easy answer"
+    }
+   ]
+  },
+  {
+   "start": 186.8,
+   "duration": 6.7,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Hobbies answer",
+    "text": "A random question"
+   },
+   "right": {
+    "label": "Hook answer",
+    "text": "The question you prepared"
+   }
+  },
+  {
+   "start": 194,
+   "duration": 5.2,
+   "type": "checklist",
+   "side": "right",
+   "text": "Before any interview",
+   "items": [
+    {
+     "label": "3 parts",
+     "state": "yes"
+    },
+    {
+     "label": "2 proofs",
+     "state": "yes"
+    },
+    {
+     "label": "1 hook",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 199.6,
+   "duration": 3.2,
+   "type": "number_roll",
+   "value": 5,
+   "suffix": " times",
+   "text": "practise aloud"
+  },
+  {
+   "start": 203.2,
+   "duration": 6.1,
+   "type": "big_statement",
+   "text": "Pick the first topic",
+   "eyebrow": "first"
+  },
+  {
+   "start": 209.8,
+   "duration": 7.6,
+   "type": "fact_band",
+   "text": "Recap",
+   "items": [
+    {
+     "label": "Present",
+     "sublabel": "1"
+    },
+    {
+     "label": "Past + hook",
+     "sublabel": "2"
+    },
+    {
+     "label": "Future",
+     "sublabel": "3"
+    }
+   ]
+  },
+  {
+   "start": 217.9,
+   "duration": 6.8,
+   "type": "big_statement",
+   "text": "Your present line?",
+   "eyebrow": "Comment below"
+  },
+  {
+   "start": 225.2,
+   "duration": 4.6,
+   "type": "keyword_chip",
+   "text": "Like · Subscribe",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/lounge.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 8.8,
+   "index": 0
+  },
+  {
+   "start": 8.8,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "NO",
+    "label": "name · father · hobbies"
+   },
+   "end": 15,
+   "index": 1
+  },
+  {
+   "start": 15,
+   "kind": "broll",
+   "src": "assets/broll/window.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 21.8,
+   "index": 2
+  },
+  {
+   "start": 21.8,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "?",
+    "label": "the last part matters most"
+   },
+   "end": 26.4,
+   "index": 3
+  },
+  {
+   "start": 26.4,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 34.2,
+   "index": 4
+  },
+  {
+   "start": 34.2,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3",
+    "label": "silent questions"
+   },
+   "end": 40.4,
+   "index": 5
+  },
+  {
+   "start": 40.4,
+   "kind": "broll",
+   "src": "assets/broll/notes.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 49,
+   "index": 6
+  },
+  {
+   "start": 49,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CONTROL",
+    "label": "you choose the first topic"
+   },
+   "end": 57,
+   "index": 7
+  },
+  {
+   "start": 57,
+   "kind": "broll",
+   "src": "assets/broll/pen.mp4",
+   "media_start": 3,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 63.4,
+   "index": 8
+  },
+  {
+   "start": 63.4,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3",
+    "label": "present · past · future"
+   },
+   "end": 68.9,
+   "index": 9
+  },
+  {
+   "start": 68.9,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 78.2,
+   "index": 10
+  },
+  {
+   "start": 78.2,
+   "kind": "broll",
+   "src": "assets/broll/keys.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 86,
+   "index": 11
+  },
+  {
+   "start": 86,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "1 + 1",
+    "label": "one project, one result"
+   },
+   "end": 95.9,
+   "index": 12
+  },
+  {
+   "start": 95.9,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "FUTURE",
+    "label": "why this role"
+   },
+   "end": 101.5,
+   "index": 13
+  },
+  {
+   "start": 101.5,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 7.7,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 108,
+   "index": 14
+  },
+  {
+   "start": 108,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "01",
+    "label": "the memorised speech"
+   },
+   "end": 113.7,
+   "index": 15
+  },
+  {
+   "start": 113.7,
+   "kind": "broll",
+   "src": "assets/broll/foot.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 120,
+   "index": 16
+  },
+  {
+   "start": 120,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "RAVI",
+    "label": "which team?"
+   },
+   "end": 130,
+   "index": 17
+  },
+  {
+   "start": 130,
+   "kind": "broll",
+   "src": "assets/broll/pen.mp4",
+   "media_start": 14,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 137.1,
+   "index": 18
+  },
+  {
+   "start": 137.1,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "02",
+    "label": "the long story"
+   },
+   "end": 143,
+   "index": 19
+  },
+  {
+   "start": 143,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "90s",
+    "label": "the target"
+   },
+   "end": 150.7,
+   "index": 20
+  },
+  {
+   "start": 150.7,
+   "kind": "broll",
+   "src": "assets/broll/lounge.mp4",
+   "media_start": 5,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 160.5,
+   "index": 21
+  },
+  {
+   "start": 160.5,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "STOP",
+    "label": "end clean, then smile"
+   },
+   "end": 170.2,
+   "index": 22
+  },
+  {
+   "start": 170.2,
+   "kind": "broll",
+   "src": "assets/broll/commuter.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 179,
+   "index": 23
+  },
+  {
+   "start": 179,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "HOOK",
+    "label": "one line they can ask about"
+   },
+   "end": 186.5,
+   "index": 24
+  },
+  {
+   "start": 186.5,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 193.8,
+   "index": 25
+  },
+  {
+   "start": 193.8,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "3·2·1",
+    "label": "parts · proofs · hook"
+   },
+   "end": 199.4,
+   "index": 26
+  },
+  {
+   "start": 199.4,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "5×",
+    "label": "aloud, not in your head"
+   },
+   "end": 203,
+   "index": 27
+  },
+  {
+   "start": 203,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "1",
+    "label": "your chance to pick the topic"
+   },
+   "end": 209.5,
+   "index": 28
+  },
+  {
+   "start": 209.5,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "90s",
+    "label": "present · past · future"
+   },
+   "end": 217.7,
+   "index": 29
+  },
+  {
+   "start": 217.7,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "?",
+    "label": "your present line"
+   },
+   "end": 224.9,
+   "index": 30
+  },
+  {
+   "start": 224.9,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe"
+   },
+   "end": 231.27,
+   "index": 31
+  }
+ ],
+ "camera_moves": []
+}

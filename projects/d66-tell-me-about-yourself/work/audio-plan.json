@@ -1,0 +1,116 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "title_slide: Tell me about yourself"
+  },
+  {
+   "time": 4.48,
+   "sfx": "reveal",
+   "gain": 2,
+   "reason": "quote_pull: Tell me about yourself."
+  },
+  {
+   "time": 26.48,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: What they really want"
+  },
+  {
+   "time": 41.08,
+   "sfx": "reveal",
+   "gain": 2,
+   "reason": "quote_pull: It is your chance to choose the first topic of the interview."
+  },
+  {
+   "time": 49.28,
+   "sfx": "riser",
+   "gain": 0,
+   "reason": "flow_diagram: Control"
+  },
+  {
+   "time": 63.48,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Present, past, future"
+  },
+  {
+   "time": 69.08,
+   "sfx": "riser",
+   "gain": 0,
+   "reason": "timeline: The 3 part answer"
+  },
+  {
+   "time": 78.48,
+   "sfx": "riser",
+   "gain": 0,
+   "reason": "timeline: The 3 part answer"
+  },
+  {
+   "time": 86.28,
+   "sfx": "reveal",
+   "gain": 2,
+   "reason": "quote_pull: In my final year project I built a placement tracking app, and I fixed a slow search by adding an index."
+  },
+  {
+   "time": 96.08,
+   "sfx": "reveal",
+   "gain": 2,
+   "reason": "quote_pull: I want to start my career as a software developer."
+  },
+  {
+   "time": 101.88,
+   "sfx": "riser",
+   "gain": 0,
+   "reason": "timeline: The 3 part answer"
+  },
+  {
+   "time": 108.08,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: The memorised speech"
+  },
+  {
+   "time": 120.28,
+   "sfx": "reveal",
+   "gain": 2,
+   "reason": "quote_pull: Which team?"
+  },
+  {
+   "time": 137.18,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: The long story"
+  },
+  {
+   "time": 170.28,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Leave a hook"
+  },
+  {
+   "time": 174.08,
+   "sfx": "reveal",
+   "gain": 2,
+   "reason": "quote_pull: I fixed a slow search in my project."
+  },
+  {
+   "time": 179.48,
+   "sfx": "riser",
+   "gain": 0,
+   "reason": "flow_diagram: The hook"
+  },
+  {
+   "time": 209.88,
+   "sfx": "riser",
+   "gain": 0,
+   "reason": "fact_band: Recap"
+  }
+ ]
+}
