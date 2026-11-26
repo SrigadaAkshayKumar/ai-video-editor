@@ -1,0 +1,254 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "title_slide: Can they stop you?"
+  },
+  {
+   "time": 4.18,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: One clause. Three years. Can they stop you?"
+  },
+  {
+   "time": 11.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "keyword_chip: First job or one year in"
+  },
+  {
+   "time": 13.68,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: Thinking of switching?"
+  },
+  {
+   "time": 16.58,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "flow_diagram: In this video"
+  },
+  {
+   "time": 24.48,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "side_note: Check 3 protects your next job"
+  },
+  {
+   "time": 29.18,
+   "sfx": "whoosh",
+   "gain": 1,
+   "reason": "chapter_open: Two clauses, one contract"
+  },
+  {
+   "time": 32.48,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: Minimum service: stay or pay"
+  },
+  {
+   "time": 35.28,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "side_note: Works DURING your job"
+  },
+  {
+   "time": 39.08,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "comparison: "
+  },
+  {
+   "time": 51.28,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "big_statement: Before you leave | After you leave"
+  },
+  {
+   "time": 55.98,
+   "sfx": "whoosh",
+   "gain": 1,
+   "reason": "chapter_open: What the law says"
+  },
+  {
+   "time": 59.38,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "quote_pull: Any agreement restraining a lawful profession, trade or business is, to that extent, void."
+  },
+  {
+   "time": 67.38,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: While employed: usually allowed"
+  },
+  {
+   "time": 73.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "keyword_chip: After the job: usually void"
+  },
+  {
+   "time": 75.95,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "news scene"
+  },
+  {
+   "time": 86.78,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "stat_trio: Upheld bond"
+  },
+  {
+   "time": 90.68,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "side_note: Not the final word for every case"
+  },
+  {
+   "time": 95.88,
+   "sfx": "whoosh",
+   "gain": 1,
+   "reason": "chapter_open: The other side"
+  },
+  {
+   "time": 99.08,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "timeline: The Delhi case"
+  },
+  {
+   "time": 110.35,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "news scene"
+  },
+  {
+   "time": 113.88,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "keyword_chip: Void under Section 27"
+  },
+  {
+   "time": 118.08,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: No real secret shown"
+  },
+  {
+   "time": 122.18,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "big_statement: Loss? Damages. Not a job ban."
+  },
+  {
+   "time": 127.48,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "side_note: He kept his new job"
+  },
+  {
+   "time": 130.68,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "big_statement: Still dragged into a dispute"
+  },
+  {
+   "time": 136.48,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "side_note: Confidential data stays confidential. Always."
+  },
+  {
+   "time": 140.28,
+   "sfx": "whoosh",
+   "gain": 1,
+   "reason": "chapter_open: Three checks"
+  },
+  {
+   "time": 143.58,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "checklist: Find the clause"
+  },
+  {
+   "time": 150.88,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "comparison: "
+  },
+  {
+   "time": 161.78,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "quote_pull: Does this clause apply after my last working day?"
+  },
+  {
+   "time": 167.28,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "checklist: Take nothing confidential"
+  },
+  {
+   "time": 176.68,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "big_statement: Confidential data = real risk"
+  },
+  {
+   "time": 179.08,
+   "sfx": "whoosh",
+   "gain": 1,
+   "reason": "chapter_open: This week"
+  },
+  {
+   "time": 182.38,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "checklist: Do this week"
+  },
+  {
+   "time": 197.98,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "side_note: General information, not legal advice"
+  },
+  {
+   "time": 203.28,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: Worried? Speak to a lawyer"
+  },
+  {
+   "time": 207.38,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "fact_band: Recap"
+  },
+  {
+   "time": 222.78,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "big_statement: Did your offer letter have this clause?"
+  },
+  {
+   "time": 228.38,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "big_statement: Comment YES or NO"
+  },
+  {
+   "time": 232.28,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "keyword_chip: Like · Subscribe"
+  }
+ ]
+}

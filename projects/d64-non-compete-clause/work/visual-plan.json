@@ -1,0 +1,848 @@
+{
+ "style": "broadcast",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 3.85,
+   "type": "title_slide",
+   "text": "Can they stop you?",
+   "eyebrow": "Crack IT · Day 64",
+   "style_hint": "The non-compete clause"
+  },
+  {
+   "start": 4.1,
+   "duration": 5.5,
+   "type": "keyword_chip",
+   "text": "One clause. Three years. Can they stop you?",
+   "side": "right"
+  },
+  {
+   "start": 11,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "First job or one year in",
+   "side": "left"
+  },
+  {
+   "start": 13.6,
+   "duration": 2.5,
+   "type": "keyword_chip",
+   "text": "Thinking of switching?",
+   "side": "right"
+  },
+  {
+   "start": 16.5,
+   "duration": 7.3,
+   "type": "flow_diagram",
+   "text": "In this video",
+   "items": [
+    {
+     "label": "Two clauses",
+     "sublabel": "people mix up"
+    },
+    {
+     "label": "One court case",
+     "sublabel": "what it said"
+    },
+    {
+     "label": "Three checks",
+     "sublabel": "before you sign"
+    }
+   ]
+  },
+  {
+   "start": 24.4,
+   "duration": 4.2,
+   "type": "side_note",
+   "text": "Check 3 protects your next job",
+   "side": "right"
+  },
+  {
+   "start": 29.1,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Two clauses, one contract",
+   "eyebrow": "The basics",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 32.4,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "Minimum service: stay or pay",
+   "side": "right"
+  },
+  {
+   "start": 35.2,
+   "duration": 3.6,
+   "type": "side_note",
+   "text": "Works DURING your job",
+   "side": "left"
+  },
+  {
+   "start": 39,
+   "duration": 11.8,
+   "type": "comparison",
+   "side": "left",
+   "left": {
+    "label": "Minimum service",
+    "text": "Stay a fixed period, or pay. Works during the job."
+   },
+   "right": {
+    "label": "Non-compete / non-solicit",
+    "text": "No rival, no clients, for years. Works after the job."
+   }
+  },
+  {
+   "start": 51.2,
+   "duration": 4.5,
+   "type": "big_statement",
+   "text": "Before you leave | After you leave",
+   "eyebrow": "After"
+  },
+  {
+   "start": 55.9,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "What the law says",
+   "eyebrow": "Section 27",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 59.3,
+   "duration": 7.6,
+   "type": "quote_pull",
+   "text": "Any agreement restraining a lawful profession, trade or business is, to that extent, void.",
+   "eyebrow": "Indian Contract Act, 1872, section 27, as quoted by LiveLaw"
+  },
+  {
+   "start": 67.3,
+   "duration": 5.4,
+   "type": "keyword_chip",
+   "text": "While employed: usually allowed",
+   "side": "left"
+  },
+  {
+   "start": 73,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "After the job: usually void",
+   "side": "right"
+  },
+  {
+   "start": 86.7,
+   "duration": 3.5,
+   "type": "stat_trio",
+   "text": "Upheld bond",
+   "items": [
+    {
+     "label": "years minimum",
+     "sublabel": "",
+     "value": 3
+    },
+    {
+     "label": "lakh rupees",
+     "sublabel": "₹",
+     "value": 2
+    }
+   ]
+  },
+  {
+   "start": 90.6,
+   "duration": 4.9,
+   "type": "side_note",
+   "text": "Not the final word for every case",
+   "side": "right"
+  },
+  {
+   "start": 95.8,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "The other side",
+   "eyebrow": "Delhi High Court",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 99,
+   "duration": 11.1,
+   "type": "timeline",
+   "side": "right",
+   "text": "The Delhi case",
+   "items": [
+    {
+     "label": "Signs",
+     "sublabel": "3-year clause"
+    },
+    {
+     "label": "Resigns",
+     "sublabel": "3-month notice"
+    },
+    {
+     "label": "Joins",
+     "sublabel": "a partner"
+    },
+    {
+     "label": "Old company sues",
+     "sublabel": ""
+    },
+    {
+     "label": "Court",
+     "sublabel": "clause void"
+    }
+   ]
+  },
+  {
+   "start": 113.8,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "Void under Section 27",
+   "side": "right"
+  },
+  {
+   "start": 118,
+   "duration": 3.9,
+   "type": "keyword_chip",
+   "text": "No real secret shown",
+   "side": "right"
+  },
+  {
+   "start": 122.1,
+   "duration": 4.9,
+   "type": "big_statement",
+   "text": "Loss? Damages. Not a job ban.",
+   "eyebrow": "Damages"
+  },
+  {
+   "start": 127.4,
+   "duration": 3,
+   "type": "side_note",
+   "text": "He kept his new job",
+   "side": "right"
+  },
+  {
+   "start": 130.6,
+   "duration": 5.5,
+   "type": "big_statement",
+   "text": "Still dragged into a dispute",
+   "eyebrow": "dispute"
+  },
+  {
+   "start": 136.4,
+   "duration": 3.6,
+   "type": "side_note",
+   "text": "Confidential data stays confidential. Always.",
+   "side": "right"
+  },
+  {
+   "start": 140.2,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Three checks",
+   "eyebrow": "Before you sign",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 143.5,
+   "duration": 7,
+   "type": "checklist",
+   "side": "right",
+   "text": "Find the clause",
+   "items": [
+    {
+     "label": "Non-compete",
+     "state": "yes"
+    },
+    {
+     "label": "Non-solicit",
+     "state": "yes"
+    },
+    {
+     "label": "Restrictive covenant",
+     "state": "yes"
+    },
+    {
+     "label": "Exclusivity",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 150.8,
+   "duration": 10.6,
+   "type": "comparison",
+   "side": "left",
+   "left": {
+    "label": "During the job",
+    "text": "Minimum service period"
+   },
+   "right": {
+    "label": "After the job",
+    "text": "No joining a rival for years"
+   }
+  },
+  {
+   "start": 161.7,
+   "duration": 4.5,
+   "type": "quote_pull",
+   "text": "Does this clause apply after my last working day?",
+   "eyebrow": "Sample email to HR"
+  },
+  {
+   "start": 167.2,
+   "duration": 9.2,
+   "type": "checklist",
+   "side": "right",
+   "text": "Take nothing confidential",
+   "items": [
+    {
+     "label": "Client lists",
+     "state": "no"
+    },
+    {
+     "label": "Source code",
+     "state": "no"
+    },
+    {
+     "label": "Documents",
+     "state": "no"
+    },
+    {
+     "label": "Customer data",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 176.6,
+   "duration": 2.3,
+   "type": "big_statement",
+   "text": "Confidential data = real risk",
+   "eyebrow": "risk"
+  },
+  {
+   "start": 179,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "This week",
+   "eyebrow": "What to do",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 182.3,
+   "duration": 15.3,
+   "type": "checklist",
+   "side": "right",
+   "text": "Do this week",
+   "items": [
+    {
+     "label": "Search: non-compete, non-solicit, restrictive covenant, exclusivity",
+     "state": "yes"
+    },
+    {
+     "label": "Keep a signed copy",
+     "state": "yes"
+    },
+    {
+     "label": "Ask HR in writing",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 197.9,
+   "duration": 5,
+   "type": "side_note",
+   "text": "General information, not legal advice",
+   "side": "left"
+  },
+  {
+   "start": 203.2,
+   "duration": 3.7,
+   "type": "keyword_chip",
+   "text": "Worried? Speak to a lawyer",
+   "side": "right"
+  },
+  {
+   "start": 207.3,
+   "duration": 15.1,
+   "type": "fact_band",
+   "text": "Recap",
+   "items": [
+    {
+     "label": "Allowed",
+     "sublabel": "During the job"
+    },
+    {
+     "label": "Usually void",
+     "sublabel": "After the job"
+    },
+    {
+     "label": "Protected",
+     "sublabel": "Confidential data"
+    }
+   ]
+  },
+  {
+   "start": 222.7,
+   "duration": 5.3,
+   "type": "big_statement",
+   "text": "Did your offer letter have this clause?",
+   "eyebrow": "clause"
+  },
+  {
+   "start": 228.3,
+   "duration": 3.6,
+   "type": "big_statement",
+   "text": "Comment YES or NO",
+   "eyebrow": "YES"
+  },
+  {
+   "start": 232.2,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Like · Subscribe",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/contract.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 5.9,
+   "index": 0
+  },
+  {
+   "start": 5.9,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "1",
+    "label": "clause. 3 years. Can they stop you?"
+   },
+   "end": 10.9,
+   "index": 1
+  },
+  {
+   "start": 10.9,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "1st",
+    "label": "job, or switching"
+   },
+   "end": 16.3,
+   "index": 2
+  },
+  {
+   "start": 16.3,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "3",
+    "label": "things to check"
+   },
+   "end": 24.2,
+   "index": 3
+  },
+  {
+   "start": 24.2,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "?",
+    "label": "the 3rd one protects you"
+   },
+   "end": 29.1,
+   "index": 4
+  },
+  {
+   "start": 29.1,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 32.2,
+   "index": 5
+  },
+  {
+   "start": 32.2,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "STAY",
+    "label": "or pay if you leave early"
+   },
+   "end": 38.9,
+   "index": 6
+  },
+  {
+   "start": 38.9,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "LEAVE",
+    "label": "and you can't join a rival"
+   },
+   "end": 45.8,
+   "index": 7
+  },
+  {
+   "start": 45.8,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "YEARS",
+    "label": "no rival, no clients"
+   },
+   "end": 51.1,
+   "index": 8
+  },
+  {
+   "start": 51.1,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 55.9,
+   "index": 9
+  },
+  {
+   "start": 55.9,
+   "kind": "graphic",
+   "grade": "noir",
+   "end": 59.2,
+   "index": 10
+  },
+  {
+   "start": 59.2,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "§27",
+    "label": "Indian Contract Act"
+   },
+   "end": 67.1,
+   "index": 11
+  },
+  {
+   "start": 67.1,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "DURING",
+    "label": "the job: usually allowed"
+   },
+   "end": 72.9,
+   "index": 12
+  },
+  {
+   "start": 72.9,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "AFTER",
+    "label": "the job: usually void"
+   },
+   "end": 75.9,
+   "index": 13
+  },
+  {
+   "start": 75.9,
+   "kind": "news",
+   "url": "https://www.livelaw.in/amp/supreme-court/employment-bond-valid-doesnt-violate-s27-contract-act-supreme-court-upholds-rs-2-lakh-penalty-premature-resignation-292226",
+   "source": "LiveLaw",
+   "headline": "'Employment Bond Valid, Doesn't Violate S.27 Contract Act': Supreme Court Upholds Rs 2 Lakh Penalty For Premature Resignation",
+   "date": "15 May 2025",
+   "highlight": {
+    "x": 0,
+    "y": 0.06,
+    "w": 1,
+    "h": 0.045
+   },
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 86.6,
+   "index": 14
+  },
+  {
+   "start": 86.6,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "₹2L",
+    "label": "3 years minimum, during the job"
+   },
+   "end": 90.4,
+   "index": 15
+  },
+  {
+   "start": 90.4,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "NOT",
+    "label": "the final word on every case"
+   },
+   "end": 95.8,
+   "index": 16
+  },
+  {
+   "start": 95.8,
+   "kind": "graphic",
+   "grade": "noir",
+   "end": 98.9,
+   "index": 17
+  },
+  {
+   "start": 98.9,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "3 yrs",
+    "label": "after he left"
+   },
+   "end": 110.3,
+   "index": 18
+  },
+  {
+   "start": 110.3,
+   "kind": "news",
+   "url": "https://www.legal500.com/intelligence/india/employment-and-hr/delhi-high-court-strikes-down-post-employment-non-compete-clause-backs-employee-mobility",
+   "source": "Legal 500",
+   "headline": "Delhi High Court Strikes Down Post-Employment Non-Compete Clause, Backs Employee Mobility",
+   "date": "24 Jul 2025",
+   "highlight": {
+    "x": 0.14,
+    "y": 0.095,
+    "w": 0.54,
+    "h": 0.085
+   },
+   "motion": "ken_in",
+   "grade": "noir",
+   "transition": "cut",
+   "end": 122,
+   "index": 19
+  },
+  {
+   "start": 122,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "VOID",
+    "label": "no real secret to protect"
+   },
+   "end": 127.2,
+   "index": 20
+  },
+  {
+   "start": 127.2,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "KEPT",
+    "label": "his new job"
+   },
+   "end": 130.5,
+   "index": 21
+  },
+  {
+   "start": 130.5,
+   "kind": "graphic",
+   "grade": "hot",
+   "card": {
+    "value": "BUT",
+    "label": "you can still be dragged in"
+   },
+   "end": 136.3,
+   "index": 22
+  },
+  {
+   "start": 136.3,
+   "kind": "graphic",
+   "grade": "hot",
+   "card": {
+    "value": "SECRET",
+    "label": "data stays protected"
+   },
+   "end": 140.2,
+   "index": 23
+  },
+  {
+   "start": 140.2,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 143.4,
+   "index": 24
+  },
+  {
+   "start": 143.4,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "1",
+    "label": "find the clause"
+   },
+   "end": 150.7,
+   "index": 25
+  },
+  {
+   "start": 150.7,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "2",
+    "label": "during vs after the job"
+   },
+   "end": 154,
+   "index": 26
+  },
+  {
+   "start": 154,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "DURING",
+    "label": "minimum period"
+   },
+   "end": 157.8,
+   "index": 27
+  },
+  {
+   "start": 157.8,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "AFTER",
+    "label": "no rival for years"
+   },
+   "end": 166.3,
+   "index": 28
+  },
+  {
+   "start": 166.3,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "3",
+    "label": "take nothing that's not yours"
+   },
+   "end": 172.5,
+   "index": 29
+  },
+  {
+   "start": 172.5,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "RISK",
+    "label": "confidential material"
+   },
+   "end": 179,
+   "index": 30
+  },
+  {
+   "start": 179,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 182.2,
+   "index": 31
+  },
+  {
+   "start": 182.2,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "4",
+    "label": "words to search for"
+   },
+   "end": 190.4,
+   "index": 32
+  },
+  {
+   "start": 190.4,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "HR",
+    "label": "asking is normal"
+   },
+   "end": 197.8,
+   "index": 33
+  },
+  {
+   "start": 197.8,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "§",
+    "label": "general information only"
+   },
+   "end": 207.1,
+   "index": 34
+  },
+  {
+   "start": 207.1,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "RECAP",
+    "label": "clause by clause"
+   },
+   "end": 216.8,
+   "index": 35
+  },
+  {
+   "start": 216.8,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "SAFE",
+    "label": "confidential data"
+   },
+   "end": 222.6,
+   "index": 36
+  },
+  {
+   "start": 222.6,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "?",
+    "label": "did your offer have one?"
+   },
+   "end": 228.2,
+   "index": 37
+  },
+  {
+   "start": 228.2,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "Y / N",
+    "label": "comment below"
+   },
+   "end": 232,
+   "index": 38
+  },
+  {
+   "start": 232,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe"
+   },
+   "end": 235.8,
+   "index": 39
+  }
+ ],
+ "camera_moves": []
+}
