@@ -1,0 +1,611 @@
+{
+ "style": "glass",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 4.45,
+   "type": "title_slide",
+   "text": "Joined. Now an exam.",
+   "eyebrow": "Crack IT · Day 63",
+   "style_hint": "Training assessments for freshers"
+  },
+  {
+   "start": 9,
+   "duration": 4,
+   "type": "side_note",
+   "text": "Failing it can end your job",
+   "side": "right"
+  },
+  {
+   "start": 15,
+   "duration": 6,
+   "type": "keyword_chip",
+   "text": "3 things · before day one",
+   "side": "left"
+  },
+  {
+   "start": 22.6,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "A real case",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 26.5,
+   "duration": 7,
+   "type": "keyword_chip",
+   "text": "Infosys · Mysuru · reported Feb 2025",
+   "side": "right"
+  },
+  {
+   "start": 36,
+   "duration": 5,
+   "type": "keyword_chip",
+   "text": "Reports differ on the number",
+   "side": "left"
+  },
+  {
+   "start": 42.2,
+   "duration": 7.3,
+   "type": "quote_pull",
+   "text": "All freshers get three attempts to clear the assessment.",
+   "eyebrow": "Infosys statement, as reported (7 Feb 2025)"
+  },
+  {
+   "start": 50.5,
+   "duration": 6.5,
+   "type": "flow_diagram",
+   "text": "How the rule works",
+   "items": [
+    {
+     "label": "Foundational training",
+     "sublabel": ""
+    },
+    {
+     "label": "Internal assessment",
+     "sublabel": "attempt 1"
+    },
+    {
+     "label": "Attempts 2 and 3",
+     "sublabel": ""
+    },
+    {
+     "label": "Continue, or exit",
+     "sublabel": "per contract"
+    }
+   ]
+  },
+  {
+   "start": 59.5,
+   "duration": 8.5,
+   "type": "quote_pull",
+   "text": "Training is part of the selection.",
+   "eyebrow": "The lesson"
+  },
+  {
+   "start": 69.1,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Read the clause",
+   "eyebrow": "Section 02",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 72.6,
+   "duration": 8.9,
+   "type": "checklist",
+   "side": "right",
+   "text": "Find three answers",
+   "items": [
+    {
+     "label": "How many attempts",
+     "state": "yes"
+    },
+    {
+     "label": "Passing mark",
+     "state": "yes"
+    },
+    {
+     "label": "What if you fail",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 88,
+   "duration": 5,
+   "type": "side_note",
+   "text": "Twenty papers on joining day",
+   "side": "left"
+  },
+  {
+   "start": 95,
+   "duration": 4,
+   "type": "side_note",
+   "text": "Ask by email. Keep the reply.",
+   "side": "right"
+  },
+  {
+   "start": 100,
+   "duration": 5.5,
+   "type": "quote_pull",
+   "text": "Rules change by company, by year, by role.",
+   "eyebrow": "Not a senior's story"
+  },
+  {
+   "start": 106.2,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Basics first",
+   "eyebrow": "Section 03",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 110,
+   "duration": 4.5,
+   "type": "keyword_chip",
+   "text": "Programming · databases · web · logic",
+   "side": "right"
+  },
+  {
+   "start": 121.6,
+   "duration": 8.9,
+   "type": "timeline",
+   "side": "left",
+   "text": "A six-week plan",
+   "current": 0,
+   "items": [
+    {
+     "label": "Weeks 1-2",
+     "sublabel": "one language"
+    },
+    {
+     "label": "Weeks 3-4",
+     "sublabel": "databases and queries"
+    },
+    {
+     "label": "Weeks 5-6",
+     "sublabel": "timed practice tests"
+    }
+   ]
+  },
+  {
+   "start": 131.5,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "30-45 minutes a day",
+   "side": "right"
+  },
+  {
+   "start": 137,
+   "duration": 5.5,
+   "type": "side_note",
+   "text": "One language. One database. Finish.",
+   "side": "left"
+  },
+  {
+   "start": 143.3,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "After a bad attempt",
+   "eyebrow": "Section 04",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 149,
+   "duration": 5,
+   "type": "keyword_chip",
+   "text": "Most people go silent",
+   "side": "right"
+  },
+  {
+   "start": 156.8,
+   "duration": 12.2,
+   "type": "checklist",
+   "side": "right",
+   "text": "Same week",
+   "items": [
+    {
+     "label": "Ask which topics cost marks",
+     "state": "yes"
+    },
+    {
+     "label": "Rebuild around those only",
+     "state": "yes"
+    },
+    {
+     "label": "Practise timed",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 170,
+   "duration": 6.5,
+   "type": "keyword_chip",
+   "text": "Never copy or shortcut",
+   "side": "left"
+  },
+  {
+   "start": 177.6,
+   "duration": 4.4,
+   "type": "quote_pull",
+   "text": "A second attempt is a chance.",
+   "eyebrow": "Treat it like day one"
+  },
+  {
+   "start": 182.6,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "This week",
+   "eyebrow": "Section 05",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 186,
+   "duration": 14,
+   "type": "timeline",
+   "side": "left",
+   "text": "Your week",
+   "current": 0,
+   "items": [
+    {
+     "label": "Today",
+     "sublabel": "read the clause"
+    },
+    {
+     "label": "Tomorrow",
+     "sublabel": "one language, one database"
+    },
+    {
+     "label": "Weekend",
+     "sublabel": "one timed test, list weak topics"
+    }
+   ]
+  },
+  {
+   "start": 201.5,
+   "duration": 10,
+   "type": "keyword_chip",
+   "text": "Already in training? Ask early",
+   "side": "right"
+  },
+  {
+   "start": 212.8,
+   "duration": 4.2,
+   "type": "big_statement",
+   "text": "Read the clause. Prepare the basics. Fix it that week.",
+   "eyebrow": "To sum up"
+  },
+  {
+   "start": 217.3,
+   "duration": 5,
+   "type": "big_statement",
+   "text": "Training assessment in your offer?",
+   "eyebrow": "Comment: yes · no · not sure"
+  },
+  {
+   "start": 222.8,
+   "duration": 3.7,
+   "type": "keyword_chip",
+   "text": "Subscribe · Crack IT",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/form.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 7.8,
+   "index": 0
+  },
+  {
+   "start": 7.8,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 14.3,
+   "index": 1
+  },
+  {
+   "start": 14.3,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3",
+    "label": "things to know"
+   },
+   "end": 22.5,
+   "index": 2
+  },
+  {
+   "start": 22.5,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 34.4,
+   "index": 3
+  },
+  {
+   "start": 34.4,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3",
+    "label": "attempts"
+   },
+   "end": 41.6,
+   "index": 4
+  },
+  {
+   "start": 41.6,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 4,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 50,
+   "index": 5
+  },
+  {
+   "start": 50,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 58.3,
+   "index": 6
+  },
+  {
+   "start": 58.3,
+   "kind": "broll",
+   "src": "assets/broll/training.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 69,
+   "index": 7
+  },
+  {
+   "start": 69,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "1",
+    "label": "read the clause"
+   },
+   "end": 76,
+   "index": 8
+  },
+  {
+   "start": 76,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 82,
+   "index": 9
+  },
+  {
+   "start": 82,
+   "kind": "broll",
+   "src": "assets/broll/binders.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 86,
+   "index": 10
+  },
+  {
+   "start": 86,
+   "kind": "broll",
+   "src": "assets/broll/write.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 94.3,
+   "index": 11
+  },
+  {
+   "start": 94.3,
+   "kind": "broll",
+   "src": "assets/broll/meeting.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "cut",
+   "end": 100,
+   "index": 12
+  },
+  {
+   "start": 100,
+   "kind": "broll",
+   "src": "assets/broll/open.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 106.1,
+   "index": 13
+  },
+  {
+   "start": 106.1,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "2",
+    "label": "basics first"
+   },
+   "end": 114.9,
+   "index": 14
+  },
+  {
+   "start": 114.9,
+   "kind": "broll",
+   "src": "assets/broll/studywoman.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "cut",
+   "end": 121.4,
+   "index": 15
+  },
+  {
+   "start": 121.4,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 130.9,
+   "index": 16
+  },
+  {
+   "start": 130.9,
+   "kind": "broll",
+   "src": "assets/broll/tablet.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 137,
+   "index": 17
+  },
+  {
+   "start": 137,
+   "kind": "broll",
+   "src": "assets/broll/binders.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 143.2,
+   "index": 18
+  },
+  {
+   "start": 143.2,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3",
+    "label": "after a bad attempt"
+   },
+   "end": 148.5,
+   "index": 19
+  },
+  {
+   "start": 148.5,
+   "kind": "broll",
+   "src": "assets/broll/woman.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 156.4,
+   "index": 20
+  },
+  {
+   "start": 156.4,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 163,
+   "index": 21
+  },
+  {
+   "start": 163,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3",
+    "label": "steps, same week"
+   },
+   "end": 169.5,
+   "index": 22
+  },
+  {
+   "start": 169.5,
+   "kind": "broll",
+   "src": "assets/broll/pencil.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 177.5,
+   "index": 23
+  },
+  {
+   "start": 177.5,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 182.5,
+   "index": 24
+  },
+  {
+   "start": 182.5,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 193,
+   "index": 25
+  },
+  {
+   "start": 193,
+   "kind": "broll",
+   "src": "assets/broll/students.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "cut",
+   "end": 201,
+   "index": 26
+  },
+  {
+   "start": 201,
+   "kind": "broll",
+   "src": "assets/broll/open.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 212.5,
+   "index": 27
+  },
+  {
+   "start": 212.5,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 222.5,
+   "index": 28
+  },
+  {
+   "start": 222.5,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe"
+   },
+   "end": 226.83,
+   "index": 29
+  }
+ ],
+ "camera_moves": []
+}

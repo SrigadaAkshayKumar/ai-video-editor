@@ -1,0 +1,110 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "title_slide: Joined. Now an exam."
+  },
+  {
+   "time": 22.6,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: A real case"
+  },
+  {
+   "time": 42.3,
+   "sfx": "riser",
+   "gain": 2,
+   "reason": "quote_pull: All freshers get three attempts to clear the assessment."
+  },
+  {
+   "time": 50.6,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "flow_diagram: How the rule works"
+  },
+  {
+   "time": 59.6,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "quote_pull: Training is part of the selection."
+  },
+  {
+   "time": 69.1,
+   "sfx": "riser",
+   "gain": 3,
+   "reason": "chapter_open: Read the clause"
+  },
+  {
+   "time": 72.7,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "checklist: Find three answers"
+  },
+  {
+   "time": 100.1,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "quote_pull: Rules change by company, by year, by role."
+  },
+  {
+   "time": 106.2,
+   "sfx": "riser",
+   "gain": 3,
+   "reason": "chapter_open: Basics first"
+  },
+  {
+   "time": 121.7,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "timeline: A six-week plan"
+  },
+  {
+   "time": 143.3,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: After a bad attempt"
+  },
+  {
+   "time": 156.9,
+   "sfx": "riser",
+   "gain": 2,
+   "reason": "checklist: Same week"
+  },
+  {
+   "time": 177.7,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "quote_pull: A second attempt is a chance."
+  },
+  {
+   "time": 182.6,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: This week"
+  },
+  {
+   "time": 186.1,
+   "sfx": "riser",
+   "gain": 2,
+   "reason": "timeline: Your week"
+  },
+  {
+   "time": 212.9,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "big_statement: Read the clause. Prepare the basics. Fix it that week."
+  },
+  {
+   "time": 217.4,
+   "sfx": "sub_drop",
+   "gain": 2,
+   "reason": "big_statement: Training assessment in your offer?"
+  }
+ ]
+}

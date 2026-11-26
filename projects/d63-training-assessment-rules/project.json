@@ -1,0 +1,104 @@
+{
+  "name": "d63-training-assessment-rules",
+  "createdAt": "2026-11-26T10:45:10.146Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d63-training-assessment-rules/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d63/d63-voice.wav",
+    "duration": 229.4,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d63-training-assessment-rules/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d63/d63_training_assessment_rules_voiceover.txt",
+    "words": 741,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d63-training-assessment-rules/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "In February",
+    "Infosys",
+    "Thing",
+    "Training"
+  ],
+  "mode": "faceless",
+  "style": "glass",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; documentary storytelling look: full-frame b-roll leads, graphics docked to one side, quote pulls on the key lines, timelines for the backstory; slower, a beat every 6-10 s; low sub-band SFX on structure only",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 22.2,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-26T10:47:17.218Z",
+      "words": 735,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-26T10:49:25.695Z",
+      "segments": 15,
+      "kept": 226.833
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-26T11:21:44.728Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d63-training-assessment-rules/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-26T11:21:56.179Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-26T11:21:56.220Z",
+      "groups": 199
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-26T11:21:57.769Z",
+      "music": 0,
+      "sfx": 17
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-26T11:26:17.684Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d63-training-assessment-rules/output/final-16x9.mp4",
+      "duration": 236.842
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.978044,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d63-training-assessment-rules/work/cleancut.wav",
+    "duration": 226.833292,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}
