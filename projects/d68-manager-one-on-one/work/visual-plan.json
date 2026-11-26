@@ -1,0 +1,773 @@
+{
+ "style": "cleantech",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 4.55,
+   "type": "title_slide",
+   "text": "First one on one with your manager",
+   "eyebrow": "Crack IT · Day 68",
+   "style_hint": "3 questions to ask"
+  },
+  {
+   "start": 5,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "Panic: what did I do wrong?",
+   "side": "right"
+  },
+  {
+   "start": 13.5,
+   "duration": 4.5,
+   "type": "stat_trio",
+   "text": "In this video",
+   "items": [
+    {
+     "label": "questions",
+     "sublabel": "",
+     "value": 3
+    },
+    {
+     "label": "minutes",
+     "sublabel": "",
+     "value": 5
+    },
+    {
+     "label": "mistake to avoid",
+     "sublabel": "",
+     "value": 1
+    }
+   ]
+  },
+  {
+   "start": 18.6,
+   "duration": 3.6,
+   "type": "side_note",
+   "text": "Third question = your appraisal",
+   "side": "right"
+  },
+  {
+   "start": 22.73,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "What it really is",
+   "eyebrow": "The basics",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 27.8,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Weekly or every two weeks",
+   "side": "right"
+  },
+  {
+   "start": 33,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Catch up · sync · check in",
+   "side": "left"
+  },
+  {
+   "start": 36.8,
+   "duration": 4.9,
+   "type": "big_statement",
+   "text": "Not a punishment",
+   "eyebrow": "Here is the part nobody tells you"
+  },
+  {
+   "start": 42.2,
+   "duration": 7.8,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Status meeting",
+    "text": "You list your tasks"
+   },
+   "right": {
+    "label": "One on one",
+    "text": "You: how you are doing, blockers, direction"
+   }
+  },
+  {
+   "start": 51,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "\"All good, sir\" and nothing else",
+   "side": "right"
+  },
+  {
+   "start": 55.6,
+   "duration": 4.9,
+   "type": "big_statement",
+   "text": "If you do not use it, nobody else will",
+   "eyebrow": "Your time"
+  },
+  {
+   "start": 60.92,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "What does good look like?",
+   "eyebrow": "Question 01",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 64.9,
+   "duration": 1,
+   "type": "keyword_chip",
+   "text": "Right now",
+   "side": "right"
+  },
+  {
+   "start": 66.5,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "A picture of a good fresher",
+   "side": "right"
+  },
+  {
+   "start": 71.5,
+   "duration": 7.4,
+   "type": "checklist",
+   "side": "right",
+   "text": "Maybe good means",
+   "items": [
+    {
+     "label": "Closes tasks without reminders",
+     "state": "yes"
+    },
+    {
+     "label": "Asks questions early",
+     "state": "yes"
+    },
+    {
+     "label": "Clean code, first review",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 80.9,
+   "duration": 4.6,
+   "type": "keyword_chip",
+   "text": "Ask: what would you like to see?",
+   "side": "right"
+  },
+  {
+   "start": 86.9,
+   "duration": 8.6,
+   "type": "side_note",
+   "text": "A clear target + you care about the job",
+   "side": "left"
+  },
+  {
+   "start": 95.89,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "How do I get feedback?",
+   "eyebrow": "Question 02",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 100.2,
+   "duration": 4.8,
+   "type": "keyword_chip",
+   "text": "Feedback comes late: appraisal",
+   "side": "right"
+  },
+  {
+   "start": 106.9,
+   "duration": 6.7,
+   "type": "flow_diagram",
+   "text": "Set the rhythm",
+   "items": [
+    {
+     "label": "Do work",
+     "sublabel": ""
+    },
+    {
+     "label": "Show early",
+     "sublabel": ""
+    },
+    {
+     "label": "Get feedback",
+     "sublabel": ""
+    },
+    {
+     "label": "Fix, repeat",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 114.4,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Or a short note every Friday",
+   "side": "right"
+  },
+  {
+   "start": 119.9,
+   "duration": 9.6,
+   "type": "checklist",
+   "side": "right",
+   "text": "When feedback is tough",
+   "items": [
+    {
+     "label": "Say thank you",
+     "state": "yes"
+    },
+    {
+     "label": "Repeat it in your words",
+     "state": "yes"
+    },
+    {
+     "label": "Say what you will change",
+     "state": "yes"
+    },
+    {
+     "label": "Do not argue",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 130.49,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "What should I build?",
+   "eyebrow": "Question 03",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 136.2,
+   "duration": 4.6,
+   "type": "keyword_chip",
+   "text": "From follower to direction",
+   "side": "right"
+  },
+  {
+   "start": 141.5,
+   "duration": 5.5,
+   "type": "fact_band",
+   "text": "Maybe your manager says",
+   "items": [
+    {
+     "label": "A testing tool",
+     "sublabel": ""
+    },
+    {
+     "label": "Cloud basics",
+     "sublabel": ""
+    },
+    {
+     "label": "Client communication",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 147.6,
+   "duration": 5.4,
+   "type": "timeline",
+   "side": "right",
+   "text": "Your growth goal",
+   "items": [
+    {
+     "label": "Month 0",
+     "sublabel": "Ask"
+    },
+    {
+     "label": "Month 3",
+     "sublabel": "Practise"
+    },
+    {
+     "label": "Month 6",
+     "sublabel": "Show result"
+    }
+   ]
+  },
+  {
+   "start": 153.6,
+   "duration": 8.3,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Weak",
+    "text": "\"I worked hard.\""
+   },
+   "right": {
+    "label": "Strong",
+    "text": "\"You asked for this, here is what I did.\""
+   }
+  },
+  {
+   "start": 162.31,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "The mistake",
+   "eyebrow": "Avoid this",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 167.1,
+   "duration": 7.4,
+   "type": "checklist",
+   "side": "right",
+   "text": "Ten minutes before",
+   "items": [
+    {
+     "label": "One win",
+     "state": "yes"
+    },
+    {
+     "label": "One blocker",
+     "state": "yes"
+    },
+    {
+     "label": "Your three questions",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 175.1,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "Notebook open, not your phone",
+   "side": "right"
+  },
+  {
+   "start": 179.6,
+   "duration": 7.2,
+   "type": "quote_pull",
+   "text": "Thank you for your time. My takeaways are these two points, and I will do them by Friday.",
+   "eyebrow": "Sample follow up note"
+  },
+  {
+   "start": 187.6,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "2-3 meetings and they remember",
+   "side": "right"
+  },
+  {
+   "start": 192,
+   "duration": 3.4,
+   "type": "side_note",
+   "text": "Projects and ratings",
+   "side": "left"
+  },
+  {
+   "start": 195.9,
+   "duration": 10.3,
+   "type": "fact_band",
+   "text": "Recap",
+   "items": [
+    {
+     "label": "What does good look like?",
+     "sublabel": "1"
+    },
+    {
+     "label": "How do I get feedback?",
+     "sublabel": "2"
+    },
+    {
+     "label": "Which skill to build?",
+     "sublabel": "3"
+    }
+   ]
+  },
+  {
+   "start": 206.9,
+   "duration": 6.3,
+   "type": "big_statement",
+   "text": "The question you are scared to ask?",
+   "eyebrow": "Comment below, I will help you word it"
+  },
+  {
+   "start": 213.8,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Like · Subscribe",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/talk.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 9.5,
+   "index": 0
+  },
+  {
+   "start": 9.5,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "5 min",
+    "label": "is all this video takes"
+   },
+   "end": 13.4,
+   "index": 1
+  },
+  {
+   "start": 13.4,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "3",
+    "label": "questions to ask"
+   },
+   "end": 18.25,
+   "index": 2
+  },
+  {
+   "start": 18.25,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "?",
+    "label": "the third shapes your appraisal"
+   },
+   "end": 22.73,
+   "index": 3
+  },
+  {
+   "start": 22.73,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 27.6,
+   "index": 4
+  },
+  {
+   "start": 27.6,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "30 min",
+    "label": "a typical one on one"
+   },
+   "end": 31.64,
+   "index": 5
+  },
+  {
+   "start": 31.64,
+   "kind": "broll",
+   "src": "assets/broll/meet.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 36.34,
+   "index": 6
+  },
+  {
+   "start": 36.34,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "1:1",
+    "label": "private, not a punishment"
+   },
+   "end": 41.96,
+   "index": 7
+  },
+  {
+   "start": 41.96,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 50.21,
+   "index": 8
+  },
+  {
+   "start": 50.21,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 55.29,
+   "index": 9
+  },
+  {
+   "start": 55.29,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "YOU",
+    "label": "nobody else will use it"
+   },
+   "end": 60.92,
+   "index": 10
+  },
+  {
+   "start": 60.92,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Q1",
+    "label": "what does good look like?"
+   },
+   "end": 65.97,
+   "index": 11
+  },
+  {
+   "start": 65.97,
+   "kind": "broll",
+   "src": "assets/broll/talk.mp4",
+   "media_start": 4,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 71.28,
+   "index": 12
+  },
+  {
+   "start": 71.28,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 79.2,
+   "index": 13
+  },
+  {
+   "start": 79.2,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 86.72,
+   "index": 14
+  },
+  {
+   "start": 86.72,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "2",
+    "label": "things this one question does"
+   },
+   "end": 95.89,
+   "index": 15
+  },
+  {
+   "start": 95.89,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Q2",
+    "label": "how do I get feedback?"
+   },
+   "end": 99.96,
+   "index": 16
+  },
+  {
+   "start": 99.96,
+   "kind": "broll",
+   "src": "assets/broll/team.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 106.62,
+   "index": 17
+  },
+  {
+   "start": 106.62,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 114,
+   "index": 18
+  },
+  {
+   "start": 114,
+   "kind": "broll",
+   "src": "assets/broll/walk.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 119.58,
+   "index": 19
+  },
+  {
+   "start": 119.58,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3",
+    "label": "steps: thank, repeat, change"
+   },
+   "end": 125.7,
+   "index": 20
+  },
+  {
+   "start": 125.7,
+   "kind": "broll",
+   "src": "assets/broll/type.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 130.49,
+   "index": 21
+  },
+  {
+   "start": 130.49,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "Q3",
+    "label": "which skill should I build?"
+   },
+   "end": 135.87,
+   "index": 22
+  },
+  {
+   "start": 135.87,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 5,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 141.12,
+   "index": 23
+  },
+  {
+   "start": 141.12,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 147.31,
+   "index": 24
+  },
+  {
+   "start": 147.31,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "6 mo",
+    "label": "your growth goal"
+   },
+   "end": 153.27,
+   "index": 25
+  },
+  {
+   "start": 153.27,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 162.31,
+   "index": 26
+  },
+  {
+   "start": 162.31,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "10 min",
+    "label": "to prepare"
+   },
+   "end": 166.89,
+   "index": 27
+  },
+  {
+   "start": 166.89,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 174.9,
+   "index": 28
+  },
+  {
+   "start": 174.9,
+   "kind": "broll",
+   "src": "assets/broll/write.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 179.27,
+   "index": 29
+  },
+  {
+   "start": 179.27,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "1",
+    "label": "follow up note, by Friday"
+   },
+   "end": 187.1,
+   "index": 30
+  },
+  {
+   "start": 187.1,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 6,
+   "motion": "ken_out",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 191.78,
+   "index": 31
+  },
+  {
+   "start": 191.78,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "ORGANISED",
+    "label": "the fresher they remember"
+   },
+   "end": 195.66,
+   "index": 32
+  },
+  {
+   "start": 195.66,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 206.66,
+   "index": 33
+  },
+  {
+   "start": 206.66,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "?",
+    "label": "your scariest question"
+   },
+   "end": 213.47,
+   "index": 34
+  },
+  {
+   "start": 213.47,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CRACK IT",
+    "label": "like · subscribe"
+   },
+   "end": 217.5,
+   "index": 35
+  }
+ ],
+ "camera_moves": []
+}

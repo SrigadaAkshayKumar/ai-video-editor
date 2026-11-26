@@ -1,0 +1,134 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "title_slide: First one on one with your manager"
+  },
+  {
+   "time": 13.58,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "stat_trio: In this video"
+  },
+  {
+   "time": 22.81,
+   "sfx": "whoosh",
+   "gain": 0,
+   "reason": "chapter_open: What it really is"
+  },
+  {
+   "time": 27.88,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "keyword_chip: Weekly or every two weeks"
+  },
+  {
+   "time": 42.28,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 61,
+   "sfx": "whoosh",
+   "gain": 0,
+   "reason": "chapter_open: What does good look like?"
+  },
+  {
+   "time": 64.98,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "keyword_chip: Right now"
+  },
+  {
+   "time": 71.58,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "checklist: Maybe good means"
+  },
+  {
+   "time": 86.98,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "side_note: A clear target + you care about the job"
+  },
+  {
+   "time": 95.97,
+   "sfx": "whoosh",
+   "gain": 0,
+   "reason": "chapter_open: How do I get feedback?"
+  },
+  {
+   "time": 106.98,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Set the rhythm"
+  },
+  {
+   "time": 119.98,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "checklist: When feedback is tough"
+  },
+  {
+   "time": 130.57,
+   "sfx": "whoosh",
+   "gain": 0,
+   "reason": "chapter_open: What should I build?"
+  },
+  {
+   "time": 136.28,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "keyword_chip: From follower to direction"
+  },
+  {
+   "time": 141.58,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "fact_band: Maybe your manager says"
+  },
+  {
+   "time": 147.68,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "timeline: Your growth goal"
+  },
+  {
+   "time": 153.68,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 162.39,
+   "sfx": "whoosh",
+   "gain": 0,
+   "reason": "chapter_open: The mistake"
+  },
+  {
+   "time": 167.18,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "checklist: Ten minutes before"
+  },
+  {
+   "time": 192.08,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "side_note: Projects and ratings"
+  },
+  {
+   "time": 195.98,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "fact_band: Recap"
+  }
+ ]
+}

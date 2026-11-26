@@ -1,0 +1,106 @@
+{
+  "name": "d68-manager-one-on-one",
+  "createdAt": "2026-11-26T11:14:02.999Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d68-manager-one-on-one/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d68/d68-voice.wav",
+    "duration": 224.640083,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d68-manager-one-on-one/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d68/d68_manager_one_on_one_voiceover.txt",
+    "words": 777,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d68-manager-one-on-one/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Usually",
+    "Question",
+    "Maybe",
+    "Say",
+    "Ask",
+    "Friday"
+  ],
+  "mode": "faceless",
+  "style": "cleantech",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; light product-explainer look: calm and clean, charts and comparison tables carry the numbers, generous white space, office/campus b-roll full frame between graphics; a beat every 6-8 s; soft, sparse SFX",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 22.5,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-26T11:16:00.227Z",
+      "words": 765,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-26T11:16:06.138Z",
+      "segments": 17,
+      "kept": 217.533
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-26T11:36:14.033Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d68-manager-one-on-one/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-26T11:36:19.078Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-26T11:36:19.115Z",
+      "groups": 215
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-26T11:36:23.670Z",
+      "music": 0,
+      "sfx": 21
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-26T11:39:46.696Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d68-manager-one-on-one/output/final-16x9.mp4",
+      "duration": 227.541
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.945363,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d68-manager-one-on-one/work/cleancut.wav",
+    "duration": 217.533417,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}
