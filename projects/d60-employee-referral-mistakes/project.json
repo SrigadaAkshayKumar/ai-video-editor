@@ -1,0 +1,106 @@
+{
+  "name": "d60-employee-referral-mistakes",
+  "createdAt": "2026-11-26T16:33:56.690Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d60-employee-referral-mistakes/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d60/d60-voice.wav",
+    "duration": 200.58,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d60-employee-referral-mistakes/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d60/d60_employee_referral_mistakes_voiceover.txt",
+    "words": 686,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d60-employee-referral-mistakes/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Mistake",
+    "Pick",
+    "Read",
+    "Send",
+    "Tell",
+    "Never"
+  ],
+  "mode": "faceless",
+  "style": "glass",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; documentary storytelling look: full-frame b-roll leads, graphics docked to one side, quote pulls on the key lines, timelines for the backstory; slower, a beat every 6-10 s; low sub-band SFX on structure only",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": null,
+  "introAt": 25.3,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-26T16:35:22.790Z",
+      "words": 686,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-26T16:35:26.637Z",
+      "segments": 12,
+      "kept": 197.367
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-26T17:00:45.961Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d60-employee-referral-mistakes/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-26T17:06:55.645Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-26T17:06:55.678Z",
+      "groups": 179
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-26T17:06:56.323Z",
+      "music": 0,
+      "sfx": 12
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-26T17:07:14.844Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d60-employee-referral-mistakes/output/final-16x9.mp4",
+      "duration": 197.367
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.984484,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d60-employee-referral-mistakes/work/cleancut.wav",
+    "duration": 197.366708,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

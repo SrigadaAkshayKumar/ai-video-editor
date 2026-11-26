@@ -1,0 +1,664 @@
+{
+ "style": "glass",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 4.05,
+   "type": "title_slide",
+   "text": "Asking for a referral",
+   "eyebrow": "Crack IT · Day 60",
+   "style_hint": "3 mistakes"
+  },
+  {
+   "start": 4.4,
+   "duration": 1.9,
+   "type": "side_note",
+   "text": "Almost always: silence",
+   "side": "right"
+  },
+  {
+   "start": 7,
+   "duration": 3.1,
+   "type": "keyword_chip",
+   "text": "Fresher or final year",
+   "side": "left"
+  },
+  {
+   "start": 13.9,
+   "duration": 6.5,
+   "type": "stat_trio",
+   "text": "In this video",
+   "items": [
+    {
+     "label": "mistakes",
+     "sublabel": "",
+     "value": 3
+    },
+    {
+     "label": "minutes",
+     "sublabel": "",
+     "value": 5
+    },
+    {
+     "label": "message to copy",
+     "sublabel": "",
+     "value": 1
+    }
+   ]
+  },
+  {
+   "start": 20.8,
+   "duration": 4.2,
+   "type": "side_note",
+   "text": "Mistake 2 gets you ignored",
+   "side": "right"
+  },
+  {
+   "start": 25.53,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Why a referral matters",
+   "eyebrow": "The basics",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 31.9,
+   "duration": 6.1,
+   "type": "flow_diagram",
+   "text": "How a referral works",
+   "items": [
+    {
+     "label": "Resume pile",
+     "sublabel": "big"
+    },
+    {
+     "label": "Employee refers",
+     "sublabel": "trusted"
+    },
+    {
+     "label": "Recruiter looks",
+     "sublabel": "first"
+    },
+    {
+     "label": "Tests, interviews",
+     "sublabel": "still yours"
+    }
+   ]
+  },
+  {
+   "start": 38.3,
+   "duration": 7.3,
+   "type": "quote_pull",
+   "text": "A referral opens the door. It is not a job.",
+   "eyebrow": "Remember"
+  },
+  {
+   "start": 46.4,
+   "duration": 5.1,
+   "type": "side_note",
+   "text": "Their own name is on the line",
+   "side": "right"
+  },
+  {
+   "start": 51.9,
+   "duration": 2.7,
+   "type": "keyword_chip",
+   "text": "Make the decision easy",
+   "side": "left"
+  },
+  {
+   "start": 54.92,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Copy paste messages",
+   "eyebrow": "Mistake 01",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 58.2,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Same message to fifty strangers",
+   "side": "right"
+  },
+  {
+   "start": 61.8,
+   "duration": 5.1,
+   "type": "keyword_chip",
+   "text": "Most will not even open it",
+   "side": "left"
+  },
+  {
+   "start": 67.7,
+   "duration": 4.3,
+   "type": "side_note",
+   "text": "Fewer messages, each personal",
+   "side": "right"
+  },
+  {
+   "start": 72.2,
+   "duration": 2,
+   "type": "keyword_chip",
+   "text": "Same college or team",
+   "side": "left"
+  },
+  {
+   "start": 74.4,
+   "duration": 3.7,
+   "type": "keyword_chip",
+   "text": "Read the profile: one minute",
+   "side": "right"
+  },
+  {
+   "start": 78.3,
+   "duration": 7.1,
+   "type": "quote_pull",
+   "text": "I saw that you also studied at our college. I have a question about the team. Would you have two minutes this week?",
+   "eyebrow": "Sample message, not a real person"
+  },
+  {
+   "start": 88.6,
+   "duration": 4.8,
+   "type": "side_note",
+   "text": "Ask for two minutes, not a referral",
+   "side": "right"
+  },
+  {
+   "start": 95.5,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Asking too early",
+   "eyebrow": "Mistake 02",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 100.4,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "They know nothing about you",
+   "side": "left"
+  },
+  {
+   "start": 104.6,
+   "duration": 9.1,
+   "type": "checklist",
+   "side": "right",
+   "text": "Send three things only",
+   "items": [
+    {
+     "label": "The exact role",
+     "state": "yes"
+    },
+    {
+     "label": "Two lines: skills, best project",
+     "state": "yes"
+    },
+    {
+     "label": "Resume, one file",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 114,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "No long family story",
+   "side": "left"
+  },
+  {
+   "start": 117.2,
+   "duration": 2.1,
+   "type": "side_note",
+   "text": "One resume, not ten",
+   "side": "right"
+  },
+  {
+   "start": 119.6,
+   "duration": 4.7,
+   "type": "quote_pull",
+   "text": "Please do it, I am desperate.",
+   "eyebrow": "Never write this"
+  },
+  {
+   "start": 124.7,
+   "duration": 4.9,
+   "type": "side_note",
+   "text": "Check the role first",
+   "side": "right"
+  },
+  {
+   "start": 130,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "Pick roles open for freshers",
+   "side": "left"
+  },
+  {
+   "start": 134.14,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "No thanks, no follow up",
+   "eyebrow": "Mistake 03",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 138.6,
+   "duration": 3.6,
+   "type": "side_note",
+   "text": "Thank them the same day",
+   "side": "right"
+  },
+  {
+   "start": 142.5,
+   "duration": 4.4,
+   "type": "keyword_chip",
+   "text": "Tell them the result, good or bad",
+   "side": "left"
+  },
+  {
+   "start": 148.6,
+   "duration": 2.8,
+   "type": "side_note",
+   "text": "No reply? Not personal",
+   "side": "right"
+  },
+  {
+   "start": 151.8,
+   "duration": 4.2,
+   "type": "flow_diagram",
+   "text": "If nobody replies",
+   "items": [
+    {
+     "label": "Message",
+     "sublabel": ""
+    },
+    {
+     "label": "Wait one week",
+     "sublabel": ""
+    },
+    {
+     "label": "One follow up",
+     "sublabel": ""
+    },
+    {
+     "label": "Move on",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 156.9,
+   "duration": 5,
+   "type": "big_statement",
+   "text": "Paying for a referral = scam",
+   "eyebrow": "Trap"
+  },
+  {
+   "start": 162.1,
+   "duration": 2,
+   "type": "keyword_chip",
+   "text": "A real referral is free",
+   "side": "right"
+  },
+  {
+   "start": 164.29,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Do this from today",
+   "eyebrow": "Action plan",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 167.6,
+   "duration": 11.3,
+   "type": "checklist",
+   "side": "right",
+   "text": "From today",
+   "items": [
+    {
+     "label": "Five people",
+     "state": "yes"
+    },
+    {
+     "label": "Personal message",
+     "state": "yes"
+    },
+    {
+     "label": "Role, two lines, resume",
+     "state": "yes"
+    },
+    {
+     "label": "Say thank you",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 180.2,
+   "duration": 6.5,
+   "type": "fact_band",
+   "text": "Recap",
+   "items": [
+    {
+     "label": "Copy paste messages",
+     "sublabel": "1"
+    },
+    {
+     "label": "Asking before showing",
+     "sublabel": "2"
+    },
+    {
+     "label": "No thanks, no follow up",
+     "sublabel": "3"
+    }
+   ]
+  },
+  {
+   "start": 187,
+   "duration": 5.7,
+   "type": "big_statement",
+   "text": "Ever asked for a referral?",
+   "eyebrow": "Tell me in the comments"
+  },
+  {
+   "start": 193.2,
+   "duration": 3.7,
+   "type": "keyword_chip",
+   "text": "Like · Subscribe",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/type.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 6.8,
+   "index": 0
+  },
+  {
+   "start": 6.8,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 13.75,
+   "index": 1
+  },
+  {
+   "start": 13.75,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "3",
+    "label": "mistakes to avoid"
+   },
+   "end": 20.53,
+   "index": 2
+  },
+  {
+   "start": 20.53,
+   "kind": "broll",
+   "src": "assets/broll/type.mp4",
+   "media_start": 6,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 25.53,
+   "index": 3
+  },
+  {
+   "start": 25.53,
+   "kind": "broll",
+   "src": "assets/broll/team.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 31.68,
+   "index": 4
+  },
+  {
+   "start": 31.68,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "REFERRAL",
+    "label": "your name, put forward"
+   },
+   "end": 38.09,
+   "index": 5
+  },
+  {
+   "start": 38.09,
+   "kind": "broll",
+   "src": "assets/broll/team.mp4",
+   "media_start": 8,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 46.1,
+   "index": 6
+  },
+  {
+   "start": 46.1,
+   "kind": "broll",
+   "src": "assets/broll/notes.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 54.92,
+   "index": 7
+  },
+  {
+   "start": 54.92,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 61.61,
+   "index": 8
+  },
+  {
+   "start": 61.61,
+   "kind": "broll",
+   "src": "assets/broll/phone.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 67.47,
+   "index": 9
+  },
+  {
+   "start": 67.47,
+   "kind": "broll",
+   "src": "assets/broll/talk.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 75.5,
+   "index": 10
+  },
+  {
+   "start": 75.5,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 85.58,
+   "index": 11
+  },
+  {
+   "start": 85.58,
+   "kind": "broll",
+   "src": "assets/broll/write.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 95.5,
+   "index": 12
+  },
+  {
+   "start": 95.5,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 100.24,
+   "index": 13
+  },
+  {
+   "start": 100.24,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 4,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 104.54,
+   "index": 14
+  },
+  {
+   "start": 104.54,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 113.8,
+   "index": 15
+  },
+  {
+   "start": 113.8,
+   "kind": "broll",
+   "src": "assets/broll/write.mp4",
+   "media_start": 10,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 119.4,
+   "index": 16
+  },
+  {
+   "start": 119.4,
+   "kind": "graphic",
+   "grade": "noir",
+   "end": 124.44,
+   "index": 17
+  },
+  {
+   "start": 124.44,
+   "kind": "broll",
+   "src": "assets/broll/team.mp4",
+   "media_start": 5,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 134.14,
+   "index": 18
+  },
+  {
+   "start": 134.14,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 138.4,
+   "index": 19
+  },
+  {
+   "start": 138.4,
+   "kind": "broll",
+   "src": "assets/broll/talk.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 148.2,
+   "index": 20
+  },
+  {
+   "start": 148.2,
+   "kind": "broll",
+   "src": "assets/broll/wait.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 151.6,
+   "index": 21
+  },
+  {
+   "start": 151.6,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 156.06,
+   "index": 22
+  },
+  {
+   "start": 156.06,
+   "kind": "broll",
+   "src": "assets/broll/type.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "noir",
+   "transition": "fade",
+   "end": 164.29,
+   "index": 23
+  },
+  {
+   "start": 164.29,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 171,
+   "index": 24
+  },
+  {
+   "start": 171,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "5",
+    "label": "people, not fifty"
+   },
+   "end": 179.09,
+   "index": 25
+  },
+  {
+   "start": 179.09,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 186.8,
+   "index": 26
+  },
+  {
+   "start": 186.8,
+   "kind": "broll",
+   "src": "assets/broll/team.mp4",
+   "media_start": 10,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 192.93,
+   "index": 27
+  },
+  {
+   "start": 192.93,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe"
+   },
+   "end": 197.37,
+   "index": 28
+  }
+ ],
+ "camera_moves": []
+}

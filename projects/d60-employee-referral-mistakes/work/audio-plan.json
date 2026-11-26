@@ -1,0 +1,80 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "title_slide: Asking for a referral"
+  },
+  {
+   "time": 13.98,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "stat_trio: In this video"
+  },
+  {
+   "time": 25.61,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Why a referral matters"
+  },
+  {
+   "time": 31.98,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "flow_diagram: How a referral works"
+  },
+  {
+   "time": 55,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Copy paste messages"
+  },
+  {
+   "time": 95.58,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Asking too early"
+  },
+  {
+   "time": 104.68,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "checklist: Send three things only"
+  },
+  {
+   "time": 134.22,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: No thanks, no follow up"
+  },
+  {
+   "time": 151.88,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "flow_diagram: If nobody replies"
+  },
+  {
+   "time": 164.37,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Do this from today"
+  },
+  {
+   "time": 167.68,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "checklist: From today"
+  },
+  {
+   "time": 180.28,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "fact_band: Recap"
+  }
+ ]
+}
