@@ -1,0 +1,140 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "title_slide: Joining bonus: do you have to pay it back?"
+  },
+  {
+   "time": 14.28,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "stat_trio: In this video"
+  },
+  {
+   "time": 27.58,
+   "sfx": "whoosh",
+   "gain": 0,
+   "reason": "chapter_open: What a joining bonus is"
+  },
+  {
+   "time": 33.08,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "keyword_chip: Signing or relocation bonus"
+  },
+  {
+   "time": 40.28,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Bonus, with a string"
+  },
+  {
+   "time": 66.02,
+   "sfx": "whoosh",
+   "gain": 0,
+   "reason": "chapter_open: Line one: period and amount"
+  },
+  {
+   "time": 75.88,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "fact_band: Periods you may see"
+  },
+  {
+   "time": 80.38,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 105.28,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "checklist: Write down"
+  },
+  {
+   "time": 111.04,
+   "sfx": "whoosh",
+   "gain": 0,
+   "reason": "chapter_open: Line two: what counts as leaving"
+  },
+  {
+   "time": 117.28,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "fact_band: Who ends the job?"
+  },
+  {
+   "time": 125.98,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "timeline: Which date starts the clock?"
+  },
+  {
+   "time": 137.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 149.08,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "keyword_chip: Check the start date"
+  },
+  {
+   "time": 150.98,
+   "sfx": "whoosh",
+   "gain": 0,
+   "reason": "chapter_open: Line three: how and when you pay"
+  },
+  {
+   "time": 154.68,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "checklist: Check the clause for"
+  },
+  {
+   "time": 197.92,
+   "sfx": "whoosh",
+   "gain": 0,
+   "reason": "chapter_open: Before you sign"
+  },
+  {
+   "time": 201.28,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "checklist: Step 1: read it all"
+  },
+  {
+   "time": 215.28,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "keyword_chip: Get it in an email, not on a call"
+  },
+  {
+   "time": 221.28,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 231.08,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "checklist: Already signed?"
+  },
+  {
+   "time": 237.58,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "fact_band: Recap: check"
+  }
+ ]
+}

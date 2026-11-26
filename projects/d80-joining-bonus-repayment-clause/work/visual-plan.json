@@ -1,0 +1,751 @@
+{
+ "style": "cleantech",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 4.55,
+   "type": "title_slide",
+   "text": "Joining bonus: do you have to pay it back?",
+   "eyebrow": "Crack IT · Day 80",
+   "style_hint": "3 lines to check before you sign"
+  },
+  {
+   "start": 5,
+   "duration": 4.2,
+   "type": "keyword_chip",
+   "text": "Joining bonus = loan?",
+   "side": "right"
+  },
+  {
+   "start": 14.2,
+   "duration": 6.8,
+   "type": "stat_trio",
+   "text": "In this video",
+   "items": [
+    {
+     "label": "lines to check",
+     "sublabel": "",
+     "value": 3
+    },
+    {
+     "label": "minutes",
+     "sublabel": "",
+     "value": 5
+    },
+    {
+     "label": "question for HR",
+     "sublabel": "",
+     "value": 1
+    }
+   ]
+  },
+  {
+   "start": 22.9,
+   "duration": 4.1,
+   "type": "side_note",
+   "text": "Third line: the one most freshers miss",
+   "side": "right"
+  },
+  {
+   "start": 27.5,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "What a joining bonus is",
+   "eyebrow": "The basics",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 33,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "Signing or relocation bonus",
+   "side": "right"
+  },
+  {
+   "start": 40.2,
+   "duration": 10.4,
+   "type": "flow_diagram",
+   "text": "Bonus, with a string",
+   "items": [
+    {
+     "label": "Offer accepted",
+     "sublabel": ""
+    },
+    {
+     "label": "Bonus paid",
+     "sublabel": ""
+    },
+    {
+     "label": "Stay the full period",
+     "sublabel": ""
+    },
+    {
+     "label": "Keep it, or pay back?",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 51.3,
+   "duration": 7.6,
+   "type": "big_statement",
+   "text": "Money with a string attached",
+   "eyebrow": "string"
+  },
+  {
+   "start": 59.5,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "Not every company: read your letter",
+   "side": "right"
+  },
+  {
+   "start": 65.94,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Line one: period and amount",
+   "eyebrow": "Line 01",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 70.4,
+   "duration": 5,
+   "type": "keyword_chip",
+   "text": "repay · refund · recover · clawback",
+   "side": "right"
+  },
+  {
+   "start": 75.8,
+   "duration": 4.2,
+   "type": "fact_band",
+   "text": "Periods you may see",
+   "items": [
+    {
+     "label": "6",
+     "sublabel": "months"
+    },
+    {
+     "label": "12",
+     "sublabel": "months"
+    },
+    {
+     "label": "24",
+     "sublabel": "months"
+    }
+   ]
+  },
+  {
+   "start": 80.3,
+   "duration": 9.1,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Flat clause",
+    "text": "Full refund for the whole period"
+   },
+   "right": {
+    "label": "Reducing clause",
+    "text": "Full early on, half after six months"
+   }
+  },
+  {
+   "start": 92,
+   "duration": 12.6,
+   "type": "bar_chart",
+   "side": "right",
+   "text": "Leave in month 11 · ₹ thousand (illustration)",
+   "items": [
+    {
+     "label": "Flat clause",
+     "value": 50
+    },
+    {
+     "label": "Reducing clause",
+     "value": 25
+    }
+   ]
+  },
+  {
+   "start": 105.2,
+   "duration": 5.6,
+   "type": "checklist",
+   "side": "right",
+   "text": "Write down",
+   "items": [
+    {
+     "label": "How many months",
+     "state": "yes"
+    },
+    {
+     "label": "Full refund or reducing",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 110.96,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Line two: what counts as leaving",
+   "eyebrow": "Line 02",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 117.2,
+   "duration": 5.7,
+   "type": "fact_band",
+   "text": "Who ends the job?",
+   "items": [
+    {
+     "label": "Resign",
+     "sublabel": ""
+    },
+    {
+     "label": "Terminated",
+     "sublabel": ""
+    },
+    {
+     "label": "Any exit",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 125.9,
+   "duration": 9.7,
+   "type": "timeline",
+   "side": "right",
+   "text": "Which date starts the clock?",
+   "items": [
+    {
+     "label": "Date of joining",
+     "sublabel": "Month 0"
+    },
+    {
+     "label": "Bonus paid",
+     "sublabel": "Two months later"
+    },
+    {
+     "label": "12 months from…?",
+     "sublabel": "Check the letter"
+    }
+   ]
+  },
+  {
+   "start": 137,
+   "duration": 11.3,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "She counted from",
+    "text": "The bonus date"
+   },
+   "right": {
+    "label": "The letter said",
+    "text": "The date of joining"
+   }
+  },
+  {
+   "start": 149,
+   "duration": 1.8,
+   "type": "keyword_chip",
+   "text": "Check the start date",
+   "side": "right"
+  },
+  {
+   "start": 150.9,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Line three: how and when you pay",
+   "eyebrow": "Line 03",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 154.6,
+   "duration": 10.3,
+   "type": "checklist",
+   "side": "right",
+   "text": "Check the clause for",
+   "items": [
+    {
+     "label": "Cut from last salary or F&F",
+     "state": "yes"
+    },
+    {
+     "label": "Interest added",
+     "state": "yes"
+    },
+    {
+     "label": "Notice period separate",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 165.4,
+   "duration": 3.5,
+   "type": "big_statement",
+   "text": "Can a company ask for any amount it writes?",
+   "eyebrow": "any"
+  },
+  {
+   "start": 169.7,
+   "duration": 10.7,
+   "type": "quote_pull",
+   "text": "Reasonable compensation not exceeding the amount so named",
+   "eyebrow": "Indian Contract Act 1872, Section 74"
+  },
+  {
+   "start": 181.2,
+   "duration": 6.6,
+   "type": "side_note",
+   "text": "A fixed number is not final proof of loss",
+   "side": "right"
+  },
+  {
+   "start": 189,
+   "duration": 8.5,
+   "type": "side_note",
+   "text": "General information, not legal advice",
+   "side": "right"
+  },
+  {
+   "start": 197.84,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Before you sign",
+   "eyebrow": "Five steps",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 201.2,
+   "duration": 5.8,
+   "type": "checklist",
+   "side": "right",
+   "text": "Step 1: read it all",
+   "items": [
+    {
+     "label": "Bonus, relocation, training, repayment",
+     "state": "yes"
+    },
+    {
+     "label": "The annexures at the end",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 207.7,
+   "duration": 6.9,
+   "type": "quote_pull",
+   "text": "If I leave before the period, what exactly do I have to return, and does it reduce over time?",
+   "eyebrow": "Sample email to HR"
+  },
+  {
+   "start": 215.2,
+   "duration": 5.2,
+   "type": "keyword_chip",
+   "text": "Get it in an email, not on a call",
+   "side": "right"
+  },
+  {
+   "start": 221.2,
+   "duration": 9.2,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Big bonus",
+    "text": "With a harsh clause, you may return it"
+   },
+   "right": {
+    "label": "Higher fixed pay",
+    "text": "Yours to keep"
+   }
+  },
+  {
+   "start": 231,
+   "duration": 5.9,
+   "type": "checklist",
+   "side": "right",
+   "text": "Already signed?",
+   "items": [
+    {
+     "label": "Copy of the letter",
+     "state": "yes"
+    },
+    {
+     "label": "Proof of payment",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 237.5,
+   "duration": 10,
+   "type": "fact_band",
+   "text": "Recap: check",
+   "items": [
+    {
+     "label": "Period and amount",
+     "sublabel": "1"
+    },
+    {
+     "label": "What counts as leaving",
+     "sublabel": "2"
+    },
+    {
+     "label": "How and when you pay",
+     "sublabel": "3"
+    }
+   ]
+  },
+  {
+   "start": 248.4,
+   "duration": 10.4,
+   "type": "big_statement",
+   "text": "Did your offer letter have a bonus clause?",
+   "eyebrow": "clause"
+  },
+  {
+   "start": 259.7,
+   "duration": 1.9,
+   "type": "keyword_chip",
+   "text": "Like · Subscribe",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/doc.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 9.46,
+   "index": 0
+  },
+  {
+   "start": 9.46,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "5 min",
+    "label": "3 lines, the law, 1 question"
+   },
+   "end": 14.14,
+   "index": 1
+  },
+  {
+   "start": 14.14,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 21.4,
+   "index": 2
+  },
+  {
+   "start": 21.4,
+   "kind": "broll",
+   "src": "assets/broll/notes.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 27.5,
+   "index": 3
+  },
+  {
+   "start": 27.5,
+   "kind": "broll",
+   "src": "assets/broll/open.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 38.91,
+   "index": 4
+  },
+  {
+   "start": 38.91,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 51.04,
+   "index": 5
+  },
+  {
+   "start": 51.04,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 59.21,
+   "index": 6
+  },
+  {
+   "start": 59.21,
+   "kind": "broll",
+   "src": "assets/broll/tablet.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 65.94,
+   "index": 7
+  },
+  {
+   "start": 65.94,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 75.68,
+   "index": 8
+  },
+  {
+   "start": 75.68,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 80.13,
+   "index": 9
+  },
+  {
+   "start": 80.13,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 89.62,
+   "index": 10
+  },
+  {
+   "start": 89.62,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "₹50,000",
+    "label": "example bonus"
+   },
+   "end": 97.5,
+   "index": 11
+  },
+  {
+   "start": 97.5,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "MONTH 11",
+    "label": "leave now: how much do you owe?"
+   },
+   "end": 104.99,
+   "index": 12
+  },
+  {
+   "start": 104.99,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 110.96,
+   "index": 13
+  },
+  {
+   "start": 110.96,
+   "kind": "broll",
+   "src": "assets/broll/write.mp4",
+   "media_start": 2,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 117,
+   "index": 14
+  },
+  {
+   "start": 117,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 123.2,
+   "index": 15
+  },
+  {
+   "start": 123.2,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "DATE",
+    "label": "when does the clock start?"
+   },
+   "end": 130,
+   "index": 16
+  },
+  {
+   "start": 130,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "2 DATES",
+    "label": "joining vs bonus paid"
+   },
+   "end": 136.5,
+   "index": 17
+  },
+  {
+   "start": 136.5,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 143.5,
+   "index": 18
+  },
+  {
+   "start": 143.5,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "12 MONTHS",
+    "label": "counted from the wrong date"
+   },
+   "end": 150.9,
+   "index": 19
+  },
+  {
+   "start": 150.9,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 154.4,
+   "index": 20
+  },
+  {
+   "start": 154.4,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 165.2,
+   "index": 21
+  },
+  {
+   "start": 165.2,
+   "kind": "broll",
+   "src": "assets/broll/deskw.mp4",
+   "media_start": 6,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 169.4,
+   "index": 22
+  },
+  {
+   "start": 169.4,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 180.8,
+   "index": 23
+  },
+  {
+   "start": 180.8,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "CASE BY CASE",
+    "label": "courts decide what is reasonable"
+   },
+   "end": 188.2,
+   "index": 24
+  },
+  {
+   "start": 188.2,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 8,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 197.84,
+   "index": 25
+  },
+  {
+   "start": 197.84,
+   "kind": "broll",
+   "src": "assets/broll/notes.mp4",
+   "media_start": 5,
+   "motion": "ken_out",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 201,
+   "index": 26
+  },
+  {
+   "start": 201,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 207.4,
+   "index": 27
+  },
+  {
+   "start": 207.4,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 214.8,
+   "index": 28
+  },
+  {
+   "start": 214.8,
+   "kind": "broll",
+   "src": "assets/broll/walk.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 220.74,
+   "index": 29
+  },
+  {
+   "start": 220.74,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 230.6,
+   "index": 30
+  },
+  {
+   "start": 230.6,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 237.3,
+   "index": 31
+  },
+  {
+   "start": 237.3,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 247.8,
+   "index": 32
+  },
+  {
+   "start": 247.8,
+   "kind": "broll",
+   "src": "assets/broll/meet.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 259.45,
+   "index": 33
+  },
+  {
+   "start": 259.45,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CRACK IT",
+    "label": "like · subscribe"
+   },
+   "end": 261.8,
+   "index": 34
+  }
+ ],
+ "camera_moves": []
+}

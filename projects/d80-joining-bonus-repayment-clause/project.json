@@ -1,0 +1,104 @@
+{
+  "name": "d80-joining-bonus-repayment-clause",
+  "createdAt": "2026-11-26T20:42:55.086Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d80-joining-bonus-repayment-clause/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d80/d80-voice.wav",
+    "duration": 269.280042,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d80-joining-bonus-repayment-clause/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d80/d80_joining_bonus_repayment_clause_voiceover.txt",
+    "words": 910,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d80-joining-bonus-repayment-clause/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Line",
+    "Others",
+    "Check",
+    "Indian Contract Act"
+  ],
+  "mode": "faceless",
+  "style": "cleantech",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; light product-explainer look: calm and clean, charts and comparison tables carry the numbers, generous white space, office/campus b-roll full frame between graphics; a beat every 6-8 s; soft, sparse SFX",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 27.25,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-26T20:44:46.116Z",
+      "words": 906,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-26T20:44:50.042Z",
+      "segments": 23,
+      "kept": 261.8
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-26T21:08:08.696Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d80-joining-bonus-repayment-clause/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-26T21:08:08.809Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-26T21:08:08.964Z",
+      "groups": 236
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-26T21:08:10.695Z",
+      "music": 0,
+      "sfx": 22
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-26T21:10:47.961Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d80-joining-bonus-repayment-clause/output/final-16x9.mp4",
+      "duration": 271.824
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.973702,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d80-joining-bonus-repayment-clause/work/cleancut.wav",
+    "duration": 261.799625,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}
