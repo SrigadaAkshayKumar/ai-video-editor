@@ -1,0 +1,103 @@
+{
+  "name": "d89-education-loan-first-emi",
+  "createdAt": "2026-11-27T23:03:54.089Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d89-education-loan-first-emi/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d89/d89-voice.wav",
+    "duration": 213.060083,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d89-education-loan-first-emi/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d89/d89_education_loan_first_emi_voiceover.txt",
+    "words": 708,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d89-education-loan-first-emi/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "State Bank",
+    "Outlook Money",
+    "Keep"
+  ],
+  "mode": "faceless",
+  "style": "broadcast",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; bold newsroom look: news screenshots and NewsCards lead, split-screen framing, oversized section numerals, high-contrast accents; punchy pace, a beat every 3-5 s; wipe whooshes and hits on section changes",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 28.5,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-27T23:05:59.447Z",
+      "words": 706,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-27T23:06:06.724Z",
+      "segments": 11,
+      "kept": 210.333
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-27T23:26:16.375Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d89-education-loan-first-emi/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-27T23:26:46.256Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-27T23:26:46.296Z",
+      "groups": 181
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-27T23:26:47.213Z",
+      "music": 0,
+      "sfx": 27
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-27T23:30:09.714Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d89-education-loan-first-emi/output/final-16x9.mp4",
+      "duration": 220.352
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.951611,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d89-education-loan-first-emi/work/cleancut.wav",
+    "duration": 210.326792,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

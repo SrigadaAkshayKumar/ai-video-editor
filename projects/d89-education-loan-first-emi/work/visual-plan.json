@@ -1,0 +1,797 @@
+{
+ "style": "broadcast",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 4.85,
+   "type": "title_slide",
+   "text": "Education loan: first E.M.I.?",
+   "eyebrow": "Crack IT · Day 89",
+   "style_hint": "4 checks for freshers"
+  },
+  {
+   "start": 5.3,
+   "duration": 3.1,
+   "type": "keyword_chip",
+   "text": "Not your joining date",
+   "side": "left"
+  },
+  {
+   "start": 8.5,
+   "duration": 2.7,
+   "type": "side_note",
+   "text": "It is in your sanction letter",
+   "side": "right"
+  },
+  {
+   "start": 11.8,
+   "duration": 7,
+   "type": "stat_trio",
+   "text": "This video",
+   "items": [
+    {
+     "label": "checks",
+     "sublabel": "",
+     "value": 4
+    },
+    {
+     "label": "minutes",
+     "sublabel": "",
+     "value": 5
+    },
+    {
+     "label": "date to find",
+     "sublabel": "",
+     "value": 1
+    }
+   ]
+  },
+  {
+   "start": 19.6,
+   "duration": 4,
+   "type": "side_note",
+   "text": "A tax benefit many lose",
+   "side": "right"
+  },
+  {
+   "start": 24.5,
+   "duration": 3.4,
+   "type": "big_statement",
+   "text": "The 4th check?",
+   "eyebrow": "stay till the end"
+  },
+  {
+   "start": 28.7,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "The repayment holiday",
+   "eyebrow": "Check one",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 32,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "No E.M.I. while you study",
+   "side": "right"
+  },
+  {
+   "start": 35.4,
+   "duration": 1.5,
+   "type": "keyword_chip",
+   "text": "…and a while after",
+   "side": "left"
+  },
+  {
+   "start": 37.4,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "S.B.I.: starts 1 year after course",
+   "side": "right"
+  },
+  {
+   "start": 41.2,
+   "duration": 4.1,
+   "type": "side_note",
+   "text": "Repaid over up to 15 years",
+   "side": "right"
+  },
+  {
+   "start": 45.9,
+   "duration": 5.7,
+   "type": "quote_pull",
+   "text": "No bank message, so nothing is due",
+   "eyebrow": "That is the mistake"
+  },
+  {
+   "start": 52,
+   "duration": 4,
+   "type": "big_statement",
+   "text": "Not your joining date",
+   "eyebrow": "the sanction letter decides"
+  },
+  {
+   "start": 56.8,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Rules differ by bank",
+   "side": "right"
+  },
+  {
+   "start": 60.7,
+   "duration": 9.2,
+   "type": "checklist",
+   "side": "right",
+   "text": "In your letter",
+   "items": [
+    {
+     "label": "Find: course period",
+     "state": "yes"
+    },
+    {
+     "label": "Find: repayment holiday",
+     "state": "yes"
+    },
+    {
+     "label": "Write the first E.M.I. month",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 70.4,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Interest keeps growing",
+   "eyebrow": "Check two",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 74.4,
+   "duration": 4.1,
+   "type": "keyword_chip",
+   "text": "Accrued interest joins principal",
+   "side": "right"
+  },
+  {
+   "start": 78.8,
+   "duration": 4.2,
+   "type": "side_note",
+   "text": "S.B.I. page, updated 7 Sep 2026",
+   "side": "right"
+  },
+  {
+   "start": 83.4,
+   "duration": 7.8,
+   "type": "flow_diagram",
+   "text": "Example only",
+   "items": [
+    {
+     "label": "₹5 lakh",
+     "sublabel": "at 10% a year"
+    },
+    {
+     "label": "₹50,000",
+     "sublabel": "interest in a year"
+    },
+    {
+     "label": "Added to loan",
+     "sublabel": "interest on interest"
+    }
+   ]
+  },
+  {
+   "start": 91.6,
+   "duration": 8.4,
+   "type": "number_roll",
+   "value": 50000,
+   "prefix": "₹",
+   "text": "added to your loan if you pay nothing (example)"
+  },
+  {
+   "start": 101,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "Pay interest early",
+   "side": "right"
+  },
+  {
+   "start": 104.8,
+   "duration": 4.5,
+   "type": "side_note",
+   "text": "E.M.I. fixed on principal only",
+   "side": "right"
+  },
+  {
+   "start": 109.8,
+   "duration": 5.2,
+   "type": "checklist",
+   "side": "right",
+   "text": "Ask your bank",
+   "items": [
+    {
+     "label": "Interest built up till today?",
+     "state": "yes"
+    },
+    {
+     "label": "Can I pay it in small parts?",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 115.4,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "Once your salary starts",
+   "side": "right"
+  },
+  {
+   "start": 119.3,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "The tax catch",
+   "eyebrow": "Check three",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 123.4,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "As Moneycontrol, Outlook Money explain",
+   "side": "right"
+  },
+  {
+   "start": 127.3,
+   "duration": 3.5,
+   "type": "side_note",
+   "text": "Interest part only (reported)",
+   "side": "right"
+  },
+  {
+   "start": 131.2,
+   "duration": 7.3,
+   "type": "number_roll",
+   "value": 8,
+   "suffix": " years",
+   "text": "at most, or until the interest is repaid"
+  },
+  {
+   "start": 139.2,
+   "duration": 8.4,
+   "type": "comparison",
+   "side": "left",
+   "left": {
+    "label": "Old regime",
+    "text": "Interest deduction available"
+   },
+   "right": {
+    "label": "New regime",
+    "text": "Not available"
+   }
+  },
+  {
+   "start": 148.3,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Do not choose blindly",
+   "side": "right"
+  },
+  {
+   "start": 151.8,
+   "duration": 2.7,
+   "type": "keyword_chip",
+   "text": "Keep the interest certificate",
+   "side": "left"
+  },
+  {
+   "start": 154.9,
+   "duration": 5.4,
+   "type": "side_note",
+   "text": "Check the latest rule on the income tax portal",
+   "side": "right"
+  },
+  {
+   "start": 160.9,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Contact details",
+   "eyebrow": "Check four",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 164.6,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Phone, email, city change",
+   "side": "right"
+  },
+  {
+   "start": 168.2,
+   "duration": 3.1,
+   "type": "keyword_chip",
+   "text": "Bank message to an old number",
+   "side": "left"
+  },
+  {
+   "start": 171.7,
+   "duration": 6,
+   "type": "checklist",
+   "side": "right",
+   "text": "If you miss it",
+   "items": [
+    {
+     "label": "Extra charges",
+     "state": "no"
+    },
+    {
+     "label": "Credit score hit",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 178.1,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "What to do this week",
+   "eyebrow": "Action",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 181.4,
+   "duration": 8.8,
+   "type": "checklist",
+   "side": "right",
+   "text": "This week",
+   "items": [
+    {
+     "label": "Note first E.M.I. month",
+     "state": "yes"
+    },
+    {
+     "label": "Update phone and email",
+     "state": "yes"
+    },
+    {
+     "label": "Reminder one week before",
+     "state": "yes"
+    },
+    {
+     "label": "Ask the bank in writing",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 190.8,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Amount, and early interest",
+   "side": "left"
+  },
+  {
+   "start": 194.2,
+   "duration": 6,
+   "type": "fact_band",
+   "text": "Recap",
+   "items": [
+    {
+     "label": "Know your date",
+     "sublabel": ""
+    },
+    {
+     "label": "Interest grows",
+     "sublabel": ""
+    },
+    {
+     "label": "Compare regimes",
+     "sublabel": ""
+    },
+    {
+     "label": "Fresh contact details",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 200.6,
+   "duration": 6.2,
+   "type": "poll_prompt",
+   "text": "Do you know your first E.M.I. month?",
+   "items": [
+    {
+     "label": "Month"
+    },
+    {
+     "label": "Not sure"
+    }
+   ]
+  },
+  {
+   "start": 207.2,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Subscribe to Crack IT",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 5,
+   "index": 0
+  },
+  {
+   "start": 5,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "1 DATE",
+    "label": "in your sanction letter"
+   },
+   "end": 11.6,
+   "index": 1
+  },
+  {
+   "start": 11.6,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "4 CHECKS",
+    "label": "for freshers with a loan"
+   },
+   "end": 19.4,
+   "index": 2
+  },
+  {
+   "start": 19.4,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "WRONG",
+    "label": "option, lost deduction"
+   },
+   "end": 24.3,
+   "index": 3
+  },
+  {
+   "start": 24.3,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "4TH = ?",
+    "label": "the one people forget"
+   },
+   "end": 28.4,
+   "index": 4
+  },
+  {
+   "start": 28.4,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "MORATORIUM",
+    "label": "the repayment holiday"
+   },
+   "end": 37,
+   "index": 5
+  },
+  {
+   "start": 37,
+   "kind": "news",
+   "url": "https://sbi.co.in/web/personal-banking/loans/education-loans/student-loan-scheme",
+   "source": "State Bank of India (sbi.co.in)",
+   "headline": "SBI Student Loan Scheme: features and repayment",
+   "date": "7 Sep 2026",
+   "highlight": {
+    "x": 0.22,
+    "y": 0.485,
+    "w": 0.62,
+    "h": 0.026
+   },
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 45.7,
+   "index": 6
+  },
+  {
+   "start": 45.7,
+   "kind": "broll",
+   "src": "assets/broll/woman.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 51.8,
+   "index": 7
+  },
+  {
+   "start": 51.8,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "NOT",
+    "label": "your joining date"
+   },
+   "end": 60.5,
+   "index": 8
+  },
+  {
+   "start": 60.5,
+   "kind": "broll",
+   "src": "assets/broll/folders.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 66.5,
+   "index": 9
+  },
+  {
+   "start": 66.5,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "WRITE IT",
+    "label": "the exact month"
+   },
+   "end": 70.3,
+   "index": 10
+  },
+  {
+   "start": 70.3,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "CHECK 2",
+    "label": "interest keeps growing"
+   },
+   "end": 73.5,
+   "index": 11
+  },
+  {
+   "start": 73.5,
+   "kind": "news",
+   "url": "https://sbi.co.in/web/personal-banking/loans/education-loans/student-loan-scheme",
+   "source": "State Bank of India (sbi.co.in)",
+   "headline": "SBI Student Loan Scheme: features and repayment",
+   "date": "7 Sep 2026",
+   "highlight": {
+    "x": 0.22,
+    "y": 0.552,
+    "w": 0.62,
+    "h": 0.04
+   },
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 83.2,
+   "index": 12
+  },
+  {
+   "start": 83.2,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "EXAMPLE",
+    "label": "only, not your bank's number"
+   },
+   "end": 91.4,
+   "index": 13
+  },
+  {
+   "start": 91.4,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "₹50,000",
+    "label": "interest in one year (example)"
+   },
+   "end": 100.3,
+   "index": 14
+  },
+  {
+   "start": 100.3,
+   "kind": "news",
+   "url": "https://sbi.co.in/web/personal-banking/loans/education-loans/student-loan-scheme",
+   "source": "State Bank of India (sbi.co.in)",
+   "headline": "SBI Student Loan Scheme: features and repayment",
+   "date": "7 Sep 2026",
+   "highlight": {
+    "x": 0.22,
+    "y": 0.574,
+    "w": 0.62,
+    "h": 0.018
+   },
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 109.6,
+   "index": 15
+  },
+  {
+   "start": 109.6,
+   "kind": "broll",
+   "src": "assets/broll/notebook.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 119.1,
+   "index": 16
+  },
+  {
+   "start": 119.1,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "TAX",
+    "label": "the catch"
+   },
+   "end": 123,
+   "index": 17
+  },
+  {
+   "start": 123,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "INTEREST",
+    "label": "only, never the principal"
+   },
+   "end": 131,
+   "index": 18
+  },
+  {
+   "start": 131,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 138.9,
+   "index": 19
+  },
+  {
+   "start": 138.9,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "NEW",
+    "label": "regime: no deduction"
+   },
+   "end": 148,
+   "index": 20
+  },
+  {
+   "start": 148,
+   "kind": "broll",
+   "src": "assets/broll/students.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 154.8,
+   "index": 21
+  },
+  {
+   "start": 154.8,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "RULES",
+    "label": "change every year"
+   },
+   "end": 160.7,
+   "index": 22
+  },
+  {
+   "start": 160.7,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "CHECK 4",
+    "label": "contact details fresh"
+   },
+   "end": 164.3,
+   "index": 23
+  },
+  {
+   "start": 164.3,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 171.5,
+   "index": 24
+  },
+  {
+   "start": 171.5,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "MISSED",
+    "label": "E.M.I. = charges + credit score"
+   },
+   "end": 178,
+   "index": 25
+  },
+  {
+   "start": 178,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "4 STEPS",
+    "label": "this week"
+   },
+   "end": 185,
+   "index": 26
+  },
+  {
+   "start": 185,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "IN WRITING",
+    "label": "exact amount, early interest"
+   },
+   "end": 190.5,
+   "index": 27
+  },
+  {
+   "start": 190.5,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 8,
+   "motion": "ken_out",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 194,
+   "index": 28
+  },
+  {
+   "start": 194,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "RECAP",
+    "label": "date · interest · tax · contact"
+   },
+   "end": 200.4,
+   "index": 29
+  },
+  {
+   "start": 200.4,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "?",
+    "label": "your first E.M.I. month"
+   },
+   "end": 207,
+   "index": 30
+  },
+  {
+   "start": 207,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe"
+   },
+   "end": 210.33,
+   "index": 31
+  }
+ ],
+ "camera_moves": []
+}

@@ -1,0 +1,170 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "title_slide: Education loan: first E.M.I.?"
+  },
+  {
+   "time": 11.88,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "stat_trio: This video"
+  },
+  {
+   "time": 24.58,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "big_statement: The 4th check?"
+  },
+  {
+   "time": 28.66,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: The repayment holiday (wipe)"
+  },
+  {
+   "time": 28.98,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: The repayment holiday"
+  },
+  {
+   "time": 37.05,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "news scene 6"
+  },
+  {
+   "time": 45.98,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "quote_pull: No bank message, so nothing is due"
+  },
+  {
+   "time": 52.08,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "big_statement: Not your joining date"
+  },
+  {
+   "time": 60.78,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "checklist: In your letter"
+  },
+  {
+   "time": 70.36,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Interest keeps growing (wipe)"
+  },
+  {
+   "time": 70.68,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Interest keeps growing"
+  },
+  {
+   "time": 73.55,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "news scene 12"
+  },
+  {
+   "time": 83.48,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Example only"
+  },
+  {
+   "time": 91.68,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "number_roll: added to your loan if you pay nothing (example)"
+  },
+  {
+   "time": 100.35,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "news scene 15"
+  },
+  {
+   "time": 109.88,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "checklist: Ask your bank"
+  },
+  {
+   "time": 119.26,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: The tax catch (wipe)"
+  },
+  {
+   "time": 119.58,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: The tax catch"
+  },
+  {
+   "time": 131.28,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "number_roll: at most, or until the interest is repaid"
+  },
+  {
+   "time": 139.28,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 160.86,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Contact details (wipe)"
+  },
+  {
+   "time": 161.18,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Contact details"
+  },
+  {
+   "time": 171.78,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "checklist: If you miss it"
+  },
+  {
+   "time": 178.06,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: What to do this week (wipe)"
+  },
+  {
+   "time": 178.38,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: What to do this week"
+  },
+  {
+   "time": 181.48,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "checklist: This week"
+  },
+  {
+   "time": 194.28,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "fact_band: Recap"
+  }
+ ]
+}
