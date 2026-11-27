@@ -1,0 +1,534 @@
+{
+ "style": "blueprint",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 4.35,
+   "type": "title_slide",
+   "text": "Internship ≠ job offer",
+   "eyebrow": "Crack IT · Day 83",
+   "style_hint": "3 things to get in writing"
+  },
+  {
+   "start": 4.8,
+   "duration": 6.2,
+   "type": "checklist",
+   "side": "right",
+   "text": "After a PPO",
+   "items": [
+    {
+     "label": "Other campus drives",
+     "state": "no"
+    },
+    {
+     "label": "Promise in writing",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 12.5,
+   "duration": 7.3,
+   "type": "fact_band",
+   "text": "Before you say yes",
+   "items": [
+    {
+     "label": "Lock-in?",
+     "sublabel": "1"
+    },
+    {
+     "label": "Condition + date",
+     "sublabel": "2"
+    },
+    {
+     "label": "Backup + proof",
+     "sublabel": "3"
+    }
+   ]
+  },
+  {
+   "start": 20.7,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "What a PPO is",
+   "eyebrow": "The basics",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 24.5,
+   "duration": 5.9,
+   "type": "flow_diagram",
+   "text": "Pre-placement offer",
+   "items": [
+    {
+     "label": "Internship",
+     "sublabel": ""
+    },
+    {
+     "label": "You are watched",
+     "sublabel": ""
+    },
+    {
+     "label": "Offer before degree",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 32,
+   "duration": 8.8,
+   "type": "number_roll",
+   "value": 6,
+   "prefix": "~",
+   "suffix": "%",
+   "text": "PPO conversion, year on year (Deloitte India, reported)"
+  },
+  {
+   "start": 42,
+   "duration": 5.5,
+   "type": "side_note",
+   "text": "Internship = a long interview",
+   "side": "left"
+  },
+  {
+   "start": 48,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "15-30 min is too short to judge you",
+   "side": "right"
+  },
+  {
+   "start": 52.9,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "The catch nobody tells you",
+   "side": "left"
+  },
+  {
+   "start": 56,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "The lock-in",
+   "eyebrow": "The catch",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 60,
+   "duration": 8,
+   "type": "flow_diagram",
+   "text": "How the lock-in works",
+   "items": [
+    {
+     "label": "PPO accepted",
+     "sublabel": ""
+    },
+    {
+     "label": "College signs you out",
+     "sublabel": ""
+    },
+    {
+     "label": "Campus drives closed",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 69,
+   "duration": 7.6,
+   "type": "side_note",
+   "text": "Offer withdrawn? The drives are already gone",
+   "side": "left"
+  },
+  {
+   "start": 77.5,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Ask in writing",
+   "eyebrow": "Thing 01",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 81.9,
+   "duration": 6.9,
+   "type": "quote_pull",
+   "text": "If this company does not give me a PPO, can I sit for other campus drives?",
+   "eyebrow": "Ask your placement cell"
+  },
+  {
+   "start": 89.1,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Promise vs paper",
+   "eyebrow": "Thing 02",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 93,
+   "duration": 6.8,
+   "type": "side_note",
+   "text": "Reported by a graduate on Reddit, unconfirmed",
+   "side": "left"
+  },
+  {
+   "start": 100.6,
+   "duration": 7.8,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Promised (reported)",
+    "text": "₹35 lakh a year"
+   },
+   "right": {
+    "label": "Offer left (reported)",
+    "text": "₹6.5 lakh a year"
+   }
+  },
+  {
+   "start": 108.8,
+   "duration": 9.6,
+   "type": "number_roll",
+   "value": 90,
+   "text": "interns told: no offers (reported, one account)"
+  },
+  {
+   "start": 122,
+   "duration": 3,
+   "type": "big_statement",
+   "text": "'You will surely get it' is not an offer",
+   "eyebrow": "promise"
+  },
+  {
+   "start": 126,
+   "duration": 10.4,
+   "type": "checklist",
+   "side": "right",
+   "text": "Ask by email",
+   "items": [
+    {
+     "label": "Exact condition",
+     "state": "yes"
+    },
+    {
+     "label": "Decision date",
+     "state": "yes"
+    },
+    {
+     "label": "Offer letter before the end",
+     "state": "yes"
+    },
+    {
+     "label": "Written reply",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 136.8,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Keep a backup",
+   "eyebrow": "Thing 03",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 141,
+   "duration": 6,
+   "type": "keyword_chip",
+   "text": "One hour a day: coding + aptitude",
+   "side": "right"
+  },
+  {
+   "start": 147.5,
+   "duration": 7.3,
+   "type": "keyword_chip",
+   "text": "Resume updated · off-campus applications",
+   "side": "left"
+  },
+  {
+   "start": 155.2,
+   "duration": 7.8,
+   "type": "timeline",
+   "side": "right",
+   "text": "Inside the internship",
+   "items": [
+    {
+     "label": "Log every task + result",
+     "sublabel": "Daily"
+    },
+    {
+     "label": "Mentor feedback",
+     "sublabel": "Every 2 weeks"
+    },
+    {
+     "label": "Feedback mail + letter",
+     "sublabel": "Last week"
+    }
+   ]
+  },
+  {
+   "start": 163.6,
+   "duration": 7.2,
+   "type": "side_note",
+   "text": "Papers that help in every interview",
+   "side": "left"
+  },
+  {
+   "start": 171.6,
+   "duration": 6.8,
+   "type": "big_statement",
+   "text": "Never lie about another offer",
+   "eyebrow": "honesty"
+  },
+  {
+   "start": 179.4,
+   "duration": 9.6,
+   "type": "checklist",
+   "side": "right",
+   "text": "Recap",
+   "items": [
+    {
+     "label": "Ask about the lock-in",
+     "state": "yes"
+    },
+    {
+     "label": "Get condition + date",
+     "state": "yes"
+    },
+    {
+     "label": "Backup + proof of work",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 189.6,
+   "duration": 7.4,
+   "type": "poll_prompt",
+   "text": "Did anyone promise you a PPO?",
+   "items": [
+    {
+     "label": "Yes"
+    },
+    {
+     "label": "No"
+    }
+   ]
+  },
+  {
+   "start": 198,
+   "duration": 7,
+   "type": "keyword_chip",
+   "text": "Like · Subscribe · Crack IT",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 6.36,
+   "index": 0
+  },
+  {
+   "start": 6.36,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 12.3,
+   "index": 1
+  },
+  {
+   "start": 12.3,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 20.4,
+   "index": 2
+  },
+  {
+   "start": 20.4,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 30.61,
+   "index": 3
+  },
+  {
+   "start": 30.61,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "~6%",
+    "label": "more PPO conversions, reported"
+   },
+   "end": 41.56,
+   "index": 4
+  },
+  {
+   "start": 41.56,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 52.5,
+   "index": 5
+  },
+  {
+   "start": 52.5,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "LOCK-IN",
+    "label": "no campus drives after a PPO"
+   },
+   "end": 60,
+   "index": 6
+  },
+  {
+   "start": 60,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 68.2,
+   "index": 7
+  },
+  {
+   "start": 68.2,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 77.29,
+   "index": 8
+  },
+  {
+   "start": 77.29,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "ASK",
+    "label": "your placement cell, in writing"
+   },
+   "end": 89,
+   "index": 9
+  },
+  {
+   "start": 89,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "PROMISE ≠ PAPER",
+    "label": "a reported case"
+   },
+   "end": 100.39,
+   "index": 10
+  },
+  {
+   "start": 100.39,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 108.7,
+   "index": 11
+  },
+  {
+   "start": 108.7,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 118.65,
+   "index": 12
+  },
+  {
+   "start": 118.65,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 125.17,
+   "index": 13
+  },
+  {
+   "start": 125.17,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 136.6,
+   "index": 14
+  },
+  {
+   "start": 136.6,
+   "kind": "broll",
+   "src": "assets/broll/pencil.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 142.97,
+   "index": 15
+  },
+  {
+   "start": 142.97,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 147.4,
+   "index": 16
+  },
+  {
+   "start": 147.4,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 155.1,
+   "index": 17
+  },
+  {
+   "start": 155.1,
+   "kind": "broll",
+   "src": "assets/broll/notebook.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 163.3,
+   "index": 18
+  },
+  {
+   "start": 163.3,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 171.4,
+   "index": 19
+  },
+  {
+   "start": 171.4,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "BE HONEST",
+    "label": "about every offer you hold"
+   },
+   "end": 179.3,
+   "index": 20
+  },
+  {
+   "start": 179.3,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 189.3,
+   "index": 21
+  },
+  {
+   "start": 189.3,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 197.4,
+   "index": 22
+  },
+  {
+   "start": 197.4,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 205.17,
+   "index": 23
+  }
+ ],
+ "camera_moves": []
+}

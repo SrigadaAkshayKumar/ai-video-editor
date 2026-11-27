@@ -1,0 +1,110 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.15,
+   "sfx": "impact",
+   "gain": 0,
+   "reason": "title_slide: Internship ≠ job offer"
+  },
+  {
+   "time": 4.9,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "checklist: After a PPO"
+  },
+  {
+   "time": 12.6,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "fact_band: Before you say yes"
+  },
+  {
+   "time": 20.8,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: What a PPO is"
+  },
+  {
+   "time": 24.6,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "flow_diagram: Pre-placement offer"
+  },
+  {
+   "time": 32.1,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "number_roll: PPO conversion, year on year (Deloitte India, reported)"
+  },
+  {
+   "time": 56.1,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: The lock-in"
+  },
+  {
+   "time": 60.1,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "flow_diagram: How the lock-in works"
+  },
+  {
+   "time": 77.6,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Ask in writing"
+  },
+  {
+   "time": 82,
+   "sfx": "click",
+   "gain": 1,
+   "reason": "quote_pull: If this company does not give me a PPO, can I sit for other campus drives?"
+  },
+  {
+   "time": 89.2,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Promise vs paper"
+  },
+  {
+   "time": 100.7,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "comparison: "
+  },
+  {
+   "time": 108.9,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "number_roll: interns told: no offers (reported, one account)"
+  },
+  {
+   "time": 126.1,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "checklist: Ask by email"
+  },
+  {
+   "time": 136.9,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Keep a backup"
+  },
+  {
+   "time": 155.3,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "timeline: Inside the internship"
+  },
+  {
+   "time": 179.5,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "checklist: Recap"
+  }
+ ]
+}
