@@ -1,0 +1,260 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "title_slide: Any questions for us?"
+  },
+  {
+   "time": 5.68,
+   "sfx": "impact",
+   "gain": 1,
+   "reason": "big_statement: No sir, everything is clear."
+  },
+  {
+   "time": 10.78,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "stat_trio: In this video"
+  },
+  {
+   "time": 22.88,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Why they ask"
+  },
+  {
+   "time": 23.18,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: Why they ask"
+  },
+  {
+   "time": 26.28,
+   "sfx": "impact",
+   "gain": 1,
+   "reason": "big_statement: It is the last test"
+  },
+  {
+   "time": 29.58,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: What they check"
+  },
+  {
+   "time": 35.48,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "side_note: Think from their side"
+  },
+  {
+   "time": 38.88,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 48.78,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "number_roll: simple questions, prepared before the day"
+  },
+  {
+   "time": 53.78,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Question one"
+  },
+  {
+   "time": 54.08,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: Question one"
+  },
+  {
+   "time": 57.08,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "quote_pull: What would a good first three months look like in this role?"
+  },
+  {
+   "time": 63.58,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "timeline: What the team expects"
+  },
+  {
+   "time": 72.08,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "keyword_chip: Campus drive with HR?"
+  },
+  {
+   "time": 77.08,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "quote_pull: What does training and onboarding look like after joining?"
+  },
+  {
+   "time": 90.88,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Question two"
+  },
+  {
+   "time": 91.18,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: Question two"
+  },
+  {
+   "time": 94.08,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "quote_pull: What work does the team do day to day, and which technologies?"
+  },
+  {
+   "time": 98.58,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "keyword_chip: Not just the company name"
+  },
+  {
+   "time": 101.78,
+   "sfx": "impact",
+   "gain": 1,
+   "reason": "big_statement: Ask about the real work"
+  },
+  {
+   "time": 114.38,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "checklist: Before you go"
+  },
+  {
+   "time": 120.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 127.18,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Question three"
+  },
+  {
+   "time": 127.48,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: Question three"
+  },
+  {
+   "time": 130.28,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "quote_pull: What are the next steps, and when will I hear back?"
+  },
+  {
+   "time": 134.08,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "keyword_chip: Sounds pushy?"
+  },
+  {
+   "time": 137.38,
+   "sfx": "impact",
+   "gain": 1,
+   "reason": "big_statement: Polite. Practical."
+  },
+  {
+   "time": 139.98,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Without it, you do not know"
+  },
+  {
+   "time": 154.38,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "checklist: Write it down"
+  },
+  {
+   "time": 161.38,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Never ask"
+  },
+  {
+   "time": 161.68,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: Never ask"
+  },
+  {
+   "time": 164.68,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "checklist: Not in round one"
+  },
+  {
+   "time": 177.08,
+   "sfx": "impact",
+   "gain": 1,
+   "reason": "big_statement: Never sound unsure"
+  },
+  {
+   "time": 180.78,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "quote_pull: Will I even get selected? Did I answer badly?"
+  },
+  {
+   "time": 186.48,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "keyword_chip: Mind blank? Keep a safe line"
+  },
+  {
+   "time": 190.28,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "quote_pull: What do you look for in someone who does well on this team?"
+  },
+  {
+   "time": 195.28,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: The recap"
+  },
+  {
+   "time": 195.58,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: The recap"
+  },
+  {
+   "time": 198.48,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "checklist: Ask these three"
+  },
+  {
+   "time": 207.78,
+   "sfx": "impact",
+   "gain": 1,
+   "reason": "big_statement: Which interview question confused you?"
+  },
+  {
+   "time": 213.08,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "keyword_chip: Like · Subscribe"
+  }
+ ]
+}

@@ -1,0 +1,1082 @@
+{
+ "style": "broadcast",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 5.35,
+   "type": "title_slide",
+   "text": "Any questions for us?",
+   "eyebrow": "Crack IT · Day 73",
+   "style_hint": "3 questions every fresher should ask"
+  },
+  {
+   "start": 5.6,
+   "duration": 4.7,
+   "type": "big_statement",
+   "text": "No sir, everything is clear.",
+   "eyebrow": "clear"
+  },
+  {
+   "start": 10.7,
+   "duration": 7.8,
+   "type": "stat_trio",
+   "text": "In this video",
+   "items": [
+    {
+     "label": "minutes",
+     "sublabel": "",
+     "value": 5
+    },
+    {
+     "label": "to ask",
+     "sublabel": "",
+     "value": 3
+    },
+    {
+     "label": "never ask",
+     "sublabel": "",
+     "value": 2
+    }
+   ]
+  },
+  {
+   "start": 18.9,
+   "duration": 3.5,
+   "type": "side_note",
+   "text": "Question 3: most freshers get it wrong",
+   "side": "right"
+  },
+  {
+   "start": 22.8,
+   "duration": 3.05,
+   "type": "chapter_open",
+   "text": "Why they ask",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 26.2,
+   "duration": 3,
+   "type": "big_statement",
+   "text": "It is the last test",
+   "eyebrow": "last"
+  },
+  {
+   "start": 29.5,
+   "duration": 5.6,
+   "type": "flow_diagram",
+   "text": "What they check",
+   "items": [
+    {
+     "label": "Did you listen?",
+     "sublabel": ""
+    },
+    {
+     "label": "Are you curious?",
+     "sublabel": ""
+    },
+    {
+     "label": "Want this role?",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 35.4,
+   "duration": 3,
+   "type": "side_note",
+   "text": "Think from their side",
+   "side": "right"
+  },
+  {
+   "start": 38.8,
+   "duration": 8.9,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "No questions",
+    "text": "Forgettable"
+   },
+   "right": {
+    "label": "One good question",
+    "text": "Remembered"
+   }
+  },
+  {
+   "start": 48.7,
+   "duration": 4.7,
+   "type": "number_roll",
+   "value": 3,
+   "text": "simple questions, prepared before the day"
+  },
+  {
+   "start": 53.7,
+   "duration": 3.05,
+   "type": "chapter_open",
+   "text": "Question one",
+   "eyebrow": "Section 02",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 57,
+   "duration": 4.5,
+   "type": "quote_pull",
+   "text": "What would a good first three months look like in this role?",
+   "eyebrow": "Question 1"
+  },
+  {
+   "start": 61.8,
+   "duration": 1.4,
+   "type": "keyword_chip",
+   "text": "Useful for you",
+   "side": "right"
+  },
+  {
+   "start": 63.5,
+   "duration": 8.1,
+   "type": "timeline",
+   "side": "left",
+   "text": "What the team expects",
+   "items": [
+    {
+     "label": "Learn the tools",
+     "sublabel": ""
+    },
+    {
+     "label": "Finish small tasks",
+     "sublabel": ""
+    },
+    {
+     "label": "Support seniors",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 72,
+   "duration": 4.6,
+   "type": "keyword_chip",
+   "text": "Campus drive with HR?",
+   "side": "right"
+  },
+  {
+   "start": 77,
+   "duration": 3.9,
+   "type": "quote_pull",
+   "text": "What does training and onboarding look like after joining?",
+   "eyebrow": "Ask HR"
+  },
+  {
+   "start": 81.1,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "Listen, then connect",
+   "side": "right"
+  },
+  {
+   "start": 84.8,
+   "duration": 5.6,
+   "type": "sample_answer",
+   "text": "That sounds like my final year project,\nwhere I had to learn a new tool quickly."
+  },
+  {
+   "start": 90.8,
+   "duration": 3.05,
+   "type": "chapter_open",
+   "text": "Question two",
+   "eyebrow": "Section 03",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 94,
+   "duration": 4.2,
+   "type": "quote_pull",
+   "text": "What work does the team do day to day, and which technologies?",
+   "eyebrow": "Question 2"
+  },
+  {
+   "start": 98.5,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "Not just the company name",
+   "side": "right"
+  },
+  {
+   "start": 101.7,
+   "duration": 4.3,
+   "type": "big_statement",
+   "text": "Ask about the real work",
+   "eyebrow": "real"
+  },
+  {
+   "start": 106.4,
+   "duration": 7.4,
+   "type": "side_note",
+   "text": "Do not ask what the careers page already says",
+   "side": "right"
+  },
+  {
+   "start": 114.3,
+   "duration": 5.1,
+   "type": "checklist",
+   "side": "right",
+   "text": "Before you go",
+   "items": [
+    {
+     "label": "Read the job description",
+     "state": "yes"
+    },
+    {
+     "label": "Ask one step beyond it",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 120,
+   "duration": 7,
+   "type": "comparison",
+   "side": "left",
+   "left": {
+    "label": "Weak",
+    "text": "Do you use cloud?"
+   },
+   "right": {
+    "label": "Better",
+    "text": "What does a new joiner pick up first?"
+   }
+  },
+  {
+   "start": 127.1,
+   "duration": 3.05,
+   "type": "chapter_open",
+   "text": "Question three",
+   "eyebrow": "Section 04",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 130.2,
+   "duration": 3.7,
+   "type": "quote_pull",
+   "text": "What are the next steps, and when will I hear back?",
+   "eyebrow": "Question 3"
+  },
+  {
+   "start": 134,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Sounds pushy?",
+   "side": "right"
+  },
+  {
+   "start": 137.3,
+   "duration": 2.4,
+   "type": "big_statement",
+   "text": "Polite. Practical.",
+   "eyebrow": "Polite"
+  },
+  {
+   "start": 139.9,
+   "duration": 6.8,
+   "type": "flow_diagram",
+   "text": "Without it, you do not know",
+   "items": [
+    {
+     "label": "Interview",
+     "sublabel": ""
+    },
+    {
+     "label": "Decision",
+     "sublabel": ""
+    },
+    {
+     "label": "Update",
+     "sublabel": ""
+    },
+    {
+     "label": "Documents",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 147,
+   "duration": 7,
+   "type": "sample_answer",
+   "text": "I understand you will decide after all interviews.\nWhen should I expect an update,\nand who should I contact if I do not hear back?"
+  },
+  {
+   "start": 154.3,
+   "duration": 6.6,
+   "type": "checklist",
+   "side": "right",
+   "text": "Write it down",
+   "items": [
+    {
+     "label": "The date",
+     "state": "yes"
+    },
+    {
+     "label": "The contact person",
+     "state": "yes"
+    },
+    {
+     "label": "Follow up if it passes",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 161.3,
+   "duration": 3.05,
+   "type": "chapter_open",
+   "text": "Never ask",
+   "eyebrow": "Section 05",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 164.6,
+   "duration": 7.6,
+   "type": "checklist",
+   "side": "right",
+   "text": "Not in round one",
+   "items": [
+    {
+     "label": "Salary",
+     "state": "no"
+    },
+    {
+     "label": "Leave",
+     "state": "no"
+    },
+    {
+     "label": "Work from home",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 172.5,
+   "duration": 4.1,
+   "type": "side_note",
+   "text": "Too early: it looks like perks are all you care about",
+   "side": "right"
+  },
+  {
+   "start": 177,
+   "duration": 3.5,
+   "type": "big_statement",
+   "text": "Never sound unsure",
+   "eyebrow": "unsure"
+  },
+  {
+   "start": 180.7,
+   "duration": 5.4,
+   "type": "quote_pull",
+   "text": "Will I even get selected? Did I answer badly?",
+   "eyebrow": "Never ask"
+  },
+  {
+   "start": 186.4,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Mind blank? Keep a safe line",
+   "side": "right"
+  },
+  {
+   "start": 190.2,
+   "duration": 4.7,
+   "type": "quote_pull",
+   "text": "What do you look for in someone who does well on this team?",
+   "eyebrow": "Safe line"
+  },
+  {
+   "start": 195.2,
+   "duration": 3.05,
+   "type": "chapter_open",
+   "text": "The recap",
+   "eyebrow": "Section 06",
+   "numeral": "06",
+   "section": 4
+  },
+  {
+   "start": 198.4,
+   "duration": 7.1,
+   "type": "checklist",
+   "side": "right",
+   "text": "Ask these three",
+   "items": [
+    {
+     "label": "A good first 3 months?",
+     "state": "yes"
+    },
+    {
+     "label": "Day-to-day work?",
+     "state": "yes"
+    },
+    {
+     "label": "Next steps?",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 205.8,
+   "duration": 1.6,
+   "type": "keyword_chip",
+   "text": "Skip salary, doubts",
+   "side": "right"
+  },
+  {
+   "start": 207.7,
+   "duration": 5.1,
+   "type": "big_statement",
+   "text": "Which interview question confused you?",
+   "eyebrow": "confused"
+  },
+  {
+   "start": 213,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Like · Subscribe",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/suits.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 2.8,
+   "index": 0
+  },
+  {
+   "start": 2.8,
+   "kind": "broll",
+   "src": "assets/broll/suits.mp4",
+   "media_start": 2.3,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 5.6,
+   "index": 1
+  },
+  {
+   "start": 5.6,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "NO, SIR",
+    "label": "the answer that hurts"
+   },
+   "end": 10.6,
+   "index": 2
+  },
+  {
+   "start": 10.6,
+   "kind": "broll",
+   "src": "assets/broll/listen.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 14.4,
+   "index": 3
+  },
+  {
+   "start": 14.4,
+   "kind": "broll",
+   "src": "assets/broll/think.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 18.7,
+   "index": 4
+  },
+  {
+   "start": 18.7,
+   "kind": "broll",
+   "src": "assets/broll/suits.mp4",
+   "media_start": 6,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 22.8,
+   "index": 5
+  },
+  {
+   "start": 22.8,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 26.2,
+   "index": 6
+  },
+  {
+   "start": 26.2,
+   "kind": "broll",
+   "src": "assets/broll/write.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 29.4,
+   "index": 7
+  },
+  {
+   "start": 29.4,
+   "kind": "broll",
+   "src": "assets/broll/listen.mp4",
+   "media_start": 5,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 33,
+   "index": 8
+  },
+  {
+   "start": 33,
+   "kind": "broll",
+   "src": "assets/broll/think.mp4",
+   "media_start": 2,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 35.4,
+   "index": 9
+  },
+  {
+   "start": 35.4,
+   "kind": "broll",
+   "src": "assets/broll/board.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 38.15,
+   "index": 10
+  },
+  {
+   "start": 38.15,
+   "kind": "broll",
+   "src": "assets/broll/board.mp4",
+   "media_start": 2.3,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 40.9,
+   "index": 11
+  },
+  {
+   "start": 40.9,
+   "kind": "broll",
+   "src": "assets/broll/suits.mp4",
+   "media_start": 0.1,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 44.6,
+   "index": 12
+  },
+  {
+   "start": 44.6,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 48.6,
+   "index": 13
+  },
+  {
+   "start": 48.6,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3",
+    "label": "simple questions"
+   },
+   "end": 53.7,
+   "index": 14
+  },
+  {
+   "start": 53.7,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 57,
+   "index": 15
+  },
+  {
+   "start": 57,
+   "kind": "broll",
+   "src": "assets/broll/write.mp4",
+   "media_start": 6,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 61.7,
+   "index": 16
+  },
+  {
+   "start": 61.7,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 5,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 64.8,
+   "index": 17
+  },
+  {
+   "start": 64.8,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 7.3,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 67.9,
+   "index": 18
+  },
+  {
+   "start": 67.9,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 72,
+   "index": 19
+  },
+  {
+   "start": 72,
+   "kind": "broll",
+   "src": "assets/broll/board.mp4",
+   "media_start": 1.4,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 77,
+   "index": 20
+  },
+  {
+   "start": 77,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 81,
+   "index": 21
+  },
+  {
+   "start": 81,
+   "kind": "broll",
+   "src": "assets/broll/think.mp4",
+   "media_start": 1.2,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "cut",
+   "end": 84.8,
+   "index": 22
+  },
+  {
+   "start": 84.8,
+   "kind": "broll",
+   "src": "assets/broll/write.mp4",
+   "media_start": 12,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "cut",
+   "end": 87.8,
+   "index": 23
+  },
+  {
+   "start": 87.8,
+   "kind": "broll",
+   "src": "assets/broll/write.mp4",
+   "media_start": 14.3,
+   "motion": "ken_out",
+   "grade": "warm",
+   "transition": "cut",
+   "end": 90.8,
+   "index": 24
+  },
+  {
+   "start": 90.8,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 94,
+   "index": 25
+  },
+  {
+   "start": 94,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 10,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 98.4,
+   "index": 26
+  },
+  {
+   "start": 98.4,
+   "kind": "broll",
+   "src": "assets/broll/listen.mp4",
+   "media_start": 2,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 101.6,
+   "index": 27
+  },
+  {
+   "start": 101.6,
+   "kind": "broll",
+   "src": "assets/broll/suits.mp4",
+   "media_start": 3,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 106,
+   "index": 28
+  },
+  {
+   "start": 106,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 6,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 108.85,
+   "index": 29
+  },
+  {
+   "start": 108.85,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 8.3,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 111.7,
+   "index": 30
+  },
+  {
+   "start": 111.7,
+   "kind": "broll",
+   "src": "assets/broll/think.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 114.2,
+   "index": 31
+  },
+  {
+   "start": 114.2,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "JD",
+    "label": "read it, then go one step further"
+   },
+   "end": 119.9,
+   "index": 32
+  },
+  {
+   "start": 119.9,
+   "kind": "broll",
+   "src": "assets/broll/write.mp4",
+   "media_start": 14,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 124,
+   "index": 33
+  },
+  {
+   "start": 124,
+   "kind": "broll",
+   "src": "assets/broll/listen.mp4",
+   "media_start": 0.5,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 127.1,
+   "index": 34
+  },
+  {
+   "start": 127.1,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 130.2,
+   "index": 35
+  },
+  {
+   "start": 130.2,
+   "kind": "broll",
+   "src": "assets/broll/call.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "cut",
+   "end": 134,
+   "index": 36
+  },
+  {
+   "start": 134,
+   "kind": "broll",
+   "src": "assets/broll/suits.mp4",
+   "media_start": 1.6,
+   "motion": "ken_out",
+   "grade": "warm",
+   "transition": "cut",
+   "end": 137.2,
+   "index": 37
+  },
+  {
+   "start": 137.2,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 139.8,
+   "index": 38
+  },
+  {
+   "start": 139.8,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 12,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "cut",
+   "end": 143.35,
+   "index": 39
+  },
+  {
+   "start": 143.35,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 0.2,
+   "motion": "ken_out",
+   "grade": "warm",
+   "transition": "cut",
+   "end": 146.9,
+   "index": 40
+  },
+  {
+   "start": 146.9,
+   "kind": "broll",
+   "src": "assets/broll/call.mp4",
+   "media_start": 5,
+   "motion": "ken_out",
+   "grade": "warm",
+   "transition": "cut",
+   "end": 150.5,
+   "index": 41
+  },
+  {
+   "start": 150.5,
+   "kind": "broll",
+   "src": "assets/broll/board.mp4",
+   "media_start": 2.1,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "cut",
+   "end": 154.2,
+   "index": 42
+  },
+  {
+   "start": 154.2,
+   "kind": "broll",
+   "src": "assets/broll/write.mp4",
+   "media_start": 2,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "cut",
+   "end": 157.75,
+   "index": 43
+  },
+  {
+   "start": 157.75,
+   "kind": "broll",
+   "src": "assets/broll/write.mp4",
+   "media_start": 4.3,
+   "motion": "ken_out",
+   "grade": "warm",
+   "transition": "cut",
+   "end": 161.3,
+   "index": 44
+  },
+  {
+   "start": 161.3,
+   "kind": "graphic",
+   "grade": "noir",
+   "end": 164.5,
+   "index": 45
+  },
+  {
+   "start": 164.5,
+   "kind": "broll",
+   "src": "assets/broll/think.mp4",
+   "media_start": 2.4,
+   "motion": "ken_in",
+   "grade": "noir",
+   "transition": "cut",
+   "end": 168.45,
+   "index": 46
+  },
+  {
+   "start": 168.45,
+   "kind": "broll",
+   "src": "assets/broll/think.mp4",
+   "media_start": 2,
+   "motion": "ken_out",
+   "grade": "noir",
+   "transition": "cut",
+   "end": 172.4,
+   "index": 47
+  },
+  {
+   "start": 172.4,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 1.9,
+   "motion": "ken_in",
+   "grade": "noir",
+   "transition": "cut",
+   "end": 176.9,
+   "index": 48
+  },
+  {
+   "start": 176.9,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "NO DOUBT",
+    "label": "never sound unsure"
+   },
+   "end": 180.7,
+   "index": 49
+  },
+  {
+   "start": 180.7,
+   "kind": "broll",
+   "src": "assets/broll/listen.mp4",
+   "media_start": 1.2,
+   "motion": "ken_in",
+   "grade": "noir",
+   "transition": "cut",
+   "end": 183.5,
+   "index": 50
+  },
+  {
+   "start": 183.5,
+   "kind": "broll",
+   "src": "assets/broll/listen.mp4",
+   "media_start": 3.5,
+   "motion": "ken_out",
+   "grade": "noir",
+   "transition": "cut",
+   "end": 186.3,
+   "index": 51
+  },
+  {
+   "start": 186.3,
+   "kind": "broll",
+   "src": "assets/broll/think.mp4",
+   "media_start": 0.6,
+   "motion": "ken_out",
+   "grade": "warm",
+   "transition": "cut",
+   "end": 190.2,
+   "index": 52
+  },
+  {
+   "start": 190.2,
+   "kind": "broll",
+   "src": "assets/broll/suits.mp4",
+   "media_start": 4.4,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "cut",
+   "end": 195.2,
+   "index": 53
+  },
+  {
+   "start": 195.2,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 198.3,
+   "index": 54
+  },
+  {
+   "start": 198.3,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 0.1,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 202,
+   "index": 55
+  },
+  {
+   "start": 202,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 2.4,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 205.7,
+   "index": 56
+  },
+  {
+   "start": 205.7,
+   "kind": "broll",
+   "src": "assets/broll/write.mp4",
+   "media_start": 16,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "end": 207.6,
+   "index": 57
+  },
+  {
+   "start": 207.6,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "YOUR TURN",
+    "label": "comment the question"
+   },
+   "end": 212.9,
+   "index": 58
+  },
+  {
+   "start": 212.9,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "CRACK IT",
+    "label": "like · subscribe"
+   },
+   "end": 216.87,
+   "index": 59
+  }
+ ],
+ "camera_moves": []
+}
