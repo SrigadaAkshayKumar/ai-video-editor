@@ -1,0 +1,741 @@
+{
+ "style": "glass",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 4.25,
+   "type": "title_slide",
+   "text": "Any questions for us?",
+   "eyebrow": "Crack IT · Day 82",
+   "style_hint": "3 questions freshers should ask"
+  },
+  {
+   "start": 4.8,
+   "duration": 4.2,
+   "type": "side_note",
+   "text": "“Everything is clear” = no interest",
+   "side": "right"
+  },
+  {
+   "start": 10.8,
+   "duration": 5,
+   "type": "keyword_chip",
+   "text": "One answer · quietly costs offers",
+   "side": "left"
+  },
+  {
+   "start": 16.9,
+   "duration": 3.9,
+   "type": "stat_trio",
+   "text": "In this video",
+   "items": [
+    {
+     "label": "questions to ask",
+     "sublabel": "",
+     "value": 3
+    },
+    {
+     "label": "never ask",
+     "sublabel": "",
+     "value": 2
+    },
+    {
+     "label": "minutes",
+     "sublabel": "",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "start": 21.4,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Why they ask",
+   "eyebrow": "The reason",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 24.9,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "Not a formality",
+   "side": "left"
+  },
+  {
+   "start": 27.6,
+   "duration": 5.4,
+   "type": "flow_diagram",
+   "text": "What they are checking",
+   "items": [
+    {
+     "label": "Care about the work?",
+     "sublabel": ""
+    },
+    {
+     "label": "Listened?",
+     "sublabel": ""
+    },
+    {
+     "label": "Think on the spot?",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 36.2,
+   "duration": 8.4,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "No questions",
+    "text": "Looks passive"
+   },
+   "right": {
+    "label": "One good question",
+    "text": "Looks interested"
+   }
+  },
+  {
+   "start": 45.9,
+   "duration": 3.2,
+   "type": "side_note",
+   "text": "Genuine beats clever",
+   "side": "left"
+  },
+  {
+   "start": 51.2,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Question one: the work",
+   "eyebrow": "Question 01",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 54.3,
+   "duration": 4.7,
+   "type": "quote_pull",
+   "text": "What would a fresher in this role work on in the first three months?",
+   "eyebrow": "Question one"
+  },
+  {
+   "start": 62.3,
+   "duration": 3.6,
+   "type": "checklist",
+   "side": "right",
+   "text": "Could be",
+   "items": [
+    {
+     "label": "Development",
+     "state": "yes"
+    },
+    {
+     "label": "Testing",
+     "state": "yes"
+    },
+    {
+     "label": "Support",
+     "state": "yes"
+    },
+    {
+     "label": "Training first",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 66,
+   "duration": 4.6,
+   "type": "quote_pull",
+   "text": "Sir, if I join this team, what would my first three months look like?",
+   "eyebrow": "Say it like this"
+  },
+  {
+   "start": 71,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Listen · nod · remember the tool",
+   "side": "right"
+  },
+  {
+   "start": 76.3,
+   "duration": 3.2,
+   "type": "side_note",
+   "text": "Repeat one word from their answer",
+   "side": "left"
+  },
+  {
+   "start": 79.75,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Question two: the team",
+   "eyebrow": "Question 02",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 82.85,
+   "duration": 3.75,
+   "type": "quote_pull",
+   "text": "What does a good fresher do well in your team?",
+   "eyebrow": "Question two"
+  },
+  {
+   "start": 86.8,
+   "duration": 5.1,
+   "type": "flow_diagram",
+   "text": "Use the answer",
+   "items": [
+    {
+     "label": "Ask",
+     "sublabel": ""
+    },
+    {
+     "label": "Listen",
+     "sublabel": ""
+    },
+    {
+     "label": "Note the value",
+     "sublabel": ""
+    },
+    {
+     "label": "Match your answers",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 92,
+   "duration": 5.3,
+   "type": "fact_band",
+   "text": "They may value",
+   "items": [
+    {
+     "label": "Learning fast",
+     "sublabel": ""
+    },
+    {
+     "label": "Asking early",
+     "sublabel": ""
+    },
+    {
+     "label": "Reliability",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 98.2,
+   "duration": 6.6,
+   "type": "side_note",
+   "text": "Ask who you would learn from: a buddy or mentor",
+   "side": "left"
+  },
+  {
+   "start": 105.6,
+   "duration": 5.6,
+   "type": "side_note",
+   "text": "One question, one follow up at most",
+   "side": "right"
+  },
+  {
+   "start": 111.56,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Question three: next step",
+   "eyebrow": "Question 03",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 114.7,
+   "duration": 4.8,
+   "type": "quote_pull",
+   "text": "What are the next steps, and when can I expect to hear from you?",
+   "eyebrow": "Question three"
+  },
+  {
+   "start": 119.6,
+   "duration": 8.3,
+   "type": "fact_band",
+   "text": "It does three things",
+   "items": [
+    {
+     "label": "Shows you are organised",
+     "sublabel": ""
+    },
+    {
+     "label": "Ends on a confident note",
+     "sublabel": ""
+    },
+    {
+     "label": "No waiting in the dark",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 128.5,
+   "duration": 7.9,
+   "type": "timeline",
+   "side": "right",
+   "text": "Typical, companies differ",
+   "items": [
+    {
+     "label": "Interview",
+     "sublabel": "Day 0"
+    },
+    {
+     "label": "Result",
+     "sublabel": "A few days"
+    },
+    {
+     "label": "Documents",
+     "sublabel": "Next"
+    },
+    {
+     "label": "Offer",
+     "sublabel": "Last"
+    }
+   ]
+  },
+  {
+   "start": 137,
+   "duration": 5,
+   "type": "side_note",
+   "text": "Best question for an HR round",
+   "side": "left"
+  },
+  {
+   "start": 142.65,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Two questions never to ask",
+   "eyebrow": "Mistakes",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 146.9,
+   "duration": 6.7,
+   "type": "side_note",
+   "text": "Salary and leave: wait for the offer",
+   "side": "left"
+  },
+  {
+   "start": 154.9,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Sounds like money is all you care about",
+   "side": "right"
+  },
+  {
+   "start": 159.3,
+   "duration": 5.5,
+   "type": "quote_pull",
+   "text": "What does your company do?",
+   "eyebrow": "One search answers this"
+  },
+  {
+   "start": 165.6,
+   "duration": 5.4,
+   "type": "checklist",
+   "side": "right",
+   "text": "The rule",
+   "items": [
+    {
+     "label": "Work",
+     "state": "yes"
+    },
+    {
+     "label": "Team",
+     "state": "yes"
+    },
+    {
+     "label": "Next step",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 171.45,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "To sum up",
+   "eyebrow": "Recap",
+   "numeral": "06",
+   "section": 0
+  },
+  {
+   "start": 175.3,
+   "duration": 5.3,
+   "type": "fact_band",
+   "text": "Ask",
+   "items": [
+    {
+     "label": "First 3 months",
+     "sublabel": "1"
+    },
+    {
+     "label": "What a good fresher does",
+     "sublabel": "2"
+    },
+    {
+     "label": "Next steps",
+     "sublabel": "3"
+    }
+   ]
+  },
+  {
+   "start": 181,
+   "duration": 4.7,
+   "type": "checklist",
+   "side": "right",
+   "text": "Skip these",
+   "items": [
+    {
+     "label": "Salary too early",
+     "state": "no"
+    },
+    {
+     "label": "Google-able questions",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 187.2,
+   "duration": 5.2,
+   "type": "big_statement",
+   "text": "Which question will you ask?",
+   "eyebrow": "your turn"
+  },
+  {
+   "start": 192.6,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Like · Subscribe",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/walk.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 7.26,
+   "index": 0
+  },
+  {
+   "start": 7.26,
+   "kind": "broll",
+   "src": "assets/broll/blur.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 13.02,
+   "index": 1
+  },
+  {
+   "start": 13.02,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "3 + 2",
+    "label": "ask three, never ask two"
+   },
+   "end": 21.38,
+   "index": 2
+  },
+  {
+   "start": 21.38,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 27.47,
+   "index": 3
+  },
+  {
+   "start": 27.47,
+   "kind": "broll",
+   "src": "assets/broll/team.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 33.1,
+   "index": 4
+  },
+  {
+   "start": 33.1,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "2 FRESHERS",
+    "label": "same marks, same answers"
+   },
+   "end": 41.56,
+   "index": 5
+  },
+  {
+   "start": 41.56,
+   "kind": "broll",
+   "src": "assets/broll/woman.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 49.24,
+   "index": 6
+  },
+  {
+   "start": 49.24,
+   "kind": "broll",
+   "src": "assets/broll/notes.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 56.81,
+   "index": 7
+  },
+  {
+   "start": 56.81,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 62.48,
+   "index": 8
+  },
+  {
+   "start": 62.48,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "FIRST 3 MONTHS",
+    "label": "what you will learn"
+   },
+   "end": 68,
+   "index": 9
+  },
+  {
+   "start": 68,
+   "kind": "broll",
+   "src": "assets/broll/coders.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 74,
+   "index": 10
+  },
+  {
+   "start": 74,
+   "kind": "broll",
+   "src": "assets/broll/think.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 79.79,
+   "index": 11
+  },
+  {
+   "start": 79.79,
+   "kind": "broll",
+   "src": "assets/broll/office2.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 86.67,
+   "index": 12
+  },
+  {
+   "start": 86.67,
+   "kind": "broll",
+   "src": "assets/broll/team.mp4",
+   "media_start": 5,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 91.96,
+   "index": 13
+  },
+  {
+   "start": 91.96,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "WHAT THEY VALUE",
+    "label": "learning · asking · reliability"
+   },
+   "end": 97.51,
+   "index": 14
+  },
+  {
+   "start": 97.51,
+   "kind": "broll",
+   "src": "assets/broll/woman.mp4",
+   "media_start": 3,
+   "motion": "ken_out",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 105.25,
+   "index": 15
+  },
+  {
+   "start": 105.25,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 111.56,
+   "index": 16
+  },
+  {
+   "start": 111.56,
+   "kind": "broll",
+   "src": "assets/broll/crowd.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 118.09,
+   "index": 17
+  },
+  {
+   "start": 118.09,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "3 THINGS",
+    "label": "organised · confident · not waiting"
+   },
+   "end": 128.34,
+   "index": 18
+  },
+  {
+   "start": 128.34,
+   "kind": "broll",
+   "src": "assets/broll/notes.mp4",
+   "media_start": 10,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 136.53,
+   "index": 19
+  },
+  {
+   "start": 136.53,
+   "kind": "broll",
+   "src": "assets/broll/coffee.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 142.63,
+   "index": 20
+  },
+  {
+   "start": 142.63,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "NEVER ASK",
+    "label": "two questions, first interview"
+   },
+   "end": 148.7,
+   "index": 21
+  },
+  {
+   "start": 148.7,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 8,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 158.25,
+   "index": 22
+  },
+  {
+   "start": 158.25,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 8,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 165.43,
+   "index": 23
+  },
+  {
+   "start": 165.43,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "THE RULE",
+    "label": "work · team · next step"
+   },
+   "end": 171.39,
+   "index": 24
+  },
+  {
+   "start": 171.39,
+   "kind": "broll",
+   "src": "assets/broll/walk.mp4",
+   "media_start": 2,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 180.88,
+   "index": 25
+  },
+  {
+   "start": 180.88,
+   "kind": "broll",
+   "src": "assets/broll/blur.mp4",
+   "media_start": 6,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 186.05,
+   "index": 26
+  },
+  {
+   "start": 186.05,
+   "kind": "broll",
+   "src": "assets/broll/coffee.mp4",
+   "media_start": 8,
+   "motion": "ken_out",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 191,
+   "index": 27
+  },
+  {
+   "start": 191,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "YOUR TURN",
+    "label": "comment your question"
+   },
+   "end": 195.67,
+   "index": 28
+  }
+ ],
+ "camera_moves": []
+}

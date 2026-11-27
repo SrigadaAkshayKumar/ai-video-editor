@@ -1,0 +1,98 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 0,
+   "reason": "title_slide: Any questions for us?"
+  },
+  {
+   "time": 21.48,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Why they ask"
+  },
+  {
+   "time": 27.68,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "flow_diagram: What they are checking"
+  },
+  {
+   "time": 51.28,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Question one: the work"
+  },
+  {
+   "time": 54.38,
+   "sfx": "reveal",
+   "gain": 0,
+   "reason": "quote_pull: What would a fresher in this role work on in the first three months?"
+  },
+  {
+   "time": 66.08,
+   "sfx": "reveal",
+   "gain": 0,
+   "reason": "quote_pull: Sir, if I join this team, what would my first three months look like?"
+  },
+  {
+   "time": 79.83,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Question two: the team"
+  },
+  {
+   "time": 82.93,
+   "sfx": "reveal",
+   "gain": 0,
+   "reason": "quote_pull: What does a good fresher do well in your team?"
+  },
+  {
+   "time": 86.88,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "flow_diagram: Use the answer"
+  },
+  {
+   "time": 111.64,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Question three: next step"
+  },
+  {
+   "time": 114.78,
+   "sfx": "reveal",
+   "gain": 0,
+   "reason": "quote_pull: What are the next steps, and when can I expect to hear from you?"
+  },
+  {
+   "time": 128.58,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "timeline: Typical, companies differ"
+  },
+  {
+   "time": 142.73,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Two questions never to ask"
+  },
+  {
+   "time": 159.38,
+   "sfx": "reveal",
+   "gain": 0,
+   "reason": "quote_pull: What does your company do?"
+  },
+  {
+   "time": 171.53,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: To sum up"
+  }
+ ]
+}
