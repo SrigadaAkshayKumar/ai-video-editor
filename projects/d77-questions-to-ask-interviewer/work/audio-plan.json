@@ -1,0 +1,266 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "title_slide: Any questions for us?"
+  },
+  {
+   "time": 5.98,
+   "sfx": "impact",
+   "gain": 1,
+   "reason": "big_statement: No sir, everything is clear."
+  },
+  {
+   "time": 11.48,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "stat_trio: In this video"
+  },
+  {
+   "time": 25.13,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Why they ask"
+  },
+  {
+   "time": 25.43,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: Why they ask"
+  },
+  {
+   "time": 28.28,
+   "sfx": "impact",
+   "gain": 1,
+   "reason": "big_statement: They know your marks"
+  },
+  {
+   "time": 31.58,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: What they want to see"
+  },
+  {
+   "time": 38.78,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "side_note: Think from their side"
+  },
+  {
+   "time": 40.68,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 49.48,
+   "sfx": "impact",
+   "gain": 1,
+   "reason": "big_statement: You only need to prepare"
+  },
+  {
+   "time": 53.28,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "checklist: Before the interview"
+  },
+  {
+   "time": 59.61,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Question one"
+  },
+  {
+   "time": 59.91,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: Question one"
+  },
+  {
+   "time": 62.78,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "quote_pull: My first six months: what work?"
+  },
+  {
+   "time": 69.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "timeline: What you find out"
+  },
+  {
+   "time": 81.98,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "keyword_chip: Ask what to learn"
+  },
+  {
+   "time": 85.48,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 92.36,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Question two"
+  },
+  {
+   "time": 92.66,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: Question two"
+  },
+  {
+   "time": 95.48,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "quote_pull: What does a successful fresher in this team do differently?"
+  },
+  {
+   "time": 102.38,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "checklist: Their ideal fresher"
+  },
+  {
+   "time": 109.48,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "side_note: Now you have a target"
+  },
+  {
+   "time": 117.58,
+   "sfx": "impact",
+   "gain": 1,
+   "reason": "big_statement: +1 point for you"
+  },
+  {
+   "time": 122.18,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "number_roll: seconds of talking"
+  },
+  {
+   "time": 125.56,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Question three"
+  },
+  {
+   "time": 125.86,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: Question three"
+  },
+  {
+   "time": 128.68,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "quote_pull: What are the next steps, and when can I expect to hear back?"
+  },
+  {
+   "time": 132.38,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Without it, you wait"
+  },
+  {
+   "time": 143.88,
+   "sfx": "impact",
+   "gain": 1,
+   "reason": "big_statement: Clear picture. Organised."
+  },
+  {
+   "time": 147.38,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Your follow up plan"
+  },
+  {
+   "time": 153.88,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "checklist: Write it down"
+  },
+  {
+   "time": 159.05,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Never ask"
+  },
+  {
+   "time": 159.35,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: Never ask"
+  },
+  {
+   "time": 162.18,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "checklist: Not as your opener"
+  },
+  {
+   "time": 169.08,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "side_note: Perks belong to the offer stage"
+  },
+  {
+   "time": 174.28,
+   "sfx": "impact",
+   "gain": 1,
+   "reason": "big_statement: Thirty seconds on their website"
+  },
+  {
+   "time": 178.68,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "quote_pull: What does your company do?"
+  },
+  {
+   "time": 183.78,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 193.22,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: The recap"
+  },
+  {
+   "time": 193.52,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: The recap"
+  },
+  {
+   "time": 196.38,
+   "sfx": "riser",
+   "gain": 1,
+   "reason": "checklist: Ask these three"
+  },
+  {
+   "time": 202.88,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "keyword_chip: Salary and leave: offer stage"
+  },
+  {
+   "time": 207.98,
+   "sfx": "impact",
+   "gain": 1,
+   "reason": "big_statement: Which interview question scared you?"
+  }
+ ]
+}
