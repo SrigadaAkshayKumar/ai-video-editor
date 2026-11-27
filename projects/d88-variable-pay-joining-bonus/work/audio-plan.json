@@ -1,0 +1,170 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "title_slide: Variable pay and joining bonus"
+  },
+  {
+   "time": 4.48,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: Not guaranteed money"
+  },
+  {
+   "time": 8.38,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "big_statement: Paying it back?"
+  },
+  {
+   "time": 11.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "checklist: 3 words"
+  },
+  {
+   "time": 24.34,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Fixed vs variable pay"
+  },
+  {
+   "time": 28.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "fact_band: Two kinds of money"
+  },
+  {
+   "time": 35.08,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: Can be lower, even zero"
+  },
+  {
+   "time": 48.28,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: What was reported"
+  },
+  {
+   "time": 57.08,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: Via Reuters, Mint, ET"
+  },
+  {
+   "time": 62.88,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "big_statement: A target, not a promise"
+  },
+  {
+   "time": 68.28,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "bar_chart: Compare offers on..."
+  },
+  {
+   "time": 72.88,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Word 1: payout"
+  },
+  {
+   "time": 77.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: How variable pay is paid"
+  },
+  {
+   "time": 90.88,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: 100% or rating-linked?"
+  },
+  {
+   "time": 95.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "fact_band: Write two numbers"
+  },
+  {
+   "time": 104.24,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Word 2: bonus"
+  },
+  {
+   "time": 109.38,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: Retention bonus: after you stay"
+  },
+  {
+   "time": 112.38,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "timeline: Leave early, repay"
+  },
+  {
+   "time": 140.48,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "checklist: Check"
+  },
+  {
+   "time": 143.7,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Word 3: recovery"
+  },
+  {
+   "time": 147.28,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Your last settlement"
+  },
+  {
+   "time": 154.48,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: Can come very low"
+  },
+  {
+   "time": 157.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "checklist: Do these three things"
+  },
+  {
+   "time": 171.68,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "big_statement: Never sign a blank page"
+  },
+  {
+   "time": 178.38,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Recap"
+  },
+  {
+   "time": 181.68,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "fact_band: Recap"
+  },
+  {
+   "time": 199.98,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: Share with a friend"
+  }
+ ]
+}

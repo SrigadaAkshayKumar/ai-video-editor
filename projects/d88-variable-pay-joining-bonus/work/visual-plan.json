@@ -1,0 +1,765 @@
+{
+ "style": "liquid",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 3.85,
+   "type": "title_slide",
+   "text": "Variable pay and joining bonus",
+   "eyebrow": "Crack IT · Day 88",
+   "style_hint": "is that money really yours?"
+  },
+  {
+   "start": 4.4,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Not guaranteed money",
+   "side": "right"
+  },
+  {
+   "start": 8.3,
+   "duration": 1.9,
+   "type": "big_statement",
+   "text": "Paying it back?",
+   "eyebrow": "one wrong move"
+  },
+  {
+   "start": 11,
+   "duration": 4,
+   "type": "checklist",
+   "side": "right",
+   "text": "3 words",
+   "items": [
+    {
+     "label": "?",
+     "state": "yes"
+    },
+    {
+     "label": "?",
+     "state": "yes"
+    },
+    {
+     "label": "?",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 15.6,
+   "duration": 4.2,
+   "type": "keyword_chip",
+   "text": "Bigger than monthly salary?",
+   "side": "right"
+  },
+  {
+   "start": 20.6,
+   "duration": 3,
+   "type": "side_note",
+   "text": "The third one nobody reads",
+   "side": "right"
+  },
+  {
+   "start": 24.26,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Fixed vs variable pay",
+   "eyebrow": "The basics",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 28,
+   "duration": 6.6,
+   "type": "fact_band",
+   "text": "Two kinds of money",
+   "items": [
+    {
+     "label": "Fixed pay",
+     "sublabel": "every month"
+    },
+    {
+     "label": "Variable pay",
+     "sublabel": "only if target met"
+    }
+   ]
+  },
+  {
+   "start": 35,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "Can be lower, even zero",
+   "side": "right"
+  },
+  {
+   "start": 40,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "Reported example",
+   "side": "right"
+  },
+  {
+   "start": 43.6,
+   "duration": 4.4,
+   "type": "side_note",
+   "text": "TCS memo, Oct 2026 (reported)",
+   "side": "right"
+  },
+  {
+   "start": 48.2,
+   "duration": 5.3,
+   "type": "flow_diagram",
+   "text": "What was reported",
+   "items": [
+    {
+     "label": "C3A and above",
+     "sublabel": "no quarterly variable"
+    },
+    {
+     "label": "Missed internal targets",
+     "sublabel": "reason given"
+    },
+    {
+     "label": "Junior staff",
+     "sublabel": "full eligible pay"
+    }
+   ]
+  },
+  {
+   "start": 57,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "Via Reuters, Mint, ET",
+   "side": "right"
+  },
+  {
+   "start": 62.8,
+   "duration": 5.2,
+   "type": "big_statement",
+   "text": "A target, not a promise",
+   "eyebrow": "the lesson for you"
+  },
+  {
+   "start": 68.2,
+   "duration": 4.2,
+   "type": "bar_chart",
+   "side": "left",
+   "text": "Compare offers on...",
+   "items": [
+    {
+     "label": "Fixed pay",
+     "value": 100
+    },
+    {
+     "label": "Variable pay (maybe)",
+     "value": 40
+    }
+   ]
+  },
+  {
+   "start": 72.8,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Word 1: payout",
+   "eyebrow": "Word number one",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 77,
+   "duration": 8.5,
+   "type": "flow_diagram",
+   "text": "How variable pay is paid",
+   "items": [
+    {
+     "label": "Target set",
+     "sublabel": ""
+    },
+    {
+     "label": "Company or team result",
+     "sublabel": ""
+    },
+    {
+     "label": "Your rating",
+     "sublabel": ""
+    },
+    {
+     "label": "Payout %",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 86.6,
+   "duration": 3.9,
+   "type": "keyword_chip",
+   "text": "Monthly, quarterly or yearly?",
+   "side": "right"
+  },
+  {
+   "start": 90.8,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "100% or rating-linked?",
+   "side": "right"
+  },
+  {
+   "start": 95,
+   "duration": 6,
+   "type": "fact_band",
+   "text": "Write two numbers",
+   "items": [
+    {
+     "label": "Sure every month",
+     "sublabel": "plan on this"
+    },
+    {
+     "label": "May come",
+     "sublabel": "do not count it"
+    }
+   ]
+  },
+  {
+   "start": 101.4,
+   "duration": 2.4,
+   "type": "side_note",
+   "text": "Plan on the first one only",
+   "side": "right"
+  },
+  {
+   "start": 104.16,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Word 2: bonus",
+   "eyebrow": "Word number two",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 107.4,
+   "duration": 1.6,
+   "type": "keyword_chip",
+   "text": "Joining bonus: when you join",
+   "side": "right"
+  },
+  {
+   "start": 109.3,
+   "duration": 2.7,
+   "type": "keyword_chip",
+   "text": "Retention bonus: after you stay",
+   "side": "right"
+  },
+  {
+   "start": 112.3,
+   "duration": 6.2,
+   "type": "timeline",
+   "side": "right",
+   "text": "Leave early, repay",
+   "items": [
+    {
+     "label": "Join",
+     "sublabel": ""
+    },
+    {
+     "label": "6 months",
+     "sublabel": "repay"
+    },
+    {
+     "label": "12 months",
+     "sublabel": "clear"
+    }
+   ]
+  },
+  {
+   "start": 119.2,
+   "duration": 9.8,
+   "type": "quote_pull",
+   "text": "He had never read that line",
+   "eyebrow": "Sample story: Ravi"
+  },
+  {
+   "start": 129.5,
+   "duration": 3.5,
+   "type": "side_note",
+   "text": "Details differ by company",
+   "side": "right"
+  },
+  {
+   "start": 135.4,
+   "duration": 4.4,
+   "type": "keyword_chip",
+   "text": "Return · refund · recover",
+   "side": "right"
+  },
+  {
+   "start": 140.4,
+   "duration": 2.9,
+   "type": "checklist",
+   "side": "right",
+   "text": "Check",
+   "items": [
+    {
+     "label": "Period",
+     "state": "yes"
+    },
+    {
+     "label": "Amount",
+     "state": "yes"
+    },
+    {
+     "label": "Reduces over time?",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 143.62,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Word 3: recovery",
+   "eyebrow": "Word number three",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 147.2,
+   "duration": 6.6,
+   "type": "flow_diagram",
+   "text": "Your last settlement",
+   "items": [
+    {
+     "label": "Last salary",
+     "sublabel": ""
+    },
+    {
+     "label": "Bonus to repay",
+     "sublabel": "minus"
+    },
+    {
+     "label": "Notice shortfall",
+     "sublabel": "minus"
+    },
+    {
+     "label": "What you get",
+     "sublabel": "can be low"
+    }
+   ]
+  },
+  {
+   "start": 154.4,
+   "duration": 2.2,
+   "type": "keyword_chip",
+   "text": "Can come very low",
+   "side": "right"
+  },
+  {
+   "start": 157,
+   "duration": 14,
+   "type": "checklist",
+   "side": "right",
+   "text": "Do these three things",
+   "items": [
+    {
+     "label": "Read the clause now",
+     "state": "yes"
+    },
+    {
+     "label": "Ask HR in writing",
+     "state": "yes"
+    },
+    {
+     "label": "Calculate before resigning",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 171.6,
+   "duration": 6.3,
+   "type": "big_statement",
+   "text": "Never sign a blank page",
+   "eyebrow": "and ask if a number differs"
+  },
+  {
+   "start": 178.3,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Recap",
+   "eyebrow": "In short",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 181.6,
+   "duration": 4.4,
+   "type": "fact_band",
+   "text": "Recap",
+   "items": [
+    {
+     "label": "Variable pay",
+     "sublabel": "a target"
+    },
+    {
+     "label": "Bonus",
+     "sublabel": "return clause"
+    },
+    {
+     "label": "Recovery",
+     "sublabel": "last salary"
+    }
+   ]
+  },
+  {
+   "start": 186.6,
+   "duration": 8.4,
+   "type": "poll_prompt",
+   "text": "Variable pay or joining bonus in your offer?",
+   "items": [
+    {
+     "label": "Yes"
+    },
+    {
+     "label": "No"
+    }
+   ]
+  },
+  {
+   "start": 195.9,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Subscribe to Crack IT",
+   "side": "right"
+  },
+  {
+   "start": 199.9,
+   "duration": 2.3,
+   "type": "keyword_chip",
+   "text": "Share with a friend",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/notebook.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 7.9,
+   "index": 0
+  },
+  {
+   "start": 7.9,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "NOT YOURS YET",
+    "label": "until a condition is met"
+   },
+   "end": 10.68,
+   "index": 1
+  },
+  {
+   "start": 10.68,
+   "kind": "broll",
+   "src": "assets/broll/tablet.mp4",
+   "media_start": 6,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 15.3,
+   "index": 2
+  },
+  {
+   "start": 15.3,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "3 WORDS",
+    "label": "in your offer letter"
+   },
+   "end": 20.3,
+   "index": 3
+  },
+  {
+   "start": 20.3,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 24.26,
+   "index": 4
+  },
+  {
+   "start": 24.26,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 29.88,
+   "index": 5
+  },
+  {
+   "start": 29.88,
+   "kind": "broll",
+   "src": "assets/broll/cash.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 34.87,
+   "index": 6
+  },
+  {
+   "start": 34.87,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "SOMETIMES ZERO",
+    "label": "the amount you receive"
+   },
+   "end": 41.02,
+   "index": 7
+  },
+  {
+   "start": 41.02,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "REPORTED",
+    "label": "TCS memo · Oct 2026"
+   },
+   "end": 48.2,
+   "index": 8
+  },
+  {
+   "start": 48.2,
+   "kind": "broll",
+   "src": "assets/broll/pencil.mp4",
+   "media_start": 8,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 53.95,
+   "index": 9
+  },
+  {
+   "start": 53.95,
+   "kind": "broll",
+   "src": "assets/broll/tablet.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 62.54,
+   "index": 10
+  },
+  {
+   "start": 62.54,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "TARGET",
+    "label": "not a promise"
+   },
+   "end": 72.8,
+   "index": 11
+  },
+  {
+   "start": 72.8,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 77,
+   "index": 12
+  },
+  {
+   "start": 77,
+   "kind": "broll",
+   "src": "assets/broll/typing2.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 86.24,
+   "index": 13
+  },
+  {
+   "start": 86.24,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 94.67,
+   "index": 14
+  },
+  {
+   "start": 94.67,
+   "kind": "broll",
+   "src": "assets/broll/notebook.mp4",
+   "media_start": 6,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 101,
+   "index": 15
+  },
+  {
+   "start": 101,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "PLAN ON THE SURE ONE",
+    "label": "not the maybe"
+   },
+   "end": 104.16,
+   "index": 16
+  },
+  {
+   "start": 104.16,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 112.15,
+   "index": 17
+  },
+  {
+   "start": 112.15,
+   "kind": "broll",
+   "src": "assets/broll/pencil.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 118.93,
+   "index": 18
+  },
+  {
+   "start": 118.93,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "SAMPLE",
+    "label": "Ravi: illustrative example"
+   },
+   "end": 125,
+   "index": 19
+  },
+  {
+   "start": 125,
+   "kind": "broll",
+   "src": "assets/broll/notebook.mp4",
+   "media_start": 9,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 130.98,
+   "index": 20
+  },
+  {
+   "start": 130.98,
+   "kind": "broll",
+   "src": "assets/broll/cash.mp4",
+   "media_start": 5,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 137,
+   "index": 21
+  },
+  {
+   "start": 137,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "RETURN · REFUND · RECOVER",
+    "label": "find these words"
+   },
+   "end": 143.62,
+   "index": 22
+  },
+  {
+   "start": 143.62,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 150.09,
+   "index": 23
+  },
+  {
+   "start": 150.09,
+   "kind": "broll",
+   "src": "assets/broll/cash.mp4",
+   "media_start": 9,
+   "motion": "ken_out",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 156.8,
+   "index": 24
+  },
+  {
+   "start": 156.8,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3 THINGS",
+    "label": "read · ask · calculate"
+   },
+   "end": 166.41,
+   "index": 25
+  },
+  {
+   "start": 166.41,
+   "kind": "broll",
+   "src": "assets/broll/pencil.mp4",
+   "media_start": 6,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 171.25,
+   "index": 26
+  },
+  {
+   "start": 171.25,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "NEVER SIGN BLANK",
+    "label": "a blank or changed page"
+   },
+   "end": 178.3,
+   "index": 27
+  },
+  {
+   "start": 178.3,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 186.52,
+   "index": 28
+  },
+  {
+   "start": 186.52,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 3,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 195.48,
+   "index": 29
+  },
+  {
+   "start": 195.48,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe · share"
+   },
+   "end": 202.7,
+   "index": 30
+  }
+ ],
+ "camera_moves": []
+}
