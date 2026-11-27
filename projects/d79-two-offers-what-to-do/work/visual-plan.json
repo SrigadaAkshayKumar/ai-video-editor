@@ -1,0 +1,901 @@
+{
+ "style": "broadcast",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 3.55,
+   "type": "title_slide",
+   "text": "Two job offers?",
+   "eyebrow": "Crack IT · Day 79",
+   "style_hint": "3 mistakes freshers make"
+  },
+  {
+   "start": 4,
+   "duration": 4.2,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Offer A",
+    "text": "Already accepted"
+   },
+   "right": {
+    "label": "Offer B",
+    "text": "Just arrived, better salary"
+   }
+  },
+  {
+   "start": 8.6,
+   "duration": 2.3,
+   "type": "keyword_chip",
+   "text": "Fresher or final year?",
+   "side": "right"
+  },
+  {
+   "start": 11.2,
+   "duration": 6.4,
+   "type": "stat_trio",
+   "text": "In this video",
+   "items": [
+    {
+     "label": "mistakes",
+     "sublabel": "",
+     "value": 3
+    },
+    {
+     "label": "minutes",
+     "sublabel": "",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "start": 18,
+   "duration": 3.6,
+   "type": "big_statement",
+   "text": "Mistake 3 is the one they remember",
+   "eyebrow": "stay till the end"
+  },
+  {
+   "start": 22.14,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Why it happens",
+   "eyebrow": "The basics",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 26.4,
+   "duration": 4.2,
+   "type": "keyword_chip",
+   "text": "Offers arrive months apart",
+   "side": "right"
+  },
+  {
+   "start": 31.1,
+   "duration": 4.7,
+   "type": "side_note",
+   "text": "Two offers is a good problem",
+   "side": "right"
+  },
+  {
+   "start": 37,
+   "duration": 9.5,
+   "type": "checklist",
+   "side": "right",
+   "text": "Find in your letter",
+   "items": [
+    {
+     "label": "Joining date",
+     "state": "yes"
+    },
+    {
+     "label": "Withdrawal clause",
+     "state": "yes"
+    },
+    {
+     "label": "Bond or notice terms",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 47,
+   "duration": 3.7,
+   "type": "keyword_chip",
+   "text": "Terms differ: read yours",
+   "side": "right"
+  },
+  {
+   "start": 51.2,
+   "duration": 3.7,
+   "type": "big_statement",
+   "text": "You can leave before joining",
+   "eyebrow": "one rule"
+  },
+  {
+   "start": 55.5,
+   "duration": 2.7,
+   "type": "side_note",
+   "text": "How you leave keeps the door open",
+   "side": "right"
+  },
+  {
+   "start": 58.31,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Going silent",
+   "eyebrow": "Mistake 01",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 61.6,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "Ghosting",
+   "side": "right"
+  },
+  {
+   "start": 64.4,
+   "duration": 3.6,
+   "type": "big_statement",
+   "text": "Ghosting is remembered",
+   "eyebrow": "trap"
+  },
+  {
+   "start": 68.4,
+   "duration": 11,
+   "type": "flow_diagram",
+   "text": "A ghost gets flagged",
+   "items": [
+    {
+     "label": "Disappears",
+     "sublabel": ""
+    },
+    {
+     "label": "Staffing partners",
+     "sublabel": ""
+    },
+    {
+     "label": "Check vendors",
+     "sublabel": ""
+    },
+    {
+     "label": "No show",
+     "sublabel": "marked"
+    }
+   ]
+  },
+  {
+   "start": 80.3,
+   "duration": 7.7,
+   "type": "checklist",
+   "side": "right",
+   "text": "Withdrawal mail",
+   "items": [
+    {
+     "label": "Thank you",
+     "state": "yes"
+    },
+    {
+     "label": "Reason in one line",
+     "state": "yes"
+    },
+    {
+     "label": "Clear withdrawal",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 88.4,
+   "duration": 3.9,
+   "type": "number_roll",
+   "value": 10,
+   "suffix": " lines",
+   "text": "Is enough. Send it early."
+  },
+  {
+   "start": 92.53,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Verify first",
+   "eyebrow": "Mistake 02",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 95.8,
+   "duration": 3.4,
+   "type": "big_statement",
+   "text": "Better salary does not mean real",
+   "eyebrow": "check it"
+  },
+  {
+   "start": 99.7,
+   "duration": 12.6,
+   "type": "checklist",
+   "side": "right",
+   "text": "Check three things",
+   "items": [
+    {
+     "label": "Official email domain",
+     "state": "yes"
+    },
+    {
+     "label": "Role, place, date, pay breakup",
+     "state": "yes"
+    },
+    {
+     "label": "No fee asked",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 112.6,
+   "duration": 3.5,
+   "type": "big_statement",
+   "text": "A real company never asks you to pay",
+   "eyebrow": "red flag"
+  },
+  {
+   "start": 116.4,
+   "duration": 5.6,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Fixed pay",
+    "text": "Paid every month"
+   },
+   "right": {
+    "label": "Big CTC",
+    "text": "Includes variable: not guaranteed"
+   }
+  },
+  {
+   "start": 122.3,
+   "duration": 6.3,
+   "type": "fact_band",
+   "text": "Also compare",
+   "items": [
+    {
+     "label": "Location",
+     "sublabel": "check"
+    },
+    {
+     "label": "Bond",
+     "sublabel": "check"
+    },
+    {
+     "label": "Training",
+     "sublabel": "check"
+    }
+   ]
+  },
+  {
+   "start": 128.9,
+   "duration": 3.5,
+   "type": "big_statement",
+   "text": "Higher number, longer bond?",
+   "eyebrow": "not always better"
+  },
+  {
+   "start": 132.9,
+   "duration": 5.9,
+   "type": "side_note",
+   "text": "Watch: fake offers, CTC vs in-hand",
+   "side": "right"
+  },
+  {
+   "start": 139.41,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "A messy exit",
+   "eyebrow": "Mistake 03",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 142.8,
+   "duration": 9.6,
+   "type": "checklist",
+   "side": "right",
+   "text": "A messy exit looks like",
+   "items": [
+    {
+     "label": "Last-minute notice",
+     "state": "no"
+    },
+    {
+     "label": "Ignoring their calls",
+     "state": "no"
+    },
+    {
+     "label": "Keeping laptop or papers",
+     "state": "no"
+    },
+    {
+     "label": "Telling a friend first",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 152.7,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Tell the company first",
+   "side": "right"
+  },
+  {
+   "start": 157,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "A client, a partner, a future employer",
+   "side": "right"
+  },
+  {
+   "start": 160.9,
+   "duration": 2.7,
+   "type": "number_roll",
+   "value": 2,
+   "suffix": " years",
+   "text": "You may apply again"
+  },
+  {
+   "start": 163.9,
+   "duration": 7.9,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Clean exit",
+    "text": "One polite email"
+   },
+   "right": {
+    "label": "Messy exit",
+    "text": "Can follow you into background checks"
+   }
+  },
+  {
+   "start": 172.4,
+   "duration": 4.9,
+   "type": "timeline",
+   "side": "right",
+   "text": "Leave well",
+   "current": 3,
+   "items": [
+    {
+     "label": "Be early",
+     "sublabel": ""
+    },
+    {
+     "label": "Be polite",
+     "sublabel": ""
+    },
+    {
+     "label": "Return all",
+     "sublabel": ""
+    },
+    {
+     "label": "Keep mails",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 177.52,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "The safe order",
+   "eyebrow": "What to do",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 180.9,
+   "duration": 17.3,
+   "type": "step_progress",
+   "side": "right",
+   "text": "Safe order",
+   "current_step": 0,
+   "items": [
+    {
+     "label": "Read first letter",
+     "at": 0
+    },
+    {
+     "label": "Verify offer two",
+     "at": 2.8
+    },
+    {
+     "label": "Compare the numbers",
+     "at": 6
+    },
+    {
+     "label": "Decide, then write",
+     "at": 10.7
+    },
+    {
+     "label": "Accept in writing",
+     "at": 14.1
+    }
+   ]
+  },
+  {
+   "start": 198.8,
+   "duration": 4.4,
+   "type": "keyword_chip",
+   "text": "Penalty clause? Ask the recruiter",
+   "side": "right"
+  },
+  {
+   "start": 203.5,
+   "duration": 4.6,
+   "type": "side_note",
+   "text": "Ask them to confirm it in writing",
+   "side": "right"
+  },
+  {
+   "start": 208.3,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "Negotiate honestly",
+   "side": "right"
+  },
+  {
+   "start": 213.4,
+   "duration": 4.5,
+   "type": "big_statement",
+   "text": "Never invent an offer",
+   "eyebrow": "fake leverage"
+  },
+  {
+   "start": 218.4,
+   "duration": 5.7,
+   "type": "fact_band",
+   "text": "In short",
+   "items": [
+    {
+     "label": "No ghosting",
+     "sublabel": "1"
+    },
+    {
+     "label": "Verify first",
+     "sublabel": "2"
+    },
+    {
+     "label": "Clean exit",
+     "sublabel": "3"
+    }
+   ]
+  },
+  {
+   "start": 224.3,
+   "duration": 3.4,
+   "type": "big_statement",
+   "text": "One honest email",
+   "eyebrow": "that's all"
+  },
+  {
+   "start": 228,
+   "duration": 6.8,
+   "type": "poll_prompt",
+   "text": "What made you choose?",
+   "items": [
+    {
+     "label": "Salary"
+    },
+    {
+     "label": "Role"
+    },
+    {
+     "label": "Location"
+    },
+    {
+     "label": "Company"
+    }
+   ]
+  },
+  {
+   "start": 235.3,
+   "duration": 5.1,
+   "type": "keyword_chip",
+   "text": "Like · Subscribe",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 3.9,
+   "index": 0
+  },
+  {
+   "start": 3.9,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "A vs B",
+    "label": "two offers, one decision"
+   },
+   "end": 8.4,
+   "index": 1
+  },
+  {
+   "start": 8.4,
+   "kind": "broll",
+   "src": "assets/broll/think.mp4",
+   "media_start": 3,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 11.1,
+   "index": 2
+  },
+  {
+   "start": 11.1,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "3 + 5",
+    "label": "mistakes · minutes"
+   },
+   "end": 17.9,
+   "index": 3
+  },
+  {
+   "start": 17.9,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 22.14,
+   "index": 4
+  },
+  {
+   "start": 22.14,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 25.3,
+   "index": 5
+  },
+  {
+   "start": 25.3,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 3,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 30.93,
+   "index": 6
+  },
+  {
+   "start": 30.93,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "GOOD PROBLEM",
+    "label": "two offers"
+   },
+   "end": 36.4,
+   "index": 7
+  },
+  {
+   "start": 36.4,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 46.9,
+   "index": 8
+  },
+  {
+   "start": 46.9,
+   "kind": "broll",
+   "src": "assets/broll/team.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 51.13,
+   "index": 9
+  },
+  {
+   "start": 51.13,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 55.38,
+   "index": 10
+  },
+  {
+   "start": 55.38,
+   "kind": "broll",
+   "src": "assets/broll/think.mp4",
+   "media_start": 8,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 58.31,
+   "index": 11
+  },
+  {
+   "start": 58.31,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 61.5,
+   "index": 12
+  },
+  {
+   "start": 61.5,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "GHOSTING",
+    "label": "the fastest way to be remembered badly"
+   },
+   "end": 68.3,
+   "index": 13
+  },
+  {
+   "start": 68.3,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 80.2,
+   "index": 14
+  },
+  {
+   "start": 80.2,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 88.2,
+   "index": 15
+  },
+  {
+   "start": 88.2,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 4,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 92.53,
+   "index": 16
+  },
+  {
+   "start": 92.53,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 95.7,
+   "index": 17
+  },
+  {
+   "start": 95.7,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "VERIFY",
+    "label": "before you accept"
+   },
+   "end": 99.6,
+   "index": 18
+  },
+  {
+   "start": 99.6,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 105.5,
+   "index": 19
+  },
+  {
+   "start": 105.5,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 112.5,
+   "index": 20
+  },
+  {
+   "start": 112.5,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 6,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 116.3,
+   "index": 21
+  },
+  {
+   "start": 116.3,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 122.1,
+   "index": 22
+  },
+  {
+   "start": 122.1,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 128.74,
+   "index": 23
+  },
+  {
+   "start": 128.74,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 132.5,
+   "index": 24
+  },
+  {
+   "start": 132.5,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 10,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 139.41,
+   "index": 25
+  },
+  {
+   "start": 139.41,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 142.6,
+   "index": 26
+  },
+  {
+   "start": 142.6,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 152.5,
+   "index": 27
+  },
+  {
+   "start": 152.5,
+   "kind": "broll",
+   "src": "assets/broll/team.mp4",
+   "media_start": 5,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 156.84,
+   "index": 28
+  },
+  {
+   "start": 156.84,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "2 YEARS",
+    "label": "you may apply again"
+   },
+   "end": 163.7,
+   "index": 29
+  },
+  {
+   "start": 163.7,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 172.3,
+   "index": 30
+  },
+  {
+   "start": 172.3,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 177.52,
+   "index": 31
+  },
+  {
+   "start": 177.52,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 180.7,
+   "index": 32
+  },
+  {
+   "start": 180.7,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 187.5,
+   "index": 33
+  },
+  {
+   "start": 187.5,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 193,
+   "index": 34
+  },
+  {
+   "start": 193,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 198.5,
+   "index": 35
+  },
+  {
+   "start": 198.5,
+   "kind": "broll",
+   "src": "assets/broll/hands.mp4",
+   "media_start": 2,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 203.4,
+   "index": 36
+  },
+  {
+   "start": 203.4,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "IN WRITING",
+    "label": "ask them to confirm"
+   },
+   "end": 208.2,
+   "index": 37
+  },
+  {
+   "start": 208.2,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 14,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 212.2,
+   "index": 38
+  },
+  {
+   "start": 212.2,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 218.3,
+   "index": 39
+  },
+  {
+   "start": 218.3,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 224.2,
+   "index": 40
+  },
+  {
+   "start": 224.2,
+   "kind": "broll",
+   "src": "assets/broll/team.mp4",
+   "media_start": 2,
+   "motion": "ken_out",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 227.8,
+   "index": 41
+  },
+  {
+   "start": 227.8,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 235,
+   "index": 42
+  },
+  {
+   "start": 235,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CRACK IT",
+    "label": "like · subscribe"
+   },
+   "end": 240.73,
+   "index": 43
+  }
+ ],
+ "camera_moves": []
+}

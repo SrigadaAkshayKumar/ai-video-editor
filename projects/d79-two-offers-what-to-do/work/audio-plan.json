@@ -1,0 +1,200 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "title_slide: Two job offers?"
+  },
+  {
+   "time": 4.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 11.28,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "stat_trio: In this video"
+  },
+  {
+   "time": 18.08,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "big_statement: Mistake 3 is the one they remember"
+  },
+  {
+   "time": 22.22,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Why it happens"
+  },
+  {
+   "time": 26.48,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: Offers arrive months apart"
+  },
+  {
+   "time": 37.08,
+   "sfx": "riser",
+   "gain": 2,
+   "reason": "checklist: Find in your letter"
+  },
+  {
+   "time": 47.08,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: Terms differ: read yours"
+  },
+  {
+   "time": 51.28,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "big_statement: You can leave before joining"
+  },
+  {
+   "time": 58.39,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Going silent"
+  },
+  {
+   "time": 61.68,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: Ghosting"
+  },
+  {
+   "time": 64.48,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "big_statement: Ghosting is remembered"
+  },
+  {
+   "time": 68.48,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: A ghost gets flagged"
+  },
+  {
+   "time": 80.38,
+   "sfx": "riser",
+   "gain": 2,
+   "reason": "checklist: Withdrawal mail"
+  },
+  {
+   "time": 92.61,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Verify first"
+  },
+  {
+   "time": 95.88,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "big_statement: Better salary does not mean real"
+  },
+  {
+   "time": 99.78,
+   "sfx": "riser",
+   "gain": 2,
+   "reason": "checklist: Check three things"
+  },
+  {
+   "time": 112.68,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "big_statement: A real company never asks you to pay"
+  },
+  {
+   "time": 116.48,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 122.38,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "fact_band: Also compare"
+  },
+  {
+   "time": 128.98,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "big_statement: Higher number, longer bond?"
+  },
+  {
+   "time": 139.49,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: A messy exit"
+  },
+  {
+   "time": 142.88,
+   "sfx": "riser",
+   "gain": 2,
+   "reason": "checklist: A messy exit looks like"
+  },
+  {
+   "time": 152.78,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: Tell the company first"
+  },
+  {
+   "time": 163.98,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 172.48,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "timeline: Leave well"
+  },
+  {
+   "time": 177.6,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: The safe order"
+  },
+  {
+   "time": 198.88,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: Penalty clause? Ask the recruiter"
+  },
+  {
+   "time": 208.38,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: Negotiate honestly"
+  },
+  {
+   "time": 213.48,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "big_statement: Never invent an offer"
+  },
+  {
+   "time": 218.48,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "fact_band: In short"
+  },
+  {
+   "time": 224.38,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "big_statement: One honest email"
+  }
+ ]
+}
