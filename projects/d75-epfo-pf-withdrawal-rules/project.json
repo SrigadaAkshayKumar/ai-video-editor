@@ -1,0 +1,107 @@
+{
+  "name": "d75-epfo-pf-withdrawal-rules",
+  "createdAt": "2026-11-27T02:13:48.283Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d75-epfo-pf-withdrawal-rules/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d75/d75-voice.wav",
+    "duration": 200.02,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d75-epfo-pf-withdrawal-rules/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d75/d75_epfo_pf_withdrawal_rules_voiceover.txt",
+    "words": 661,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d75-epfo-pf-withdrawal-rules/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "November",
+    "Employees",
+    "Provident Fund Organisation",
+    "Union Labour Minister",
+    "The Labour Ministry",
+    "Pension Scheme",
+    "Labour Ministry"
+  ],
+  "mode": "faceless",
+  "style": "blueprint",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; terminal / data-desk look: monospace, stepped plotter arrivals; graphic-led (flow diagrams, checklists, number rolls), b-roll sparse and docked; a beat every 5-7 s; crisp digital ticks and soft clicks for SFX",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 25.36,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-27T02:15:31.286Z",
+      "words": 639,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-27T02:15:40.852Z",
+      "segments": 10,
+      "kept": 197.867
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-27T02:34:43.020Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d75-epfo-pf-withdrawal-rules/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-27T02:34:48.910Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-27T02:34:48.938Z",
+      "groups": 173
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-27T02:34:55.048Z",
+      "music": 0,
+      "sfx": 29
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-27T02:37:44.189Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d75-epfo-pf-withdrawal-rules/output/final-16x9.mp4",
+      "duration": 207.878
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.969977,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d75-epfo-pf-withdrawal-rules/work/cleancut.wav",
+    "duration": 197.866583,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

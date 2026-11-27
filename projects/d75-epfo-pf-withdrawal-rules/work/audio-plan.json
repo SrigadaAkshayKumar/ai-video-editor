@@ -1,0 +1,182 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "title_slide: PF withdrawal rules changed"
+  },
+  {
+   "time": 10.48,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "side_note: One wrong move with PF"
+  },
+  {
+   "time": 13.28,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "stat_trio: In this video"
+  },
+  {
+   "time": 25.78,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: What the board decided"
+  },
+  {
+   "time": 30.08,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: EPFO CBT · 240th meeting"
+  },
+  {
+   "time": 38.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "data_table: Approved on 19 Nov 2026"
+  },
+  {
+   "time": 43.3,
+   "sfx": "typing",
+   "gain": 2,
+   "reason": "row Wait, final withdrawal"
+  },
+  {
+   "time": 49.3,
+   "sfx": "typing",
+   "gain": 2,
+   "reason": "row Minimum balance kept"
+  },
+  {
+   "time": 51.6,
+   "sfx": "typing",
+   "gain": 2,
+   "reason": "row Accessible share"
+  },
+  {
+   "time": 55.9,
+   "sfx": "typing",
+   "gain": 2,
+   "reason": "row Retirees"
+  },
+  {
+   "time": 63.48,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Approved, not live"
+  },
+  {
+   "time": 67.38,
+   "sfx": "ding",
+   "gain": 1,
+   "reason": "big_statement: Approved, not live"
+  },
+  {
+   "time": 76.08,
+   "sfx": "ding",
+   "gain": 1,
+   "reason": "big_statement: ₹10 lakh eligible balance"
+  },
+  {
+   "time": 80.28,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "data_table: ₹10 lakh, old rule vs new"
+  },
+  {
+   "time": 83.6,
+   "sfx": "typing",
+   "gain": 2,
+   "reason": "row Old (25%)"
+  },
+  {
+   "time": 86.2,
+   "sfx": "typing",
+   "gain": 2,
+   "reason": "row New (10%)"
+  },
+  {
+   "time": 91.58,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: What has not changed"
+  },
+  {
+   "time": 94.88,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "fact_band: Still the same"
+  },
+  {
+   "time": 106.18,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: The mistake"
+  },
+  {
+   "time": 110.28,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: Withdraw by habit? Don't"
+  },
+  {
+   "time": 116.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Transfer, don't withdraw"
+  },
+  {
+   "time": 127.68,
+   "sfx": "clock_tick",
+   "gain": 1,
+   "reason": "checklist: Three reasons not to withdraw"
+  },
+  {
+   "time": 142.88,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Do this week"
+  },
+  {
+   "time": 146.08,
+   "sfx": "clock_tick",
+   "gain": 1,
+   "reason": "checklist: This week"
+  },
+  {
+   "time": 160.98,
+   "sfx": "ding",
+   "gain": 1,
+   "reason": "big_statement: Approved is not notified"
+  },
+  {
+   "time": 164.78,
+   "sfx": "click",
+   "gain": 2,
+   "reason": "keyword_chip: Follow the notified rule, not the headline"
+  },
+  {
+   "time": 169.78,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "fact_band: To sum up"
+  },
+  {
+   "time": 184.08,
+   "sfx": "ding",
+   "gain": 1,
+   "reason": "poll_prompt: Do you know your UAN number?"
+  },
+  {
+   "time": 188.38,
+   "sfx": "ding",
+   "gain": 1,
+   "reason": "poll_prompt: Old PF: transfer or withdraw?"
+  }
+ ]
+}

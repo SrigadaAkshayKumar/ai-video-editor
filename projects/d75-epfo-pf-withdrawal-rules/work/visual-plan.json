@@ -1,0 +1,587 @@
+{
+ "style": "blueprint",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 3.45,
+   "type": "title_slide",
+   "text": "PF withdrawal rules changed",
+   "eyebrow": "Crack IT · Day 75",
+   "style_hint": "What freshers must do before switching jobs"
+  },
+  {
+   "start": 5,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "EPFO board: new PF rules",
+   "side": "right"
+  },
+  {
+   "start": 10.4,
+   "duration": 2.1,
+   "type": "side_note",
+   "text": "One wrong move with PF",
+   "side": "right"
+  },
+  {
+   "start": 13.2,
+   "duration": 7.6,
+   "type": "stat_trio",
+   "text": "In this video",
+   "items": [
+    {
+     "label": "points",
+     "sublabel": "",
+     "value": 3
+    },
+    {
+     "label": "minutes",
+     "sublabel": "",
+     "value": 5
+    },
+    {
+     "label": "mistake to avoid",
+     "sublabel": "",
+     "value": 1
+    }
+   ]
+  },
+  {
+   "start": 22,
+   "duration": 3.2,
+   "type": "side_note",
+   "text": "Third point: the one learned too late",
+   "side": "right"
+  },
+  {
+   "start": 25.7,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "What the board decided",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 30,
+   "duration": 6.5,
+   "type": "keyword_chip",
+   "text": "EPFO CBT · 240th meeting",
+   "side": "right"
+  },
+  {
+   "start": 38,
+   "duration": 24.8,
+   "type": "data_table",
+   "text": "Approved on 19 Nov 2026",
+   "columns": [
+    "Rule",
+    "Before",
+    "Approved"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "Wait, final withdrawal",
+      "12 months",
+      "2 months"
+     ],
+     "at": 5.3
+    },
+    {
+     "cells": [
+      "Minimum balance kept",
+      "25%",
+      "10%"
+     ],
+     "at": 11.3
+    },
+    {
+     "cells": [
+      "Accessible share",
+      "75%",
+      "90%"
+     ],
+     "at": 13.6
+    },
+    {
+     "cells": [
+      "Retirees",
+      "lump sum",
+      "optional instalments"
+     ],
+     "at": 17.9
+    }
+   ],
+   "footer": "board-approved · not yet notified",
+   "footer_at": 23
+  },
+  {
+   "start": 63.4,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Approved, not live",
+   "eyebrow": "Section 02",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 67.3,
+   "duration": 6.6,
+   "type": "big_statement",
+   "text": "Approved, not live",
+   "eyebrow": "reported by PTI, Scroll"
+  },
+  {
+   "start": 76,
+   "duration": 3.7,
+   "type": "big_statement",
+   "text": "₹10 lakh eligible balance",
+   "eyebrow": "example"
+  },
+  {
+   "start": 80.2,
+   "duration": 9.6,
+   "type": "data_table",
+   "text": "₹10 lakh, old rule vs new",
+   "columns": [
+    "Rule",
+    "You keep",
+    "You can take"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "Old (25%)",
+      "₹2.5 lakh",
+      "₹7.5 lakh"
+     ],
+     "at": 3.4
+    },
+    {
+     "cells": [
+      "New (10%)",
+      "₹1 lakh",
+      "₹9 lakh"
+     ],
+     "at": 6
+    }
+   ],
+   "footer": "illustration, once notified",
+   "footer_at": 8.5
+  },
+  {
+   "start": 91.5,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "What has not changed",
+   "eyebrow": "Section 03",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 94.8,
+   "duration": 8.6,
+   "type": "fact_band",
+   "text": "Still the same",
+   "items": [
+    {
+     "label": "36 months",
+     "sublabel": "EPS pension wait"
+    },
+    {
+     "label": "12 months",
+     "sublabel": "service for partial withdrawal"
+    }
+   ]
+  },
+  {
+   "start": 103.6,
+   "duration": 2.1,
+   "type": "side_note",
+   "text": "First year? No partial withdrawal",
+   "side": "right"
+  },
+  {
+   "start": 106.1,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "The mistake",
+   "eyebrow": "Section 04",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 110.2,
+   "duration": 4.3,
+   "type": "keyword_chip",
+   "text": "Withdraw by habit? Don't",
+   "side": "right"
+  },
+  {
+   "start": 116,
+   "duration": 10.9,
+   "type": "flow_diagram",
+   "text": "Transfer, don't withdraw",
+   "items": [
+    {
+     "label": "Old job PF",
+     "sublabel": ""
+    },
+    {
+     "label": "Same UAN",
+     "sublabel": ""
+    },
+    {
+     "label": "New job PF",
+     "sublabel": "online transfer"
+    },
+    {
+     "label": "Keeps earning",
+     "sublabel": "interest"
+    }
+   ]
+  },
+  {
+   "start": 127.6,
+   "duration": 8,
+   "type": "checklist",
+   "text": "Three reasons not to withdraw",
+   "items": [
+    {
+     "label": "UAN stays for life",
+     "state": "yes"
+    },
+    {
+     "label": "Compounding stops when you take it out",
+     "state": "yes"
+    },
+    {
+     "label": "Tax may be deducted",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 135.8,
+   "duration": 6,
+   "type": "side_note",
+   "text": "Early withdrawal can mean tax deducted",
+   "side": "right"
+  },
+  {
+   "start": 142.8,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Do this week",
+   "eyebrow": "Section 05",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 146,
+   "duration": 14.5,
+   "type": "checklist",
+   "text": "This week",
+   "items": [
+    {
+     "label": "UAN active, mobile + Aadhaar linked",
+     "state": "yes"
+    },
+    {
+     "label": "Switching jobs: transfer, don't withdraw",
+     "state": "yes"
+    },
+    {
+     "label": "Wait for Labour Ministry notification",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 160.9,
+   "duration": 3.4,
+   "type": "big_statement",
+   "text": "Approved is not notified",
+   "eyebrow": "rule"
+  },
+  {
+   "start": 164.7,
+   "duration": 4.1,
+   "type": "keyword_chip",
+   "text": "Follow the notified rule, not the headline",
+   "side": "right"
+  },
+  {
+   "start": 169.7,
+   "duration": 13.1,
+   "type": "fact_band",
+   "text": "To sum up",
+   "items": [
+    {
+     "label": "2 months",
+     "sublabel": "final withdrawal wait"
+    },
+    {
+     "label": "10%",
+     "sublabel": "minimum balance"
+    },
+    {
+     "label": "NOT LIVE",
+     "sublabel": "until notified"
+    }
+   ]
+  },
+  {
+   "start": 184,
+   "duration": 3.9,
+   "type": "poll_prompt",
+   "text": "Do you know your UAN number?",
+   "items": [
+    {
+     "label": "Yes"
+    },
+    {
+     "label": "No"
+    }
+   ]
+  },
+  {
+   "start": 188.3,
+   "duration": 4.3,
+   "type": "poll_prompt",
+   "text": "Old PF: transfer or withdraw?",
+   "items": [
+    {
+     "label": "Transferred"
+    },
+    {
+     "label": "Withdrew"
+    }
+   ]
+  },
+  {
+   "start": 193,
+   "duration": 4.6,
+   "type": "keyword_chip",
+   "text": "Subscribe · Share",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 3.6,
+   "index": 0
+  },
+  {
+   "start": 3.6,
+   "kind": "news",
+   "url": "https://upstox.com/news/personal-finance/latest-updates/epf-swp-10-minimum-balance-to-final-withdrawal-after-2-months-7-big-decisions-by-epfo-board/article-203722/",
+   "source": "Upstox",
+   "headline": "EPF SWP, 10% minimum balance to final withdrawal after 2 months: 7 big decisions by EPFO Board",
+   "date": "19 Nov 2026",
+   "highlight": {
+    "x": 0.17,
+    "y": 0.085,
+    "w": 0.37,
+    "h": 0.085
+   },
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "cut",
+   "end": 12.88,
+   "index": 1
+  },
+  {
+   "start": 12.88,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "5 MIN",
+    "label": "3 points, 1 mistake"
+   },
+   "end": 21.35,
+   "index": 2
+  },
+  {
+   "start": 21.35,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 25.62,
+   "index": 3
+  },
+  {
+   "start": 25.62,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "240th",
+    "label": "EPFO board meeting, 19 Nov 2026"
+   },
+   "end": 37.29,
+   "index": 4
+  },
+  {
+   "start": 37.29,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "12 → 2",
+    "label": "months wait for final withdrawal"
+   },
+   "end": 51,
+   "index": 5
+  },
+  {
+   "start": 51,
+   "kind": "broll",
+   "src": "assets/broll/phone2.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 63.26,
+   "index": 6
+  },
+  {
+   "start": 63.26,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "NOT LIVE",
+    "label": "approved, not notified yet"
+   },
+   "end": 74.02,
+   "index": 7
+  },
+  {
+   "start": 74.02,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "₹10 LAKH",
+    "label": "eligible balance (example)"
+   },
+   "end": 80.2,
+   "index": 8
+  },
+  {
+   "start": 80.2,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 2,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 91.43,
+   "index": 9
+  },
+  {
+   "start": 91.43,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 106,
+   "index": 10
+  },
+  {
+   "start": 106,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 114.8,
+   "index": 11
+  },
+  {
+   "start": 114.8,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "UAN",
+    "label": "stays with you for life"
+   },
+   "end": 127.45,
+   "index": 12
+  },
+  {
+   "start": 127.45,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 142.74,
+   "index": 13
+  },
+  {
+   "start": 142.74,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "THIS WEEK",
+    "label": "3 steps"
+   },
+   "end": 153,
+   "index": 14
+  },
+  {
+   "start": 153,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "UAN",
+    "label": "check it today"
+   },
+   "end": 160.77,
+   "index": 15
+  },
+  {
+   "start": 160.77,
+   "kind": "broll",
+   "src": "assets/broll/phone.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 169.28,
+   "index": 16
+  },
+  {
+   "start": 169.28,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "2 · 10%",
+    "label": "may change, not live yet"
+   },
+   "end": 183.71,
+   "index": 17
+  },
+  {
+   "start": 183.71,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 192.82,
+   "index": 18
+  },
+  {
+   "start": 192.82,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe · share"
+   },
+   "end": 197.87,
+   "index": 19
+  }
+ ],
+ "camera_moves": []
+}
