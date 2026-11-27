@@ -1,0 +1,63 @@
+{
+  "music_cues": [],
+  "sfx_policy": {
+    "rmsBelowDb": 3
+  },
+  "sfx_events": [
+    {
+      "time": 0.13,
+      "sfx": "impact",
+      "reason": "title_slide"
+    },
+    {
+      "time": 21.8,
+      "sfx": "sub_drop",
+      "reason": "chapter_open 1"
+    },
+    {
+      "time": 25,
+      "sfx": "sub_drop",
+      "reason": "flow_diagram dock-in"
+    },
+    {
+      "time": 46.4,
+      "sfx": "impact",
+      "reason": "big_statement: not failure"
+    },
+    {
+      "time": 50.66,
+      "sfx": "riser",
+      "reason": "into chapter 2"
+    },
+    {
+      "time": 67.3,
+      "sfx": "sub_drop",
+      "reason": "checklist dock-in"
+    },
+    {
+      "time": 81.64,
+      "sfx": "riser",
+      "reason": "into chapter 3"
+    },
+    {
+      "time": 112.6,
+      "sfx": "impact",
+      "reason": "big_statement: rule 3 decides"
+    },
+    {
+      "time": 116.8,
+      "sfx": "riser",
+      "reason": "into chapter 4"
+    },
+    {
+      "time": 149.4,
+      "sfx": "riser",
+      "reason": "into chapter 5"
+    },
+    {
+      "time": 177,
+      "sfx": "sub_drop",
+      "reason": "flow_diagram corner"
+    }
+  ]
+}

@@ -1,0 +1,653 @@
+{
+  "style": "glass",
+  "rail": true,
+  "overlays": [
+    {
+      "start": 0.05,
+      "duration": 3.55,
+      "type": "title_slide",
+      "text": "Your first code review",
+      "eyebrow": "Crack IT · Day 71",
+      "value": "23",
+      "style_hint": "3 rules for review comments"
+    },
+    {
+      "start": 3.85,
+      "duration": 3.55,
+      "type": "keyword_chip",
+      "text": "Panic: they think I am useless",
+      "side": "right"
+    },
+    {
+      "start": 11.7,
+      "duration": 2.9,
+      "type": "keyword_chip",
+      "text": "3 rules",
+      "side": "left"
+    },
+    {
+      "start": 14.9,
+      "duration": 2.1,
+      "type": "side_note",
+      "text": "1 reply to avoid",
+      "side": "right"
+    },
+    {
+      "start": 17.4,
+      "duration": 3.7,
+      "type": "side_note",
+      "text": "Rule 3: what seniors notice",
+      "side": "left"
+    },
+    {
+      "start": 21.77,
+      "duration": 3.1,
+      "type": "chapter_open",
+      "text": "What a code review is",
+      "eyebrow": "Section 01",
+      "numeral": "01",
+      "section": 0
+    },
+    {
+      "start": 25.1,
+      "duration": 8.1,
+      "type": "flow_diagram",
+      "text": "How a pull request moves",
+      "items": [
+        {
+          "label": "Write code",
+          "sublabel": ""
+        },
+        {
+          "label": "Raise pull request",
+          "sublabel": ""
+        },
+        {
+          "label": "Reviewers comment",
+          "sublabel": ""
+        },
+        {
+          "label": "Fix",
+          "sublabel": ""
+        },
+        {
+          "label": "Approve, merge",
+          "sublabel": ""
+        }
+      ]
+    },
+    {
+      "start": 34.8,
+      "duration": 4.2,
+      "type": "side_note",
+      "text": "Reviewers protect the product",
+      "side": "right"
+    },
+    {
+      "start": 42.9,
+      "duration": 2.9,
+      "type": "keyword_chip",
+      "text": "Even seniors get comments",
+      "side": "left"
+    },
+    {
+      "start": 46.4,
+      "duration": 4.8,
+      "type": "big_statement",
+      "text": "A long list is not failure",
+      "eyebrow": "failure"
+    },
+    {
+      "start": 52.16,
+      "duration": 3.1,
+      "type": "chapter_open",
+      "text": "Read everything first",
+      "eyebrow": "Rule 1",
+      "numeral": "01",
+      "section": 1
+    },
+    {
+      "start": 59.9,
+      "duration": 4.8,
+      "type": "keyword_chip",
+      "text": "Quick reply = messy thread",
+      "side": "right"
+    },
+    {
+      "start": 67.4,
+      "duration": 10.2,
+      "type": "checklist",
+      "text": "Sort into three groups",
+      "items": [
+        {
+          "label": "Must fix: bug, missing check",
+          "state": "yes"
+        },
+        {
+          "label": "Style: names, spacing",
+          "state": "yes"
+        },
+        {
+          "label": "Not clear: ask",
+          "state": "no"
+        }
+      ]
+    },
+    {
+      "start": 78.5,
+      "duration": 4.5,
+      "type": "stat_trio",
+      "text": "After sorting",
+      "items": [
+        {
+          "label": "comments",
+          "sublabel": "",
+          "value": 23
+        },
+        {
+          "label": "real tasks",
+          "sublabel": "",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "start": 83.14,
+      "duration": 3.1,
+      "type": "chapter_open",
+      "text": "Ask, don't argue",
+      "eyebrow": "Rule 2",
+      "numeral": "02",
+      "section": 2
+    },
+    {
+      "start": 88.95,
+      "duration": 3.05,
+      "type": "keyword_chip",
+      "text": "Handle the null case?",
+      "side": "right"
+    },
+    {
+      "start": 95.9,
+      "duration": 6.3,
+      "type": "quote_pull",
+      "text": "Do you mean an empty list, or a missing value?",
+      "eyebrow": "A good question"
+    },
+    {
+      "start": 104,
+      "duration": 4,
+      "type": "side_note",
+      "text": "A reason, not an opinion",
+      "side": "left"
+    },
+    {
+      "start": 112.6,
+      "duration": 5.3,
+      "type": "big_statement",
+      "text": "Rule 3 decides how they see you",
+      "eyebrow": "decides"
+    },
+    {
+      "start": 118.31,
+      "duration": 3.1,
+      "type": "chapter_open",
+      "text": "Close the loop",
+      "eyebrow": "Rule 3",
+      "numeral": "03",
+      "section": 3
+    },
+    {
+      "start": 123,
+      "duration": 8.6,
+      "type": "checklist",
+      "text": "Close the loop",
+      "items": [
+        {
+          "label": "Fix the comments",
+          "state": "yes"
+        },
+        {
+          "label": "Push your changes",
+          "state": "yes"
+        },
+        {
+          "label": "Reply: Done",
+          "state": "yes"
+        },
+        {
+          "label": "Add a line to your notes",
+          "state": "yes"
+        }
+      ]
+    },
+    {
+      "start": 134.8,
+      "duration": 3.3,
+      "type": "keyword_chip",
+      "text": "A small notes file",
+      "side": "left"
+    },
+    {
+      "start": 139.3,
+      "duration": 3.4,
+      "type": "side_note",
+      "text": "Names · tests · empty values",
+      "side": "right"
+    },
+    {
+      "start": 143,
+      "duration": 7.5,
+      "type": "timeline",
+      "side": "right",
+      "text": "Your next pull requests",
+      "current": 2,
+      "items": [
+        {
+          "label": "PR 1",
+          "sublabel": "many comments"
+        },
+        {
+          "label": "PR 2",
+          "sublabel": "fewer"
+        },
+        {
+          "label": "PR 3",
+          "sublabel": "trusted"
+        }
+      ]
+    },
+    {
+      "start": 150.9,
+      "duration": 3.1,
+      "type": "chapter_open",
+      "text": "The reply to avoid",
+      "eyebrow": "Mistake to avoid",
+      "numeral": "",
+      "section": 4
+    },
+    {
+      "start": 154.2,
+      "duration": 1.7,
+      "type": "keyword_chip",
+      "text": "It works on my machine",
+      "side": "right"
+    },
+    {
+      "start": 156,
+      "duration": 2.4,
+      "type": "side_note",
+      "text": "Already like that",
+      "side": "left"
+    },
+    {
+      "start": 158.6,
+      "duration": 2.5,
+      "type": "keyword_chip",
+      "text": "Merging without approval",
+      "side": "right"
+    },
+    {
+      "start": 162.7,
+      "duration": 2.9,
+      "type": "annotation",
+      "text": "Bugs happen",
+      "shape": "underline",
+      "side": "right"
+    },
+    {
+      "start": 165.8,
+      "duration": 2.5,
+      "type": "keyword_chip",
+      "text": "Arguing · ignoring · hiding",
+      "side": "left"
+    },
+    {
+      "start": 169.5,
+      "duration": 3.8,
+      "type": "quote_pull",
+      "text": "You are right, I missed this, fixing it now.",
+      "eyebrow": "One honest line"
+    },
+    {
+      "start": 173.5,
+      "duration": 2.8,
+      "type": "side_note",
+      "text": "It costs nothing",
+      "side": "right"
+    },
+    {
+      "start": 177.1,
+      "duration": 11.3,
+      "type": "flow_diagram",
+      "text": "The three rules",
+      "items": [
+        {
+          "label": "Read all first",
+          "sublabel": "then sort"
+        },
+        {
+          "label": "Ask when unclear",
+          "sublabel": "never guess"
+        },
+        {
+          "label": "Fix, reply, learn",
+          "sublabel": "keep notes"
+        }
+      ]
+    },
+    {
+      "start": 189,
+      "duration": 5.8,
+      "type": "quote_pull",
+      "text": "The toughest review comment I ever got",
+      "eyebrow": "Comment below"
+    },
+    {
+      "start": 195.1,
+      "duration": 3.5,
+      "type": "big_statement",
+      "text": "Like and subscribe",
+      "eyebrow": "subscribe"
+    }
+  ],
+  "scenes": [
+    {
+      "start": 0,
+      "kind": "broll",
+      "src": "assets/broll/code.mp4",
+      "media_start": 0,
+      "motion": "ken_in",
+      "grade": "cool",
+      "transition": "fade",
+      "end": 5.22,
+      "index": 0
+    },
+    {
+      "start": 5.22,
+      "kind": "broll",
+      "src": "assets/broll/worry.mp4",
+      "media_start": 0,
+      "motion": "ken_in",
+      "grade": "cool",
+      "transition": "fade",
+      "end": 11.52,
+      "index": 1
+    },
+    {
+      "start": 11.52,
+      "kind": "graphic",
+      "grade": "cool",
+      "card": {
+        "value": "3",
+        "label": "rules for every comment"
+      },
+      "end": 17,
+      "index": 2
+    },
+    {
+      "start": 17,
+      "kind": "broll",
+      "src": "assets/broll/code2.mp4",
+      "media_start": 0,
+      "motion": "ken_out",
+      "grade": "cool",
+      "transition": "fade",
+      "end": 21.77,
+      "index": 3
+    },
+    {
+      "start": 21.77,
+      "kind": "broll",
+      "src": "assets/broll/team.mp4",
+      "media_start": 0,
+      "motion": "ken_in",
+      "grade": "neutral",
+      "transition": "fade",
+      "end": 28.8,
+      "index": 4
+    },
+    {
+      "start": 28.8,
+      "kind": "broll",
+      "src": "assets/broll/board.mp4",
+      "media_start": 0,
+      "motion": "ken_in",
+      "grade": "neutral",
+      "transition": "fade",
+      "end": 36.74,
+      "index": 5
+    },
+    {
+      "start": 36.74,
+      "kind": "broll",
+      "src": "assets/broll/office.mp4",
+      "media_start": 0,
+      "motion": "ken_out",
+      "grade": "neutral",
+      "transition": "fade",
+      "end": 45,
+      "index": 6
+    },
+    {
+      "start": 45,
+      "kind": "broll",
+      "src": "assets/broll/laptop.mp4",
+      "media_start": 5,
+      "motion": "ken_in",
+      "grade": "neutral",
+      "transition": "fade",
+      "end": 52.16,
+      "index": 7
+    },
+    {
+      "start": 52.16,
+      "kind": "graphic",
+      "grade": "warm",
+      "end": 55.6,
+      "index": 8
+    },
+    {
+      "start": 55.6,
+      "kind": "broll",
+      "src": "assets/broll/laptop.mp4",
+      "media_start": 25,
+      "motion": "ken_out",
+      "grade": "cool",
+      "transition": "fade",
+      "end": 65.37,
+      "index": 9
+    },
+    {
+      "start": 65.37,
+      "kind": "broll",
+      "src": "assets/broll/sort.mp4",
+      "media_start": 0,
+      "motion": "ken_in",
+      "grade": "neutral",
+      "transition": "fade",
+      "end": 72.57,
+      "index": 10
+    },
+    {
+      "start": 72.57,
+      "kind": "graphic",
+      "grade": "neutral",
+      "card": {
+        "value": "6",
+        "label": "real tasks, not 23"
+      },
+      "end": 83.14,
+      "index": 11
+    },
+    {
+      "start": 83.14,
+      "kind": "graphic",
+      "grade": "neutral",
+      "end": 87.56,
+      "index": 12
+    },
+    {
+      "start": 87.56,
+      "kind": "broll",
+      "src": "assets/broll/notes.mp4",
+      "media_start": 0,
+      "motion": "ken_in",
+      "grade": "neutral",
+      "transition": "fade",
+      "end": 95.78,
+      "index": 13
+    },
+    {
+      "start": 95.78,
+      "kind": "broll",
+      "src": "assets/broll/talk.mp4",
+      "media_start": 0,
+      "motion": "ken_in",
+      "grade": "neutral",
+      "transition": "fade",
+      "end": 103.79,
+      "index": 14
+    },
+    {
+      "start": 103.79,
+      "kind": "broll",
+      "src": "assets/broll/team.mp4",
+      "media_start": 12,
+      "motion": "ken_out",
+      "grade": "neutral",
+      "transition": "fade",
+      "end": 112.47,
+      "index": 15
+    },
+    {
+      "start": 112.47,
+      "kind": "graphic",
+      "grade": "warm",
+      "card": {
+        "value": "3",
+        "label": "the rule that decides"
+      },
+      "end": 118.31,
+      "index": 16
+    },
+    {
+      "start": 118.31,
+      "kind": "graphic",
+      "grade": "warm",
+      "end": 122.53,
+      "index": 17
+    },
+    {
+      "start": 122.53,
+      "kind": "broll",
+      "src": "assets/broll/write.mp4",
+      "media_start": 0,
+      "motion": "ken_in",
+      "grade": "warm",
+      "transition": "fade",
+      "end": 132.39,
+      "index": 18
+    },
+    {
+      "start": 132.39,
+      "kind": "broll",
+      "src": "assets/broll/notes.mp4",
+      "media_start": 5,
+      "motion": "ken_out",
+      "grade": "warm",
+      "transition": "fade",
+      "end": 142.84,
+      "index": 19
+    },
+    {
+      "start": 142.84,
+      "kind": "broll",
+      "src": "assets/broll/laptop.mp4",
+      "media_start": 32,
+      "motion": "ken_in",
+      "grade": "neutral",
+      "transition": "fade",
+      "end": 151.21,
+      "index": 20
+    },
+    {
+      "start": 151.21,
+      "kind": "broll",
+      "src": "assets/broll/code2.mp4",
+      "media_start": 5,
+      "motion": "ken_in",
+      "grade": "noir",
+      "transition": "fade",
+      "end": 161.21,
+      "index": 21
+    },
+    {
+      "start": 161.21,
+      "kind": "broll",
+      "src": "assets/broll/office.mp4",
+      "media_start": 9,
+      "motion": "ken_in",
+      "grade": "neutral",
+      "transition": "fade",
+      "end": 168.39,
+      "index": 22
+    },
+    {
+      "start": 168.39,
+      "kind": "broll",
+      "src": "assets/broll/team.mp4",
+      "media_start": 20,
+      "motion": "ken_in",
+      "grade": "warm",
+      "transition": "fade",
+      "end": 176.43,
+      "index": 23
+    },
+    {
+      "start": 176.43,
+      "kind": "graphic",
+      "grade": "warm",
+      "card": {
+        "value": "3",
+        "label": "rules, one habit"
+      },
+      "end": 182.95,
+      "index": 24
+    },
+    {
+      "start": 182.95,
+      "kind": "broll",
+      "src": "assets/broll/write.mp4",
+      "media_start": 11,
+      "motion": "ken_in",
+      "grade": "warm",
+      "transition": "fade",
+      "end": 188.71,
+      "index": 25
+    },
+    {
+      "start": 188.71,
+      "kind": "graphic",
+      "grade": "warm",
+      "card": {
+        "value": "?",
+        "label": "your toughest review comment"
+      },
+      "end": 194.97,
+      "index": 26
+    },
+    {
+      "start": 194.97,
+      "kind": "graphic",
+      "grade": "warm",
+      "card": {
+        "value": "CRACK IT",
+        "label": "like · subscribe"
+      },
+      "end": 198.83,
+      "index": 27
+    }
+  ],
+  "camera_moves": []
+}
