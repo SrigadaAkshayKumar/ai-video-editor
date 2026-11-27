@@ -1,0 +1,86 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "title_slide: Your first code review comments"
+  },
+  {
+   "time": 12.48,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "stat_trio: Three rules"
+  },
+  {
+   "time": 23.48,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: How a code review works"
+  },
+  {
+   "time": 43.28,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "quote_pull: A comment is the reviewer trying to help you and the code, not an attack on you."
+  },
+  {
+   "time": 58.28,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Fix the code"
+  },
+  {
+   "time": 66.78,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 86.98,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Ask, never argue"
+  },
+  {
+   "time": 92.48,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "quote_pull: No, I will not change it."
+  },
+  {
+   "time": 112.08,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "keyword_chip: Share what you know"
+  },
+  {
+   "time": 127.98,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Keep it small"
+  },
+  {
+   "time": 134.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "bar_chart: Lines in one pull request (Google guide)"
+  },
+  {
+   "time": 164.18,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: This week"
+  },
+  {
+   "time": 198.08,
+   "sfx": "pop",
+   "gain": 1,
+   "reason": "keyword_chip: Like · Subscribe"
+  }
+ ]
+}

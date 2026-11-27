@@ -1,0 +1,107 @@
+{
+  "name": "d70-first-code-review-comments",
+  "createdAt": "2026-11-27T08:09:07.192Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d70-first-code-review-comments/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d70/d70-voice.wav",
+    "duration": 207.96,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d70-first-code-review-comments/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d70/d70_first_code_review_comments_voiceover.txt",
+    "words": 706,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d70-first-code-review-comments/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "GitHub",
+    "GitLab",
+    "Google",
+    "Rule",
+    "Fix",
+    "Never",
+    "Write"
+  ],
+  "mode": "faceless",
+  "style": "cleantech",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; light product-explainer look: calm and clean, charts and comparison tables carry the numbers, generous white space, office/campus b-roll full frame between graphics; a beat every 6-8 s; soft, sparse SFX",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 22.84,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-27T08:10:50.785Z",
+      "words": 705,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-27T08:10:56.151Z",
+      "segments": 13,
+      "kept": 204.833
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-27T08:24:44.168Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d70-first-code-review-comments/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-27T08:24:50.027Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-27T08:24:50.056Z",
+      "groups": 186
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-27T08:24:50.617Z",
+      "music": 0,
+      "sfx": 13
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-27T08:27:09.617Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d70-first-code-review-comments/output/final-16x9.mp4",
+      "duration": 214.874
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.9847,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d70-first-code-review-comments/work/cleancut.wav",
+    "duration": 204.826583,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}
