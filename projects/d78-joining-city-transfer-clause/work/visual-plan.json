@@ -1,0 +1,770 @@
+{
+ "style": "liquid",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 4.15,
+   "type": "title_slide",
+   "text": "Wrong city on your joining mail?",
+   "eyebrow": "Crack IT · Day 78",
+   "style_hint": "The offer letter transfer clause"
+  },
+  {
+   "start": 4.7,
+   "duration": 2,
+   "type": "side_note",
+   "text": "Your city is not always your choice",
+   "side": "right"
+  },
+  {
+   "start": 7.4,
+   "duration": 4.6,
+   "type": "keyword_chip",
+   "text": "Waiting to join an IT company?",
+   "side": "right"
+  },
+  {
+   "start": 12.7,
+   "duration": 3.9,
+   "type": "stat_trio",
+   "text": "In this video",
+   "items": [
+    {
+     "label": "who decides",
+     "sublabel": "",
+     "value": 1
+    },
+    {
+     "label": "lines to find",
+     "sublabel": "",
+     "value": 3
+    },
+    {
+     "label": "mistake to avoid",
+     "sublabel": "",
+     "value": 1
+    }
+   ]
+  },
+  {
+   "start": 16.9,
+   "duration": 4.8,
+   "type": "checklist",
+   "text": "Offer letter: 3 lines to find",
+   "items": [
+    {
+     "label": "Work location",
+     "state": "yes"
+    },
+    {
+     "label": "Transfer clause",
+     "state": "yes"
+    },
+    {
+     "label": "Relocation support",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 22.4,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "The third point: when you ask",
+   "side": "left"
+  },
+  {
+   "start": 25.5,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Who decides your city?",
+   "eyebrow": "The basics",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 29,
+   "duration": 8.6,
+   "type": "flow_diagram",
+   "text": "How a location is decided",
+   "items": [
+    {
+     "label": "Business need",
+     "sublabel": ""
+    },
+    {
+     "label": "Seat and project",
+     "sublabel": ""
+    },
+    {
+     "label": "Location assigned",
+     "sublabel": ""
+    },
+    {
+     "label": "Joining email",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 38.7,
+   "duration": 3.1,
+   "type": "side_note",
+   "text": "Your preference = one input",
+   "side": "left"
+  },
+  {
+   "start": 42.6,
+   "duration": 7.3,
+   "type": "quote_pull",
+   "text": "The company may transfer you to any of its locations as per business requirements.",
+   "eyebrow": "Sample wording, not from any real company"
+  },
+  {
+   "start": 51.2,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Mobility clause = transfer clause",
+   "side": "right"
+  },
+  {
+   "start": 58.2,
+   "duration": 4.6,
+   "type": "side_note",
+   "text": "Preferred city ≠ promised city",
+   "side": "left"
+  },
+  {
+   "start": 64,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "3 lines to find",
+   "eyebrow": "Your offer letter",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 68.4,
+   "duration": 4.5,
+   "type": "keyword_chip",
+   "text": "Line 1: work location (training vs posting)",
+   "side": "right"
+  },
+  {
+   "start": 73.9,
+   "duration": 2.5,
+   "type": "keyword_chip",
+   "text": "Line 2: transfer clause",
+   "side": "left"
+  },
+  {
+   "start": 82.3,
+   "duration": 8.5,
+   "type": "checklist",
+   "text": "Check your offer letter",
+   "items": [
+    {
+     "label": "Work location: read both cities",
+     "state": "yes"
+    },
+    {
+     "label": "Transfer or mobility clause",
+     "state": "yes"
+    },
+    {
+     "label": "Relocation support, if written",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 91.8,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Unclear? Mail HR before joining",
+   "side": "right"
+  },
+  {
+   "start": 95.3,
+   "duration": 4.3,
+   "type": "side_note",
+   "text": "No flat deposit before the email is final",
+   "side": "left"
+  },
+  {
+   "start": 100,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Ravi's transfer request",
+   "eyebrow": "The story",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 104,
+   "duration": 4.8,
+   "type": "keyword_chip",
+   "text": "Posted far from home",
+   "side": "right"
+  },
+  {
+   "start": 109.2,
+   "duration": 2.7,
+   "type": "keyword_chip",
+   "text": "Week 2: a long message",
+   "side": "left"
+  },
+  {
+   "start": 117.2,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "Asked before delivering anything",
+   "side": "right"
+  },
+  {
+   "start": 121.4,
+   "duration": 4.6,
+   "type": "side_note",
+   "text": "A week-2 exit request looks like a risk",
+   "side": "left"
+  },
+  {
+   "start": 129.8,
+   "duration": 8.6,
+   "type": "timeline",
+   "side": "left",
+   "text": "Two requests",
+   "items": [
+    {
+     "label": "Week 2",
+     "sublabel": "Ravi asks: declined"
+    },
+    {
+     "label": "Month 3",
+     "sublabel": "Second fresher asks: heard"
+    }
+   ]
+  },
+  {
+   "start": 138.9,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Ask the right way",
+   "eyebrow": "The method",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 142.2,
+   "duration": 4.8,
+   "type": "side_note",
+   "text": "Your record = your bargaining power",
+   "side": "right"
+  },
+  {
+   "start": 148,
+   "duration": 4.8,
+   "type": "keyword_chip",
+   "text": "Step 2: real reason + proof",
+   "side": "left"
+  },
+  {
+   "start": 153.6,
+   "duration": 3.6,
+   "type": "side_note",
+   "text": "Honest reason, ready document",
+   "side": "right"
+  },
+  {
+   "start": 157.6,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "Background checks can expose a lie",
+   "side": "left"
+  },
+  {
+   "start": 162.4,
+   "duration": 4.2,
+   "type": "keyword_chip",
+   "text": "Step 3: manager first, then mail",
+   "side": "right"
+  },
+  {
+   "start": 167.2,
+   "duration": 4.6,
+   "type": "side_note",
+   "text": "Say what, why, and keep delivering",
+   "side": "left"
+  },
+  {
+   "start": 172.3,
+   "duration": 9.2,
+   "type": "flow_diagram",
+   "text": "The four steps",
+   "items": [
+    {
+     "label": "Finish training",
+     "sublabel": ""
+    },
+    {
+     "label": "Real reason + proof",
+     "sublabel": ""
+    },
+    {
+     "label": "Manager first, then mail",
+     "sublabel": ""
+    },
+    {
+     "label": "Name an open seat",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 182.4,
+   "duration": 3.8,
+   "type": "side_note",
+   "text": "Plan B: stay, save, ask again",
+   "side": "left"
+  },
+  {
+   "start": 186.7,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Do this week",
+   "eyebrow": "The plan",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 190.4,
+   "duration": 10,
+   "type": "checklist",
+   "text": "This week",
+   "items": [
+    {
+     "label": "Find the 3 lines",
+     "state": "yes"
+    },
+    {
+     "label": "No rent deal before it is final",
+     "state": "yes"
+    },
+    {
+     "label": "Keep documents ready",
+     "state": "yes"
+    },
+    {
+     "label": "Give it 3 months",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 203.8,
+   "duration": 9,
+   "type": "fact_band",
+   "text": "Recap",
+   "items": [
+    {
+     "label": "Business need decides",
+     "sublabel": "1"
+    },
+    {
+     "label": "Mobility line: posting anywhere",
+     "sublabel": "2"
+    },
+    {
+     "label": "Ask after you show work",
+     "sublabel": "3"
+    }
+   ]
+  },
+  {
+   "start": 213.6,
+   "duration": 6,
+   "type": "quote_pull",
+   "text": "Which city did you want? Which city did you get?",
+   "eyebrow": "Tell us below"
+  },
+  {
+   "start": 220.3,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "Write it in the comments",
+   "side": "right"
+  },
+  {
+   "start": 223.5,
+   "duration": 2.5,
+   "type": "keyword_chip",
+   "text": "Like · Subscribe",
+   "side": "left"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/train.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 4.47,
+   "index": 0
+  },
+  {
+   "start": 4.47,
+   "kind": "broll",
+   "src": "assets/broll/aerial.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 9,
+   "index": 1
+  },
+  {
+   "start": 9,
+   "kind": "broll",
+   "src": "assets/broll/street.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 12.57,
+   "index": 2
+  },
+  {
+   "start": 12.57,
+   "kind": "broll",
+   "src": "assets/broll/woman.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 18,
+   "index": 3
+  },
+  {
+   "start": 18,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 22.26,
+   "index": 4
+  },
+  {
+   "start": 22.26,
+   "kind": "broll",
+   "src": "assets/broll/night.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 25.4,
+   "index": 5
+  },
+  {
+   "start": 25.4,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 32.51,
+   "index": 6
+  },
+  {
+   "start": 32.51,
+   "kind": "broll",
+   "src": "assets/broll/aerial.mp4",
+   "media_start": 12,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 38.32,
+   "index": 7
+  },
+  {
+   "start": 38.32,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "ONE INPUT",
+    "label": "your preference"
+   },
+   "end": 42.24,
+   "index": 8
+  },
+  {
+   "start": 42.24,
+   "kind": "broll",
+   "src": "assets/broll/office2.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 50.94,
+   "index": 9
+  },
+  {
+   "start": 50.94,
+   "kind": "broll",
+   "src": "assets/broll/street.mp4",
+   "media_start": 2,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 54.25,
+   "index": 10
+  },
+  {
+   "start": 54.25,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "INTENTION",
+    "label": "not a promise"
+   },
+   "end": 63.81,
+   "index": 11
+  },
+  {
+   "start": 63.81,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 68.1,
+   "index": 12
+  },
+  {
+   "start": 68.1,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 6,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 76.65,
+   "index": 13
+  },
+  {
+   "start": 76.65,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "ANY LOCATION",
+    "label": "allowed by your signature"
+   },
+   "end": 82.05,
+   "index": 14
+  },
+  {
+   "start": 82.05,
+   "kind": "broll",
+   "src": "assets/broll/woman.mp4",
+   "media_start": 6,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 91.42,
+   "index": 15
+  },
+  {
+   "start": 91.42,
+   "kind": "broll",
+   "src": "assets/broll/aerial.mp4",
+   "media_start": 20,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 99.99,
+   "index": 16
+  },
+  {
+   "start": 99.99,
+   "kind": "broll",
+   "src": "assets/broll/night.mp4",
+   "media_start": 10,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 106,
+   "index": 17
+  },
+  {
+   "start": 106,
+   "kind": "broll",
+   "src": "assets/broll/subway.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 112.05,
+   "index": 18
+  },
+  {
+   "start": 112.05,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "DECLINED",
+    "label": "week 2 request"
+   },
+   "end": 116.86,
+   "index": 19
+  },
+  {
+   "start": 116.86,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 123.5,
+   "index": 20
+  },
+  {
+   "start": 123.5,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 129.6,
+   "index": 21
+  },
+  {
+   "start": 129.6,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 138.62,
+   "index": 22
+  },
+  {
+   "start": 138.62,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 147.45,
+   "index": 23
+  },
+  {
+   "start": 147.45,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 8,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 153.41,
+   "index": 24
+  },
+  {
+   "start": 153.41,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 161.94,
+   "index": 25
+  },
+  {
+   "start": 161.94,
+   "kind": "broll",
+   "src": "assets/broll/aerial.mp4",
+   "media_start": 20,
+   "motion": "ken_out",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 172.05,
+   "index": 26
+  },
+  {
+   "start": 172.05,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 181.92,
+   "index": 27
+  },
+  {
+   "start": 181.92,
+   "kind": "broll",
+   "src": "assets/broll/night.mp4",
+   "media_start": 20,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 186.47,
+   "index": 28
+  },
+  {
+   "start": 186.47,
+   "kind": "broll",
+   "src": "assets/broll/street.mp4",
+   "media_start": 5,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 190.22,
+   "index": 29
+  },
+  {
+   "start": 190.22,
+   "kind": "broll",
+   "src": "assets/broll/office2.mp4",
+   "media_start": 3,
+   "motion": "ken_out",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 197,
+   "index": 30
+  },
+  {
+   "start": 197,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "3 MONTHS",
+    "label": "of honest work first"
+   },
+   "end": 203.3,
+   "index": 31
+  },
+  {
+   "start": 203.3,
+   "kind": "broll",
+   "src": "assets/broll/aerial.mp4",
+   "media_start": 24,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 213.32,
+   "index": 32
+  },
+  {
+   "start": 213.32,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 220,
+   "index": 33
+  },
+  {
+   "start": 220,
+   "kind": "broll",
+   "src": "assets/broll/subway.mp4",
+   "media_start": 3,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 226.2,
+   "index": 34
+  }
+ ],
+ "camera_moves": []
+}

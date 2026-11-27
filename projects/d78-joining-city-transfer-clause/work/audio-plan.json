@@ -1,0 +1,134 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "title_slide: Wrong city on your joining mail?"
+  },
+  {
+   "time": 4.78,
+   "sfx": "click",
+   "gain": 3,
+   "reason": "side_note: Your city is not always your choice"
+  },
+  {
+   "time": 12.78,
+   "sfx": "pop",
+   "gain": 3,
+   "reason": "stat_trio: In this video"
+  },
+  {
+   "time": 16.98,
+   "sfx": "click",
+   "gain": 3,
+   "reason": "checklist: Offer letter: 3 lines to find"
+  },
+  {
+   "time": 25.58,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Who decides your city?"
+  },
+  {
+   "time": 29.08,
+   "sfx": "whoosh",
+   "gain": 0,
+   "reason": "flow_diagram: How a location is decided"
+  },
+  {
+   "time": 42.68,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "quote_pull: The company may transfer you to any of its locations as per business requirements."
+  },
+  {
+   "time": 58.28,
+   "sfx": "click",
+   "gain": 3,
+   "reason": "side_note: Preferred city ≠ promised city"
+  },
+  {
+   "time": 64.08,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: 3 lines to find"
+  },
+  {
+   "time": 82.38,
+   "sfx": "click",
+   "gain": 3,
+   "reason": "checklist: Check your offer letter"
+  },
+  {
+   "time": 100.08,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Ravi's transfer request"
+  },
+  {
+   "time": 121.48,
+   "sfx": "click",
+   "gain": 3,
+   "reason": "side_note: A week-2 exit request looks like a risk"
+  },
+  {
+   "time": 129.88,
+   "sfx": "whoosh",
+   "gain": 0,
+   "reason": "timeline: Two requests"
+  },
+  {
+   "time": 138.98,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Ask the right way"
+  },
+  {
+   "time": 153.68,
+   "sfx": "click",
+   "gain": 3,
+   "reason": "side_note: Honest reason, ready document"
+  },
+  {
+   "time": 172.38,
+   "sfx": "whoosh",
+   "gain": 0,
+   "reason": "flow_diagram: The four steps"
+  },
+  {
+   "time": 182.48,
+   "sfx": "click",
+   "gain": 3,
+   "reason": "side_note: Plan B: stay, save, ask again"
+  },
+  {
+   "time": 186.78,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Do this week"
+  },
+  {
+   "time": 190.48,
+   "sfx": "click",
+   "gain": 3,
+   "reason": "checklist: This week"
+  },
+  {
+   "time": 203.88,
+   "sfx": "pop",
+   "gain": 3,
+   "reason": "fact_band: Recap"
+  },
+  {
+   "time": 213.68,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "quote_pull: Which city did you want? Which city did you get?"
+  }
+ ]
+}
