@@ -1,0 +1,86 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 0,
+   "reason": "title_slide: Any questions for us?"
+  },
+  {
+   "time": 27.53,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Why they ask"
+  },
+  {
+   "time": 31.28,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "flow_diagram: What they are checking"
+  },
+  {
+   "time": 57.43,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Question one: the work"
+  },
+  {
+   "time": 60.68,
+   "sfx": "reveal",
+   "gain": 0,
+   "reason": "quote_pull: What will a fresher in this team work on in the first three months?"
+  },
+  {
+   "time": 66.28,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "timeline: What to expect"
+  },
+  {
+   "time": 87.58,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Question two: learning"
+  },
+  {
+   "time": 90.73,
+   "sfx": "reveal",
+   "gain": 0,
+   "reason": "quote_pull: How does the team help new joiners learn?"
+  },
+  {
+   "time": 118.88,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Question three: next step"
+  },
+  {
+   "time": 122.08,
+   "sfx": "reveal",
+   "gain": 0,
+   "reason": "quote_pull: What are the next steps, and when can I expect to hear from you?"
+  },
+  {
+   "time": 139.58,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "flow_diagram: After you ask"
+  },
+  {
+   "time": 150.03,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: What to avoid"
+  },
+  {
+   "time": 176.03,
+   "sfx": "reveal",
+   "gain": 0,
+   "reason": "quote_pull: How is the culture here?"
+  }
+ ]
+}

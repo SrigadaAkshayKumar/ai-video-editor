@@ -1,0 +1,103 @@
+{
+  "name": "d81-questions-to-ask-interviewer",
+  "createdAt": "2026-11-27T07:12:10.003Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d81-questions-to-ask-interviewer/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d81/d81-voice.wav",
+    "duration": 218.560042,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d81-questions-to-ask-interviewer/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d81/d81_questions_to_ask_interviewer_voiceover.txt",
+    "words": 731,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d81-questions-to-ask-interviewer/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Question",
+    "Asking",
+    "Ask"
+  ],
+  "mode": "faceless",
+  "style": "glass",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; documentary storytelling look: full-frame b-roll leads, graphics docked to one side, quote pulls on the key lines, timelines for the backstory; slower, a beat every 6-10 s; low sub-band SFX on structure only",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 27.12,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-27T07:14:00.861Z",
+      "words": 732,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-27T07:14:06.310Z",
+      "segments": 18,
+      "kept": 211.967
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-27T07:52:54.750Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d81-questions-to-ask-interviewer/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-27T07:53:04.069Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-27T07:53:04.112Z",
+      "groups": 197
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-27T07:53:22.840Z",
+      "music": 0,
+      "sfx": 13
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-27T07:57:47.904Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d81-questions-to-ask-interviewer/output/final-16x9.mp4",
+      "duration": 221.986
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.97765,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d81-questions-to-ask-interviewer/work/cleancut.wav",
+    "duration": 211.960167,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

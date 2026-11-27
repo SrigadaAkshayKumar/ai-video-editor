@@ -1,0 +1,5858 @@
+[
+  {
+    "id": "w0",
+    "text": "The",
+    "start": 0.02,
+    "end": 0.156,
+    "type": "word",
+    "src": "w0"
+  },
+  {
+    "id": "w1",
+    "text": "interview",
+    "start": 0.156,
+    "end": 0.607,
+    "type": "word",
+    "src": "w1"
+  },
+  {
+    "id": "w2",
+    "text": "is",
+    "start": 0.607,
+    "end": 0.708,
+    "type": "word",
+    "src": "w2"
+  },
+  {
+    "id": "w3",
+    "text": "going",
+    "start": 0.708,
+    "end": 0.958,
+    "type": "word",
+    "src": "w3"
+  },
+  {
+    "id": "w4",
+    "text": "well,",
+    "start": 0.958,
+    "end": 1.352,
+    "type": "word",
+    "src": "w4"
+  },
+  {
+    "id": "w5",
+    "text": "then",
+    "start": 1.789,
+    "end": 1.912,
+    "type": "word",
+    "src": "w5"
+  },
+  {
+    "id": "w6",
+    "text": "the",
+    "start": 1.912,
+    "end": 2.093,
+    "type": "word",
+    "src": "w6"
+  },
+  {
+    "id": "w7",
+    "text": "interviewer",
+    "start": 2.093,
+    "end": 2.726,
+    "type": "word",
+    "src": "w7"
+  },
+  {
+    "id": "w8",
+    "text": "smiles",
+    "start": 2.726,
+    "end": 3.121,
+    "type": "word",
+    "src": "w8"
+  },
+  {
+    "id": "w9",
+    "text": "and",
+    "start": 3.121,
+    "end": 3.244,
+    "type": "word",
+    "src": "w9"
+  },
+  {
+    "id": "w10",
+    "text": "says,",
+    "start": 3.244,
+    "end": 3.663,
+    "type": "word",
+    "src": "w10"
+  },
+  {
+    "id": "w11",
+    "text": "\"Do",
+    "start": 4.09,
+    "end": 4.172,
+    "type": "word",
+    "src": "w11"
+  },
+  {
+    "id": "w12",
+    "text": "you",
+    "start": 4.172,
+    "end": 4.268,
+    "type": "word",
+    "src": "w12"
+  },
+  {
+    "id": "w13",
+    "text": "have",
+    "start": 4.268,
+    "end": 4.446,
+    "type": "word",
+    "src": "w13"
+  },
+  {
+    "id": "w14",
+    "text": "any",
+    "start": 4.446,
+    "end": 4.572,
+    "type": "word",
+    "src": "w14"
+  },
+  {
+    "id": "w15",
+    "text": "questions",
+    "start": 4.572,
+    "end": 4.951,
+    "type": "word",
+    "src": "w15"
+  },
+  {
+    "id": "w16",
+    "text": "for",
+    "start": 4.951,
+    "end": 5.195,
+    "type": "word",
+    "src": "w16"
+  },
+  {
+    "id": "w17",
+    "text": "us?\"",
+    "start": 5.195,
+    "end": 5.692,
+    "type": "word",
+    "src": "w17"
+  },
+  {
+    "id": "w18",
+    "text": "and",
+    "start": 6.153,
+    "end": 6.338,
+    "type": "word",
+    "src": "w18"
+  },
+  {
+    "id": "w19",
+    "text": "you",
+    "start": 6.338,
+    "end": 6.538,
+    "type": "word",
+    "src": "w19"
+  },
+  {
+    "id": "w20",
+    "text": "say,",
+    "start": 6.538,
+    "end": 6.853,
+    "type": "word",
+    "src": "w20"
+  },
+  {
+    "id": "w21",
+    "text": "\"No,",
+    "start": 6.853,
+    "end": 7.16,
+    "type": "word",
+    "src": "w21"
+  },
+  {
+    "id": "w22",
+    "text": "sir,",
+    "start": 7.16,
+    "end": 7.476,
+    "type": "word",
+    "src": "w22"
+  },
+  {
+    "id": "w23",
+    "text": "all",
+    "start": 7.476,
+    "end": 7.668,
+    "type": "word",
+    "src": "w23"
+  },
+  {
+    "id": "w24",
+    "text": "clear.\"",
+    "start": 7.668,
+    "end": 8.275,
+    "type": "word",
+    "src": "w24"
+  },
+  {
+    "id": "w25",
+    "text": "That",
+    "start": 8.713,
+    "end": 8.934,
+    "type": "word",
+    "src": "w25"
+  },
+  {
+    "id": "w26",
+    "text": "one",
+    "start": 8.934,
+    "end": 9.099,
+    "type": "word",
+    "src": "w26"
+  },
+  {
+    "id": "w27",
+    "text": "sentence",
+    "start": 9.099,
+    "end": 9.539,
+    "type": "word",
+    "src": "w27"
+  },
+  {
+    "id": "w28",
+    "text": "can",
+    "start": 9.539,
+    "end": 9.697,
+    "type": "word",
+    "src": "w28"
+  },
+  {
+    "id": "w29",
+    "text": "quietly",
+    "start": 9.697,
+    "end": 10.192,
+    "type": "word",
+    "src": "w29"
+  },
+  {
+    "id": "w30",
+    "text": "cost",
+    "start": 10.192,
+    "end": 10.31,
+    "type": "word",
+    "src": "w30"
+  },
+  {
+    "id": "w31",
+    "text": "you",
+    "start": 10.31,
+    "end": 10.475,
+    "type": "word",
+    "src": "w31"
+  },
+  {
+    "id": "w32",
+    "text": "the",
+    "start": 10.475,
+    "end": 10.641,
+    "type": "word",
+    "src": "w32"
+  },
+  {
+    "id": "w33",
+    "text": "offer.",
+    "start": 10.641,
+    "end": 11.12,
+    "type": "word",
+    "src": "w33"
+  },
+  {
+    "id": "w34",
+    "text": "If",
+    "start": 11.573,
+    "end": 11.674,
+    "type": "word",
+    "src": "w34"
+  },
+  {
+    "id": "w35",
+    "text": "you",
+    "start": 11.674,
+    "end": 11.829,
+    "type": "word",
+    "src": "w35"
+  },
+  {
+    "id": "w36",
+    "text": "are",
+    "start": 11.829,
+    "end": 11.985,
+    "type": "word",
+    "src": "w36"
+  },
+  {
+    "id": "w37",
+    "text": "a",
+    "start": 11.985,
+    "end": 12.03,
+    "type": "word",
+    "src": "w37"
+  },
+  {
+    "id": "w38",
+    "text": "fresher",
+    "start": 12.03,
+    "end": 12.396,
+    "type": "word",
+    "src": "w38"
+  },
+  {
+    "id": "w39",
+    "text": "preparing",
+    "start": 12.396,
+    "end": 13.018,
+    "type": "word",
+    "src": "w39"
+  },
+  {
+    "id": "w40",
+    "text": "for",
+    "start": 13.018,
+    "end": 13.292,
+    "type": "word",
+    "src": "w40"
+  },
+  {
+    "id": "w41",
+    "text": "interviews",
+    "start": 13.292,
+    "end": 13.539,
+    "type": "word",
+    "src": "w41"
+  },
+  {
+    "id": "w42",
+    "text": "in",
+    "start": 13.539,
+    "end": 13.64,
+    "type": "word",
+    "src": "w42"
+  },
+  {
+    "id": "w43",
+    "text": "the",
+    "start": 13.64,
+    "end": 13.795,
+    "type": "word",
+    "src": "w43"
+  },
+  {
+    "id": "w44",
+    "text": "next",
+    "start": 13.795,
+    "end": 14.006,
+    "type": "word",
+    "src": "w44"
+  },
+  {
+    "id": "w45",
+    "text": "five",
+    "start": 14.006,
+    "end": 14.216,
+    "type": "word",
+    "src": "w45"
+  },
+  {
+    "id": "w46",
+    "text": "minutes,",
+    "start": 14.216,
+    "end": 14.774,
+    "type": "word",
+    "src": "w46"
+  },
+  {
+    "id": "w47",
+    "text": "I",
+    "start": 14.774,
+    "end": 14.81,
+    "type": "word",
+    "src": "w47"
+  },
+  {
+    "id": "w48",
+    "text": "will",
+    "start": 14.783,
+    "end": 14.957,
+    "type": "word",
+    "src": "w48"
+  },
+  {
+    "id": "w49",
+    "text": "show",
+    "start": 14.957,
+    "end": 15.121,
+    "type": "word",
+    "src": "w49"
+  },
+  {
+    "id": "w50",
+    "text": "you",
+    "start": 15.121,
+    "end": 15.286,
+    "type": "word",
+    "src": "w50"
+  },
+  {
+    "id": "w51",
+    "text": "why",
+    "start": 15.286,
+    "end": 15.478,
+    "type": "word",
+    "src": "w51"
+  },
+  {
+    "id": "w52",
+    "text": "this",
+    "start": 15.478,
+    "end": 15.734,
+    "type": "word",
+    "src": "w52"
+  },
+  {
+    "id": "w53",
+    "text": "last",
+    "start": 15.734,
+    "end": 15.99,
+    "type": "word",
+    "src": "w53"
+  },
+  {
+    "id": "w54",
+    "text": "question",
+    "start": 15.99,
+    "end": 16.502,
+    "type": "word",
+    "src": "w54"
+  },
+  {
+    "id": "w55",
+    "text": "matters.",
+    "start": 16.502,
+    "end": 17.188,
+    "type": "word",
+    "src": "w55"
+  },
+  {
+    "id": "w56",
+    "text": "The",
+    "start": 17.613,
+    "end": 17.751,
+    "type": "word",
+    "src": "w56"
+  },
+  {
+    "id": "w57",
+    "text": "three",
+    "start": 17.751,
+    "end": 17.979,
+    "type": "word",
+    "src": "w57"
+  },
+  {
+    "id": "w58",
+    "text": "questions",
+    "start": 17.979,
+    "end": 18.391,
+    "type": "word",
+    "src": "w58"
+  },
+  {
+    "id": "w59",
+    "text": "that",
+    "start": 18.391,
+    "end": 18.574,
+    "type": "word",
+    "src": "w59"
+  },
+  {
+    "id": "w60",
+    "text": "make",
+    "start": 18.574,
+    "end": 18.757,
+    "type": "word",
+    "src": "w60"
+  },
+  {
+    "id": "w61",
+    "text": "you",
+    "start": 18.757,
+    "end": 18.894,
+    "type": "word",
+    "src": "w61"
+  },
+  {
+    "id": "w62",
+    "text": "look",
+    "start": 18.894,
+    "end": 19.333,
+    "type": "word",
+    "src": "w62"
+  },
+  {
+    "id": "w63",
+    "text": "serious,",
+    "start": 19.333,
+    "end": 19.488,
+    "type": "word",
+    "src": "w63"
+  },
+  {
+    "id": "w64",
+    "text": "and",
+    "start": 19.488,
+    "end": 19.625,
+    "type": "word",
+    "src": "w64"
+  },
+  {
+    "id": "w65",
+    "text": "the",
+    "start": 19.625,
+    "end": 19.763,
+    "type": "word",
+    "src": "w65"
+  },
+  {
+    "id": "w66",
+    "text": "questions",
+    "start": 19.763,
+    "end": 20.238,
+    "type": "word",
+    "src": "w66"
+  },
+  {
+    "id": "w67",
+    "text": "that",
+    "start": 20.238,
+    "end": 20.357,
+    "type": "word",
+    "src": "w67"
+  },
+  {
+    "id": "w68",
+    "text": "make",
+    "start": 20.357,
+    "end": 20.531,
+    "type": "word",
+    "src": "w68"
+  },
+  {
+    "id": "w69",
+    "text": "the",
+    "start": 20.531,
+    "end": 20.677,
+    "type": "word",
+    "src": "w69"
+  },
+  {
+    "id": "w70",
+    "text": "interviewers",
+    "start": 20.677,
+    "end": 21.235,
+    "type": "word",
+    "src": "w70"
+  },
+  {
+    "id": "w71",
+    "text": "lose",
+    "start": 21.235,
+    "end": 21.482,
+    "type": "word",
+    "src": "w71"
+  },
+  {
+    "id": "w72",
+    "text": "interest,",
+    "start": 21.482,
+    "end": 22.095,
+    "type": "word",
+    "src": "w72"
+  },
+  {
+    "id": "w73",
+    "text": "stay",
+    "start": 22.095,
+    "end": 22.342,
+    "type": "word",
+    "src": "w73"
+  },
+  {
+    "id": "w74",
+    "text": "till",
+    "start": 22.787,
+    "end": 23.015,
+    "type": "word",
+    "src": "w74"
+  },
+  {
+    "id": "w75",
+    "text": "the",
+    "start": 23.015,
+    "end": 23.351,
+    "type": "word",
+    "src": "w75"
+  },
+  {
+    "id": "w76",
+    "text": "end,",
+    "start": 23.351,
+    "end": 23.461,
+    "type": "word",
+    "src": "w76"
+  },
+  {
+    "id": "w77",
+    "text": "because",
+    "start": 23.461,
+    "end": 23.865,
+    "type": "word",
+    "src": "w77"
+  },
+  {
+    "id": "w78",
+    "text": "the",
+    "start": 23.865,
+    "end": 24.034,
+    "type": "word",
+    "src": "w78"
+  },
+  {
+    "id": "w79",
+    "text": "third",
+    "start": 24.034,
+    "end": 24.32,
+    "type": "word",
+    "src": "w79"
+  },
+  {
+    "id": "w80",
+    "text": "mistake",
+    "start": 24.32,
+    "end": 24.724,
+    "type": "word",
+    "src": "w80"
+  },
+  {
+    "id": "w81",
+    "text": "is",
+    "start": 24.724,
+    "end": 24.833,
+    "type": "word",
+    "src": "w81"
+  },
+  {
+    "id": "w82",
+    "text": "one",
+    "start": 24.833,
+    "end": 25.288,
+    "type": "word",
+    "src": "w82"
+  },
+  {
+    "id": "w83",
+    "text": "almost",
+    "start": 25.288,
+    "end": 25.372,
+    "type": "word",
+    "src": "w83"
+  },
+  {
+    "id": "w84",
+    "text": "every",
+    "start": 25.372,
+    "end": 25.633,
+    "type": "word",
+    "src": "w84"
+  },
+  {
+    "id": "w85",
+    "text": "fresher",
+    "start": 25.633,
+    "end": 26.113,
+    "type": "word",
+    "src": "w85"
+  },
+  {
+    "id": "w86",
+    "text": "makes.",
+    "start": 26.113,
+    "end": 26.955,
+    "type": "word",
+    "src": "w86"
+  },
+  {
+    "id": "w87",
+    "text": "First,",
+    "start": 27.387,
+    "end": 27.781,
+    "type": "word",
+    "src": "w87"
+  },
+  {
+    "id": "w88",
+    "text": "why",
+    "start": 27.781,
+    "end": 27.959,
+    "type": "word",
+    "src": "w88"
+  },
+  {
+    "id": "w89",
+    "text": "do",
+    "start": 27.959,
+    "end": 28.081,
+    "type": "word",
+    "src": "w89"
+  },
+  {
+    "id": "w90",
+    "text": "interviewers",
+    "start": 28.081,
+    "end": 28.785,
+    "type": "word",
+    "src": "w90"
+  },
+  {
+    "id": "w91",
+    "text": "ask",
+    "start": 28.785,
+    "end": 29.132,
+    "type": "word",
+    "src": "w91"
+  },
+  {
+    "id": "w92",
+    "text": "this",
+    "start": 29.132,
+    "end": 29.226,
+    "type": "word",
+    "src": "w92"
+  },
+  {
+    "id": "w93",
+    "text": "at",
+    "start": 29.226,
+    "end": 29.348,
+    "type": "word",
+    "src": "w93"
+  },
+  {
+    "id": "w94",
+    "text": "all?",
+    "start": 29.348,
+    "end": 29.751,
+    "type": "word",
+    "src": "w94"
+  },
+  {
+    "id": "w95",
+    "text": "It",
+    "start": 29.751,
+    "end": 29.863,
+    "type": "word",
+    "src": "w95"
+  },
+  {
+    "id": "w96",
+    "text": "is",
+    "start": 29.863,
+    "end": 29.976,
+    "type": "word",
+    "src": "w96"
+  },
+  {
+    "id": "w97",
+    "text": "not",
+    "start": 29.976,
+    "end": 30.145,
+    "type": "word",
+    "src": "w97"
+  },
+  {
+    "id": "w98",
+    "text": "a",
+    "start": 30.145,
+    "end": 30.201,
+    "type": "word",
+    "src": "w98"
+  },
+  {
+    "id": "w99",
+    "text": "formality.",
+    "start": 30.201,
+    "end": 30.933,
+    "type": "word",
+    "src": "w99"
+  },
+  {
+    "id": "w100",
+    "text": "By",
+    "start": 30.933,
+    "end": 31.027,
+    "type": "word",
+    "src": "w100"
+  },
+  {
+    "id": "w101",
+    "text": "this",
+    "start": 31.027,
+    "end": 31.242,
+    "type": "word",
+    "src": "w101"
+  },
+  {
+    "id": "w102",
+    "text": "point,",
+    "start": 31.242,
+    "end": 31.571,
+    "type": "word",
+    "src": "w102"
+  },
+  {
+    "id": "w103",
+    "text": "they",
+    "start": 31.571,
+    "end": 31.768,
+    "type": "word",
+    "src": "w103"
+  },
+  {
+    "id": "w104",
+    "text": "already",
+    "start": 31.768,
+    "end": 32.115,
+    "type": "word",
+    "src": "w104"
+  },
+  {
+    "id": "w105",
+    "text": "know",
+    "start": 32.115,
+    "end": 32.321,
+    "type": "word",
+    "src": "w105"
+  },
+  {
+    "id": "w106",
+    "text": "your",
+    "start": 32.321,
+    "end": 32.696,
+    "type": "word",
+    "src": "w106"
+  },
+  {
+    "id": "w107",
+    "text": "marks",
+    "start": 32.696,
+    "end": 32.771,
+    "type": "word",
+    "src": "w107"
+  },
+  {
+    "id": "w108",
+    "text": "and",
+    "start": 32.771,
+    "end": 32.922,
+    "type": "word",
+    "src": "w108"
+  },
+  {
+    "id": "w109",
+    "text": "your",
+    "start": 32.922,
+    "end": 33.119,
+    "type": "word",
+    "src": "w109"
+  },
+  {
+    "id": "w110",
+    "text": "answers.",
+    "start": 33.119,
+    "end": 33.71,
+    "type": "word",
+    "src": "w110"
+  },
+  {
+    "id": "w111",
+    "text": "Now",
+    "start": 33.71,
+    "end": 33.85,
+    "type": "word",
+    "src": "w111"
+  },
+  {
+    "id": "w112",
+    "text": "they",
+    "start": 33.85,
+    "end": 34.038,
+    "type": "word",
+    "src": "w112"
+  },
+  {
+    "id": "w113",
+    "text": "want",
+    "start": 34.038,
+    "end": 34.225,
+    "type": "word",
+    "src": "w113"
+  },
+  {
+    "id": "w114",
+    "text": "to",
+    "start": 34.225,
+    "end": 34.319,
+    "type": "word",
+    "src": "w114"
+  },
+  {
+    "id": "w115",
+    "text": "see",
+    "start": 34.319,
+    "end": 34.469,
+    "type": "word",
+    "src": "w115"
+  },
+  {
+    "id": "w116",
+    "text": "one",
+    "start": 34.469,
+    "end": 34.601,
+    "type": "word",
+    "src": "w116"
+  },
+  {
+    "id": "w117",
+    "text": "more",
+    "start": 34.601,
+    "end": 34.788,
+    "type": "word",
+    "src": "w117"
+  },
+  {
+    "id": "w118",
+    "text": "thing.",
+    "start": 34.788,
+    "end": 35.21,
+    "type": "word",
+    "src": "w118"
+  },
+  {
+    "id": "w119",
+    "text": "Are",
+    "start": 35.21,
+    "end": 35.417,
+    "type": "word",
+    "src": "w119"
+  },
+  {
+    "id": "w120",
+    "text": "you",
+    "start": 35.417,
+    "end": 35.623,
+    "type": "word",
+    "src": "w120"
+  },
+  {
+    "id": "w121",
+    "text": "curious",
+    "start": 35.623,
+    "end": 36.12,
+    "type": "word",
+    "src": "w121"
+  },
+  {
+    "id": "w122",
+    "text": "about",
+    "start": 36.12,
+    "end": 36.458,
+    "type": "word",
+    "src": "w122"
+  },
+  {
+    "id": "w123",
+    "text": "the",
+    "start": 36.458,
+    "end": 36.965,
+    "type": "word",
+    "src": "w123"
+  },
+  {
+    "id": "w124",
+    "text": "work,",
+    "start": 36.965,
+    "end": 37.105,
+    "type": "word",
+    "src": "w124"
+  },
+  {
+    "id": "w125",
+    "text": "or",
+    "start": 37.105,
+    "end": 37.246,
+    "type": "word",
+    "src": "w125"
+  },
+  {
+    "id": "w126",
+    "text": "do",
+    "start": 37.246,
+    "end": 37.387,
+    "type": "word",
+    "src": "w126"
+  },
+  {
+    "id": "w127",
+    "text": "you",
+    "start": 37.387,
+    "end": 37.593,
+    "type": "word",
+    "src": "w127"
+  },
+  {
+    "id": "w128",
+    "text": "just",
+    "start": 37.593,
+    "end": 37.903,
+    "type": "word",
+    "src": "w128"
+  },
+  {
+    "id": "w129",
+    "text": "want",
+    "start": 37.903,
+    "end": 38.156,
+    "type": "word",
+    "src": "w129"
+  },
+  {
+    "id": "w130",
+    "text": "any",
+    "start": 38.156,
+    "end": 38.362,
+    "type": "word",
+    "src": "w130"
+  },
+  {
+    "id": "w131",
+    "text": "job?",
+    "start": 38.362,
+    "end": 38.85,
+    "type": "word",
+    "src": "w131"
+  },
+  {
+    "id": "w132",
+    "text": "Think",
+    "start": 39.307,
+    "end": 39.557,
+    "type": "word",
+    "src": "w132"
+  },
+  {
+    "id": "w133",
+    "text": "about",
+    "start": 39.557,
+    "end": 39.807,
+    "type": "word",
+    "src": "w133"
+  },
+  {
+    "id": "w134",
+    "text": "it",
+    "start": 39.807,
+    "end": 39.899,
+    "type": "word",
+    "src": "w134"
+  },
+  {
+    "id": "w135",
+    "text": "from",
+    "start": 39.899,
+    "end": 40.093,
+    "type": "word",
+    "src": "w135"
+  },
+  {
+    "id": "w136",
+    "text": "their",
+    "start": 40.093,
+    "end": 40.343,
+    "type": "word",
+    "src": "w136"
+  },
+  {
+    "id": "w137",
+    "text": "side.",
+    "start": 40.343,
+    "end": 40.713,
+    "type": "word",
+    "src": "w137"
+  },
+  {
+    "id": "w138",
+    "text": "They",
+    "start": 40.713,
+    "end": 40.954,
+    "type": "word",
+    "src": "w138"
+  },
+  {
+    "id": "w139",
+    "text": "interview",
+    "start": 40.954,
+    "end": 41.499,
+    "type": "word",
+    "src": "w139"
+  },
+  {
+    "id": "w140",
+    "text": "many",
+    "start": 41.499,
+    "end": 41.74,
+    "type": "word",
+    "src": "w140"
+  },
+  {
+    "id": "w141",
+    "text": "freshers",
+    "start": 41.74,
+    "end": 42.147,
+    "type": "word",
+    "src": "w141"
+  },
+  {
+    "id": "w142",
+    "text": "in",
+    "start": 42.147,
+    "end": 42.452,
+    "type": "word",
+    "src": "w142"
+  },
+  {
+    "id": "w143",
+    "text": "one",
+    "start": 42.452,
+    "end": 42.517,
+    "type": "word",
+    "src": "w143"
+  },
+  {
+    "id": "w144",
+    "text": "day,",
+    "start": 42.517,
+    "end": 42.813,
+    "type": "word",
+    "src": "w144"
+  },
+  {
+    "id": "w145",
+    "text": "most",
+    "start": 42.813,
+    "end": 43.054,
+    "type": "word",
+    "src": "w145"
+  },
+  {
+    "id": "w146",
+    "text": "say",
+    "start": 43.054,
+    "end": 43.229,
+    "type": "word",
+    "src": "w146"
+  },
+  {
+    "id": "w147",
+    "text": "no",
+    "start": 43.229,
+    "end": 43.368,
+    "type": "word",
+    "src": "w147"
+  },
+  {
+    "id": "w148",
+    "text": "questions.",
+    "start": 43.368,
+    "end": 44.117,
+    "type": "word",
+    "src": "w148"
+  },
+  {
+    "id": "w149",
+    "text": "So",
+    "start": 44.117,
+    "end": 44.238,
+    "type": "word",
+    "src": "w149"
+  },
+  {
+    "id": "w150",
+    "text": "the",
+    "start": 44.238,
+    "end": 44.423,
+    "type": "word",
+    "src": "w150"
+  },
+  {
+    "id": "w151",
+    "text": "few",
+    "start": 44.423,
+    "end": 44.589,
+    "type": "word",
+    "src": "w151"
+  },
+  {
+    "id": "w152",
+    "text": "who",
+    "start": 44.589,
+    "end": 44.765,
+    "type": "word",
+    "src": "w152"
+  },
+  {
+    "id": "w153",
+    "text": "ask",
+    "start": 44.765,
+    "end": 44.941,
+    "type": "word",
+    "src": "w153"
+  },
+  {
+    "id": "w154",
+    "text": "something",
+    "start": 44.941,
+    "end": 45.857,
+    "type": "word",
+    "src": "w154"
+  },
+  {
+    "id": "w155",
+    "text": "sensible",
+    "start": 45.857,
+    "end": 45.977,
+    "type": "word",
+    "src": "w155"
+  },
+  {
+    "id": "w156",
+    "text": "are",
+    "start": 45.977,
+    "end": 46.153,
+    "type": "word",
+    "src": "w156"
+  },
+  {
+    "id": "w157",
+    "text": "remembered.",
+    "start": 46.153,
+    "end": 47.004,
+    "type": "word",
+    "src": "w157"
+  },
+  {
+    "id": "w158",
+    "text": "Not",
+    "start": 47.004,
+    "end": 47.152,
+    "type": "word",
+    "src": "w158"
+  },
+  {
+    "id": "w159",
+    "text": "because",
+    "start": 47.152,
+    "end": 47.494,
+    "type": "word",
+    "src": "w159"
+  },
+  {
+    "id": "w160",
+    "text": "the",
+    "start": 47.494,
+    "end": 47.642,
+    "type": "word",
+    "src": "w160"
+  },
+  {
+    "id": "w161",
+    "text": "question",
+    "start": 47.642,
+    "end": 48.04,
+    "type": "word",
+    "src": "w161"
+  },
+  {
+    "id": "w162",
+    "text": "is",
+    "start": 48.04,
+    "end": 48.132,
+    "type": "word",
+    "src": "w162"
+  },
+  {
+    "id": "w163",
+    "text": "clever,",
+    "start": 48.132,
+    "end": 48.669,
+    "type": "word",
+    "src": "w163"
+  },
+  {
+    "id": "w164",
+    "text": "but",
+    "start": 48.669,
+    "end": 48.743,
+    "type": "word",
+    "src": "w164"
+  },
+  {
+    "id": "w165",
+    "text": "because",
+    "start": 48.743,
+    "end": 49.011,
+    "type": "word",
+    "src": "w165"
+  },
+  {
+    "id": "w166",
+    "text": "it",
+    "start": 49.011,
+    "end": 49.104,
+    "type": "word",
+    "src": "w166"
+  },
+  {
+    "id": "w167",
+    "text": "shows",
+    "start": 49.104,
+    "end": 49.353,
+    "type": "word",
+    "src": "w167"
+  },
+  {
+    "id": "w168",
+    "text": "you",
+    "start": 49.353,
+    "end": 49.501,
+    "type": "word",
+    "src": "w168"
+  },
+  {
+    "id": "w169",
+    "text": "have",
+    "start": 49.501,
+    "end": 49.696,
+    "type": "word",
+    "src": "w169"
+  },
+  {
+    "id": "w170",
+    "text": "thought",
+    "start": 49.696,
+    "end": 50.038,
+    "type": "word",
+    "src": "w170"
+  },
+  {
+    "id": "w171",
+    "text": "about",
+    "start": 50.038,
+    "end": 50.288,
+    "type": "word",
+    "src": "w171"
+  },
+  {
+    "id": "w172",
+    "text": "the",
+    "start": 50.288,
+    "end": 50.436,
+    "type": "word",
+    "src": "w172"
+  },
+  {
+    "id": "w173",
+    "text": "role.",
+    "start": 50.436,
+    "end": 50.852,
+    "type": "word",
+    "src": "w173"
+  },
+  {
+    "id": "w174",
+    "text": "Here",
+    "start": 50.852,
+    "end": 51.065,
+    "type": "word",
+    "src": "w174"
+  },
+  {
+    "id": "w175",
+    "text": "is",
+    "start": 51.065,
+    "end": 51.167,
+    "type": "word",
+    "src": "w175"
+  },
+  {
+    "id": "w176",
+    "text": "the",
+    "start": 51.167,
+    "end": 51.324,
+    "type": "word",
+    "src": "w176"
+  },
+  {
+    "id": "w177",
+    "text": "catch.",
+    "start": 51.324,
+    "end": 51.777,
+    "type": "word",
+    "src": "w177"
+  },
+  {
+    "id": "w178",
+    "text": "A",
+    "start": 51.777,
+    "end": 51.842,
+    "type": "word",
+    "src": "w178"
+  },
+  {
+    "id": "w179",
+    "text": "bad",
+    "start": 51.842,
+    "end": 52.082,
+    "type": "word",
+    "src": "w179"
+  },
+  {
+    "id": "w180",
+    "text": "question",
+    "start": 52.082,
+    "end": 52.591,
+    "type": "word",
+    "src": "w180"
+  },
+  {
+    "id": "w181",
+    "text": "hurts",
+    "start": 52.591,
+    "end": 52.933,
+    "type": "word",
+    "src": "w181"
+  },
+  {
+    "id": "w182",
+    "text": "as",
+    "start": 52.933,
+    "end": 53.063,
+    "type": "word",
+    "src": "w182"
+  },
+  {
+    "id": "w183",
+    "text": "much",
+    "start": 53.063,
+    "end": 53.461,
+    "type": "word",
+    "src": "w183"
+  },
+  {
+    "id": "w184",
+    "text": "as",
+    "start": 53.461,
+    "end": 53.516,
+    "type": "word",
+    "src": "w184"
+  },
+  {
+    "id": "w185",
+    "text": "no",
+    "start": 53.516,
+    "end": 53.59,
+    "type": "word",
+    "src": "w185"
+  },
+  {
+    "id": "w186",
+    "text": "question.",
+    "start": 53.59,
+    "end": 54.404,
+    "type": "word",
+    "src": "w186"
+  },
+  {
+    "id": "w187",
+    "text": "So",
+    "start": 54.423,
+    "end": 54.747,
+    "type": "word",
+    "src": "w187"
+  },
+  {
+    "id": "w188",
+    "text": "let",
+    "start": 54.747,
+    "end": 55.265,
+    "type": "word",
+    "src": "w188"
+  },
+  {
+    "id": "w189",
+    "text": "us",
+    "start": 55.265,
+    "end": 55.598,
+    "type": "word",
+    "src": "w189"
+  },
+  {
+    "id": "w190",
+    "text": "fix",
+    "start": 55.598,
+    "end": 56.153,
+    "type": "word",
+    "src": "w190"
+  },
+  {
+    "id": "w191",
+    "text": "that.",
+    "start": 56.153,
+    "end": 56.847,
+    "type": "word",
+    "src": "w191"
+  },
+  {
+    "id": "w192",
+    "text": "Question",
+    "start": 57.3,
+    "end": 57.736,
+    "type": "word",
+    "src": "w192"
+  },
+  {
+    "id": "w193",
+    "text": "number",
+    "start": 57.736,
+    "end": 58.06,
+    "type": "word",
+    "src": "w193"
+  },
+  {
+    "id": "w194",
+    "text": "one.",
+    "start": 58.06,
+    "end": 58.226,
+    "type": "word",
+    "src": "w194"
+  },
+  {
+    "id": "w195",
+    "text": "What",
+    "start": 58.226,
+    "end": 58.421,
+    "type": "word",
+    "src": "w195"
+  },
+  {
+    "id": "w196",
+    "text": "will",
+    "start": 58.421,
+    "end": 58.615,
+    "type": "word",
+    "src": "w196"
+  },
+  {
+    "id": "w197",
+    "text": "a",
+    "start": 58.615,
+    "end": 58.662,
+    "type": "word",
+    "src": "w197"
+  },
+  {
+    "id": "w198",
+    "text": "fresher",
+    "start": 58.662,
+    "end": 59.004,
+    "type": "word",
+    "src": "w198"
+  },
+  {
+    "id": "w199",
+    "text": "in",
+    "start": 59.004,
+    "end": 59.097,
+    "type": "word",
+    "src": "w199"
+  },
+  {
+    "id": "w200",
+    "text": "this",
+    "start": 59.097,
+    "end": 59.291,
+    "type": "word",
+    "src": "w200"
+  },
+  {
+    "id": "w201",
+    "text": "team",
+    "start": 59.291,
+    "end": 59.495,
+    "type": "word",
+    "src": "w201"
+  },
+  {
+    "id": "w202",
+    "text": "work",
+    "start": 59.495,
+    "end": 59.662,
+    "type": "word",
+    "src": "w202"
+  },
+  {
+    "id": "w203",
+    "text": "on",
+    "start": 59.662,
+    "end": 59.773,
+    "type": "word",
+    "src": "w203"
+  },
+  {
+    "id": "w204",
+    "text": "in",
+    "start": 59.773,
+    "end": 59.967,
+    "type": "word",
+    "src": "w204"
+  },
+  {
+    "id": "w205",
+    "text": "the",
+    "start": 59.967,
+    "end": 60.023,
+    "type": "word",
+    "src": "w205"
+  },
+  {
+    "id": "w206",
+    "text": "first",
+    "start": 60.023,
+    "end": 60.264,
+    "type": "word",
+    "src": "w206"
+  },
+  {
+    "id": "w207",
+    "text": "three",
+    "start": 60.264,
+    "end": 60.514,
+    "type": "word",
+    "src": "w207"
+  },
+  {
+    "id": "w208",
+    "text": "months?",
+    "start": 60.514,
+    "end": 61.042,
+    "type": "word",
+    "src": "w208"
+  },
+  {
+    "id": "w209",
+    "text": "This",
+    "start": 61.042,
+    "end": 61.245,
+    "type": "word",
+    "src": "w209"
+  },
+  {
+    "id": "w210",
+    "text": "shows",
+    "start": 61.245,
+    "end": 61.496,
+    "type": "word",
+    "src": "w210"
+  },
+  {
+    "id": "w211",
+    "text": "you",
+    "start": 61.496,
+    "end": 61.644,
+    "type": "word",
+    "src": "w211"
+  },
+  {
+    "id": "w212",
+    "text": "are",
+    "start": 61.644,
+    "end": 61.792,
+    "type": "word",
+    "src": "w212"
+  },
+  {
+    "id": "w213",
+    "text": "thinking",
+    "start": 61.792,
+    "end": 62.199,
+    "type": "word",
+    "src": "w213"
+  },
+  {
+    "id": "w214",
+    "text": "about",
+    "start": 62.199,
+    "end": 62.44,
+    "type": "word",
+    "src": "w214"
+  },
+  {
+    "id": "w215",
+    "text": "the",
+    "start": 62.44,
+    "end": 62.783,
+    "type": "word",
+    "src": "w215"
+  },
+  {
+    "id": "w216",
+    "text": "actual",
+    "start": 62.783,
+    "end": 62.903,
+    "type": "word",
+    "src": "w216"
+  },
+  {
+    "id": "w217",
+    "text": "job.",
+    "start": 62.903,
+    "end": 63.246,
+    "type": "word",
+    "src": "w217"
+  },
+  {
+    "id": "w218",
+    "text": "Not",
+    "start": 63.72,
+    "end": 63.879,
+    "type": "word",
+    "src": "w218"
+  },
+  {
+    "id": "w219",
+    "text": "only",
+    "start": 63.879,
+    "end": 64.093,
+    "type": "word",
+    "src": "w219"
+  },
+  {
+    "id": "w220",
+    "text": "the",
+    "start": 64.093,
+    "end": 64.251,
+    "type": "word",
+    "src": "w220"
+  },
+  {
+    "id": "w221",
+    "text": "salary,",
+    "start": 64.251,
+    "end": 64.679,
+    "type": "word",
+    "src": "w221"
+  },
+  {
+    "id": "w222",
+    "text": "the",
+    "start": 64.679,
+    "end": 64.837,
+    "type": "word",
+    "src": "w222"
+  },
+  {
+    "id": "w223",
+    "text": "answer",
+    "start": 64.837,
+    "end": 65.163,
+    "type": "word",
+    "src": "w223"
+  },
+  {
+    "id": "w224",
+    "text": "also",
+    "start": 65.163,
+    "end": 65.47,
+    "type": "word",
+    "src": "w224"
+  },
+  {
+    "id": "w225",
+    "text": "tells",
+    "start": 65.47,
+    "end": 65.647,
+    "type": "word",
+    "src": "w225"
+  },
+  {
+    "id": "w226",
+    "text": "you",
+    "start": 65.647,
+    "end": 65.805,
+    "type": "word",
+    "src": "w226"
+  },
+  {
+    "id": "w227",
+    "text": "something",
+    "start": 65.805,
+    "end": 66.289,
+    "type": "word",
+    "src": "w227"
+  },
+  {
+    "id": "w228",
+    "text": "useful.",
+    "start": 66.289,
+    "end": 66.829,
+    "type": "word",
+    "src": "w228"
+  },
+  {
+    "id": "w229",
+    "text": "It",
+    "start": 66.829,
+    "end": 66.941,
+    "type": "word",
+    "src": "w229"
+  },
+  {
+    "id": "w230",
+    "text": "may",
+    "start": 66.941,
+    "end": 67.136,
+    "type": "word",
+    "src": "w230"
+  },
+  {
+    "id": "w231",
+    "text": "be",
+    "start": 67.136,
+    "end": 67.22,
+    "type": "word",
+    "src": "w231"
+  },
+  {
+    "id": "w232",
+    "text": "training",
+    "start": 67.22,
+    "end": 67.676,
+    "type": "word",
+    "src": "w232"
+  },
+  {
+    "id": "w233",
+    "text": "first,",
+    "start": 67.676,
+    "end": 68.077,
+    "type": "word",
+    "src": "w233"
+  },
+  {
+    "id": "w234",
+    "text": "then",
+    "start": 68.077,
+    "end": 68.272,
+    "type": "word",
+    "src": "w234"
+  },
+  {
+    "id": "w235",
+    "text": "a",
+    "start": 68.272,
+    "end": 68.579,
+    "type": "word",
+    "src": "w235"
+  },
+  {
+    "id": "w236",
+    "text": "small",
+    "start": 68.579,
+    "end": 68.644,
+    "type": "word",
+    "src": "w236"
+  },
+  {
+    "id": "w237",
+    "text": "module,",
+    "start": 68.644,
+    "end": 69.1,
+    "type": "word",
+    "src": "w237"
+  },
+  {
+    "id": "w238",
+    "text": "then",
+    "start": 69.1,
+    "end": 69.324,
+    "type": "word",
+    "src": "w238"
+  },
+  {
+    "id": "w239",
+    "text": "real",
+    "start": 69.324,
+    "end": 69.547,
+    "type": "word",
+    "src": "w239"
+  },
+  {
+    "id": "w240",
+    "text": "tasks",
+    "start": 69.547,
+    "end": 69.845,
+    "type": "word",
+    "src": "w240"
+  },
+  {
+    "id": "w241",
+    "text": "with",
+    "start": 69.845,
+    "end": 70.087,
+    "type": "word",
+    "src": "w241"
+  },
+  {
+    "id": "w242",
+    "text": "a",
+    "start": 70.087,
+    "end": 70.124,
+    "type": "word",
+    "src": "w242"
+  },
+  {
+    "id": "w243",
+    "text": "senior.",
+    "start": 70.115,
+    "end": 70.72,
+    "type": "word",
+    "src": "w243"
+  },
+  {
+    "id": "w244",
+    "text": "Now",
+    "start": 70.72,
+    "end": 70.915,
+    "type": "word",
+    "src": "w244"
+  },
+  {
+    "id": "w245",
+    "text": "you",
+    "start": 70.915,
+    "end": 71.111,
+    "type": "word",
+    "src": "w245"
+  },
+  {
+    "id": "w246",
+    "text": "know",
+    "start": 71.111,
+    "end": 71.372,
+    "type": "word",
+    "src": "w246"
+  },
+  {
+    "id": "w247",
+    "text": "what",
+    "start": 71.372,
+    "end": 71.632,
+    "type": "word",
+    "src": "w247"
+  },
+  {
+    "id": "w248",
+    "text": "to",
+    "start": 71.632,
+    "end": 71.762,
+    "type": "word",
+    "src": "w248"
+  },
+  {
+    "id": "w249",
+    "text": "prepare",
+    "start": 71.762,
+    "end": 72.414,
+    "type": "word",
+    "src": "w249"
+  },
+  {
+    "id": "w250",
+    "text": "for.",
+    "start": 72.414,
+    "end": 72.619,
+    "type": "word",
+    "src": "w250"
+  },
+  {
+    "id": "w251",
+    "text": "You",
+    "start": 73.046,
+    "end": 73.225,
+    "type": "word",
+    "src": "w251"
+  },
+  {
+    "id": "w252",
+    "text": "can",
+    "start": 73.225,
+    "end": 73.404,
+    "type": "word",
+    "src": "w252"
+  },
+  {
+    "id": "w253",
+    "text": "also",
+    "start": 73.404,
+    "end": 73.64,
+    "type": "word",
+    "src": "w253"
+  },
+  {
+    "id": "w254",
+    "text": "ask,",
+    "start": 73.64,
+    "end": 73.931,
+    "type": "word",
+    "src": "w254"
+  },
+  {
+    "id": "w255",
+    "text": "what",
+    "start": 73.931,
+    "end": 74.167,
+    "type": "word",
+    "src": "w255"
+  },
+  {
+    "id": "w256",
+    "text": "does",
+    "start": 74.167,
+    "end": 74.459,
+    "type": "word",
+    "src": "w256"
+  },
+  {
+    "id": "w257",
+    "text": "a",
+    "start": 74.459,
+    "end": 74.496,
+    "type": "word",
+    "src": "w257"
+  },
+  {
+    "id": "w258",
+    "text": "good",
+    "start": 74.459,
+    "end": 74.816,
+    "type": "word",
+    "src": "w258"
+  },
+  {
+    "id": "w259",
+    "text": "first",
+    "start": 74.816,
+    "end": 74.995,
+    "type": "word",
+    "src": "w259"
+  },
+  {
+    "id": "w260",
+    "text": "six",
+    "start": 74.995,
+    "end": 75.165,
+    "type": "word",
+    "src": "w260"
+  },
+  {
+    "id": "w261",
+    "text": "months",
+    "start": 75.165,
+    "end": 75.532,
+    "type": "word",
+    "src": "w261"
+  },
+  {
+    "id": "w262",
+    "text": "look",
+    "start": 75.532,
+    "end": 75.767,
+    "type": "word",
+    "src": "w262"
+  },
+  {
+    "id": "w263",
+    "text": "like",
+    "start": 75.767,
+    "end": 76.003,
+    "type": "word",
+    "src": "w263"
+  },
+  {
+    "id": "w264",
+    "text": "for",
+    "start": 76.003,
+    "end": 76.182,
+    "type": "word",
+    "src": "w264"
+  },
+  {
+    "id": "w265",
+    "text": "someone",
+    "start": 76.182,
+    "end": 76.54,
+    "type": "word",
+    "src": "w265"
+  },
+  {
+    "id": "w266",
+    "text": "in",
+    "start": 76.54,
+    "end": 76.954,
+    "type": "word",
+    "src": "w266"
+  },
+  {
+    "id": "w267",
+    "text": "this",
+    "start": 76.954,
+    "end": 76.991,
+    "type": "word",
+    "src": "w267"
+  },
+  {
+    "id": "w268",
+    "text": "role?",
+    "start": 76.991,
+    "end": 77.49,
+    "type": "word",
+    "src": "w268"
+  },
+  {
+    "id": "w269",
+    "text": "It",
+    "start": 77.49,
+    "end": 77.613,
+    "type": "word",
+    "src": "w269"
+  },
+  {
+    "id": "w270",
+    "text": "is",
+    "start": 77.613,
+    "end": 77.735,
+    "type": "word",
+    "src": "w270"
+  },
+  {
+    "id": "w271",
+    "text": "the",
+    "start": 77.735,
+    "end": 77.924,
+    "type": "word",
+    "src": "w271"
+  },
+  {
+    "id": "w272",
+    "text": "same",
+    "start": 77.924,
+    "end": 78.178,
+    "type": "word",
+    "src": "w272"
+  },
+  {
+    "id": "w273",
+    "text": "idea.",
+    "start": 78.178,
+    "end": 78.658,
+    "type": "word",
+    "src": "w273"
+  },
+  {
+    "id": "w274",
+    "text": "You",
+    "start": 78.658,
+    "end": 78.828,
+    "type": "word",
+    "src": "w274"
+  },
+  {
+    "id": "w275",
+    "text": "are",
+    "start": 78.828,
+    "end": 78.997,
+    "type": "word",
+    "src": "w275"
+  },
+  {
+    "id": "w276",
+    "text": "telling",
+    "start": 78.997,
+    "end": 79.421,
+    "type": "word",
+    "src": "w276"
+  },
+  {
+    "id": "w277",
+    "text": "them",
+    "start": 79.421,
+    "end": 79.628,
+    "type": "word",
+    "src": "w277"
+  },
+  {
+    "id": "w278",
+    "text": "you",
+    "start": 79.628,
+    "end": 79.797,
+    "type": "word",
+    "src": "w278"
+  },
+  {
+    "id": "w279",
+    "text": "want",
+    "start": 79.797,
+    "end": 80.099,
+    "type": "word",
+    "src": "w279"
+  },
+  {
+    "id": "w280",
+    "text": "to",
+    "start": 80.099,
+    "end": 80.136,
+    "type": "word",
+    "src": "w280"
+  },
+  {
+    "id": "w281",
+    "text": "do",
+    "start": 80.127,
+    "end": 80.428,
+    "type": "word",
+    "src": "w281"
+  },
+  {
+    "id": "w282",
+    "text": "well,",
+    "start": 80.428,
+    "end": 80.588,
+    "type": "word",
+    "src": "w282"
+  },
+  {
+    "id": "w283",
+    "text": "and",
+    "start": 80.588,
+    "end": 80.777,
+    "type": "word",
+    "src": "w283"
+  },
+  {
+    "id": "w284",
+    "text": "asking",
+    "start": 80.777,
+    "end": 81.106,
+    "type": "word",
+    "src": "w284"
+  },
+  {
+    "id": "w285",
+    "text": "what",
+    "start": 81.106,
+    "end": 81.36,
+    "type": "word",
+    "src": "w285"
+  },
+  {
+    "id": "w286",
+    "text": "that",
+    "start": 81.36,
+    "end": 81.558,
+    "type": "word",
+    "src": "w286"
+  },
+  {
+    "id": "w287",
+    "text": "means.",
+    "start": 81.558,
+    "end": 82.104,
+    "type": "word",
+    "src": "w287"
+  },
+  {
+    "id": "w288",
+    "text": "Keep",
+    "start": 82.104,
+    "end": 82.368,
+    "type": "word",
+    "src": "w288"
+  },
+  {
+    "id": "w289",
+    "text": "it",
+    "start": 82.368,
+    "end": 82.5,
+    "type": "word",
+    "src": "w289"
+  },
+  {
+    "id": "w290",
+    "text": "short.",
+    "start": 82.5,
+    "end": 83.046,
+    "type": "word",
+    "src": "w290"
+  },
+  {
+    "id": "w291",
+    "text": "One",
+    "start": 83.065,
+    "end": 83.215,
+    "type": "word",
+    "src": "w291"
+  },
+  {
+    "id": "w292",
+    "text": "question,",
+    "start": 83.215,
+    "end": 83.808,
+    "type": "word",
+    "src": "w292"
+  },
+  {
+    "id": "w293",
+    "text": "then",
+    "start": 83.808,
+    "end": 84.016,
+    "type": "word",
+    "src": "w293"
+  },
+  {
+    "id": "w294",
+    "text": "listen",
+    "start": 84.016,
+    "end": 84.477,
+    "type": "word",
+    "src": "w294"
+  },
+  {
+    "id": "w295",
+    "text": "to",
+    "start": 84.477,
+    "end": 84.515,
+    "type": "word",
+    "src": "w295"
+  },
+  {
+    "id": "w296",
+    "text": "the",
+    "start": 84.477,
+    "end": 84.816,
+    "type": "word",
+    "src": "w296"
+  },
+  {
+    "id": "w297",
+    "text": "full",
+    "start": 84.816,
+    "end": 84.872,
+    "type": "word",
+    "src": "w297"
+  },
+  {
+    "id": "w298",
+    "text": "answer.",
+    "start": 84.872,
+    "end": 85.456,
+    "type": "word",
+    "src": "w298"
+  },
+  {
+    "id": "w299",
+    "text": "Do",
+    "start": 85.456,
+    "end": 85.635,
+    "type": "word",
+    "src": "w299"
+  },
+  {
+    "id": "w300",
+    "text": "not",
+    "start": 85.635,
+    "end": 85.899,
+    "type": "word",
+    "src": "w300"
+  },
+  {
+    "id": "w301",
+    "text": "interrupt.",
+    "start": 85.899,
+    "end": 87,
+    "type": "word",
+    "src": "w301"
+  },
+  {
+    "id": "w302",
+    "text": "Question",
+    "start": 87.466,
+    "end": 87.826,
+    "type": "word",
+    "src": "w302"
+  },
+  {
+    "id": "w303",
+    "text": "number",
+    "start": 87.826,
+    "end": 88.102,
+    "type": "word",
+    "src": "w303"
+  },
+  {
+    "id": "w304",
+    "text": "two.",
+    "start": 88.102,
+    "end": 88.388,
+    "type": "word",
+    "src": "w304"
+  },
+  {
+    "id": "w305",
+    "text": "How",
+    "start": 88.388,
+    "end": 88.517,
+    "type": "word",
+    "src": "w305"
+  },
+  {
+    "id": "w306",
+    "text": "does",
+    "start": 88.517,
+    "end": 88.692,
+    "type": "word",
+    "src": "w306"
+  },
+  {
+    "id": "w307",
+    "text": "the",
+    "start": 88.692,
+    "end": 88.812,
+    "type": "word",
+    "src": "w307"
+  },
+  {
+    "id": "w308",
+    "text": "team",
+    "start": 88.812,
+    "end": 88.978,
+    "type": "word",
+    "src": "w308"
+  },
+  {
+    "id": "w309",
+    "text": "help",
+    "start": 88.978,
+    "end": 89.144,
+    "type": "word",
+    "src": "w309"
+  },
+  {
+    "id": "w310",
+    "text": "new",
+    "start": 89.144,
+    "end": 89.273,
+    "type": "word",
+    "src": "w310"
+  },
+  {
+    "id": "w311",
+    "text": "joiners",
+    "start": 89.273,
+    "end": 89.55,
+    "type": "word",
+    "src": "w311"
+  },
+  {
+    "id": "w312",
+    "text": "learn?",
+    "start": 89.55,
+    "end": 89.937,
+    "type": "word",
+    "src": "w312"
+  },
+  {
+    "id": "w313",
+    "text": "Is",
+    "start": 89.937,
+    "end": 90.066,
+    "type": "word",
+    "src": "w313"
+  },
+  {
+    "id": "w314",
+    "text": "there",
+    "start": 90.066,
+    "end": 90.398,
+    "type": "word",
+    "src": "w314"
+  },
+  {
+    "id": "w315",
+    "text": "training,",
+    "start": 90.398,
+    "end": 91.061,
+    "type": "word",
+    "src": "w315"
+  },
+  {
+    "id": "w316",
+    "text": "a",
+    "start": 91.061,
+    "end": 91.117,
+    "type": "word",
+    "src": "w316"
+  },
+  {
+    "id": "w317",
+    "text": "buddy",
+    "start": 91.117,
+    "end": 91.458,
+    "type": "word",
+    "src": "w317"
+  },
+  {
+    "id": "w318",
+    "text": "or",
+    "start": 91.458,
+    "end": 91.651,
+    "type": "word",
+    "src": "w318"
+  },
+  {
+    "id": "w319",
+    "text": "a",
+    "start": 91.651,
+    "end": 91.688,
+    "type": "word",
+    "src": "w319"
+  },
+  {
+    "id": "w320",
+    "text": "senior",
+    "start": 91.679,
+    "end": 92.048,
+    "type": "word",
+    "src": "w320"
+  },
+  {
+    "id": "w321",
+    "text": "who",
+    "start": 92.048,
+    "end": 92.241,
+    "type": "word",
+    "src": "w321"
+  },
+  {
+    "id": "w322",
+    "text": "reviews",
+    "start": 92.241,
+    "end": 92.711,
+    "type": "word",
+    "src": "w322"
+  },
+  {
+    "id": "w323",
+    "text": "your",
+    "start": 92.711,
+    "end": 92.979,
+    "type": "word",
+    "src": "w323"
+  },
+  {
+    "id": "w324",
+    "text": "work?",
+    "start": 92.979,
+    "end": 93.513,
+    "type": "word",
+    "src": "w324"
+  },
+  {
+    "id": "w325",
+    "text": "Why",
+    "start": 93.513,
+    "end": 93.698,
+    "type": "word",
+    "src": "w325"
+  },
+  {
+    "id": "w326",
+    "text": "does",
+    "start": 93.698,
+    "end": 93.937,
+    "type": "word",
+    "src": "w326"
+  },
+  {
+    "id": "w327",
+    "text": "this",
+    "start": 93.937,
+    "end": 94.177,
+    "type": "word",
+    "src": "w327"
+  },
+  {
+    "id": "w328",
+    "text": "work?",
+    "start": 94.177,
+    "end": 94.62,
+    "type": "word",
+    "src": "w328"
+  },
+  {
+    "id": "w329",
+    "text": "Because",
+    "start": 94.62,
+    "end": 94.961,
+    "type": "word",
+    "src": "w329"
+  },
+  {
+    "id": "w330",
+    "text": "companies",
+    "start": 94.961,
+    "end": 95.403,
+    "type": "word",
+    "src": "w330"
+  },
+  {
+    "id": "w331",
+    "text": "want",
+    "start": 95.403,
+    "end": 95.597,
+    "type": "word",
+    "src": "w331"
+  },
+  {
+    "id": "w332",
+    "text": "people",
+    "start": 95.597,
+    "end": 96.039,
+    "type": "word",
+    "src": "w332"
+  },
+  {
+    "id": "w333",
+    "text": "who",
+    "start": 96.039,
+    "end": 96.076,
+    "type": "word",
+    "src": "w333"
+  },
+  {
+    "id": "w334",
+    "text": "will",
+    "start": 96.039,
+    "end": 96.353,
+    "type": "word",
+    "src": "w334"
+  },
+  {
+    "id": "w335",
+    "text": "grow.",
+    "start": 96.353,
+    "end": 96.611,
+    "type": "word",
+    "src": "w335"
+  },
+  {
+    "id": "w336",
+    "text": "And",
+    "start": 96.611,
+    "end": 96.767,
+    "type": "word",
+    "src": "w336"
+  },
+  {
+    "id": "w337",
+    "text": "this",
+    "start": 96.767,
+    "end": 96.979,
+    "type": "word",
+    "src": "w337"
+  },
+  {
+    "id": "w338",
+    "text": "question",
+    "start": 96.979,
+    "end": 97.403,
+    "type": "word",
+    "src": "w338"
+  },
+  {
+    "id": "w339",
+    "text": "says,",
+    "start": 97.403,
+    "end": 97.717,
+    "type": "word",
+    "src": "w339"
+  },
+  {
+    "id": "w340",
+    "text": "you",
+    "start": 97.717,
+    "end": 97.864,
+    "type": "word",
+    "src": "w340"
+  },
+  {
+    "id": "w341",
+    "text": "plan",
+    "start": 97.864,
+    "end": 98.04,
+    "type": "word",
+    "src": "w341"
+  },
+  {
+    "id": "w342",
+    "text": "to",
+    "start": 98.04,
+    "end": 98.344,
+    "type": "word",
+    "src": "w342"
+  },
+  {
+    "id": "w343",
+    "text": "grow.",
+    "start": 98.344,
+    "end": 98.602,
+    "type": "word",
+    "src": "w343"
+  },
+  {
+    "id": "w344",
+    "text": "It",
+    "start": 98.602,
+    "end": 98.703,
+    "type": "word",
+    "src": "w344"
+  },
+  {
+    "id": "w345",
+    "text": "is",
+    "start": 98.703,
+    "end": 98.805,
+    "type": "word",
+    "src": "w345"
+  },
+  {
+    "id": "w346",
+    "text": "also",
+    "start": 98.805,
+    "end": 99.017,
+    "type": "word",
+    "src": "w346"
+  },
+  {
+    "id": "w347",
+    "text": "a",
+    "start": 99.017,
+    "end": 99.063,
+    "type": "word",
+    "src": "w347"
+  },
+  {
+    "id": "w348",
+    "text": "question",
+    "start": 99.063,
+    "end": 99.487,
+    "type": "word",
+    "src": "w348"
+  },
+  {
+    "id": "w349",
+    "text": "for",
+    "start": 99.487,
+    "end": 99.643,
+    "type": "word",
+    "src": "w349"
+  },
+  {
+    "id": "w350",
+    "text": "you.",
+    "start": 99.643,
+    "end": 99.985,
+    "type": "word",
+    "src": "w350"
+  },
+  {
+    "id": "w351",
+    "text": "If",
+    "start": 99.985,
+    "end": 100.104,
+    "type": "word",
+    "src": "w351"
+  },
+  {
+    "id": "w352",
+    "text": "nobody",
+    "start": 100.104,
+    "end": 100.482,
+    "type": "word",
+    "src": "w352"
+  },
+  {
+    "id": "w353",
+    "text": "guides",
+    "start": 100.482,
+    "end": 100.86,
+    "type": "word",
+    "src": "w353"
+  },
+  {
+    "id": "w354",
+    "text": "new",
+    "start": 100.86,
+    "end": 101.045,
+    "type": "word",
+    "src": "w354"
+  },
+  {
+    "id": "w355",
+    "text": "joiners,",
+    "start": 101.045,
+    "end": 101.718,
+    "type": "word",
+    "src": "w355"
+  },
+  {
+    "id": "w356",
+    "text": "that",
+    "start": 101.718,
+    "end": 101.847,
+    "type": "word",
+    "src": "w356"
+  },
+  {
+    "id": "w357",
+    "text": "is",
+    "start": 101.847,
+    "end": 101.966,
+    "type": "word",
+    "src": "w357"
+  },
+  {
+    "id": "w358",
+    "text": "something",
+    "start": 101.966,
+    "end": 102.529,
+    "type": "word",
+    "src": "w358"
+  },
+  {
+    "id": "w359",
+    "text": "you",
+    "start": 102.529,
+    "end": 102.713,
+    "type": "word",
+    "src": "w359"
+  },
+  {
+    "id": "w360",
+    "text": "should",
+    "start": 102.713,
+    "end": 103.091,
+    "type": "word",
+    "src": "w360"
+  },
+  {
+    "id": "w361",
+    "text": "know",
+    "start": 103.091,
+    "end": 103.34,
+    "type": "word",
+    "src": "w361"
+  },
+  {
+    "id": "w362",
+    "text": "before",
+    "start": 103.34,
+    "end": 103.838,
+    "type": "word",
+    "src": "w362"
+  },
+  {
+    "id": "w363",
+    "text": "you",
+    "start": 103.838,
+    "end": 103.93,
+    "type": "word",
+    "src": "w363"
+  },
+  {
+    "id": "w364",
+    "text": "accept.",
+    "start": 103.93,
+    "end": 104.538,
+    "type": "word",
+    "src": "w364"
+  },
+  {
+    "id": "w365",
+    "text": "A",
+    "start": 104.987,
+    "end": 105.118,
+    "type": "word",
+    "src": "w365"
+  },
+  {
+    "id": "w366",
+    "text": "tip.",
+    "start": 105.118,
+    "end": 105.925,
+    "type": "word",
+    "src": "w366"
+  },
+  {
+    "id": "w367",
+    "text": "Listen",
+    "start": 105.925,
+    "end": 106.253,
+    "type": "word",
+    "src": "w367"
+  },
+  {
+    "id": "w368",
+    "text": "for",
+    "start": 106.253,
+    "end": 106.413,
+    "type": "word",
+    "src": "w368"
+  },
+  {
+    "id": "w369",
+    "text": "words",
+    "start": 106.413,
+    "end": 106.685,
+    "type": "word",
+    "src": "w369"
+  },
+  {
+    "id": "w370",
+    "text": "like",
+    "start": 106.685,
+    "end": 106.9,
+    "type": "word",
+    "src": "w370"
+  },
+  {
+    "id": "w371",
+    "text": "mentor,",
+    "start": 106.9,
+    "end": 107.332,
+    "type": "word",
+    "src": "w371"
+  },
+  {
+    "id": "w372",
+    "text": "code",
+    "start": 107.332,
+    "end": 107.688,
+    "type": "word",
+    "src": "w372"
+  },
+  {
+    "id": "w373",
+    "text": "review",
+    "start": 107.688,
+    "end": 107.876,
+    "type": "word",
+    "src": "w373"
+  },
+  {
+    "id": "w374",
+    "text": "or",
+    "start": 107.876,
+    "end": 107.979,
+    "type": "word",
+    "src": "w374"
+  },
+  {
+    "id": "w375",
+    "text": "training",
+    "start": 107.979,
+    "end": 108.42,
+    "type": "word",
+    "src": "w375"
+  },
+  {
+    "id": "w376",
+    "text": "plan.",
+    "start": 108.42,
+    "end": 108.889,
+    "type": "word",
+    "src": "w376"
+  },
+  {
+    "id": "w377",
+    "text": "If",
+    "start": 108.889,
+    "end": 108.992,
+    "type": "word",
+    "src": "w377"
+  },
+  {
+    "id": "w378",
+    "text": "the",
+    "start": 108.992,
+    "end": 109.142,
+    "type": "word",
+    "src": "w378"
+  },
+  {
+    "id": "w379",
+    "text": "interviewer",
+    "start": 109.142,
+    "end": 109.705,
+    "type": "word",
+    "src": "w379"
+  },
+  {
+    "id": "w380",
+    "text": "gives",
+    "start": 109.705,
+    "end": 109.958,
+    "type": "word",
+    "src": "w380"
+  },
+  {
+    "id": "w381",
+    "text": "a",
+    "start": 109.958,
+    "end": 110.005,
+    "type": "word",
+    "src": "w381"
+  },
+  {
+    "id": "w382",
+    "text": "clear",
+    "start": 110.005,
+    "end": 110.324,
+    "type": "word",
+    "src": "w382"
+  },
+  {
+    "id": "w383",
+    "text": "answer,",
+    "start": 110.324,
+    "end": 110.662,
+    "type": "word",
+    "src": "w383"
+  },
+  {
+    "id": "w384",
+    "text": "great.",
+    "start": 110.662,
+    "end": 111.103,
+    "type": "word",
+    "src": "w384"
+  },
+  {
+    "id": "w385",
+    "text": "If",
+    "start": 111.121,
+    "end": 111.225,
+    "type": "word",
+    "src": "w385"
+  },
+  {
+    "id": "w386",
+    "text": "they",
+    "start": 111.225,
+    "end": 111.468,
+    "type": "word",
+    "src": "w386"
+  },
+  {
+    "id": "w387",
+    "text": "hesitate,",
+    "start": 111.468,
+    "end": 112.078,
+    "type": "word",
+    "src": "w387"
+  },
+  {
+    "id": "w388",
+    "text": "do",
+    "start": 112.078,
+    "end": 112.2,
+    "type": "word",
+    "src": "w388"
+  },
+  {
+    "id": "w389",
+    "text": "not",
+    "start": 112.2,
+    "end": 112.36,
+    "type": "word",
+    "src": "w389"
+  },
+  {
+    "id": "w390",
+    "text": "react.",
+    "start": 112.36,
+    "end": 112.885,
+    "type": "word",
+    "src": "w390"
+  },
+  {
+    "id": "w391",
+    "text": "Just",
+    "start": 112.885,
+    "end": 113.11,
+    "type": "word",
+    "src": "w391"
+  },
+  {
+    "id": "w392",
+    "text": "say",
+    "start": 113.11,
+    "end": 113.279,
+    "type": "word",
+    "src": "w392"
+  },
+  {
+    "id": "w393",
+    "text": "thank",
+    "start": 113.279,
+    "end": 113.56,
+    "type": "word",
+    "src": "w393"
+  },
+  {
+    "id": "w394",
+    "text": "you",
+    "start": 113.56,
+    "end": 113.729,
+    "type": "word",
+    "src": "w394"
+  },
+  {
+    "id": "w395",
+    "text": "and",
+    "start": 113.729,
+    "end": 113.898,
+    "type": "word",
+    "src": "w395"
+  },
+  {
+    "id": "w396",
+    "text": "note",
+    "start": 113.898,
+    "end": 114.123,
+    "type": "word",
+    "src": "w396"
+  },
+  {
+    "id": "w397",
+    "text": "it",
+    "start": 114.123,
+    "end": 114.348,
+    "type": "word",
+    "src": "w397"
+  },
+  {
+    "id": "w398",
+    "text": "in",
+    "start": 114.348,
+    "end": 114.395,
+    "type": "word",
+    "src": "w398"
+  },
+  {
+    "id": "w399",
+    "text": "your",
+    "start": 114.395,
+    "end": 114.648,
+    "type": "word",
+    "src": "w399"
+  },
+  {
+    "id": "w400",
+    "text": "mind.",
+    "start": 114.648,
+    "end": 115.005,
+    "type": "word",
+    "src": "w400"
+  },
+  {
+    "id": "w401",
+    "text": "Stay",
+    "start": 115.005,
+    "end": 115.314,
+    "type": "word",
+    "src": "w401"
+  },
+  {
+    "id": "w402",
+    "text": "polite.",
+    "start": 115.314,
+    "end": 115.943,
+    "type": "word",
+    "src": "w402"
+  },
+  {
+    "id": "w403",
+    "text": "You",
+    "start": 115.943,
+    "end": 116.065,
+    "type": "word",
+    "src": "w403"
+  },
+  {
+    "id": "w404",
+    "text": "are",
+    "start": 116.065,
+    "end": 116.187,
+    "type": "word",
+    "src": "w404"
+  },
+  {
+    "id": "w405",
+    "text": "not",
+    "start": 116.187,
+    "end": 116.309,
+    "type": "word",
+    "src": "w405"
+  },
+  {
+    "id": "w406",
+    "text": "testing",
+    "start": 116.309,
+    "end": 116.59,
+    "type": "word",
+    "src": "w406"
+  },
+  {
+    "id": "w407",
+    "text": "them.",
+    "start": 116.59,
+    "end": 116.881,
+    "type": "word",
+    "src": "w407"
+  },
+  {
+    "id": "w408",
+    "text": "You",
+    "start": 116.881,
+    "end": 117.059,
+    "type": "word",
+    "src": "w408"
+  },
+  {
+    "id": "w409",
+    "text": "are",
+    "start": 117.059,
+    "end": 117.237,
+    "type": "word",
+    "src": "w409"
+  },
+  {
+    "id": "w410",
+    "text": "showing",
+    "start": 117.237,
+    "end": 117.65,
+    "type": "word",
+    "src": "w410"
+  },
+  {
+    "id": "w411",
+    "text": "interest.",
+    "start": 117.65,
+    "end": 118.306,
+    "type": "word",
+    "src": "w411"
+  },
+  {
+    "id": "w412",
+    "text": "Question",
+    "start": 118.753,
+    "end": 119.059,
+    "type": "word",
+    "src": "w412"
+  },
+  {
+    "id": "w413",
+    "text": "number",
+    "start": 119.059,
+    "end": 119.288,
+    "type": "word",
+    "src": "w413"
+  },
+  {
+    "id": "w414",
+    "text": "three.",
+    "start": 119.288,
+    "end": 119.602,
+    "type": "word",
+    "src": "w414"
+  },
+  {
+    "id": "w415",
+    "text": "The",
+    "start": 119.602,
+    "end": 119.789,
+    "type": "word",
+    "src": "w415"
+  },
+  {
+    "id": "w416",
+    "text": "simplest",
+    "start": 119.789,
+    "end": 120.29,
+    "type": "word",
+    "src": "w416"
+  },
+  {
+    "id": "w417",
+    "text": "and",
+    "start": 120.29,
+    "end": 120.477,
+    "type": "word",
+    "src": "w417"
+  },
+  {
+    "id": "w418",
+    "text": "the",
+    "start": 120.477,
+    "end": 120.664,
+    "type": "word",
+    "src": "w418"
+  },
+  {
+    "id": "w419",
+    "text": "most",
+    "start": 120.664,
+    "end": 121.199,
+    "type": "word",
+    "src": "w419"
+  },
+  {
+    "id": "w420",
+    "text": "useful.",
+    "start": 121.199,
+    "end": 121.488,
+    "type": "word",
+    "src": "w420"
+  },
+  {
+    "id": "w421",
+    "text": "What",
+    "start": 121.973,
+    "end": 122.228,
+    "type": "word",
+    "src": "w421"
+  },
+  {
+    "id": "w422",
+    "text": "are",
+    "start": 122.228,
+    "end": 122.416,
+    "type": "word",
+    "src": "w422"
+  },
+  {
+    "id": "w423",
+    "text": "the",
+    "start": 122.416,
+    "end": 122.605,
+    "type": "word",
+    "src": "w423"
+  },
+  {
+    "id": "w424",
+    "text": "next",
+    "start": 122.605,
+    "end": 122.86,
+    "type": "word",
+    "src": "w424"
+  },
+  {
+    "id": "w425",
+    "text": "steps",
+    "start": 122.86,
+    "end": 123.162,
+    "type": "word",
+    "src": "w425"
+  },
+  {
+    "id": "w426",
+    "text": "in",
+    "start": 123.162,
+    "end": 123.492,
+    "type": "word",
+    "src": "w426"
+  },
+  {
+    "id": "w427",
+    "text": "the",
+    "start": 123.492,
+    "end": 123.747,
+    "type": "word",
+    "src": "w427"
+  },
+  {
+    "id": "w428",
+    "text": "process",
+    "start": 123.747,
+    "end": 123.945,
+    "type": "word",
+    "src": "w428"
+  },
+  {
+    "id": "w429",
+    "text": "and",
+    "start": 123.945,
+    "end": 124.134,
+    "type": "word",
+    "src": "w429"
+  },
+  {
+    "id": "w430",
+    "text": "when",
+    "start": 124.134,
+    "end": 124.389,
+    "type": "word",
+    "src": "w430"
+  },
+  {
+    "id": "w431",
+    "text": "can",
+    "start": 124.389,
+    "end": 124.577,
+    "type": "word",
+    "src": "w431"
+  },
+  {
+    "id": "w432",
+    "text": "I",
+    "start": 124.577,
+    "end": 124.681,
+    "type": "word",
+    "src": "w432"
+  },
+  {
+    "id": "w433",
+    "text": "expect",
+    "start": 124.681,
+    "end": 125.03,
+    "type": "word",
+    "src": "w433"
+  },
+  {
+    "id": "w434",
+    "text": "to",
+    "start": 125.03,
+    "end": 125.144,
+    "type": "word",
+    "src": "w434"
+  },
+  {
+    "id": "w435",
+    "text": "hear",
+    "start": 125.144,
+    "end": 125.398,
+    "type": "word",
+    "src": "w435"
+  },
+  {
+    "id": "w436",
+    "text": "from",
+    "start": 125.398,
+    "end": 125.653,
+    "type": "word",
+    "src": "w436"
+  },
+  {
+    "id": "w437",
+    "text": "you?",
+    "start": 125.653,
+    "end": 126.125,
+    "type": "word",
+    "src": "w437"
+  },
+  {
+    "id": "w438",
+    "text": "This",
+    "start": 126.125,
+    "end": 126.361,
+    "type": "word",
+    "src": "w438"
+  },
+  {
+    "id": "w439",
+    "text": "one",
+    "start": 126.361,
+    "end": 126.54,
+    "type": "word",
+    "src": "w439"
+  },
+  {
+    "id": "w440",
+    "text": "is",
+    "start": 126.54,
+    "end": 126.653,
+    "type": "word",
+    "src": "w440"
+  },
+  {
+    "id": "w441",
+    "text": "practical.",
+    "start": 126.653,
+    "end": 127.389,
+    "type": "word",
+    "src": "w441"
+  },
+  {
+    "id": "w442",
+    "text": "It",
+    "start": 127.389,
+    "end": 127.521,
+    "type": "word",
+    "src": "w442"
+  },
+  {
+    "id": "w443",
+    "text": "tells",
+    "start": 127.521,
+    "end": 127.842,
+    "type": "word",
+    "src": "w443"
+  },
+  {
+    "id": "w444",
+    "text": "you",
+    "start": 127.842,
+    "end": 128.031,
+    "type": "word",
+    "src": "w444"
+  },
+  {
+    "id": "w445",
+    "text": "whether",
+    "start": 128.031,
+    "end": 128.484,
+    "type": "word",
+    "src": "w445"
+  },
+  {
+    "id": "w446",
+    "text": "to",
+    "start": 128.484,
+    "end": 128.616,
+    "type": "word",
+    "src": "w446"
+  },
+  {
+    "id": "w447",
+    "text": "expect",
+    "start": 128.616,
+    "end": 129.163,
+    "type": "word",
+    "src": "w447"
+  },
+  {
+    "id": "w448",
+    "text": "another",
+    "start": 129.163,
+    "end": 129.456,
+    "type": "word",
+    "src": "w448"
+  },
+  {
+    "id": "w449",
+    "text": "round,",
+    "start": 129.456,
+    "end": 129.899,
+    "type": "word",
+    "src": "w449"
+  },
+  {
+    "id": "w450",
+    "text": "a",
+    "start": 129.899,
+    "end": 129.965,
+    "type": "word",
+    "src": "w450"
+  },
+  {
+    "id": "w451",
+    "text": "document",
+    "start": 129.965,
+    "end": 130.484,
+    "type": "word",
+    "src": "w451"
+  },
+  {
+    "id": "w452",
+    "text": "check",
+    "start": 130.484,
+    "end": 130.805,
+    "type": "word",
+    "src": "w452"
+  },
+  {
+    "id": "w453",
+    "text": "or",
+    "start": 130.805,
+    "end": 130.89,
+    "type": "word",
+    "src": "w453"
+  },
+  {
+    "id": "w454",
+    "text": "an",
+    "start": 130.89,
+    "end": 131.334,
+    "type": "word",
+    "src": "w454"
+  },
+  {
+    "id": "w455",
+    "text": "offer",
+    "start": 131.334,
+    "end": 131.428,
+    "type": "word",
+    "src": "w455"
+  },
+  {
+    "id": "w456",
+    "text": "mail.",
+    "start": 131.428,
+    "end": 131.938,
+    "type": "word",
+    "src": "w456"
+  },
+  {
+    "id": "w457",
+    "text": "And",
+    "start": 131.938,
+    "end": 132.107,
+    "type": "word",
+    "src": "w457"
+  },
+  {
+    "id": "w458",
+    "text": "it",
+    "start": 132.107,
+    "end": 132.249,
+    "type": "word",
+    "src": "w458"
+  },
+  {
+    "id": "w459",
+    "text": "shows",
+    "start": 132.249,
+    "end": 132.513,
+    "type": "word",
+    "src": "w459"
+  },
+  {
+    "id": "w460",
+    "text": "you",
+    "start": 132.513,
+    "end": 132.702,
+    "type": "word",
+    "src": "w460"
+  },
+  {
+    "id": "w461",
+    "text": "are",
+    "start": 132.702,
+    "end": 132.853,
+    "type": "word",
+    "src": "w461"
+  },
+  {
+    "id": "w462",
+    "text": "organised.",
+    "start": 132.853,
+    "end": 133.598,
+    "type": "word",
+    "src": "w462"
+  },
+  {
+    "id": "w463",
+    "text": "You",
+    "start": 133.598,
+    "end": 133.815,
+    "type": "word",
+    "src": "w463"
+  },
+  {
+    "id": "w464",
+    "text": "also",
+    "start": 133.815,
+    "end": 134.108,
+    "type": "word",
+    "src": "w464"
+  },
+  {
+    "id": "w465",
+    "text": "stop",
+    "start": 134.108,
+    "end": 134.4,
+    "type": "word",
+    "src": "w465"
+  },
+  {
+    "id": "w466",
+    "text": "refreshing",
+    "start": 134.4,
+    "end": 135.372,
+    "type": "word",
+    "src": "w466"
+  },
+  {
+    "id": "w467",
+    "text": "your",
+    "start": 135.372,
+    "end": 135.429,
+    "type": "word",
+    "src": "w467"
+  },
+  {
+    "id": "w468",
+    "text": "inbox",
+    "start": 135.429,
+    "end": 135.787,
+    "type": "word",
+    "src": "w468"
+  },
+  {
+    "id": "w469",
+    "text": "every",
+    "start": 135.787,
+    "end": 136.155,
+    "type": "word",
+    "src": "w469"
+  },
+  {
+    "id": "w470",
+    "text": "hour",
+    "start": 136.155,
+    "end": 136.448,
+    "type": "word",
+    "src": "w470"
+  },
+  {
+    "id": "w471",
+    "text": "because",
+    "start": 136.448,
+    "end": 136.958,
+    "type": "word",
+    "src": "w471"
+  },
+  {
+    "id": "w472",
+    "text": "now",
+    "start": 136.958,
+    "end": 137.109,
+    "type": "word",
+    "src": "w472"
+  },
+  {
+    "id": "w473",
+    "text": "you",
+    "start": 137.109,
+    "end": 137.552,
+    "type": "word",
+    "src": "w473"
+  },
+  {
+    "id": "w474",
+    "text": "know",
+    "start": 137.552,
+    "end": 137.684,
+    "type": "word",
+    "src": "w474"
+  },
+  {
+    "id": "w475",
+    "text": "the",
+    "start": 137.684,
+    "end": 137.901,
+    "type": "word",
+    "src": "w475"
+  },
+  {
+    "id": "w476",
+    "text": "timeline.",
+    "start": 137.901,
+    "end": 138.75,
+    "type": "word",
+    "src": "w476"
+  },
+  {
+    "id": "w477",
+    "text": "Write",
+    "start": 139.207,
+    "end": 139.442,
+    "type": "word",
+    "src": "w477"
+  },
+  {
+    "id": "w478",
+    "text": "down",
+    "start": 139.442,
+    "end": 139.649,
+    "type": "word",
+    "src": "w478"
+  },
+  {
+    "id": "w479",
+    "text": "what",
+    "start": 139.649,
+    "end": 139.856,
+    "type": "word",
+    "src": "w479"
+  },
+  {
+    "id": "w480",
+    "text": "they",
+    "start": 139.856,
+    "end": 140.062,
+    "type": "word",
+    "src": "w480"
+  },
+  {
+    "id": "w481",
+    "text": "say",
+    "start": 140.062,
+    "end": 140.213,
+    "type": "word",
+    "src": "w481"
+  },
+  {
+    "id": "w482",
+    "text": "if",
+    "start": 140.213,
+    "end": 140.316,
+    "type": "word",
+    "src": "w482"
+  },
+  {
+    "id": "w483",
+    "text": "they",
+    "start": 140.316,
+    "end": 140.673,
+    "type": "word",
+    "src": "w483"
+  },
+  {
+    "id": "w484",
+    "text": "say",
+    "start": 140.673,
+    "end": 140.955,
+    "type": "word",
+    "src": "w484"
+  },
+  {
+    "id": "w485",
+    "text": "within",
+    "start": 140.955,
+    "end": 140.993,
+    "type": "word",
+    "src": "w485"
+  },
+  {
+    "id": "w486",
+    "text": "a",
+    "start": 140.983,
+    "end": 141.03,
+    "type": "word",
+    "src": "w486"
+  },
+  {
+    "id": "w487",
+    "text": "week",
+    "start": 141.03,
+    "end": 141.237,
+    "type": "word",
+    "src": "w487"
+  },
+  {
+    "id": "w488",
+    "text": "and",
+    "start": 141.237,
+    "end": 141.388,
+    "type": "word",
+    "src": "w488"
+  },
+  {
+    "id": "w489",
+    "text": "nothing",
+    "start": 141.388,
+    "end": 141.745,
+    "type": "word",
+    "src": "w489"
+  },
+  {
+    "id": "w490",
+    "text": "comes",
+    "start": 141.745,
+    "end": 141.998,
+    "type": "word",
+    "src": "w490"
+  },
+  {
+    "id": "w491",
+    "text": "in",
+    "start": 141.998,
+    "end": 142.102,
+    "type": "word",
+    "src": "w491"
+  },
+  {
+    "id": "w492",
+    "text": "eight",
+    "start": 142.102,
+    "end": 142.356,
+    "type": "word",
+    "src": "w492"
+  },
+  {
+    "id": "w493",
+    "text": "days.",
+    "start": 142.356,
+    "end": 142.797,
+    "type": "word",
+    "src": "w493"
+  },
+  {
+    "id": "w494",
+    "text": "You",
+    "start": 142.797,
+    "end": 142.976,
+    "type": "word",
+    "src": "w494"
+  },
+  {
+    "id": "w495",
+    "text": "can",
+    "start": 142.976,
+    "end": 143.155,
+    "type": "word",
+    "src": "w495"
+  },
+  {
+    "id": "w496",
+    "text": "send",
+    "start": 143.155,
+    "end": 143.39,
+    "type": "word",
+    "src": "w496"
+  },
+  {
+    "id": "w497",
+    "text": "one",
+    "start": 143.39,
+    "end": 143.568,
+    "type": "word",
+    "src": "w497"
+  },
+  {
+    "id": "w498",
+    "text": "polite",
+    "start": 143.568,
+    "end": 143.925,
+    "type": "word",
+    "src": "w498"
+  },
+  {
+    "id": "w499",
+    "text": "follow",
+    "start": 143.925,
+    "end": 144.254,
+    "type": "word",
+    "src": "w499"
+  },
+  {
+    "id": "w500",
+    "text": "up",
+    "start": 144.254,
+    "end": 144.564,
+    "type": "word",
+    "src": "w500"
+  },
+  {
+    "id": "w501",
+    "text": "mail.",
+    "start": 144.564,
+    "end": 144.846,
+    "type": "word",
+    "src": "w501"
+  },
+  {
+    "id": "w502",
+    "text": "That",
+    "start": 144.846,
+    "end": 145.016,
+    "type": "word",
+    "src": "w502"
+  },
+  {
+    "id": "w503",
+    "text": "is",
+    "start": 145.016,
+    "end": 145.1,
+    "type": "word",
+    "src": "w503"
+  },
+  {
+    "id": "w504",
+    "text": "perfectly",
+    "start": 145.1,
+    "end": 145.476,
+    "type": "word",
+    "src": "w504"
+  },
+  {
+    "id": "w505",
+    "text": "fine.",
+    "start": 145.476,
+    "end": 145.786,
+    "type": "word",
+    "src": "w505"
+  },
+  {
+    "id": "w506",
+    "text": "Three",
+    "start": 145.786,
+    "end": 146.096,
+    "type": "word",
+    "src": "w506"
+  },
+  {
+    "id": "w507",
+    "text": "questions.",
+    "start": 146.096,
+    "end": 146.726,
+    "type": "word",
+    "src": "w507"
+  },
+  {
+    "id": "w508",
+    "text": "The",
+    "start": 146.726,
+    "end": 146.895,
+    "type": "word",
+    "src": "w508"
+  },
+  {
+    "id": "w509",
+    "text": "work,",
+    "start": 146.895,
+    "end": 147.243,
+    "type": "word",
+    "src": "w509"
+  },
+  {
+    "id": "w510",
+    "text": "the",
+    "start": 147.243,
+    "end": 147.412,
+    "type": "word",
+    "src": "w510"
+  },
+  {
+    "id": "w511",
+    "text": "learning",
+    "start": 147.412,
+    "end": 147.882,
+    "type": "word",
+    "src": "w511"
+  },
+  {
+    "id": "w512",
+    "text": "and",
+    "start": 147.882,
+    "end": 148.221,
+    "type": "word",
+    "src": "w512"
+  },
+  {
+    "id": "w513",
+    "text": "the",
+    "start": 148.221,
+    "end": 148.455,
+    "type": "word",
+    "src": "w513"
+  },
+  {
+    "id": "w514",
+    "text": "next",
+    "start": 148.455,
+    "end": 148.502,
+    "type": "word",
+    "src": "w514"
+  },
+  {
+    "id": "w515",
+    "text": "step.",
+    "start": 148.502,
+    "end": 148.925,
+    "type": "word",
+    "src": "w515"
+  },
+  {
+    "id": "w516",
+    "text": "Remember",
+    "start": 148.925,
+    "end": 149.283,
+    "type": "word",
+    "src": "w516"
+  },
+  {
+    "id": "w517",
+    "text": "these",
+    "start": 149.283,
+    "end": 149.499,
+    "type": "word",
+    "src": "w517"
+  },
+  {
+    "id": "w518",
+    "text": "three.",
+    "start": 149.499,
+    "end": 149.865,
+    "type": "word",
+    "src": "w518"
+  },
+  {
+    "id": "w519",
+    "text": "Now",
+    "start": 149.865,
+    "end": 149.997,
+    "type": "word",
+    "src": "w519"
+  },
+  {
+    "id": "w520",
+    "text": "the",
+    "start": 149.997,
+    "end": 150.128,
+    "type": "word",
+    "src": "w520"
+  },
+  {
+    "id": "w521",
+    "text": "questions",
+    "start": 150.128,
+    "end": 150.533,
+    "type": "word",
+    "src": "w521"
+  },
+  {
+    "id": "w522",
+    "text": "to",
+    "start": 150.533,
+    "end": 150.627,
+    "type": "word",
+    "src": "w522"
+  },
+  {
+    "id": "w523",
+    "text": "avoid.",
+    "start": 150.627,
+    "end": 150.993,
+    "type": "word",
+    "src": "w523"
+  },
+  {
+    "id": "w524",
+    "text": "The",
+    "start": 150.993,
+    "end": 151.228,
+    "type": "word",
+    "src": "w524"
+  },
+  {
+    "id": "w525",
+    "text": "third",
+    "start": 151.228,
+    "end": 151.623,
+    "type": "word",
+    "src": "w525"
+  },
+  {
+    "id": "w526",
+    "text": "mistake",
+    "start": 151.623,
+    "end": 152.177,
+    "type": "word",
+    "src": "w526"
+  },
+  {
+    "id": "w527",
+    "text": "I",
+    "start": 152.177,
+    "end": 152.76,
+    "type": "word",
+    "src": "w527"
+  },
+  {
+    "id": "w528",
+    "text": "promised.",
+    "start": 152.76,
+    "end": 153.174,
+    "type": "word",
+    "src": "w528"
+  },
+  {
+    "id": "w529",
+    "text": "First",
+    "start": 153.633,
+    "end": 153.958,
+    "type": "word",
+    "src": "w529"
+  },
+  {
+    "id": "w530",
+    "text": "do",
+    "start": 153.958,
+    "end": 154.082,
+    "type": "word",
+    "src": "w530"
+  },
+  {
+    "id": "w531",
+    "text": "not",
+    "start": 154.082,
+    "end": 154.273,
+    "type": "word",
+    "src": "w531"
+  },
+  {
+    "id": "w532",
+    "text": "ask",
+    "start": 154.273,
+    "end": 154.464,
+    "type": "word",
+    "src": "w532"
+  },
+  {
+    "id": "w533",
+    "text": "about",
+    "start": 154.464,
+    "end": 154.788,
+    "type": "word",
+    "src": "w533"
+  },
+  {
+    "id": "w534",
+    "text": "salary.",
+    "start": 154.788,
+    "end": 155.39,
+    "type": "word",
+    "src": "w534"
+  },
+  {
+    "id": "w535",
+    "text": "Leave",
+    "start": 155.39,
+    "end": 155.705,
+    "type": "word",
+    "src": "w535"
+  },
+  {
+    "id": "w536",
+    "text": "or",
+    "start": 155.705,
+    "end": 155.771,
+    "type": "word",
+    "src": "w536"
+  },
+  {
+    "id": "w537",
+    "text": "work",
+    "start": 155.771,
+    "end": 155.991,
+    "type": "word",
+    "src": "w537"
+  },
+  {
+    "id": "w538",
+    "text": "from",
+    "start": 155.991,
+    "end": 156.21,
+    "type": "word",
+    "src": "w538"
+  },
+  {
+    "id": "w539",
+    "text": "home",
+    "start": 156.21,
+    "end": 156.43,
+    "type": "word",
+    "src": "w539"
+  },
+  {
+    "id": "w540",
+    "text": "in",
+    "start": 156.43,
+    "end": 156.535,
+    "type": "word",
+    "src": "w540"
+  },
+  {
+    "id": "w541",
+    "text": "a",
+    "start": 156.535,
+    "end": 156.583,
+    "type": "word",
+    "src": "w541"
+  },
+  {
+    "id": "w542",
+    "text": "first",
+    "start": 156.583,
+    "end": 157.136,
+    "type": "word",
+    "src": "w542"
+  },
+  {
+    "id": "w543",
+    "text": "round.",
+    "start": 157.136,
+    "end": 157.337,
+    "type": "word",
+    "src": "w543"
+  },
+  {
+    "id": "w544",
+    "text": "There",
+    "start": 157.337,
+    "end": 157.652,
+    "type": "word",
+    "src": "w544"
+  },
+  {
+    "id": "w545",
+    "text": "is",
+    "start": 157.652,
+    "end": 157.776,
+    "type": "word",
+    "src": "w545"
+  },
+  {
+    "id": "w546",
+    "text": "a",
+    "start": 157.776,
+    "end": 157.833,
+    "type": "word",
+    "src": "w546"
+  },
+  {
+    "id": "w547",
+    "text": "time",
+    "start": 157.833,
+    "end": 158.11,
+    "type": "word",
+    "src": "w547"
+  },
+  {
+    "id": "w548",
+    "text": "for",
+    "start": 158.11,
+    "end": 158.272,
+    "type": "word",
+    "src": "w548"
+  },
+  {
+    "id": "w549",
+    "text": "that",
+    "start": 158.272,
+    "end": 158.52,
+    "type": "word",
+    "src": "w549"
+  },
+  {
+    "id": "w550",
+    "text": "after",
+    "start": 158.52,
+    "end": 158.816,
+    "type": "word",
+    "src": "w550"
+  },
+  {
+    "id": "w551",
+    "text": "you",
+    "start": 158.816,
+    "end": 159.131,
+    "type": "word",
+    "src": "w551"
+  },
+  {
+    "id": "w552",
+    "text": "have",
+    "start": 159.131,
+    "end": 159.274,
+    "type": "word",
+    "src": "w552"
+  },
+  {
+    "id": "w553",
+    "text": "an",
+    "start": 159.274,
+    "end": 159.398,
+    "type": "word",
+    "src": "w553"
+  },
+  {
+    "id": "w554",
+    "text": "offer.",
+    "start": 159.398,
+    "end": 159.971,
+    "type": "word",
+    "src": "w554"
+  },
+  {
+    "id": "w555",
+    "text": "Asking",
+    "start": 159.971,
+    "end": 160.315,
+    "type": "word",
+    "src": "w555"
+  },
+  {
+    "id": "w556",
+    "text": "too",
+    "start": 160.315,
+    "end": 160.486,
+    "type": "word",
+    "src": "w556"
+  },
+  {
+    "id": "w557",
+    "text": "early",
+    "start": 160.486,
+    "end": 160.773,
+    "type": "word",
+    "src": "w557"
+  },
+  {
+    "id": "w558",
+    "text": "sounds",
+    "start": 160.773,
+    "end": 161.116,
+    "type": "word",
+    "src": "w558"
+  },
+  {
+    "id": "w559",
+    "text": "like",
+    "start": 161.116,
+    "end": 161.431,
+    "type": "word",
+    "src": "w559"
+  },
+  {
+    "id": "w560",
+    "text": "you",
+    "start": 161.431,
+    "end": 161.746,
+    "type": "word",
+    "src": "w560"
+  },
+  {
+    "id": "w561",
+    "text": "care",
+    "start": 161.746,
+    "end": 161.785,
+    "type": "word",
+    "src": "w561"
+  },
+  {
+    "id": "w562",
+    "text": "only",
+    "start": 161.775,
+    "end": 161.975,
+    "type": "word",
+    "src": "w562"
+  },
+  {
+    "id": "w563",
+    "text": "about",
+    "start": 161.975,
+    "end": 162.29,
+    "type": "word",
+    "src": "w563"
+  },
+  {
+    "id": "w564",
+    "text": "benefits.",
+    "start": 162.29,
+    "end": 162.949,
+    "type": "word",
+    "src": "w564"
+  },
+  {
+    "id": "w565",
+    "text": "Second",
+    "start": 162.949,
+    "end": 163.274,
+    "type": "word",
+    "src": "w565"
+  },
+  {
+    "id": "w566",
+    "text": "do",
+    "start": 163.274,
+    "end": 163.379,
+    "type": "word",
+    "src": "w566"
+  },
+  {
+    "id": "w567",
+    "text": "not",
+    "start": 163.379,
+    "end": 163.541,
+    "type": "word",
+    "src": "w567"
+  },
+  {
+    "id": "w568",
+    "text": "ask",
+    "start": 163.541,
+    "end": 163.722,
+    "type": "word",
+    "src": "w568"
+  },
+  {
+    "id": "w569",
+    "text": "something",
+    "start": 163.722,
+    "end": 164.18,
+    "type": "word",
+    "src": "w569"
+  },
+  {
+    "id": "w570",
+    "text": "the",
+    "start": 164.18,
+    "end": 164.724,
+    "type": "word",
+    "src": "w570"
+  },
+  {
+    "id": "w571",
+    "text": "company",
+    "start": 164.724,
+    "end": 164.762,
+    "type": "word",
+    "src": "w571"
+  },
+  {
+    "id": "w572",
+    "text": "website",
+    "start": 164.753,
+    "end": 165.097,
+    "type": "word",
+    "src": "w572"
+  },
+  {
+    "id": "w573",
+    "text": "already",
+    "start": 165.097,
+    "end": 165.469,
+    "type": "word",
+    "src": "w573"
+  },
+  {
+    "id": "w574",
+    "text": "answers.",
+    "start": 165.469,
+    "end": 166.041,
+    "type": "word",
+    "src": "w574"
+  },
+  {
+    "id": "w575",
+    "text": "Like",
+    "start": 166.041,
+    "end": 166.251,
+    "type": "word",
+    "src": "w575"
+  },
+  {
+    "id": "w576",
+    "text": "what",
+    "start": 166.251,
+    "end": 166.461,
+    "type": "word",
+    "src": "w576"
+  },
+  {
+    "id": "w577",
+    "text": "does",
+    "start": 166.461,
+    "end": 166.671,
+    "type": "word",
+    "src": "w577"
+  },
+  {
+    "id": "w578",
+    "text": "your",
+    "start": 166.671,
+    "end": 166.881,
+    "type": "word",
+    "src": "w578"
+  },
+  {
+    "id": "w579",
+    "text": "company",
+    "start": 166.881,
+    "end": 167.235,
+    "type": "word",
+    "src": "w579"
+  },
+  {
+    "id": "w580",
+    "text": "do?",
+    "start": 167.235,
+    "end": 167.511,
+    "type": "word",
+    "src": "w580"
+  },
+  {
+    "id": "w581",
+    "text": "That",
+    "start": 167.53,
+    "end": 167.826,
+    "type": "word",
+    "src": "w581"
+  },
+  {
+    "id": "w582",
+    "text": "shows",
+    "start": 167.826,
+    "end": 168.132,
+    "type": "word",
+    "src": "w582"
+  },
+  {
+    "id": "w583",
+    "text": "you",
+    "start": 168.132,
+    "end": 168.342,
+    "type": "word",
+    "src": "w583"
+  },
+  {
+    "id": "w584",
+    "text": "did",
+    "start": 168.342,
+    "end": 168.552,
+    "type": "word",
+    "src": "w584"
+  },
+  {
+    "id": "w585",
+    "text": "no",
+    "start": 168.552,
+    "end": 168.685,
+    "type": "word",
+    "src": "w585"
+  },
+  {
+    "id": "w586",
+    "text": "homework.",
+    "start": 168.685,
+    "end": 169.478,
+    "type": "word",
+    "src": "w586"
+  },
+  {
+    "id": "w587",
+    "text": "And",
+    "start": 169.933,
+    "end": 170.135,
+    "type": "word",
+    "src": "w587"
+  },
+  {
+    "id": "w588",
+    "text": "the",
+    "start": 170.135,
+    "end": 170.336,
+    "type": "word",
+    "src": "w588"
+  },
+  {
+    "id": "w589",
+    "text": "third",
+    "start": 170.336,
+    "end": 170.672,
+    "type": "word",
+    "src": "w589"
+  },
+  {
+    "id": "w590",
+    "text": "mistake",
+    "start": 170.672,
+    "end": 171.133,
+    "type": "word",
+    "src": "w590"
+  },
+  {
+    "id": "w591",
+    "text": "the",
+    "start": 171.133,
+    "end": 171.344,
+    "type": "word",
+    "src": "w591"
+  },
+  {
+    "id": "w592",
+    "text": "one",
+    "start": 171.344,
+    "end": 171.737,
+    "type": "word",
+    "src": "w592"
+  },
+  {
+    "id": "w593",
+    "text": "almost",
+    "start": 171.737,
+    "end": 171.948,
+    "type": "word",
+    "src": "w593"
+  },
+  {
+    "id": "w594",
+    "text": "every",
+    "start": 171.948,
+    "end": 172.284,
+    "type": "word",
+    "src": "w594"
+  },
+  {
+    "id": "w595",
+    "text": "fresher",
+    "start": 172.284,
+    "end": 172.754,
+    "type": "word",
+    "src": "w595"
+  },
+  {
+    "id": "w596",
+    "text": "makes.",
+    "start": 172.754,
+    "end": 173.311,
+    "type": "word",
+    "src": "w596"
+  },
+  {
+    "id": "w597",
+    "text": "Asking",
+    "start": 173.311,
+    "end": 173.628,
+    "type": "word",
+    "src": "w597"
+  },
+  {
+    "id": "w598",
+    "text": "a",
+    "start": 173.628,
+    "end": 173.666,
+    "type": "word",
+    "src": "w598"
+  },
+  {
+    "id": "w599",
+    "text": "question",
+    "start": 173.656,
+    "end": 174.088,
+    "type": "word",
+    "src": "w599"
+  },
+  {
+    "id": "w600",
+    "text": "you",
+    "start": 174.088,
+    "end": 174.223,
+    "type": "word",
+    "src": "w600"
+  },
+  {
+    "id": "w601",
+    "text": "already",
+    "start": 174.223,
+    "end": 174.578,
+    "type": "word",
+    "src": "w601"
+  },
+  {
+    "id": "w602",
+    "text": "know",
+    "start": 174.578,
+    "end": 174.76,
+    "type": "word",
+    "src": "w602"
+  },
+  {
+    "id": "w603",
+    "text": "just",
+    "start": 174.76,
+    "end": 175.077,
+    "type": "word",
+    "src": "w603"
+  },
+  {
+    "id": "w604",
+    "text": "to",
+    "start": 175.077,
+    "end": 175.125,
+    "type": "word",
+    "src": "w604"
+  },
+  {
+    "id": "w605",
+    "text": "fill",
+    "start": 175.125,
+    "end": 175.278,
+    "type": "word",
+    "src": "w605"
+  },
+  {
+    "id": "w606",
+    "text": "the",
+    "start": 175.278,
+    "end": 175.47,
+    "type": "word",
+    "src": "w606"
+  },
+  {
+    "id": "w607",
+    "text": "silence.",
+    "start": 175.47,
+    "end": 175.998,
+    "type": "word",
+    "src": "w607"
+  },
+  {
+    "id": "w608",
+    "text": "Like",
+    "start": 175.998,
+    "end": 176.238,
+    "type": "word",
+    "src": "w608"
+  },
+  {
+    "id": "w609",
+    "text": "how",
+    "start": 176.238,
+    "end": 176.42,
+    "type": "word",
+    "src": "w609"
+  },
+  {
+    "id": "w610",
+    "text": "is",
+    "start": 176.42,
+    "end": 176.535,
+    "type": "word",
+    "src": "w610"
+  },
+  {
+    "id": "w611",
+    "text": "the",
+    "start": 176.535,
+    "end": 176.717,
+    "type": "word",
+    "src": "w611"
+  },
+  {
+    "id": "w612",
+    "text": "culture",
+    "start": 176.717,
+    "end": 177.149,
+    "type": "word",
+    "src": "w612"
+  },
+  {
+    "id": "w613",
+    "text": "here?",
+    "start": 177.149,
+    "end": 177.61,
+    "type": "word",
+    "src": "w613"
+  },
+  {
+    "id": "w614",
+    "text": "It",
+    "start": 177.61,
+    "end": 177.725,
+    "type": "word",
+    "src": "w614"
+  },
+  {
+    "id": "w615",
+    "text": "sounds",
+    "start": 177.725,
+    "end": 178.09,
+    "type": "word",
+    "src": "w615"
+  },
+  {
+    "id": "w616",
+    "text": "copied",
+    "start": 178.09,
+    "end": 178.454,
+    "type": "word",
+    "src": "w616"
+  },
+  {
+    "id": "w617",
+    "text": "because",
+    "start": 178.454,
+    "end": 178.876,
+    "type": "word",
+    "src": "w617"
+  },
+  {
+    "id": "w618",
+    "text": "it",
+    "start": 178.876,
+    "end": 179.107,
+    "type": "word",
+    "src": "w618"
+  },
+  {
+    "id": "w619",
+    "text": "is.",
+    "start": 179.107,
+    "end": 179.337,
+    "type": "word",
+    "src": "w619"
+  },
+  {
+    "id": "w620",
+    "text": "Interviewers",
+    "start": 179.337,
+    "end": 180.124,
+    "type": "word",
+    "src": "w620"
+  },
+  {
+    "id": "w621",
+    "text": "hear",
+    "start": 180.124,
+    "end": 180.383,
+    "type": "word",
+    "src": "w621"
+  },
+  {
+    "id": "w622",
+    "text": "it",
+    "start": 180.383,
+    "end": 180.508,
+    "type": "word",
+    "src": "w622"
+  },
+  {
+    "id": "w623",
+    "text": "all",
+    "start": 180.508,
+    "end": 180.882,
+    "type": "word",
+    "src": "w623"
+  },
+  {
+    "id": "w624",
+    "text": "day.",
+    "start": 180.882,
+    "end": 181.141,
+    "type": "word",
+    "src": "w624"
+  },
+  {
+    "id": "w625",
+    "text": "Ask",
+    "start": 181.141,
+    "end": 181.314,
+    "type": "word",
+    "src": "w625"
+  },
+  {
+    "id": "w626",
+    "text": "something",
+    "start": 181.314,
+    "end": 181.832,
+    "type": "word",
+    "src": "w626"
+  },
+  {
+    "id": "w627",
+    "text": "about",
+    "start": 181.832,
+    "end": 182.12,
+    "type": "word",
+    "src": "w627"
+  },
+  {
+    "id": "w628",
+    "text": "the",
+    "start": 182.12,
+    "end": 182.293,
+    "type": "word",
+    "src": "w628"
+  },
+  {
+    "id": "w629",
+    "text": "real",
+    "start": 182.293,
+    "end": 182.609,
+    "type": "word",
+    "src": "w629"
+  },
+  {
+    "id": "w630",
+    "text": "work",
+    "start": 182.609,
+    "end": 182.945,
+    "type": "word",
+    "src": "w630"
+  },
+  {
+    "id": "w631",
+    "text": "instead.",
+    "start": 182.945,
+    "end": 183.367,
+    "type": "word",
+    "src": "w631"
+  },
+  {
+    "id": "w632",
+    "text": "A",
+    "start": 183.833,
+    "end": 183.917,
+    "type": "word",
+    "src": "w632"
+  },
+  {
+    "id": "w633",
+    "text": "good",
+    "start": 183.917,
+    "end": 184.251,
+    "type": "word",
+    "src": "w633"
+  },
+  {
+    "id": "w634",
+    "text": "test.",
+    "start": 184.251,
+    "end": 184.837,
+    "type": "word",
+    "src": "w634"
+  },
+  {
+    "id": "w635",
+    "text": "Before",
+    "start": 184.837,
+    "end": 185.143,
+    "type": "word",
+    "src": "w635"
+  },
+  {
+    "id": "w636",
+    "text": "you",
+    "start": 185.143,
+    "end": 185.282,
+    "type": "word",
+    "src": "w636"
+  },
+  {
+    "id": "w637",
+    "text": "ask,",
+    "start": 185.282,
+    "end": 185.524,
+    "type": "word",
+    "src": "w637"
+  },
+  {
+    "id": "w638",
+    "text": "think,",
+    "start": 185.524,
+    "end": 185.868,
+    "type": "word",
+    "src": "w638"
+  },
+  {
+    "id": "w639",
+    "text": "would",
+    "start": 185.868,
+    "end": 186.165,
+    "type": "word",
+    "src": "w639"
+  },
+  {
+    "id": "w640",
+    "text": "I",
+    "start": 186.165,
+    "end": 186.258,
+    "type": "word",
+    "src": "w640"
+  },
+  {
+    "id": "w641",
+    "text": "really",
+    "start": 186.258,
+    "end": 186.583,
+    "type": "word",
+    "src": "w641"
+  },
+  {
+    "id": "w642",
+    "text": "want",
+    "start": 186.583,
+    "end": 186.657,
+    "type": "word",
+    "src": "w642"
+  },
+  {
+    "id": "w643",
+    "text": "to",
+    "start": 186.657,
+    "end": 186.75,
+    "type": "word",
+    "src": "w643"
+  },
+  {
+    "id": "w644",
+    "text": "know",
+    "start": 186.75,
+    "end": 186.945,
+    "type": "word",
+    "src": "w644"
+  },
+  {
+    "id": "w645",
+    "text": "this",
+    "start": 186.945,
+    "end": 187.14,
+    "type": "word",
+    "src": "w645"
+  },
+  {
+    "id": "w646",
+    "text": "answer?",
+    "start": 187.14,
+    "end": 187.66,
+    "type": "word",
+    "src": "w646"
+  },
+  {
+    "id": "w647",
+    "text": "If",
+    "start": 187.66,
+    "end": 187.818,
+    "type": "word",
+    "src": "w647"
+  },
+  {
+    "id": "w648",
+    "text": "yes,",
+    "start": 187.818,
+    "end": 188.208,
+    "type": "word",
+    "src": "w648"
+  },
+  {
+    "id": "w649",
+    "text": "ask.",
+    "start": 188.208,
+    "end": 188.701,
+    "type": "word",
+    "src": "w649"
+  },
+  {
+    "id": "w650",
+    "text": "If",
+    "start": 188.701,
+    "end": 188.849,
+    "type": "word",
+    "src": "w650"
+  },
+  {
+    "id": "w651",
+    "text": "no,",
+    "start": 188.849,
+    "end": 189.147,
+    "type": "word",
+    "src": "w651"
+  },
+  {
+    "id": "w652",
+    "text": "skip",
+    "start": 189.147,
+    "end": 189.453,
+    "type": "word",
+    "src": "w652"
+  },
+  {
+    "id": "w653",
+    "text": "it.",
+    "start": 189.453,
+    "end": 189.852,
+    "type": "word",
+    "src": "w653"
+  },
+  {
+    "id": "w654",
+    "text": "So",
+    "start": 189.852,
+    "end": 189.973,
+    "type": "word",
+    "src": "w654"
+  },
+  {
+    "id": "w655",
+    "text": "to",
+    "start": 189.973,
+    "end": 190.094,
+    "type": "word",
+    "src": "w655"
+  },
+  {
+    "id": "w656",
+    "text": "sum",
+    "start": 190.094,
+    "end": 190.27,
+    "type": "word",
+    "src": "w656"
+  },
+  {
+    "id": "w657",
+    "text": "up,",
+    "start": 190.27,
+    "end": 190.512,
+    "type": "word",
+    "src": "w657"
+  },
+  {
+    "id": "w658",
+    "text": "when",
+    "start": 190.512,
+    "end": 190.754,
+    "type": "word",
+    "src": "w658"
+  },
+  {
+    "id": "w659",
+    "text": "they",
+    "start": 190.754,
+    "end": 190.995,
+    "type": "word",
+    "src": "w659"
+  },
+  {
+    "id": "w660",
+    "text": "ask,",
+    "start": 190.995,
+    "end": 191.292,
+    "type": "word",
+    "src": "w660"
+  },
+  {
+    "id": "w661",
+    "text": "if",
+    "start": 191.292,
+    "end": 191.589,
+    "type": "word",
+    "src": "w661"
+  },
+  {
+    "id": "w662",
+    "text": "you",
+    "start": 191.589,
+    "end": 191.627,
+    "type": "word",
+    "src": "w662"
+  },
+  {
+    "id": "w663",
+    "text": "have",
+    "start": 191.608,
+    "end": 191.831,
+    "type": "word",
+    "src": "w663"
+  },
+  {
+    "id": "w664",
+    "text": "questions,",
+    "start": 191.831,
+    "end": 192.518,
+    "type": "word",
+    "src": "w664"
+  },
+  {
+    "id": "w665",
+    "text": "never",
+    "start": 192.518,
+    "end": 192.788,
+    "type": "word",
+    "src": "w665"
+  },
+  {
+    "id": "w666",
+    "text": "say",
+    "start": 192.788,
+    "end": 192.964,
+    "type": "word",
+    "src": "w666"
+  },
+  {
+    "id": "w667",
+    "text": "no.",
+    "start": 192.964,
+    "end": 193.308,
+    "type": "word",
+    "src": "w667"
+  },
+  {
+    "id": "w668",
+    "text": "Ask",
+    "start": 193.308,
+    "end": 193.484,
+    "type": "word",
+    "src": "w668"
+  },
+  {
+    "id": "w669",
+    "text": "about",
+    "start": 193.484,
+    "end": 193.782,
+    "type": "word",
+    "src": "w669"
+  },
+  {
+    "id": "w670",
+    "text": "the",
+    "start": 193.782,
+    "end": 193.958,
+    "type": "word",
+    "src": "w670"
+  },
+  {
+    "id": "w671",
+    "text": "work,",
+    "start": 193.958,
+    "end": 194.293,
+    "type": "word",
+    "src": "w671"
+  },
+  {
+    "id": "w672",
+    "text": "ask",
+    "start": 194.293,
+    "end": 194.478,
+    "type": "word",
+    "src": "w672"
+  },
+  {
+    "id": "w673",
+    "text": "about",
+    "start": 194.478,
+    "end": 195.054,
+    "type": "word",
+    "src": "w673"
+  },
+  {
+    "id": "w674",
+    "text": "learning",
+    "start": 195.054,
+    "end": 195.249,
+    "type": "word",
+    "src": "w674"
+  },
+  {
+    "id": "w675",
+    "text": "and",
+    "start": 195.249,
+    "end": 195.426,
+    "type": "word",
+    "src": "w675"
+  },
+  {
+    "id": "w676",
+    "text": "ask",
+    "start": 195.426,
+    "end": 195.602,
+    "type": "word",
+    "src": "w676"
+  },
+  {
+    "id": "w677",
+    "text": "about",
+    "start": 195.602,
+    "end": 195.974,
+    "type": "word",
+    "src": "w677"
+  },
+  {
+    "id": "w678",
+    "text": "the",
+    "start": 195.974,
+    "end": 196.076,
+    "type": "word",
+    "src": "w678"
+  },
+  {
+    "id": "w679",
+    "text": "next",
+    "start": 196.076,
+    "end": 196.317,
+    "type": "word",
+    "src": "w679"
+  },
+  {
+    "id": "w680",
+    "text": "step.",
+    "start": 196.317,
+    "end": 196.763,
+    "type": "word",
+    "src": "w680"
+  },
+  {
+    "id": "w681",
+    "text": "Avoid",
+    "start": 196.782,
+    "end": 197.135,
+    "type": "word",
+    "src": "w681"
+  },
+  {
+    "id": "w682",
+    "text": "salary,",
+    "start": 197.135,
+    "end": 197.729,
+    "type": "word",
+    "src": "w682"
+  },
+  {
+    "id": "w683",
+    "text": "avoid",
+    "start": 197.729,
+    "end": 198.51,
+    "type": "word",
+    "src": "w683"
+  },
+  {
+    "id": "w684",
+    "text": "website",
+    "start": 198.51,
+    "end": 198.621,
+    "type": "word",
+    "src": "w684"
+  },
+  {
+    "id": "w685",
+    "text": "questions",
+    "start": 198.621,
+    "end": 199.29,
+    "type": "word",
+    "src": "w685"
+  },
+  {
+    "id": "w686",
+    "text": "and",
+    "start": 199.29,
+    "end": 199.513,
+    "type": "word",
+    "src": "w686"
+  },
+  {
+    "id": "w687",
+    "text": "avoid",
+    "start": 199.513,
+    "end": 199.884,
+    "type": "word",
+    "src": "w687"
+  },
+  {
+    "id": "w688",
+    "text": "copied",
+    "start": 199.884,
+    "end": 200.646,
+    "type": "word",
+    "src": "w688"
+  },
+  {
+    "id": "w689",
+    "text": "lines.",
+    "start": 200.646,
+    "end": 200.962,
+    "type": "word",
+    "src": "w689"
+  },
+  {
+    "id": "w690",
+    "text": "Now",
+    "start": 201.44,
+    "end": 201.635,
+    "type": "word",
+    "src": "w690"
+  },
+  {
+    "id": "w691",
+    "text": "I",
+    "start": 201.635,
+    "end": 201.699,
+    "type": "word",
+    "src": "w691"
+  },
+  {
+    "id": "w692",
+    "text": "want",
+    "start": 201.699,
+    "end": 201.959,
+    "type": "word",
+    "src": "w692"
+  },
+  {
+    "id": "w693",
+    "text": "to",
+    "start": 201.959,
+    "end": 202.088,
+    "type": "word",
+    "src": "w693"
+  },
+  {
+    "id": "w694",
+    "text": "hear",
+    "start": 202.088,
+    "end": 202.348,
+    "type": "word",
+    "src": "w694"
+  },
+  {
+    "id": "w695",
+    "text": "from",
+    "start": 202.348,
+    "end": 202.598,
+    "type": "word",
+    "src": "w695"
+  },
+  {
+    "id": "w696",
+    "text": "you",
+    "start": 202.598,
+    "end": 202.802,
+    "type": "word",
+    "src": "w696"
+  },
+  {
+    "id": "w697",
+    "text": "guys.",
+    "start": 202.802,
+    "end": 203.293,
+    "type": "word",
+    "src": "w697"
+  },
+  {
+    "id": "w698",
+    "text": "Comment",
+    "start": 203.293,
+    "end": 203.654,
+    "type": "word",
+    "src": "w698"
+  },
+  {
+    "id": "w699",
+    "text": "the",
+    "start": 203.654,
+    "end": 203.812,
+    "type": "word",
+    "src": "w699"
+  },
+  {
+    "id": "w700",
+    "text": "question",
+    "start": 203.812,
+    "end": 204.229,
+    "type": "word",
+    "src": "w700"
+  },
+  {
+    "id": "w701",
+    "text": "you",
+    "start": 204.229,
+    "end": 204.386,
+    "type": "word",
+    "src": "w701"
+  },
+  {
+    "id": "w702",
+    "text": "plan",
+    "start": 204.386,
+    "end": 204.692,
+    "type": "word",
+    "src": "w702"
+  },
+  {
+    "id": "w703",
+    "text": "to",
+    "start": 204.692,
+    "end": 204.729,
+    "type": "word",
+    "src": "w703"
+  },
+  {
+    "id": "w704",
+    "text": "ask",
+    "start": 204.692,
+    "end": 204.859,
+    "type": "word",
+    "src": "w704"
+  },
+  {
+    "id": "w705",
+    "text": "in",
+    "start": 204.859,
+    "end": 205.035,
+    "type": "word",
+    "src": "w705"
+  },
+  {
+    "id": "w706",
+    "text": "your",
+    "start": 205.035,
+    "end": 205.155,
+    "type": "word",
+    "src": "w706"
+  },
+  {
+    "id": "w707",
+    "text": "next",
+    "start": 205.155,
+    "end": 205.368,
+    "type": "word",
+    "src": "w707"
+  },
+  {
+    "id": "w708",
+    "text": "interview",
+    "start": 205.368,
+    "end": 205.831,
+    "type": "word",
+    "src": "w708"
+  },
+  {
+    "id": "w709",
+    "text": "and",
+    "start": 206.188,
+    "end": 206.337,
+    "type": "word",
+    "src": "w709"
+  },
+  {
+    "id": "w710",
+    "text": "I",
+    "start": 206.337,
+    "end": 206.381,
+    "type": "word",
+    "src": "w710"
+  },
+  {
+    "id": "w711",
+    "text": "will",
+    "start": 206.381,
+    "end": 206.574,
+    "type": "word",
+    "src": "w711"
+  },
+  {
+    "id": "w712",
+    "text": "tell",
+    "start": 206.574,
+    "end": 206.758,
+    "type": "word",
+    "src": "w712"
+  },
+  {
+    "id": "w713",
+    "text": "you",
+    "start": 206.758,
+    "end": 206.915,
+    "type": "word",
+    "src": "w713"
+  },
+  {
+    "id": "w714",
+    "text": "if",
+    "start": 206.915,
+    "end": 207.012,
+    "type": "word",
+    "src": "w714"
+  },
+  {
+    "id": "w715",
+    "text": "it",
+    "start": 207.012,
+    "end": 207.064,
+    "type": "word",
+    "src": "w715"
+  },
+  {
+    "id": "w716",
+    "text": "works.",
+    "start": 207.064,
+    "end": 207.573,
+    "type": "word",
+    "src": "w716"
+  },
+  {
+    "id": "w717",
+    "text": "If",
+    "start": 207.573,
+    "end": 207.678,
+    "type": "word",
+    "src": "w717"
+  },
+  {
+    "id": "w718",
+    "text": "this",
+    "start": 207.678,
+    "end": 207.897,
+    "type": "word",
+    "src": "w718"
+  },
+  {
+    "id": "w719",
+    "text": "helped,",
+    "start": 207.897,
+    "end": 208.335,
+    "type": "word",
+    "src": "w719"
+  },
+  {
+    "id": "w720",
+    "text": "like",
+    "start": 208.335,
+    "end": 208.554,
+    "type": "word",
+    "src": "w720"
+  },
+  {
+    "id": "w721",
+    "text": "the",
+    "start": 208.554,
+    "end": 208.72,
+    "type": "word",
+    "src": "w721"
+  },
+  {
+    "id": "w722",
+    "text": "video",
+    "start": 208.72,
+    "end": 208.992,
+    "type": "word",
+    "src": "w722"
+  },
+  {
+    "id": "w723",
+    "text": "and",
+    "start": 208.992,
+    "end": 209.228,
+    "type": "word",
+    "src": "w723"
+  },
+  {
+    "id": "w724",
+    "text": "subscribe",
+    "start": 209.65,
+    "end": 210.13,
+    "type": "word",
+    "src": "w724"
+  },
+  {
+    "id": "w725",
+    "text": "so",
+    "start": 210.13,
+    "end": 210.25,
+    "type": "word",
+    "src": "w725"
+  },
+  {
+    "id": "w726",
+    "text": "you",
+    "start": 210.25,
+    "end": 210.44,
+    "type": "word",
+    "src": "w726"
+  },
+  {
+    "id": "w727",
+    "text": "don't",
+    "start": 210.44,
+    "end": 210.75,
+    "type": "word",
+    "src": "w727"
+  },
+  {
+    "id": "w728",
+    "text": "miss",
+    "start": 210.75,
+    "end": 211,
+    "type": "word",
+    "src": "w728"
+  },
+  {
+    "id": "w729",
+    "text": "the",
+    "start": 211,
+    "end": 211.26,
+    "type": "word",
+    "src": "w729"
+  },
+  {
+    "id": "w730",
+    "text": "next",
+    "start": 211.26,
+    "end": 211.44,
+    "type": "word",
+    "src": "w730"
+  },
+  {
+    "id": "w731",
+    "text": "update.",
+    "start": 211.44,
+    "end": 211.88,
+    "type": "word",
+    "src": "w731"
+  }
+]
