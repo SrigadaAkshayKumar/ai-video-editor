@@ -1,0 +1,98 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "title_slide: Joining bonus: free money?"
+  },
+  {
+   "time": 11.88,
+   "sfx": "riser",
+   "gain": 2,
+   "reason": "checklist: Four checks"
+  },
+  {
+   "time": 23.02,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: What a joining bonus is"
+  },
+  {
+   "time": 37.58,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "quote_pull: Most of the time, this money is not a gift"
+  },
+  {
+   "time": 43.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: How a clawback works"
+  },
+  {
+   "time": 60.59,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: The four checks"
+  },
+  {
+   "time": 66.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "timeline: When does the clock start?"
+  },
+  {
+   "time": 83.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "bar_chart: Example only: leave after 4 months"
+  },
+  {
+   "time": 99.93,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Check 3: tax"
+  },
+  {
+   "time": 103.68,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "quote_pull: Salary includes fees, commissions, perquisites and profits"
+  },
+  {
+   "time": 117.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: The mistake"
+  },
+  {
+   "time": 136.14,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Check 4: the paper trail"
+  },
+  {
+   "time": 145.65,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: What to do this week"
+  },
+  {
+   "time": 182.8,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: In short"
+  },
+  {
+   "time": 186.28,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "fact_band: Recap"
+  }
+ ]
+}

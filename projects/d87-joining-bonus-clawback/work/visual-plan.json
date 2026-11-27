@@ -1,0 +1,672 @@
+{
+ "style": "glass",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 3.85,
+   "type": "title_slide",
+   "text": "Joining bonus: free money?",
+   "eyebrow": "Crack IT · Day 87",
+   "style_hint": "the clause that can make you pay it back"
+  },
+  {
+   "start": 4.6,
+   "duration": 2.7,
+   "type": "keyword_chip",
+   "text": "One line can make you repay",
+   "side": "right"
+  },
+  {
+   "start": 11.8,
+   "duration": 6.2,
+   "type": "checklist",
+   "side": "right",
+   "text": "Four checks",
+   "items": [
+    {
+     "label": "Stay period",
+     "state": "yes"
+    },
+    {
+     "label": "Repay amount",
+     "state": "yes"
+    },
+    {
+     "label": "Tax",
+     "state": "yes"
+    },
+    {
+     "label": "Paper trail",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 18.6,
+   "duration": 3.8,
+   "type": "side_note",
+   "text": "And one costly mistake",
+   "side": "right"
+  },
+  {
+   "start": 22.94,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "What a joining bonus is",
+   "eyebrow": "The basics",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 27,
+   "duration": 4.4,
+   "type": "keyword_chip",
+   "text": "Sign-on · joining · relocation",
+   "side": "right"
+  },
+  {
+   "start": 32.3,
+   "duration": 4.3,
+   "type": "side_note",
+   "text": "Relocation bonus covers your move",
+   "side": "right"
+  },
+  {
+   "start": 37.5,
+   "duration": 4.8,
+   "type": "quote_pull",
+   "text": "Most of the time, this money is not a gift",
+   "eyebrow": "The catch"
+  },
+  {
+   "start": 43,
+   "duration": 8.9,
+   "type": "flow_diagram",
+   "text": "How a clawback works",
+   "items": [
+    {
+     "label": "Offer accepted",
+     "sublabel": ""
+    },
+    {
+     "label": "Bonus paid",
+     "sublabel": ""
+    },
+    {
+     "label": "Stay period",
+     "sublabel": ""
+    },
+    {
+     "label": "Leave early",
+     "sublabel": "repay"
+    }
+   ]
+  },
+  {
+   "start": 53,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "Clawback = pay back",
+   "side": "right"
+  },
+  {
+   "start": 56.8,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Many offers have no bonus",
+   "side": "right"
+  },
+  {
+   "start": 60.51,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "The four checks",
+   "eyebrow": "Checks 1 and 2",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 66,
+   "duration": 9.6,
+   "type": "timeline",
+   "side": "right",
+   "text": "When does the clock start?",
+   "items": [
+    {
+     "label": "Offer date",
+     "sublabel": "?"
+    },
+    {
+     "label": "First day at work",
+     "sublabel": "?"
+    },
+    {
+     "label": "Month 12",
+     "sublabel": "stay ends"
+    }
+   ]
+  },
+  {
+   "start": 76.6,
+   "duration": 5.2,
+   "type": "keyword_chip",
+   "text": "Check 2: how much you repay",
+   "side": "right"
+  },
+  {
+   "start": 83,
+   "duration": 11.4,
+   "type": "bar_chart",
+   "side": "right",
+   "text": "Example only: leave after 4 months",
+   "items": [
+    {
+     "label": "Repay everything",
+     "value": 50000
+    },
+    {
+     "label": "Remaining 8 months",
+     "value": 33000
+    }
+   ]
+  },
+  {
+   "start": 95.2,
+   "duration": 4.1,
+   "type": "keyword_chip",
+   "text": "Example only: wording matters",
+   "side": "right"
+  },
+  {
+   "start": 99.85,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Check 3: tax",
+   "eyebrow": "Check 3",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 103.6,
+   "duration": 6.4,
+   "type": "quote_pull",
+   "text": "Salary includes fees, commissions, perquisites and profits",
+   "eyebrow": "Income-tax Act, 1961 · section 17"
+  },
+  {
+   "start": 111.4,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "Taxed with your salary",
+   "side": "right"
+  },
+  {
+   "start": 117,
+   "duration": 10.5,
+   "type": "flow_diagram",
+   "text": "The mistake",
+   "items": [
+    {
+     "label": "Offer letter",
+     "sublabel": "full bonus"
+    },
+    {
+     "label": "Tax cut",
+     "sublabel": "before you get it"
+    },
+    {
+     "label": "In hand",
+     "sublabel": "less"
+    },
+    {
+     "label": "Repay full amount",
+     "sublabel": "more than received"
+    }
+   ]
+  },
+  {
+   "start": 128,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "Ask a chartered accountant",
+   "side": "right"
+  },
+  {
+   "start": 132.6,
+   "duration": 3.2,
+   "type": "side_note",
+   "text": "Do not guess",
+   "side": "right"
+  },
+  {
+   "start": 136.06,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Check 4: the paper trail",
+   "eyebrow": "Check 4",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 139.8,
+   "duration": 5.5,
+   "type": "checklist",
+   "side": "right",
+   "text": "Where is it written?",
+   "items": [
+    {
+     "label": "In the offer letter",
+     "state": "yes"
+    },
+    {
+     "label": "Or a separate agreement",
+     "state": "yes"
+    },
+    {
+     "label": "Only said on a call",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 145.57,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "What to do this week",
+   "eyebrow": "This week",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 149,
+   "duration": 4.4,
+   "type": "checklist",
+   "side": "right",
+   "text": "Search your letter",
+   "items": [
+    {
+     "label": "bonus",
+     "state": "yes"
+    },
+    {
+     "label": "recovery",
+     "state": "yes"
+    },
+    {
+     "label": "repay",
+     "state": "yes"
+    },
+    {
+     "label": "retention",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 154,
+   "duration": 7.5,
+   "type": "quote_pull",
+   "text": "Could you please confirm when the stay period starts and how repayment is calculated?",
+   "eyebrow": "Sample email to HR"
+  },
+  {
+   "start": 162,
+   "duration": 6.9,
+   "type": "checklist",
+   "side": "right",
+   "text": "Ask HR three questions",
+   "items": [
+    {
+     "label": "When does the period start?",
+     "state": "yes"
+    },
+    {
+     "label": "How is repayment worked out?",
+     "state": "yes"
+    },
+    {
+     "label": "Paid before or after joining?",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 170,
+   "duration": 5.3,
+   "type": "big_statement",
+   "text": "Unclear? Do not sign in a hurry.",
+   "eyebrow": "wait"
+  },
+  {
+   "start": 176.2,
+   "duration": 5.8,
+   "type": "side_note",
+   "text": "Never pay anyone to get a bonus",
+   "side": "right"
+  },
+  {
+   "start": 182.72,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "In short",
+   "eyebrow": "Recap",
+   "numeral": "06",
+   "section": 5
+  },
+  {
+   "start": 186.2,
+   "duration": 9.3,
+   "type": "fact_band",
+   "text": "Recap",
+   "items": [
+    {
+     "label": "Stay period",
+     "sublabel": "check"
+    },
+    {
+     "label": "Repay amount",
+     "sublabel": "check"
+    },
+    {
+     "label": "Tax + paper",
+     "sublabel": "check"
+    }
+   ]
+  },
+  {
+   "start": 196.5,
+   "duration": 3.9,
+   "type": "big_statement",
+   "text": "Bonus, relocation or bond?",
+   "eyebrow": "comment"
+  },
+  {
+   "start": 201,
+   "duration": 4.6,
+   "type": "keyword_chip",
+   "text": "Like · Subscribe",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/cash.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 11.34,
+   "index": 0
+  },
+  {
+   "start": 11.34,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 2,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 22.94,
+   "index": 1
+  },
+  {
+   "start": 22.94,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 31.92,
+   "index": 2
+  },
+  {
+   "start": 31.92,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 4,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 37.23,
+   "index": 3
+  },
+  {
+   "start": 37.23,
+   "kind": "broll",
+   "src": "assets/broll/contract.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 44.8,
+   "index": 4
+  },
+  {
+   "start": 44.8,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 8,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 52.39,
+   "index": 5
+  },
+  {
+   "start": 52.39,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "MOSTLY NONE",
+    "label": "many campus offers have no bonus"
+   },
+   "end": 60.51,
+   "index": 6
+  },
+  {
+   "start": 60.51,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 14,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 68.2,
+   "index": 7
+  },
+  {
+   "start": 68.2,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 11,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 76.02,
+   "index": 8
+  },
+  {
+   "start": 76.02,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 82.5,
+   "index": 9
+  },
+  {
+   "start": 82.5,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "EXAMPLE",
+    "label": "₹50,000 · 12-month stay"
+   },
+   "end": 88.6,
+   "index": 10
+  },
+  {
+   "start": 88.6,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "₹33,000",
+    "label": "pro rata: remaining 8 months"
+   },
+   "end": 94.72,
+   "index": 11
+  },
+  {
+   "start": 94.72,
+   "kind": "broll",
+   "src": "assets/broll/cash.mp4",
+   "media_start": 9,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 99.85,
+   "index": 12
+  },
+  {
+   "start": 99.85,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 111,
+   "index": 13
+  },
+  {
+   "start": 111,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 11,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 115.38,
+   "index": 14
+  },
+  {
+   "start": 115.38,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 126.5,
+   "index": 15
+  },
+  {
+   "start": 126.5,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 2,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 136.06,
+   "index": 16
+  },
+  {
+   "start": 136.06,
+   "kind": "broll",
+   "src": "assets/broll/contract.mp4",
+   "media_start": 3,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 145.57,
+   "index": 17
+  },
+  {
+   "start": 145.57,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 152,
+   "index": 18
+  },
+  {
+   "start": 152,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "IN WRITING",
+    "label": "ask HR by email"
+   },
+   "end": 158,
+   "index": 19
+  },
+  {
+   "start": 158,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 22,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 169.33,
+   "index": 20
+  },
+  {
+   "start": 169.33,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "UNCLEAR?",
+    "label": "do not sign in a hurry"
+   },
+   "end": 175.65,
+   "index": 21
+  },
+  {
+   "start": 175.65,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 3,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 182.72,
+   "index": 22
+  },
+  {
+   "start": 182.72,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 189.5,
+   "index": 23
+  },
+  {
+   "start": 189.5,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "4 CHECKS",
+    "label": "period · amount · tax · paper"
+   },
+   "end": 196.5,
+   "index": 24
+  },
+  {
+   "start": 196.5,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 30,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 200.73,
+   "index": 25
+  },
+  {
+   "start": 200.73,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CRACK IT",
+    "label": "like · subscribe"
+   },
+   "end": 206.03,
+   "index": 26
+  }
+ ],
+ "camera_moves": []
+}
