@@ -1,0 +1,745 @@
+{
+ "style": "glass",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 3.85,
+   "type": "title_slide",
+   "text": "Wrong date on EPFO?",
+   "eyebrow": "Crack IT · Day 69",
+   "style_hint": "Check it before your background check"
+  },
+  {
+   "start": 4.5,
+   "duration": 4.3,
+   "type": "side_note",
+   "text": "One wrong date = stuck joining",
+   "side": "right"
+  },
+  {
+   "start": 9.9,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "Switching after year one?",
+   "side": "right"
+  },
+  {
+   "start": 14.2,
+   "duration": 5.4,
+   "type": "keyword_chip",
+   "text": "Which date? Where? How to fix?",
+   "side": "right"
+  },
+  {
+   "start": 20.8,
+   "duration": 3.5,
+   "type": "side_note",
+   "text": "The two-month rule",
+   "side": "right"
+  },
+  {
+   "start": 24.86,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "The date of exit",
+   "eyebrow": "The basics",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 28.4,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Last day in your PF record",
+   "side": "right"
+  },
+  {
+   "start": 32.3,
+   "duration": 8,
+   "type": "flow_diagram",
+   "text": "Where the date lives",
+   "items": [
+    {
+     "label": "Old employer",
+     "sublabel": "enters it"
+    },
+    {
+     "label": "EPFO record",
+     "sublabel": ""
+    },
+    {
+     "label": "PF transfer",
+     "sublabel": "+ background check"
+    }
+   ]
+  },
+  {
+   "start": 41.4,
+   "duration": 7.2,
+   "type": "side_note",
+   "text": "No exit at all, or the wrong day",
+   "side": "right"
+  },
+  {
+   "start": 51.9,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "PF transfer needs it",
+   "side": "right"
+  },
+  {
+   "start": 56.2,
+   "duration": 4.6,
+   "type": "keyword_chip",
+   "text": "Background check sees the mismatch",
+   "side": "right"
+  },
+  {
+   "start": 61.33,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "What goes wrong",
+   "eyebrow": "Ravi's story (an example)",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 65,
+   "duration": 14.5,
+   "type": "timeline",
+   "side": "right",
+   "text": "Ravi's dates (example)",
+   "items": [
+    {
+     "label": "31 Mar",
+     "sublabel": "leaves old job"
+    },
+    {
+     "label": "Exit never marked",
+     "sublabel": "record stays open"
+    },
+    {
+     "label": "April",
+     "sublabel": "joins new company"
+    },
+    {
+     "label": "Overlap",
+     "sublabel": "two jobs at once"
+    }
+   ]
+  },
+  {
+   "start": 80.6,
+   "duration": 7.4,
+   "type": "quote_pull",
+   "text": "Overlapping exit dates delayed people's joining",
+   "eyebrow": "Reported by Mint, July 2026"
+  },
+  {
+   "start": 90.3,
+   "duration": 7.5,
+   "type": "side_note",
+   "text": "A record you cannot see was left open",
+   "side": "right"
+  },
+  {
+   "start": 98.55,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Step 1: check it",
+   "eyebrow": "Look first",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 102,
+   "duration": 10.5,
+   "type": "checklist",
+   "side": "right",
+   "text": "Check in five minutes",
+   "items": [
+    {
+     "label": "Log in with UAN",
+     "state": "yes"
+    },
+    {
+     "label": "Open service history",
+     "state": "yes"
+    },
+    {
+     "label": "Compare with relieving letter",
+     "state": "yes"
+    },
+    {
+     "label": "And last salary slip",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 114,
+   "duration": 5.5,
+   "type": "keyword_chip",
+   "text": "Missing or wrong? Go to step 2",
+   "side": "right"
+  },
+  {
+   "start": 121,
+   "duration": 10.5,
+   "type": "quote_pull",
+   "text": "Never share your UAN password, Aadhaar or PAN with a caller",
+   "eyebrow": "EPFO warns members"
+  },
+  {
+   "start": 132.76,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Step 2: fix it",
+   "eyebrow": "Do it yourself",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 136.5,
+   "duration": 11,
+   "type": "flow_diagram",
+   "text": "Mark your own exit",
+   "items": [
+    {
+     "label": "Manage tab",
+     "sublabel": ""
+    },
+    {
+     "label": "Mark Exit",
+     "sublabel": "reason + date"
+    },
+    {
+     "label": "Aadhaar OTP",
+     "sublabel": "verify"
+    }
+   ]
+  },
+  {
+   "start": 149.5,
+   "duration": 6,
+   "type": "keyword_chip",
+   "text": "Check no date is already marked",
+   "side": "right"
+  },
+  {
+   "start": 157,
+   "duration": 5.8,
+   "type": "number_roll",
+   "value": 2,
+   "suffix": " months",
+   "text": "must pass after you leave the job"
+  },
+  {
+   "start": 164,
+   "duration": 8,
+   "type": "checklist",
+   "side": "right",
+   "text": "Before you mark it",
+   "items": [
+    {
+     "label": "Active UAN",
+     "state": "yes"
+    },
+    {
+     "label": "Linked to Aadhaar",
+     "state": "yes"
+    },
+    {
+     "label": "Mobile in hand",
+     "state": "yes"
+    },
+    {
+     "label": "Date in last contribution month",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 173.3,
+   "duration": 5.7,
+   "type": "side_note",
+   "text": "Wrong date already there? Joint Declaration",
+   "side": "right"
+  },
+  {
+   "start": 179.5,
+   "duration": 4.7,
+   "type": "keyword_chip",
+   "text": "Employer approves online",
+   "side": "right"
+  },
+  {
+   "start": 184.87,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Your plan",
+   "eyebrow": "What to do",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 188.2,
+   "duration": 9.3,
+   "type": "timeline",
+   "side": "right",
+   "text": "Your plan",
+   "items": [
+    {
+     "label": "Before resigning",
+     "sublabel": "save your letters and slips"
+    },
+    {
+     "label": "When you leave",
+     "sublabel": "ask employer to mark exit"
+    },
+    {
+     "label": "Two months later",
+     "sublabel": "check service history"
+    },
+    {
+     "label": "If wrong",
+     "sublabel": "fix before new BGV"
+    }
+   ]
+  },
+  {
+   "start": 198,
+   "duration": 4.5,
+   "type": "keyword_chip",
+   "text": "Do it before the new check starts",
+   "side": "right"
+  },
+  {
+   "start": 202.98,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "The trap is waiting",
+   "eyebrow": "Don't wait",
+   "numeral": "06",
+   "section": 5
+  },
+  {
+   "start": 206.4,
+   "duration": 6.1,
+   "type": "side_note",
+   "text": "Insufficiency mail = lost days",
+   "side": "right"
+  },
+  {
+   "start": 213,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "Stuck? EPFO grievance system",
+   "side": "right"
+  },
+  {
+   "start": 217.6,
+   "duration": 7.9,
+   "type": "fact_band",
+   "text": "Recap",
+   "items": [
+    {
+     "label": "Check exit date",
+     "sublabel": "1"
+    },
+    {
+     "label": "Match your letter",
+     "sublabel": "2"
+    },
+    {
+     "label": "Fix after 2 months",
+     "sublabel": "3"
+    }
+   ]
+  },
+  {
+   "start": 226.6,
+   "duration": 6.9,
+   "type": "big_statement",
+   "text": "Have you checked your PF service history?",
+   "eyebrow": "yes or no"
+  },
+  {
+   "start": 234.2,
+   "duration": 4.1,
+   "type": "keyword_chip",
+   "text": "Like · Subscribe",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 1,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 4.14,
+   "index": 0
+  },
+  {
+   "start": 4.14,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 6,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 9.37,
+   "index": 1
+  },
+  {
+   "start": 9.37,
+   "kind": "broll",
+   "src": "assets/broll/woman.mp4",
+   "media_start": 2,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 13.6,
+   "index": 2
+  },
+  {
+   "start": 13.6,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "??/??/????",
+    "label": "which date?"
+   },
+   "end": 20.47,
+   "index": 3
+  },
+  {
+   "start": 20.47,
+   "kind": "broll",
+   "src": "assets/broll/keys.mp4",
+   "media_start": 1,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 24.86,
+   "index": 4
+  },
+  {
+   "start": 24.86,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "DATE OF EXIT",
+    "label": "the day your service ended"
+   },
+   "end": 31.92,
+   "index": 5
+  },
+  {
+   "start": 31.92,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 22,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 40.98,
+   "index": 6
+  },
+  {
+   "start": 40.98,
+   "kind": "broll",
+   "src": "assets/broll/letter.mp4",
+   "media_start": 4,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 49.16,
+   "index": 7
+  },
+  {
+   "start": 49.16,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "2 THINGS",
+    "label": "why you should care"
+   },
+   "end": 55.59,
+   "index": 8
+  },
+  {
+   "start": 55.59,
+   "kind": "broll",
+   "src": "assets/broll/phone.mp4",
+   "media_start": 2,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 61.33,
+   "index": 9
+  },
+  {
+   "start": 61.33,
+   "kind": "broll",
+   "src": "assets/broll/watch.mp4",
+   "media_start": 1,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 67.74,
+   "index": 10
+  },
+  {
+   "start": 67.74,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 74.5,
+   "index": 11
+  },
+  {
+   "start": 74.5,
+   "kind": "broll",
+   "src": "assets/broll/keys.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 80.23,
+   "index": 12
+  },
+  {
+   "start": 80.23,
+   "kind": "broll",
+   "src": "assets/broll/letter.mp4",
+   "media_start": 20,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 89.89,
+   "index": 13
+  },
+  {
+   "start": 89.89,
+   "kind": "broll",
+   "src": "assets/broll/woman.mp4",
+   "media_start": 10,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 98.55,
+   "index": 14
+  },
+  {
+   "start": 98.55,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 16,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 105,
+   "index": 15
+  },
+  {
+   "start": 105,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "5 MIN",
+    "label": "to check your date"
+   },
+   "end": 113,
+   "index": 16
+  },
+  {
+   "start": 113,
+   "kind": "broll",
+   "src": "assets/broll/keys.mp4",
+   "media_start": 4,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 120.17,
+   "index": 17
+  },
+  {
+   "start": 120.17,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "OFFICIAL ONLY",
+    "label": "never share UAN or Aadhaar"
+   },
+   "end": 126.5,
+   "index": 18
+  },
+  {
+   "start": 126.5,
+   "kind": "broll",
+   "src": "assets/broll/team.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 132.76,
+   "index": 19
+  },
+  {
+   "start": 132.76,
+   "kind": "broll",
+   "src": "assets/broll/write.mp4",
+   "media_start": 2,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 140.91,
+   "index": 20
+  },
+  {
+   "start": 140.91,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "MARK EXIT",
+    "label": "Manage tab"
+   },
+   "end": 148.79,
+   "index": 21
+  },
+  {
+   "start": 148.79,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 8,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 156.52,
+   "index": 22
+  },
+  {
+   "start": 156.52,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "2 MONTHS",
+    "label": "minimum wait"
+   },
+   "end": 163.41,
+   "index": 23
+  },
+  {
+   "start": 163.41,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 172.71,
+   "index": 24
+  },
+  {
+   "start": 172.71,
+   "kind": "broll",
+   "src": "assets/broll/letter.mp4",
+   "media_start": 14,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 178.5,
+   "index": 25
+  },
+  {
+   "start": 178.5,
+   "kind": "broll",
+   "src": "assets/broll/write.mp4",
+   "media_start": 12,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 184.87,
+   "index": 26
+  },
+  {
+   "start": 184.87,
+   "kind": "broll",
+   "src": "assets/broll/watch.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 192.02,
+   "index": 27
+  },
+  {
+   "start": 192.02,
+   "kind": "broll",
+   "src": "assets/broll/write.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 202.98,
+   "index": 28
+  },
+  {
+   "start": 202.98,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "THE TRAP",
+    "label": "waiting"
+   },
+   "end": 209.46,
+   "index": 29
+  },
+  {
+   "start": 209.46,
+   "kind": "broll",
+   "src": "assets/broll/phone.mp4",
+   "media_start": 4,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 217.27,
+   "index": 30
+  },
+  {
+   "start": 217.27,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "RECAP",
+    "label": "check · match · fix"
+   },
+   "end": 226.42,
+   "index": 31
+  },
+  {
+   "start": 226.42,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 28,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 234,
+   "index": 32
+  },
+  {
+   "start": 234,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CRACK IT",
+    "label": "like · subscribe"
+   },
+   "end": 238.7,
+   "index": 33
+  }
+ ],
+ "camera_moves": []
+}

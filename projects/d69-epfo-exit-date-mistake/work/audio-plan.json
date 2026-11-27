@@ -1,0 +1,80 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "title_slide: Wrong date on EPFO?"
+  },
+  {
+   "time": 24.94,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: The date of exit"
+  },
+  {
+   "time": 32.38,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Where the date lives"
+  },
+  {
+   "time": 61.41,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: What goes wrong"
+  },
+  {
+   "time": 65.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "timeline: Ravi's dates (example)"
+  },
+  {
+   "time": 98.63,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Step 1: check it"
+  },
+  {
+   "time": 132.84,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Step 2: fix it"
+  },
+  {
+   "time": 136.58,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Mark your own exit"
+  },
+  {
+   "time": 184.95,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Your plan"
+  },
+  {
+   "time": 188.28,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "timeline: Your plan"
+  },
+  {
+   "time": 203.06,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: The trap is waiting"
+  },
+  {
+   "time": 217.68,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "fact_band: Recap"
+  }
+ ]
+}

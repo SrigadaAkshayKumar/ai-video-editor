@@ -1,0 +1,108 @@
+{
+  "name": "d69-epfo-exit-date-mistake",
+  "createdAt": "2026-11-27T12:52:09.154Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d69-epfo-exit-date-mistake/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d69/d69-voice.wav",
+    "duration": 242.880042,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d69-epfo-exit-date-mistake/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d69/d69_epfo_exit_date_mistake_voiceover.txt",
+    "words": 765,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d69-epfo-exit-date-mistake/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Provident Fund Organisation",
+    "Imagine Ravi",
+    "In April",
+    "Check",
+    "Aadhaar",
+    "Manage",
+    "Mark Exit",
+    "Joint Declaration"
+  ],
+  "mode": "faceless",
+  "style": "glass",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; documentary storytelling look: full-frame b-roll leads, graphics docked to one side, quote pulls on the key lines, timelines for the backstory; slower, a beat every 6-10 s; low sub-band SFX on structure only",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 24.66,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-27T12:54:11.338Z",
+      "words": 764,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-27T12:54:16.323Z",
+      "segments": 13,
+      "kept": 238.7
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-27T13:20:29.279Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d69-epfo-exit-date-mistake/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-27T13:20:29.386Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-27T13:20:29.415Z",
+      "groups": 195
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-27T13:20:30.500Z",
+      "music": 0,
+      "sfx": 12
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-27T13:23:58.244Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d69-epfo-exit-date-mistake/output/final-16x9.mp4",
+      "duration": 248.732
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.970169,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d69-epfo-exit-date-mistake/work/cleancut.wav",
+    "duration": 238.7,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}
