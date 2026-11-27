@@ -1,0 +1,775 @@
+{
+ "style": "liquid",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 3.35,
+   "type": "title_slide",
+   "text": "Posted your offer letter online?",
+   "eyebrow": "Crack IT · Day 86",
+   "style_hint": "3 social media mistakes freshers make"
+  },
+  {
+   "start": 4,
+   "duration": 4.2,
+   "type": "keyword_chip",
+   "text": "One photo can leak your salary",
+   "side": "right"
+  },
+  {
+   "start": 9.9,
+   "duration": 7.9,
+   "type": "stat_trio",
+   "text": "In this video",
+   "items": [
+    {
+     "label": "posting mistakes",
+     "sublabel": "",
+     "value": 3
+    },
+    {
+     "label": "minutes",
+     "sublabel": "",
+     "value": 5
+    },
+    {
+     "label": "second check",
+     "sublabel": "",
+     "value": 10
+    }
+   ]
+  },
+  {
+   "start": 18.6,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "What is safe to share",
+   "side": "right"
+  },
+  {
+   "start": 23.2,
+   "duration": 3.8,
+   "type": "side_note",
+   "text": "Mistake 3: the one most freshers miss",
+   "side": "right"
+  },
+  {
+   "start": 27.53,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Why it matters",
+   "eyebrow": "The basics",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 33.6,
+   "duration": 6.2,
+   "type": "checklist",
+   "side": "right",
+   "text": "A letter carries",
+   "items": [
+    {
+     "label": "Name and address",
+     "state": "yes"
+    },
+    {
+     "label": "Date of birth",
+     "state": "yes"
+    },
+    {
+     "label": "Pay structure",
+     "state": "yes"
+    },
+    {
+     "label": "Reference number",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 42.1,
+   "duration": 3.5,
+   "type": "flow_diagram",
+   "text": "Public post, fake call",
+   "items": [
+    {
+     "label": "Public post",
+     "sublabel": ""
+    },
+    {
+     "label": "Screenshot",
+     "sublabel": ""
+    },
+    {
+     "label": "Scammer",
+     "sublabel": ""
+    },
+    {
+     "label": "Fake call",
+     "sublabel": "knows your name"
+    }
+   ]
+  },
+  {
+   "start": 46.4,
+   "duration": 5,
+   "type": "keyword_chip",
+   "text": "Recruiters and managers can see it",
+   "side": "right"
+  },
+  {
+   "start": 53.3,
+   "duration": 5.9,
+   "type": "big_statement",
+   "text": "Celebrate. Keep the document private.",
+   "eyebrow": "celebrate"
+  },
+  {
+   "start": 59.7,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Mistake 1: the document",
+   "eyebrow": "Mistake 01",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 63.4,
+   "duration": 2.5,
+   "type": "keyword_chip",
+   "text": "Letter, email, joining kit",
+   "side": "right"
+  },
+  {
+   "start": 66.2,
+   "duration": 5.3,
+   "type": "side_note",
+   "text": "Often marked confidential",
+   "side": "right"
+  },
+  {
+   "start": 72.5,
+   "duration": 7.5,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Blurred photo",
+    "text": "Blur can be undone; the layout still shows"
+   },
+   "right": {
+    "label": "Your own words",
+    "text": "Company, role, excited. No document"
+   }
+  },
+  {
+   "start": 81.5,
+   "duration": 5,
+   "type": "keyword_chip",
+   "text": "Your words, no document",
+   "side": "right"
+  },
+  {
+   "start": 87,
+   "duration": 3.9,
+   "type": "big_statement",
+   "text": "A plain photo of you works",
+   "eyebrow": "you"
+  },
+  {
+   "start": 91.4,
+   "duration": 4.6,
+   "type": "keyword_chip",
+   "text": "Groups get forwarded",
+   "side": "right"
+  },
+  {
+   "start": 96.65,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Mistake 2: work details",
+   "eyebrow": "Mistake 02",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 100.5,
+   "duration": 8,
+   "type": "checklist",
+   "side": "right",
+   "text": "Risky in the frame",
+   "items": [
+    {
+     "label": "Screen visible",
+     "state": "no"
+    },
+    {
+     "label": "Whiteboard behind you",
+     "state": "no"
+    },
+    {
+     "label": "Project or client name",
+     "state": "no"
+    },
+    {
+     "label": "Badge number",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 110.4,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Client info is protected",
+   "side": "right"
+  },
+  {
+   "start": 116,
+   "duration": 6.5,
+   "type": "quote_pull",
+   "text": "Social media policy: read it in week one",
+   "eyebrow": "Employee handbook"
+  },
+  {
+   "start": 123,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Many companies have one",
+   "side": "right"
+  },
+  {
+   "start": 126.5,
+   "duration": 7.5,
+   "type": "fact_band",
+   "text": "The safe rule",
+   "items": [
+    {
+     "label": "Show yourself",
+     "sublabel": "yes"
+    },
+    {
+     "label": "Not the work",
+     "sublabel": "no"
+    },
+    {
+     "label": "No client names",
+     "sublabel": "until public"
+    }
+   ]
+  },
+  {
+   "start": 135.5,
+   "duration": 8,
+   "type": "quote_pull",
+   "text": "Is it fine if I post a photo from the office?",
+   "eyebrow": "Ask your manager"
+  },
+  {
+   "start": 143.88,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Mistake 3: what you say",
+   "eyebrow": "Mistake 03",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 148,
+   "duration": 4.5,
+   "type": "keyword_chip",
+   "text": "Complaints on a private-looking account",
+   "side": "right"
+  },
+  {
+   "start": 153.6,
+   "duration": 4.4,
+   "type": "keyword_chip",
+   "text": "Close friends is not private",
+   "side": "right"
+  },
+  {
+   "start": 158.4,
+   "duration": 10.1,
+   "type": "flow_diagram",
+   "text": "A rant that stays",
+   "items": [
+    {
+     "label": "Frustration",
+     "sublabel": ""
+    },
+    {
+     "label": "Post",
+     "sublabel": ""
+    },
+    {
+     "label": "Screenshot",
+     "sublabel": ""
+    },
+    {
+     "label": "Background check",
+     "sublabel": "can look at it"
+    }
+   ]
+  },
+  {
+   "start": 170,
+   "duration": 6.5,
+   "type": "side_note",
+   "text": "Do not argue about the company in comments",
+   "side": "right"
+  },
+  {
+   "start": 177.5,
+   "duration": 8.5,
+   "type": "flow_diagram",
+   "text": "Proper door first",
+   "items": [
+    {
+     "label": "Your manager",
+     "sublabel": ""
+    },
+    {
+     "label": "Your HR contact",
+     "sublabel": ""
+    },
+    {
+     "label": "Grievance channel",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 186.38,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "What is safe to post",
+   "eyebrow": "The list",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 190.4,
+   "duration": 7.6,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Safe",
+    "text": "Placed, thank-yous, own certificates, own projects"
+   },
+   "right": {
+    "label": "Not safe",
+    "text": "Document, pay, client names, internal tools"
+   }
+  },
+  {
+   "start": 198.5,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "Handbook says confidential? Skip it",
+   "side": "right"
+  },
+  {
+   "start": 202.5,
+   "duration": 3.5,
+   "type": "side_note",
+   "text": "General workplace advice",
+   "side": "right"
+  },
+  {
+   "start": 206.33,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "The ten second check",
+   "eyebrow": "Before you post",
+   "numeral": "06",
+   "section": 5
+  },
+  {
+   "start": 209.8,
+   "duration": 5.2,
+   "type": "checklist",
+   "side": "right",
+   "text": "Ask yourself",
+   "items": [
+    {
+     "label": "1 · Mine alone?",
+     "state": "yes"
+    },
+    {
+     "label": "2 · Company or client?",
+     "state": "yes"
+    },
+    {
+     "label": "3 · Fine if my manager reads it?",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 215.5,
+   "duration": 8,
+   "type": "big_statement",
+   "text": "Any no? Change it or skip it.",
+   "eyebrow": "no"
+  },
+  {
+   "start": 224.13,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "In short",
+   "eyebrow": "Recap",
+   "numeral": "07",
+   "section": 6
+  },
+  {
+   "start": 228,
+   "duration": 4.8,
+   "type": "fact_band",
+   "text": "Recap",
+   "items": [
+    {
+     "label": "Own words",
+     "sublabel": "1"
+    },
+    {
+     "label": "No client work",
+     "sublabel": "2"
+    },
+    {
+     "label": "No rants",
+     "sublabel": "3"
+    }
+   ]
+  },
+  {
+   "start": 233.4,
+   "duration": 5.6,
+   "type": "big_statement",
+   "text": "The post you were about to share?",
+   "eyebrow": "comment"
+  },
+  {
+   "start": 239.3,
+   "duration": 2.3,
+   "type": "keyword_chip",
+   "text": "Like · Subscribe",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/happy.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 3.52,
+   "index": 0
+  },
+  {
+   "start": 3.52,
+   "kind": "broll",
+   "src": "assets/broll/icons.mp4",
+   "media_start": 2,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 8.35,
+   "index": 1
+  },
+  {
+   "start": 8.35,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "3 MISTAKES",
+    "label": "what freshers post online"
+   },
+   "end": 13.3,
+   "index": 2
+  },
+  {
+   "start": 13.3,
+   "kind": "broll",
+   "src": "assets/broll/scroll.mp4",
+   "media_start": 3,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 18.09,
+   "index": 3
+  },
+  {
+   "start": 18.09,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "10 SEC",
+    "label": "the check before every post"
+   },
+   "end": 22.69,
+   "index": 4
+  },
+  {
+   "start": 22.69,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 27.53,
+   "index": 5
+  },
+  {
+   "start": 27.53,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 33.37,
+   "index": 6
+  },
+  {
+   "start": 33.37,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "PRIVATE",
+    "label": "your offer letter is not content"
+   },
+   "end": 41.98,
+   "index": 7
+  },
+  {
+   "start": 41.98,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 45.88,
+   "index": 8
+  },
+  {
+   "start": 45.88,
+   "kind": "broll",
+   "src": "assets/broll/meeting.mp4",
+   "media_start": 4,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 51.7,
+   "index": 9
+  },
+  {
+   "start": 51.7,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 59.7,
+   "index": 10
+  },
+  {
+   "start": 59.7,
+   "kind": "broll",
+   "src": "assets/broll/woman.mp4",
+   "media_start": 2,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 65.07,
+   "index": 11
+  },
+  {
+   "start": 65.07,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "BLUR ≠ SAFE",
+    "label": "blur can often be undone"
+   },
+   "end": 76,
+   "index": 12
+  },
+  {
+   "start": 76,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 81,
+   "index": 13
+  },
+  {
+   "start": 81,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "YOUR WORDS",
+    "label": "no photo of the letter"
+   },
+   "end": 91,
+   "index": 14
+  },
+  {
+   "start": 91,
+   "kind": "broll",
+   "src": "assets/broll/chat.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 96.65,
+   "index": 15
+  },
+  {
+   "start": 96.65,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 3,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 103,
+   "index": 16
+  },
+  {
+   "start": 103,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 110,
+   "index": 17
+  },
+  {
+   "start": 110,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "CLIENT DATA",
+    "label": "the most protected thing"
+   },
+   "end": 119,
+   "index": 18
+  },
+  {
+   "start": 119,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 126,
+   "index": 19
+  },
+  {
+   "start": 126,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "SHOW YOU",
+    "label": "not the work"
+   },
+   "end": 135,
+   "index": 20
+  },
+  {
+   "start": 135,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 143.88,
+   "index": 21
+  },
+  {
+   "start": 143.88,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 2,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 153,
+   "index": 22
+  },
+  {
+   "start": 153,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "NOT PRIVATE",
+    "label": "screenshots travel"
+   },
+   "end": 162.5,
+   "index": 23
+  },
+  {
+   "start": 162.5,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 168.9,
+   "index": 24
+  },
+  {
+   "start": 168.9,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 177,
+   "index": 25
+  },
+  {
+   "start": 177,
+   "kind": "broll",
+   "src": "assets/broll/woman.mp4",
+   "media_start": 8,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 186.38,
+   "index": 26
+  },
+  {
+   "start": 186.38,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 198,
+   "index": 27
+  },
+  {
+   "start": 198,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 206.33,
+   "index": 28
+  },
+  {
+   "start": 206.33,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "3 QUESTIONS",
+    "label": "before you press post"
+   },
+   "end": 215,
+   "index": 29
+  },
+  {
+   "start": 215,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 224.13,
+   "index": 30
+  },
+  {
+   "start": 224.13,
+   "kind": "broll",
+   "src": "assets/broll/happy.mp4",
+   "media_start": 6,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 233,
+   "index": 31
+  },
+  {
+   "start": 233,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CRACK IT",
+    "label": "like · subscribe"
+   },
+   "end": 241.8,
+   "index": 32
+  }
+ ],
+ "camera_moves": []
+}
