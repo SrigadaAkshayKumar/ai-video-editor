@@ -1,0 +1,80 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 0,
+   "reason": "title_slide: 14 comments on your first code?"
+  },
+  {
+   "time": 12.68,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "stat_trio: In this video"
+  },
+  {
+   "time": 24.08,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: What is a code review?"
+  },
+  {
+   "time": 42.18,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "comparison: "
+  },
+  {
+   "time": 51.83,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Mistake 1: taking it personally"
+  },
+  {
+   "time": 55.98,
+   "sfx": "reveal",
+   "gain": 0,
+   "reason": "quote_pull: Why not use a constant here?"
+  },
+  {
+   "time": 70.78,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Mistake 2: fixing blindly"
+  },
+  {
+   "time": 83.08,
+   "sfx": "reveal",
+   "gain": 0,
+   "reason": "quote_pull: I changed this, but can you help me understand why this is better?"
+  },
+  {
+   "time": 92.48,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Mistake 3: replying to nothing"
+  },
+  {
+   "time": 112.68,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: The routine that works"
+  },
+  {
+   "time": 123.48,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "bar_chart: Review time (illustrative)"
+  },
+  {
+   "time": 180.38,
+   "sfx": "reveal",
+   "gain": 0,
+   "reason": "quote_pull: Your most confusing review comment?"
+  }
+ ]
+}

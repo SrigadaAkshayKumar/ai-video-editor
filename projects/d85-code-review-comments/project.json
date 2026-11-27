@@ -1,0 +1,104 @@
+{
+  "name": "d85-code-review-comments",
+  "createdAt": "2026-11-27T12:57:26.226Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d85-code-review-comments/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d85/d85-voice.wav",
+    "duration": 200.780042,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d85-code-review-comments/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d85/d85_code_review_comments_voiceover.txt",
+    "words": 673,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d85-code-review-comments/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Mistake",
+    "Read",
+    "Write",
+    "Ask"
+  ],
+  "mode": "faceless",
+  "style": "cleantech",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; light product-explainer look: calm and clean, charts and comparison tables carry the numbers, generous white space, office/campus b-roll full frame between graphics; a beat every 6-8 s; soft, sparse SFX",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 23.72,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-27T12:59:13.437Z",
+      "words": 671,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-27T12:59:18.188Z",
+      "segments": 21,
+      "kept": 193.167
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-27T13:23:35.077Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d85-code-review-comments/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-27T13:23:35.223Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-27T13:23:35.261Z",
+      "groups": 185
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-27T13:23:36.700Z",
+      "music": 0,
+      "sfx": 12
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-27T13:28:02.296Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d85-code-review-comments/output/final-16x9.mp4",
+      "duration": 203.192
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.97244,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d85-code-review-comments/work/cleancut.wav",
+    "duration": 193.166708,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

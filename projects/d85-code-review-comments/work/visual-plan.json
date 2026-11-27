@@ -1,0 +1,675 @@
+{
+ "style": "cleantech",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 3.85,
+   "type": "title_slide",
+   "text": "14 comments on your first code?",
+   "eyebrow": "Crack IT · Day 85",
+   "style_hint": "Code review for freshers"
+  },
+  {
+   "start": 4.4,
+   "duration": 1.9,
+   "type": "side_note",
+   "text": "Panic",
+   "side": "right"
+  },
+  {
+   "start": 6.9,
+   "duration": 5,
+   "type": "keyword_chip",
+   "text": "Fresher or about to join?",
+   "side": "right"
+  },
+  {
+   "start": 12.6,
+   "duration": 5.6,
+   "type": "stat_trio",
+   "text": "In this video",
+   "items": [
+    {
+     "label": "review explained",
+     "sublabel": "",
+     "value": 1
+    },
+    {
+     "label": "bad reactions",
+     "sublabel": "",
+     "value": 3
+    },
+    {
+     "label": "step routine",
+     "sublabel": "",
+     "value": 4
+    }
+   ]
+  },
+  {
+   "start": 18.8,
+   "duration": 4.4,
+   "type": "keyword_chip",
+   "text": "Mistake 3 slows your first year",
+   "side": "right"
+  },
+  {
+   "start": 24,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "What is a code review?",
+   "eyebrow": "The basics",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 27.6,
+   "duration": 9.9,
+   "type": "flow_diagram",
+   "text": "How a review works",
+   "items": [
+    {
+     "label": "Write code",
+     "sublabel": ""
+    },
+    {
+     "label": "Pull request",
+     "sublabel": ""
+    },
+    {
+     "label": "Review",
+     "sublabel": ""
+    },
+    {
+     "label": "Fix",
+     "sublabel": ""
+    },
+    {
+     "label": "Merge",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 38,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Pull request = please check my changes",
+   "side": "right"
+  },
+  {
+   "start": 42.1,
+   "duration": 6.9,
+   "type": "comparison",
+   "side": "left",
+   "left": {
+    "label": "Marks sheet",
+    "text": "Judging you"
+   },
+   "right": {
+    "label": "Code review",
+    "text": "Protecting the project"
+   }
+  },
+  {
+   "start": 49.2,
+   "duration": 2.2,
+   "type": "side_note",
+   "text": "Everyone starts here",
+   "side": "right"
+  },
+  {
+   "start": 51.75,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Mistake 1: taking it personally",
+   "eyebrow": "Mistake 01",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 55.9,
+   "duration": 4.6,
+   "type": "quote_pull",
+   "text": "Why not use a constant here?",
+   "eyebrow": "A sample comment"
+  },
+  {
+   "start": 61.1,
+   "duration": 4.6,
+   "type": "keyword_chip",
+   "text": "Long defence or silence = slow review",
+   "side": "right"
+  },
+  {
+   "start": 66,
+   "duration": 4.2,
+   "type": "side_note",
+   "text": "Ask: what is this person trying to protect?",
+   "side": "left"
+  },
+  {
+   "start": 70.7,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Mistake 2: fixing blindly",
+   "eyebrow": "Mistake 02",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 74.2,
+   "duration": 8.2,
+   "type": "flow_diagram",
+   "text": "Fix without understanding",
+   "items": [
+    {
+     "label": "Change the line",
+     "sublabel": ""
+    },
+    {
+     "label": "Push",
+     "sublabel": ""
+    },
+    {
+     "label": "Same mistake",
+     "sublabel": "Next week"
+    },
+    {
+     "label": "Same comment",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 83,
+   "duration": 6.8,
+   "type": "quote_pull",
+   "text": "I changed this, but can you help me understand why this is better?",
+   "eyebrow": "Write this"
+  },
+  {
+   "start": 90,
+   "duration": 2.1,
+   "type": "keyword_chip",
+   "text": "Ask why, once",
+   "side": "right"
+  },
+  {
+   "start": 92.4,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Mistake 3: replying to nothing",
+   "eyebrow": "Mistake 03",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 96.2,
+   "duration": 4.8,
+   "type": "keyword_chip",
+   "text": "Reviewer re-opens every line",
+   "side": "right"
+  },
+  {
+   "start": 101.4,
+   "duration": 8.2,
+   "type": "checklist",
+   "text": "Three ways to reply",
+   "items": [
+    {
+     "label": "Done",
+     "state": "yes"
+    },
+    {
+     "label": "Fixed in latest commit",
+     "state": "yes"
+    },
+    {
+     "label": "Kept as is, because…",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 110,
+   "duration": 2.3,
+   "type": "keyword_chip",
+   "text": "Disagree politely",
+   "side": "left"
+  },
+  {
+   "start": 112.6,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "The routine that works",
+   "eyebrow": "The routine",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 116,
+   "duration": 6.9,
+   "type": "checklist",
+   "text": "Before the pull request",
+   "items": [
+    {
+     "label": "Read your own diff",
+     "state": "yes"
+    },
+    {
+     "label": "Keep the PR small",
+     "state": "yes"
+    },
+    {
+     "label": "Read all, then fix and reply",
+     "state": "yes"
+    },
+    {
+     "label": "Keep a personal list",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 123.4,
+   "duration": 7.2,
+   "type": "bar_chart",
+   "side": "right",
+   "text": "Review time (illustrative)",
+   "items": [
+    {
+     "label": "20 lines: an hour",
+     "value": 1
+    },
+    {
+     "label": "2000 lines: days",
+     "value": 24
+    }
+   ]
+  },
+  {
+   "start": 131.2,
+   "duration": 7.2,
+   "type": "flow_diagram",
+   "text": "When comments come",
+   "items": [
+    {
+     "label": "Read all",
+     "sublabel": ""
+    },
+    {
+     "label": "Group",
+     "sublabel": ""
+    },
+    {
+     "label": "Fix one by one",
+     "sublabel": ""
+    },
+    {
+     "label": "Reply to each",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 139,
+   "duration": 9,
+   "type": "timeline",
+   "side": "left",
+   "text": "Your comment list",
+   "items": [
+    {
+     "label": "Week 1",
+     "sublabel": "Note every comment"
+    },
+    {
+     "label": "Month 1",
+     "sublabel": "Same 3-4 patterns"
+    },
+    {
+     "label": "Next",
+     "sublabel": "Almost empty reviews"
+    }
+   ]
+  },
+  {
+   "start": 149,
+   "duration": 7.8,
+   "type": "flow_diagram",
+   "text": "The split example",
+   "items": [
+    {
+     "label": "Does too many things",
+     "sublabel": "Senior"
+    },
+    {
+     "label": "Split into two?",
+     "sublabel": "You ask"
+    },
+    {
+     "label": "Two small functions",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 162,
+   "duration": 4.2,
+   "type": "keyword_chip",
+   "text": "Unclear or harsh? Ask for a call",
+   "side": "right"
+  },
+  {
+   "start": 166.8,
+   "duration": 2.6,
+   "type": "side_note",
+   "text": "The tone was never there",
+   "side": "left"
+  },
+  {
+   "start": 170,
+   "duration": 6,
+   "type": "fact_band",
+   "text": "Remember",
+   "items": [
+    {
+     "label": "Not personal",
+     "sublabel": "1"
+    },
+    {
+     "label": "Not blind",
+     "sublabel": "2"
+    },
+    {
+     "label": "Reply to all",
+     "sublabel": "3"
+    }
+   ]
+  },
+  {
+   "start": 176.2,
+   "duration": 3.5,
+   "type": "big_statement",
+   "text": "A review is not a verdict",
+   "eyebrow": "verdict"
+  },
+  {
+   "start": 180.3,
+   "duration": 5.7,
+   "type": "quote_pull",
+   "text": "Your most confusing review comment?",
+   "eyebrow": "Tell us below"
+  },
+  {
+   "start": 186.7,
+   "duration": 2.7,
+   "type": "keyword_chip",
+   "text": "Write it in the comments",
+   "side": "right"
+  },
+  {
+   "start": 189.8,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Like · Subscribe",
+   "side": "left"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/code.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 6.36,
+   "index": 0
+  },
+  {
+   "start": 6.36,
+   "kind": "broll",
+   "src": "assets/broll/think.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 12.2,
+   "index": 1
+  },
+  {
+   "start": 12.2,
+   "kind": "broll",
+   "src": "assets/broll/woman.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 18.36,
+   "index": 2
+  },
+  {
+   "start": 18.36,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 23.96,
+   "index": 3
+  },
+  {
+   "start": 23.96,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 33.4,
+   "index": 4
+  },
+  {
+   "start": 33.4,
+   "kind": "broll",
+   "src": "assets/broll/woman.mp4",
+   "media_start": 5,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 41.9,
+   "index": 5
+  },
+  {
+   "start": 41.9,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "NOT A VERDICT",
+    "label": "comments protect the project"
+   },
+   "end": 51.68,
+   "index": 6
+  },
+  {
+   "start": 51.68,
+   "kind": "broll",
+   "src": "assets/broll/man.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 59.36,
+   "index": 7
+  },
+  {
+   "start": 59.36,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 70.56,
+   "index": 8
+  },
+  {
+   "start": 70.56,
+   "kind": "broll",
+   "src": "assets/broll/warm.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 76.6,
+   "index": 9
+  },
+  {
+   "start": 76.6,
+   "kind": "broll",
+   "src": "assets/broll/warm.mp4",
+   "media_start": 30,
+   "motion": "ken_out",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 82.76,
+   "index": 10
+  },
+  {
+   "start": 82.76,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 92.32,
+   "index": 11
+  },
+  {
+   "start": 92.32,
+   "kind": "broll",
+   "src": "assets/broll/call.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 101.2,
+   "index": 12
+  },
+  {
+   "start": 101.2,
+   "kind": "broll",
+   "src": "assets/broll/call.mp4",
+   "media_start": 14,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 112.49,
+   "index": 13
+  },
+  {
+   "start": 112.49,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 8,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 123.2,
+   "index": 14
+  },
+  {
+   "start": 123.2,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "SMALL PR",
+    "label": "gets reviewed faster"
+   },
+   "end": 131,
+   "index": 15
+  },
+  {
+   "start": 131,
+   "kind": "broll",
+   "src": "assets/broll/woman.mp4",
+   "media_start": 6,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 138.8,
+   "index": 16
+  },
+  {
+   "start": 138.8,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "KEEP A LIST",
+    "label": "patterns show up in a month"
+   },
+   "end": 148.53,
+   "index": 17
+  },
+  {
+   "start": 148.53,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 20,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 155,
+   "index": 18
+  },
+  {
+   "start": 155,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 30,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 161.31,
+   "index": 19
+  },
+  {
+   "start": 161.31,
+   "kind": "broll",
+   "src": "assets/broll/man.mp4",
+   "media_start": 6,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 169.79,
+   "index": 20
+  },
+  {
+   "start": 169.79,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 179.94,
+   "index": 21
+  },
+  {
+   "start": 179.94,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 186.13,
+   "index": 22
+  },
+  {
+   "start": 186.13,
+   "kind": "broll",
+   "src": "assets/broll/keys.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 193.17,
+   "index": 23
+  }
+ ],
+ "camera_moves": []
+}
