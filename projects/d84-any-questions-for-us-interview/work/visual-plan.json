@@ -1,0 +1,632 @@
+{
+ "style": "blueprint",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 3.85,
+   "type": "title_slide",
+   "text": "Any questions for us?",
+   "eyebrow": "Crack IT · Day 84",
+   "style_hint": "Interview closing question"
+  },
+  {
+   "start": 4.4,
+   "duration": 3.1,
+   "type": "keyword_chip",
+   "text": "\"No questions\" = trap",
+   "side": "right"
+  },
+  {
+   "start": 8,
+   "duration": 2.2,
+   "type": "keyword_chip",
+   "text": "Costs freshers offers",
+   "side": "right"
+  },
+  {
+   "start": 10.8,
+   "duration": 7.8,
+   "type": "stat_trio",
+   "text": "In this video",
+   "items": [
+    {
+     "label": "reason they ask",
+     "sublabel": "",
+     "value": 1
+    },
+    {
+     "label": "answers that hurt",
+     "sublabel": "",
+     "value": 2
+    },
+    {
+     "label": "questions to ask",
+     "sublabel": "",
+     "value": 3
+    }
+   ]
+  },
+  {
+   "start": 19.2,
+   "duration": 4.4,
+   "type": "keyword_chip",
+   "text": "Q3 also tests the company",
+   "side": "right"
+  },
+  {
+   "start": 24.35,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Why they ask",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 27.8,
+   "duration": 3.7,
+   "type": "side_note",
+   "text": "The last test",
+   "side": "right"
+  },
+  {
+   "start": 31.8,
+   "duration": 2.7,
+   "type": "keyword_chip",
+   "text": "Curious? Thinking?",
+   "side": "left"
+  },
+  {
+   "start": 34.9,
+   "duration": 11.5,
+   "type": "comparison",
+   "side": "left",
+   "left": {
+    "label": "No questions",
+    "text": "Forgotten"
+   },
+   "right": {
+    "label": "One sharp question",
+    "text": "Stands out"
+   }
+  },
+  {
+   "start": 46.9,
+   "duration": 2.4,
+   "type": "big_statement",
+   "text": "Never say no questions",
+   "eyebrow": "never"
+  },
+  {
+   "start": 49.6,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Questions ready, like your resume",
+   "side": "right"
+  },
+  {
+   "start": 53.8,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Mistake 1: money first",
+   "eyebrow": "Mistake 01",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 57.3,
+   "duration": 6.2,
+   "type": "checklist",
+   "text": "Not as the first question",
+   "items": [
+    {
+     "label": "Salary",
+     "state": "no"
+    },
+    {
+     "label": "Leave",
+     "state": "no"
+    },
+    {
+     "label": "Work from home",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 64,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Sounds like: benefits, not work",
+   "side": "right"
+  },
+  {
+   "start": 69.6,
+   "duration": 3.9,
+   "type": "quote_pull",
+   "text": "How many holidays do I get?",
+   "eyebrow": "Not as your only question"
+  },
+  {
+   "start": 74.2,
+   "duration": 13.8,
+   "type": "flow_diagram",
+   "text": "Ask by round",
+   "items": [
+    {
+     "label": "Technical round",
+     "sublabel": "The work"
+    },
+    {
+     "label": "H.R. round",
+     "sublabel": "The process"
+    },
+    {
+     "label": "Offer stage",
+     "sublabel": "Salary and benefits"
+    }
+   ]
+  },
+  {
+   "start": 88.4,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Mistake 2: the obvious",
+   "eyebrow": "Mistake 02",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 93.6,
+   "duration": 5.3,
+   "type": "matrix_grid",
+   "text": "On the website",
+   "items": [
+    {
+     "label": "What you do?"
+    },
+    {
+     "label": "How many staff?"
+    },
+    {
+     "label": "Which cities?"
+    }
+   ]
+  },
+  {
+   "start": 99.3,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "Hears: I did not prepare",
+   "side": "right"
+  },
+  {
+   "start": 103.3,
+   "duration": 5,
+   "type": "number_roll",
+   "value": 15,
+   "suffix": " min",
+   "text": "On the company page and job post"
+  },
+  {
+   "start": 108.7,
+   "duration": 3.9,
+   "type": "checklist",
+   "text": "Before every interview",
+   "items": [
+    {
+     "label": "Company page",
+     "state": "yes"
+    },
+    {
+     "label": "Job description",
+     "state": "yes"
+    },
+    {
+     "label": "Tools and clients",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 116,
+   "duration": 7.3,
+   "type": "quote_pull",
+   "text": "I saw your team works on cloud migration. What does a new joiner usually start with there?",
+   "eyebrow": "Sample question"
+  },
+  {
+   "start": 123.7,
+   "duration": 3.7,
+   "type": "keyword_chip",
+   "text": "Homework plus interest",
+   "side": "right"
+  },
+  {
+   "start": 127.7,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Three questions to ask",
+   "eyebrow": "Section 04",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 131,
+   "duration": 7.8,
+   "type": "timeline",
+   "side": "left",
+   "text": "Question 1: first 90 days",
+   "items": [
+    {
+     "label": "Month 1",
+     "sublabel": "Learn"
+    },
+    {
+     "label": "Month 2",
+     "sublabel": "Contribute"
+    },
+    {
+     "label": "Month 3",
+     "sublabel": "Deliver"
+    }
+   ]
+  },
+  {
+   "start": 139.3,
+   "duration": 9.3,
+   "type": "flow_diagram",
+   "text": "Question 2",
+   "items": [
+    {
+     "label": "First task",
+     "sublabel": "What you start with"
+    },
+    {
+     "label": "Who guides me",
+     "sublabel": ""
+    },
+    {
+     "label": "Training, support",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 148.9,
+   "duration": 6.3,
+   "type": "quote_pull",
+   "text": "What do you enjoy most about working on this team?",
+   "eyebrow": "Question 3"
+  },
+  {
+   "start": 156.4,
+   "duration": 2.6,
+   "type": "side_note",
+   "text": "Warm answer = good sign",
+   "side": "right"
+  },
+  {
+   "start": 159.3,
+   "duration": 2.7,
+   "type": "keyword_chip",
+   "text": "A pause tells you too",
+   "side": "left"
+  },
+  {
+   "start": 162.6,
+   "duration": 5.7,
+   "type": "fact_band",
+   "text": "Pick one or two",
+   "items": [
+    {
+     "label": "First 90 days",
+     "sublabel": "Q1"
+    },
+    {
+     "label": "First project",
+     "sublabel": "Q2"
+    },
+    {
+     "label": "The team",
+     "sublabel": "Q3"
+    }
+   ]
+  },
+  {
+   "start": 168.6,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Your plan this week",
+   "eyebrow": "Section 05",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 172.1,
+   "duration": 6.1,
+   "type": "number_roll",
+   "value": 3,
+   "text": "Questions in your notebook, every interview"
+  },
+  {
+   "start": 179.3,
+   "duration": 4.9,
+   "type": "keyword_chip",
+   "text": "Say them out loud, once",
+   "side": "right"
+  },
+  {
+   "start": 184.7,
+   "duration": 8.1,
+   "type": "flow_diagram",
+   "text": "When they answer",
+   "items": [
+    {
+     "label": "Interviewer answers",
+     "sublabel": ""
+    },
+    {
+     "label": "That is helpful",
+     "sublabel": ""
+    },
+    {
+     "label": "One small follow up",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 196.4,
+   "duration": 6.2,
+   "type": "quote_pull",
+   "text": "What are the next steps, and when can I expect to hear from you?",
+   "eyebrow": "Safe closing question"
+  },
+  {
+   "start": 203,
+   "duration": 4.2,
+   "type": "keyword_chip",
+   "text": "Much better than silence",
+   "side": "right"
+  },
+  {
+   "start": 208,
+   "duration": 9,
+   "type": "checklist",
+   "text": "To sum up",
+   "items": [
+    {
+     "label": "Saying no questions",
+     "state": "no"
+    },
+    {
+     "label": "Opening with salary",
+     "state": "no"
+    },
+    {
+     "label": "Asking what the site says",
+     "state": "no"
+    },
+    {
+     "label": "90 days, project, team",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 217.5,
+   "duration": 5.7,
+   "type": "quote_pull",
+   "text": "Your scariest interview question?",
+   "eyebrow": "Tell us below"
+  },
+  {
+   "start": 223.6,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Comment it below",
+   "side": "right"
+  },
+  {
+   "start": 227.3,
+   "duration": 3.1,
+   "type": "keyword_chip",
+   "text": "Like and share",
+   "side": "right"
+  },
+  {
+   "start": 230.7,
+   "duration": 2.7,
+   "type": "keyword_chip",
+   "text": "Subscribe",
+   "side": "left"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 10.9,
+   "index": 0
+  },
+  {
+   "start": 10.9,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 24.25,
+   "index": 1
+  },
+  {
+   "start": 24.25,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 34.9,
+   "index": 2
+  },
+  {
+   "start": 34.9,
+   "kind": "broll",
+   "src": "assets/broll/meet.mp4",
+   "media_start": 4,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 46.8,
+   "index": 3
+  },
+  {
+   "start": 46.8,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 53.75,
+   "index": 4
+  },
+  {
+   "start": 53.75,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 63.8,
+   "index": 5
+  },
+  {
+   "start": 63.8,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "NOT FIRST",
+    "label": "salary, leave, work from home"
+   },
+   "end": 74,
+   "index": 6
+  },
+  {
+   "start": 74,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 88.28,
+   "index": 7
+  },
+  {
+   "start": 88.28,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 99,
+   "index": 8
+  },
+  {
+   "start": 99,
+   "kind": "broll",
+   "src": "assets/broll/type.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 111,
+   "index": 9
+  },
+  {
+   "start": 111,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 127.6,
+   "index": 10
+  },
+  {
+   "start": 127.6,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 139,
+   "index": 11
+  },
+  {
+   "start": 139,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 146,
+   "index": 12
+  },
+  {
+   "start": 146,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 148.8,
+   "index": 13
+  },
+  {
+   "start": 148.8,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "Q3",
+    "label": "the team"
+   },
+   "end": 162.4,
+   "index": 14
+  },
+  {
+   "start": 162.4,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 168.4,
+   "index": 15
+  },
+  {
+   "start": 168.4,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 178.9,
+   "index": 16
+  },
+  {
+   "start": 178.9,
+   "kind": "broll",
+   "src": "assets/broll/write.mp4",
+   "media_start": 2,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 184.6,
+   "index": 17
+  },
+  {
+   "start": 184.6,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 196.3,
+   "index": 18
+  },
+  {
+   "start": 196.3,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 207.8,
+   "index": 19
+  },
+  {
+   "start": 207.8,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 217.4,
+   "index": 20
+  },
+  {
+   "start": 217.4,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 233.7,
+   "index": 21
+  }
+ ],
+ "camera_moves": []
+}

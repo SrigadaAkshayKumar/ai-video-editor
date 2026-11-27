@@ -1,0 +1,188 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "title_slide: Any questions for us?"
+  },
+  {
+   "time": 4.48,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "keyword_chip: \"No questions\" = trap"
+  },
+  {
+   "time": 10.88,
+   "sfx": "click",
+   "gain": 4,
+   "reason": "stat_trio: In this video"
+  },
+  {
+   "time": 24.43,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Why they ask"
+  },
+  {
+   "time": 31.88,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "keyword_chip: Curious? Thinking?"
+  },
+  {
+   "time": 34.98,
+   "sfx": "click",
+   "gain": 4,
+   "reason": "comparison: "
+  },
+  {
+   "time": 46.98,
+   "sfx": "impact",
+   "gain": 1,
+   "reason": "big_statement: Never say no questions"
+  },
+  {
+   "time": 53.88,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Mistake 1: money first"
+  },
+  {
+   "time": 57.38,
+   "sfx": "typing",
+   "gain": 3,
+   "reason": "checklist: Not as the first question"
+  },
+  {
+   "time": 69.68,
+   "sfx": "reveal",
+   "gain": 2,
+   "reason": "quote_pull: How many holidays do I get?"
+  },
+  {
+   "time": 74.28,
+   "sfx": "click",
+   "gain": 4,
+   "reason": "flow_diagram: Ask by round"
+  },
+  {
+   "time": 88.48,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Mistake 2: the obvious"
+  },
+  {
+   "time": 93.68,
+   "sfx": "typing",
+   "gain": 3,
+   "reason": "matrix_grid: On the website"
+  },
+  {
+   "time": 99.38,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "keyword_chip: Hears: I did not prepare"
+  },
+  {
+   "time": 103.38,
+   "sfx": "click",
+   "gain": 4,
+   "reason": "number_roll: On the company page and job post"
+  },
+  {
+   "time": 108.78,
+   "sfx": "typing",
+   "gain": 3,
+   "reason": "checklist: Before every interview"
+  },
+  {
+   "time": 116.08,
+   "sfx": "reveal",
+   "gain": 2,
+   "reason": "quote_pull: I saw your team works on cloud migration. What does a new joiner usually start with there?"
+  },
+  {
+   "time": 127.78,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Three questions to ask"
+  },
+  {
+   "time": 131.08,
+   "sfx": "click",
+   "gain": 4,
+   "reason": "timeline: Question 1: first 90 days"
+  },
+  {
+   "time": 139.38,
+   "sfx": "click",
+   "gain": 4,
+   "reason": "flow_diagram: Question 2"
+  },
+  {
+   "time": 148.98,
+   "sfx": "reveal",
+   "gain": 2,
+   "reason": "quote_pull: What do you enjoy most about working on this team?"
+  },
+  {
+   "time": 162.68,
+   "sfx": "click",
+   "gain": 4,
+   "reason": "fact_band: Pick one or two"
+  },
+  {
+   "time": 168.68,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "chapter_open: Your plan this week"
+  },
+  {
+   "time": 172.18,
+   "sfx": "click",
+   "gain": 4,
+   "reason": "number_roll: Questions in your notebook, every interview"
+  },
+  {
+   "time": 179.38,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "keyword_chip: Say them out loud, once"
+  },
+  {
+   "time": 184.78,
+   "sfx": "click",
+   "gain": 4,
+   "reason": "flow_diagram: When they answer"
+  },
+  {
+   "time": 196.48,
+   "sfx": "reveal",
+   "gain": 2,
+   "reason": "quote_pull: What are the next steps, and when can I expect to hear from you?"
+  },
+  {
+   "time": 208.08,
+   "sfx": "typing",
+   "gain": 3,
+   "reason": "checklist: To sum up"
+  },
+  {
+   "time": 217.58,
+   "sfx": "reveal",
+   "gain": 2,
+   "reason": "quote_pull: Your scariest interview question?"
+  },
+  {
+   "time": 227.38,
+   "sfx": "clock_tick",
+   "gain": 2,
+   "reason": "keyword_chip: Like and share"
+  }
+ ]
+}

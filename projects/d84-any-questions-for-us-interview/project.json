@@ -1,0 +1,103 @@
+{
+  "name": "d84-any-questions-for-us-interview",
+  "createdAt": "2026-11-27T17:58:16.362Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d84-any-questions-for-us-interview/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d84/d84-voice.wav",
+    "duration": 239.440042,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d84-any-questions-for-us-interview/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d84/d84_any_questions_for_us_interview_voiceover.txt",
+    "words": 806,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d84-any-questions-for-us-interview/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Never",
+    "Mistake",
+    "Question"
+  ],
+  "mode": "faceless",
+  "style": "blueprint",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; terminal / data-desk look: monospace, stepped plotter arrivals; graphic-led (flow diagrams, checklists, number rolls), b-roll sparse and docked; a beat every 5-7 s; crisp digital ticks and soft clicks for SFX",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 24,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-27T17:59:58.367Z",
+      "words": 805,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-27T18:00:01.902Z",
+      "segments": 17,
+      "kept": 233.7
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-27T18:25:29.508Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d84-any-questions-for-us-interview/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-27T18:25:32.650Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-27T18:25:32.681Z",
+      "groups": 212
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-27T18:25:33.501Z",
+      "music": 0,
+      "sfx": 30
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-27T18:30:09.271Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d84-any-questions-for-us-interview/output/final-16x9.mp4",
+      "duration": 243.712
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.97965,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d84-any-questions-for-us-interview/work/cleancut.wav",
+    "duration": 233.699875,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}
