@@ -1,0 +1,105 @@
+{
+  "name": "d74-understand-new-codebase",
+  "createdAt": "2026-11-27T12:51:56.217Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d74-understand-new-codebase/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d74/d74-voice.wav",
+    "duration": 215.480042,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d74-understand-new-codebase/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d74/d74_understand_new_codebase_voiceover.txt",
+    "words": 736,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d74-understand-new-codebase/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Run",
+    "Write",
+    "Trace",
+    "Keep",
+    "CODE"
+  ],
+  "mode": "faceless",
+  "style": "broadcast",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; bold newsroom look: news screenshots and NewsCards lead, split-screen framing, oversized section numerals, high-contrast accents; punchy pace, a beat every 3-5 s; wipe whooshes and hits on section changes",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 23.27,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-27T12:53:24.812Z",
+      "words": 735,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-27T12:53:27.713Z",
+      "segments": 15,
+      "kept": 210.7
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-27T13:15:09.911Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d74-understand-new-codebase/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-27T13:15:12.765Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-27T13:15:12.796Z",
+      "groups": 196
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-27T13:15:19.338Z",
+      "music": 0,
+      "sfx": 33
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-27T13:17:58.252Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d74-understand-new-codebase/output/final-16x9.mp4",
+      "duration": 220.744
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.988895,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d74-understand-new-codebase/work/cleancut.wav",
+    "duration": 210.7,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

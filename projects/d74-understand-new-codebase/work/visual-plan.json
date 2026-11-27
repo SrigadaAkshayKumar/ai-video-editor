@@ -1,0 +1,794 @@
+{
+ "style": "broadcast",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 3.55,
+   "type": "title_slide",
+   "text": "Huge code base on day one?",
+   "eyebrow": "Crack IT · Day 74",
+   "style_hint": "3 steps every fresher needs"
+  },
+  {
+   "start": 4,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Day one: a folder, no guide",
+   "side": "right"
+  },
+  {
+   "start": 8.2,
+   "duration": 2.9,
+   "type": "big_statement",
+   "text": "2,000 files. No guide.",
+   "eyebrow": "No"
+  },
+  {
+   "start": 11.6,
+   "duration": 5.8,
+   "type": "step_progress",
+   "side": "right",
+   "text": "Three steps",
+   "current_step": 2,
+   "items": [
+    {
+     "label": "Run it"
+    },
+    {
+     "label": "Trace one feature"
+    },
+    {
+     "label": "Write it down"
+    }
+   ]
+  },
+  {
+   "start": 18.6,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "The third step gets skipped",
+   "side": "right"
+  },
+  {
+   "start": 23.42,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Why it feels hard",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 27.7,
+   "duration": 2.3,
+   "type": "side_note",
+   "text": "College: you wrote every line",
+   "side": "right"
+  },
+  {
+   "start": 30.4,
+   "duration": 3.1,
+   "type": "keyword_chip",
+   "text": "Many people, many years",
+   "side": "right"
+  },
+  {
+   "start": 34,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Old fixes, strange names",
+   "side": "right"
+  },
+  {
+   "start": 38,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "\"I understand nothing\"",
+   "side": "right"
+  },
+  {
+   "start": 41.9,
+   "duration": 4.6,
+   "type": "big_statement",
+   "text": "Nobody gets it all in a week",
+   "eyebrow": "Nobody"
+  },
+  {
+   "start": 47.2,
+   "duration": 3.7,
+   "type": "side_note",
+   "text": "Not even the senior next to you",
+   "side": "right"
+  },
+  {
+   "start": 51.5,
+   "duration": 3.3,
+   "type": "flow_diagram",
+   "text": "The goal for week one",
+   "items": [
+    {
+     "label": "Input",
+     "sublabel": ""
+    },
+    {
+     "label": "One path",
+     "sublabel": ""
+    },
+    {
+     "label": "Output",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 55.05,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Run it first",
+   "eyebrow": "Step 01",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 59.2,
+   "duration": 6.8,
+   "type": "checklist",
+   "side": "right",
+   "text": "Get it running",
+   "items": [
+    {
+     "label": "Get the setup guide",
+     "state": "yes"
+    },
+    {
+     "label": "Install and run",
+     "state": "yes"
+    },
+    {
+     "label": "Click through once",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 66.4,
+   "duration": 4.1,
+   "type": "side_note",
+   "text": "Many read two days, then run",
+   "side": "right"
+  },
+  {
+   "start": 71,
+   "duration": 4.8,
+   "type": "word_swap",
+   "from": "Reading text",
+   "to": "Something alive",
+   "text": "Now the code has a face"
+  },
+  {
+   "start": 76.7,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "Setup fails? Don't wait silently",
+   "side": "right"
+  },
+  {
+   "start": 80.2,
+   "duration": 3.4,
+   "type": "checklist",
+   "side": "right",
+   "text": "Ask with",
+   "items": [
+    {
+     "label": "The exact error",
+     "state": "yes"
+    },
+    {
+     "label": "What you tried",
+     "state": "yes"
+    },
+    {
+     "label": "Then ask",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 87.55,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Trace one feature",
+   "eyebrow": "Step 02",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 91.6,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Login, search, one report",
+   "side": "right"
+  },
+  {
+   "start": 95.5,
+   "duration": 8,
+   "type": "flow_diagram",
+   "text": "Click to data",
+   "items": [
+    {
+     "label": "Click",
+     "sublabel": ""
+    },
+    {
+     "label": "Handler",
+     "sublabel": ""
+    },
+    {
+     "label": "Service",
+     "sublabel": ""
+    },
+    {
+     "label": "Database",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 104.2,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Search the on-screen words",
+   "side": "right"
+  },
+  {
+   "start": 108,
+   "duration": 3,
+   "type": "side_note",
+   "text": "Button text leads to the code",
+   "side": "right"
+  },
+  {
+   "start": 111.5,
+   "duration": 4.8,
+   "type": "keyword_chip",
+   "text": "Debugger + breakpoint",
+   "side": "right"
+  },
+  {
+   "start": 116.8,
+   "duration": 3.1,
+   "type": "big_statement",
+   "text": "Draw it on paper",
+   "eyebrow": "paper"
+  },
+  {
+   "start": 120.2,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "4-5 boxes, arrows",
+   "side": "right"
+  },
+  {
+   "start": 123.28,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Write it down",
+   "eyebrow": "Step 03",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 127,
+   "duration": 9.5,
+   "type": "checklist",
+   "side": "right",
+   "text": "Your notes file",
+   "items": [
+    {
+     "label": "What the project does",
+     "state": "yes"
+    },
+    {
+     "label": "How to run it",
+     "state": "yes"
+    },
+    {
+     "label": "The path you traced",
+     "state": "yes"
+    },
+    {
+     "label": "Every question",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 137,
+   "duration": 8,
+   "type": "quote_pull",
+   "text": "I traced the login flow. Can you check my understanding?",
+   "eyebrow": "Say this to your lead"
+  },
+  {
+   "start": 145.2,
+   "duration": 5.2,
+   "type": "side_note",
+   "text": "Effort shown, easy to correct",
+   "side": "right"
+  },
+  {
+   "start": 150.8,
+   "duration": 1.7,
+   "type": "keyword_chip",
+   "text": "Seniors love this",
+   "side": "right"
+  },
+  {
+   "start": 153,
+   "duration": 5,
+   "type": "keyword_chip",
+   "text": "Outdated setup guide? Fix it",
+   "side": "right"
+  },
+  {
+   "start": 158.2,
+   "duration": 2.7,
+   "type": "word_swap",
+   "from": "Did nothing",
+   "to": "First contribution"
+  },
+  {
+   "start": 161.15,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Three traps",
+   "eyebrow": "Avoid these",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 164.4,
+   "duration": 4.3,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Trap 1",
+    "text": "Random edits on main"
+   },
+   "right": {
+    "label": "Do this",
+    "text": "Work on your own branch"
+   }
+  },
+  {
+   "start": 169.2,
+   "duration": 5.2,
+   "type": "comparison",
+   "side": "left",
+   "left": {
+    "label": "Trap 2",
+    "text": "Paste AI code unread"
+   },
+   "right": {
+    "label": "Do this",
+    "text": "Understand it, explain it"
+   }
+  },
+  {
+   "start": 174.9,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Be ready to explain why",
+   "side": "right"
+  },
+  {
+   "start": 178.2,
+   "duration": 5.1,
+   "type": "side_note",
+   "text": "Trap 3: comparing with veterans",
+   "side": "right"
+  },
+  {
+   "start": 183.8,
+   "duration": 3.2,
+   "type": "big_statement",
+   "text": "Fresh eyes are a strength",
+   "eyebrow": "strength"
+  },
+  {
+   "start": 187.26,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "In short",
+   "eyebrow": "Recap",
+   "numeral": "06",
+   "section": 5
+  },
+  {
+   "start": 191.2,
+   "duration": 3.8,
+   "type": "flow_diagram",
+   "text": "Three steps",
+   "items": [
+    {
+     "label": "Run it",
+     "sublabel": ""
+    },
+    {
+     "label": "Trace one feature",
+     "sublabel": ""
+    },
+    {
+     "label": "Write it down",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 195.5,
+   "duration": 3.9,
+   "type": "big_statement",
+   "text": "A code base that scares you?",
+   "eyebrow": "scares"
+  },
+  {
+   "start": 199.9,
+   "duration": 6.3,
+   "type": "quote_pull",
+   "text": "Comment CODE + where you get stuck",
+   "eyebrow": "Tell me below"
+  },
+  {
+   "start": 206.8,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Like · Subscribe",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/code.mp4",
+   "media_start": 1,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 3.7,
+   "index": 0
+  },
+  {
+   "start": 3.7,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "NO GUIDE",
+    "label": "just a folder"
+   },
+   "end": 7.83,
+   "index": 1
+  },
+  {
+   "start": 7.83,
+   "kind": "broll",
+   "src": "assets/broll/codedark.mp4",
+   "media_start": 2,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 11.27,
+   "index": 2
+  },
+  {
+   "start": 11.27,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "3 STEPS",
+    "label": "to understand new code"
+   },
+   "end": 17.69,
+   "index": 3
+  },
+  {
+   "start": 17.69,
+   "kind": "graphic",
+   "grade": "hot",
+   "card": {
+    "value": "STEP 3",
+    "label": "the one most skip"
+   },
+   "end": 23.42,
+   "index": 4
+  },
+  {
+   "start": 23.42,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 27.58,
+   "index": 5
+  },
+  {
+   "start": 27.58,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "ONE PATH",
+    "label": "not the whole code base"
+   },
+   "end": 33.73,
+   "index": 6
+  },
+  {
+   "start": 33.73,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 41.72,
+   "index": 7
+  },
+  {
+   "start": 41.72,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 47.93,
+   "index": 8
+  },
+  {
+   "start": 47.93,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "WEEK ONE",
+    "label": "one path, start to finish"
+   },
+   "end": 55.05,
+   "index": 9
+  },
+  {
+   "start": 55.05,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 59.5,
+   "index": 10
+  },
+  {
+   "start": 59.5,
+   "kind": "broll",
+   "src": "assets/broll/keys.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 66.22,
+   "index": 11
+  },
+  {
+   "start": 66.22,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "RUN IT",
+    "label": "click, see, follow"
+   },
+   "end": 76.53,
+   "index": 12
+  },
+  {
+   "start": 76.53,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 83.78,
+   "index": 13
+  },
+  {
+   "start": 83.78,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "ASK",
+    "label": "with the error + what you tried"
+   },
+   "end": 87.55,
+   "index": 14
+  },
+  {
+   "start": 87.55,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 95.27,
+   "index": 15
+  },
+  {
+   "start": 95.27,
+   "kind": "broll",
+   "src": "assets/broll/codedark.mp4",
+   "media_start": 6,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 103.92,
+   "index": 16
+  },
+  {
+   "start": 103.92,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "SEARCH",
+    "label": "the words on the screen"
+   },
+   "end": 111.21,
+   "index": 17
+  },
+  {
+   "start": 111.21,
+   "kind": "broll",
+   "src": "assets/broll/code.mp4",
+   "media_start": 8,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 116.7,
+   "index": 18
+  },
+  {
+   "start": 116.7,
+   "kind": "broll",
+   "src": "assets/broll/whiteboard.mp4",
+   "media_start": 1,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 123.28,
+   "index": 19
+  },
+  {
+   "start": 123.28,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 128.41,
+   "index": 20
+  },
+  {
+   "start": 128.41,
+   "kind": "broll",
+   "src": "assets/broll/notes.mp4",
+   "media_start": 3,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 136.84,
+   "index": 21
+  },
+  {
+   "start": 136.84,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "SHOW EFFORT",
+    "label": "not 'I don't understand'"
+   },
+   "end": 146.24,
+   "index": 22
+  },
+  {
+   "start": 146.24,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 152.71,
+   "index": 23
+  },
+  {
+   "start": 152.71,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "SETUP GUIDE",
+    "label": "fix it, first contribution"
+   },
+   "end": 161.15,
+   "index": 24
+  },
+  {
+   "start": 161.15,
+   "kind": "graphic",
+   "grade": "hot",
+   "end": 166,
+   "index": 25
+  },
+  {
+   "start": 166,
+   "kind": "graphic",
+   "grade": "hot",
+   "card": {
+    "value": "OWN BRANCH",
+    "label": "never edit blind"
+   },
+   "end": 168.93,
+   "index": 26
+  },
+  {
+   "start": 168.93,
+   "kind": "broll",
+   "src": "assets/broll/codedark.mp4",
+   "media_start": 2,
+   "motion": "ken_out",
+   "grade": "noir",
+   "transition": "fade",
+   "end": 174.63,
+   "index": 27
+  },
+  {
+   "start": 174.63,
+   "kind": "graphic",
+   "grade": "hot",
+   "card": {
+    "value": "EXPLAIN IT",
+    "label": "if a senior asks why"
+   },
+   "end": 178.02,
+   "index": 28
+  },
+  {
+   "start": 178.02,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 183.59,
+   "index": 29
+  },
+  {
+   "start": 183.59,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "FRESH EYES",
+    "label": "a real strength"
+   },
+   "end": 187.26,
+   "index": 30
+  },
+  {
+   "start": 187.26,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 195.29,
+   "index": 31
+  },
+  {
+   "start": 195.29,
+   "kind": "broll",
+   "src": "assets/broll/keys.mp4",
+   "media_start": 4,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 199.68,
+   "index": 32
+  },
+  {
+   "start": 199.68,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CODE",
+    "label": "comment where you get stuck"
+   },
+   "end": 206.48,
+   "index": 33
+  },
+  {
+   "start": 206.48,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CRACK IT",
+    "label": "like · subscribe"
+   },
+   "end": 210.7,
+   "index": 34
+  }
+ ],
+ "camera_moves": []
+}

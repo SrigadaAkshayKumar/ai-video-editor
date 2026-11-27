@@ -1,0 +1,206 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 2,
+   "reason": "title_slide: Huge code base on day one?"
+  },
+  {
+   "time": 8.28,
+   "sfx": "reveal",
+   "gain": 2,
+   "reason": "big_statement: 2,000 files. No guide."
+  },
+  {
+   "time": 11.68,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "step_progress: Three steps"
+  },
+  {
+   "time": 18.68,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: The third step gets skipped"
+  },
+  {
+   "time": 23.5,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Why it feels hard"
+  },
+  {
+   "time": 30.48,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: Many people, many years"
+  },
+  {
+   "time": 38.08,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: \"I understand nothing\""
+  },
+  {
+   "time": 41.98,
+   "sfx": "reveal",
+   "gain": 2,
+   "reason": "big_statement: Nobody gets it all in a week"
+  },
+  {
+   "time": 51.58,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: The goal for week one"
+  },
+  {
+   "time": 55.13,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Run it first"
+  },
+  {
+   "time": 59.28,
+   "sfx": "riser",
+   "gain": 2,
+   "reason": "checklist: Get it running"
+  },
+  {
+   "time": 66.48,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "side_note: Many read two days, then run"
+  },
+  {
+   "time": 71.08,
+   "sfx": "reveal",
+   "gain": 2,
+   "reason": "word_swap: Now the code has a face"
+  },
+  {
+   "time": 80.28,
+   "sfx": "riser",
+   "gain": 2,
+   "reason": "checklist: Ask with"
+  },
+  {
+   "time": 87.63,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Trace one feature"
+  },
+  {
+   "time": 91.68,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: Login, search, one report"
+  },
+  {
+   "time": 95.58,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Click to data"
+  },
+  {
+   "time": 108.08,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "side_note: Button text leads to the code"
+  },
+  {
+   "time": 116.88,
+   "sfx": "reveal",
+   "gain": 2,
+   "reason": "big_statement: Draw it on paper"
+  },
+  {
+   "time": 120.28,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: 4-5 boxes, arrows"
+  },
+  {
+   "time": 123.36,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Write it down"
+  },
+  {
+   "time": 127.08,
+   "sfx": "riser",
+   "gain": 2,
+   "reason": "checklist: Your notes file"
+  },
+  {
+   "time": 150.88,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: Seniors love this"
+  },
+  {
+   "time": 158.28,
+   "sfx": "reveal",
+   "gain": 2,
+   "reason": "word_swap: "
+  },
+  {
+   "time": 161.23,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: Three traps"
+  },
+  {
+   "time": 164.48,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 169.28,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 174.98,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: Be ready to explain why"
+  },
+  {
+   "time": 183.88,
+   "sfx": "reveal",
+   "gain": 2,
+   "reason": "big_statement: Fresh eyes are a strength"
+  },
+  {
+   "time": 187.34,
+   "sfx": "whoosh",
+   "gain": 2,
+   "reason": "chapter_open: In short"
+  },
+  {
+   "time": 191.28,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Three steps"
+  },
+  {
+   "time": 195.58,
+   "sfx": "reveal",
+   "gain": 2,
+   "reason": "big_statement: A code base that scares you?"
+  },
+  {
+   "time": 206.88,
+   "sfx": "pop",
+   "gain": 2,
+   "reason": "keyword_chip: Like · Subscribe"
+  }
+ ]
+}
