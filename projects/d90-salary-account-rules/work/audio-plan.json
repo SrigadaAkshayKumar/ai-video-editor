@@ -1,0 +1,80 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.13,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "title_slide: Is your salary account really free?"
+  },
+  {
+   "time": 18.38,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "quote_pull: Almost nobody checks rule three"
+  },
+  {
+   "time": 21.38,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: The basics"
+  },
+  {
+   "time": 26.78,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: How it works"
+  },
+  {
+   "time": 46.08,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "quote_pull: That free status belongs to the link between your company and the bank"
+  },
+  {
+   "time": 57.38,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Know what you get"
+  },
+  {
+   "time": 87.43,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: The quiet conversion"
+  },
+  {
+   "time": 90.88,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "timeline: If the salary stops"
+  },
+  {
+   "time": 128.98,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "quote_pull: Nobody warned him, because nobody checked"
+  },
+  {
+   "time": 131.93,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: Plan the old account"
+  },
+  {
+   "time": 181.03,
+   "sfx": "sub_drop",
+   "gain": 4,
+   "reason": "chapter_open: This week"
+  },
+  {
+   "time": 213.58,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "fact_band: Recap"
+  }
+ ]
+}

@@ -1,0 +1,788 @@
+{
+ "style": "glass",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 4.85,
+   "type": "title_slide",
+   "text": "Is your salary account really free?",
+   "eyebrow": "Crack IT · Day 90",
+   "style_hint": "3 rules for freshers"
+  },
+  {
+   "start": 5.9,
+   "duration": 2.7,
+   "type": "keyword_chip",
+   "text": "Not your savings account",
+   "side": "left"
+  },
+  {
+   "start": 12.3,
+   "duration": 5.6,
+   "type": "stat_trio",
+   "text": "This video",
+   "items": [
+    {
+     "label": "rules",
+     "sublabel": "",
+     "value": 3
+    },
+    {
+     "label": "minutes",
+     "sublabel": "",
+     "value": 5
+    },
+    {
+     "label": "mistake",
+     "sublabel": "",
+     "value": 1
+    }
+   ]
+  },
+  {
+   "start": 18.3,
+   "duration": 2.25,
+   "type": "quote_pull",
+   "text": "Almost nobody checks rule three",
+   "eyebrow": "Stay till the end"
+  },
+  {
+   "start": 21.15,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "The basics",
+   "eyebrow": "Salary account",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 26.7,
+   "duration": 9.5,
+   "type": "flow_diagram",
+   "text": "How it works",
+   "items": [
+    {
+     "label": "Company payroll",
+     "sublabel": ""
+    },
+    {
+     "label": "Tie-up bank",
+     "sublabel": "zero balance"
+    },
+    {
+     "label": "Your salary account",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 37,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "One bank file, not thousands",
+   "side": "right"
+  },
+  {
+   "start": 42.5,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "How payroll works",
+   "side": "left"
+  },
+  {
+   "start": 46,
+   "duration": 6.4,
+   "type": "quote_pull",
+   "text": "That free status belongs to the link between your company and the bank",
+   "eyebrow": "Keep this line in mind"
+  },
+  {
+   "start": 52.8,
+   "duration": 3.7,
+   "type": "keyword_chip",
+   "text": "It explains what comes next",
+   "side": "left"
+  },
+  {
+   "start": 57.15,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Know what you get",
+   "eyebrow": "Rule one",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 60.6,
+   "duration": 9.8,
+   "type": "checklist",
+   "side": "right",
+   "text": "Ask the bank",
+   "items": [
+    {
+     "label": "Free debit card",
+     "state": "yes"
+    },
+    {
+     "label": "Zero balance",
+     "state": "yes"
+    },
+    {
+     "label": "Withdrawal limit",
+     "state": "yes"
+    },
+    {
+     "label": "Insurance or loan offer, in writing",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 71,
+   "duration": 4.8,
+   "type": "side_note",
+   "text": "Ask for the benefits sheet",
+   "side": "right"
+  },
+  {
+   "start": 77,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "Loan or card offer in month one",
+   "side": "left"
+  },
+  {
+   "start": 81.6,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "Check rate and charges",
+   "side": "right"
+  },
+  {
+   "start": 84.4,
+   "duration": 2.4,
+   "type": "side_note",
+   "text": "A friendly officer is still a salesperson",
+   "side": "left"
+  },
+  {
+   "start": 87.2,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "The quiet conversion",
+   "eyebrow": "Rule two",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 90.8,
+   "duration": 12.5,
+   "type": "timeline",
+   "side": "right",
+   "text": "If the salary stops",
+   "items": [
+    {
+     "label": "Salary credited",
+     "sublabel": "every month"
+    },
+    {
+     "label": "Last salary",
+     "sublabel": ""
+    },
+    {
+     "label": "About 3 months",
+     "sublabel": "depends on the bank"
+    },
+    {
+     "label": "Regular savings account",
+     "sublabel": ""
+    },
+    {
+     "label": "Minimum balance rule",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 104,
+   "duration": 3.9,
+   "type": "side_note",
+   "text": "Card and U.P.I. still work",
+   "side": "right"
+  },
+  {
+   "start": 108.5,
+   "duration": 4,
+   "type": "keyword_chip",
+   "text": "Minimum balance can apply",
+   "side": "right"
+  },
+  {
+   "start": 112.9,
+   "duration": 4.5,
+   "type": "keyword_chip",
+   "text": "Penalty if you fall below",
+   "side": "left"
+  },
+  {
+   "start": 117.9,
+   "duration": 2.1,
+   "type": "keyword_chip",
+   "text": "Example story, not a real person",
+   "side": "left"
+  },
+  {
+   "start": 120.4,
+   "duration": 8.2,
+   "type": "comparison",
+   "side": "left",
+   "left": {
+    "label": "After 14 months",
+    "text": "A few hundred rupees"
+   },
+   "right": {
+    "label": "Months later",
+    "text": "Almost nothing"
+   }
+  },
+  {
+   "start": 128.9,
+   "duration": 2.4,
+   "type": "quote_pull",
+   "text": "Nobody warned him, because nobody checked",
+   "eyebrow": "Ravi"
+  },
+  {
+   "start": 131.7,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Plan the old account",
+   "eyebrow": "Rule three",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 138,
+   "duration": 5,
+   "type": "keyword_chip",
+   "text": "1  Check the minimum balance",
+   "side": "right"
+  },
+  {
+   "start": 143.6,
+   "duration": 6.4,
+   "type": "keyword_chip",
+   "text": "2  Tell new H.R. your account",
+   "side": "left"
+  },
+  {
+   "start": 150.5,
+   "duration": 6.3,
+   "type": "side_note",
+   "text": "Many allow it, depends on the company",
+   "side": "right"
+  },
+  {
+   "start": 157.6,
+   "duration": 5.4,
+   "type": "keyword_chip",
+   "text": "3  Move E.M.I., S.I.P., subscriptions",
+   "side": "left"
+  },
+  {
+   "start": 163.5,
+   "duration": 5.8,
+   "type": "side_note",
+   "text": "Insurance payments too",
+   "side": "right"
+  },
+  {
+   "start": 170,
+   "duration": 2,
+   "type": "side_note",
+   "text": "Failed auto-debit",
+   "side": "left"
+  },
+  {
+   "start": 172.6,
+   "duration": 7.4,
+   "type": "keyword_chip",
+   "text": "4  Keep above minimum, or close in writing",
+   "side": "right"
+  },
+  {
+   "start": 180.8,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "This week",
+   "eyebrow": "Action",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 184.2,
+   "duration": 6.3,
+   "type": "side_note",
+   "text": "One personal account that never changes",
+   "side": "right"
+  },
+  {
+   "start": 191,
+   "duration": 4.8,
+   "type": "keyword_chip",
+   "text": "Use it for E.M.I. and S.I.P.",
+   "side": "left"
+  },
+  {
+   "start": 196.4,
+   "duration": 4.4,
+   "type": "side_note",
+   "text": "Never share O.T.P.",
+   "side": "left"
+  },
+  {
+   "start": 201.2,
+   "duration": 4.6,
+   "type": "keyword_chip",
+   "text": "Real banks do not ask",
+   "side": "right"
+  },
+  {
+   "start": 206.6,
+   "duration": 6.2,
+   "type": "side_note",
+   "text": "Keep your bank statements",
+   "side": "right"
+  },
+  {
+   "start": 213.5,
+   "duration": 11.3,
+   "type": "fact_band",
+   "text": "Recap",
+   "items": [
+    {
+     "label": "Free: company link",
+     "sublabel": ""
+    },
+    {
+     "label": "Salary stops: savings account",
+     "sublabel": ""
+    },
+    {
+     "label": "Switching: move payments",
+     "sublabel": ""
+    }
+   ]
+  },
+  {
+   "start": 225.4,
+   "duration": 10.6,
+   "type": "poll_prompt",
+   "text": "Do you have a salary account?",
+   "items": [
+    {
+     "label": "Yes"
+    },
+    {
+     "label": "Waiting"
+    }
+   ]
+  },
+  {
+   "start": 236.8,
+   "duration": 2.7,
+   "type": "keyword_chip",
+   "text": "Subscribe to Crack IT",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/phone1.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 8,
+   "index": 0
+  },
+  {
+   "start": 8,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 18.12,
+   "index": 1
+  },
+  {
+   "start": 18.12,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "3 RULES",
+    "label": "that keep it free"
+   },
+   "end": 21.05,
+   "index": 2
+  },
+  {
+   "start": 21.05,
+   "kind": "broll",
+   "src": "assets/broll/hr.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 30.6,
+   "index": 3
+  },
+  {
+   "start": 30.6,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "TIE-UP",
+    "label": "company + one bank"
+   },
+   "end": 36.75,
+   "index": 4
+  },
+  {
+   "start": 36.75,
+   "kind": "broll",
+   "src": "assets/broll/office.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 45.7,
+   "index": 5
+  },
+  {
+   "start": 45.7,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "NOT YOURS",
+    "label": "the free status"
+   },
+   "end": 57,
+   "index": 6
+  },
+  {
+   "start": 57,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "RULE 1",
+    "label": "know what you get"
+   },
+   "end": 60.4,
+   "index": 7
+  },
+  {
+   "start": 60.4,
+   "kind": "broll",
+   "src": "assets/broll/phone2.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 70.85,
+   "index": 8
+  },
+  {
+   "start": 70.85,
+   "kind": "broll",
+   "src": "assets/broll/laptop2.mp4",
+   "media_start": 5,
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 76.44,
+   "index": 9
+  },
+  {
+   "start": 76.44,
+   "kind": "broll",
+   "src": "assets/broll/phone3.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 86.94,
+   "index": 10
+  },
+  {
+   "start": 86.94,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "RULE 2",
+    "label": "the quiet conversion"
+   },
+   "end": 90.63,
+   "index": 11
+  },
+  {
+   "start": 90.63,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "~3 MONTHS",
+    "label": "no salary credit"
+   },
+   "end": 95.97,
+   "index": 12
+  },
+  {
+   "start": 95.97,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 11,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 103.55,
+   "index": 13
+  },
+  {
+   "start": 103.55,
+   "kind": "broll",
+   "src": "assets/broll/phone2.mp4",
+   "media_start": 6,
+   "motion": "ken_out",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 108.14,
+   "index": 14
+  },
+  {
+   "start": 108.14,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "MIN. BALANCE",
+    "label": "rule can now apply"
+   },
+   "end": 117.72,
+   "index": 15
+  },
+  {
+   "start": 117.72,
+   "kind": "broll",
+   "src": "assets/broll/piggy.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 125.58,
+   "index": 16
+  },
+  {
+   "start": 125.58,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "≈ ₹0",
+    "label": "an example story"
+   },
+   "end": 131.58,
+   "index": 17
+  },
+  {
+   "start": 131.58,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "RULE 3",
+    "label": "plan the old account"
+   },
+   "end": 134.77,
+   "index": 18
+  },
+  {
+   "start": 134.77,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 19,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 143.24,
+   "index": 19
+  },
+  {
+   "start": 143.24,
+   "kind": "broll",
+   "src": "assets/broll/hr.mp4",
+   "media_start": 10,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 150.3,
+   "index": 20
+  },
+  {
+   "start": 150.3,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "ASK",
+    "label": "to keep your own account"
+   },
+   "end": 157.26,
+   "index": 21
+  },
+  {
+   "start": 157.26,
+   "kind": "broll",
+   "src": "assets/broll/phone3.mp4",
+   "media_start": 8.5,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 163.5,
+   "index": 22
+  },
+  {
+   "start": 163.5,
+   "kind": "broll",
+   "src": "assets/broll/hr.mp4",
+   "media_start": 18,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 169.93,
+   "index": 23
+  },
+  {
+   "start": 169.93,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "FAILED",
+    "label": "auto-debit hurts your score"
+   },
+   "end": 172.23,
+   "index": 24
+  },
+  {
+   "start": 172.23,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 25,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 180.62,
+   "index": 25
+  },
+  {
+   "start": 180.62,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "THIS WEEK",
+    "label": "before you join"
+   },
+   "end": 183.34,
+   "index": 26
+  },
+  {
+   "start": 183.34,
+   "kind": "broll",
+   "src": "assets/broll/laptop2.mp4",
+   "media_start": 0,
+   "motion": "ken_out",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 190.5,
+   "index": 27
+  },
+  {
+   "start": 190.5,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "ONE",
+    "label": "account that is yours"
+   },
+   "end": 196.03,
+   "index": 28
+  },
+  {
+   "start": 196.03,
+   "kind": "broll",
+   "src": "assets/broll/phone2.mp4",
+   "media_start": 5.5,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 201.2,
+   "index": 29
+  },
+  {
+   "start": 201.2,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "REAL BANKS",
+    "label": "never ask for it"
+   },
+   "end": 206.28,
+   "index": 30
+  },
+  {
+   "start": 206.28,
+   "kind": "broll",
+   "src": "assets/broll/pen.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 213.07,
+   "index": 31
+  },
+  {
+   "start": 213.07,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "RECAP",
+    "label": "link · conversion · switching"
+   },
+   "end": 225.06,
+   "index": 32
+  },
+  {
+   "start": 225.06,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "?",
+    "label": "yes, or waiting"
+   },
+   "end": 236.4,
+   "index": 33
+  },
+  {
+   "start": 236.4,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe"
+   },
+   "end": 239.77,
+   "index": 34
+  }
+ ],
+ "camera_moves": []
+}

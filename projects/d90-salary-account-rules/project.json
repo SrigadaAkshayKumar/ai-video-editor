@@ -1,0 +1,104 @@
+{
+  "name": "d90-salary-account-rules",
+  "createdAt": "2026-11-28T00:18:48.445Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d90-salary-account-rules/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d90/d90-voice.wav",
+    "duration": 242.7,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d90-salary-account-rules/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d90/d90_salary_account_rules_voiceover.txt",
+    "words": 804,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d90-salary-account-rules/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Keep",
+    "Rule",
+    "Ask",
+    "Check"
+  ],
+  "mode": "faceless",
+  "style": "glass",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; documentary storytelling look: full-frame b-roll leads, graphics docked to one side, quote pulls on the key lines, timelines for the backstory; slower, a beat every 6-10 s; low sub-band SFX on structure only",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 20.82,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-28T00:21:02.920Z",
+      "words": 802,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-28T00:21:05.719Z",
+      "segments": 14,
+      "kept": 239.767
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-28T00:53:19.031Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d90-salary-account-rules/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-28T00:53:22.116Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-28T00:53:22.152Z",
+      "groups": 205
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-28T00:53:23.471Z",
+      "music": 0,
+      "sfx": 12
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-28T01:08:35.045Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d90-salary-account-rules/output/final-16x9.mp4",
+      "duration": 249.805
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.987406,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d90-salary-account-rules/work/cleancut.wav",
+    "duration": 239.766583,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}
