@@ -1,0 +1,106 @@
+{
+  "name": "d91-night-shift-clause",
+  "createdAt": "2026-11-28T03:51:49.896Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d91-night-shift-clause/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d91/d91-voice.wav",
+    "duration": 235.200042,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d91-night-shift-clause/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d91/d91_night_shift_clause_voiceover.txt",
+    "words": 796,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d91-night-shift-clause/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "United States",
+    "United Kingdom",
+    "Question",
+    "Ask",
+    "Others",
+    "If Ravi"
+  ],
+  "mode": "faceless",
+  "style": "cleantech",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; light product-explainer look: calm and clean, charts and comparison tables carry the numbers, generous white space, office/campus b-roll full frame between graphics; a beat every 6-8 s; soft, sparse SFX",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 19.87,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-28T04:00:20.336Z",
+      "words": 796,
+      "engine": "whisper.cpp medium.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-28T04:00:25.352Z",
+      "segments": 18,
+      "kept": 231.1
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-28T05:05:08.707Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d91-night-shift-clause/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-28T05:05:08.824Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-28T05:05:08.854Z",
+      "groups": 196
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-28T05:05:09.695Z",
+      "music": 0,
+      "sfx": 17
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-28T05:07:35.986Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d91-night-shift-clause/output/final-16x9.mp4",
+      "duration": 241.139
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.945786,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d91-night-shift-clause/work/cleancut.wav",
+    "duration": 231.099875,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

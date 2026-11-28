@@ -1,0 +1,110 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.05,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "title_slide: Night shift in your offer letter?"
+  },
+  {
+   "time": 11.3,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "stat_trio: Ask before day one"
+  },
+  {
+   "time": 24.1,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Why the shift moves"
+  },
+  {
+   "time": 55.35,
+   "sfx": "riser",
+   "gain": 3,
+   "reason": "chapter_open: Which shift?"
+  },
+  {
+   "time": 64.3,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 77.5,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "timeline: How long?"
+  },
+  {
+   "time": 91.85,
+   "sfx": "riser",
+   "gain": 3,
+   "reason": "chapter_open: Money and travel"
+  },
+  {
+   "time": 96.9,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "fact_band: Shift pay"
+  },
+  {
+   "time": 103.9,
+   "sfx": "ding",
+   "gain": 4,
+   "reason": "checklist: Ask about pay"
+  },
+  {
+   "time": 126.1,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "word_swap: Confirm it in writing"
+  },
+  {
+   "time": 132.75,
+   "sfx": "riser",
+   "gain": 3,
+   "reason": "chapter_open: Your way out"
+  },
+  {
+   "time": 143,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Ask for a shift change"
+  },
+  {
+   "time": 166.4,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "timeline: Ravi, an example"
+  },
+  {
+   "time": 177.9,
+   "sfx": "riser",
+   "gain": 3,
+   "reason": "chapter_open: This week"
+  },
+  {
+   "time": 183.3,
+   "sfx": "ding",
+   "gain": 4,
+   "reason": "checklist: Do this week"
+  },
+  {
+   "time": 207.7,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "fact_band: Recap"
+  },
+  {
+   "time": 219.2,
+   "sfx": "pop",
+   "gain": 3,
+   "reason": "poll_prompt: What is your shift?"
+  }
+ ]
+}

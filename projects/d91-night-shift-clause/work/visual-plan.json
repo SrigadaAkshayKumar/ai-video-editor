@@ -1,0 +1,836 @@
+{
+ "style": "cleantech",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 4.95,
+   "type": "title_slide",
+   "text": "Night shift in your offer letter?",
+   "eyebrow": "Crack IT · Day 91",
+   "style_hint": "3 questions to ask before day one"
+  },
+  {
+   "start": 5.4,
+   "duration": 2,
+   "type": "keyword_chip",
+   "text": "One line in your offer letter",
+   "side": "left"
+  },
+  {
+   "start": 8,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Offer in hand, or just joined",
+   "side": "left"
+  },
+  {
+   "start": 11.6,
+   "duration": 4.9,
+   "type": "stat_trio",
+   "text": "Ask before day one",
+   "items": [
+    {
+     "label": "Which shift?",
+     "sublabel": "Q",
+     "value": 1
+    },
+    {
+     "label": "Pay and cab?",
+     "sublabel": "Q",
+     "value": 2
+    },
+    {
+     "label": "Way out?",
+     "sublabel": "Q",
+     "value": 3
+    }
+   ]
+  },
+  {
+   "start": 16.9,
+   "duration": 2.7,
+   "type": "keyword_chip",
+   "text": "Get it in writing",
+   "side": "right"
+  },
+  {
+   "start": 20.2,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Why shifts exist",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 24,
+   "duration": 10.9,
+   "type": "flow_diagram",
+   "text": "Why the shift moves",
+   "items": [
+    {
+     "label": "Client city",
+     "sublabel": "their working day"
+    },
+    {
+     "label": "Time difference",
+     "sublabel": "US · UK · Australia"
+    },
+    {
+     "label": "Your shift",
+     "sublabel": "in India"
+    }
+   ]
+  },
+  {
+   "start": 36.2,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Rotating shifts",
+   "side": "left"
+  },
+  {
+   "start": 40,
+   "duration": 4.8,
+   "type": "side_note",
+   "text": "Or a late overlap with the client",
+   "side": "left"
+  },
+  {
+   "start": 46.6,
+   "duration": 6.3,
+   "type": "quote_pull",
+   "text": "Working hours may be assigned as per business requirements",
+   "eyebrow": "Sample wording, not a real letter"
+  },
+  {
+   "start": 53.3,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "That line is the clause",
+   "side": "left"
+  },
+  {
+   "start": 56.85,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Which shift?",
+   "eyebrow": "Question 1",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 60.5,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "Ask by polite email",
+   "side": "left"
+  },
+  {
+   "start": 64.2,
+   "duration": 8.6,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Fixed shift",
+    "text": "Same sleep every week"
+   },
+   "right": {
+    "label": "Rotating",
+    "text": "Sleep changes weekly or monthly"
+   }
+  },
+  {
+   "start": 73.4,
+   "duration": 3.1,
+   "type": "keyword_chip",
+   "text": "Tiring in year one",
+   "side": "right"
+  },
+  {
+   "start": 77.4,
+   "duration": 7.8,
+   "type": "timeline",
+   "side": "left",
+   "text": "How long?",
+   "items": [
+    {
+     "label": "Training phase",
+     "sublabel": "sometimes night only"
+    },
+    {
+     "label": "First few months",
+     "sublabel": "knowledge transfer"
+    },
+    {
+     "label": "Permanent",
+     "sublabel": "ask which"
+    }
+   ]
+  },
+  {
+   "start": 86,
+   "duration": 3.5,
+   "type": "side_note",
+   "text": "Asking about hours is normal",
+   "side": "left"
+  },
+  {
+   "start": 89.9,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "A polite question is fine",
+   "side": "right"
+  },
+  {
+   "start": 93.35,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Money and travel",
+   "eyebrow": "Question 2",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 97.2,
+   "duration": 5.8,
+   "type": "fact_band",
+   "text": "Shift pay",
+   "items": [
+    {
+     "label": "Paid extra",
+     "sublabel": "allowance"
+    },
+    {
+     "label": "In the package",
+     "sublabel": "no extra line"
+    },
+    {
+     "label": "Nothing extra",
+     "sublabel": "ask which"
+    }
+   ]
+  },
+  {
+   "start": 103.6,
+   "duration": 9.2,
+   "type": "checklist",
+   "side": "right",
+   "text": "Ask about pay",
+   "items": [
+    {
+     "label": "Is there an allowance?",
+     "state": "yes"
+    },
+    {
+     "label": "How much?",
+     "state": "yes"
+    },
+    {
+     "label": "Fixed pay or shift days only?",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 114,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "Cab for late hours?",
+   "side": "left"
+  },
+  {
+   "start": 118,
+   "duration": 5.8,
+   "type": "side_note",
+   "text": "Who pays? And if there is no cab?",
+   "side": "right"
+  },
+  {
+   "start": 124.4,
+   "duration": 1.3,
+   "type": "keyword_chip",
+   "text": "The trap",
+   "side": "left"
+  },
+  {
+   "start": 126,
+   "duration": 5,
+   "type": "word_swap",
+   "from": "Phone call",
+   "to": "Email",
+   "text": "Confirm it in writing"
+  },
+  {
+   "start": 131.4,
+   "duration": 2.5,
+   "type": "side_note",
+   "text": "Not written = may not exist",
+   "side": "left"
+  },
+  {
+   "start": 134.25,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Your way out",
+   "eyebrow": "Question 3",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 138,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Health matters",
+   "side": "left"
+  },
+  {
+   "start": 141.3,
+   "duration": 1.1,
+   "type": "side_note",
+   "text": "Sleep · food · study",
+   "side": "right"
+  },
+  {
+   "start": 142.9,
+   "duration": 6.7,
+   "type": "flow_diagram",
+   "text": "Ask for a shift change",
+   "items": [
+    {
+     "label": "After training",
+     "sublabel": ""
+    },
+    {
+     "label": "After a few months",
+     "sublabel": ""
+    },
+    {
+     "label": "Manager or H.R.",
+     "sublabel": "who decides"
+    }
+   ]
+  },
+  {
+   "start": 150.5,
+   "duration": 3.5,
+   "type": "side_note",
+   "text": "Medical or safety reason",
+   "side": "left"
+  },
+  {
+   "start": 154.6,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "Tell H.R. in writing",
+   "side": "right"
+  },
+  {
+   "start": 157.8,
+   "duration": 5.8,
+   "type": "quote_pull",
+   "text": "Raise it early, politely, with a reason",
+   "eyebrow": "Companies respond better"
+  },
+  {
+   "start": 164.4,
+   "duration": 1.5,
+   "type": "keyword_chip",
+   "text": "Example story",
+   "side": "left"
+  },
+  {
+   "start": 166.3,
+   "duration": 12.1,
+   "type": "timeline",
+   "side": "right",
+   "text": "Ravi, an example",
+   "items": [
+    {
+     "label": "Week 2",
+     "sublabel": "learns it is night shift"
+    },
+    {
+     "label": "3 months",
+     "sublabel": "says nothing"
+    },
+    {
+     "label": "Health drops",
+     "sublabel": "learning drops"
+    },
+    {
+     "label": "First appraisal",
+     "sublabel": "suffers"
+    },
+    {
+     "label": "If he had asked",
+     "sublabel": "moved to overlap"
+    }
+   ]
+  },
+  {
+   "start": 179.4,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "This week",
+   "eyebrow": "Action",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 183,
+   "duration": 9.3,
+   "type": "checklist",
+   "side": "right",
+   "text": "Do this week",
+   "items": [
+    {
+     "label": "Email the 3 questions",
+     "state": "yes"
+    },
+    {
+     "label": "Keep the reply",
+     "state": "yes"
+    },
+    {
+     "label": "Read the working hours line",
+     "state": "yes"
+    },
+    {
+     "label": "Ask the 3-month shift plan",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 192.9,
+   "duration": 2.3,
+   "type": "keyword_chip",
+   "text": "Sleep at fixed hours",
+   "side": "right"
+  },
+  {
+   "start": 195.5,
+   "duration": 1.8,
+   "type": "keyword_chip",
+   "text": "Save cab details",
+   "side": "left"
+  },
+  {
+   "start": 197.6,
+   "duration": 2,
+   "type": "keyword_chip",
+   "text": "Tell family your timings",
+   "side": "right"
+  },
+  {
+   "start": 199.95,
+   "duration": 6.55,
+   "type": "big_statement",
+   "text": "Not a punishment. Not a secret.",
+   "eyebrow": "secret"
+  },
+  {
+   "start": 208,
+   "duration": 9.6,
+   "type": "fact_band",
+   "text": "Recap",
+   "items": [
+    {
+     "label": "1 · Which shift?",
+     "sublabel": "fixed or rotating"
+    },
+    {
+     "label": "2 · Pay and cab",
+     "sublabel": "in writing"
+    },
+    {
+     "label": "3 · Way out",
+     "sublabel": "ask early"
+    }
+   ]
+  },
+  {
+   "start": 219,
+   "duration": 7.9,
+   "type": "poll_prompt",
+   "text": "What is your shift?",
+   "items": [
+    {
+     "label": "Day"
+    },
+    {
+     "label": "Night"
+    },
+    {
+     "label": "Rotating"
+    }
+   ]
+  },
+  {
+   "start": 227.8,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Subscribe to Crack IT",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "broll",
+   "src": "assets/broll/nightcity.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 7.48,
+   "index": 0
+  },
+  {
+   "start": 7.48,
+   "kind": "broll",
+   "src": "assets/broll/officewalk.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 11.4,
+   "index": 1
+  },
+  {
+   "start": 11.4,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "3 QUESTIONS",
+    "label": "before day one"
+   },
+   "end": 20.11,
+   "index": 2
+  },
+  {
+   "start": 20.11,
+   "kind": "graphic",
+   "grade": "neutral",
+   "end": 23.5,
+   "index": 3
+  },
+  {
+   "start": 23.5,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "US · UK · AU",
+    "label": "client time zones"
+   },
+   "end": 30,
+   "index": 4
+  },
+  {
+   "start": 30,
+   "kind": "broll",
+   "src": "assets/broll/clock.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 35.65,
+   "index": 5
+  },
+  {
+   "start": 35.65,
+   "kind": "broll",
+   "src": "assets/broll/headset.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 45.19,
+   "index": 6
+  },
+  {
+   "start": 45.19,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "THE CATCH",
+    "label": "one line in the letter"
+   },
+   "end": 53.1,
+   "index": 7
+  },
+  {
+   "start": 53.1,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 10,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 56.78,
+   "index": 8
+  },
+  {
+   "start": 56.78,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 59.9,
+   "index": 9
+  },
+  {
+   "start": 59.9,
+   "kind": "broll",
+   "src": "assets/broll/laptopwoman.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 64,
+   "index": 10
+  },
+  {
+   "start": 64,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "3 SHIFT TYPES",
+    "label": "day · night · rotating"
+   },
+   "end": 72.9,
+   "index": 11
+  },
+  {
+   "start": 72.9,
+   "kind": "broll",
+   "src": "assets/broll/yawn.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 77,
+   "index": 12
+  },
+  {
+   "start": 77,
+   "kind": "graphic",
+   "grade": "neutral",
+   "card": {
+    "value": "HOW LONG?",
+    "label": "ask for the duration"
+   },
+   "end": 85.4,
+   "index": 13
+  },
+  {
+   "start": 85.4,
+   "kind": "broll",
+   "src": "assets/broll/team.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 93.3,
+   "index": 14
+  },
+  {
+   "start": 93.3,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 96.5,
+   "index": 15
+  },
+  {
+   "start": 96.5,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "EXTRA PAY?",
+    "label": "ask, don't assume"
+   },
+   "end": 103.2,
+   "index": 16
+  },
+  {
+   "start": 103.2,
+   "kind": "broll",
+   "src": "assets/broll/laptopman.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 113.3,
+   "index": 17
+  },
+  {
+   "start": 113.3,
+   "kind": "broll",
+   "src": "assets/broll/traffic.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 124.1,
+   "index": 18
+  },
+  {
+   "start": 124.1,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "VERBAL",
+    "label": "is not a promise"
+   },
+   "end": 134.2,
+   "index": 19
+  },
+  {
+   "start": 134.2,
+   "kind": "graphic",
+   "grade": "cool",
+   "end": 137.4,
+   "index": 20
+  },
+  {
+   "start": 137.4,
+   "kind": "broll",
+   "src": "assets/broll/reading.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 142.6,
+   "index": 21
+  },
+  {
+   "start": 142.6,
+   "kind": "broll",
+   "src": "assets/broll/officewalk.mp4",
+   "media_start": 3,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 150,
+   "index": 22
+  },
+  {
+   "start": 150,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 20,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 157.4,
+   "index": 23
+  },
+  {
+   "start": 157.4,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "EARLY",
+    "label": "with a reason"
+   },
+   "end": 164.2,
+   "index": 24
+  },
+  {
+   "start": 164.2,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "EXAMPLE",
+    "label": "not a real person"
+   },
+   "end": 171.5,
+   "index": 25
+  },
+  {
+   "start": 171.5,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "3 MONTHS",
+    "label": "of silence"
+   },
+   "end": 178.93,
+   "index": 26
+  },
+  {
+   "start": 178.93,
+   "kind": "graphic",
+   "grade": "warm",
+   "end": 182.6,
+   "index": 27
+  },
+  {
+   "start": 182.6,
+   "kind": "broll",
+   "src": "assets/broll/laptopman.mp4",
+   "media_start": 8,
+   "motion": "ken_in",
+   "grade": "warm",
+   "transition": "fade",
+   "end": 192.5,
+   "index": 28
+  },
+  {
+   "start": 192.5,
+   "kind": "broll",
+   "src": "assets/broll/traffic.mp4",
+   "media_start": 7,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 199.62,
+   "index": 29
+  },
+  {
+   "start": 199.62,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "NO SECRET",
+    "label": "no punishment"
+   },
+   "end": 207,
+   "index": 30
+  },
+  {
+   "start": 207,
+   "kind": "broll",
+   "src": "assets/broll/desk.mp4",
+   "media_start": 30,
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "fade",
+   "end": 218.2,
+   "index": 31
+  },
+  {
+   "start": 218.2,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "?",
+    "label": "your shift type"
+   },
+   "end": 227.3,
+   "index": 32
+  },
+  {
+   "start": 227.3,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe"
+   },
+   "end": 231.1,
+   "index": 33
+  }
+ ],
+ "camera_moves": []
+}
