@@ -1,0 +1,104 @@
+{
+  "name": "d92-live-coding-round",
+  "createdAt": "2026-11-28T06:25:46.942Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d92-live-coding-round/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d92/d92-voice.wav",
+    "duration": 229.88,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d92-live-coding-round/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d92/d92_live_coding_round_voiceover.txt",
+    "words": 780,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d92-live-coding-round/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Nobody",
+    "Repeat",
+    "Say",
+    "Take"
+  ],
+  "mode": "faceless",
+  "style": "broadcast",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; bold newsroom look: news screenshots and NewsCards lead, split-screen framing, oversized section numerals, high-contrast accents; punchy pace, a beat every 3-5 s; wipe whooshes and hits on section changes",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 23.75,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-28T06:27:43.675Z",
+      "words": 779,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-28T06:27:46.892Z",
+      "segments": 17,
+      "kept": 225.133
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-28T06:58:18.481Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d92-live-coding-round/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-28T06:58:25.753Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-28T06:58:25.792Z",
+      "groups": 199
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-28T06:58:43.501Z",
+      "music": 0,
+      "sfx": 21
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-28T07:03:14.334Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d92-live-coding-round/output/final-16x9.mp4",
+      "duration": 235.174
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.979744,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d92-live-coding-round/work/cleancut.wav",
+    "duration": 225.133167,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

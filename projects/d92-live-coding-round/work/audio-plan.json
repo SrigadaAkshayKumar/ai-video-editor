@@ -1,0 +1,134 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.05,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "title_slide: Code failed. Still selected?"
+  },
+  {
+   "time": 16.6,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "stat_trio: Three steps"
+  },
+  {
+   "time": 34.1,
+   "sfx": "ding",
+   "gain": 4,
+   "reason": "checklist: Interviewer checks"
+  },
+  {
+   "time": 53.7,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "chapter_open: Repeat and ask"
+  },
+  {
+   "time": 54.35,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: Repeat and ask"
+  },
+  {
+   "time": 62.5,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Step one"
+  },
+  {
+   "time": 72.2,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "fact_band: Why it works"
+  },
+  {
+   "time": 95.2,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "chapter_open: Simple answer first"
+  },
+  {
+   "time": 95.85,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: Simple answer first"
+  },
+  {
+   "time": 104.1,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 119.4,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "big_statement: Silence rejects more than wrong answers."
+  },
+  {
+   "time": 125.9,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Say it first"
+  },
+  {
+   "time": 139.8,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "chapter_open: Test it yourself"
+  },
+  {
+   "time": 140.45,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: Test it yourself"
+  },
+  {
+   "time": 144.1,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "timeline: Test before done"
+  },
+  {
+   "time": 180.7,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "word_swap: One changed condition tests it"
+  },
+  {
+   "time": 185.3,
+   "sfx": "whoosh",
+   "gain": 3,
+   "reason": "chapter_open: This week"
+  },
+  {
+   "time": 185.95,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: This week"
+  },
+  {
+   "time": 189.2,
+   "sfx": "ding",
+   "gain": 4,
+   "reason": "checklist: Practice plan"
+  },
+  {
+   "time": 204,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "big_statement: One practice beats ten videos."
+  },
+  {
+   "time": 207.4,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "fact_band: Recap"
+  }
+ ]
+}
