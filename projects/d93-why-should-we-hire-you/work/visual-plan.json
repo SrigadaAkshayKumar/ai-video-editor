@@ -1,0 +1,736 @@
+{
+ "style": "blueprint",
+ "rail": true,
+ "overlays": [
+  {
+   "start": 0.05,
+   "duration": 6.15,
+   "type": "title_slide",
+   "text": "\"I am hardworking.\" Rejected.",
+   "eyebrow": "Crack IT · Day 93",
+   "style_hint": "The 3 part answer to: why should we hire you?"
+  },
+  {
+   "start": 7,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "Not marks. Structure.",
+   "side": "left"
+  },
+  {
+   "start": 12.7,
+   "duration": 3.1,
+   "type": "keyword_chip",
+   "text": "Fresher · HR round",
+   "side": "left"
+  },
+  {
+   "start": 16.1,
+   "duration": 6.9,
+   "type": "stat_trio",
+   "text": "Three part answer",
+   "items": [
+    {
+     "label": "Proof",
+     "sublabel": "Part",
+     "value": 1
+    },
+    {
+     "label": "Their work",
+     "sublabel": "Part",
+     "value": 2
+    },
+    {
+     "label": "Learning",
+     "sublabel": "Part",
+     "value": 3
+    }
+   ]
+  },
+  {
+   "start": 25.15,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Why they ask",
+   "eyebrow": "Section 01",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 29.3,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "Same degree, similar marks",
+   "side": "left"
+  },
+  {
+   "start": 32.5,
+   "duration": 7.1,
+   "type": "checklist",
+   "side": "right",
+   "text": "They really ask",
+   "items": [
+    {
+     "label": "Can you do the work?",
+     "state": "yes"
+    },
+    {
+     "label": "Will you fit the team?",
+     "state": "yes"
+    },
+    {
+     "label": "Did you prepare?",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 41.9,
+   "duration": 3.1,
+   "type": "keyword_chip",
+   "text": "Every candidate says these",
+   "side": "left"
+  },
+  {
+   "start": 45.3,
+   "duration": 5.5,
+   "type": "side_note",
+   "text": "Fifty students, one line",
+   "side": "left"
+  },
+  {
+   "start": 51.2,
+   "duration": 4.4,
+   "type": "comparison",
+   "side": "right",
+   "left": {
+    "label": "Same line",
+    "text": "Tells the interviewer little"
+   },
+   "right": {
+    "label": "Your proof",
+    "text": "Tells them a lot"
+   }
+  },
+  {
+   "start": 56,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "One skill, with proof",
+   "eyebrow": "Part 1",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 59.4,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "One skill, not five",
+   "side": "left"
+  },
+  {
+   "start": 62.6,
+   "duration": 4,
+   "type": "side_note",
+   "text": "Problem solving · small projects",
+   "side": "left"
+  },
+  {
+   "start": 67,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Evidence in 1 or 2 sentences",
+   "side": "left"
+  },
+  {
+   "start": 70.5,
+   "duration": 9.1,
+   "type": "flow_diagram",
+   "text": "Part one",
+   "items": [
+    {
+     "label": "Skill",
+     "sublabel": "pick one"
+    },
+    {
+     "label": "Small example",
+     "sublabel": "real project"
+    },
+    {
+     "label": "Result",
+     "sublabel": "what you found"
+    }
+   ]
+  },
+  {
+   "start": 80,
+   "duration": 4.5,
+   "type": "quote_pull",
+   "text": "I found the bug by testing one screen at a time.",
+   "eyebrow": "Sample answer"
+  },
+  {
+   "start": 84.8,
+   "duration": 3.8,
+   "type": "side_note",
+   "text": "Proof invites questions",
+   "side": "left"
+  },
+  {
+   "start": 89.2,
+   "duration": 5.8,
+   "type": "keyword_chip",
+   "text": "Claim you cannot explain",
+   "side": "left"
+  },
+  {
+   "start": 95.5,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Connect to their work",
+   "eyebrow": "Part 2",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 99,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "10 minutes on their website",
+   "side": "left"
+  },
+  {
+   "start": 102.4,
+   "duration": 11.6,
+   "type": "checklist",
+   "side": "right",
+   "text": "Before the interview",
+   "items": [
+    {
+     "label": "Read the services page",
+     "state": "yes"
+    },
+    {
+     "label": "Read the job description",
+     "state": "yes"
+    },
+    {
+     "label": "Pick one match",
+     "state": "yes"
+    },
+    {
+     "label": "Use your own words",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 114.9,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "One sentence: homework done",
+   "side": "left"
+  },
+  {
+   "start": 118.6,
+   "duration": 2,
+   "type": "side_note",
+   "text": "Most students skip it",
+   "side": "right"
+  },
+  {
+   "start": 121.2,
+   "duration": 3.7,
+   "type": "keyword_chip",
+   "text": "Do not copy their website",
+   "side": "left"
+  },
+  {
+   "start": 125.3,
+   "duration": 2.6,
+   "type": "side_note",
+   "text": "Interviewers know it by heart",
+   "side": "right"
+  },
+  {
+   "start": 128.6,
+   "duration": 2.6,
+   "type": "side_note",
+   "text": "Own words, own example",
+   "side": "left"
+  },
+  {
+   "start": 131.7,
+   "duration": 7.2,
+   "type": "keyword_chip",
+   "text": "Never say: better than others",
+   "side": "left"
+  },
+  {
+   "start": 139.3,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "Show you will learn",
+   "eyebrow": "Part 3",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 142.7,
+   "duration": 2.7,
+   "type": "keyword_chip",
+   "text": "Hired for potential",
+   "side": "left"
+  },
+  {
+   "start": 145.8,
+   "duration": 2.2,
+   "type": "keyword_chip",
+   "text": "Close with growth",
+   "side": "left"
+  },
+  {
+   "start": 148.3,
+   "duration": 6.9,
+   "type": "quote_pull",
+   "text": "I learn fast when I get feedback.",
+   "eyebrow": "Sample growth line"
+  },
+  {
+   "start": 155.9,
+   "duration": 6.4,
+   "type": "keyword_chip",
+   "text": "The trap: last ten seconds",
+   "side": "left"
+  },
+  {
+   "start": 162.6,
+   "duration": 5.8,
+   "type": "quote_pull",
+   "text": "\"Please give me a chance\" weakens your answer.",
+   "eyebrow": "The trap"
+  },
+  {
+   "start": 169.2,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Stop after the growth line",
+   "side": "left"
+  },
+  {
+   "start": 172.7,
+   "duration": 2.7,
+   "type": "side_note",
+   "text": "Finish, then wait",
+   "side": "right"
+  },
+  {
+   "start": 175.9,
+   "duration": 3.1,
+   "type": "chapter_open",
+   "text": "This week",
+   "eyebrow": "Action",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 180.2,
+   "duration": 11.6,
+   "type": "checklist",
+   "side": "right",
+   "text": "Practice plan",
+   "items": [
+    {
+     "label": "Write 4 or 5 sentences",
+     "state": "yes"
+    },
+    {
+     "label": "Under sixty seconds",
+     "state": "yes"
+    },
+    {
+     "label": "Record on your phone",
+     "state": "yes"
+    },
+    {
+     "label": "Practise with a friend",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 192.6,
+   "duration": 4.2,
+   "type": "keyword_chip",
+   "text": "Me, or a script?",
+   "side": "left"
+  },
+  {
+   "start": 197.1,
+   "duration": 5.1,
+   "type": "fact_band",
+   "text": "Recap",
+   "items": [
+    {
+     "label": "1 · Proof",
+     "sublabel": "not claims"
+    },
+    {
+     "label": "2 · Their work",
+     "sublabel": "one line"
+    },
+    {
+     "label": "3 · Learning",
+     "sublabel": "no begging"
+    }
+   ]
+  },
+  {
+   "start": 202.7,
+   "duration": 4.6,
+   "type": "quote_pull",
+   "text": "Which skill is your proof?",
+   "eyebrow": "Comment below"
+  },
+  {
+   "start": 207.9,
+   "duration": 4.9,
+   "type": "keyword_chip",
+   "text": "Subscribe to Crack IT",
+   "side": "right"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "HIRE YOU?",
+    "label": "the question"
+   },
+   "end": 6.35,
+   "index": 0
+  },
+  {
+   "start": 6.35,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "1 OFFER",
+    "label": "same question, two answers"
+   },
+   "end": 12.46,
+   "index": 1
+  },
+  {
+   "start": 12.46,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "3 PARTS",
+    "label": "one simple answer"
+   },
+   "end": 19,
+   "index": 2
+  },
+  {
+   "start": 19,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "A TRAP",
+    "label": "in the last ten seconds"
+   },
+   "end": 25.04,
+   "index": 3
+  },
+  {
+   "start": 25.04,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "WHY ASK?",
+    "label": "what they really check"
+   },
+   "end": 34.76,
+   "index": 4
+  },
+  {
+   "start": 34.76,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "3 THINGS",
+    "label": "behind one question"
+   },
+   "end": 39.87,
+   "index": 5
+  },
+  {
+   "start": 39.87,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "50 SAME",
+    "label": "lines carry no information"
+   },
+   "end": 51.08,
+   "index": 6
+  },
+  {
+   "start": 51.08,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "PROOF",
+    "label": "not claims"
+   },
+   "end": 55.89,
+   "index": 7
+  },
+  {
+   "start": 55.89,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "PART 1",
+    "label": "one skill, one proof"
+   },
+   "end": 60.77,
+   "index": 8
+  },
+  {
+   "start": 60.77,
+   "kind": "broll",
+   "src": "assets/broll/laptop.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 70.32,
+   "index": 9
+  },
+  {
+   "start": 70.32,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "SKILL",
+    "label": "example, then result"
+   },
+   "end": 79.86,
+   "index": 10
+  },
+  {
+   "start": 79.86,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CLAIM",
+    "label": "vs proof"
+   },
+   "end": 88.89,
+   "index": 11
+  },
+  {
+   "start": 88.89,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "THE CATCH",
+    "label": "proof must be true"
+   },
+   "end": 95.38,
+   "index": 12
+  },
+  {
+   "start": 95.38,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "PART 2",
+    "label": "connect to their work"
+   },
+   "end": 102.13,
+   "index": 13
+  },
+  {
+   "start": 102.13,
+   "kind": "broll",
+   "src": "assets/broll/typing.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 112,
+   "index": 14
+  },
+  {
+   "start": 112,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "10 MIN",
+    "label": "on their website"
+   },
+   "end": 114.76,
+   "index": 15
+  },
+  {
+   "start": 114.76,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "1 LINE",
+    "label": "shows your homework"
+   },
+   "end": 120.85,
+   "index": 16
+  },
+  {
+   "start": 120.85,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "2 WARNINGS",
+    "label": "do not copy, do not compare"
+   },
+   "end": 128.4,
+   "index": 17
+  },
+  {
+   "start": 128.4,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "OWN WORDS",
+    "label": "own simple example"
+   },
+   "end": 139.21,
+   "index": 18
+  },
+  {
+   "start": 139.21,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "PART 3",
+    "label": "show you will learn"
+   },
+   "end": 145.49,
+   "index": 19
+  },
+  {
+   "start": 145.49,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "1 LINE",
+    "label": "about growth"
+   },
+   "end": 155.77,
+   "index": 20
+  },
+  {
+   "start": 155.77,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "THE TRAP",
+    "label": "last ten seconds"
+   },
+   "end": 162.41,
+   "index": 21
+  },
+  {
+   "start": 162.41,
+   "kind": "graphic",
+   "grade": "noir",
+   "card": {
+    "value": "1 LINE",
+    "label": "undoes the answer"
+   },
+   "end": 168.99,
+   "index": 22
+  },
+  {
+   "start": 168.99,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "STOP",
+    "label": "smile and wait"
+   },
+   "end": 175.83,
+   "index": 23
+  },
+  {
+   "start": 175.83,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "THIS WEEK",
+    "label": "one practice plan"
+   },
+   "end": 185.03,
+   "index": 24
+  },
+  {
+   "start": 185.03,
+   "kind": "broll",
+   "src": "assets/broll/phone.mp4",
+   "media_start": 0,
+   "motion": "ken_in",
+   "grade": "cool",
+   "transition": "fade",
+   "end": 192.21,
+   "index": 25
+  },
+  {
+   "start": 192.21,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "A FRIEND",
+    "label": "me, or a script?"
+   },
+   "end": 196.97,
+   "index": 26
+  },
+  {
+   "start": 196.97,
+   "kind": "graphic",
+   "grade": "cool",
+   "card": {
+    "value": "RECAP",
+    "label": "three parts"
+   },
+   "end": 202.37,
+   "index": 27
+  },
+  {
+   "start": 202.37,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "?",
+    "label": "which skill is your proof"
+   },
+   "end": 207.45,
+   "index": 28
+  },
+  {
+   "start": 207.45,
+   "kind": "graphic",
+   "grade": "warm",
+   "card": {
+    "value": "CRACK IT",
+    "label": "subscribe"
+   },
+   "end": 213.33,
+   "index": 29
+  }
+ ],
+ "camera_moves": []
+}

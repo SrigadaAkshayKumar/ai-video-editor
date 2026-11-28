@@ -1,0 +1,128 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.05,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "title_slide: \"I am hardworking.\" Rejected."
+  },
+  {
+   "time": 15.8,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "stat_trio: Three part answer"
+  },
+  {
+   "time": 32.8,
+   "sfx": "click",
+   "gain": 5,
+   "reason": "checklist: They really ask"
+  },
+  {
+   "time": 51.3,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 55.7,
+   "sfx": "click",
+   "gain": 6,
+   "reason": "chapter_open: One skill, with proof"
+  },
+  {
+   "time": 56.25,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: One skill, with proof"
+  },
+  {
+   "time": 70.6,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Part one"
+  },
+  {
+   "time": 80.1,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "quote_pull: I found the bug by testing one screen at a time."
+  },
+  {
+   "time": 95.2,
+   "sfx": "click",
+   "gain": 6,
+   "reason": "chapter_open: Connect to their work"
+  },
+  {
+   "time": 95.75,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: Connect to their work"
+  },
+  {
+   "time": 102.7,
+   "sfx": "click",
+   "gain": 5,
+   "reason": "checklist: Before the interview"
+  },
+  {
+   "time": 139,
+   "sfx": "click",
+   "gain": 6,
+   "reason": "chapter_open: Show you will learn"
+  },
+  {
+   "time": 139.55,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: Show you will learn"
+  },
+  {
+   "time": 148.4,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "quote_pull: I learn fast when I get feedback."
+  },
+  {
+   "time": 162.7,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "quote_pull: \"Please give me a chance\" weakens your answer."
+  },
+  {
+   "time": 175.6,
+   "sfx": "click",
+   "gain": 6,
+   "reason": "chapter_open: This week"
+  },
+  {
+   "time": 176.15,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: This week"
+  },
+  {
+   "time": 180.5,
+   "sfx": "click",
+   "gain": 5,
+   "reason": "checklist: Practice plan"
+  },
+  {
+   "time": 196.8,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "fact_band: Recap"
+  },
+  {
+   "time": 202.8,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "quote_pull: Which skill is your proof?"
+  }
+ ]
+}
