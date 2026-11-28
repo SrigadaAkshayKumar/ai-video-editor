@@ -1,0 +1,158 @@
+{
+ "music_cues": [],
+ "sfx_policy": {
+  "rmsBelowDb": 3
+ },
+ "sfx_events": [
+  {
+   "time": 0.05,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "title_slide: Can you pull this data?"
+  },
+  {
+   "time": 32.7,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: How data gets to you"
+  },
+  {
+   "time": 54.9,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "checklist: Who uses S.Q.L."
+  },
+  {
+   "time": 66.3,
+   "sfx": "click",
+   "gain": 6,
+   "reason": "chapter_open: Select and where"
+  },
+  {
+   "time": 66.85,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: Select and where"
+  },
+  {
+   "time": 70.3,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "quote_pull: select name, marks from students"
+  },
+  {
+   "time": 80.6,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Command two: where"
+  },
+  {
+   "time": 90.9,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "checklist: Real questions at work"
+  },
+  {
+   "time": 103.6,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "comparison: "
+  },
+  {
+   "time": 110.3,
+   "sfx": "click",
+   "gain": 6,
+   "reason": "chapter_open: Order and group"
+  },
+  {
+   "time": 110.85,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: Order and group"
+  },
+  {
+   "time": 114.1,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "quote_pull: order by marks desc limit 5"
+  },
+  {
+   "time": 150.4,
+   "sfx": "click",
+   "gain": 6,
+   "reason": "chapter_open: Join"
+  },
+  {
+   "time": 150.95,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: Join"
+  },
+  {
+   "time": 154.1,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "flow_diagram: Command five: join"
+  },
+  {
+   "time": 170.7,
+   "sfx": "click",
+   "gain": 6,
+   "reason": "chapter_open: The trap"
+  },
+  {
+   "time": 171.25,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: The trap"
+  },
+  {
+   "time": 174.5,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "quote_pull: delete from students;"
+  },
+  {
+   "time": 186.3,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "checklist: Before update or delete"
+  },
+  {
+   "time": 198.7,
+   "sfx": "click",
+   "gain": 6,
+   "reason": "chapter_open: This week"
+  },
+  {
+   "time": 199.25,
+   "sfx": "impact",
+   "gain": 3,
+   "reason": "chapter_open: This week"
+  },
+  {
+   "time": 203.7,
+   "sfx": "reveal",
+   "gain": 3,
+   "reason": "checklist: Practice plan"
+  },
+  {
+   "time": 211.9,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "stat_trio: Your first round"
+  },
+  {
+   "time": 218.1,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "fact_band: Recap"
+  },
+  {
+   "time": 227.1,
+   "sfx": "sub_drop",
+   "gain": 3,
+   "reason": "quote_pull: Beginner or practised?"
+  }
+ ]
+}

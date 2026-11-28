@@ -1,0 +1,104 @@
+{
+  "name": "d94-sql-basics-before-joining",
+  "createdAt": "2026-11-28T10:32:07.613Z",
+  "source": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d94-sql-basics-before-joining/source/raw.wav",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d94/d94-voice.wav",
+    "duration": 243.900042,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d94-sql-basics-before-joining/source/script.txt",
+    "original": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/faceless/Crack_IT_Daily_Videos/d94/d94_sql_basics_before_joining_voiceover.txt",
+    "words": 783,
+    "directions": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d94-sql-basics-before-joining/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Command",
+    "Select",
+    "Show",
+    "Order"
+  ],
+  "mode": "faceless",
+  "style": "cleantech",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "Crack IT edit: 16:9 YouTube, no captions, Crack IT brand intro after the hook, SFX, cut audio mistakes; no BGM; English; light product-explainer look: calm and clean, charts and comparison tables carry the numbers, generous white space, office/campus b-roll full frame between graphics; a beat every 6-8 s; soft, sparse SFX",
+  "brand": "crack-it",
+  "noCaptions": true,
+  "intro": "/home/runner/work/ai-video-editor/ai-video-editor/inbox/brand/Intro.mp4",
+  "introAt": 28.27,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-28T10:33:46.106Z",
+      "words": 781,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-28T10:33:49.764Z",
+      "segments": 13,
+      "kept": 239.7
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-28T10:52:07.620Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d94-sql-basics-before-joining/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-28T10:52:19.859Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-28T10:52:19.892Z",
+      "groups": 202
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-28T10:52:45.164Z",
+      "music": 0,
+      "sfx": 25
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-28T10:56:07.882Z",
+      "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d94-sql-basics-before-joining/output/final-16x9.mp4",
+      "duration": 249.736
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.893721,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-video-editor/ai-video-editor/projects/d94-sql-basics-before-joining/work/cleancut.wav",
+    "duration": 239.699875,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}
